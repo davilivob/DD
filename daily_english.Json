@@ -1064,7 +1064,9 @@
         "The researchers must keep within the parameters of the experiment.",
         "The report defines the parameters of best practice at a strategic, operational, and process level within an organization.",
         {
-            "within the parameters of sth": "We must work within the parameters of the law."
+            "within the parameters of sth": [
+                "We must work within the parameters of the law."
+            ]
         }
     ],
     "trajectory": [
