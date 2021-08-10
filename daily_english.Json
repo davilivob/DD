@@ -55,12 +55,17 @@
             ],
             "curly bracket": [
                 " {} "
-            ],
-            "syllable": [
-                "In the word \"engine\", you should stress the first syllable."
-            ],
+            ]
+        }
+    ],
+    "syllable": [
+        "In the word \"engine\", you should stress the first syllable.",
+        {
             "typo": [
                 ""
+            ],
+            "plural": [
+                "Geese is the plural of goose"
             ]
         }
     ],
@@ -302,6 +307,9 @@
             ],
             "hygienic": [
                 "I suppose warm-air hand-driers are more hygienic than hand-towels, and paper towels create a lot of litter."
+            ],
+            "pathology": [
+                "Pathology is defined as a branch of medical science that studies the nature, effects, causes and consequences of disease."
             ]
         }
     ],
@@ -334,6 +342,9 @@
         {
             "drastic": [
                 "As adjective, they mean basically the same thing."
+            ],
+            "vehemently": [
+                "Still, it wasn't the first time they had vehemently disagreed on something."
             ]
         }
     ],
@@ -342,6 +353,12 @@
         {
             "complete": [
                 "Complete means to finish or be done with something. Thorough means to do something carefully, so you won't miss anything."
+            ],
+            "penetrate": [
+                "Amazingly, the bullet didnot penetrate his brain.",
+                "The organization had been penetrated by a spy",
+                "The company has been successful in penetrating overseas markets this year (= it has started selling its products in them).",
+                "He penetrates deeper into the artist's life in the second volume of his autobiography."
             ]
         }
     ],
@@ -406,6 +423,9 @@
                 "There was a long delay, and people became increasingly agitated as they waited for the train.",
                 "Agitated is used to describe an emotional feeling.",
                 "\"My schedule makes me feel agitated\" which means it makes me feel nervous, overwhelmed or upset."
+            ],
+            "uptight": [
+                "By wearing a shirt that seeks to amuse, the wearer lets others know that he's not uptight or unapproachable."
             ]
         }
     ],
@@ -533,6 +553,10 @@
                 "Dilute means to make a liquid weaker by mixing in something else, or to reduce the strngth of a feeling, action, etc.",
                 "Dilute the juice with water before you drink it.",
                 "These measures are designed to dilute public fears about the product's safety."
+            ],
+            "desolve": [
+                "",
+                ""
             ]
         }
     ],
@@ -554,12 +578,6 @@
                 "In a normal winter, the frost penetrates deeply enough to kill off insect eggs in the soil."
             ]
         }
-    ],
-    "penetrate": [
-        "Amazingly, the bullet didnot penetrate his brain.",
-        "The organization had been penetrated by a spy",
-        "The company has been successful in penetrating overseas markets this year (= it has started selling its products in them).",
-        "He penetrates deeper into the artist's life in the second volume of his autobiography."
     ],
     "periodic": [
         "He suffers periodic mental breakdowns.",
@@ -588,6 +606,10 @@
         {
             "article": [
                 "An article is usually news oriented, an essay can be literary."
+            ],
+            "lecture": [
+                "",
+                ""
             ]
         }
     ],
@@ -603,10 +625,6 @@
                 "However, 'Cautious' is more like be wary or pay attention. 'Careful' is more like be safe."
             ]
         }
-    ],
-    "formidable": [
-        "Something formidable causing you to fear or respect for because that thing or person is large, powerful, or difficult.",
-        "She was once a political nonentity, but has since won a formidable reputation as a determined campaigner."
     ],
     "amiable": [
         "So amiable was the mood of the meeting that a decision was soon reached.",
@@ -734,6 +752,10 @@
             ],
             "sucrose": [
                 "Sucrose is the type of sugar that exists naturally in most plants that grow on land."
+            ],
+            "cane": [
+                "",
+                ""
             ]
         }
     ],
@@ -758,10 +780,35 @@
                 "Is the death penalty crual and unusual punishment?",
                 "How is it posiible to distinguish between humour that is about 'feeling good about life' and that which is profoundly cruel or misogynistic?"
             ],
-            "vicious": [
-                "Vicious people or actions show an intention or with to hurt someone or something very badly.",
-                "The police said that this was one of the most vicious attacks they'd ever seen.",
-                "There were a large collections of vicious medieval torture instruments."
+            "callous": [
+                "It might sound callous, but I don't care if he's homeless. He's not living with me!",
+                "Ethically, such an attitude appears callous and out of character with the momentousness of assisting a patient end her life."
+            ],
+            "evil": [
+                "Each new leader would blame his predcessor for all the evils of the past.",
+                "For the sake of long-term peace, the military option is the lesser evil or the lesser of two evils (= the less unpleasant of two bad choices).",
+                "An inductive inference is then made to the conclusion that certain instances, types groups, or patterns of evils are gratuitous."
+            ],
+            "apathy": [
+                "",
+                ""
+            ],
+            "ruthless": [
+                "",
+                ""
+            ]
+        }
+    ],
+    "vicious": [
+        "Vicious people or actions show an intention or with to hurt someone or something very badly.",
+        "The police said that this was one of the most vicious attacks they'd ever seen.",
+        "There were a large collections of vicious medieval torture instruments.",
+        {
+            "assault": [
+                "Police are hunting a student attacker after an unprovoked assault in a night club.",
+                "Women's groups have demanded a nationwide assault on sexism in the worplace.",
+                "She died heroically during an assault on the world's second highest mountain.",
+                "University ofiicials are concerned about a series of assaults on teachers and students near the campus."
             ],
             "brutal": [
                 "He had presided over a brutal regime in which thousands of people had 'disappeared'",
@@ -778,29 +825,20 @@
                 "'Savage' can also mean to criticaze someone cruelly.",
                 "The performance was savaged by the media."
             ],
-            "callous": [
-                "It might sound callous, but I don't care if he's homeless. He's not living with me!",
-                "Ethically, such an attitude appears callous and out of character with the momentousness of assisting a patient end her life."
-            ],
-            "evil": [
-                "Each new leader would blame his predcessor for all the evils of the past.",
-                "For the sake of long-term peace, the military option is the lesser evil or the lesser of two evils (= the less unpleasant of two bad choices).",
-                "An inductive inference is then made to the conclusion that certain instances, types groups, or patterns of evils are gratuitous."
-            ],
-            "fierce": [
-                "Two men were shot during fierce fighting last weekend.",
-                "Firefighters had to retreat from the fierce heat.",
-                "There is fierce competition to join the Special Branch",
-                "The chemistry exam was fierce (= difficult).",
-                "The girl group look fierce around a swimming pool in the video for their new single",
-                "But, as soon as the war ended, social unrest spread rapidly because of fierce inflation and other factors."
-            ],
-            "assault": [
-                "Police are hunting a student attacker after an unprovoked assault in a night club.",
-                "Women's groups have demanded a nationwide assault on sexism in the worplace.",
-                "She died heroically during an assault on the world's second highest mountain.",
-                "University ofiicials are concerned about a series of assaults on teachers and students near the campus."
-            ],
+            "formidable": [
+                "Something formidable causing you to fear or respect for because that thing or person is large, powerful, or difficult.",
+                "She was once a political nonentity, but has since won a formidable reputation as a determined campaigner."
+            ]
+        }
+    ],
+    "fierce": [
+        "Two men were shot during fierce fighting last weekend.",
+        "Firefighters had to retreat from the fierce heat.",
+        "There is fierce competition to join the Special Branch",
+        "The chemistry exam was fierce (= difficult).",
+        "The girl group look fierce around a swimming pool in the video for their new single",
+        "But, as soon as the war ended, social unrest spread rapidly because of fierce inflation and other factors.",
+        {
             "dreadful": [
                 "The dreadful sufferings of the people during this war."
             ],
@@ -991,11 +1029,14 @@
     "inherit": [
         "The company's new president will inherit some complicated legal problems."
     ],
-    "uptight": [
-        "By wearing a shirt that seeks to amuse, the wearer lets others know that he's not uptight or unapproachable."
-    ],
     "liquefy": [
-        "The critical pressure is the amount of pressure required to liquefy water at the critical temperature."
+        "The critical pressure is the amount of pressure required to liquefy water at the critical temperature.",
+        {
+            "crystallize": [
+                "",
+                ""
+            ]
+        }
     ],
     "forbear": [
         "To prevent yourself from saying or doing something, especially in a way that shows control, good judgment, or kindness to others.",
@@ -1036,7 +1077,10 @@
     "intermingle": [
         "Fact is intermingled with fiction throughout the book.",
         {
-            "merger": []
+            "merger": [
+                "",
+                ""
+            ]
         }
     ],
     "opponent": [
@@ -1044,6 +1088,12 @@
         {
             "compete": [
                 ""
+            ],
+            "bid": [
+                "To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
+                "The communications group has shown an interest in bidding for the company.",
+                "Paris is bidding to host the next Olympics.",
+                "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is."
             ]
         }
     ],
@@ -1059,10 +1109,16 @@
                 "The clinic will sterilize your cat for free.",
                 "Sterilize can also mean to make something completely clean and free from bacteria.",
                 "All equipment must be sterilized before use."
-            ],
-            "clinic": [
-                "Clinic is a building or part of a hospital where people go for medical care or advice.",
-                "prenatal clinics provide care for pregnant women.",
+            ]
+        }
+    ],
+    "clinic": [
+        "Clinic is a building or part of a hospital where people go for medical care or advice.",
+        "prenatal clinics provide care for pregnant women.",
+        {
+            "injection": [
+                "",
+                ""
             ]
         }
     ],
@@ -1092,26 +1148,77 @@
             ]
         }
     ],
+    "fibrous": [
+        "It is from these cells the permanent fibrous tissure is formed.",
+        {
+            "parchment": [
+                "The wizard wrote a symbol onto the tiny parchment and tossed it into the center of their small circle."
+            ]
+        }
+    ],
+    "dictator": [
+        "A dictator is a leader who has complete power in a country and has not been elected by the people.",
+        "My boss is kind of a dictator.",
+        {
+            "dictatorial": [
+                "Liking to give orders.",
+                "Her father is very dictatorial."
+            ],
+            "dictatorship": [
+                "A flood of refugees fled the brutal dictatorship then existing in that country.",
+                "They prevent the country from falling prey to the soldiers who fought the revolution and want ot restore the old dictatorship.",
+                "By any reasonable person's thinking; this set fo unconstitutional powers represents nothing more than a -- presidential dictatorship.",
+                "None of the governments that followed the dictatorship ever included us in their agenda."
+            ],
+            "authoritarian": [
+                "My father was a real authoritarian so we were brought up very strictly.",
+                "Authoritarians demand rigid adherence to rules and an uncritical acceptance of authority."
+            ],
+            "authority": [
+                "The United Nations has used/exerted/exercised its authority to restore peace in the area.",
+                "They've been acting illegally and without authority (= permission) from the council.",
+                "I'll give my lawyer authority (= permission) to act on my behalf.",
+                "He has no authority over (= ability to control) his students.",
+                "She spoke with authority (= as if she was in control or had special knowledge).",
+                "She is a world authority on 19th-century Irish history."
+            ],
+            "regime": [
+                "The old corrupt, totalitarian regime was overthrown.",
+                "The regime tried to silence dissent with a program of mass murder.",
+                "The once docile population has finally risen up against the ruthless regime."
+            ],
+            "despotic": [
+                "Having unlimited power over other people, and often using it unfairly and cruelly.",
+                "The Inca emperor was a despotic ruler of a highly stratified society.",
+                "Dictator are individauls that exercise despotic power."
+            ],
+            "emperor": [
+                "Hirohito was Emperor of Japan from 1926 until his death in 1989.",
+                "Constantine was the first emperor to promote Christianity.",
+                "He'd dressed up as a Roman emperor for the costume party."
+            ],
+            "imperial": [
+                "This type of porcelain was made specifically for the Chinese emperor and the imperial household",
+                "The glittering ceremony conjured up images of Russia's imperial past.",
+                "The imperial guards stormed the palace.",
+                "The imperial system of measurement uses units such as inches, miles, and pints.",
+                "Imperial units have in many cases been replaced by metric ones in Britain."
+            ],
+            "totalitarian": [
+                "Of or being a political system in which those in power have complete control and do not allow people freedom to oppose them.",
+                "But even in a totalitarian regime, soldiers along the border are hungry enough to take bribes.",
+                "He, a professor, represents education, which, as his lectures remind us, totalitarian governments try to keep down."
+            ]
+        }
+    ],
     "effigy": [
         "The effigy on it may be taken to be an authentic portrait."
-    ],
-    "mescal": [
-        "Tequilla is a type of mescal, but a mescal cannot be a tequila"
     ],
     "urine": [
         "Urine is a waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
     ],
-    "carbonated": [
-        "It's basically carbonated white grape juice."
-    ],
-    "fibrous": [
-        "It is from these cells the permanent fibrous tissure is formed."
-    ],
     "fruitful": [
         "Few explorations have been so fruitful as this six years' journey."
-    ],
-    "parchment": [
-        "The wizard wrote a symbol onto the tiny parchment and tossed it into the center of their small circle."
     ],
     "shank": [
         "The shank is the part of the leg between the knee and ankle or the equivalent in animals."
@@ -1149,23 +1256,27 @@
     "whereabouts": [
         "If anyone know the whereabouts of John, last name unknown, contact Ms. Smith on 6th Street."
     ],
-    "pathology": [
-        "Pathology is defined as a branch of medical science that studies the nature, effects, causes and consequences of disease."
-    ],
     "thorn": [
         "He had been a thorn in her side ever since."
     ],
     "preserve": [
-        "He wanted to protect her and preserve her innocence."
+        "He wanted to protect her and preserve her innocence.",
+        {
+            "conserve": [
+                "",
+                ""
+            ],
+            "restore": [
+                "",
+                ""
+            ]
+        }
     ],
     "slimy": [
         "The raindrops were heavier now, working the mud on her face into a slimy mess."
     ],
     "exclaim": [
         "As she passed, they would stop her and exclaim \"Gee Your Hair Smell Terrific!\""
-    ],
-    "vehemently": [
-        "Still, it wasn't the first time they had vehemently disagreed on something."
     ],
     "bench": [
         "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
@@ -1200,9 +1311,6 @@
     "severity": [
         "Severity is the fact or condition of being severe."
     ],
-    "plural": [
-        "Geese is the plural of goose"
-    ],
     "distinguish": [
         "He's colour-blind and can't distinguish between red and green easily."
     ],
@@ -1234,7 +1342,7 @@
         "Thank you for your swift reply."
     ],
     "passer-by": [
-        "We amused o urselves by watching the passers-by."
+        "We amused ourselves by watching the passers-by."
     ],
     "proceedings": [
         "Millions of people watched the proceedings on television."
@@ -1266,24 +1374,17 @@
         "The inquiry found no verifiable evidence of document of data falsification.",
         "The treaty aims to make developing countries' emissions cuts verifiable."
     ],
-    "bid": [
-        "To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
-        "The communications group has shown an interest in bidding for the company.",
-        "Paris is bidding to host the next Olympics.",
-        "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is."
-    ],
-    "unknown_words": "hiss swamp figure evaluate contract instruction injection prenatal presence",
-    "dictator": [
+    "baverage": [
         "",
-        ""
-    ],
-    "despotic": [
         "",
-        ""
-    ],
-    "regime": [
-        "",
-        ""
+        {
+            "mescal": [
+                "Tequilla is a type of mescal, but a mescal cannot be a tequila"
+            ],
+            "carbonated": [
+                "It's basically carbonated white grape juice."
+            ]
+        }
     ],
     "derive": [
         "",
@@ -1305,10 +1406,6 @@
         "",
         ""
     ],
-    "cane": [
-        "",
-        ""
-    ],
     "emulsifier": [
         "",
         ""
@@ -1318,18 +1415,6 @@
         ""
     ],
     "pomegranate": [
-        "",
-        ""
-    ],
-    "crystallize": [
-        "",
-        ""
-    ],
-    "baverage": [
-        "",
-        ""
-    ],
-    "desolve": [
         "",
         ""
     ],
@@ -1391,11 +1476,13 @@
     ],
     "hectare": [
         "",
-        ""
-    ],
-    "acres": [
         "",
-        ""
+        {
+            "acres": [
+                "",
+                ""
+            ]
+        }
     ],
     "inflation": [
         "",
@@ -1569,19 +1656,17 @@
         "",
         ""
     ],
-    "painkiller": [
-        "",
-        ""
-    ],
     "anesthesia": [
         "",
-        ""
+        "",
+        {
+            "painkiller": [
+                "",
+                ""
+            ]
+        }
     ],
     "avert": [
-        "",
-        ""
-    ],
-    "apathy": [
         "",
         ""
     ],
@@ -1809,104 +1894,154 @@
         "",
         ""
     ],
-    "": [
+    "presence": [
         "",
         ""
     ],
-    "": [
+    "prenatal": [
         "",
         ""
     ],
-    "": [
+    "instruction": [
         "",
         ""
     ],
-    "": [
+    "contract": [
         "",
         ""
     ],
-    "": [
+    "evaluate": [
         "",
         ""
     ],
-    "": [
+    "figure": [
         "",
         ""
     ],
-    "": [
+    "swamp": [
         "",
         ""
     ],
-    "": [
+    "hiss": [
         "",
         ""
     ],
-    "": [
+    "prevent": [
         "",
         ""
     ],
-    "": [
+    "unconstitutional": [
         "",
         ""
     ],
-    "": [
+    "agenda": [
         "",
         ""
     ],
-    "": [
+    "council": [
         "",
         ""
     ],
-    "": [
+    "strict": [
         "",
         ""
     ],
-    "": [
+    "rigid": [
         "",
         ""
     ],
-    "": [
+    "demand": [
         "",
         ""
     ],
-    "": [
+    "exert": [
         "",
         ""
     ],
-    "": [
+    "administrator": [
         "",
         ""
     ],
-    "": [
+    "overthrown": [
         "",
         ""
     ],
-    "": [
+    "corrupt": [
         "",
         ""
     ],
-    "": [
+    "dissent": [
         "",
         ""
     ],
-    "": [
+    "accuse": [
         "",
         ""
     ],
-    "": [
+    "covert": [
         "",
         ""
     ],
-    "": [
+    "docile": [
         "",
         ""
     ],
-    "": [
+    "handful": [
         "",
         ""
     ],
-    "": [
+    "stratified": [
         "",
         ""
+    ],
+    "porcelain": [
+        "",
+        ""
+    ],
+    "household": [
+        "",
+        ""
+    ],
+    "Christianity": [
+        "",
+        ""
+    ],
+    "glittering": [
+        "",
+        ""
+    ],
+    "ceremony": [
+        "",
+        ""
+    ],
+    "conjure": [
+        "",
+        ""
+    ],
+    "metric": [
+        "",
+        ""
+    ],
+    "quaint": [
+        "",
+        ""
+    ],
+    "retinue": [
+        "",
+        ""
+    ],
+    "bribe": [
+        "",
+        ""
+    ],
+    "ideology": [
+        "",
+        "",
+        {
+            "ideologies": [
+                "",
+                ""
+            ]
+        }
     ],
 }
