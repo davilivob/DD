@@ -456,6 +456,10 @@
         {
             "mammal": [
                 "Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs."
+            ],
+            "vertebrate": [
+                "",
+                ""
             ]
         }
     ],
@@ -756,6 +760,10 @@
             "cane": [
                 "",
                 ""
+            ],
+            "beet": [
+                "",
+                ""
             ]
         }
     ],
@@ -1026,9 +1034,6 @@
             ]
         }
     ],
-    "inherit": [
-        "The company's new president will inherit some complicated legal problems."
-    ],
     "liquefy": [
         "The critical pressure is the amount of pressure required to liquefy water at the critical temperature.",
         {
@@ -1211,14 +1216,33 @@
             ]
         }
     ],
+    "fruitful": [
+        "Few explorations have been so fruitful as this six years' journey.",
+        {
+            "abundance": [
+                "",
+                ""
+            ]
+        }
+    ],
+    "preserve": [
+        "He wanted to protect her and preserve her innocence.",
+        {
+            "conserve": [
+                "",
+                ""
+            ],
+            "restore": [
+                "",
+                ""
+            ]
+        }
+    ],
     "effigy": [
         "The effigy on it may be taken to be an authentic portrait."
     ],
     "urine": [
         "Urine is a waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
-    ],
-    "fruitful": [
-        "Few explorations have been so fruitful as this six years' journey."
     ],
     "shank": [
         "The shank is the part of the leg between the knee and ankle or the equivalent in animals."
@@ -1259,18 +1283,8 @@
     "thorn": [
         "He had been a thorn in her side ever since."
     ],
-    "preserve": [
-        "He wanted to protect her and preserve her innocence.",
-        {
-            "conserve": [
-                "",
-                ""
-            ],
-            "restore": [
-                "",
-                ""
-            ]
-        }
+    "inherit": [
+        "The company's new president will inherit some complicated legal problems."
     ],
     "slimy": [
         "The raindrops were heavier now, working the mud on her face into a slimy mess."
@@ -1407,10 +1421,6 @@
         ""
     ],
     "emulsifier": [
-        "",
-        ""
-    ],
-    "beet": [
         "",
         ""
     ],
@@ -2044,4 +2054,20 @@
             ]
         }
     ],
+    "attribute": [
+        "",
+        ""
+    ],
+    "depositional": [
+        "",
+        ""
+    ],
+    "implement": [
+        "",
+        ""
+    ],
+    "equivalent": [
+        "",
+        ""
+    ]
 }
