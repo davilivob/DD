@@ -65,18 +65,18 @@
                 ""
             ],
             "plural": [
-                "Geese is the plural of goose"
+                "Geese is the plural of goose."
             ]
         }
     ],
     "slang": [
-        "Slang is a very informal language that is usually spoken rather than written, used especially by particular groups of people.",
-        "He used a lot of slang terms that I simply don't understand",
+        "@ Slang is a very informal language that is usually spoken rather than written, used especially by particular groups of people.",
+        "He used a lot of slang terms that I simply don't understand.",
         {
             "dialect": [
-                "Dialect is the differeces in language depending on region",
-                "Dialect consist of their own slang terms.",
-                "For instance, in the south, we say words like \"y'all\" which means \"you all\""
+                "@ Dialect is the differeces in language depending on region.",
+                "& Dialect consist of their own slang terms.",
+                "@ For instance, in the south, we say words like \"y'all\" which means \"you all\"."
             ]
         }
     ],
@@ -84,7 +84,7 @@
         "The entropy can not diminish",
         {
             "dicrease": [
-                "Diminish and decrease are both mean to get smaller. Usually diminish means to a greater degree, like almost complete gone."
+                "& Diminish and decrease are both mean to get smaller. Usually diminish means to a greater degree, like almost complete gone."
             ],
             "decay": [
                 "As the actinium-225 decays, it gives off short-lived, highly energized alpha particles."
@@ -93,13 +93,13 @@
     ],
     "emancipate": [
         "Together they emancipated the art of experiment from being a mere craft activity and endowed it with the status of a science.",
-        "Emancipate is usually used in official or legal contexts.",
+        "@ Emancipate is usually used in official or legal contexts.",
         {
             "release": [
-                "Release is more common."
+                "& Release is more common."
             ],
             "liberate": [
-                "Liberate is more formal."
+                "& Liberate is more formal."
             ],
             "manumit": [
                 "In addition, they encouraged slaveholders to manumit their slaves."
@@ -110,7 +110,7 @@
         "The state of Michigan has endowed three institutes to do research for industry.",
         {
             "bestow": [
-                "Endow means to give someone an ability or attribute. Bestow can also mean that, but usually it means to give someone an object or reward."
+                "& Endow means to give someone an ability or attribute. Bestow can also mean that, but usually it means to give someone an object or reward."
             ]
         }
     ],
@@ -118,7 +118,7 @@
         "The climate is naturally good, but continued neglect of sanitary precautions has made the city unhealthy.",
         {
             "ignore": [
-                "Ignore just means that someone doesn't pay attention. Neglect is leaving something alone to the point that it falls aparts or breaks."
+                "& Ignore just means that someone doesn't pay attention. Neglect is leaving something alone to the point that it falls aparts or breaks."
             ]
         }
     ],
@@ -126,11 +126,11 @@
         "As a port it was notorious of its smuggling and illicit trade.",
         {
             "illegal": [
-                "An illegal action only breaks the law. An illicit action breaks ethical or moral standards (and probably the law as well)."
+                "& An illegal action only breaks the law. An illicit action breaks ethical or moral standards (and probably the law as well)."
             ],
             "outrageous": [
-                "Shocking and morally unacceptable.",
-                "It is outragious that these buildings remain empty while thousands of people have no homes.",
+                "@ Shocking and morally unacceptable.",
+                "It is outrageous that these buildings remain empty while thousands of people have no homes.",
                 "These prices are just outrageous (= much too high)."
             ],
             "smuggle": [
@@ -142,7 +142,7 @@
         "His words were comforting, even if they didn't resolve her concerns.",
         {
             "solve": [
-                "Solve is more like answering a quistion, like in homework or math problem. Resolve is like fixing an argument."
+                "& Solve is more like answering a quistion, like in homework or math problem. Resolve is like fixing an argument."
             ]
         }
     ],
@@ -150,23 +150,23 @@
         "She sat through the whole meeting without uttering a word.",
         {
             "utterly": [
-                "Utterly is slightly more literary. It can also be more emphatic or with emotion, for example \"I'm utterly disgusted with you\"."
+                "& Utterly is slightly more literary. It can also be more emphatic or with emotion, for example \"I'm utterly disgusted with you\"."
             ],
             "totally": [
-                "Totally literally means 'Completely' but it isn't very emphatic."
+                "& Totally literally means 'Completely' but it isn't very emphatic."
             ]
         }
     ],
     "unaided": [
+        "@ According to the Oxford dictionary, unaided means 'without help from anyone or anything'",
         "Microorganism is an organism that is too small to be seen by the unaided eye.",
-        "She reached the top of the mountain unaided.",
-        "According to the Oxford dictionary, unaided means << without help from anyone or anything >>"
+        "She reached the top of the mountain unaided."
     ],
     "strangle": [
         "She had been strangled with her own scarf and her body dumped in to the woods.",
         {
             "suffocate": [
-                "You suffocate when you're strangled, but you're not necessarily being strangled when you suffocate."
+                "& You suffocate when you're strangled, but you're not necessarily being strangled when you suffocate."
             ]
         }
     ],
@@ -174,18 +174,18 @@
         "We've received a complaint from one of our listeners about offensive language.",
         {
             "complain": [
-                "Complain is the verb form of Complaint, which is the noun form."
+                "& Complain is the verb form of Complaint, which is the noun form."
             ]
         }
     ],
     "undertone": [
-        "It was a comedy act with an undertone of cruelty",
+        "It was a comedy act with an undertone of cruelty.",
         "The elephants' pale gray skin carries undertones of violet.",
         "John's description of his ex-wife had an undertone of sadness.",
         {
             "overtone": [
-                "Undertone usually means an unspoken meaning that the speaker doesn't mean to send",
-                "Overtone usually means an unspoken meaning that they speakers wants to send.",
+                "& Undertone usually means an unspoken meaning that the speaker doesn't mean to send.",
+                "& Overtone usually means an unspoken meaning that they speakers wants to send.",
                 "John's conversation with Jane had romantic overtones."
             ]
         }
@@ -201,7 +201,7 @@
         }
     ],
     "connote": [
-        "The word 'warrior' connotes honour and bravery as well as fierceness in battle",
+        "The word 'warrior' connotes honour and bravery as well as fierceness in battle.",
         "To me, chocolate connotes pleasure and idulgence.",
         {
             "connotation": [
@@ -210,27 +210,27 @@
                 "The literal meaning of the term prestidigitator is 'nimble-fingered', but its connotations extend to the idea of illusion, imposture, deception."
             ],
             "denote": [
-                "The color red used to denote passion or danger",
+                "The color red used to denote passion or danger.",
                 "His angry tone denoted extreme displeasure.",
                 "The vertical line denotes the relative abundance of vertebrate remains in the various depositional environments.",
                 "The period saw the radical separation of micro- and macro-economics (a separation denoted, paradoxically, as a 'neoclassical synthesis')."
             ],
             "imply": [
                 "I'm not implying anything about your cooking, but could we eat out tonight?",
-                "Imply can also mean to involve something or make it necessary.",
+                "@ Imply can also mean to involve something or make it necessary.",
                 "The report, which is wiewed as a bellwither for economic trends, implied that the national economy couldbe slowing down.",
                 "Her statement implies a lack of confidence in the management of the company.",
-                "A connection between the events has been in several new reports.",
+                "A connection between the events has been implied in several new reports.",
                 {
                     "infer": [
-                        "The main differece between these two words is that a speaker can imply, but a listener can only infer.",
+                        "& The main differece between these two words is that a speaker can imply, but a listener can only infer.",
                         "Then I think we must infer from what they said that they believe we should reapply for the job."
                     ]
                 }
             ],
             "suggest": [
-                "I suggested putting the matter to the committee",
-                "Does anything suggest itself? (= Do you have any ideas about what we should do?)",
+                "I suggested putting the matter to the committee.",
+                "Does anything suggest itself? (= Do you have any ideas about what we should do?).",
                 "His manner suggested a lack of interest in what we were doing.",
                 "She's applied for a lot of jobs recently, which suggests that she's not altogether happy with her position.",
                 {
@@ -244,13 +244,13 @@
                         "There's just a hint of brandy in the sauce."
                     ],
                     "advise": [
-                        "Advise is usually given by experts while suggest is not.",
+                        "& Advise is usually given by experts while suggest is not.",
                         "His doctor advised him against smoking.",
                         "Guests were advised to pay special attention to hand hygiene."
                     ],
                     "advice": [
                         "I think I'll take your advice and get the green dress.",
-                        "Morover, a panel is now allowed to seek information and technical advice from any individual or body which it deems appropriate"
+                        "Morover, a panel is now allowed to seek information and technical advice from any individual or body which it deems appropriate."
                     ]
                 }
             ]
@@ -260,30 +260,30 @@
         "Her conversation sparkled with her own subtle blend of wit and charm.",
         {
             "clever": [
-                "Wit is another word for 'Clever'."
+                "& Wit is another word for 'Clever'."
             ],
             "witty": [
-                "Wit or 'Witty' is used to describe someone smart and thinks fast. They may also have a natural ability of using words and ideas in a quick and inventive way to create humour."
+                "& Wit or 'Witty' is used to describe someone smart and thinks fast. They may also have a natural ability of using words and ideas in a quick and inventive way to create humour."
             ]
         }
     ],
     "exult": [
-        "If you rejoice at your team's big win, you exult in it.",
+        "& If you rejoice at your team's big win, you exult in it.",
         "There are always soldiers who exult in the kill and keep mementos of their victims.",
         {
             "exalt": [
-                "Exalt is a transitive verb. If we glorify God, we exalt him. It can also mean to heighten something, to increase its effects.",
-                "They sent him countless letters and postcards, some of which called him a \"living saviour\" or celebrated his \"exalted and godlike benevolence\""
+                "& Exalt is a transitive verb. If we glorify God, we exalt him. It can also mean to heighten something, to increase its effects.",
+                "They sent him countless letters and postcards, some of which called him a \"living saviour\" or celebrated his \"exalted and godlike benevolence\"."
             ]
         }
     ],
     "nosy": [
-        "Being nosy is being too interested in what other people are doing and wanting to discover too much about them.",
-        "Nosy is when someone tries to join in on other people's business. More like a curious person with a negative negation attached to it.",
+        "@ Being nosy is being too interested in what other people are doing and wanting to discover too much about them.",
+        "@ Nosy is when someone tries to join in on other people's business. More like a curious person with a negative negation attached to it.",
         {
             "gossip": [
-                "Gossip is the story people are talking about. But often also used to describe someone.",
-                "\"She's a gossip.\" meaning if she finds out about it , she'll talk about it with her friends and so on, story won't be a secret no more."
+                "@ Gossip is the story people are talking about. But often also used to describe someone.",
+                "@ \"She's a gossip.\" meaning if she finds out about it , she'll talk about it with her friends and so on, story won't be a secret no more."
             ]
         }
     ],
@@ -291,16 +291,16 @@
         "Indeed, dwarf tossing is an Olympic sport!",
         {
             "throw": [
-                "'Toss' tends to be weaker. It can also mean put. It doesn't always mean you are letting something fly out of you hand."
+                "& 'Toss' tends to be weaker. It can also mean put. It doesn't always mean you are letting something fly out of you hand."
             ]
         }
     ],
     "hygiene": [
         "The modern system of hygiene is in great part founded upon decent pathology.",
-        "Hygiene is how well you take care of yourself. If you have good hygiene, you take regular showers, brush your teeth a lot, wash you hair, etc.",
+        "& Hygiene is how well you take care of yourself. If you have good hygiene, you take regular showers, brush your teeth a lot, wash you hair, etc.",
         {
             "sanitation": [
-                "Sanitation is to keep something clean and germ free. Hand sanitizer, for example, kills the germs on your hands."
+                "& Sanitation is to keep something clean and germ free. Hand sanitizer, for example, kills the germs on your hands."
             ],
             "sanitary": [
                 "The city is well supplied with water and its sanitary state is good."
@@ -309,7 +309,7 @@
                 "I suppose warm-air hand-driers are more hygienic than hand-towels, and paper towels create a lot of litter."
             ],
             "pathology": [
-                "Pathology is defined as a branch of medical science that studies the nature, effects, causes and consequences of disease."
+                "@ Pathology is defined as a branch of medical science that studies the nature, effects, causes and consequences of disease."
             ]
         }
     ],
@@ -317,7 +317,7 @@
         "About two percent of fast-food packaging ends up as litter.",
         {
             "a litter of": [
-                "A group of animals that are born at the same time and have the same mother",
+                "@ A group of animals that are born at the same time and have the same mother.",
                 "A litter of kittens."
             ]
         }
@@ -326,10 +326,10 @@
         "Unlike wood, however, it is completely unaffected by damp, rot, decay, frost or insect attack.",
         {
             "wet": [
-                "Damp means it's slight wet. The towel to wipe the spilled juice is damp from my sweaty hands."
+                "& Damp means it's slight wet. The towel to wipe the spilled juice is damp from my sweaty hands."
             ],
             "drench": [
-                "Wet means it's drenched in water or another liquid."
+                "&  Wet means it's drenched in water or another liquid."
             ],
             "sopping": [
                 "My hair is sopping (wet) from the shower I took."
@@ -338,10 +338,10 @@
     ],
     "radical": [
         "I'm just having my hair trimmed - nothing radical.",
-        "Radical can also be a noun to define a person who advocates thorough or complete political or social reform.",
+        "@ Radical can also be a noun to define a person who advocates thorough or complete political or social reform.",
         {
             "drastic": [
-                "As adjective, they mean basically the same thing."
+                "& As adjective, they mean basically the same thing."
             ],
             "vehemently": [
                 "Still, it wasn't the first time they had vehemently disagreed on something."
@@ -352,11 +352,11 @@
         "They did a thorough search of the area but found nothing.",
         {
             "complete": [
-                "Complete means to finish or be done with something. Thorough means to do something carefully, so you won't miss anything."
+                "& Complete means to finish or be done with something. Thorough means to do something carefully, so you won't miss anything."
             ],
             "penetrate": [
                 "Amazingly, the bullet didnot penetrate his brain.",
-                "The organization had been penetrated by a spy",
+                "The organization had been penetrated by a spy.",
                 "The company has been successful in penetrating overseas markets this year (= it has started selling its products in them).",
                 "He penetrates deeper into the artist's life in the second volume of his autobiography."
             ]
@@ -370,20 +370,20 @@
                 "My friend told me that 9+10=21. I was very confused."
             ],
             "bewilder": [
-                "Bewilder is pretty much the same, but more poetic."
+                "& Bewilder is pretty much the same, but more poetic."
             ],
             "mystify": [
-                "Mystify is a verbm, it means to make something obscured, or hide behind the truth.",
+                "@ Mystify is a verb, it means to make something obscured, or hide behind the truth.",
                 "The cause of death mystified detectives."
             ]
         }
     ],
     "dire": [
         "I've heard of wolves morphing in dire situations, but always thought they were just stories.",
-        "Dire is a more dramatic word, closer to meaning something is dangerous ar destructive, as if it is very close to being hopeless.",
+        "& Dire is a more dramatic word, closer to meaning something is dangerous ar destructive, as if it is very close to being hopeless.",
         {
             "terrible": [
-                "Terrible is a more generic and common term just meaning something is bad."
+                "& Terrible is a more generic and common term just meaning something is bad."
             ]
         }
     ],
@@ -392,11 +392,11 @@
         "I couldn't stop the grieve I felt when I thought about grandpa.",
         {
             "sad": [
-                "When you grieve your suffering grief because maybe a loved one died. When you sad you just feel sad about something.",
+                "& When you grieve your suffering grief because maybe a loved one died. When you sad you just feel sad about something.",
                 "I was really sad that I couldn't get tickets to the fair."
             ],
             "despair": [
-                "Despair is the feeling that there is no hope and that you can do nothing to improve a difficult or worrying situation.",
+                "@ Despair is the feeling that there is no hope and that you can do nothing to improve a difficult or worrying situation.",
                 "Don't despair! We'll find a way out!",
                 "I desair at/over the policies of this government."
             ],
@@ -415,13 +415,13 @@
         }
     ],
     "hectic": [
+        "& Hectic is mostly used to describe a situation.",
         "Things are getting a bit hectic for me at the moment.",
-        "Hectic is mostly used to describe a situation.",
         "\"My schedule is hectic\" which means that it's crazy or very busy that it becomes hard to handle.",
         {
             "agitated": [
+                "& Agitated is used to describe an emotional feeling.",
                 "There was a long delay, and people became increasingly agitated as they waited for the train.",
-                "Agitated is used to describe an emotional feeling.",
                 "\"My schedule makes me feel agitated\" which means it makes me feel nervous, overwhelmed or upset."
             ],
             "uptight": [
@@ -430,21 +430,21 @@
         }
     ],
     "microorganisms": [
-        "Technically a microorganism or microbe is an organism that is microscopic. The study of microorganisms is called microbiology. Microorganisms can be bacteria, fungi, archaea or protists. The term micoorganisms does not include viruses and prion, which are generally classified as non-living.",
+        "@ Technically a microorganism or microbe is an organism that is microscopic. The study of microorganisms is called microbiology. Microorganisms can be bacteria, fungi, archaea or protists. The term micoorganisms does not include viruses and prion, which are generally classified as non-living.",
         {
             "microbe": [
-                "Microbe is any microorganism, but specially said of those microorganisms which are harmful types of bacteria."
+                "@ Microbe is any microorganism, but specially said of those microorganisms which are harmful types of bacteria."
             ],
             "microscopic": [
-                "Microscopic is an adjective as invisible or indistinguishable without the use of a microscope"
+                "@ Microscopic is an adjective as invisible or indistinguishable without the use of a microscope."
             ],
             "pathogen": [
-                "A pathogen is defined as an organism causing disease to its host, with the severity of the disease symptoms referred to as virulence."
+                "@ A pathogen is defined as an organism causing disease to its host, with the severity of the disease symptoms referred to as virulence."
             ],
             "germ": [
-                "Germ is a very small organism that causes disease.",
+                "@ Germ is a very small organism that causes disease.",
                 "In warm weather these germs multiply rapidly.",
-                "It can also mean the origin of something that develops, esp.",
+                "@ It can also mean the origin of something that develops, esp.",
                 "A cell from which grain grows or the beginning of an idea.",
                 "He found the germ of an idea in an old newspaper.",
                 "Alefandro's suggestion was the germ of the whole idea."
@@ -452,10 +452,10 @@
         }
     ],
     "reptile": [
-        "An reptile is an animal that produces eggs and uses the heat of the sun to keep its blood warm.",
+        "@ An reptile is an animal that produces eggs and uses the heat of the sun to keep its blood warm.",
         {
             "mammal": [
-                "Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs."
+                "@ Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs."
             ],
             "vertebrate": [
                 "",
@@ -475,7 +475,7 @@
         "Optimism is empowering, uplifting, and inspiring.",
         {
             "optimist": [
-                "She's born optimist (= someone who has always been optimistic."
+                "She's born optimist (= someone who has always been optimistic)."
             ],
             "optimistic": [
                 "The doctor said she was optimistic about the outcome of the operation but forbore to make any promises at this early stage."
@@ -490,13 +490,13 @@
     ],
     "scarcely": [
         "I could scarcely believe it when she said she wanted to marry me.",
-        "I had scarcely sat down to eat when the phone rang",
+        "I had scarcely sat down to eat when the phone rang.",
         {
             "barely": [
-                "'barely', 'scarcely' and 'hardly' are basically interchangeable."
+                "& 'barely', 'scarcely' and 'hardly' are basically interchangeable."
             ],
             "hardly": [
-                "Yeah, it's the same."
+                "& Yeah, they're the same."
             ]
         }
     ],
@@ -504,7 +504,7 @@
         "Are you looking for a temporary or a permanent job?",
         {
             "temporary": [
-                "The ceasefire will only provide a temporary solution to the crisis"
+                "The ceasefire will only provide a temporary solution to the crisis."
             ]
         }
     ],
@@ -520,18 +520,18 @@
         }
     ],
     "vigor": [
+        "& Vigor is specifically refers to human energy.",
+        "$We can say \"He speaks with vigor\", but we can't say \"Gasoline is used for vigor\".",
         "They battled with great vigor and exaggeration to the cheering of the three younger boys until one turned and noticed her.",
-        "Vigor is specifically refers to human energy.",
-        "We can say \"He speaks with vigor\", but we can't say \"Gasoline is used for vigor\"",
         {
             "power": [
-                "Power can mean electricity, but also force"
+                "& Power can mean electricity, but also force."
             ],
             "energy": [
-                "It's just energy."
+                "& It's just energy."
             ],
             "impetus": [
-                "Impetus is something that encourages a particular activity or makes that activity more energetic or effective.",
+                "@ Impetus is something that encourages a particular activity or makes that activity more energetic or effective.",
                 "Often the impetus for change in education has had to come from outside the school establishment."
             ]
         }
@@ -540,13 +540,13 @@
         "Ever since our secretary walked out, the office has been in a state of total/utter chaos.",
         {
             "disorder": [
-                "Chaos has a much stronger feeling than disorder."
+                "& Chaos has a much stronger feeling than disorder."
             ],
             "mess": [
-                "Chaos is a crazy mess."
+                "& Chaos is a crazy mess."
             ],
             "mayhem": [
-                "Mayhem is violent destruction, and also an older term for the crime of assault and battery."
+                "@ Mayhem is violent destruction, and also an older term for the crime of assault and battery."
             ]
         }
     ],
@@ -554,7 +554,7 @@
         "There were complaints that the beer had been adulterated with water (= diluted).",
         {
             "dilute": [
-                "Dilute means to make a liquid weaker by mixing in something else, or to reduce the strngth of a feeling, action, etc.",
+                "@ Dilute means to make a liquid weaker by mixing in something else, or to reduce the strngth of a feeling, action, etc.",
                 "Dilute the juice with water before you drink it.",
                 "These measures are designed to dilute public fears about the product's safety."
             ],
@@ -566,19 +566,19 @@
     ],
     "soil": [
         "This vertical section of the soil shows four basic soil layers.",
-        "The soil in this area is very chalky",
+        "The soil in this area is very chalky.",
         {
             "dirt": [
-                "They're pretty much the same but dirt sounds a bit more negative."
+                "& They're pretty much the same but dirt sounds a bit more negative."
             ],
             "chalk": [
-                "Chalk can be a type of soft white rock. Or it can also be a stick of this rock or a mimilar substance used for writing or drawing."
+                "@ Chalk can be a type of soft white rock. Or it can also be a stick of this rock or a mimilar substance used for writing or drawing."
             ],
             "mud": [
                 "His shoes were covered with mud; he had torn his coat on the thorny tree."
             ],
             "frost": [
-                "The thin, white layer of ice that forms when the air temperature is below the freezing point of water, especially ouside at night.",
+                "@ The thin, white layer of ice that forms when the air temperature is below the freezing point of water, especially ouside at night.",
                 "In a normal winter, the frost penetrates deeply enough to kill off insect eggs in the soil."
             ]
         }
@@ -588,28 +588,28 @@
         "Depending on the parameters selected, and the initial conditions, the simulated temporal trajectories may exhibit either regular (periodic and quasi-periodic) or chaotic behaviour.",
         {
             "the Periodic Table": [
-                "The Periodic Table is a list of the symbols of all the chemical elements arranged in rows and columns down a page."
+                "@ The Periodic Table is a list of the symbols of all the chemical elements arranged in rows and columns down a page."
             ]
         }
     ],
     "column": [
         "I didn't have time to read the whole article - just the first column.",
         "Add the column of figures and divide the sum by three.",
-        "The roof of the temple was held up by a row of thick stone columns",
-        "Column can also be a piece of writing in a newspaper or magazine, usually on a particular subject, that is always written by the same person and appears regularly.",
+        "The roof of the temple was held up by a row of thick stone columns.",
+        "@ Column can also be a piece of writing in a newspaper or magazine, usually on a particular subject, that is always written by the same person and appears regularly.",
         "She writes a weekly fashion/gossip column for the Evening Standard.",
         {
             "row": [
-                "Column is in vertical way, but row is parallel."
+                "& Column is in vertical way, but row is in parallel."
             ]
         }
     ],
     "essay": [
-        "Essay is a short piece of writing on a particular subject, often expressing personal views.",
+        "@ Essay is a short piece of writing on a particular subject, often expressing personal views.",
         "Taken as a group, these essays are based in deep research.",
         {
             "article": [
-                "An article is usually news oriented, an essay can be literary."
+                "& An article is usually news oriented, an essay can be literary."
             ],
             "lecture": [
                 "",
@@ -622,11 +622,11 @@
         "Auto companies are taking a cautious approach toward introducing electric cars.",
         {
             "wary": [
-                "Wary can be not completely trusting or certain about something or someone.",
+                "@ Wary can be not completely trusting or certain about something or someone.",
                 "I'm a little wary of/about giving people my address when I don't know them very well."
             ],
             "careful": [
-                "However, 'Cautious' is more like be wary or pay attention. 'Careful' is more like be safe."
+                "& 'Cautious' is more like be wary or pay attention. 'Careful' is more like be safe."
             ]
         }
     ],
@@ -646,13 +646,13 @@
                 "Mark was in need of more congenial friends. It seems his current ones were no longer on the same page after 5 years apart."
             ],
             "chummy": [
-                "The inspectors are a little too chummy with the informant"
+                "The inspectors are a little too chummy with the informant."
             ],
             "amicable": [
-                "Few people have amicable divorces"
+                "Few people have amicable divorces."
             ],
             "cordial": [
-                "Relations between the two leaders are said to be cordial( friendly, but formal and polite)"
+                "Relations between the two leaders are said to be cordial( friendly, but formal and polite)."
             ]
         }
     ],
@@ -667,12 +667,12 @@
                 "I wish mermaids and unicorns were real."
             ],
             "true": [
-                "If an arrow hits its target, you could say it has flown true, but you couldn't say it had flown authentic or genuine."
+                "& If an arrow hits its target, you could say it has flown true, but you couldn't say it had flown authentic or genuine."
             ]
         }
     ],
     "irritation": [
-        "\"What?\" he added with renewed irritation, \"I beg you to dress your men decently.\"",
+        "\"What?\" he added with renewed irritation, \"I beg you to dress your men decently\".",
         "Traffic noice is just one of several minor irritations (= small problems).",
         {
             "irritate": [
@@ -690,7 +690,7 @@
         "When she calmed down, she was more coherent (= able to speak clearly and be understood).",
         {
             "concise": [
-                "Short and clear, expressing what needs to be said without ennecessary words.",
+                "@ Short and clear, expressing what needs to be said without ennecessary words.",
                 "She wrote up a concise summary of the day's events."
             ],
             "coherence": [
@@ -703,38 +703,29 @@
             ]
         }
     ],
-    "renewed": [
-        "She jumped on the story with renewed vigor.",
-        "The latest outbreak has led to renewed concern about the spread of the disease."
-    ],
-    "topple": [
-        "If your child happens to topple out of the bed, the fall isn't very far or very traumatic.",
-        "This was a secret bid to topple the chairman and take his job.",
-        "The church was prominently involved in the struggle that toppled the dictatorship."
-    ],
     "adhere": [
         "All drivers must adhere to speed limits.",
         "A smooth, dry surface helps the tiles adhere to the wall.",
         {
             "adherent": [
-                "An adherent/sticky surface",
+                "@ An adherent/sticky surface",
                 "She has been an adherent of Anarchism for years.",
                 "However, within less than a year, the movement was shattered, and its adherents either were arrested or had led the country."
             ]
         }
     ],
     "transitive": [
-        "A transitive verb needs an object, but an intransitive one does not.",
-        "Like, drink, punish, give are all transitive verbs.",
+        "& A transitive verb needs an object, but an intransitive one does not.",
+        "@ Like, drink, punish, give are all transitive verbs.",
         {
             "intransitive": [
-                "Verbs that require a subject but don't require (or cannot accept) an object are called intransitive verbs.",
-                "Die, sleep, snow, rain are intransitive verbs."
+                "& Verbs that require a subject but don't require (or cannot accept) an object are called intransitive verbs.",
+                "@ Die, sleep, snow, rain are intransitive verbs."
             ],
             "ditransitive": [
-                "Transitive verbs that are able to take both a direct object and an indirect one are called ditransitive.",
-                "English has a number of generally ditransitive verbs, such as give, grant, and tell and many transitive verbs that can take an additional argument, such as pass, read, bake, etc.",
-                "He gave Mary ten dollars > He gave ten dollars to Mary. 'Give' is a ditransitive verb in this case."
+                "& Transitive verbs that are able to take both a direct object and an indirect one are called ditransitive.",
+                "@ English has a number of generally ditransitive verbs, such as give, grant, and tell and many transitive verbs that can take an additional argument, such as pass, read, bake, etc.",
+                "@ He gave Mary ten dollars > He gave ten dollars to Mary. 'Give' is a ditransitive verb in this case."
             ]
         }
     ],
@@ -746,16 +737,16 @@
         "When cooked, the mescal is a fibrous, sticky, syrupy substance with a flavor similar to molasses.",
         {
             "syrup": [
-                "Syrup is a mixture of sugar and water while molasses is a by-product of the sugar-making process.",
-                "Molasses is a type of syrup.",
-                "Both are used as a base for food and baverage, but syrup can be made by simply mixing together sugar and water while molasses is made by boiling the juice of whatever fruit is available.",
-                "For example, maple syrup."
+                "& Syrup is a mixture of sugar and water while molasses is a by-product of the sugar-making process.",
+                "& Molasses is a type of syrup.",
+                "& Both are used as a base for food and baverage, but syrup can be made by simply mixing together sugar and water while molasses is made by boiling the juice of whatever fruit is available.",
+                "@ For example, maple syrup."
             ],
             "syrupy": [
                 "Heat the liquid until it is thick and syrupy."
             ],
             "sucrose": [
-                "Sucrose is the type of sugar that exists naturally in most plants that grow on land."
+                "@ Sucrose is the type of sugar that exists naturally in most plants that grow on land."
             ],
             "cane": [
                 "",
@@ -808,7 +799,7 @@
         }
     ],
     "vicious": [
-        "Vicious people or actions show an intention or with to hurt someone or something very badly.",
+        "@ Vicious people or actions show an intention or with to hurt someone or something very badly.",
         "The police said that this was one of the most vicious attacks they'd ever seen.",
         "There were a large collections of vicious medieval torture instruments.",
         {
@@ -824,17 +815,17 @@
                 "She spoke with brutal honesty - I was too old for the job."
             ],
             "barbarous": [
-                "'Barbaric' is a term that we hear more often than 'barbarous', but they're the same things.",
+                "@ 'Barbaric' is a term that we hear more often than 'barbarous', but they're the same things.",
                 "His murder was an outrageous and barbarous act."
             ],
             "savage": [
                 "The child was savaged by a dog.",
                 "Twelve thousand years ago, our ancestors were primitive savages living in caves.",
-                "'Savage' can also mean to criticaze someone cruelly.",
+                "@ 'Savage' can also mean to criticaze someone cruelly.",
                 "The performance was savaged by the media."
             ],
             "formidable": [
-                "Something formidable causing you to fear or respect for because that thing or person is large, powerful, or difficult.",
+                "@ Something formidable causing you to fear or respect for because that thing or person is large, powerful, or difficult.",
                 "She was once a political nonentity, but has since won a formidable reputation as a determined campaigner."
             ]
         }
@@ -844,7 +835,7 @@
         "Firefighters had to retreat from the fierce heat.",
         "There is fierce competition to join the Special Branch",
         "The chemistry exam was fierce (= difficult).",
-        "The girl group look fierce around a swimming pool in the video for their new single",
+        "The girl group look fierce around a swimming pool in the video for their new single.",
         "But, as soon as the war ended, social unrest spread rapidly because of fierce inflation and other factors.",
         {
             "dreadful": [
@@ -856,7 +847,7 @@
         }
     ],
     "rejoice": [
-        "To rejoice could be something happened that was very favorable, bringing you out of perhaps sadness or even despair that you were in to start with.",
+        "@ To rejoice could be something happened that was very favorable, bringing you out of perhaps sadness or even despair that you were in to start with.",
         "Everyone rejoiced at the news of his safe return.",
         "The college student rejoiced when there wasn't enough time left for her to finish her paper, but the professor gave the class another few days to finish it.",
         {
@@ -866,23 +857,23 @@
         }
     ],
     "gnaw": [
-        "To gnaw is to bite or chew something repeatedly, usually making a hole in it or gradually destroying it.",
+        "@ To gnaw is to bite or chew something repeatedly, usually making a hole in it or gradually destroying it.",
         "A dog lay under the table, gnawing on a bone.",
         {
             "nibble": [
-                "To eat something by taking a lot of small bites.",
+                "@ To eat something by taking a lot of small bites.",
                 "Do you have some peanuts for us to nibble while the party warms up?"
             ],
             "munch": [
-                "To eat something, especially noisily",
+                "@ To eat something, especially noisily.",
                 "We watched her munch her way through a bag of peanuts."
             ],
             "chomp": [
-                "To chew food noisily",
+                "@ To chew food noisily",
                 "There she sat, happily chomping her breakfast."
             ],
             "crunch": [
-                "To crush hard food loudly between the teeth, or to make a sound as if something is being crushed or broken.",
+                "@ To crush hard food loudly between the teeth, or to make a sound as if something is being crushed or broken.",
                 "The gravel crunched underfoot as we walked up to the house.",
                 "She was crunching noidily on an apple."
             ]
@@ -923,7 +914,7 @@
                 "You make wine by leaving grape juice to ferment until all the sugar has turned to alcohol."
             ],
             "fungus": [
-                "Fungus, plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, {molds, and mushrooms."
+                "@ Fungus, plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, {molds, and mushrooms."
             ]
         }
     ],
@@ -958,7 +949,7 @@
         "When he smiles (Which is seldom), his demoeanor is sardonic.",
         {
             "demean": [
-                "Demean is to cause someone to become less respected.",
+                "@ Demean is to cause someone to become less respected.",
                 "The entire family was demeaned by his behaviour.",
                 "I couldn't demean myself by asking my father for money.",
                 "To be sure, artistic practice itself was not seen to be demeaning or unbecoming of a virtuoso."
@@ -967,7 +958,7 @@
     ],
     "possess": [
         "In the past the root of this plant was thought to possess magical powers.",
-        "We're typing to bring out the artistic talents that many people possess without realizing it.",
+        "We're trying to bring out the artistic talents that many people possess without realizing it.",
         "Since sheep do not possess the opiate receptors responsible for causing anesthesia, they are not an appropriate model for testing narcotic anesthesia in fetus.",
         {
             "possession": [
@@ -982,11 +973,11 @@
                 "Both books have 'Government property' stamped inside them.",
                 "The club doesn't accept reponsibility for loss of or damage to club members' personal property.",
                 "Yes, i've bought my own house - I'm now a man of property!",
-                "One of the properties of copper is that it conducts heat and electricity very well",
+                "One of the properties of copper is that it conducts heat and electricity very well.",
                 "We value herbs for their taste, but we forget that they also have medicinal properties."
             ],
             "belongings": [
-                "Belongings is the things that a person owns, especially those that can be carried.",
+                "@ Belongings is the things that a person owns, especially those that can be carried.",
                 "He led a simple life, with few belongings, and never owned a home of his own.",
                 "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
                 "In the second part of the inventories are listed the belongings of the deceased, with their value."
@@ -997,7 +988,7 @@
         "She was wearing a dreadful pink flouncy skirt.",
         {
             "brooch": [
-                "A brooch is a small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
+                "@ A brooch is a small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
             ]
         }
     ],
@@ -1044,7 +1035,7 @@
         }
     ],
     "forbear": [
-        "To prevent yourself from saying or doing something, especially in a way that shows control, good judgment, or kindness to others.",
+        "@ To prevent yourself from saying or doing something, especially in a way that shows control, good judgment, or kindness to others.",
         "His plan was such a success that even his original critics could scarcely forbear from congratulating him.",
         {
             "inhibit": [
@@ -1063,15 +1054,15 @@
         "Male peacocks have beautiful plumage.",
         {
             "shelduck": [
-                "Shelduck is a large goose-like Old World duck with brightly coloured plumage, typically showing black and white wings in flight."
+                "@ Shelduck is a large goose-like Old World duck with brightly coloured plumage, typically showing black and white wings in flight."
             ],
             "goose": [
-                "True geese are not ducks, but there are a lot of similarities between the two and there are even some shelducks that have \"goose\" in their names"
+                "True geese are not ducks, but there are a lot of similarities between the two and there are even some shelducks that have \"goose\" in their names."
             ]
         }
     ],
     "infuse": [
-        "To fill someone or something with an emotion or quality",
+        "@ To fill someone or something with an emotion or quality.",
         "The pulling down of the Berlin Wall infused the world with optimism.",
         {
             "infection": [
@@ -1095,7 +1086,7 @@
                 ""
             ],
             "bid": [
-                "To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
+                "@ To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
                 "The communications group has shown an interest in bidding for the company.",
                 "Paris is bidding to host the next Olympics.",
                 "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is."
@@ -1103,22 +1094,22 @@
         }
     ],
     "antiseptic": [
-        "Antiseptic, as a noun, is a chemical used to prevent infection from an injury, esp. by killing bacteria.",
-        "Antiseptic is used to sterilize the skin before giving an injection",
+        "@ Antiseptic, as a noun, is a chemical used to prevent infection from an injury, esp. by killing bacteria.",
+        "Antiseptic is used to sterilize the skin before giving an injection.",
         "Many ofthe ingredients for antiseptics come from the rainforests.",
         "In the 1870s and 1880s, doctors began to follow the principles of antiseptic surgery.",
         {
             "sterilize": [
-                "Sterilize can mean to perform a medical operation on someone in order to make them unable to have children.",
+                "@ Sterilize can mean to perform a medical operation on someone in order to make them unable to have children.",
                 "After having five children, she decided to be sterlized.",
                 "The clinic will sterilize your cat for free.",
-                "Sterilize can also mean to make something completely clean and free from bacteria.",
+                "@ Sterilize can also mean to make something completely clean and free from bacteria.",
                 "All equipment must be sterilized before use."
             ]
         }
     ],
     "clinic": [
-        "Clinic is a building or part of a hospital where people go for medical care or advice.",
+        "@ Clinic is a building or part of a hospital where people go for medical care or advice.",
         "prenatal clinics provide care for pregnant women.",
         {
             "injection": [
@@ -1128,7 +1119,7 @@
         }
     ],
     "prominently": [
-        "Very noticeable, important, or famous.",
+        "@ Very noticeable, important, or famous.",
         "The government should be playing a more prominent role in promoting human rights.",
         "New books are displayed in a prominent position on tables at the front of the store.",
         "She has a prominent nose.",
@@ -1162,11 +1153,11 @@
         }
     ],
     "dictator": [
-        "A dictator is a leader who has complete power in a country and has not been elected by the people.",
+        "@ A dictator is a leader who has complete power in a country and has not been elected by the people.",
         "My boss is kind of a dictator.",
         {
             "dictatorial": [
-                "Liking to give orders.",
+                "@ Liking to give orders.",
                 "Her father is very dictatorial."
             ],
             "dictatorship": [
@@ -1193,7 +1184,7 @@
                 "The once docile population has finally risen up against the ruthless regime."
             ],
             "despotic": [
-                "Having unlimited power over other people, and often using it unfairly and cruelly.",
+                "@ Having unlimited power over other people, and often using it unfairly and cruelly.",
                 "The Inca emperor was a despotic ruler of a highly stratified society.",
                 "Dictator are individauls that exercise despotic power."
             ],
@@ -1203,14 +1194,14 @@
                 "He'd dressed up as a Roman emperor for the costume party."
             ],
             "imperial": [
-                "This type of porcelain was made specifically for the Chinese emperor and the imperial household",
+                "This type of porcelain was made specifically for the Chinese emperor and the imperial household.",
                 "The glittering ceremony conjured up images of Russia's imperial past.",
                 "The imperial guards stormed the palace.",
-                "The imperial system of measurement uses units such as inches, miles, and pints.",
+                "@ The imperial system of measurement uses units such as inches, miles, and pints.",
                 "Imperial units have in many cases been replaced by metric ones in Britain."
             ],
             "totalitarian": [
-                "Of or being a political system in which those in power have complete control and do not allow people freedom to oppose them.",
+                "@ Of or being a political system in which those in power have complete control and do not allow people freedom to oppose them.",
                 "But even in a totalitarian regime, soldiers along the border are hungry enough to take bribes.",
                 "He, a professor, represents education, which, as his lectures remind us, totalitarian governments try to keep down."
             ]
@@ -1242,10 +1233,10 @@
         "The effigy on it may be taken to be an authentic portrait."
     ],
     "urine": [
-        "Urine is a waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
+        "@ Urine is a waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
     ],
     "shank": [
-        "The shank is the part of the leg between the knee and ankle or the equivalent in animals."
+        "@ The shank is the part of the leg between the knee and ankle or the equivalent in animals."
     ],
     "acquire": [
         "To acquire wealth is difficult, to preserve it more difficult, but to spend it wisely most difficult of all."
@@ -1266,7 +1257,7 @@
         "In external ways David had hardly changed at all."
     ],
     "branch": [
-        "The definition of a branch is a part of a plant stem or a part of something which is larger and more complex."
+        "@ The definition of a branch is a part of a plant stem or a part of something which is larger and more complex."
     ],
     "chauvinistic": [
         "That is an unforgiving male chauvinistic attitude!"
@@ -1290,7 +1281,7 @@
         "The raindrops were heavier now, working the mud on her face into a slimy mess."
     ],
     "exclaim": [
-        "As she passed, they would stop her and exclaim \"Gee Your Hair Smell Terrific!\""
+        "As she passed, they would stop her and exclaim \"Gee Your Hair Smell Terrific!\"."
     ],
     "bench": [
         "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
@@ -1311,7 +1302,7 @@
         "I'm going to get an education and a decent job."
     ],
     "subconscious": [
-        "There are conscious thoughts that you're aware of and subconscious ones that you're not."
+        "& There are conscious thoughts that you're aware of and subconscious ones that you're not."
     ],
     "gaze": [
         "Her wandering gaze came up to his face and warmth shot painfully up her neck"
@@ -1320,13 +1311,13 @@
         "She was passionate about Asian cooking and that's reflected in her dining experience."
     ],
     "interchangeably": [
-        "When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
+        "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
     ],
     "severity": [
-        "Severity is the fact or condition of being severe."
+        "@ Severity is the fact or condition of being severe."
     ],
     "distinguish": [
-        "He's colour-blind and can't distinguish between red and green easily."
+        "He's color-blind and can't distinguish between red and green easily."
     ],
     "advocate": [
         "He advocates the return of capital pubishment."
@@ -1368,10 +1359,19 @@
         "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts."
     ],
     "alchemy": [
-        "Alchemy is a type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
+        "@ Alchemy is a type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
+    ],
+    "renewed": [
+        "She jumped on the story with renewed vigor.",
+        "The latest outbreak has led to renewed concern about the spread of the disease."
+    ],
+    "topple": [
+        "If your child happens to topple out of the bed, the fall isn't very far or very traumatic.",
+        "This was a secret bid to topple the chairman and take his job.",
+        "The church was prominently involved in the struggle that toppled the dictatorship."
     ],
     "trajectory": [
-        "The curved path that an object follows after it has been thrown or shot into the air.",
+        "@ The curved path that an object follows after it has been thrown or shot into the air.",
         "The missile came in on a very low trajectory.",
         "Each vector influences the momentum and direction of the developmental trajectory."
     ],
@@ -1393,7 +1393,7 @@
         "",
         {
             "mescal": [
-                "Tequilla is a type of mescal, but a mescal cannot be a tequila"
+                "& Tequilla is a type of mescal, but a mescal cannot be a tequila."
             ],
             "carbonated": [
                 "It's basically carbonated white grape juice."
@@ -2012,7 +2012,7 @@
         "",
         ""
     ],
-    "Christianity": [
+    "christianity": [
         "",
         ""
     ],
@@ -2067,6 +2067,22 @@
         ""
     ],
     "equivalent": [
+        "",
+        ""
+    ],
+    "stubborn":[
+        "",
+        ""
+    ],
+    "obscured": [
+        "",
+        ""
+    ],
+    "preside": [
+        "",
+        ""
+    ],
+    "architectural": [
         "",
         ""
     ]
