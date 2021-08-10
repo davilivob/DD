@@ -55,6 +55,9 @@
             ],
             "curly bracket": [
                 " {} "
+            ],
+            "syllable": [
+                "In the word \"engine\", you should stress the first syllable."
             ]
         }
     ],
@@ -74,6 +77,9 @@
         {
             "dicrease": [
                 "diminish and decrease are both mean to get smaller. Usually diminish means to a greater degree, like almost complete gone."
+            ],
+            "decay": [
+                "As the actinium-225 decays, it gives off short-lived, highly energized alpha particles."
             ]
         }
     ],
@@ -118,6 +124,9 @@
                 "Shocking and morally unacceptable.",
                 "It is outragious that these buildings remain empty while thousands of people have no homes.",
                 "These prices are just outrageous (= much too high)."
+            ],
+            "smuggle": [
+                "He was arrested and charged with attemping to smuggle cocaine into Scotland."
             ]
         }
     ],
@@ -370,6 +379,10 @@
                 "Despair is the feeling that there is no hope and that you can do nothing to improve a difficult or worrying situation.",
                 "Don't despair! We'll find a way out!",
                 "I desair at/over the policies of this government."
+            ],
+            "agony": [
+                "They put her on painkillers, but they didn't do enough, and she was in agony.",
+                "We give surgery patients anesthesia to avert the agony they would feel if they remained conscious."
             ]
         }
     ],
@@ -448,14 +461,6 @@
             ]
         }
     ],
-    "forbear": [
-        "To prevent yourself from saying or doing something, especially in a way that shows control, good judgment, or kindness to others.",
-        "His plan was such a success that even his original critics could scarcely forbear from congratulating him."
-    ],
-    "infuse": [
-        "To fill someone or something with an emotion or quality",
-        "The pulling down of the Berlin Wall infused the world with optimism."
-    ],
     "scarcely": [
         "I could scarcely believe it when she said she wanted to marry me.",
         "I had scarcely sat down to eat when the phone rang",
@@ -481,6 +486,9 @@
         {
             "a tidy sum": [
                 "He sold the house for a tidy (= large) sum."
+            ],
+            "calibrate": [
+                "In addition, we design, manufacture and calibrate special bench photometers(some kinda mechanical stuff) against which other photometers can be calibrated."
             ]
         }
     ],
@@ -525,10 +533,6 @@
             ]
         }
     ],
-    "frost": [
-        "The thin, white layer of ice that forms when the air temperature is below the freezing point of water, especially ouside at night.",
-        "In a normal winter, the frost penetrates deeply enough to kill off insect eggs in the soil."
-    ],
     "soil": [
         "This vertical section of the soil shows four basic soil layers.",
         "The soil in this area is very chalky",
@@ -538,6 +542,13 @@
             ],
             "chalk": [
                 "Chalk can be a type of soft white rock. Or it can also be a stick of this rock or a mimilar substance used for writing or drawing."
+            ],
+            "mud": [
+                "His shoes were covered with mud; he had torn his coat on the thorny tree."
+            ],
+            "frost": [
+                "The thin, white layer of ice that forms when the air temperature is below the freezing point of water, especially ouside at night.",
+                "In a normal winter, the frost penetrates deeply enough to kill off insect eggs in the soil."
             ]
         }
     ],
@@ -717,6 +728,9 @@
             ],
             "syrupy": [
                 "Heat the liquid until it is thick and syrupy."
+            ],
+            "sucrose": [
+                "Sucrose is the type of sugar that exists naturally in most plants that grow on land."
             ]
         }
     ],
@@ -777,6 +791,18 @@
                 "The chemistry exam was fierce (= difficult).",
                 "The girl group look fierce around a swimming pool in the video for their new single",
                 "But, as soon as the war ended, social unrest spread rapidly because of fierce inflation and other factors."
+            ],
+            "assault": [
+                "Police are hunting a student attacker after an unprovoked assault in a night club.",
+                "Women's groups have demanded a nationwide assault on sexism in the worplace.",
+                "She died heroically during an assault on the world's second highest mountain.",
+                "University ofiicials are concerned about a series of assaults on teachers and students near the campus."
+            ],
+            "dreadful": [
+                "The dreadful sufferings of the people during this war."
+            ],
+            "flounce": [
+                "\"Don't expect any help from me in future!\" he said and flounced out of the room."
             ]
         }
     ],
@@ -822,6 +848,143 @@
             ]
         }
     ],
+    "component": [
+        "The course has four main components: business law, finance, computing and managment skills.",
+        {
+            "compound": [
+                "Salt is a compound of sodium and chlorine."
+            ],
+            "ingredient": [
+                ""
+            ]
+        }
+    ],
+    "emerge": [
+        "Your scent will emerge, always revealing your whereabouts.",
+        {
+            "immerse": [
+                "There is no better way to improve your language skills than immerse yourself in the culture."
+            ]
+        }
+    ],
+    "yeast": [
+        "You mix flour, yeast and water to make bread.",
+        {
+            "ferment": [
+                "You make wine by leaving grape juice to ferment until all the sugar has turned to alcohol."
+            ],
+            "fungus": [
+                "Fungus, plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, {molds, and mushrooms."
+            ]
+        }
+    ],
+    "parameter": [
+        "The researchers must keep within the parameters of the experiment.",
+        "The report defines the parameters of best practice at a strategic, operational, and process level within an organization.",
+        {
+            "within the parameters of sth": [
+                "We must work within the parameters of the law."
+            ]
+        }
+    ],
+    "determined": [
+        "Several publishers rejected her book, but that just made her all the more determined.",
+        "After the fire we were determined to pick up the pieces and get the business back on its feet.",
+        {
+            "determine": [
+                "The number of staff we can take on will be determined by how much money we're allowed to spend.",
+                "Your health is determined in part by what you eat.",
+                "Is is the reponsibility of the court to determine whether these men are innocent.",
+                "He determined that his wife was cheating on him."
+            ],
+            "decide": [
+                "I decided to eat dinner after studying.",
+                "I will have to decide what university to apply to."
+            ]
+        }
+    ],
+    "demeanor": [
+        "She has the demeanor of a woman who is contented with her life.",
+        "In this way honorific speech becomes indexical of speaker status and demeanor.",
+        "When he smiles (Which is seldom), his demoeanor is sardonic.",
+        {
+            "demean": [
+                "Demean is to cause someone to become less respected.",
+                "The entire family was demeaned by his behaviour.",
+                "I xouldn't demean myself by asking my father for money.",
+                "To be sure, artistic practice itself was not seen to be demeaning or unbecoming of a virtuoso."
+            ]
+        }
+    ],
+    "possess": [
+        "In the past the root of this plant was thought to possess magical powers.",
+        "We're typing to bring out the artistic talents that many people possess without realizing it.",
+        "Since sheep do not possess the opiate receptors responsible for causing anesthesia, they are not an appropriate model for testing narcotic anesthesia in fetus.",
+        {
+            "possession": [
+                "The possession of large amounts of money doesn't ensure happiness.",
+                "He was found in possession of explosives.",
+                "Please remember to take all your personal possessions with you when you leave the aircraft.",
+                "We need to keep possession of the ball to give ourselves a chance.",
+                "We've already bought the  house but we won't possession of it until May.",
+                "She attaches a lot of importance to personal possessions."
+            ],
+            "property": [
+                "Both books have 'Government property' stamped inside them.",
+                "The club doesn't accept reponsibility for loss of or damage to club members' personal property.",
+                "Yes, i've bought my own house - I'm now a man of property!",
+                "One of the properties of copper is that it conducts heat and electricity very well",
+                "We value herbs for their taste, but we forget that they also have medicinal properties."
+            ],
+            "belongings": [
+                "Belongings is the things that a person owns, especially those that can be carried.",
+                "He led a simple life, with few belongings, and never owned a home of his own.",
+                "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
+                "In the second part of the inventories are listed the belongings of the deceased, with their value."
+            ]
+        }
+    ],
+    "skirt": [
+        "She was wearing a dreadful pink flouncy skirt.",
+        {
+            "brooch": [
+                "A brooch is a small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
+            ]
+        }
+    ],
+    "elegance": [
+        "He was known for his elegance and wit.",
+        {
+            "graceful": [
+                "The gazelle is one of the swiftest and most graceful of animals."
+            ]
+        }
+    ],
+    "reputation": [
+        "He earned/established/gained/acquired a reputation as an entertaining speaker.",
+        "The newspaper has a reputation for being littered with spelling mistakes.",
+        "recent discoveries about coruption have done serious damage to the company's reputation.",
+        "She has a reputation as a tough negotiator.",
+        "He knew Hindman by reputation before interviewing him for the post.",
+        {
+            "nonentitiy": [
+                "This collection of essays is saved from nonentitiy by the stature of the contributors.",
+                "It's a low-budget film full of nonentities."
+            ]
+        }
+    ],
+    "abyss": [
+        "I may enjoy dancing on the edge of the abyss, but I will never ever topple in, understand?",
+        {
+            "cavity": [
+                "The gold was hidden in a secret cavity."
+            ],
+            "cliff": [
+                "",
+                ""
+            ]
+        }
+    ],
     "inherit": [
         "The company's new president will inherit some complicated legal problems."
     ],
@@ -831,8 +994,100 @@
     "liquefy": [
         "The critical pressure is the amount of pressure required to liquefy water at the critical temperature."
     ],
-    "abyss": [
-        "I may enjoy dancing on the edge of the abyss, but I will never ever topple in, understand?"
+    "forbear": [
+        "To prevent yourself from saying or doing something, especially in a way that shows control, good judgment, or kindness to others.",
+        "His plan was such a success that even his original critics could scarcely forbear from congratulating him.",
+        {
+            "inhibit": [
+                "Some workers were inhibited from speaking by the presence of their managers.",
+                "This drug inhibits the growth of tumours.",
+                "The merger of the two corporationswas not allowed because it would inhibit open competition."
+            ],
+            "forbid": [
+                "The law forbids the sale of cigarettes to people under the age of 16.",
+                "He's obviously really embarrassed about it because he forbade me to tell anyone.",
+                "He's forbidden from leaving the country."
+            ]
+        }
+    ],
+    "plumage": [
+        "Male peacocks have beautiful plumage.",
+        {
+            "shelduck": [
+                "Shelduck is a large goose-like Old World duck with brightly coloured plumage, typically showing black and white wings in flight."
+            ],
+            "goose": [
+                "True geese are not ducks, but there are a lot of similarities between the two and there are even some shelducks that have \"goose\" in their names"
+            ]
+        }
+    ],
+    "infuse": [
+        "To fill someone or something with an emotion or quality",
+        "The pulling down of the Berlin Wall infused the world with optimism.",
+        {
+            "infection": [
+                ""
+            ]
+        }
+    ],
+    "intermingle": [
+        "Fact is intermingled with fiction throughout the book.",
+        {
+            "merger": []
+        }
+    ],
+    "opponent": [
+        "She hit the ball so hard that her opponent had no chance to establish any rhythm in her game.",
+        {
+            "compete": [
+                ""
+            ]
+        }
+    ],
+    "antiseptic": [
+        "Antiseptic, as a noun, is a chemical used to prevent infection from an injury, esp. by killing bacteria.",
+        "Antiseptic is used to sterilize the skin before giving an injection",
+        "Many ofthe ingredients for antiseptics come from the rainforests.",
+        "In the 1870s and 1880s, doctors began to follow the principles of antiseptic surgery.",
+        {
+            "sterilize": [
+                "Sterilize can mean to perform a medical operation on someone in order to make them unable to have children.",
+                "After having five children, she decided to be sterlized.",
+                "The clinic will sterilize your cat for free.",
+                "Sterilize can also mean to make something completely clean and free from bacteria.",
+                "All equipment must be sterilized before use."
+            ],
+            "clinic": [
+                "Clinic is a building or part of a hospital where people go for medical care or advice.",
+                "prenatal clinics provide care for pregnant women.",
+            ]
+        }
+    ],
+    "prominently": [
+        "Very noticeable, important, or famous.",
+        "The government should be playing a more prominent role in promoting human rights.",
+        "New books are displayed in a prominent position on tables at the front of the store.",
+        "She has a prominent nose.",
+        {
+            "prominence": [
+                "Despite his prominence, he was never able to make a living."
+            ],
+            "prominently": [
+                "A photograph of her daughter was prominently displayed on her desk.",
+                "I left the book lying around with a bookmark protruding prominently from the last chapter.",
+                "Economic problems have figured prominently in the election.",
+                "Having spelling mistakes and typos highlighted so prominently is distracting to the reader."
+            ],
+            "protrude": [
+                "A rotting branch protruded from the swamp like a ghostly arm.",
+                "A snake protruded its tongue and hissed loudly.",
+                {
+                    "protrusion": [
+                        "A protrusion on the cliffs looks like a human head."
+                    ]
+                }
+            ]
+        }
     ],
     "effigy": [
         "The effigy on it may be taken to be an authentic portrait."
@@ -857,9 +1112,6 @@
     ],
     "shank": [
         "The shank is the part of the leg between the knee and ankle or the equivalent in animals."
-    ],
-    "emerge": [
-        "Your scent will emerge, always revealing your whereabouts."
     ],
     "acquire": [
         "To acquire wealth is difficult, to preserve it more difficult, but to spend it wisely most difficult of all."
@@ -888,9 +1140,6 @@
     "morph": [
         "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph."
     ],
-    "immerse": [
-        "There is no better way to improve your language skills than immerse yourself in the culture."
-    ],
     "entropy": [
         "In the special case of a substance isolated from external heat supply, dH=0, the change of entropy is zero in a reversible process, but must be positive if the process is not reversible."
     ],
@@ -900,17 +1149,11 @@
     "pathology": [
         "Pathology is defined as a branch of medical science that studies the nature, effects, causes and consequences of disease."
     ],
-    "smuggle": [
-        "He was arrested and charged with attemping to smuggle cocaine into Scotland."
-    ],
     "thorn": [
         "He had been a thorn in her side ever since."
     ],
     "preserve": [
         "He wanted to protect her and preserve her innocence."
-    ],
-    "calibrate": [
-        "In addition, we design, manufacture and calibrate special bench photometers(some kinda mechanical stuff) against which other photometers can be calibrated."
     ],
     "slimy": [
         "The raindrops were heavier now, working the mud on her face into a slimy mess."
@@ -936,9 +1179,6 @@
     "traumatic": [
         "It was very traumatic for Donnie and he hasn't spoke since."
     ],
-    "mud": [
-        "His shoes were covered with mud; he had torn his coat on the thorny tree."
-    ],
     "decent": [
         "I'm going to get an education and a decent job."
     ],
@@ -957,26 +1197,8 @@
     "severity": [
         "Severity is the fact or condition of being severe."
     ],
-    "fungus": [
-        "Fungus, plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, {molds, and mushrooms."
-    ],
-    "ferment": [
-        "You make wine by leaving grape juice to ferment until all the sugar has turned to alcohol."
-    ],
-    "yeast": [
-        "You mix flour, yeast and water to make bread."
-    ],
     "plural": [
         "Geese is the plural of goose"
-    ],
-    "goose": [
-        "True geese are not ducks, but there are a lot of similarities between the two and there are even some shelducks that have \"goose\" in their names"
-    ],
-    "shelduck": [
-        "Shelduck is a large goose-like Old World duck with brightly coloured plumage, typically showing black and white wings in flight."
-    ],
-    "plumage": [
-        "Male peacocks have beautiful plumage."
     ],
     "distinguish": [
         "He's colour-blind and can't distinguish between red and green easily."
@@ -986,15 +1208,6 @@
     ],
     "trimmed": [
         "She was wearing a black suit trimmed with white."
-    ],
-    "compound": [
-        "Salt is a compound of sodium and chlorine."
-    ],
-    "component": [
-        "The course has four main components: business law, finance, computing and managment skills."
-    ],
-    "syllable": [
-        "In the word \"engine\", you should stress the first syllable."
     ],
     "at sb's disposal": [
         "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
@@ -1014,24 +1227,6 @@
     "counselor": [
         "The college now has a counselor to help students with both personal and work problems."
     ],
-    "sucrose": [
-        "Sucrose is the type of sugar that exists naturally in most plants that grow on land."
-    ],
-    "skirt": [
-        "She was wearing a dreadful pink flouncy skirt."
-    ],
-    "dreadful": [
-        "The dreadful sufferings of the people during this war."
-    ],
-    "flounce": [
-        "\"Don't expect any help from me in future!\" he said and flounced out of the room."
-    ],
-    "elegance": [
-        "He was known for his elegance and wit."
-    ],
-    "graceful": [
-        "The gazelle is one of the swiftest and most graceful of animals."
-    ],
     "swift": [
         "Thank you for your swift reply."
     ],
@@ -1044,41 +1239,11 @@
     "craft": [
         "That's a beautifully crafted silver brooch."
     ],
-    "brooch": [
-        "A brooch is a small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
-    ],
     "ceasefire": [
         "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts."
     ],
-    "intermingle": [
-        "Fact is intermingled with fiction throughout the book."
-    ],
-    "cavity": [
-        "The gold was hidden in a secret cavity."
-    ],
-    "decay": [
-        "As the actinium-225 decays, it gives off short-lived, highly energized alpha particles."
-    ],
-    "opponent": [
-        "She hit the ball so hard that her opponent had no chance to establish any rhythm in her game."
-    ],
     "alchemy": [
         "Alchemy is a type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
-    ],
-    "assault": [
-        "Police are hunting a student attacker after an unprovoked assault in a night club.",
-        "Women's groups have demanded a nationwide assault on sexism in the worplace.",
-        "She died heroically during an assault on the world's second highest mountain.",
-        "University ofiicials are concerned about a series of assaults on teachers and students near the campus."
-    ],
-    "parameter": [
-        "The researchers must keep within the parameters of the experiment.",
-        "The report defines the parameters of best practice at a strategic, operational, and process level within an organization.",
-        {
-            "within the parameters of sth": [
-                "We must work within the parameters of the law."
-            ]
-        }
     ],
     "trajectory": [
         "The curved path that an object follows after it has been thrown or shot into the air.",
@@ -1090,103 +1255,21 @@
         "Mandatory arbitration is a private, quasi-legal system of resolving disputes.",
         "Laborers sometimes served as quasi-soldiers."
     ],
-    "agony": [
-        "They put her on painkillers, but they didn't do enough, and she was in agony.",
-        "We give surgery patients anesthesia to avert the agony they would feel if they remained conscious."
-    ],
     "oriented": [
         "She wants to turn the company into a profit-oriented orgnization.",
         "Countries with more globally oriented economies have higher levels of information technology investment."
-    ],
-    "reputation": [
-        "He earned/established/gained/acquired a reputation as an entertaining speaker.",
-        "The newspaper has a reputation for being littered with spelling mistakes.",
-        "recent discoveries about coruption have done serious damage to the company's reputation.",
-        "She has a reputation as a tough negotiator.",
-        "He knew Hindman by reputation before interviewing him for the post."
-    ],
-    "determined": [
-        "Several publishers rejected her book, but that just made her all the more determined.",
-        "After the fire we were determined to pick up the pieces and get the business back on its feet.",
-        {
-            "determine": [
-                "The number of staff we can take on will be determined by how much money we're allowed to spend.",
-                "Your health is determined in part by what you eat.",
-                "Is is the reponsibility of the court to determine whether these men are innocent.",
-                "He determined that his wife was cheating on him."
-            ],
-            "decide":[
-                "I decided to eat dinner after studying.",
-                "I will have to decide what university to apply to."
-            ]
-        }
-    ],
-    "nonentitiy": [
-        "This collection of essays is saved from nonentitiy by the stature of the contributors.",
-        "It's a low-budget film full of nonentities."
-    ],
-    "demeanor": [
-        "She has the demeanor of a woman who is contented with her life.",
-        "In this way honorific speech becomes indexical of speaker status and demeanor.",
-        "When he smiles (Which is seldom), his demoeanor is sardonic.",
-        {
-            "demean":[
-                "Demean is to cause someone to become less respected.",
-                "The entire family was demeaned by his behaviour.",
-                "I xouldn't demean myself by asking my father for money.",
-                "To be sure, artistic practice itself was not seen to be demeaning or unbecoming of a virtuoso."
-            ]
-        }
-    ],
-    "possess": [
-        "In the past the root of this plant was thought to possess magical powers.",
-        "We're typing to bring out the artistic talents that many people possess without realizing it.",
-        "Since sheep do not possess the opiate receptors responsible for causing anesthesia, they are not an appropriate model for testing narcotic anesthesia in fetus.",
-        {
-            "possession":[
-                "The possession of large amounts of money doesn't ensure happiness.",
-                "He was found in possession of explosives.",
-                "Please remember to take all your personal possessions with you when you leave the aircraft.",
-                "We need to keep possession of the ball to give ourselves a chance.",
-                "We've already bought the  house but we won't possession of it until May.",
-                "She attaches a lot of importance to personal possessions."
-            ],
-            "property":[
-                "Both books have 'Government property' stamped inside them.",
-                "The club doesn't accept reponsibility for loss of or damage to club members' personal property.",
-                "Yes, i've bought my own house - I'm now a man of property!",
-                "One of the properties of copper is that it conducts heat and electricity very well",
-                "We value herbs for their taste, but we forget that they also have medicinal properties."
-            ],
-            "belongings":[
-                "Belongings is the things that a person owns, especially those that can be carried.",
-                "He led a simple life, with few belongings, and never owned a home of his own.",
-                "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
-                "In the second part of the inventories are listed the belongings of the deceased, with their value."
-            ]
-        }
     ],
     "verifiable": [
         "The inquiry found no verifiable evidence of document of data falsification.",
         "The treaty aims to make developing countries' emissions cuts verifiable."
     ],
-    "unknown_words":"",
-    "inhibit": [
-        "",
-        ""
-    ],
-    "antiseptic": [
-        "",
-        ""
-    ],
     "bid": [
-        "",
-        ""
+        "To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
+        "The communications group has shown an interest in bidding for the company.",
+        "Paris is bidding to host the next Olympics.",
+        "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is."
     ],
-    "prominently": [
-        "",
-        ""
-    ],
+    "unknown_words": "hiss swamp typo figure evaluate contract instruction injection prenatal presence",
     "dictator": [
         "",
         ""
@@ -1720,6 +1803,106 @@
         ""
     ],
     "idiosyncratic": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
+        "",
+        ""
+    ],
+    "": [
         "",
         ""
     ],
