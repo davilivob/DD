@@ -192,6 +192,12 @@
                 "'Resolute' means stubborn, but with a more positive connotation.",
                 "The literal meaning of the term prestidigitator is 'nimble-fingered', but its connotations extend to the idea of illusion, imposture, deception."
             ],
+            "denote": [
+                "The color red used to denote passion or danger",
+                "His angry tone denoted extreme displeasure.",
+                "The vertical line denotes the relative abundance of vertebrate remains in the various depositional environments.",
+                "The period saw the radical separation of micro- and macro-economics (a separation denoted, paradoxically, as a 'neoclassical synthesis')."
+            ],
             "imply": [
                 "I'm not implying anything about your cooking, but could we eat out tonight?",
                 "imply can also mean to involve something or make it necessary.",
@@ -653,6 +659,11 @@
             ],
             "coherence": [
                 "An essay without coherence can inhibit a reader's ability to understand the ideas and main points of the essay."
+            ],
+            "summary": [
+                "I only asked for a summary of the main points but she's making a real meal out of it.",
+                "In summary, they decided against the proposal.",
+                "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocaulary."
             ]
         }
     ],
@@ -1084,41 +1095,82 @@
         "We give surgery patients anesthesia to avert the agony they would feel if they remained conscious."
     ],
     "oriented": [
-        "",
-        ""
+        "She wants to turn the company into a profit-oriented orgnization.",
+        "Countries with more globally oriented economies have higher levels of information technology investment."
     ],
     "reputation": [
-        "",
-        ""
+        "He earned/established/gained/acquired a reputation as an entertaining speaker.",
+        "The newspaper has a reputation for being littered with spelling mistakes.",
+        "recent discoveries about coruption have done serious damage to the company's reputation.",
+        "She has a reputation as a tough negotiator.",
+        "He knew Hindman by reputation before interviewing him for the post."
     ],
     "determined": [
-        "",
-        ""
+        "Several publishers rejected her book, but that just made her all the more determined.",
+        "After the fire we were determined to pick up the pieces and get the business back on its feet.",
+        {
+            "determine": [
+                "The number of staff we can take on will be determined by how much money we're allowed to spend.",
+                "Your health is determined in part by what you eat.",
+                "Is is the reponsibility of the court to determine whether these men are innocent.",
+                "He determined that his wife was cheating on him."
+            ],
+            "decide":[
+                "I decided to eat dinner after studying.",
+                "I will have to decide what university to apply to."
+            ]
+        }
     ],
     "nonentitiy": [
-        "",
-        ""
+        "This collection of essays is saved from nonentitiy by the stature of the contributors.",
+        "It's a low-budget film full of nonentities."
     ],
     "demeanor": [
-        "",
-        ""
+        "She has the demeanor of a woman who is contented with her life.",
+        "In this way honorific speech becomes indexical of speaker status and demeanor.",
+        "When he smiles (Which is seldom), his demoeanor is sardonic.",
+        {
+            "demean":[
+                "Demean is to cause someone to become less respected.",
+                "The entire family was demeaned by his behaviour.",
+                "I xouldn't demean myself by asking my father for money.",
+                "To be sure, artistic practice itself was not seen to be demeaning or unbecoming of a virtuoso."
+            ]
+        }
     ],
     "possess": [
-        "",
-        ""
+        "In the past the root of this plant was thought to possess magical powers.",
+        "We're typing to bring out the artistic talents that many people possess without realizing it.",
+        "Since sheep do not possess the opiate receptors responsible for causing anesthesia, they are not an appropriate model for testing narcotic anesthesia in fetus.",
+        {
+            "possession":[
+                "The possession of large amounts of money doesn't ensure happiness.",
+                "He was found in possession of explosives.",
+                "Please remember to take all your personal possessions with you when you leave the aircraft.",
+                "We need to keep possession of the ball to give ourselves a chance.",
+                "We've already bought the  house but we won't possession of it until May.",
+                "She attaches a lot of importance to personal possessions."
+            ],
+            "property":[
+                "Both books have 'Government property' stamped inside them.",
+                "The club doesn't accept reponsibility for loss of or damage to club members' personal property.",
+                "Yes, i've bought my own house - I'm now a man of property!",
+                "One of the properties of copper is that it conducts heat and electricity very well",
+                "We value herbs for their taste, but we forget that they also have medicinal properties."
+            ],
+            "belongings":[
+                "Belongings is the things that a person owns, especially those that can be carried.",
+                "He led a simple life, with few belongings, and never owned a home of his own.",
+                "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
+                "In the second part of the inventories are listed the belongings of the deceased, with their value."
+            ]
+        }
     ],
-    "verifiably": [
-        "",
-        ""
+    "verifiable": [
+        "The inquiry found no verifiable evidence of document of data falsification.",
+        "The treaty aims to make developing countries' emissions cuts verifiable."
     ],
-    "denote": [
-        "",
-        ""
-    ],
-    "summary": [
-        "",
-        ""
-    ],
+    "unknown_words":"",
     "inhibit": [
         "",
         ""
@@ -1499,155 +1551,175 @@
         "",
         ""
     ],
-    "": [
+    "narrow": [
         "",
         ""
     ],
-    "": [
+    "corruption": [
         "",
         ""
     ],
-    "": [
+    "unmade": [
         "",
         ""
     ],
-    "": [
+    "negotiator": [
         "",
         ""
     ],
-    "": [
+    "court": [
         "",
         ""
     ],
-    "": [
+    "firm": [
         "",
         ""
     ],
-    "": [
+    "stature": [
         "",
         ""
     ],
-    "": [
+    "contributor": [
         "",
         ""
     ],
-    "": [
+    "contented": [
         "",
         ""
     ],
-    "": [
+    "axis": [
         "",
         ""
     ],
-    "": [
+    "idexical": [
         "",
         ""
     ],
-    "": [
+    "honorific": [
         "",
         ""
     ],
-    "": [
+    "sardonic": [
         "",
         ""
     ],
-    "": [
+    "virtuoso": [
         "",
         ""
     ],
-    "": [
+    "unbecoming": [
         "",
         ""
     ],
-    "": [
+    "symmetry": [
         "",
         ""
     ],
-    "": [
+    "dimension": [
         "",
         ""
     ],
-    "": [
+    "opiate": [
         "",
         ""
     ],
-    "": [
+    "receptor": [
         "",
         ""
     ],
-    "": [
+    "fetus": [
         "",
         ""
     ],
-    "": [
+    "narcotic": [
         "",
         ""
     ],
-    "": [
+    "aircraft": [
         "",
         ""
     ],
-    "": [
+    "attach": [
         "",
         ""
     ],
-    "": [
+    "flood": [
         "",
         ""
     ],
-    "": [
+    "flee": [
         "",
         ""
     ],
-    "": [
+    "inventory": [
         "",
         ""
     ],
-    "": [
+    "deceased": [
         "",
         ""
     ],
-    "": [
+    "stamp": [
         "",
         ""
     ],
-    "": [
+    "bidder": [
         "",
         ""
     ],
-    "": [
+    "auction": [
         "",
         ""
     ],
-    "": [
+    "copper": [
         "",
         ""
     ],
-    "": [
+    "medicinal": [
         "",
         ""
     ],
-    "": [
+    "herb": [
         "",
         ""
     ],
-    "": [
+    "falsification": [
         "",
         ""
     ],
-    "": [
+    "inquiry": [
         "",
         ""
     ],
-    "": [
+    "emission": [
         "",
         ""
     ],
-    "": [
+    "treaty": [
         "",
         ""
     ],
-    "": [
+    "synthesis": [
+        "",
+        ""
+    ],
+    "neoclassical": [
+        "",
+        ""
+    ],
+    "paradoxically": [
+        "",
+        ""
+    ],
+    "macro-": [
+        "",
+        ""
+    ],
+    "proposal": [
+        "",
+        ""
+    ],
+    "idiosyncratic": [
         "",
         ""
     ],
