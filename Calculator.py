@@ -1,10 +1,10 @@
-sum = 0
+vocabularies = 0
 with open("daily_english.json", mode="r") as file:
-    data = file.read()
-data = data.replace('""', '').replace(' "', '').replace('."', '').replace('!"','').replace('?"', '')
+    dictionary = file.read()
+dictionary = dictionary.replace('""', '').replace(' "', '').replace('."', '').replace('!"','').replace('?"', '')
 
-for char in data:
+for char in dictionary:
     if char == '"':
-        sum += 1
-# print(data,'\n')
-print(sum)
+        vocabularies += 1
+# print(dictionary,'\n')
+print(vocabularies)
