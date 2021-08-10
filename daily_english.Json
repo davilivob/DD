@@ -58,6 +58,9 @@
             ],
             "syllable": [
                 "In the word \"engine\", you should stress the first syllable."
+            ],
+            "typo": [
+                ""
             ]
         }
     ],
@@ -1269,7 +1272,7 @@
         "Paris is bidding to host the next Olympics.",
         "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is."
     ],
-    "unknown_words": "hiss swamp typo figure evaluate contract instruction injection prenatal presence",
+    "unknown_words": "hiss swamp figure evaluate contract instruction injection prenatal presence",
     "dictator": [
         "",
         ""
