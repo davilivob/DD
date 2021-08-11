@@ -106,11 +106,11 @@ class AdvancedData:
         Amount = ": " + str(WordsAmount(WordsRepeated, index))+" "
         Percentage = Math.percent(WordsAmount(WordsRepeated, index), len(
                 wordsList), decimalDegree)
-
         TopUsed += Word + Amount + Percentage
         TopUsed += fitSpace(Amount + Percentage + Word)
-        if index % 5 == 4 and index <= RankRange-3:
+        if (index) % 5 == 4 and index <= RankRange-3:
             TopUsed += "\n\n      "
+        
 
 
 R = RegularData
@@ -150,36 +150,37 @@ class AllanPoeTest:
 
 
 APT = AllanPoeTest
+class Write:
+    Vocbularies = 'VOCABULARIES: ' + str(R.voc)
+    Learned = 'Learned: ' + str(R.alr) + Math.percent(R.alr, R.voc, decimalDegree)
+    Unlearned = 'Unlearned: ' + \
+        str(R.unl) + Math.percent(R.unl, R.voc, decimalDegree)
+    Sentences = 'SENTENCES: ' + str(R.sen)
+    Examples = 'Examples: ' + \
+        str(R.exp) + Math.percent(R.exp, R.sen, decimalDegree)
+    Definitions = 'Definitions: ' + \
+        str(R.defi) + Math.percent(R.defi, R.sen, decimalDegree)
+    Comparisons = 'Comparisons: ' + \
+        str(R.com) + Math.percent(R.com, R.sen, decimalDegree)
+    TotalWords = "Total Words: " + str(len(A.wordsList))
+    TotalCharacters = "Total Characters: " + str(len(APT.letters))
+    LettersPerWord = "Letters Per Word: " + str(Math.takeDecimal(
+        len(APT.letters), len(A.wordsList), 1000))
+    ATPrate = "Allan Poe Index: " + str(APT.Grade)[2:-1]
+    ATPresult = "Result:     " + APT.ShowLettersSort
 
-Vocbularies = 'VOCABULARIES: ' + str(R.voc)
-Learned = 'Learned: ' + str(R.alr) + Math.percent(R.alr, R.voc, decimalDegree)
-Unlearned = 'Unlearned: ' + \
-    str(R.unl) + Math.percent(R.unl, R.voc, decimalDegree)
-Sentences = 'SENTENCES: ' + str(R.sen)
-Examples = 'Examples: ' + \
-    str(R.exp) + Math.percent(R.exp, R.sen, decimalDegree)
-Definitions = 'Definitions: ' + \
-    str(R.defi) + Math.percent(R.defi, R.sen, decimalDegree)
-Comparisons = 'Comparisons: ' + \
-    str(R.com) + Math.percent(R.com, R.sen, decimalDegree)
-TotalWords = "Total Words: " + str(len(A.wordsList))
-TotalCharacters = "Total Characters: " + str(len(APT.letters))
-LettersPerWord = "Letters Per Word: " + str(Math.takeDecimal(
-    len(APT.letters), len(A.wordsList), 1000))
-ATPrate = "Allan Poe Test: " + str(APT.Grade)[2:-1]
-ATPresult = "Result:     " + APT.ShowLettersSort
 Print.ln('')
-Print.ln(Vocbularies)
-Print.tabln(Learned + fitSpace(Learned) + Unlearned)
-Print.ln(Sentences)
-Print.tabln(Examples + fitSpace(Examples) +
-            Definitions + fitSpace(Definitions) + Comparisons)
-Print.ln("ADVANCED DATA: ")
-Print.tabln(TotalWords + fitSpace(TotalWords) + TotalCharacters +
-            fitSpace(TotalCharacters) + LettersPerWord)
-Print.ln("TOP "+str(A.RankRange)+" USED WORDS: ")
-Print.tabln(A.TopUsed)
-Print.ln(ATPrate)
+Print.ln(Write.ATPrate)
 Print.tabln(
     "Stantard:   e, t, a, o, i, n, s, h, r, d, l, c, u, m, w, f, g, y, p, b, v, k, j, x, q, z")
-Print.tabln(ATPresult)
+Print.tabln(Write.ATPresult)
+Print.ln(Write.Vocbularies)
+Print.tabln(Write.Learned + fitSpace(Write.Learned) + Write.Unlearned)
+Print.ln(Write.Sentences)
+Print.tabln(Write.Examples + fitSpace(Write.Examples) +
+            Write.Definitions + fitSpace(Write.Definitions) + Write.Comparisons)
+Print.ln("ADVANCED DATA: ")
+Print.tabln(Write.TotalWords + fitSpace(Write.TotalWords) + Write.TotalCharacters +
+            fitSpace(Write.TotalCharacters) + Write.LettersPerWord)
+Print.ln("TOP "+str(A.RankRange)+" USED WORDS: ")
+Print.tabln(A.TopUsed)
