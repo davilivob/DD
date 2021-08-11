@@ -13,7 +13,7 @@ SmallSpace = " "*15
 
 
 def fitSpace(string):
-    return " "*(32-len(string))
+    return " "*(40-len(string))
 
 
 class Print:
@@ -100,17 +100,36 @@ class AdvancedData:
         return WordsRepeated[index][1]
 
     TopUsed = ""
-    RankRange = 100
+    RankRange = 388
 
-    for index in range(0, RankRange):
-        Word = '"' + WordsItself(WordsRepeated, index)+'"'
+    col = 3
+    row = int(RankRange/col)+1
+    num = 0
+    record = 0
+    remain = RankRange - (col-1)*row
+    arr = []
+    while len(arr) < RankRange:
+        arr.append(num)
+        num += row
+        if record < remain:
+            arr.append(num)
+            num += row
+            record += 1
+            arr.append(num)
+            num -= (row*2-1)
+        else:
+            arr.append(num)
+            num -= (row-1)
+    # arr.sort()
+    for index in arr:
+        if index < row:
+            TopUsed += "\n      "
+        Word = str(index+1) + '. "' + WordsItself(WordsRepeated, index).capitalize()+ '"'
         Amount = ": " + str(WordsAmount(WordsRepeated, index))+" "
         Percentage = Math.percent(WordsAmount(WordsRepeated, index), len(
-            wordsList), decimalDegree)
+            wordsList), 100)
         TopUsed += Word + Amount + Percentage
         TopUsed += fitSpace(Amount + Percentage + Word)
-        if (index) % 5 == 4 and index <= RankRange-3:
-            TopUsed += "\n\n      "
 
 
 R = RegularData
@@ -195,6 +214,10 @@ APL = AllanPoeIndex
 F = FirstLetterIndex
 
 
+def Loadbar(ratio, range):
+    return '█'*int(range*ratio)+'_'*int(range-range*ratio)
+
+
 class Write:
     Vocbularies = 'VOCABULARIES: ' + str(R.voc)
     Learned = 'Learned: ' + str(R.alr) + \
@@ -212,20 +235,24 @@ class Write:
     TotalCharacters = "Total Characters: " + str(len(APL.letters))
     LettersPerWord = "Letters Per Word: " + str(Math.takeDecimal(
         len(APL.letters), len(A.wordsList), 1000))
-    APLrate = "Allan Poe Index:    " + str(APL.Grade)[2:-1]
-    APLresult = "Result:     " + APL.ShowLettersSort[:76]
-    FLIrate = "First Letter Index: " + str(F.Grade)[2:-1]
-    FLIresult = "Result:     " + F.ShowLettersSort[:76]
+    APLrate = "Allan Poe Index:    " + \
+        str(APL.Grade)[2:-1] + "     " + \
+        Loadbar(float(str(APL.Grade)[2:-3])/100, 60)
+    APLresult = "Result:        " + APL.ShowLettersSort[:76]
+    FLIrate = "First Letter Index: " + \
+        str(F.Grade)[2:-1] + "     " + \
+        Loadbar(float(str(F.Grade)[2:-3])/100, 60)
+    FLIresult = "Result:        " + F.ShowLettersSort[:76]
 
 
 Print.ln('')
 Print.ln(Write.APLrate)
 Print.tabln(
-    "Stantard:   e, t, a, o, i, n, s, h, r, d, l, c, u, m, w, f, g, y, p, b, v, k, j, x, q, z")
+    "Stantard:      e, t, a, o, i, n, s, h, r, d, l, c, u, m, w, f, g, y, p, b, v, k, j, x, q, z")
 Print.tabln(Write.APLresult)
 Print.ln(Write.FLIrate)
 Print.tabln(
-    "Stantard:   t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z")
+    "Stantard:      t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z")
 Print.tabln(Write.FLIresult)
 Print.ln(Write.Vocbularies)
 Print.tabln(Write.Learned + fitSpace(Write.Learned) + Write.Unlearned)
@@ -235,10 +262,5 @@ Print.tabln(Write.Examples + fitSpace(Write.Examples) +
 Print.ln("ADVANCED DATA: ")
 Print.tabln(Write.TotalWords + fitSpace(Write.TotalWords) + Write.TotalCharacters +
             fitSpace(Write.TotalCharacters) + Write.LettersPerWord)
-Print.ln("TOP "+str(A.RankRange)+" USED WORDS: ")
+print("TOP "+str(A.RankRange)+" USED WORDS: ")
 Print.tabln(A.TopUsed)
-
-# print(str(F.LettersRepeated))
-# print(str(F.FirstLetter))
-# print(str(F.ShowLettersSort))
-# print(str(F.CurrentSortList))
