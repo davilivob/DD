@@ -101,43 +101,49 @@ class AdvancedData:
 
     TopUsed = ""
     RankRange = 100
+
     for index in range(0, RankRange):
         Word = '"' + WordsItself(WordsRepeated, index)+'"'
         Amount = ": " + str(WordsAmount(WordsRepeated, index))+" "
         Percentage = Math.percent(WordsAmount(WordsRepeated, index), len(
-                wordsList), decimalDegree)
+            wordsList), decimalDegree)
         TopUsed += Word + Amount + Percentage
         TopUsed += fitSpace(Amount + Percentage + Word)
         if (index) % 5 == 4 and index <= RankRange-3:
             TopUsed += "\n\n      "
-        
 
 
 R = RegularData
 A = AdvancedData
-class AllanPoeTest:
+
+
+class AllanPoeIndex:
     # Original goal is "eaoidhnrstuycfglmwbkpqxz"
     Letter = A.WordsRepeated
     letters = ''
     LettersRepeated = []
+
     for word in Letter:
         letters += word[1]*word[0]
-    letters += 'ss'
+    letters += 's'*2
     allLowerLetter = list(string.ascii_lowercase)
+
     for letter in allLowerLetter:
         LettersRepeated.append([0, letter])
-    for index in range(0, len(LettersRepeated)):
+
+    for element in LettersRepeated:
         for letter in letters:
-            if letter == LettersRepeated[index][1]:
-                LettersRepeated[index][0] += 1
+            if letter == element[1]:
+                element[0] += 1
 
     LettersRepeated.sort(reverse=True)
     ShowLettersSort = ''
     for letter in LettersRepeated:
         ShowLettersSort += letter[1] + ", "
-    ShowLettersSort = ShowLettersSort.replace('z, ', 'z')
 
     CurrentSortList = ShowLettersSort.split(', ')
+    CurrentSortList.remove('')
+
     CriticalSortList = ['e', 't', 'a', 'o', 'i', 'n', 's', 'h', 'r', 'd', 'l',
                         'c', 'u', 'm', 'w', 'f', 'g', 'y', 'p', 'b', 'v', 'k', 'j', 'x', 'q', 'z']
     Grade = 100
@@ -149,10 +155,50 @@ class AllanPoeTest:
     Grade = Math.percent(Grade, 100, 100)
 
 
-APT = AllanPoeTest
+class FirstLetterIndex:
+    FirstLetter = "t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z".split(
+        ", ")
+
+    Letter = A.WordsRepeated
+    LettersRepeated = []
+
+    allLowerLetter = list(string.ascii_lowercase)
+    for letter in allLowerLetter:
+        LettersRepeated.append([0, letter])
+
+    for element in LettersRepeated:
+        for letter in Letter:
+            if letter[1][0] == element[1]:
+                element[0] += letter[0]
+
+    LettersRepeated.sort(reverse=True)
+
+    ShowLettersSort = ''
+    for letter in LettersRepeated:
+        ShowLettersSort += letter[1] + ", "
+    # ShowLettersSort = ShowLettersSort.replace(ShowLettersSort[-2:0], '')
+
+    CurrentSortList = ShowLettersSort.split(', ')
+    CurrentSortList.remove('')
+    CriticalSortList = ['t', 'a', 's', 'h', 'w', 'i', 'o', 'b', 'm', 'f', 'c',
+                        'l', 'd', 'p', 'n', 'e', 'g', 'r', 'y', 'u', 'v', 'j', 'k', 'q', 'x', 'z']
+    Grade = 100
+    for char in CurrentSortList:
+        num = 0
+        dist = abs(CurrentSortList.index(char) - CriticalSortList.index(char))
+        num = 1-(1/25*dist)
+        Grade *= num
+    Grade = Math.percent(Grade, 100, 100)
+
+
+APL = AllanPoeIndex
+F = FirstLetterIndex
+
+
 class Write:
     Vocbularies = 'VOCABULARIES: ' + str(R.voc)
-    Learned = 'Learned: ' + str(R.alr) + Math.percent(R.alr, R.voc, decimalDegree)
+    Learned = 'Learned: ' + str(R.alr) + \
+        Math.percent(R.alr, R.voc, decimalDegree)
     Unlearned = 'Unlearned: ' + \
         str(R.unl) + Math.percent(R.unl, R.voc, decimalDegree)
     Sentences = 'SENTENCES: ' + str(R.sen)
@@ -163,17 +209,24 @@ class Write:
     Comparisons = 'Comparisons: ' + \
         str(R.com) + Math.percent(R.com, R.sen, decimalDegree)
     TotalWords = "Total Words: " + str(len(A.wordsList))
-    TotalCharacters = "Total Characters: " + str(len(APT.letters))
+    TotalCharacters = "Total Characters: " + str(len(APL.letters))
     LettersPerWord = "Letters Per Word: " + str(Math.takeDecimal(
-        len(APT.letters), len(A.wordsList), 1000))
-    ATPrate = "Allan Poe Index: " + str(APT.Grade)[2:-1]
-    ATPresult = "Result:     " + APT.ShowLettersSort
+        len(APL.letters), len(A.wordsList), 1000))
+    APLrate = "Allan Poe Index:    " + str(APL.Grade)[2:-1]
+    APLresult = "Result:     " + APL.ShowLettersSort[:76]
+    FLIrate = "First Letter Index: " + str(F.Grade)[2:-1]
+    FLIresult = "Result:     " + F.ShowLettersSort[:76]
+
 
 Print.ln('')
-Print.ln(Write.ATPrate)
+Print.ln(Write.APLrate)
 Print.tabln(
     "Stantard:   e, t, a, o, i, n, s, h, r, d, l, c, u, m, w, f, g, y, p, b, v, k, j, x, q, z")
-Print.tabln(Write.ATPresult)
+Print.tabln(Write.APLresult)
+Print.ln(Write.FLIrate)
+Print.tabln(
+    "Stantard:   t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z")
+Print.tabln(Write.FLIresult)
 Print.ln(Write.Vocbularies)
 Print.tabln(Write.Learned + fitSpace(Write.Learned) + Write.Unlearned)
 Print.ln(Write.Sentences)
@@ -184,3 +237,8 @@ Print.tabln(Write.TotalWords + fitSpace(Write.TotalWords) + Write.TotalCharacter
             fitSpace(Write.TotalCharacters) + Write.LettersPerWord)
 Print.ln("TOP "+str(A.RankRange)+" USED WORDS: ")
 Print.tabln(A.TopUsed)
+
+# print(str(F.LettersRepeated))
+# print(str(F.FirstLetter))
+# print(str(F.ShowLettersSort))
+# print(str(F.CurrentSortList))
