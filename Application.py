@@ -4,12 +4,11 @@ with open("daily_english.json", mode="r") as file:
     Dictionary = file.read()
     Words = Dictionary
 
-allEnglishChar = list(string.ascii_lowercase + string.ascii_uppercase + ' ')
+allEnglishChar = list(string.ascii_lowercase + string.ascii_uppercase + ' ' + '-')
 
 decimalDegree = 10
 
-BigSpace = " "*24
-SmallSpace = " "*15
+RankingList = 328
 
 
 def fitSpace(string):
@@ -32,6 +31,10 @@ class Math:
 
     def takeDecimal(x, y, degree):
         return float(int(x/y*degree))/degree
+
+
+def LoadBar(ratio, range):
+    return '█'*int(range*ratio)+'_'*int(range-range*ratio)
 
 
 class RegularData:
@@ -74,12 +77,73 @@ class AdvancedData:
     while '  ' in Words:
         Words = Words.replace('  ', ' ')
 
+    while '-' in Words:
+        Words = Words.replace('-', ' ')
+
     wordsList = str.split(Words)
 
     while 's' in wordsList:
+        wordsList.append('1980s')
         wordsList.remove('s')
 
+    while 'hes' in wordsList:
+        wordsList.append('is')
+        wordsList.append('he')
+        wordsList.remove('hes')
+
+    while 'shes' in wordsList:
+        wordsList.append('is')
+        wordsList.append('she')
+        wordsList.remove('shes')
+
+    while 'theyre' in wordsList:
+        wordsList.append('are')
+        wordsList.append('they')
+        wordsList.remove('theyre')
+
+    while 'hed' in wordsList:
+        wordsList.append('had')
+        wordsList.append('he')
+        wordsList.remove('hed')
+
+    while 'shed' in wordsList:
+        wordsList.append('had')
+        wordsList.append('she')
+        wordsList.remove('shed')
+
+    while 'isnt' in wordsList:
+        wordsList.append('is')
+        wordsList.append('not')
+        wordsList.remove('isnt')
+
+    while 'dont' in wordsList:
+        wordsList.append('do')
+        wordsList.append('not')
+        wordsList.remove('dont')
+
+    while 'doesnt' in wordsList:
+        wordsList.append('does')
+        wordsList.append('not')
+        wordsList.remove('doesnt')
+
+    while 'cant' in wordsList:
+        wordsList.append('can')
+        wordsList.append('not')
+        wordsList.remove('cant')
+
+    while 'wouldnt' in wordsList:
+        wordsList.append('would')
+        wordsList.append('not')
+        wordsList.remove('wouldnt')
+
+    while 'couldnt' in wordsList:
+        wordsList.append('could')
+        wordsList.append('not')
+        wordsList.remove('couldnt')
+
     WordsRepeated = []
+    
+    allEnglishChar.remove('-')
 
     for word in wordsList:
         if [0, word] not in WordsRepeated:
@@ -100,7 +164,7 @@ class AdvancedData:
         return WordsRepeated[index][1]
 
     TopUsed = ""
-    RankRange = 388
+    RankRange = RankingList
 
     col = 3
     row = int(RankRange/col)+1
@@ -124,7 +188,8 @@ class AdvancedData:
     for index in arr:
         if index < row:
             TopUsed += "\n      "
-        Word = str(index+1) + '. "' + WordsItself(WordsRepeated, index).capitalize()+ '"'
+        Word = str(index+1) + '. "' + \
+            WordsItself(WordsRepeated, index).capitalize() + '"'
         Amount = ": " + str(WordsAmount(WordsRepeated, index))+" "
         Percentage = Math.percent(WordsAmount(WordsRepeated, index), len(
             wordsList), 100)
@@ -214,16 +279,13 @@ APL = AllanPoeIndex
 F = FirstLetterIndex
 
 
-def Loadbar(ratio, range):
-    return '█'*int(range*ratio)+'_'*int(range-range*ratio)
-
-
 class Write:
-    Vocbularies = 'VOCABULARIES: ' + str(R.voc)
+    Vocabularies = 'VOCABULARIES: ' + str(R.voc)
     Learned = 'Learned: ' + str(R.alr) + \
         Math.percent(R.alr, R.voc, decimalDegree)
     Unlearned = 'Unlearned: ' + \
         str(R.unl) + Math.percent(R.unl, R.voc, decimalDegree)
+    Individuals = 'Individuals: ' + str(len(A.WordsRepeated))
     Sentences = 'SENTENCES: ' + str(R.sen)
     Examples = 'Examples: ' + \
         str(R.exp) + Math.percent(R.exp, R.sen, decimalDegree)
@@ -237,11 +299,11 @@ class Write:
         len(APL.letters), len(A.wordsList), 1000))
     APLrate = "Allan Poe Index:    " + \
         str(APL.Grade)[2:-1] + "     " + \
-        Loadbar(float(str(APL.Grade)[2:-3])/100, 60)
+        LoadBar(float(str(APL.Grade)[2:-3])/100, 60)
     APLresult = "Result:        " + APL.ShowLettersSort[:76]
     FLIrate = "First Letter Index: " + \
         str(F.Grade)[2:-1] + "     " + \
-        Loadbar(float(str(F.Grade)[2:-3])/100, 60)
+        LoadBar(float(str(F.Grade)[2:-3])/100, 60)
     FLIresult = "Result:        " + F.ShowLettersSort[:76]
 
 
@@ -254,8 +316,8 @@ Print.ln(Write.FLIrate)
 Print.tabln(
     "Stantard:      t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z")
 Print.tabln(Write.FLIresult)
-Print.ln(Write.Vocbularies)
-Print.tabln(Write.Learned + fitSpace(Write.Learned) + Write.Unlearned)
+Print.ln(Write.Vocabularies)
+Print.tabln(Write.Learned + fitSpace(Write.Learned) + Write.Unlearned + fitSpace(Write.Unlearned) + Write.Individuals)
 Print.ln(Write.Sentences)
 Print.tabln(Write.Examples + fitSpace(Write.Examples) +
             Write.Definitions + fitSpace(Write.Definitions) + Write.Comparisons)
