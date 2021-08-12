@@ -169,7 +169,7 @@ class AdvancedData:
         return WordsRepeated[index][1]
 
     TopUsed = ""
-    RankRange = RankingList
+    RankRange = len(WordsRepeated)
 
     col = 3
     row = int(RankRange/col)+1
@@ -334,4 +334,4 @@ Print.tabln(A.TopUsed)
 
 
 with open("Database.json", mode="w") as file:
-    json.dump({'WordsList':A.wordsList}, file)
+    json.dump([{"Words List":A.wordsList},{"Words Repeat Time":A.WordsRepeated}], file)

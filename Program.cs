@@ -1,14 +1,8 @@
 ﻿using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using System.Text;
-// using System.Threading.Tasks;
 using System.Timers;
 using System.IO;
-// using System.Globalization;
 using System.Collections;
 using System.Text.Json;
-// using System.Text.Json.Serialization;
 using Newtonsoft.Json.Linq;
 
 namespace Typing_App
@@ -74,13 +68,13 @@ namespace Typing_App
             
             var json_element = new Json_element
             {
-                dateTime = DateTime.Now.ToString()
+                DateTime = DateTime.Now.ToString()
                     .Replace("\u4E0B\u5348", "P.M.").Replace("\u4E0A\u5348", "A.M."),
-                test_length = TestTime,
-                Wpm = wpm(),
-                Cpm = cpm(),
-                accuracy = Accuracy(),
-                backcount = Backspace_Freq(),
+                TestLength = TestTime,
+                WPM = wpm(),
+                CPM = cpm(),
+                Accuracy = Accuracy(),
+                BackRate = Backspace_Freq(),
                 WrongWords = (String[])BadWords.ToArray(typeof(string))
             };
             string json = System.Text.Json.JsonSerializer.Serialize(json_element);
@@ -89,12 +83,12 @@ namespace Typing_App
     }
     public class Json_element
     {
-        public string dateTime { get; set; }
-        public int test_length { get; set; }
-        public int Wpm { get; set; }
-        public int Cpm { get; set; }
-        public double accuracy { get; set; }
-        public double backcount { get; set; }
+        public string DateTime { get; set; }
+        public int TestLength { get; set; }
+        public int WPM { get; set; }
+        public int CPM { get; set; }
+        public double Accuracy { get; set; }
+        public double BackRate { get; set; }
         public string[] WrongWords { get; set; }
     }
     public class Common_Calculate_Way : Grade
@@ -219,19 +213,19 @@ namespace Typing_App
             StreamReader jsonfile = new StreamReader(@"Database.json");
             string data = jsonfile.ReadToEnd();
 
-            JObject jsontest = JObject.Parse(data);
+            JObject Dictionary = JObject.Parse(JArray.Parse(data)[0].ToString());
 
-            JArray arrs = (JArray)jsontest["WordsList"];
+            JArray arrs = (JArray)Dictionary["Words List"];
 
             string[] arr = arrs.ToObject<string[]>();
 
             DateTime now = DateTime.Now;
             string Now = now.ToString();
-            int timeError = 0;
-            int secondNow = Convert.ToInt32(Now.Substring(19 - timeError, 2));
-            int minuteNow = Convert.ToInt32(Now.Substring(16 - timeError, 2));
-            int hourNow = Convert.ToInt32(Now.Substring(13 - timeError, 2));
-            int randomSource = secondNow + minuteNow + hourNow;
+            int secondNow = now.Second;
+            int minuteNow = now.Minute;
+            int hourNow = now.Hour;
+            int yearNow = now.Year;
+            int randomSource = secondNow + minuteNow + hourNow + yearNow;
 
             createLine();
             input();
