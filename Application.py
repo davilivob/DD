@@ -1,8 +1,12 @@
 import string
+import json
 
 with open("daily_english.json", mode="r") as file:
     Dictionary = file.read()
     Words = Dictionary
+
+
+
 
 allEnglishChar = list(string.ascii_lowercase + string.ascii_uppercase + ' ' + '-')
 
@@ -140,6 +144,7 @@ class AdvancedData:
         wordsList.append('could')
         wordsList.append('not')
         wordsList.remove('couldnt')
+
 
     WordsRepeated = []
     
@@ -326,3 +331,7 @@ Print.tabln(Write.TotalWords + fitSpace(Write.TotalWords) + Write.TotalCharacter
             fitSpace(Write.TotalCharacters) + Write.LettersPerWord)
 print("TOP "+str(A.RankRange)+" USED WORDS: ")
 Print.tabln(A.TopUsed)
+
+
+with open("Database.json", mode="w") as file:
+    json.dump({'WordsList':A.wordsList}, file)

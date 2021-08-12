@@ -1,0 +1,13 @@
+C:\Users\dovilivob\Desktop\DailyEnglish\bin\Debug\netcoreapp3.1\DailyEnglish.exe
+C:\Users\dovilivob\Desktop\DailyEnglish\bin\Debug\netcoreapp3.1\DailyEnglish.deps.json
+C:\Users\dovilivob\Desktop\DailyEnglish\bin\Debug\netcoreapp3.1\DailyEnglish.runtimeconfig.json
+C:\Users\dovilivob\Desktop\DailyEnglish\bin\Debug\netcoreapp3.1\DailyEnglish.runtimeconfig.dev.json
+C:\Users\dovilivob\Desktop\DailyEnglish\bin\Debug\netcoreapp3.1\DailyEnglish.dll
+C:\Users\dovilivob\Desktop\DailyEnglish\bin\Debug\netcoreapp3.1\DailyEnglish.pdb
+C:\Users\dovilivob\Desktop\DailyEnglish\obj\Debug\netcoreapp3.1\DailyEnglish.csprojAssemblyReference.cache
+C:\Users\dovilivob\Desktop\DailyEnglish\obj\Debug\netcoreapp3.1\DailyEnglish.AssemblyInfoInputs.cache
+C:\Users\dovilivob\Desktop\DailyEnglish\obj\Debug\netcoreapp3.1\DailyEnglish.AssemblyInfo.cs
+C:\Users\dovilivob\Desktop\DailyEnglish\obj\Debug\netcoreapp3.1\DailyEnglish.dll
+C:\Users\dovilivob\Desktop\DailyEnglish\obj\Debug\netcoreapp3.1\DailyEnglish.pdb
+C:\Users\dovilivob\Desktop\DailyEnglish\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dovilivob\Desktop\DailyEnglish\obj\Debug\netcoreapp3.1\DailyEnglish.csproj.CopyComplete
