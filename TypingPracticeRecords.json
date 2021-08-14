@@ -111,5 +111,177 @@
          "of",
          "for"
       ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 04:33:34",
+      "TestLength": 2,
+      "WPM": 39,
+      "CPM": 197,
+      "Accuracy": 0.9113924050632911,
+      "BackRate": 0.09113924050632911,
+      "WrongWords": [
+         "port",
+         "measures",
+         "hectic",
+         "taking",
+         "equipment",
+         "but",
+         "stem"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 04:37:20",
+      "TestLength": 2,
+      "WPM": 45,
+      "CPM": 229,
+      "Accuracy": 0.9791666666666666,
+      "BackRate": 0.04357298474945534,
+      "WrongWords": [
+         "ruthless",
+         "heavier"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 04:43:01",
+      "TestLength": 2,
+      "WPM": 45,
+      "CPM": 229,
+      "Accuracy": 0.9583333333333334,
+      "BackRate": 0.04585152838427948,
+      "WrongWords": [
+         "you",
+         "moreover",
+         "side",
+         "liberate"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 04:48:09",
+      "TestLength": 1,
+      "WPM": 45,
+      "CPM": 229,
+      "Accuracy": 0.9583333333333334,
+      "BackRate": 0.05240174672489083,
+      "WrongWords": [
+         "you",
+         "hectic"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 04:50:33",
+      "TestLength": 1,
+      "WPM": 46,
+      "CPM": 232,
+      "Accuracy": 0.9555555555555556,
+      "BackRate": 0.034482758620689655,
+      "WrongWords": [
+         "equipment",
+         "stem"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 04:51:55",
+      "TestLength": 1,
+      "WPM": 42,
+      "CPM": 214,
+      "Accuracy": 0.975609756097561,
+      "BackRate": 0.07476635514018691,
+      "WrongWords": [
+         "a"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 04:55:36",
+      "TestLength": 1,
+      "WPM": 42,
+      "CPM": 212,
+      "Accuracy": 1,
+      "BackRate": 0.09433962264150944,
+      "WrongWords": []
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 05:17:17",
+      "TestLength": 1,
+      "WPM": 44,
+      "CPM": 221,
+      "Accuracy": 0.9148936170212766,
+      "BackRate": 0.04072398190045249,
+      "WrongWords": [
+         "exclaimed",
+         "forms",
+         "sterilize",
+         "by"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 05:21:12",
+      "TestLength": 1,
+      "WPM": 42,
+      "CPM": 213,
+      "Accuracy": 0.975,
+      "BackRate": 0.028169014084507043,
+      "WrongWords": [
+         "sterilize"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 05:22:23",
+      "TestLength": 1,
+      "WPM": 47,
+      "CPM": 239,
+      "Accuracy": 0.9787234042553191,
+      "BackRate": 0.03347280334728033,
+      "WrongWords": [
+         "implies"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 05:25:34",
+      "TestLength": 1,
+      "WPM": 42,
+      "CPM": 213,
+      "Accuracy": 0.8666666666666667,
+      "BackRate": 0.03755868544600939,
+      "WrongWords": [
+         "ditransitive",
+         "case",
+         "compete",
+         "deceased",
+         "it",
+         "started"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 05:28:19",
+      "TestLength": 1,
+      "WPM": 42,
+      "CPM": 212,
+      "Accuracy": 0.9545454545454546,
+      "BackRate": 0.0330188679245283,
+      "WrongWords": [
+         "the",
+         "packaging"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 06:01:49",
+      "TestLength": 1,
+      "WPM": 40,
+      "CPM": 204,
+      "Accuracy": 0.9583333333333334,
+      "BackRate": 0.058823529411764705,
+      "WrongWords": [
+         "describe",
+         "money"
+      ]
+   },
+   {
+      "DateTime": "2021/8/14 P.M. 06:05:51",
+      "TestLength": 1,
+      "WPM": 46,
+      "CPM": 230,
+      "Accuracy": 1,
+      "BackRate": 0.021739130434782608,
+      "WrongWords": []
    }
 ]

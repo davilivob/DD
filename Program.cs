@@ -15,7 +15,7 @@ namespace Typing_App
     {
         void ShowResult();
     }
-    
+
     public abstract class Grade : UploadToJson, showResult
     {
         private int goodWords;
@@ -36,16 +36,16 @@ namespace Typing_App
         public ArrayList BadWords { get { return badWords; } set { badWords = value; } }
         public int Chars { get { return chars; } set { chars = value; } }
         public int BackTime { get { return backTime; } set { backTime = value; } }
-        public int TestTime { get { return testTime; } set { testTime = value;} }
+        public int TestTime { get { return testTime; } set { testTime = value; } }
 
         public double Accuracy()
         {
-            return Convert.ToDouble(GoodWords) / 
+            return Convert.ToDouble(GoodWords) /
                 Convert.ToDouble(GoodWords + BadWords.Count);
         }
         public double Backspace_Freq()
         {
-            return Convert.ToDouble(BackTime) / 
+            return Convert.ToDouble(BackTime) /
                 Convert.ToDouble(Chars);
         }
         public virtual int wpm()
@@ -59,13 +59,13 @@ namespace Typing_App
         public void ShowResult()
         {
             Console.WriteLine(
-                "WPM: " + wpm() + ",  CPM: " + cpm() + 
-                ",  Accuracy: " + Convert.ToDouble(Convert.ToInt32(Accuracy() * 1000)) / 10 + "%" + 
+                "WPM: " + wpm() + ",  CPM: " + cpm() +
+                ",  Accuracy: " + Convert.ToDouble(Convert.ToInt32(Accuracy() * 1000)) / 10 + "%" +
                 ",  BackSpace Frequency: " + Convert.ToDouble(Convert.ToInt32(Backspace_Freq() * 1000)) / 10 + "%");
         }
         public void uploadtojson()
         {
-            
+
             var json_element = new Json_element
             {
                 DateTime = DateTime.Now.ToString()
@@ -93,7 +93,7 @@ namespace Typing_App
     }
     public class Common_Calculate_Way : Grade
     {
-        public Common_Calculate_Way(int _goodWords, ArrayList _badWords, int _chars, int _backTime, int _testTime) 
+        public Common_Calculate_Way(int _goodWords, ArrayList _badWords, int _chars, int _backTime, int _testTime)
                                                        : base(_goodWords, _badWords, _chars, _backTime, _testTime)
         {
             TestTime = _testTime;
@@ -109,7 +109,7 @@ namespace Typing_App
     }
     public class For_Long_Time_Test : Grade
     {
-        public For_Long_Time_Test(int _goodWords, ArrayList _badWords, int _chars, int _backTime, int _testTime) 
+        public For_Long_Time_Test(int _goodWords, ArrayList _badWords, int _chars, int _backTime, int _testTime)
                                                      : base(_goodWords, _badWords, _chars, _backTime, _testTime)
         {
             TestTime = _testTime;
@@ -125,7 +125,7 @@ namespace Typing_App
     }
 
     class Program
-    { 
+    {
         static void Main(string[] args)
         {
             ushort TestTime = 1;
@@ -166,7 +166,7 @@ namespace Typing_App
                     }
                     else
                     {
-                        Console.WriteLine("\nThis test is going to be " + TestTime + 
+                        Console.WriteLine("\nThis test is going to be " + TestTime +
                             " minites long. Press Enter to continue.");
                         Console.ReadLine();
                         Console.WriteLine("Ok, Let's Go !");
@@ -185,7 +185,6 @@ namespace Typing_App
             Common_Calculate_Way g = new Common_Calculate_Way(0, new ArrayList(), 0, 0, TestTime);
 
             Timer timer = new Timer(1000);
-            int timestart = 0;
             timer.Elapsed += new ElapsedEventHandler(Timesup);
             timer.AutoReset = true;
             timer.Interval = TestTime * 1000 * 60;
@@ -225,7 +224,7 @@ namespace Typing_App
             int minuteNow = now.Minute;
             int hourNow = now.Hour;
             int yearNow = now.Year;
-            int randomSource = secondNow + minuteNow + hourNow + yearNow;
+            int randomSeed = secondNow + minuteNow + hourNow + yearNow;
 
             createLine();
             input();
@@ -235,34 +234,36 @@ namespace Typing_App
                 recordRandom.Clear();
                 recordRandom.Add("");
                 Console.WriteLine();
-                int i = 10; 
+                int i = 10;
+                Random r = new Random(i * state + randomSeed + TestTime);
+                int n = r.Next(0, arr.Length-1000);
                 while (i != 0)
                 {
-                    Random r = new Random(i+state+randomSource+TestTime);
-                    int n = r.Next(0, arr.Length);
-                    Console.Write(arr[n] + "      ");
+                    Console.Write("\u001b[1m" + arr[n] + "\u001b[0m      ");
                     recordRandom.Add(arr[n]);
+                    n += 1;
                     i--;
                 }
                 Console.WriteLine();
             }
-            
+
             void input()
             {
                 ConsoleKeyInfo k = Console.ReadKey();
-                if (k.KeyChar == ' ') {
+                if (k.KeyChar == ' ')
+                {
                     string result = "";
                     foreach (char element in word) result = result + Convert.ToString(element);
                     if (state % 10 == 0)
                     {
                         if (result == Convert.ToString(recordRandom[10]))
                         {
-                            Console.Write(" (O) ");
+                            Console.Write(" \u001b[38;5;82m(O)\u001b[0m ");
                             g.GoodWords++;
                         }
                         else
                         {
-                            Console.Write(" (X) ");
+                            Console.Write(" \u001b[38;5;160m(X)\u001b[0m ");
                             g.BadWords.Add(Convert.ToString(recordRandom[10]));
                         }
                         Console.WriteLine();
@@ -272,12 +273,12 @@ namespace Typing_App
                     {
                         if (result == Convert.ToString(recordRandom[state % 10]))
                         {
-                            Console.Write(" (O) ");
+                            Console.Write(" \u001b[38;5;82m(O)\u001b[0m ");
                             g.GoodWords++;
                         }
                         else
                         {
-                            Console.Write(" (X) ");
+                            Console.Write(" \u001b[38;5;160m(X)\u001b[0m ");
                             g.BadWords.Add(Convert.ToString(recordRandom[state % 10]));
                         }
                     }
@@ -287,7 +288,8 @@ namespace Typing_App
                 }
                 else if (k.Key == ConsoleKey.Backspace)
                 {
-                    if (word.Count - 1 >= 0) {
+                    if (word.Count - 1 >= 0)
+                    {
                         word.RemoveAt(word.Count - 1);
                         g.BackTime++;
                         g.Chars--;
@@ -297,7 +299,6 @@ namespace Typing_App
                 else
                 {
                     word.Add(k.KeyChar);
-                    timestart += 1;
                     g.Chars++;
                     input();
                 }

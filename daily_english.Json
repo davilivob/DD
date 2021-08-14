@@ -47,10 +47,10 @@
             "asterisk": [
                 " * "
             ],
-            "parenthese/round bracket)": [
+            "parenthese/ round bracket)": [
                 " () "
             ],
-            "square/box bracket": [
+            "square/ box bracket": [
                 " [] "
             ],
             "curly bracket": [
@@ -399,7 +399,7 @@
             "despair": [
                 "@ Despair is the feeling that there is no hope and that you can do nothing to improve a difficult or worrying situation.",
                 "Don't despair! We'll find a way out!",
-                "I desair at/over the policies of this government."
+                "I despair at/ over the policies of this government."
             ],
             "agony": [
                 "They put her on painkillers, but they didn't do enough, and she was in agony.",
@@ -538,7 +538,7 @@
         }
     ],
     "chaos": [
-        "Ever since our secretary walked out, the office has been in a state of total/utter chaos.",
+        "Ever since our secretary walked out, the office has been in a state of total/ utter chaos.",
         {
             "disorder": [
                 "& Chaos has a much stronger feeling than disorder."
@@ -598,7 +598,7 @@
         "Add the column of figures and divide the sum by three.",
         "The roof of the temple was held up by a row of thick stone columns.",
         "@ Column can also be a piece of writing in a newspaper or magazine, usually on a particular subject, that is always written by the same person and appears regularly.",
-        "She writes a weekly fashion/gossip column for the Evening Standard.",
+        "She writes a weekly fashion/ gossip column for the Evening Standard.",
         {
             "row": [
                 "& Column is in vertical way, but row is in parallel."
@@ -624,7 +624,7 @@
         {
             "wary": [
                 "@ Wary can be not completely trusting or certain about something or someone.",
-                "I'm a little wary of/about giving people my address when I don't know them very well."
+                "I'm a little wary of/ about giving people my address when I don't know them very well."
             ],
             "careful": [
                 "& 'Cautious' is more like be wary or pay attention. 'Careful' is more like be safe."
@@ -709,7 +709,7 @@
         "A smooth, dry surface helps the tiles adhere to the wall.",
         {
             "adherent": [
-                "@ An adherent/sticky surface",
+                "@ An adherent/ sticky surface",
                 "She has been an adherent of Anarchism for years.",
                 "However, within less than a year, the movement was shattered, and its adherents either were arrested or had led the country."
             ]
@@ -916,7 +916,7 @@
                 "You make wine by leaving grape juice to ferment until all the sugar has turned to alcohol."
             ],
             "fungus": [
-                "@ Fungus, plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, {molds, and mushrooms."
+                "@ Fungus, plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, molds, and mushrooms."
             ]
         }
     ],
@@ -926,6 +926,10 @@
         {
             "within the parameters of sth": [
                 "We must work within the parameters of the law."
+            ],
+            "indexical": [
+                "",
+                ""
             ]
         }
     ],
@@ -1043,7 +1047,7 @@
             "inhibit": [
                 "Some workers were inhibited from speaking by the presence of their managers.",
                 "This drug inhibits the growth of tumours.",
-                "The merger of the two corporationswas not allowed because it would inhibit open competition."
+                "The merger of the two corporations was not allowed because it would inhibit open competition."
             ],
             "forbid": [
                 "The law forbids the sale of cigarettes to people under the age of 16.",
@@ -1167,7 +1171,7 @@
             "dictatorship": [
                 "A flood of refugees fled the brutal dictatorship then existing in that country.",
                 "They prevent the country from falling prey to the soldiers who fought the revolution and want ot restore the old dictatorship.",
-                "By any reasonable person's thinking; this set fo unconstitutional powers represents nothing more than a -- presidential dictatorship.",
+                "By any reasonable person's thinking; this set of unconstitutional powers represents nothing more than a -- presidential dictatorship.",
                 "None of the governments that followed the dictatorship ever included us in their agenda."
             ],
             "authoritarian": [
@@ -1270,7 +1274,7 @@
         "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph."
     ],
     "entropy": [
-        "In the special case of a substance isolated from external heat supply, dH=0, the change of entropy is zero in a reversible process, but must be positive if the process is not reversible."
+        "In the special case of a substance isolated from external heat supply, d*H=0, the change of entropy is zero in a reversible process, but must be positive if the process is not reversible."
     ],
     "whereabouts": [
         "If anyone know the whereabouts of John, last name unknown, contact Ms. Smith on 6th Street."
@@ -1434,7 +1438,13 @@
     ],
     "acronym": [
         "",
-        ""
+        "",
+        {
+            "abbreviation": [
+                "",
+                ""
+            ]
+        }
     ],
     "albino": [
         "",
@@ -2087,6 +2097,10 @@
         ""
     ],
     "architectural": [
+        "",
+        ""
+    ],
+    "operational": [
         "",
         ""
     ]

@@ -6,6 +6,7 @@ import time
 progress = 0
 time_start = time.time()
 print()
+print()
 
 with open("daily_english.json", mode="r") as file:
     Dictionary = file.read()
@@ -57,24 +58,39 @@ class Math:
     def takeDecimal(x, y, degree):
         return float(int(x/y*degree))/degree
 
+with open("database.json", mode="r") as file:
+        lastProgress = json.loads(file.read())
+        prevProgress = lastProgress[3]["Last Progress"]
+
 class Loading:
     global Adding
     def Adding():
         global time_start
         global progress
+        global prevProgress
+        loadRatio = progress/prevProgress
+        Progress = str(progress)
         time_counter = str(Math.takeDecimal(time.time()-time_start, 1, 10000))
-        sys.stdout.write("\u001b[1000D" + "( Calcualated")
-        sys.stdout.write(" "*(len(str(progress))+1)+"\u001b["+ str(len(str(progress))) +"D" + str(progress))
+        sys.stdout.write("\u001b[1A\u001b[1000D" + "( Calcualated")
+        sys.stdout.write(" "*(len(Progress)+1)+"\u001b["+ str(len(Progress)) +"D" + Progress)
         sys.stdout.write(" "*9+"\u001b[8D"+"times in")
         sys.stdout.write(" "*(len(time_counter)+1)+"\u001b["+ str(len(time_counter))+"D" + time_counter)
         sys.stdout.write(" "*8+"\u001b[7D"+"seconds )")
+        print()
+        sys.stdout.write(FontEffect("\u001b[1000D"+LoadBar(loadRatio, 46, 0), 208, 0))
         sys.stdout.flush()
         progress += 1
-        return 0
 
-
-def LoadBar(ratio, range):
-    return '█'*int(range*ratio)+'_'*int(range-range*ratio)
+def LoadBar(ratio, range, height):
+    filler = ''
+    if height == 1:
+        filler = '█'
+    if height == 0:
+        filler = '▄'
+    if ratio <= 1:
+        return filler*int(range*ratio)+'_'*int(range-range*ratio)
+    else: 
+        return filler*range
 
 
 
@@ -136,6 +152,18 @@ class AdvancedData:
         wordsList.remove('s')
         Adding()
 
+    while 'im' in wordsList:
+        wordsList.append('i')
+        wordsList.append('am')
+        wordsList.remove('im')
+        Adding()
+
+    while 'youre' in wordsList:
+        wordsList.append('you')
+        wordsList.append('are')
+        wordsList.remove('youre')
+        Adding()
+
     while 'hes' in wordsList:
         wordsList.append('is')
         wordsList.append('he')
@@ -166,6 +194,12 @@ class AdvancedData:
         wordsList.remove('shed')
         Adding()
 
+    while 'itd' in wordsList:
+        wordsList.append('had')
+        wordsList.append('it')
+        wordsList.remove('itd')
+        Adding()
+
     while 'isnt' in wordsList:
         wordsList.append('is')
         wordsList.append('not')
@@ -184,6 +218,12 @@ class AdvancedData:
         wordsList.remove('doesnt')
         Adding()
 
+    while 'didnt' in wordsList:
+        wordsList.append('did')
+        wordsList.append('not')
+        wordsList.remove('didnt')
+        Adding()
+
     while 'cant' in wordsList:
         wordsList.append('can')
         wordsList.append('not')
@@ -200,6 +240,12 @@ class AdvancedData:
         wordsList.append('could')
         wordsList.append('not')
         wordsList.remove('couldnt')
+        Adding()
+
+    while 'souldnt' in wordsList:
+        wordsList.append('sould')
+        wordsList.append('not')
+        wordsList.remove('souldnt')
         Adding()
 
     WordsRepeated = []
@@ -384,27 +430,36 @@ class TypingTest:
     WrongWordsRepeated.sort(reverse = True)
     MostTypo = WrongWordsRepeated[0][1]
     jsonUpload = [{"Test Duration": avgTime, "WPM": avgWpm, "Accuracy":avgAccuracy, "BackSpace Press Rate": avgBackrate, "Wrong Words List": WrongWordsRepeated}]
+    
+    for x in range(5):
+        Adding()
 
 
-APL = AllanPoeIndex
+Allan = AllanPoeIndex
 Bill = BillMurrayIndex
 T = TypingTest
 
+print()
+
 class Write:
-    APLrate = FontEffect("Allan Poe Index:    ", 83, 1) + \
-        FontEffect(str(APL.Grade)[2:-1], 0, 1) + "     " + \
-        LoadBar(float(str(APL.Grade)[2:-3])/100, 60)
-    APLresult = "Result:        " + APL.ShowLettersSort[:76]
-    FLIrate = FontEffect("Bill Murray Index: ", 83, 1) + \
+    AllanRate = FontEffect("Allan Poe Index:    ", 83, 1) + \
+        FontEffect(str(Allan.Grade)[2:-1], 0, 1) + "     " + \
+        LoadBar(float(str(Allan.Grade)[2:-3])/100, 60, 1)
+    AllanResult = "Result:        " + Allan.ShowLettersSort[:76]
+
+    BillRate = FontEffect("Bill Murray Index:  ", 83, 1) + \
         FontEffect(str(Bill.Grade)[2:-1], 0, 1) + "     " + \
-        LoadBar(float(str(Bill.Grade)[2:-3])/100, 60)
-    FLIresult = "Result:        " + Bill.ShowLettersSort[:76]
+        LoadBar(float(str(Bill.Grade)[2:-3])/100, 60, 1)
+    BillResult = "Result:        " + Bill.ShowLettersSort[:76]
+
     Vocabularies = FontEffect('VOCABULARIES: ', 160, 1) + str(R.voc)
+
     Learned = 'Learned: ' + str(R.alr) + \
         Math.percent(R.alr, R.voc, decimalDegree)
     Unlearned = 'Unlearned: ' + \
         str(R.unl) + Math.percent(R.unl, R.voc, decimalDegree)
     Individuals = 'Individuals: ' + str(len(A.WordsRepeated))
+
     Sentences = FontEffect('SENTENCES: ', 160, 1) + str(R.sen)
     Examples = 'Examples: ' + \
         str(R.exp) + Math.percent(R.exp, R.sen, decimalDegree)
@@ -412,26 +467,27 @@ class Write:
         str(R.defi) + Math.percent(R.defi, R.sen, decimalDegree)
     Comparisons = 'Comparisons: ' + \
         str(R.com) + Math.percent(R.com, R.sen, decimalDegree)
+
     TotalWords = "Total Words: " + str(len(A.wordsList))
-    TotalCharacters = "Total Characters: " + str(len(APL.letters))
+    TotalCharacters = "Total Characters: " + str(len(Allan.letters))
     LettersPerWord = "Letters Per Word: " + str(Math.takeDecimal(
-        len(APL.letters), len(A.wordsList), 1000))
+        len(Allan.letters), len(A.wordsList), 1000))
+
     avgTime = 'Test Duration: ' + str(T.avgTime) + ' min'
     avgWpm = 'WPM: ' + str(T.avgWpm)
     avgAccuracy = 'Accuracy: ' + str(T.avgAccuracy) + ' %'
     avgBackrate = 'Back Rate: ' + str(T.avgBackrate) + ' %'
     MostType = "Most Typo: " + '"' + T.MostTypo + '"'
 
-
 Print.ln('')
-Print.ln(Write.APLrate)
+Print.ln(Write.AllanRate)
 Print.tabln(
     FontEffect("Stantard:      e, t, a, o, i, n, s, h, r, d, l, c, u, m, w, f, g, y, p, b, v, k, j, x, q, z", 0, 1))
-Print.tabln(Write.APLresult)
-Print.ln(Write.FLIrate)
+Print.tabln(Write.AllanResult)
+Print.ln(Write.BillRate)
 Print.tabln(
     FontEffect("Stantard:      t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z", 0, 1))
-Print.tabln(Write.FLIresult)
+Print.tabln(Write.BillResult)
 Print.ln(Write.Vocabularies)
 Print.tabln(FormalFiller(Write.Learned, 3) +
             FormalFiller(Write.Unlearned, 3) + Write.Individuals)
@@ -449,6 +505,5 @@ Print.tabln(A.TopUsed)
 
 
 with open("Database.json", mode="w") as file:
-    json.dump([{"Words List": A.wordsList}, {"Words Repeat Time": A.WordsRepeated},{"Typing Test Results": T.jsonUpload}], file)
+    json.dump([{"Words List": A.wordsList}, {"Words Repeat Time": A.WordsRepeated},{"Typing Test Results": T.jsonUpload}, {"Last Progress": progress}], file)
 
-# print(str(T.TypingDatas))
