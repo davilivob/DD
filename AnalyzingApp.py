@@ -15,7 +15,7 @@ with open("daily_english.json", mode="r") as file:
     Dictionary = file.read()
     Words = Dictionary
 
-allEnglishChar = list(string.ascii_lowercase + string.ascii_uppercase + " " + "-")
+allEnglishChar = list(string.ascii_lowercase + string.ascii_uppercase + " " + "-" + "'")
 decimalDegree = 10
 
 
@@ -140,13 +140,12 @@ class AdvancedData:
     for char in Words:
         if char not in allEnglishChar:
             Words = Words.replace(char, "")
-            while "  " in Words:
-                Words = Words.replace("  ", " ")
-                Adding()
-            while "-" in Words:
-                Words = Words.replace("-", " ")
-                Adding()
-
+    while "  " in Words:
+        Words = Words.replace("  ", " ")
+        Adding()
+    while "-" in Words:
+        Words = Words.replace("-", " ")
+        Adding()
     wordsList = str.split(Words)
 
     while "s" in wordsList:
@@ -155,23 +154,64 @@ class AdvancedData:
         Adding()
 
     for x in [0]:
-        splitQruotationMark(wordsList, "hes", "he", "is")
-        splitQruotationMark(wordsList, "shes", "she", "is")
-        splitQruotationMark(wordsList, "youre", "you", "are")
-        splitQruotationMark(wordsList, "hes", "he", "is")
-        splitQruotationMark(wordsList, "im", "i", "am")
-        splitQruotationMark(wordsList, "theyre", "they", "are")
-        splitQruotationMark(wordsList, "hed", "he", "had")
-        splitQruotationMark(wordsList, "shed", "she", "had")
-        splitQruotationMark(wordsList, "itd", "it", "had")
-        splitQruotationMark(wordsList, "isnt", "is", "not")
-        splitQruotationMark(wordsList, "cant", "can", "not")
-        splitQruotationMark(wordsList, "dont", "do", "not")
-        splitQruotationMark(wordsList, "doesnt", "does", "not")
-        splitQruotationMark(wordsList, "didnt", "did", "not")
-        splitQruotationMark(wordsList, "wouldnt", "would", "not")
-        splitQruotationMark(wordsList, "souldnt", "sould", "not")
-        splitQruotationMark(wordsList, "couldnt", "could", "not")
+        splitQruotationMark(wordsList, "isn't", "is", "not")
+        splitQruotationMark(wordsList, "weren't", "were", "not")
+        splitQruotationMark(wordsList, "wasn't", "was", "not")
+        splitQruotationMark(wordsList, "won't", "will", "not")
+        splitQruotationMark(wordsList, "can't", "can", "not")
+        splitQruotationMark(wordsList, "don't", "do", "not")
+        splitQruotationMark(wordsList, "doesn't", "does", "not")
+        splitQruotationMark(wordsList, "didn't", "did", "not")
+        splitQruotationMark(wordsList, "hasn't", "has", "not")
+        splitQruotationMark(wordsList, "haven't", "have", "not")
+        splitQruotationMark(wordsList, "wouldn't", "would", "not")
+        splitQruotationMark(wordsList, "souldn't", "sould", "not")
+        splitQruotationMark(wordsList, "couldn't", "could", "not")
+        splitQruotationMark(wordsList, "he's", "he", "is")
+        splitQruotationMark(wordsList, "she's", "she", "is")
+        splitQruotationMark(wordsList, "it's", "it", "is")
+        splitQruotationMark(wordsList, "there's", "there", "is")
+        splitQruotationMark(wordsList, "that's", "that", "is")
+        splitQruotationMark(wordsList, "what's", "what", "is")
+        splitQruotationMark(wordsList, "he's", "he", "is")
+        splitQruotationMark(wordsList, "i'm", "i", "am")
+        splitQruotationMark(wordsList, "you're", "you", "are")
+        splitQruotationMark(wordsList, "they're", "they", "are")
+        splitQruotationMark(wordsList, "we're", "we", "are")
+        splitQruotationMark(wordsList, "he'd", "he", "had")
+        splitQruotationMark(wordsList, "she'd", "she", "had")
+        splitQruotationMark(wordsList, "they'd", "they", "had")
+        splitQruotationMark(wordsList, "they've", "they", "have")
+        splitQruotationMark(wordsList, "i've", "i", "have")
+        splitQruotationMark(wordsList, "you've", "you", "have")
+        splitQruotationMark(wordsList, "we've", "we", "have")
+        splitQruotationMark(wordsList, "we'd", "we", "had")
+        splitQruotationMark(wordsList, "it'd", "it", "had")
+        splitQruotationMark(wordsList, "i'll", "i", "will")
+        splitQruotationMark(wordsList, "he'll", "he", "will")
+        splitQruotationMark(wordsList, "she'll", "she", "will")
+        splitQruotationMark(wordsList, "we'll", "we", "will")
+        splitQruotationMark(wordsList, "it'll", "it", "will")
+
+    
+    while "'" in wordsList:
+        wordsList.remove("'")
+        Adding()
+
+    possessive = 0
+
+    for word in wordsList:
+        if "'s" in word or "s'" in word:
+            possessive+=1
+            if "'s" in word:
+                wordsList.append(word.replace("'s", ''))
+                wordsList.remove(word)
+            else:
+                wordsList.append(word.replace("'", ''))
+                wordsList.remove(word)
+
+    for num in range(possessive):
+        wordsList.append("'s")
 
     WordsRepeated = []
 

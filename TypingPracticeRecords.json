@@ -267,5 +267,50 @@
     "Accuracy": 0.9782608695652174,
     "BackRate": 0.043478260869565216,
     "WrongWords": ["with"]
+  },
+  {
+    "DateTime": "2021/8/15 A.M. 03:10:11",
+    "TestLength": 2,
+    "WPM": 42,
+    "CPM": 212,
+    "Accuracy": 0.95,
+    "BackRate": 0.058823529411764705,
+    "WrongWords": ["used", "emotional", "would", "families"]
+  },
+  {
+    "DateTime": "2021/8/15 A.M. 03:12:25",
+    "TestLength": 1,
+    "WPM": 44,
+    "CPM": 223,
+    "Accuracy": 1,
+    "BackRate": 0.017937219730941704,
+    "WrongWords": []
+  },
+  {
+    "DateTime": "2021/8/15 A.M. 04:24:14",
+    "TestLength": 2,
+    "WPM": 39,
+    "CPM": 199,
+    "Accuracy": 0.963855421686747,
+    "BackRate": 0.05513784461152882,
+    "WrongWords": ["design", "pathology", "kingdom"]
+  },
+  {
+    "DateTime": "2021/8/15 A.M. 04:26:56",
+    "TestLength": 1,
+    "WPM": 43,
+    "CPM": 218,
+    "Accuracy": 1,
+    "BackRate": 0.03669724770642202,
+    "WrongWords": []
+  },
+  {
+    "DateTime": "2021/8/15 A.M. 04:28:31",
+    "TestLength": 1,
+    "WPM": 45,
+    "CPM": 227,
+    "Accuracy": 1,
+    "BackRate": 0.03524229074889868,
+    "WrongWords": []
   }
 ]

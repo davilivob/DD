@@ -9,7 +9,7 @@
       "colon": [" : "],
       "semi-colon": [" ; "],
       "exclamation mark": [" ! "],
-      "(single) quotation mark": [" '' "],
+      "(single) quotation mark": [" ' ' "],
       "double quotation mark": [" \"\" "],
       "apostrophe": [" ' "],
       "dash": [" - "],
@@ -109,12 +109,12 @@
         "& Utterly is slightly more literary. It can also be more emphatic or with emotion, for example \"I'm utterly disgusted with you\"."
       ],
       "totally": [
-        "& Totally literally means 'Completely' but it isn't very emphatic."
+        "& Totally literally means ' Completely ' but it isn't very emphatic."
       ]
     }
   ],
   "unaided": [
-    "@ According to the Oxford dictionary, unaided means 'without help from anyone or anything'",
+    "@ According to the Oxford dictionary, unaided means ' without help from anyone or anything '",
     "Microorganism is an organism that is too small to be seen by the unaided eye.",
     "She reached the top of the mountain unaided."
   ],
@@ -157,19 +157,19 @@
     }
   ],
   "connote": [
-    "The word 'warrior' connotes honour and bravery as well as fierceness in battle.",
+    "The word ' warrior ' connotes honour and bravery as well as fierceness in battle.",
     "To me, chocolate connotes pleasure and idulgence.",
     {
       "connotation": [
-        "The word 'lady' has connotations of refinement and excessive femininity that some somen find offensive.",
-        "'Resolute' means stubborn, but with a more positive connotation.",
-        "The literal meaning of the term prestidigitator is 'nimble-fingered', but its connotations extend to the idea of illusion, imposture, deception."
+        "The word ' lady ' has connotations of refinement and excessive femininity that some somen find offensive.",
+        "' Resolute ' means stubborn, but with a more positive connotation.",
+        "The literal meaning of the term prestidigitator is ' nimble-fingered ', but its connotations extend to the idea of illusion, imposture, deception."
       ],
       "denote": [
         "The color red used to denote passion or danger.",
         "His angry tone denoted extreme displeasure.",
         "The vertical line denotes the relative abundance of vertebrate remains in the various depositional environments.",
-        "The period saw the radical separation of micro- and macro-economics (a separation denoted, paradoxically, as a 'neoclassical synthesis')."
+        "The period saw the radical separation of micro- and macro-economics (a separation denoted, paradoxically, as a ' neoclassical synthesis ')."
       ],
       "imply": [
         "I'm not implying anything about your cooking, but could we eat out tonight?",
@@ -188,13 +188,13 @@
         "I suggested putting the matter to the committee.",
         "Does anything suggest itself? (= Do you have any ideas about what we should do?).",
         "His manner suggested a lack of interest in what we were doing.",
-        "She's applied for a lot of jobs recently, which suggests that she's not altogether happy with her position.",
+        "She has applied for a lot of jobs recently, which suggests that she's not altogether happy with her position.",
         {
           "suggestion": [
             "I don't know what to wear tonight - do you have any suggestion?"
           ],
           "hint": [
-            "He's dropped severl hints to the boss that he'll quit if he doesn't get a promotion.",
+            "He has dropped several hints to the boss that he'll quit if he doesn't get a promotion.",
             "You can't take (= understand) a hint, can you? Just go away and leave me alone!",
             "I detected a hint of doubt in his voice.",
             "There's just a hint of brandy in the sauce."
@@ -215,9 +215,9 @@
   "wit": [
     "Her conversation sparkled with her own subtle blend of wit and charm.",
     {
-      "clever": ["& Wit is another word for 'Clever'."],
+      "clever": ["& Wit is another word for ' Clever '."],
       "witty": [
-        "& Wit or 'Witty' is used to describe someone smart and thinks fast. They may also have a natural ability of using words and ideas in a quick and inventive way to create humour."
+        "& Wit or ' Witty ' is used to describe someone smart and thinks fast. They may also have a natural ability of using words and ideas in a quick and inventive way to create humour."
       ]
     }
   ],
@@ -237,7 +237,7 @@
     {
       "gossip": [
         "@ Gossip is the story people are talking about. But often also used to describe someone.",
-        "@ \"She's a gossip.\" meaning if she finds out about it , she'll talk about it with her friends and so on, story won't be a secret no more."
+        "@ \"She's a gossip.\" meaning if she finds out about it , she will talk about it with her friends and so on, story won't be a secret no more."
       ]
     }
   ],
@@ -245,7 +245,7 @@
     "Indeed, dwarf tossing is an Olympic sport!",
     {
       "throw": [
-        "& 'Toss' tends to be weaker. It can also mean put. It doesn't always mean you are letting something fly out of you hand."
+        "& ' Toss ' tends to be weaker. It can also mean put. It doesn't always mean you are letting something fly out of you hand."
       ]
     }
   ],
@@ -430,7 +430,7 @@
     "I had scarcely sat down to eat when the phone rang.",
     {
       "barely": [
-        "& 'barely', 'scarcely' and 'hardly' are basically interchangeable."
+        "& ' barely ', ' scarcely ' and ' hardly ' are basically interchangeable."
       ],
       "hardly": ["& Yeah, they're the same."]
     }
@@ -543,7 +543,7 @@
         "I'm a little wary of/ about giving people my address when I don't know them very well."
       ],
       "careful": [
-        "& 'Cautious' is more like be wary or pay attention. 'Careful' is more like be safe."
+        "& ' Cautious ' is more like be wary or pay attention. ' Careful ' is more like be safe."
       ]
     }
   ],
@@ -598,7 +598,7 @@
         "An essay without coherence can inhibit a reader's ability to understand the ideas and main points of the essay."
       ],
       "summary": [
-        "I only asked for a summary of the main points but she's making a real meal out of it.",
+        "I only asked for a summary of the main points but she was making a real meal out of it.",
         "In summary, they decided against the proposal.",
         "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocaulary."
       ]
@@ -626,7 +626,7 @@
       "ditransitive": [
         "& Transitive verbs that are able to take both a direct object and an indirect one are called ditransitive.",
         "@ English has a number of generally ditransitive verbs, such as give, grant, and tell and many transitive verbs that can take an additional argument, such as pass, read, bake, etc.",
-        "@ He gave Mary ten dollars > He gave ten dollars to Mary. 'Give' is a ditransitive verb in this case."
+        "@ He gave Mary ten dollars > He gave ten dollars to Mary. ' Give ' is a ditransitive verb in this case."
       ]
     }
   ],
@@ -670,7 +670,7 @@
     {
       "cruel": [
         "Is the death penalty crual and unusual punishment?",
-        "How is it posiible to distinguish between humour that is about 'feeling good about life' and that which is profoundly cruel or misogynistic?"
+        "How is it posiible to distinguish between humour that is about ' feeling good about life ' and that which is profoundly cruel or misogynistic?"
       ],
       "callous": [
         "It might sound callous, but I don't care if he's homeless. He's not living with me!",
@@ -697,18 +697,18 @@
         "University ofiicials are concerned about a series of assaults on teachers and students near the campus."
       ],
       "brutal": [
-        "He had presided over a brutal regime in which thousands of people had 'disappeared'",
+        "He had presided over a brutal regime in which thousands of people had ' disappeared '",
         "He was imprisoned in 1945 for the brutal murder of a twelve-year-old girl.",
         "She spoke with brutal honesty - I was too old for the job."
       ],
       "barbarous": [
-        "@ 'Barbaric' is a term that we hear more often than 'barbarous', but they're the same things.",
+        "@ ' Barbaric ' is a term that we hear more often than ' barbarous ', but they're the same things.",
         "His murder was an outrageous and barbarous act."
       ],
       "savage": [
         "The child was savaged by a dog.",
         "Twelve thousand years ago, our ancestors were primitive savages living in caves.",
-        "@ 'Savage' can also mean to criticize someone cruelly.",
+        "@ ' Savage ' can also mean to criticize someone cruelly.",
         "The performance was savaged by the media."
       ],
       "formidable": [
@@ -737,7 +737,7 @@
     "The college student rejoiced when there wasn't enough time left for her to finish her paper, but the professor gave the class another few days to finish it.",
     {
       "delighted": [
-        "I was delighted to see that my friends and guests arrived on time to our party, and were enjoying themsleves."
+        "I was delighted to see that my friends and guests arrived on time to our party, and were enjoying themselves."
       ]
     }
   ],
@@ -828,7 +828,7 @@
   "demeanor": [
     "She has the demeanor of a woman who is contented with her life.",
     "In this way honorific speech becomes indexical of speaker status and demeanor.",
-    "When he smiles (Which is seldom), his demoeanor is sardonic.",
+    "When he smiles (Which is seldom), his demeanor is sardonic.",
     {
       "demean": [
         "@ Demean is to cause someone to become less respected.",
@@ -852,7 +852,7 @@
         "She attaches a lot of importance to personal possessions."
       ],
       "property": [
-        "Both books have 'Government property' stamped inside them.",
+        "Both books have ' Government property ' stamped inside them.",
         "The club doesn't accept responsibility for loss of or damage to club members' personal property.",
         "Yes, i've bought my own house - I'm now a man of property!",
         "One of the properties of copper is that it conducts heat and electricity very well.",
@@ -919,7 +919,7 @@
       ],
       "forbid": [
         "The law forbids the sale of cigarettes to people under the age of 16.",
-        "He's obviously really embarrassed about it because he forbade me to tell anyone.",
+        "He was obviously really embarrassed about it because he forbade me to tell anyone.",
         "He's forbidden from leaving the country."
       ]
     }
@@ -1143,7 +1143,7 @@
     "Her wandering gaze came up to his face and warmth shot painfully up her neck"
   ],
   "passionate": [
-    "She was passionate about Asian cooking and that's reflected in her dining experience."
+    "She was passionate about Asian cooking and that has reflected in her dining experience."
   ],
   "interchangeably": [
     "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
@@ -1154,7 +1154,7 @@
   ],
   "advocate": ["He advocates the return of capital pubishment."],
   "trimmed": ["She was wearing a black suit trimmed with white."],
-  "at sb's disposal": [
+  "at someone's disposal": [
     "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
   ],
   "benevolent": ["He was a benevolent old man and wouldn't hurt a fly."],

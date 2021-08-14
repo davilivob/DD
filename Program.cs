@@ -78,7 +78,7 @@ namespace Typing_App
                 WrongWords = (String[])BadWords.ToArray(typeof(string))
             };
             string json = System.Text.Json.JsonSerializer.Serialize(json_element);
-            File.AppendAllText(@"TypingPracticeRecords.json", "," + json + "]");
+            File.AppendAllText(@"TypingPracticeRecords.json", "," + json + "]  ");
         }
     }
     public class Json_element
@@ -177,7 +177,7 @@ namespace Typing_App
             string AllJsonContent = _preWord.ReadToEnd();
             _preWord.Close();
             StreamWriter preWork = new StreamWriter(@"TypingPracticeRecords.json");
-            preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 2));
+            preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
             preWork.Close();
             Exception();
 
