@@ -3,6 +3,9 @@ import json
 import sys
 import time
 
+print()
+RankingList = input("Please Enter The Number of Words Ranking You Want: ")
+
 progress = 0
 time_start = time.time()
 print()
@@ -12,32 +15,30 @@ with open("daily_english.json", mode="r") as file:
     Dictionary = file.read()
     Words = Dictionary
 
-allEnglishChar = list(string.ascii_lowercase +
-                      string.ascii_uppercase + ' ' + '-')
-
+allEnglishChar = list(string.ascii_lowercase + string.ascii_uppercase + " " + "-")
 decimalDegree = 10
 
-RankingList = 15
 
 def colors(color, bold):
-    effect = ''
+    effect = ""
     if color != 0:
-        effect += '\u001b[38;5;' + str(color) + 'm'
-    else: 
-        effect += ''
-        
-    if bold == 1:
-        effect += '\u001b[1m'
+        effect += "\u001b[38;5;" + str(color) + "m"
     else:
-        effect += ''
+        effect += ""
+
+    if bold == 1:
+        effect += "\u001b[1m"
+    else:
+        effect += ""
     return effect
 
 
 def FontEffect(string, color, bold):
-    return colors(color, bold) + string + colors('\u001b[0', 0)
+    return colors(color, bold) + string + colors("\u001b[0", 0)
+
 
 def FormalFiller(string, col):
-    return string + " "*(int(120/col)-len(string))
+    return string + " " * (int(120 / col) - len(string))
 
 
 class Print:
@@ -45,87 +46,98 @@ class Print:
         print(comtent, "\n")
 
     def tabln(comtent):
-        print("     ", comtent+'\n')
-
+        print("     ", comtent + "\n")
 
 
 class Math:
     def percent(element, object, degree):
-        percentage = ((element)*100)/object
-        percentage = float(int(percentage*degree))/degree
-        return ' ( '+str(percentage)+'% )'
+        percentage = ((element) * 100) / object
+        percentage = float(int(percentage * degree)) / degree
+        return " ( " + str(percentage) + "% )"
 
     def takeDecimal(x, y, degree):
-        return float(int(x/y*degree))/degree
+        return float(int(x / y * degree)) / degree
+
 
 with open("database.json", mode="r") as file:
-        lastProgress = json.loads(file.read())
-        prevProgress = lastProgress[3]["Last Progress"]
+    lastProgress = json.loads(file.read())
+    prevProgress = lastProgress[3]["Last Progress"]
+
 
 class Loading:
     global Adding
+
     def Adding():
         global time_start
         global progress
         global prevProgress
-        loadRatio = progress/prevProgress
+        loadRatio = progress / prevProgress
         Progress = str(progress)
-        time_counter = str(Math.takeDecimal(time.time()-time_start, 1, 10000))
+        time_counter = str(Math.takeDecimal(time.time() - time_start, 1, 10000))
         sys.stdout.write("\u001b[1A\u001b[1000D" + "( Calcualated")
-        sys.stdout.write(" "*(len(Progress)+1)+"\u001b["+ str(len(Progress)) +"D" + Progress)
-        sys.stdout.write(" "*9+"\u001b[8D"+"times in")
-        sys.stdout.write(" "*(len(time_counter)+1)+"\u001b["+ str(len(time_counter))+"D" + time_counter)
-        sys.stdout.write(" "*8+"\u001b[7D"+"seconds )")
+        sys.stdout.write(
+            " " * (len(Progress) + 1) + "\u001b[" + str(len(Progress)) + "D" + Progress
+        )
+        sys.stdout.write(" " * 9 + "\u001b[8D" + "times in")
+        sys.stdout.write(
+            " " * (len(time_counter) + 1)
+            + "\u001b["
+            + str(len(time_counter))
+            + "D"
+            + time_counter
+        )
+        sys.stdout.write(" " * 8 + "\u001b[7D" + "seconds )")
         print()
-        sys.stdout.write(FontEffect("\u001b[1000D"+LoadBar(loadRatio, 46, 0), 208, 0))
+        sys.stdout.write(FontEffect("\u001b[1000D" + LoadBar(loadRatio, 46, 0), 208, 0))
         sys.stdout.flush()
         progress += 1
 
-def LoadBar(ratio, range, height):
-    filler = ''
-    if height == 1:
-        filler = '█'
-    if height == 0:
-        filler = '▄'
-    if ratio <= 1:
-        return filler*int(range*ratio)+'_'*int(range-range*ratio)
-    else: 
-        return filler*range
 
+def LoadBar(ratio, range, height):
+    filler = ""
+    if height == 1:
+        filler = "█"
+    if height == 0:
+        filler = "▄"
+    if ratio <= 1:
+        return filler * int(range * ratio) + "_" * int(range - range * ratio)
+    else:
+        return filler * range
 
 
 class RegularData:
     voc = sen = defi = com = unl = 0
 
     # words
-    Dictionary = Dictionary.replace('": [', '詞')
+    Dictionary = Dictionary.replace('": [', "詞")
 
-    sentenceEnd = ['."', '!"', '?"', '\\\""']
+    sentenceEnd = ['."', '!"', '?"', '\\""']
     for element in sentenceEnd:
-        Dictionary = Dictionary.replace(element, '語')
+        Dictionary = Dictionary.replace(element, "語")
         Adding()
 
-    Dictionary = Dictionary.replace(
-        '"@', '定').replace('"&', '比').replace('""', '空')
+    Dictionary = Dictionary.replace('"@', "定").replace('"&', "比").replace('""', "空")
 
     for char in Dictionary:
-        if char == '詞':
+        if char == "詞":
             voc += 1
-        if char == '語':
+        if char == "語":
             sen += 1
-        if char == '定':
+        if char == "定":
             defi += 1
-        if char == '比':
+        if char == "比":
             com += 1
-        if char == '空':
+        if char == "空":
             unl += 1
         Adding()
 
-    alr = voc-int(unl/2)
-    unl = int(unl/2)
-    exp = sen-defi-com
+    alr = voc - int(unl / 2)
+    unl = int(unl / 2)
+    exp = sen - defi - com
+
 
 Adding()
+
 
 class AdvancedData:
     global progress
@@ -133,124 +145,123 @@ class AdvancedData:
 
     for char in Words:
         if char not in allEnglishChar:
-            Words = Words.replace(char, '')
+            Words = Words.replace(char, "")
             Adding()
-    
-    
-    while '  ' in Words:
-        Words = Words.replace('  ', ' ')
+
+    while "  " in Words:
+        Words = Words.replace("  ", " ")
         Adding()
 
-    while '-' in Words:
-        Words = Words.replace('-', ' ')
+    while "-" in Words:
+        Words = Words.replace("-", " ")
         Adding()
 
     wordsList = str.split(Words)
 
-    while 's' in wordsList:
-        wordsList.append('1980s')
-        wordsList.remove('s')
+    while "s" in wordsList:
+        wordsList.append("1980s")
+        wordsList.remove("s")
         Adding()
 
-    while 'im' in wordsList:
-        wordsList.append('i')
-        wordsList.append('am')
-        wordsList.remove('im')
+    while "im" in wordsList:
+        wordsList.append("i")
+        wordsList.append("am")
+        wordsList.remove("im")
         Adding()
 
-    while 'youre' in wordsList:
-        wordsList.append('you')
-        wordsList.append('are')
-        wordsList.remove('youre')
+    while "youre" in wordsList:
+        wordsList.append("you")
+        wordsList.append("are")
+        wordsList.remove("youre")
         Adding()
 
-    while 'hes' in wordsList:
-        wordsList.append('is')
-        wordsList.append('he')
-        wordsList.remove('hes')
+    while "hes" in wordsList:
+        wordsList.append("is")
+        wordsList.append("he")
+        wordsList.remove("hes")
         Adding()
 
-    while 'shes' in wordsList:
-        wordsList.append('is')
-        wordsList.append('she')
-        wordsList.remove('shes')
+    while "shes" in wordsList:
+        wordsList.append("is")
+        wordsList.append("she")
+        wordsList.remove("shes")
         Adding()
 
-    while 'theyre' in wordsList:
-        wordsList.append('are')
-        wordsList.append('they')
-        wordsList.remove('theyre')
+    while "theyre" in wordsList:
+        wordsList.append("are")
+        wordsList.append("they")
+        wordsList.remove("theyre")
         Adding()
 
-    while 'hed' in wordsList:
-        wordsList.append('had')
-        wordsList.append('he')
-        wordsList.remove('hed')
+    while "hed" in wordsList:
+        wordsList.append("had")
+        wordsList.append("he")
+        wordsList.remove("hed")
         Adding()
 
-    while 'shed' in wordsList:
-        wordsList.append('had')
-        wordsList.append('she')
-        wordsList.remove('shed')
+    while "shed" in wordsList:
+        wordsList.append("had")
+        wordsList.append("she")
+        wordsList.remove("shed")
         Adding()
 
-    while 'itd' in wordsList:
-        wordsList.append('had')
-        wordsList.append('it')
-        wordsList.remove('itd')
+    while "itd" in wordsList:
+        wordsList.append("had")
+        wordsList.append("it")
+        wordsList.remove("itd")
         Adding()
 
-    while 'isnt' in wordsList:
-        wordsList.append('is')
-        wordsList.append('not')
-        wordsList.remove('isnt')
+    while "isnt" in wordsList:
+        wordsList.append("is")
+        wordsList.append("not")
+        wordsList.remove("isnt")
         Adding()
 
-    while 'dont' in wordsList:
-        wordsList.append('do')
-        wordsList.append('not')
-        wordsList.remove('dont')
+    while "dont" in wordsList:
+        wordsList.append("do")
+        wordsList.append("not")
+        wordsList.remove("dont")
         Adding()
 
-    while 'doesnt' in wordsList:
-        wordsList.append('does')
-        wordsList.append('not')
-        wordsList.remove('doesnt')
+    while "doesnt" in wordsList:
+        wordsList.append("does")
+        wordsList.append("not")
+        wordsList.remove("doesnt")
         Adding()
 
-    while 'didnt' in wordsList:
-        wordsList.append('did')
-        wordsList.append('not')
-        wordsList.remove('didnt')
+    while "didnt" in wordsList:
+        wordsList.append("did")
+        wordsList.append("not")
+        wordsList.remove("didnt")
         Adding()
 
-    while 'cant' in wordsList:
-        wordsList.append('can')
-        wordsList.append('not')
-        wordsList.remove('cant')
+    while "cant" in wordsList:
+        wordsList.append("can")
+        wordsList.append("not")
+        wordsList.remove("cant")
         Adding()
 
-    while 'wouldnt' in wordsList:
-        wordsList.append('would')
-        wordsList.append('not')
-        wordsList.remove('wouldnt')
+    while "wouldnt" in wordsList:
+        wordsList.append("would")
+        wordsList.append("not")
+        wordsList.remove("wouldnt")
         Adding()
 
-    while 'couldnt' in wordsList:
-        wordsList.append('could')
-        wordsList.append('not')
-        wordsList.remove('couldnt')
+    while "couldnt" in wordsList:
+        wordsList.append("could")
+        wordsList.append("not")
+        wordsList.remove("couldnt")
         Adding()
 
-    while 'souldnt' in wordsList:
-        wordsList.append('sould')
-        wordsList.append('not')
-        wordsList.remove('souldnt')
+    while "souldnt" in wordsList:
+        wordsList.append("sould")
+        wordsList.append("not")
+        wordsList.remove("souldnt")
         Adding()
 
     WordsRepeated = []
 
-    allEnglishChar.remove('-')
+    allEnglishChar.remove("-")
 
     for word in wordsList:
         if [0, word] not in WordsRepeated:
@@ -273,14 +284,16 @@ class AdvancedData:
         return WordsRepeated[index][1]
 
     TopUsed = ""
-    RankRange = len(WordsRepeated)
-    # RankRange = RankingList
+    if RankingList == "all" or int(RankingList) >= len(WordsRepeated):
+        RankRange = len(WordsRepeated)
+    else:
+        RankRange = int(RankingList)
 
     col = 3
-    row = int(RankRange/col)+1
+    row = int(RankRange / col) + 1
     num = 0
     record = 0
-    remain = RankRange - (col-1)*row
+    remain = RankRange - (col - 1) * row
     arr = []
     while len(arr) < RankRange:
         arr.append(num)
@@ -290,23 +303,27 @@ class AdvancedData:
             num += row
             record += 1
             arr.append(num)
-            num -= (row*2-1)
+            num -= row * 2 - 1
         else:
             arr.append(num)
-            num -= (row-1)
+            num -= row - 1
         Adding()
     # arr.sort()
     for index in arr:
         if index < row:
             TopUsed += "\n      "
-        Word = str(index+1) + '. "' + \
-            WordsItself(WordsRepeated, index).capitalize() + '"'
-        Amount = ": " + str(WordsAmount(WordsRepeated, index))+" "
-        Percentage = Math.percent(WordsAmount(WordsRepeated, index), len(
-            wordsList), 100)
+        Word = (
+            str(index + 1)
+            + '. "'
+            + WordsItself(WordsRepeated, index).capitalize()
+            + '"'
+        )
+        Amount = ": " + str(WordsAmount(WordsRepeated, index)) + " "
+        Percentage = Math.percent(
+            WordsAmount(WordsRepeated, index), len(wordsList), 100
+        )
         TopUsed += FormalFiller(Word + Amount + Percentage, 3)
         Adding()
-
 
 
 R = RegularData
@@ -316,14 +333,14 @@ A = AdvancedData
 class AllanPoeIndex:
     # Original goal is "eaoidhnrstuycfglmwbkpqxz"
     Letter = A.WordsRepeated
-    letters = ''
+    letters = ""
     LettersRepeated = []
 
     for word in Letter:
-        letters += word[1]*word[0]
+        letters += word[1] * word[0]
         Adding()
-    
-    letters += 's'*2
+
+    letters += "s" * 2
     allLowerLetter = list(string.ascii_lowercase)
 
     for letter in allLowerLetter:
@@ -337,21 +354,47 @@ class AllanPoeIndex:
         Adding()
 
     LettersRepeated.sort(reverse=True)
-    ShowLettersSort = ''
+    ShowLettersSort = ""
     for letter in LettersRepeated:
         ShowLettersSort += letter[1] + ", "
         Adding()
 
-    CurrentSortList = ShowLettersSort.split(', ')
-    CurrentSortList.remove('')
+    CurrentSortList = ShowLettersSort.split(", ")
+    CurrentSortList.remove("")
 
-    CriticalSortList = ['e', 't', 'a', 'o', 'i', 'n', 's', 'h', 'r', 'd', 'l',
-                        'c', 'u', 'm', 'w', 'f', 'g', 'y', 'p', 'b', 'v', 'k', 'j', 'x', 'q', 'z']
+    CriticalSortList = [
+        "e",
+        "t",
+        "a",
+        "o",
+        "i",
+        "n",
+        "s",
+        "h",
+        "r",
+        "d",
+        "l",
+        "c",
+        "u",
+        "m",
+        "w",
+        "f",
+        "g",
+        "y",
+        "p",
+        "b",
+        "v",
+        "k",
+        "j",
+        "x",
+        "q",
+        "z",
+    ]
     Grade = 100
     for char in CurrentSortList:
         num = 0
         dist = abs(CurrentSortList.index(char) - CriticalSortList.index(char))
-        num = 1-(1/25*dist)
+        num = 1 - (1 / 25 * dist)
         Grade *= num
         Adding()
     Grade = Math.percent(Grade, 100, 100)
@@ -359,7 +402,8 @@ class AllanPoeIndex:
 
 class BillMurrayIndex:
     FirstLetter = "t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z".split(
-        ", ")
+        ", "
+    )
 
     Letter = A.WordsRepeated
     LettersRepeated = []
@@ -377,21 +421,47 @@ class BillMurrayIndex:
 
     LettersRepeated.sort(reverse=True)
 
-    ShowLettersSort = ''
+    ShowLettersSort = ""
     for letter in LettersRepeated:
         ShowLettersSort += letter[1] + ", "
         Adding()
     # ShowLettersSort = ShowLettersSort.replace(ShowLettersSort[-2:0], '')
 
-    CurrentSortList = ShowLettersSort.split(', ')
-    CurrentSortList.remove('')
-    CriticalSortList = ['t', 'a', 's', 'h', 'w', 'i', 'o', 'b', 'm', 'f', 'c',
-                        'l', 'd', 'p', 'n', 'e', 'g', 'r', 'y', 'u', 'v', 'j', 'k', 'q', 'x', 'z']
+    CurrentSortList = ShowLettersSort.split(", ")
+    CurrentSortList.remove("")
+    CriticalSortList = [
+        "t",
+        "a",
+        "s",
+        "h",
+        "w",
+        "i",
+        "o",
+        "b",
+        "m",
+        "f",
+        "c",
+        "l",
+        "d",
+        "p",
+        "n",
+        "e",
+        "g",
+        "r",
+        "y",
+        "u",
+        "v",
+        "j",
+        "k",
+        "q",
+        "x",
+        "z",
+    ]
     Grade = 100
     for char in CurrentSortList:
         num = 0
         dist = abs(CurrentSortList.index(char) - CriticalSortList.index(char))
-        num = 1-(1/25*dist)
+        num = 1 - (1 / 25 * dist)
         Grade *= num
         Adding()
     Grade = Math.percent(Grade, 100, 100)
@@ -405,18 +475,18 @@ class TypingTest:
     WrongWords = []
     for test in TypingDatas:
         time += test["TestLength"]
-        wpm += test['WPM']
-        accuracy += test['Accuracy']
-        backrate = test['BackRate']
-        for word in test['WrongWords']:
+        wpm += test["WPM"]
+        accuracy += test["Accuracy"]
+        backrate = test["BackRate"]
+        for word in test["WrongWords"]:
             WrongWords.append(word)
         Adding()
         number += 1
 
     avgTime = Math.takeDecimal(time, number, 10)
     avgWpm = Math.takeDecimal(wpm, number, 100)
-    avgAccuracy = Math.takeDecimal(accuracy*100, number, 10)
-    avgBackrate = Math.takeDecimal(backrate*100, number, 10)
+    avgAccuracy = Math.takeDecimal(accuracy * 100, number, 10)
+    avgBackrate = Math.takeDecimal(backrate * 100, number, 10)
     WrongWordsRepeated = []
     for word in WrongWords:
         if [0, word] not in WrongWordsRepeated:
@@ -427,10 +497,18 @@ class TypingTest:
             if word == WrongWordsRepeated[index][1]:
                 WrongWordsRepeated[index][0] += 1
             Adding()
-    WrongWordsRepeated.sort(reverse = True)
+    WrongWordsRepeated.sort(reverse=True)
     MostTypo = WrongWordsRepeated[0][1]
-    jsonUpload = [{"Test Duration": avgTime, "WPM": avgWpm, "Accuracy":avgAccuracy, "BackSpace Press Rate": avgBackrate, "Wrong Words List": WrongWordsRepeated}]
-    
+    jsonUpload = [
+        {
+            "Test Duration": avgTime,
+            "WPM": avgWpm,
+            "Accuracy": avgAccuracy,
+            "BackSpace Press Rate": avgBackrate,
+            "Wrong Words List": WrongWordsRepeated,
+        }
+    ]
+
     for x in range(5):
         Adding()
 
@@ -441,69 +519,125 @@ T = TypingTest
 
 print()
 
+
 class Write:
-    AllanRate = FontEffect("Allan Poe Index:    ", 83, 1) + \
-        FontEffect(str(Allan.Grade)[2:-1], 0, 1) + "     " + \
-        LoadBar(float(str(Allan.Grade)[2:-3])/100, 60, 1)
+    AllanRate = (
+        FontEffect("Allan Poe Index:    ", 83, 1)
+        + FontEffect(str(Allan.Grade)[2:-1], 0, 1)
+        + "     "
+        + LoadBar(float(str(Allan.Grade)[2:-3]) / 100, 60, 1)
+    )
     AllanResult = "Result:        " + Allan.ShowLettersSort[:76]
 
-    BillRate = FontEffect("Bill Murray Index:  ", 83, 1) + \
-        FontEffect(str(Bill.Grade)[2:-1], 0, 1) + "     " + \
-        LoadBar(float(str(Bill.Grade)[2:-3])/100, 60, 1)
+    BillRate = (
+        FontEffect("Bill Murray Index:  ", 83, 1)
+        + FontEffect(str(Bill.Grade)[2:-1], 0, 1)
+        + "     "
+        + LoadBar(float(str(Bill.Grade)[2:-3]) / 100, 60, 1)
+    )
     BillResult = "Result:        " + Bill.ShowLettersSort[:76]
 
-    Vocabularies = FontEffect('VOCABULARIES: ', 160, 1) + str(R.voc)
+    Vocabularies = FontEffect("VOCABULARIES: ", 160, 1) + str(R.voc)
 
-    Learned = 'Learned: ' + str(R.alr) + \
-        Math.percent(R.alr, R.voc, decimalDegree)
-    Unlearned = 'Unlearned: ' + \
-        str(R.unl) + Math.percent(R.unl, R.voc, decimalDegree)
-    Individuals = 'Individuals: ' + str(len(A.WordsRepeated))
+    Learned = "Learned: " + str(R.alr) + Math.percent(R.alr, R.voc, decimalDegree)
+    Unlearned = "Unlearned: " + str(R.unl) + Math.percent(R.unl, R.voc, decimalDegree)
+    Individuals = "Individuals: " + str(len(A.WordsRepeated))
 
-    Sentences = FontEffect('SENTENCES: ', 160, 1) + str(R.sen)
-    Examples = 'Examples: ' + \
-        str(R.exp) + Math.percent(R.exp, R.sen, decimalDegree)
-    Definitions = 'Definitions: ' + \
-        str(R.defi) + Math.percent(R.defi, R.sen, decimalDegree)
-    Comparisons = 'Comparisons: ' + \
-        str(R.com) + Math.percent(R.com, R.sen, decimalDegree)
+    Sentences = FontEffect("SENTENCES: ", 160, 1) + str(R.sen)
+    Examples = "Examples: " + str(R.exp) + Math.percent(R.exp, R.sen, decimalDegree)
+    Definitions = (
+        "Definitions: " + str(R.defi) + Math.percent(R.defi, R.sen, decimalDegree)
+    )
+    Comparisons = (
+        "Comparisons: " + str(R.com) + Math.percent(R.com, R.sen, decimalDegree)
+    )
 
     TotalWords = "Total Words: " + str(len(A.wordsList))
     TotalCharacters = "Total Characters: " + str(len(Allan.letters))
-    LettersPerWord = "Letters Per Word: " + str(Math.takeDecimal(
-        len(Allan.letters), len(A.wordsList), 1000))
+    LettersPerWord = "Letters Per Word: " + str(
+        Math.takeDecimal(len(Allan.letters), len(A.wordsList), 1000)
+    )
 
-    avgTime = 'Test Duration: ' + str(T.avgTime) + ' min'
-    avgWpm = 'WPM: ' + str(T.avgWpm)
-    avgAccuracy = 'Accuracy: ' + str(T.avgAccuracy) + ' %'
-    avgBackrate = 'Back Rate: ' + str(T.avgBackrate) + ' %'
+    avgTime = "Test Duration: " + str(T.avgTime) + " min"
+    avgWpm = "WPM: " + str(T.avgWpm)
+    avgAccuracy = "Accuracy: " + str(T.avgAccuracy) + " %"
+    avgBackrate = "Back Rate: " + str(T.avgBackrate) + " %"
     MostType = "Most Typo: " + '"' + T.MostTypo + '"'
 
-Print.ln('')
+
+Print.ln("")
 Print.ln(Write.AllanRate)
 Print.tabln(
-    FontEffect("Stantard:      e, t, a, o, i, n, s, h, r, d, l, c, u, m, w, f, g, y, p, b, v, k, j, x, q, z", 0, 1))
+    FontEffect(
+        "Stantard:      e, t, a, o, i, n, s, h, r, d, l, c, u, m, w, f, g, y, p, b, v, k, j, x, q, z",
+        0,
+        1,
+    )
+)
 Print.tabln(Write.AllanResult)
 Print.ln(Write.BillRate)
 Print.tabln(
-    FontEffect("Stantard:      t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z", 0, 1))
+    FontEffect(
+        "Stantard:      t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z",
+        0,
+        1,
+    )
+)
 Print.tabln(Write.BillResult)
 Print.ln(Write.Vocabularies)
-Print.tabln(FormalFiller(Write.Learned, 3) +
-            FormalFiller(Write.Unlearned, 3) + Write.Individuals)
+Print.tabln(
+    FormalFiller(Write.Learned, 3)
+    + FormalFiller(Write.Unlearned, 3)
+    + Write.Individuals
+)
 Print.ln(Write.Sentences)
-Print.tabln(FormalFiller(Write.Examples, 3) +
-            FormalFiller(Write.Definitions, 3) + Write.Comparisons)
+Print.tabln(
+    FormalFiller(Write.Examples, 3)
+    + FormalFiller(Write.Definitions, 3)
+    + Write.Comparisons
+)
 Print.ln(FontEffect("ADVANCED DATA: ", 201, 1))
-Print.tabln(FormalFiller(Write.TotalWords, 3) +
-            FormalFiller(Write.TotalCharacters, 3) + Write.LettersPerWord)
-Print.ln(FontEffect('Typing Test Results: ',165, 1))
-fillerForType = " "*int((110-len(Write.MostType + Write.avgAccuracy + Write.avgWpm + Write.avgBackrate + Write.avgTime))/4)
-Print.tabln(Write.MostType + fillerForType + Write.avgAccuracy + fillerForType + Write.avgWpm + fillerForType + Write.avgBackrate + fillerForType + Write.avgTime)
-print(FontEffect("TOP "+str(A.RankRange)+" USED WORDS: ", 208, 1))
+Print.tabln(
+    FormalFiller(Write.TotalWords, 3)
+    + FormalFiller(Write.TotalCharacters, 3)
+    + Write.LettersPerWord
+)
+Print.ln(FontEffect("Typing Test Results: ", 165, 1))
+fillerForType = " " * int(
+    (
+        110
+        - len(
+            Write.MostType
+            + Write.avgAccuracy
+            + Write.avgWpm
+            + Write.avgBackrate
+            + Write.avgTime
+        )
+    )
+    / 4
+)
+Print.tabln(
+    Write.MostType
+    + fillerForType
+    + Write.avgAccuracy
+    + fillerForType
+    + Write.avgWpm
+    + fillerForType
+    + Write.avgBackrate
+    + fillerForType
+    + Write.avgTime
+)
+print(FontEffect("TOP " + str(A.RankRange) + " USED WORDS: ", 208, 1))
 Print.tabln(A.TopUsed)
 
 
 with open("Database.json", mode="w") as file:
-    json.dump([{"Words List": A.wordsList}, {"Words Repeat Time": A.WordsRepeated},{"Typing Test Results": T.jsonUpload}, {"Last Progress": progress}], file)
-
+    json.dump(
+        [
+            {"Words List": A.wordsList},
+            {"Words Repeat Time": A.WordsRepeated},
+            {"Typing Test Results": T.jsonUpload},
+            {"Last Progress": progress},
+        ],
+        file,
+    )

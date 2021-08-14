@@ -236,7 +236,7 @@ namespace Typing_App
                 Console.WriteLine();
                 int i = 10;
                 Random r = new Random(i * state + randomSeed + TestTime);
-                int n = r.Next(0, arr.Length-1000);
+                int n = r.Next(0, arr.Length - 1000);
                 while (i != 0)
                 {
                     Console.Write("\u001b[1m" + arr[n] + "\u001b[0m      ");
