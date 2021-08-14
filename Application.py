@@ -311,7 +311,7 @@ class AllanPoeIndex:
     Grade = Math.percent(Grade, 100, 100)
 
 
-class FirstLetterIndex:
+class BillMurrayIndex:
     FirstLetter = "t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z".split(
         ", ")
 
@@ -387,7 +387,7 @@ class TypingTest:
 
 
 APL = AllanPoeIndex
-F = FirstLetterIndex
+Bill = BillMurrayIndex
 T = TypingTest
 
 class Write:
@@ -395,10 +395,10 @@ class Write:
         FontEffect(str(APL.Grade)[2:-1], 0, 1) + "     " + \
         LoadBar(float(str(APL.Grade)[2:-3])/100, 60)
     APLresult = "Result:        " + APL.ShowLettersSort[:76]
-    FLIrate = FontEffect("First Letter Index: ", 83, 1) + \
-        FontEffect(str(F.Grade)[2:-1], 0, 1) + "     " + \
-        LoadBar(float(str(F.Grade)[2:-3])/100, 60)
-    FLIresult = "Result:        " + F.ShowLettersSort[:76]
+    FLIrate = FontEffect("Bill Murray Index: ", 83, 1) + \
+        FontEffect(str(Bill.Grade)[2:-1], 0, 1) + "     " + \
+        LoadBar(float(str(Bill.Grade)[2:-3])/100, 60)
+    FLIresult = "Result:        " + Bill.ShowLettersSort[:76]
     Vocabularies = FontEffect('VOCABULARIES: ', 160, 1) + str(R.voc)
     Learned = 'Learned: ' + str(R.alr) + \
         Math.percent(R.alr, R.voc, decimalDegree)

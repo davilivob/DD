@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj": {}
+    "c:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj": {
+    "c:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj",
+        "projectUniqueName": "c:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj",
         "projectName": "DailyEnglish",
-        "projectPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj",
+        "projectPath": "c:\\Users\\dovilivob\\Desktop\\DailyEnglish\\DailyEnglish.csproj",
         "packagesPath": "C:\\Users\\dovilivob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish\\obj\\",
+        "outputPath": "c:\\Users\\dovilivob\\Desktop\\DailyEnglish\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dovilivob\\AppData\\Roaming\\NuGet\\NuGet.Config",
