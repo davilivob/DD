@@ -106,55 +106,46 @@ def LoadBar(ratio, range, height):
 
 
 class RegularData:
-    voc = sen = defi = com = unl = 0
-
-    # words
-    Dictionary = Dictionary.replace('": [', "詞")
 
     sentenceEnd = ['."', '!"', '?"', '\\""']
+    Dictionary = Dictionary.replace('": [', "詞").replace('"@', "定").replace('"&', "比")
+    Dictionary = Dictionary.replace('""', "空")
     for element in sentenceEnd:
         Dictionary = Dictionary.replace(element, "語")
         Adding()
 
-    Dictionary = Dictionary.replace('"@', "定").replace('"&', "比").replace('""', "空")
-
-    for char in Dictionary:
-        if char == "詞":
-            voc += 1
-        if char == "語":
-            sen += 1
-        if char == "定":
-            defi += 1
-        if char == "比":
-            com += 1
-        if char == "空":
-            unl += 1
-        Adding()
+    sen = len(Dictionary.split("語")) - 1
+    voc = len(Dictionary.split("詞")) - 1
+    defi = len(Dictionary.split("定")) - 1
+    com = len(Dictionary.split("比")) - 1
+    unl = len(Dictionary.split("空")) - 1
 
     alr = voc - int(unl / 2)
     unl = int(unl / 2)
     exp = sen - defi - com
 
 
-Adding()
+def splitQruotationMark(List, origin, a, b):
+    while origin in List:
+        List.append(a)
+        List.append(b)
+        List.remove(origin)
+        Adding()
 
 
 class AdvancedData:
+
     global progress
     Words = str.lower(Words)
-
     for char in Words:
         if char not in allEnglishChar:
             Words = Words.replace(char, "")
-            Adding()
-
-    while "  " in Words:
-        Words = Words.replace("  ", " ")
-        Adding()
-
-    while "-" in Words:
-        Words = Words.replace("-", " ")
-        Adding()
+            while "  " in Words:
+                Words = Words.replace("  ", " ")
+                Adding()
+            while "-" in Words:
+                Words = Words.replace("-", " ")
+                Adding()
 
     wordsList = str.split(Words)
 
@@ -163,101 +154,24 @@ class AdvancedData:
         wordsList.remove("s")
         Adding()
 
-    while "im" in wordsList:
-        wordsList.append("i")
-        wordsList.append("am")
-        wordsList.remove("im")
-        Adding()
-
-    while "youre" in wordsList:
-        wordsList.append("you")
-        wordsList.append("are")
-        wordsList.remove("youre")
-        Adding()
-
-    while "hes" in wordsList:
-        wordsList.append("is")
-        wordsList.append("he")
-        wordsList.remove("hes")
-        Adding()
-
-    while "shes" in wordsList:
-        wordsList.append("is")
-        wordsList.append("she")
-        wordsList.remove("shes")
-        Adding()
-
-    while "theyre" in wordsList:
-        wordsList.append("are")
-        wordsList.append("they")
-        wordsList.remove("theyre")
-        Adding()
-
-    while "hed" in wordsList:
-        wordsList.append("had")
-        wordsList.append("he")
-        wordsList.remove("hed")
-        Adding()
-
-    while "shed" in wordsList:
-        wordsList.append("had")
-        wordsList.append("she")
-        wordsList.remove("shed")
-        Adding()
-
-    while "itd" in wordsList:
-        wordsList.append("had")
-        wordsList.append("it")
-        wordsList.remove("itd")
-        Adding()
-
-    while "isnt" in wordsList:
-        wordsList.append("is")
-        wordsList.append("not")
-        wordsList.remove("isnt")
-        Adding()
-
-    while "dont" in wordsList:
-        wordsList.append("do")
-        wordsList.append("not")
-        wordsList.remove("dont")
-        Adding()
-
-    while "doesnt" in wordsList:
-        wordsList.append("does")
-        wordsList.append("not")
-        wordsList.remove("doesnt")
-        Adding()
-
-    while "didnt" in wordsList:
-        wordsList.append("did")
-        wordsList.append("not")
-        wordsList.remove("didnt")
-        Adding()
-
-    while "cant" in wordsList:
-        wordsList.append("can")
-        wordsList.append("not")
-        wordsList.remove("cant")
-        Adding()
-
-    while "wouldnt" in wordsList:
-        wordsList.append("would")
-        wordsList.append("not")
-        wordsList.remove("wouldnt")
-        Adding()
-
-    while "couldnt" in wordsList:
-        wordsList.append("could")
-        wordsList.append("not")
-        wordsList.remove("couldnt")
-        Adding()
-
-    while "souldnt" in wordsList:
-        wordsList.append("sould")
-        wordsList.append("not")
-        wordsList.remove("souldnt")
-        Adding()
+    for x in [0]:
+        splitQruotationMark(wordsList, "hes", "he", "is")
+        splitQruotationMark(wordsList, "shes", "she", "is")
+        splitQruotationMark(wordsList, "youre", "you", "are")
+        splitQruotationMark(wordsList, "hes", "he", "is")
+        splitQruotationMark(wordsList, "im", "i", "am")
+        splitQruotationMark(wordsList, "theyre", "they", "are")
+        splitQruotationMark(wordsList, "hed", "he", "had")
+        splitQruotationMark(wordsList, "shed", "she", "had")
+        splitQruotationMark(wordsList, "itd", "it", "had")
+        splitQruotationMark(wordsList, "isnt", "is", "not")
+        splitQruotationMark(wordsList, "cant", "can", "not")
+        splitQruotationMark(wordsList, "dont", "do", "not")
+        splitQruotationMark(wordsList, "doesnt", "does", "not")
+        splitQruotationMark(wordsList, "didnt", "did", "not")
+        splitQruotationMark(wordsList, "wouldnt", "would", "not")
+        splitQruotationMark(wordsList, "souldnt", "sould", "not")
+        splitQruotationMark(wordsList, "couldnt", "could", "not")
 
     WordsRepeated = []
 
@@ -275,6 +189,13 @@ class AdvancedData:
         Adding()
 
     WordsRepeated.sort(reverse=True)
+
+    emptyJson = "{}"
+    WordsRepeatedJson = json.loads(emptyJson)
+
+    for word in WordsRepeated:
+        WordsRepeatedJson.update({word[1]: word[0]})
+        Adding()
 
     def WordsAmount(WordsRepeated, index):
         return WordsRepeated[index][0]
@@ -328,6 +249,17 @@ class AdvancedData:
 
 R = RegularData
 A = AdvancedData
+
+
+def IndexGrade(currentSortList, criticalSortList):
+    Grade = 100
+    for char in currentSortList:
+        num = 0
+        dist = abs(currentSortList.index(char) - criticalSortList.index(char))
+        num = 1 - (1 / 25 * dist)
+        Grade *= num
+        Adding()
+    return Math.percent(Grade, 100, 100)
 
 
 class AllanPoeIndex:
@@ -390,20 +322,10 @@ class AllanPoeIndex:
         "q",
         "z",
     ]
-    Grade = 100
-    for char in CurrentSortList:
-        num = 0
-        dist = abs(CurrentSortList.index(char) - CriticalSortList.index(char))
-        num = 1 - (1 / 25 * dist)
-        Grade *= num
-        Adding()
-    Grade = Math.percent(Grade, 100, 100)
+    Grade = IndexGrade(CurrentSortList, CriticalSortList)
 
 
 class BillMurrayIndex:
-    FirstLetter = "t, a, s, h, w, i, o, b, m, f, c, l, d, p, n, e, g, r, y, u, v, j, k, q, x, z".split(
-        ", "
-    )
 
     Letter = A.WordsRepeated
     LettersRepeated = []
@@ -457,14 +379,7 @@ class BillMurrayIndex:
         "x",
         "z",
     ]
-    Grade = 100
-    for char in CurrentSortList:
-        num = 0
-        dist = abs(CurrentSortList.index(char) - CriticalSortList.index(char))
-        num = 1 - (1 / 25 * dist)
-        Grade *= num
-        Adding()
-    Grade = Math.percent(Grade, 100, 100)
+    Grade = IndexGrade(CurrentSortList, CriticalSortList)
 
 
 class TypingTest:
@@ -498,14 +413,34 @@ class TypingTest:
                 WrongWordsRepeated[index][0] += 1
             Adding()
     WrongWordsRepeated.sort(reverse=True)
-    MostTypo = WrongWordsRepeated[0][1]
+
+    emptyJson = "{}"
+    WrongWordsRepeatedJson = json.loads(emptyJson)
+    for word in WrongWordsRepeated:
+        WrongWordsRepeatedJson.update({word[1]: word[0]})
+        Adding()
+
+    TypoRate = WrongWordsRepeated
+    for word in TypoRate:
+        word[0] = float(word[0] / lastProgress[1]["Words Repeat Time"][word[1]])
+        Adding()
+
+    TypoRate.sort(reverse=True)
+    MostTypo = TypoRate[0][1]
+
+    TypoRateJson = json.loads(emptyJson)
+    for word in TypoRate:
+        TypoRateJson.update({word[1]: word[0]})
+        Adding()
+
     jsonUpload = [
         {
             "Test Duration": avgTime,
             "WPM": avgWpm,
-            "Accuracy": avgAccuracy,
+            "Accuracy": avgAccuracy / 100,
             "BackSpace Press Rate": avgBackrate,
-            "Wrong Words List": WrongWordsRepeated,
+            "Wrong Words List": WrongWordsRepeatedJson,
+            "Typo Rate": TypoRateJson,
         }
     ]
 
@@ -635,7 +570,7 @@ with open("Database.json", mode="w") as file:
     json.dump(
         [
             {"Words List": A.wordsList},
-            {"Words Repeat Time": A.WordsRepeated},
+            {"Words Repeat Time": A.WordsRepeatedJson},
             {"Typing Test Results": T.jsonUpload},
             {"Last Progress": progress},
         ],

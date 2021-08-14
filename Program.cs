@@ -177,7 +177,7 @@ namespace Typing_App
             string AllJsonContent = _preWord.ReadToEnd();
             _preWord.Close();
             StreamWriter preWork = new StreamWriter(@"TypingPracticeRecords.json");
-            preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 1));
+            preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 2));
             preWork.Close();
             Exception();
 

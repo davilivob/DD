@@ -229,5 +229,43 @@
     "Accuracy": 1,
     "BackRate": 0.021739130434782608,
     "WrongWords": []
+  },
+
+  {
+    "DateTime": "2021/8/14 P.M. 10:19:38",
+    "TestLength": 2,
+    "WPM": 41,
+    "CPM": 206,
+    "Accuracy": 0.9565217391304348,
+    "BackRate": 0.06779661016949153,
+    "WrongWords": ["mary", "gave", "ten", "question"]
+  },
+  {
+    "DateTime": "2021/8/14 P.M. 10:23:10",
+    "TestLength": 3,
+    "WPM": 45,
+    "CPM": 226,
+    "Accuracy": 0.9626865671641791,
+    "BackRate": 0.026509572901325478,
+    "WrongWords": ["pathology", "defined", "toward", "wary", "wine"]
+  },
+
+  {
+    "DateTime": "2021/8/14 P.M. 10:28:47",
+    "TestLength": 2,
+    "WPM": 44,
+    "CPM": 223,
+    "Accuracy": 0.9560439560439561,
+    "BackRate": 0.03139013452914798,
+    "WrongWords": ["little", "turned", "to", "morover"]
+  },
+  {
+    "DateTime": "2021/8/14 P.M. 10:30:54",
+    "TestLength": 1,
+    "WPM": 46,
+    "CPM": 230,
+    "Accuracy": 0.9782608695652174,
+    "BackRate": 0.043478260869565216,
+    "WrongWords": ["with"]
   }
 ]
