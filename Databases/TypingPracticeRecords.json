@@ -348,5 +348,176 @@
     "Accuracy": 0.9375,
     "BackRate": 0.045454545454545456,
     "WrongWords": ["sterilize", "your", "cat"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 09:54:18",
+    "TestLength": 2,
+    "WPM": 43,
+    "CPM": 216,
+    "Accuracy": 0.9885057471264368,
+    "BackRate": 0.06481481481481481,
+    "WrongWords": ["connotations"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 09:56:09",
+    "TestLength": 1,
+    "WPM": 44,
+    "CPM": 221,
+    "Accuracy": 0.9302325581395349,
+    "BackRate": 0.049773755656108594,
+    "WrongWords": ["copper", "troubles", "antiseptic"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 10:25:07",
+    "TestLength": 1,
+    "WPM": 47,
+    "CPM": 235,
+    "Accuracy": 0.9574468085106383,
+    "BackRate": 0.03829787234042553,
+    "WrongWords": ["however", "individuals"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 10:32:03",
+    "TestLength": 2,
+    "WPM": 42,
+    "CPM": 212,
+    "Accuracy": 0.926829268292683,
+    "BackRate": 0.054245283018867926,
+    "WrongWords": ["bites", "do", "i", "meeting", "his", "dignified"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 11:00:13",
+    "TestLength": 1,
+    "WPM": 45,
+    "CPM": 228,
+    "Accuracy": 0.9777777777777777,
+    "BackRate": 0.021929824561403508,
+    "WrongWords": ["and"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 11:05:03",
+    "TestLength": 1,
+    "WPM": 44,
+    "CPM": 223,
+    "Accuracy": 0.94,
+    "BackRate": 0.013452914798206279,
+    "WrongWords": ["two", "off", "a"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 11:07:13",
+    "TestLength": 2,
+    "WPM": 42,
+    "CPM": 213,
+    "Accuracy": 0.9574468085106383,
+    "BackRate": 0.05620608899297424,
+    "WrongWords": ["gaze", "of", "disputes", "sometimes"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 11:17:19",
+    "TestLength": 1,
+    "WPM": 43,
+    "CPM": 216,
+    "Accuracy": 1,
+    "BackRate": 0.08796296296296297,
+    "WrongWords": []
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 11:19:29",
+    "TestLength": 2,
+    "WPM": 46,
+    "CPM": 233,
+    "Accuracy": 1,
+    "BackRate": 0.04291845493562232,
+    "WrongWords": []
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 03:03:13",
+    "TestLength": 3,
+    "WPM": 44,
+    "CPM": 220,
+    "Accuracy": 0.9655172413793104,
+    "BackRate": 0.054380664652567974,
+    "WrongWords": ["includes", "impetus", "strike", "sad", "syrup"]
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 03:09:33",
+    "TestLength": 3,
+    "WPM": 40,
+    "CPM": 211,
+    "Accuracy": 0.9606299212598425,
+    "BackRate": 0.08031496062992126,
+    "WrongWords": ["mildews", "with", "that", "unusual", "ceasefire"]
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 03:12:03",
+    "TestLength": 1,
+    "WPM": 47,
+    "CPM": 228,
+    "Accuracy": 0.94,
+    "BackRate": 0.013157894736842105,
+    "WrongWords": ["but", "meanwhile", "evils"]
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 03:14:27",
+    "TestLength": 2,
+    "WPM": 41,
+    "CPM": 215,
+    "Accuracy": 0.9431818181818182,
+    "BackRate": 0.06511627906976744,
+    "WrongWords": ["looks", "appearance", "a", "swamp", "a"]
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 03:17:54",
+    "TestLength": 1,
+    "WPM": 42,
+    "CPM": 201,
+    "Accuracy": 1,
+    "BackRate": 0.0845771144278607,
+    "WrongWords": []
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 03:19:02",
+    "TestLength": 1,
+    "WPM": 36,
+    "CPM": 191,
+    "Accuracy": 1,
+    "BackRate": 0.11518324607329843,
+    "WrongWords": []
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 03:20:46",
+    "TestLength": 1,
+    "WPM": 41,
+    "CPM": 227,
+    "Accuracy": 0.9761904761904762,
+    "BackRate": 0.013215859030837005,
+    "WrongWords": ["once"]
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 05:03:00",
+    "TestLength": 1,
+    "WPM": 43,
+    "CPM": 212,
+    "Accuracy": 0.9777777777777777,
+    "BackRate": 0.05188679245283019,
+    "WrongWords": ["unbecoming"]
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 05:11:13",
+    "TestLength": 1,
+    "WPM": 46.38219,
+    "CPM": 225,
+    "Accuracy": 0.9375,
+    "BackRate": 0.03111111111111111,
+    "WrongWords": ["syrupy", "kittens", "prominent"]
+  },
+  {
+    "DateTime": "2021/8/16 A.M. 05:16:33",
+    "TestLength": 2,
+    "WPM": 44.32076,
+    "CPM": 215,
+    "Accuracy": 0.9518072289156626,
+    "BackRate": 0.04186046511627907,
+    "WrongWords": ["mother", "connotations", "continues", "signing"]
   }
-,{"DateTime":"2021/8/15 P.M. 09:54:18","TestLength":2,"WPM":43,"CPM":216,"Accuracy":0.9885057471264368,"BackRate":0.06481481481481481,"WrongWords":["connotations"]},{"DateTime":"2021/8/15 P.M. 09:56:09","TestLength":1,"WPM":44,"CPM":221,"Accuracy":0.9302325581395349,"BackRate":0.049773755656108594,"WrongWords":["copper","troubles","antiseptic"]}]  
+]

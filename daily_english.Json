@@ -25,7 +25,7 @@
   "syllable": [
     "In the word \"engine\", you should stress the first syllable.",
     {
-      "typo": ["", ""],
+      "typo": [""],
       "plural": ["Geese is the plural of goose."]
     }
   ],
@@ -161,7 +161,7 @@
     "To me, chocolate connotes pleasure and idulgence.",
     {
       "connotation": [
-        "The word ' lady ' has connotations of refinement and excessive femininity that some somen find offensive.",
+        "The word ' lady ' has connotations of refinement and excessive femininity that some women find offensive.",
         "' Resolute ' means stubborn, but with a more positive connotation.",
         "The literal meaning of the term prestidigitator is ' nimble-fingered ', but its connotations extend to the idea of illusion, imposture, deception."
       ],
@@ -308,14 +308,13 @@
     "@ A building or part of a hospital where people go for medical care or advice.",
     "prenatal clinics provide care for pregnant women.",
     {
-      "injection": ["", ""]
+      "injection": [""]
     }
   ],
   "symptom": [
     "",
-    "",
     {
-      "albino": ["", ""]
+      "albino": [""]
     }
   ],
   "litter": [
@@ -428,7 +427,7 @@
       "mammal": [
         "@ Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs."
       ],
-      "vertebrate": ["", ""]
+      "vertebrate": [""]
     }
   ],
   "fasten": [
@@ -512,7 +511,7 @@
         "Dilute the juice with water before you drink it.",
         "These measures are designed to dilute public fears about the product's safety."
       ],
-      "dissolve": ["", ""]
+      "dissolve": [""]
     }
   ],
   "soil": [
@@ -560,7 +559,7 @@
       "article": [
         "& An article is usually news oriented, an essay can be literary."
       ],
-      "lecture": ["", ""]
+      "lecture": [""]
     }
   ],
   "cautious": [
@@ -676,8 +675,8 @@
       "sucrose": [
         "@ The type of sugar that exists naturally in most plants that grow on land."
       ],
-      "cane": ["", ""],
-      "beet": ["", ""]
+      "cane": [""],
+      "beet": [""]
     }
   ],
   "emphasis": [
@@ -699,7 +698,7 @@
     {
       "cruel": [
         "Is the death penalty crual and unusual punishment?",
-        "How is it posiible to distinguish between humour that is about ' feeling good about life ' and that which is profoundly cruel or misogynistic?"
+        "How is it possible to distinguish between humour that is about ' feeling good about life ' and that which is profoundly cruel or misogynistic?"
       ],
       "callous": [
         "It might sound callous, but I don't care if he's homeless. He's not living with me!",
@@ -710,8 +709,8 @@
         "For the sake of long-term peace, the military option is the lesser evil or the lesser of two evils (= the less unpleasant of two bad choices).",
         "An inductive inference is then made to the conclusion that certain instances, types groups, or patterns of evils are gratuitous."
       ],
-      "apathy": ["", ""],
-      "ruthless": ["", ""]
+      "apathy": [""],
+      "ruthless": [""]
     }
   ],
   "vicious": [
@@ -806,7 +805,7 @@
     "The course has four main components: business law, finance, computing and managment skills.",
     {
       "compound": ["Salt is a compound of sodium and chlorine."],
-      "ingredient": ["", ""]
+      "ingredient": [""]
     }
   ],
   "emerge": [
@@ -835,7 +834,7 @@
       "within the parameters of sth": [
         "We must work within the parameters of the law."
       ],
-      "indexical": ["", ""]
+      "indexical": [""]
     }
   ],
   "determined": [
@@ -928,13 +927,13 @@
     "I may enjoy dancing on the edge of the abyss, but I will never ever topple in, understand?",
     {
       "cavity": ["The gold was hidden in a secret cavity."],
-      "cliff": ["", ""]
+      "cliff": [""]
     }
   ],
   "liquefy": [
     "The critical pressure is the amount of pressure required to liquefy water at the critical temperature.",
     {
-      "crystallize": ["", ""]
+      "crystallize": [""]
     }
   ],
   "forbear": [
@@ -968,19 +967,19 @@
     "@ To fill someone or something with an emotion or quality.",
     "The pulling down of the Berlin Wall infused the world with optimism.",
     {
-      "infection": ["", ""]
+      "infection": [""]
     }
   ],
   "intermingle": [
     "Fact is intermingled with fiction throughout the book.",
     {
-      "merger": ["", ""]
+      "merger": [""]
     }
   ],
   "opponent": [
     "She hit the ball so hard that her opponent had no chance to establish any rhythm in her game.",
     {
-      "compete": ["", ""],
+      "compete": [""],
       "bid": [
         "@ To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
         "The communications group has shown an interest in bidding for the company.",
@@ -1079,14 +1078,14 @@
   "fruitful": [
     "Few explorations have been so fruitful as this six years' journey.",
     {
-      "abundance": ["", ""]
+      "abundance": [""]
     }
   ],
   "preserve": [
     "He wanted to protect her and preserve her innocence.",
     {
-      "conserve": ["", ""],
-      "restore": ["", ""]
+      "conserve": [""],
+      "restore": [""]
     }
   ],
   "effigy": ["The effigy on it may be taken to be an authentic portrait."],
@@ -1097,7 +1096,16 @@
     "@ The part of the leg between the knee and ankle or the equivalent in animals."
   ],
   "acquire": [
-    "To acquire wealth is difficult, to preserve it more difficult, but to spend it wisely most difficult of all."
+    "To acquire wealth is difficult, to preserve it more difficult, but to spend it wisely most difficult of all.",
+    {
+      "derive": [
+        "@ To get something from something else.",
+        "The institute derives all its money from foreign investments.",
+        "I didn't derive much benefit from school.",
+        "He derives an enormous amount of satisfaction from restoring old houses.",
+        "Much of it is derived from family interactions he has overheard through the years."
+      ]
+    }
   ],
   "dignified": [
     "The architectural style is dignified and pleasing in design and proportions."
@@ -1216,20 +1224,12 @@
   ],
   "baverage": [
     "",
-    "",
     {
       "mescal": [
         "& Tequilla is a type of mescal, but a mescal cannot be a tequila."
       ],
       "carbonated": ["It's basically carbonated white grape juice."]
     }
-  ],
-  "derive": [
-    "@ To get something from something else.",
-    "The institute derives all its money from foreign investments.",
-    "I didn't derive much benefit from school.",
-    "He derives an enormous amount of satisfaction from restoring old houses.",
-    "Much of it is derived from family interactions he has overheard through the years."
   ],
   "fellowship": [
     "He enjoyed the fellowship of other actors in the company.",
@@ -1272,7 +1272,7 @@
     "For a bit of color, you can add pomegranate seeds or dried cranberries to the salad.",
     "You may know that antioxidants from foods like blueberries, green tea, turmeric and pomegranate can help prevent this damage.",
     {
-      "cranberry": ["", ""]
+      "cranberry": [""]
     }
   ],
   "abbreviation": [
@@ -1284,212 +1284,218 @@
         "& An acronym uses initial letters from a phrase that forms one word.",
         "@ A word created from the first letters of each word in a series of words.",
         "NASA is an acronym for National Aeronautics and Space Administration.",
-        "PIPI is an acronym for private-investment, public-equity",
+        "PIPE is an acronym for private-investment, public-equity",
         "To some, that acronym has become a dirty word."
       ]
     }
   ],
-  "intention": ["", ""],
-  "implication": ["", ""],
-  "gravel": ["", ""],
-  "disruption": ["", ""],
-  "distruction": ["", ""],
-  "dam": ["", ""],
-  "misogynistic": ["", ""],
-  "predecessor": ["", ""],
-  "inductive": ["", ""],
-  "inference": ["", ""],
-  "pattern": ["", ""],
-  "gratuitous": ["", ""],
+  "intention": [""],
+  "implication": [""],
+  "gravel": [""],
+  "disruption": [""],
+  "distruction": [""],
+  "dam": [""],
+  "misogynistic": [""],
+  "predecessor": [""],
+  "inductive": [""],
+  "inference": [""],
+  "pattern": [""],
+  "gratuitous": [""],
   "hectare": [
     "",
-    "",
     {
-      "acres": ["", ""]
+      "acres": [""]
     }
   ],
-  "inflation": ["", ""],
-  "indulgence": ["", ""],
-  "bellwether": ["", ""],
-  "committee": ["", ""],
-  "recipient": ["", ""],
-  "panel": ["", ""],
-  "deem": ["", ""],
-  "moreover": ["", ""],
-  "manner": ["", ""],
-  "promotion": ["", ""],
-  "brandy": ["", ""],
-  "refinement": ["", ""],
-  "excessive": ["", ""],
-  "femininity": ["", ""],
-  "subborn": ["", ""],
-  "resolute": ["", ""],
-  "prestidigitator": ["", ""],
-  "nimble": ["", ""],
-  "illusion": ["", ""],
-  "imposture": ["", ""],
-  "deception": ["", ""],
+  "inflation": [""],
+  "indulgence": [""],
+  "bellwether": [""],
+  "committee": [""],
+  "recipient": [""],
+  "panel": [""],
+  "deem": [""],
+  "moreover": [""],
+  "manner": [""],
+  "promotion": [""],
+  "brandy": [""],
+  "refinement": [""],
+  "excessive": [""],
+  "femininity": [""],
+  "subborn": [""],
+  "resolute": [""],
+  "prestidigitator": [""],
+  "nimble": [""],
+  "illusion": [""],
+  "imposture": [""],
+  "deception": [""],
   "grain": [
     "",
-    "",
     {
-      "sorghum": ["", ""]
+      "sorghum": [""]
     }
   ],
-  "navigate": ["", ""],
-  "collocation": ["", ""],
-  "momentousness": ["", ""],
-  "shatter": ["", ""],
-  "indecent": ["", ""],
-  "premeditated": ["", ""],
-  "full-frontal": ["", ""],
-  "deliquency": ["", ""],
-  "ratially": ["", ""],
-  "unprovoked": ["", ""],
-  "strategic": ["", ""],
-  "Operational": ["", ""],
-  "vague": ["", ""],
-  "vector": ["", ""],
-  "momentum": ["", ""],
-  "monopoly": ["", ""],
-  "mandatory": ["", ""],
-  "arbitration": ["", ""],
-  "dispute": ["", ""],
-  "laborer": ["", ""],
+  "navigate": [""],
+  "collocation": [""],
+  "momentousness": [""],
+  "shatter": [""],
+  "indecent": [""],
+  "premeditated": [""],
+  "full-frontal": [""],
+  "deliquency": [""],
+  "ratially": [""],
+  "unprovoked": [""],
+  "strategic": [""],
+  "Operational": [""],
+  "vague": [""],
+  "vector": [""],
+  "momentum": [""],
+  "monopoly": [""],
+  "mandatory": [""],
+  "arbitration": [""],
+  "dispute": [""],
+  "laborer": [""],
   "anesthesia": [
     "",
-    "",
     {
-      "painkiller": ["", ""]
+      "painkiller": [""]
     }
   ],
-  "avert": ["", ""],
-  "abuse": ["", ""],
-  "aesthetic": ["", ""],
-  "dilemma": ["", ""],
-  "hologram": ["", ""],
-  "infant": ["", ""],
-  "merrily": ["", ""],
-  "mockery": ["", ""],
-  "revenue": ["", ""],
-  "smelter": ["", ""],
-  "sneaky": ["", ""],
-  "succumbed": ["", ""],
-  "unhinge": ["", ""],
-  "unsung": ["", ""],
-  "narrow": ["", ""],
-  "corruption": ["", ""],
-  "unmade": ["", ""],
-  "negotiator": ["", ""],
-  "court": ["", ""],
-  "firm": ["", ""],
-  "stature": ["", ""],
-  "contributor": ["", ""],
-  "contented": ["", ""],
-  "axis": ["", ""],
-  "idexical": ["", ""],
-  "honorific": ["", ""],
-  "sardonic": ["", ""],
-  "virtuoso": ["", ""],
-  "unbecoming": ["", ""],
-  "symmetry": ["", ""],
-  "dimension": ["", ""],
-  "opiate": ["", ""],
-  "receptor": ["", ""],
-  "fetus": ["", ""],
-  "narcotic": ["", ""],
-  "aircraft": ["", ""],
-  "attach": ["", ""],
-  "flood": ["", ""],
-  "flee": ["", ""],
-  "inventory": ["", ""],
-  "deceased": ["", ""],
-  "stamp": ["", ""],
-  "bidder": ["", ""],
-  "auction": ["", ""],
-  "copper": ["", ""],
-  "medicinal": ["", ""],
-  "herb": ["", ""],
-  "falsification": ["", ""],
-  "inquiry": ["", ""],
-  "emission": ["", ""],
-  "treaty": ["", ""],
-  "synthesis": ["", ""],
-  "neoclassical": ["", ""],
-  "paradoxically": ["", ""],
-  "macro-": ["", ""],
-  "proposal": ["", ""],
-  "idiosyncratic": ["", ""],
-  "presence": ["", ""],
-  "prenatal": ["", ""],
-  "instruction": ["", ""],
-  "contract": ["", ""],
-  "evaluate": ["", ""],
-  "figure": ["", ""],
-  "swamp": ["", ""],
-  "hiss": ["", ""],
-  "prevent": ["", ""],
-  "unconstitutional": ["", ""],
-  "agenda": ["", ""],
-  "council": ["", ""],
-  "strict": ["", ""],
-  "rigid": ["", ""],
-  "demand": ["", ""],
-  "exert": ["", ""],
-  "administrator": ["", ""],
-  "overthrown": ["", ""],
-  "corrupt": ["", ""],
-  "dissent": ["", ""],
-  "accuse": ["", ""],
-  "covert": ["", ""],
-  "docile": ["", ""],
-  "handful": ["", ""],
-  "stratified": ["", ""],
-  "porcelain": ["", ""],
-  "household": ["", ""],
-  "christianity": ["", ""],
-  "glittering": ["", ""],
-  "ceremony": ["", ""],
-  "conjure": ["", ""],
-  "metric": ["", ""],
-  "quaint": ["", ""],
-  "retinue": ["", ""],
-  "bribe": ["", ""],
+  "avert": [""],
+  "abuse": [""],
+  "aesthetic": [""],
+  "dilemma": [""],
+  "hologram": [""],
+  "infant": [""],
+  "merrily": [""],
+  "mockery": [""],
+  "revenue": [""],
+  "smelter": [""],
+  "sneaky": [""],
+  "succumbed": [""],
+  "unhinge": [""],
+  "unsung": [""],
+  "narrow": [""],
+  "corruption": [""],
+  "unmade": [""],
+  "negotiator": [""],
+  "court": [""],
+  "firm": [""],
+  "stature": [""],
+  "contributor": [""],
+  "contented": [""],
+  "axis": [""],
+  "idexical": [""],
+  "honorific": [""],
+  "sardonic": [""],
+  "virtuoso": [""],
+  "unbecoming": [""],
+  "symmetry": [""],
+  "dimension": [""],
+  "opiate": [""],
+  "receptor": [""],
+  "fetus": [""],
+  "narcotic": [""],
+  "aircraft": [""],
+  "attach": [""],
+  "flood": [""],
+  "flee": [""],
+  "inventory": [""],
+  "deceased": [""],
+  "stamp": [""],
+  "bidder": [""],
+  "auction": [""],
+  "copper": [""],
+  "medicinal": [""],
+  "herb": [""],
+  "falsification": [""],
+  "inquiry": [""],
+  "emission": [""],
+  "treaty": [""],
+  "synthesis": [""],
+  "neoclassical": [""],
+  "paradoxically": [""],
+  "macro-": [""],
+  "proposal": [""],
+  "idiosyncratic": [""],
+  "presence": [""],
+  "prenatal": [""],
+  "instruction": [""],
+  "contract": [""],
+  "evaluate": [""],
+  "figure": [""],
+  "swamp": [""],
+  "hiss": [""],
+  "prevent": [""],
+  "unconstitutional": [""],
+  "agenda": [""],
+  "council": [""],
+  "strict": [""],
+  "rigid": [""],
+  "demand": [""],
+  "exert": [""],
+  "administrator": [""],
+  "overthrown": [""],
+  "corrupt": [""],
+  "dissent": [""],
+  "accuse": [""],
+  "covert": [""],
+  "docile": [""],
+  "handful": [""],
+  "stratified": [""],
+  "porcelain": [""],
+  "household": [""],
+  "christianity": [""],
+  "glittering": [""],
+  "ceremony": [""],
+  "conjure": [""],
+  "metric": [""],
+  "quaint": [""],
+  "retinue": [""],
+  "bribe": [""],
   "ideology": [
     "",
-    "",
     {
-      "ideologies": ["", ""]
+      "ideologies": [""]
     }
   ],
-  "attribute": ["", ""],
-  "depositional": ["", ""],
-  "implement": ["", ""],
-  "equivalent": ["", ""],
-  "stubborn": ["", ""],
-  "obscured": ["", ""],
-  "preside": ["", ""],
-  "architectural": ["", ""],
-  "operational": ["", ""],
-  "optimization": ["", ""],
-  "enormous": ["", ""],
-  "overhear": ["", ""],
-  "postgraduates": ["", ""],
-  "clay": ["", ""],
-  "anticipate": ["", ""],
-  "present": ["", ""],
-  "dynamic": ["", ""],
-  "circulate": ["", ""],
-  "medic": ["", ""],
-  "activist": ["", ""],
-  "smear": ["", ""],
-  "debate": ["", ""],
-  "monetary": ["", ""],
-  "matrimony": ["", ""],
-  "summit": ["", ""],
-  "statute": ["", ""],
-  "affiliate": ["", ""],
-  "wage": ["", ""],
-  "regulate": ["", ""],
-  "vinegar": ["", ""]
+  "attribute": [""],
+  "depositional": [""],
+  "implement": [""],
+  "equivalent": [""],
+  "stubborn": [""],
+  "obscured": [""],
+  "preside": [""],
+  "architectural": [""],
+  "operational": [""],
+  "optimization": [""],
+  "enormous": [""],
+  "overhear": [""],
+  "postgraduates": [""],
+  "clay": [""],
+  "anticipate": [""],
+  "present": [""],
+  "dynamic": [""],
+  "circulate": [""],
+  "medic": [""],
+  "activist": [""],
+  "smear": [""],
+  "debate": [""],
+  "monetary": [""],
+  "matrimony": [""],
+  "summit": [""],
+  "statute": [""],
+  "affiliate": [""],
+  "wage": [""],
+  "regulate": [""],
+  "vinegar": [""],
+  "viscosity": [""],
+  "substantial": [""],
+  "suspect": [""],
+  "antioxidant": [""],
+  "turmeric": [""],
+  "Aeronautics": [""],
+  "Administration": [""],
+  "equity": [""],
+  "duplicate": [""],
+  "pepper": [""]
 }

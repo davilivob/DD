@@ -24,6 +24,16 @@ namespace Typing_App
         private int backTime;
         private int testTime;
 
+        
+        public float Per(){
+            StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
+            string data = jsonfile.ReadToEnd();
+            JObject AnalysingResults = JObject.Parse(JArray.Parse(data)[2].ToString());
+            JObject lettersPerWords = JObject.Parse(AnalysingResults["Analysing Results"]["Advanced Datas"].ToString());
+            float CharsPerWord = lettersPerWords["Letters Per Words"].ToObject<float>();
+            return CharsPerWord;
+        }
+
         public Grade(int _goodWords, ArrayList _badWords, int _chars, int _backTime, int _testTime)
         {
             goodWords = _goodWords;
@@ -48,7 +58,7 @@ namespace Typing_App
             return Convert.ToDouble(BackTime) /
                 Convert.ToDouble(Chars);
         }
-        public virtual int wpm()
+        public virtual float wpm()
         {
             return 0;
         }
@@ -59,13 +69,12 @@ namespace Typing_App
         public void ShowResult()
         {
             Console.WriteLine(
-                "WPM: " + wpm() + ",  CPM: " + cpm() +
+                "WPM: " + (float)((int)(wpm()*10))/10 + ",  CPM: " + cpm() +
                 ",  Accuracy: " + Convert.ToDouble(Convert.ToInt32(Accuracy() * 1000)) / 10 + "%" +
                 ",  BackSpace Frequency: " + Convert.ToDouble(Convert.ToInt32(Backspace_Freq() * 1000)) / 10 + "%");
         }
         public void uploadtojson()
         {
-
             var json_element = new Json_element
             {
                 DateTime = DateTime.Now.ToString()
@@ -78,14 +87,14 @@ namespace Typing_App
                 WrongWords = (String[])BadWords.ToArray(typeof(string))
             };
             string json = System.Text.Json.JsonSerializer.Serialize(json_element);
-            File.AppendAllText(@"TypingPracticeRecords.json", "," + json + "]  ");
+            File.AppendAllText(@"Databases\TypingPracticeRecords.json", "," + json + "]  ");
         }
     }
     public class Json_element
     {
         public string DateTime { get; set; }
         public int TestLength { get; set; }
-        public int WPM { get; set; }
+        public float WPM { get; set; }
         public int CPM { get; set; }
         public double Accuracy { get; set; }
         public double BackRate { get; set; }
@@ -102,9 +111,10 @@ namespace Typing_App
             Chars = _chars;
             BackTime = _backTime;
         }
-        public override int wpm()
+        
+        public override float wpm()
         {
-            return cpm() / 5;
+            return cpm() / Per();
         }
     }
     public class For_Long_Time_Test : Grade
@@ -118,7 +128,7 @@ namespace Typing_App
             Chars = _chars;
             BackTime = _backTime;
         }
-        public override int wpm()
+        public override float wpm()
         {
             return GoodWords / TestTime;
         }
@@ -173,16 +183,19 @@ namespace Typing_App
                     }
                 }
             }
-            StreamReader _preWord = new StreamReader(@"TypingPracticeRecords.json");
+            
+            Exception();
+            StreamReader _preWord = new StreamReader(@"Databases\TypingPracticeRecords.json");
             string AllJsonContent = _preWord.ReadToEnd();
             _preWord.Close();
-            StreamWriter preWork = new StreamWriter(@"TypingPracticeRecords.json");
+            StreamWriter preWork = new StreamWriter(@"Databases\TypingPracticeRecords.json");
             preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
             preWork.Close();
-            Exception();
+            
 
             For_Long_Time_Test _g = new For_Long_Time_Test(0, new ArrayList(), 0, 0, TestTime);
             Common_Calculate_Way g = new Common_Calculate_Way(0, new ArrayList(), 0, 0, TestTime);
+
 
             Timer timer = new Timer(1000);
             timer.Elapsed += new ElapsedEventHandler(Timesup);
@@ -209,13 +222,11 @@ namespace Typing_App
 
             int state = 1;
 
-            StreamReader jsonfile = new StreamReader(@"Database.json");
+            
+            StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
             string data = jsonfile.ReadToEnd();
-
             JObject Dictionary = JObject.Parse(JArray.Parse(data)[0].ToString());
-
             JArray arrs = (JArray)Dictionary["Words List"];
-
             string[] arr = arrs.ToObject<string[]>();
 
             DateTime now = DateTime.Now;
@@ -235,8 +246,8 @@ namespace Typing_App
                 recordRandom.Add("");
                 Console.WriteLine();
                 int i = 10;
-                Random r = new Random(i * state + randomSeed + TestTime);
-                int n = r.Next(0, arr.Length - 1000);
+                Random r = new Random(randomSeed / i * state * TestTime);
+                int n = r.Next(Array.IndexOf(arr, "1980s"));
                 while (i != 0)
                 {
                     Console.Write("\u001b[1m" + arr[n] + "\u001b[0m      ");
