@@ -30,11 +30,11 @@
     }
   ],
   "slang": [
-    "@ Slang is a very informal language that is usually spoken rather than written, used especially by particular groups of people.",
+    "@ A very informal language that is usually spoken rather than written, used especially by particular groups of people.",
     "He used a lot of slang terms that I simply don't understand.",
     {
       "dialect": [
-        "@ Dialect is the differeces in language depending on region.",
+        "@ The differeces in language depending on region.",
         "& Dialect consist of their own slang terms.",
         "@ For instance, in the south, we say words like \"y'all\" which means \"you all\"."
       ]
@@ -53,7 +53,7 @@
   ],
   "emancipate": [
     "Together they emancipated the art of experiment from being a mere craft activity and endowed it with the status of a science.",
-    "@ Emancipate is usually used in official or legal contexts.",
+    "@ Usually be used in official or legal contexts.",
     {
       "release": ["& Release is more common."],
       "liberate": ["& Liberate is more formal."],
@@ -173,7 +173,7 @@
       ],
       "imply": [
         "I'm not implying anything about your cooking, but could we eat out tonight?",
-        "@ Imply can also mean to involve something or make it necessary.",
+        "@ To involve something or make it necessary.",
         "The report, which is wiewed as a bellwither for economic trends, implied that the national economy couldbe slowing down.",
         "Her statement implies a lack of confidence in the management of the company.",
         "A connection between the events has been implied in several new reports.",
@@ -233,10 +233,10 @@
   ],
   "nosy": [
     "@ Being nosy is being too interested in what other people are doing and wanting to discover too much about them.",
-    "@ Nosy is when someone tries to join in on other people's business. More like a curious person with a negative negation attached to it.",
+    "@ When someone tries to join in on other people's business. More like a curious person with a negative negation attached to it.",
     {
       "gossip": [
-        "@ Gossip is the story people are talking about. But often also used to describe someone.",
+        "@ The story people are talking about. But often also used to describe someone.",
         "@ \"She's a gossip.\" meaning if she finds out about it , she will talk about it with her friends and so on, story won't be a secret no more."
       ]
     }
@@ -263,8 +263,59 @@
         "I suppose warm-air hand-driers are more hygienic than hand-towels, and paper towels create a lot of litter."
       ],
       "pathology": [
-        "@ Pathology is defined as a branch of medical science that studies the nature, effects, causes and consequences of disease."
+        "@ A branch of medical science that studies the nature, effects, causes and consequences of disease."
       ]
+    }
+  ],
+  "antiseptic": [
+    "@ As a noun, it's a chemical used to prevent infection from an injury, esp. by killing bacteria.",
+    "Antiseptic is used to sterilize the skin before giving an injection.",
+    "Many ofthe ingredients for antiseptics come from the rainforests.",
+    "In the 1870s and 1880s, doctors began to follow the principles of antiseptic surgery.",
+    {
+      "sterilize": [
+        "@ To perform a medical operation on someone in order to make them unable to have children.",
+        "After having five children, she decided to be sterlized.",
+        "The clinic will sterilize your cat for free.",
+        "@ To make something completely clean and free from bacteria.",
+        "All equipment must be sterilized before use."
+      ]
+    }
+  ],
+  "microorganisms": [
+    "@ Technically a microorganism or microbe is an organism that is microscopic. The study of microorganisms is called microbiology. Microorganisms can be bacteria, fungi, archaea or protists. The term microorganisms does not include viruses and prion, which are generally classified as non-living.",
+    {
+      "microbe": [
+        "@ It can be any microorganism, but specially said of those microorganisms which are harmful types of bacteria."
+      ],
+      "microscopic": [
+        "@ An adjective as invisible or indistinguishable without the use of a microscope."
+      ],
+      "pathogen": [
+        "@ An organism causing disease to its host, with the severity of the disease symptoms referred to as virulence."
+      ],
+      "germ": [
+        "@ A very small organism that causes disease.",
+        "In warm weather these germs multiply rapidly.",
+        "@ The origin of something that develops, esp.",
+        "A cell from which grain grows or the beginning of an idea.",
+        "He found the germ of an idea in an old newspaper.",
+        "Alefandro's suggestion was the germ of the whole idea."
+      ]
+    }
+  ],
+  "clinic": [
+    "@ A building or part of a hospital where people go for medical care or advice.",
+    "prenatal clinics provide care for pregnant women.",
+    {
+      "injection": ["", ""]
+    }
+  ],
+  "symptom": [
+    "",
+    "",
+    {
+      "albino": ["", ""]
     }
   ],
   "litter": [
@@ -288,7 +339,7 @@
   ],
   "radical": [
     "I'm just having my hair trimmed - nothing radical.",
-    "@ Radical can also be a noun to define a person who advocates thorough or complete political or social reform.",
+    "@ As a noun, it's a person who advocates thorough or complete political or social reform.",
     {
       "drastic": ["& As adjective, they mean basically the same thing."],
       "vehemently": [
@@ -317,14 +368,14 @@
       "confuse": ["My friend told me that 9+10=21. I was very confused."],
       "bewilder": ["& Bewilder is pretty much the same, but more poetic."],
       "mystify": [
-        "@ Mystify is a verb, it means to make something obscured, or hide behind the truth.",
+        "@ To make something obscured, or hide behind the truth.",
         "The cause of death mystified detectives."
       ]
     }
   ],
   "dire": [
     "I've heard of wolves morphing in dire situations, but always thought they were just stories.",
-    "& Dire is a more dramatic word, closer to meaning something is dangerous ar destructive, as if it is very close to being hopeless.",
+    "& Dire is a more dramatic word, closer to meaning something is dangerous or destructive, as if it is very close to being hopeless.",
     {
       "terrible": [
         "& Terrible is a more generic and common term just meaning something is bad."
@@ -340,7 +391,7 @@
         "I was really sad that I couldn't get tickets to the fair."
       ],
       "despair": [
-        "@ Despair is the feeling that there is no hope and that you can do nothing to improve a difficult or worrying situation.",
+        "@ The feeling that there is no hope and that you can do nothing to improve a difficult or worrying situation.",
         "Don't despair! We'll find a way out!",
         "I despair at/ over the policies of this government."
       ],
@@ -371,30 +422,8 @@
       ]
     }
   ],
-  "microorganisms": [
-    "@ Technically a microorganism or microbe is an organism that is microscopic. The study of microorganisms is called microbiology. Microorganisms can be bacteria, fungi, archaea or protists. The term microorganisms does not include viruses and prion, which are generally classified as non-living.",
-    {
-      "microbe": [
-        "@ Microbe is any microorganism, but specially said of those microorganisms which are harmful types of bacteria."
-      ],
-      "microscopic": [
-        "@ Microscopic is an adjective as invisible or indistinguishable without the use of a microscope."
-      ],
-      "pathogen": [
-        "@ A pathogen is defined as an organism causing disease to its host, with the severity of the disease symptoms referred to as virulence."
-      ],
-      "germ": [
-        "@ Germ is a very small organism that causes disease.",
-        "In warm weather these germs multiply rapidly.",
-        "@ It can also mean the origin of something that develops, esp.",
-        "A cell from which grain grows or the beginning of an idea.",
-        "He found the germ of an idea in an old newspaper.",
-        "Alefandro's suggestion was the germ of the whole idea."
-      ]
-    }
-  ],
   "reptile": [
-    "@ An reptile is an animal that produces eggs and uses the heat of the sun to keep its blood warm.",
+    "@ An animal that produces eggs and uses the heat of the sun to keep its blood warm.",
     {
       "mammal": [
         "@ Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs."
@@ -460,7 +489,7 @@
       "power": ["& Power can mean electricity, but also force."],
       "energy": ["& It's just energy."],
       "impetus": [
-        "@ Impetus is something that encourages a particular activity or makes that activity more energetic or effective.",
+        "@ Something that encourages a particular activity or makes that activity more energetic or effective.",
         "Often the impetus for change in education has had to come from outside the school establishment."
       ]
     }
@@ -471,7 +500,7 @@
       "disorder": ["& Chaos has a much stronger feeling than disorder."],
       "mess": ["& Chaos is a crazy mess."],
       "mayhem": [
-        "@ Mayhem is violent destruction, and also an older term for the crime of assault and battery."
+        "@ It means violent destruction, and also an older term for the crime of assault and battery."
       ]
     }
   ],
@@ -479,11 +508,11 @@
     "There were complaints that the beer had been adulterated with water (= diluted).",
     {
       "dilute": [
-        "@ Dilute means to make a liquid weaker by mixing in something else, or to reduce the strngth of a feeling, action, etc.",
+        "@ To make a liquid weaker by mixing in something else, or to reduce the strngth of a feeling, action, etc.",
         "Dilute the juice with water before you drink it.",
         "These measures are designed to dilute public fears about the product's safety."
       ],
-      "desolve": ["", ""]
+      "dissolve": ["", ""]
     }
   ],
   "soil": [
@@ -494,7 +523,7 @@
         "& They're pretty much the same but dirt sounds a bit more negative."
       ],
       "chalk": [
-        "@ Chalk can be a type of soft white rock. Or it can also be a stick of this rock or a mimilar substance used for writing or drawing."
+        "@ A type of soft white rock. Or it can also be a stick of this rock or a mimilar substance used for writing or drawing."
       ],
       "mud": [
         "His shoes were covered with mud; he had torn his coat on the thorny tree."
@@ -510,7 +539,7 @@
     "Depending on the parameters selected, and the initial conditions, the simulated temporal trajectories may exhibit either regular (periodic and quasi-periodic) or chaotic behaviour.",
     {
       "the Periodic Table": [
-        "@ The Periodic Table is a list of the symbols of all the chemical elements arranged in rows and columns down a page."
+        "@ A list of the symbols of all the chemical elements arranged in rows and columns down a page."
       ]
     }
   ],
@@ -518,14 +547,14 @@
     "I didn't have time to read the whole article - just the first column.",
     "Add the column of figures and divide the sum by three.",
     "The roof of the temple was held up by a row of thick stone columns.",
-    "@ Column can also be a piece of writing in a newspaper or magazine, usually on a particular subject, that is always written by the same person and appears regularly.",
+    "@ A piece of writing in a newspaper or magazine, usually on a particular subject, that is always written by the same person and appears regularly.",
     "She writes a weekly fashion/ gossip column for the Evening Standard.",
     {
       "row": ["& Column is in vertical way, but row is in parallel."]
     }
   ],
   "essay": [
-    "@ Essay is a short piece of writing on a particular subject, often expressing personal views.",
+    "@ A short piece of writing on a particular subject, often expressing personal views.",
     "Taken as a group, these essays are based in deep research.",
     {
       "article": [
@@ -539,7 +568,7 @@
     "Auto companies are taking a cautious approach toward introducing electric cars.",
     {
       "wary": [
-        "@ Wary can be not completely trusting or certain about something or someone.",
+        "@ It can be not completely trusting or certain about something or someone.",
         "I'm a little wary of/ about giving people my address when I don't know them very well."
       ],
       "careful": [
@@ -645,7 +674,7 @@
       ],
       "syrupy": ["Heat the liquid until it is thick and syrupy."],
       "sucrose": [
-        "@ Sucrose is the type of sugar that exists naturally in most plants that grow on land."
+        "@ The type of sugar that exists naturally in most plants that grow on land."
       ],
       "cane": ["", ""],
       "beet": ["", ""]
@@ -702,13 +731,13 @@
         "She spoke with brutal honesty - I was too old for the job."
       ],
       "barbarous": [
-        "@ ' Barbaric ' is a term that we hear more often than ' barbarous ', but they're the same things.",
+        "& ' Barbaric ' is a term that we hear more often than ' barbarous ', but they're the same things.",
         "His murder was an outrageous and barbarous act."
       ],
       "savage": [
         "The child was savaged by a dog.",
         "Twelve thousand years ago, our ancestors were primitive savages living in caves.",
-        "@ ' Savage ' can also mean to criticize someone cruelly.",
+        "@ To criticize someone cruelly.",
         "The performance was savaged by the media."
       ],
       "formidable": [
@@ -742,7 +771,7 @@
     }
   ],
   "gnaw": [
-    "@ To gnaw is to bite or chew something repeatedly, usually making a hole in it or gradually destroying it.",
+    "@ To bite or chew something repeatedly, usually making a hole in it or gradually destroying it.",
     "A dog lay under the table, gnawing on a bone.",
     {
       "nibble": [
@@ -795,7 +824,7 @@
         "You make wine by leaving grape juice to ferment until all the sugar has turned to alcohol."
       ],
       "fungus": [
-        "@ Fungus, plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, molds, and mushrooms."
+        "@ Plural fungi, any of about 144,000 known species or organisms of the kingdom Fungi, which includes the yeasts, rusts, smuts, mildews, molds, and mushrooms."
       ]
     }
   ],
@@ -831,7 +860,7 @@
     "When he smiles (Which is seldom), his demeanor is sardonic.",
     {
       "demean": [
-        "@ Demean is to cause someone to become less respected.",
+        "@ To cause someone to become less respected.",
         "The entire family was demeaned by his behaviour.",
         "I couldn't demean myself by asking my father for money.",
         "To be sure, artistic practice itself was not seen to be demeaning or unbecoming of a virtuoso."
@@ -859,7 +888,7 @@
         "We value herbs for their taste, but we forget that they also have medicinal properties."
       ],
       "belongings": [
-        "@ Belongings is the things that a person owns, especially those that can be carried.",
+        "@ The things that a person owns, especially those that can be carried.",
         "He led a simple life, with few belongings, and never owned a home of his own.",
         "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
         "In the second part of the inventories are listed the belongings of the deceased, with their value."
@@ -870,7 +899,7 @@
     "She was wearing a dreadful pink flouncy skirt.",
     {
       "brooch": [
-        "@ A brooch is a small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
+        "@ A small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
       ]
     }
   ],
@@ -928,7 +957,7 @@
     "Male peacocks have beautiful plumage.",
     {
       "shelduck": [
-        "@ Shelduck is a large goose-like Old World duck with brightly coloured plumage, typically showing black and white wings in flight."
+        "@ A large goose-like Old World duck with brightly coloured plumage, typically showing black and white wings in flight."
       ],
       "goose": [
         "True geese are not ducks, but there are a lot of similarities between the two and there are even some shelducks that have \"goose\" in their names."
@@ -958,28 +987,6 @@
         "Paris is bidding to host the next Olympics.",
         "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is."
       ]
-    }
-  ],
-  "antiseptic": [
-    "@ Antiseptic, as a noun, is a chemical used to prevent infection from an injury, esp. by killing bacteria.",
-    "Antiseptic is used to sterilize the skin before giving an injection.",
-    "Many ofthe ingredients for antiseptics come from the rainforests.",
-    "In the 1870s and 1880s, doctors began to follow the principles of antiseptic surgery.",
-    {
-      "sterilize": [
-        "@ Sterilize can mean to perform a medical operation on someone in order to make them unable to have children.",
-        "After having five children, she decided to be sterlized.",
-        "The clinic will sterilize your cat for free.",
-        "@ Sterilize can also mean to make something completely clean and free from bacteria.",
-        "All equipment must be sterilized before use."
-      ]
-    }
-  ],
-  "clinic": [
-    "@ Clinic is a building or part of a hospital where people go for medical care or advice.",
-    "prenatal clinics provide care for pregnant women.",
-    {
-      "injection": ["", ""]
     }
   ],
   "prominently": [
@@ -1015,7 +1022,7 @@
     }
   ],
   "dictator": [
-    "@ A dictator is a leader who has complete power in a country and has not been elected by the people.",
+    "@ A leader who has complete power in a country and has not been elected by the people.",
     "My boss is kind of a dictator.",
     {
       "dictatorial": [
@@ -1024,7 +1031,7 @@
       ],
       "dictatorship": [
         "A flood of refugees fled the brutal dictatorship then existing in that country.",
-        "They prevent the country from falling prey to the soldiers who fought the revolution and want ot restore the old dictatorship.",
+        "They prevent the country from falling prey to the soldiers who fought the revolution and want to restore the old dictatorship.",
         "By any reasonable person's thinking; this set of unconstitutional powers represents nothing more than a -- presidential dictatorship.",
         "None of the governments that followed the dictatorship ever included us in their agenda."
       ],
@@ -1084,10 +1091,10 @@
   ],
   "effigy": ["The effigy on it may be taken to be an authentic portrait."],
   "urine": [
-    "@ Urine is a waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
+    "@ A waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
   ],
   "shank": [
-    "@ The shank is the part of the leg between the knee and ankle or the equivalent in animals."
+    "@ The part of the leg between the knee and ankle or the equivalent in animals."
   ],
   "acquire": [
     "To acquire wealth is difficult, to preserve it more difficult, but to spend it wisely most difficult of all."
@@ -1104,7 +1111,7 @@
   ],
   "external": ["In external ways David had hardly changed at all."],
   "branch": [
-    "@ The definition of a branch is a part of a plant stem or a part of something which is larger and more complex."
+    "@ A part of a plant stem or a part of something which is larger and more complex."
   ],
   "chauvinistic": ["That is an unforgiving male chauvinistic attitude!"],
   "morph": [
@@ -1148,7 +1155,7 @@
   "interchangeably": [
     "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
   ],
-  "severity": ["@ Severity is the fact or condition of being severe."],
+  "severity": ["@ The fact or condition of being severe."],
   "distinguish": [
     "He's color-blind and can't distinguish between red and green easily."
   ],
@@ -1178,7 +1185,7 @@
     "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts."
   ],
   "alchemy": [
-    "@ Alchemy is a type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
+    "@ A type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
   ],
   "renewed": [
     "She jumped on the story with renewed vigor.",
@@ -1217,21 +1224,71 @@
       "carbonated": ["It's basically carbonated white grape juice."]
     }
   ],
-  "derive": ["", ""],
-  "fellowship": ["", ""],
-  "tile": ["", ""],
-  "union": ["", ""],
-  "sorghum": ["", ""],
-  "emulsifier": ["", ""],
-  "pomegranate": ["", ""],
-  "acronym": [
-    "",
-    "",
+  "derive": [
+    "@ To get something from something else.",
+    "The institute derives all its money from foreign investments.",
+    "I didn't derive much benefit from school.",
+    "He derives an enormous amount of satisfaction from restoring old houses.",
+    "Much of it is derived from family interactions he has overheard through the years."
+  ],
+  "fellowship": [
+    "He enjoyed the fellowship of other actors in the company.",
+    "I like the game, and I enjoy the fellowship of the guys on the team.",
+    "@ An amount of money that is given to postgraduates to allow them to study a subject at an advanced level.",
+    "He was awarded a fellowship at the college.",
+    "She has applied for a research fellowship.",
+    "@ The position of a fellow at a college or university.",
+    "He was elected to an honorary fellowship at National Taiwan University."
+  ],
+  "tile": [
+    "@ A flat, thin, usually square piece of baked clay, plastic, or other material used for covering floors, walls, or roofs.",
+    "Count the tiles on the floor or ceiling.",
+    "Now, images circulated by medics and activists showed patients lying on a blood-smeared tile floor of a crowded room in one hospital.",
+    "Its home screen presents a collection of flat, information-rich tiles that dynamically update with the information that's most important to you."
+  ],
+  "union": [
+    "Meanwhile the debate on European political and monetary union continues.",
+    "The signing of the treaty marked a major milestone on the road to European union.",
+    "In the American Civil War, ' the Union ' refers to the states that did't separate from the United States.",
+    "@ An organization that represents the people who work in a particular industry, protects their rights and may agree pay, working conditions, etc. with their employers.",
+    "The unions are on strike over wage concerns.",
+    "\"No date has yet been set for a strike\", the union said in a statements to the press this morning.",
+    "The political activity of each affiliated union is highly regulated by statute."
+  ],
+  "emulsion": [
+    "@ A mixture that results when one liquid is added to another and is mixed with it but does not dissolve into it.",
+    "Mixing oil and vinegar todether produces an emulsion.",
+    "By making the emulsion, oil viscosity is substantially reduced.",
     {
-      "abbreviation": ["", ""]
+      "emulsifier": [
+        "@ A substance that forms or keeps an emulsion and is often added to processed foods to prevent particular parts from separating.",
+        "Sodium citrate may sound unfamiliar and possibly suspect, but it's basically just a form of salt that works as an emulsifier.",
+        "You need an emulsifier, something that helps oils mix with other ingredients."
+      ]
     }
   ],
-  "albino": ["", ""],
+  "pomegranate": [
+    "@ A round, thick-skinned fruit containing a mass of red seeds and a lot of juice.",
+    "For a bit of color, you can add pomegranate seeds or dried cranberries to the salad.",
+    "You may know that antioxidants from foods like blueberries, green tea, turmeric and pomegranate can help prevent this damage.",
+    {
+      "cranberry": ["", ""]
+    }
+  ],
+  "abbreviation": [
+    "& An abbreviation is a shortened form that represents the whole word",
+    "& For instance, EX and Dr. is the abbreviation for Example and Doctor.",
+    "But others among us have less familiarity with some of the terms and abbreviations that pepper the site.",
+    {
+      "acronym": [
+        "& An acronym uses initial letters from a phrase that forms one word.",
+        "@ A word created from the first letters of each word in a series of words.",
+        "NASA is an acronym for National Aeronautics and Space Administration.",
+        "PIPI is an acronym for private-investment, public-equity",
+        "To some, that acronym has become a dirty word."
+      ]
+    }
+  ],
   "intention": ["", ""],
   "implication": ["", ""],
   "gravel": ["", ""],
@@ -1272,8 +1329,13 @@
   "illusion": ["", ""],
   "imposture": ["", ""],
   "deception": ["", ""],
-  "abbreviation": ["", ""],
-  "grain": ["", ""],
+  "grain": [
+    "",
+    "",
+    {
+      "sorghum": ["", ""]
+    }
+  ],
   "navigate": ["", ""],
   "collocation": ["", ""],
   "momentousness": ["", ""],
@@ -1408,5 +1470,26 @@
   "obscured": ["", ""],
   "preside": ["", ""],
   "architectural": ["", ""],
-  "operational": ["", ""]
+  "operational": ["", ""],
+  "optimization": ["", ""],
+  "enormous": ["", ""],
+  "overhear": ["", ""],
+  "postgraduates": ["", ""],
+  "clay": ["", ""],
+  "anticipate": ["", ""],
+  "present": ["", ""],
+  "dynamic": ["", ""],
+  "circulate": ["", ""],
+  "medic": ["", ""],
+  "activist": ["", ""],
+  "smear": ["", ""],
+  "debate": ["", ""],
+  "monetary": ["", ""],
+  "matrimony": ["", ""],
+  "summit": ["", ""],
+  "statute": ["", ""],
+  "affiliate": ["", ""],
+  "wage": ["", ""],
+  "regulate": ["", ""],
+  "vinegar": ["", ""]
 }

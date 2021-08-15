@@ -247,7 +247,7 @@
     "CPM": 226,
     "Accuracy": 0.9626865671641791,
     "BackRate": 0.026509572901325478,
-    "WrongWords": ["pathology", "defined", "toward", "wary", "wine"]
+    "WrongWords": ["pathology", "defines", "toward", "wary", "wine"]
   },
 
   {
@@ -312,5 +312,41 @@
     "Accuracy": 1,
     "BackRate": 0.03524229074889868,
     "WrongWords": []
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 07:14:16",
+    "TestLength": 5,
+    "WPM": 42,
+    "CPM": 210,
+    "Accuracy": 0.9672897196261683,
+    "BackRate": 0.0779467680608365,
+    "WrongWords": ["the", "to", "symptoms", "people", "off", "it", "basically"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 09:08:56",
+    "TestLength": 1,
+    "WPM": 40,
+    "CPM": 201,
+    "Accuracy": 0.975,
+    "BackRate": 0.0845771144278607,
+    "WrongWords": ["responsibility"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 09:43:10",
+    "TestLength": 1,
+    "WPM": 42,
+    "CPM": 213,
+    "Accuracy": 0.9545454545454546,
+    "BackRate": 0.023474178403755867,
+    "WrongWords": ["i", "by"]
+  },
+  {
+    "DateTime": "2021/8/15 P.M. 09:49:05",
+    "TestLength": 1,
+    "WPM": 44,
+    "CPM": 220,
+    "Accuracy": 0.9375,
+    "BackRate": 0.045454545454545456,
+    "WrongWords": ["sterilize", "your", "cat"]
   }
-]
+,{"DateTime":"2021/8/15 P.M. 09:54:18","TestLength":2,"WPM":43,"CPM":216,"Accuracy":0.9885057471264368,"BackRate":0.06481481481481481,"WrongWords":["connotations"]},{"DateTime":"2021/8/15 P.M. 09:56:09","TestLength":1,"WPM":44,"CPM":221,"Accuracy":0.9302325581395349,"BackRate":0.049773755656108594,"WrongWords":["copper","troubles","antiseptic"]}]  

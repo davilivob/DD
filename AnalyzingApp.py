@@ -193,7 +193,11 @@ class AdvancedData:
         splitQruotationMark(wordsList, "we'll", "we", "will")
         splitQruotationMark(wordsList, "it'll", "it", "will")
 
-    
+        splitQruotationMark(wordsList, "st", "first", "'")
+        splitQruotationMark(wordsList, "nd", "second", "'")
+        splitQruotationMark(wordsList, "rd", "third", "'")
+        splitQruotationMark(wordsList, "dr", "doctor", "'")
+
     while "'" in wordsList:
         wordsList.remove("'")
         Adding()
@@ -202,12 +206,12 @@ class AdvancedData:
 
     for word in wordsList:
         if "'s" in word or "s'" in word:
-            possessive+=1
+            possessive += 1
             if "'s" in word:
-                wordsList.append(word.replace("'s", ''))
+                wordsList.append(word.replace("'s", ""))
                 wordsList.remove(word)
             else:
-                wordsList.append(word.replace("'", ''))
+                wordsList.append(word.replace("'", ""))
                 wordsList.remove(word)
 
     for num in range(possessive):
