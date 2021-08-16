@@ -450,13 +450,13 @@ class TypingTest:
     with open("Databases\TypingPracticeRecords.json", mode="r") as file:
         typingJson = file.read()
         TypingDatas = json.loads(typingJson)
-    time = wpm = accuracy = backrate = 0
+    time = wpm = accuracy = backrate = totalchar = 0
     WrongWords = []
     for test in TypingDatas:
         time += test["TestLength"]
-        wpm += test["WPM"]
         accuracy += test["Accuracy"]
         backrate += test["BackRate"]
+        totalchars += test["TotalChars"]
         for word in test["WrongWords"]:
             WrongWords.append(word)
         Adding()
@@ -507,7 +507,7 @@ AllanJson = {
 WordsKinds = len(A.WordsRepeated)
 TotalWords = len(A.wordsList)
 TotalChars = len(Allan.letters)
-CharsPerWord = Math.takeDecimal(len(Allan.letters), len(A.wordsList), 1000)
+CharsPerWord = Math.takeDecimal(len(Allan.letters), len(A.wordsList), 100000)
 
 analysisJson = {
     "Vocabularies": {
