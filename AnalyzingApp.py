@@ -4,12 +4,11 @@ import sys
 import time
 import math
 
-efficiencyTest = 0
-print()
-RankingList = input("Please Enter The Number of Words Ranking You Want: ")
-
-progress = 0
 time_start = time.time()
+efficiencyTest = False
+RankingList = input("Please Enter The Number of Words Ranking You Want: ")
+progress = 0
+print()
 print()
 print()
 
@@ -17,9 +16,7 @@ with open("daily_english.json", mode="r") as file:
     Dictionary = file.read()
     Words = Dictionary
 
-
 allEnglishChar = list(string.ascii_lowercase + string.ascii_uppercase + " " + "-" + "'")
-decimalDegree = 10
 
 
 def colors(color, bold):
@@ -44,6 +41,29 @@ def FormalFiller(string, col):
     return string + " " * (int(120 / col) - len(string))
 
 
+def CreateRepeatedArray(Array):
+    TwoDArray = []
+    for element in Array:
+        if [0, element] not in TwoDArray:
+            TwoDArray.append([0, element])
+    for index in range(len(TwoDArray)):
+        Adding(index, 40)
+        for element in Array:
+            if element == TwoDArray[index][1]:
+                TwoDArray[index][0] += 1
+    TwoDArray.sort(reverse=True)
+    return TwoDArray
+
+
+def CreateJsonObject(twoDArray):
+    emptyJson = "{}"
+    JsonArray = json.loads(emptyJson)
+    for element in twoDArray:
+        JsonArray.update({element[1]: element[0]})
+        Adding(1, 1)
+    return JsonArray
+
+
 class Print:
     def ln(content):
         print(content, "\n")
@@ -62,16 +82,22 @@ class Math:
         return float(int(x / y * degree)) / degree
 
 
+def splitQruotationMark(List, origin, a, b):
+    while origin in List:
+        List.append(a)
+        List.append(b)
+        List.remove(origin)
+        Adding(1, 1)
+
+
 with open("Databases\Database.json", mode="r") as file:
     lastProgress = json.loads(file.read())
     prevProgress = lastProgress[4]["Last Progress"]
     lastAllan = lastProgress[3]["Project Statment"]["Allan Poe Index"]
 
 
-class Loading:
-    global Adding
-
-    def Adding():
+def Adding(parameter, speed):
+    if parameter % speed == 0:
         global time_start
         global progress
         global prevProgress
@@ -120,7 +146,7 @@ class RegularData:
     Dictionary = Dictionary.replace('""', "空")
     for element in sentenceEnd:
         Dictionary = Dictionary.replace(element, "語")
-        Adding()
+        Adding(1, 1)
 
     sentences = len(Dictionary.split("語")) - 1
     vocabularies = len(Dictionary.split("詞")) - 1
@@ -130,14 +156,6 @@ class RegularData:
 
     learned = vocabularies - unlearned
     examples = sentences - definitions - comparisons
-
-
-def splitQruotationMark(List, origin, a, b):
-    while origin in List:
-        List.append(a)
-        List.append(b)
-        List.remove(origin)
-        Adding()
 
 
 class AdvancedData:
@@ -156,7 +174,7 @@ class AdvancedData:
     while "s" in wordsList:
         wordsList.append("1980s")
         wordsList.remove("s")
-        Adding()
+        Adding(1, 1)
 
     for x in [0]:
         splitQruotationMark(wordsList, "isn't", "is", "not")
@@ -198,7 +216,6 @@ class AdvancedData:
         splitQruotationMark(wordsList, "we'll", "we", "will")
         splitQruotationMark(wordsList, "it'll", "it", "will")
         splitQruotationMark(wordsList, "kinda", "kind", "of")
-
         splitQruotationMark(wordsList, "st", "first", "'")
         splitQruotationMark(wordsList, "nd", "second", "'")
         splitQruotationMark(wordsList, "rd", "third", "'")
@@ -215,45 +232,21 @@ class AdvancedData:
             if "'s" in word:
                 wordsList.append(word.replace("'s", ""))
                 wordsList.remove(word)
-                Adding()
+                Adding(1, 1)
             else:
                 wordsList.append(word.replace("'", ""))
                 wordsList.remove(word)
-                Adding()
+                Adding(1, 1)
 
     for num in range(possessive):
         wordsList.append("'s")
-        Adding()
+        Adding(1, 1)
 
-    WordsRepeated = []
+    WordsRepeated = CreateRepeatedArray(wordsList)
 
     allEnglishChar.remove("-")
 
-    for word in wordsList:
-        if [0, word] not in WordsRepeated:
-            WordsRepeated.append([0, word])
-
-    for index in range(0, len(WordsRepeated)):
-        if index % 10 == 0:
-            Adding()
-        for word in wordsList:
-            if word == WordsRepeated[index][1]:
-                WordsRepeated[index][0] += 1
-
-    WordsRepeated.sort(reverse=True)
-
-    emptyJson = "{}"
-    WordsRepeatedJson = json.loads(emptyJson)
-
-    for word in WordsRepeated:
-        WordsRepeatedJson.update({word[1]: word[0]})
-
-    def WordsAmount(WordsRepeated, index):
-        return WordsRepeated[index][0]
-
-    def WordsItself(WordsRepeated, index):
-        w = WordsRepeated
-        return WordsRepeated[index][1]
+    WordsRepeatedJson = CreateJsonObject(WordsRepeated)
 
     TopUsed = ""
 
@@ -261,7 +254,7 @@ class AdvancedData:
         allNumbers = []
         for num in range(10):
             allNumbers.append(str(num))
-            Adding()
+            Adding(1, 1)
         result = 0
         if string != "all":
             for char in string:
@@ -274,18 +267,17 @@ class AdvancedData:
 
     if RankingList == "" or checkNumber(RankingList) == False:
         RankRange = 0
-        Adding()
+        Adding(1, 1)
     elif RankingList == "all" or int(RankingList) >= len(WordsRepeated):
         RankRange = len(WordsRepeated)
-        Adding()
+        Adding(1, 1)
     elif checkNumber(RankingList) == True:
         RankRange = int(RankingList)
-        Adding()
+        Adding(1, 1)
 
     col = 3
     row = int(RankRange / col) + 1
-    num = 0
-    record = 0
+    num = record = 0
     remain = RankRange - (col - 1) * row
     arr = []
     while len(arr) < RankRange:
@@ -304,17 +296,11 @@ class AdvancedData:
     for index in arr:
         if index < row:
             TopUsed += "\n      "
-        Word = (
-            str(index + 1)
-            + '. "'
-            + WordsItself(WordsRepeated, index).capitalize()
-            + '"'
-        )
-        Amount = ": " + str(WordsAmount(WordsRepeated, index)) + " "
-        Percentage = Math.percent(
-            WordsAmount(WordsRepeated, index), len(wordsList), 100
-        )
+        Word = str(index + 1) + '. "' + WordsRepeated[index][1].capitalize() + '"'
+        Amount = ": " + str(WordsRepeated[index][0]) + " "
+        Percentage = Math.percent(WordsRepeated[index][0], len(wordsList), 100)
         TopUsed += FormalFiller(Word + Amount + Percentage, 3)
+        Adding(index, 20)
 
 
 R = RegularData
@@ -330,10 +316,10 @@ def IndexGrade(currentSortList, criticalSortList, SorG):
         char = currentSortList[index][1]
         if dist > 0:
             ShowLetterSort += FontEffect(char, 210 - 2 * dist, 0) + ", "
-            Adding()
+            Adding(1, 1)
         else:
             ShowLetterSort += FontEffect(char, 0, 1) + ", "
-            Adding()
+            Adding(1, 1)
         num = 1 - (1 / 25 * dist)
         Grade *= num
 
@@ -353,14 +339,13 @@ class AllanPoeIndex:
     for word in Letter:
         letters += word[1] * word[0]
 
-    allLowerLetter = list(string.ascii_lowercase)
+    allLowerLetters = list(string.ascii_lowercase)
 
-    for letter in allLowerLetter:
-        LettersRepeated.append([0, letter])
-        LettersRepeated_copy.append([0, letter])
-        Adding()
+    LettersRepeated = CreateRepeatedArray(allLowerLetters)
+    LettersRepeated_copy = CreateRepeatedArray(allLowerLetters)
 
     for element in LettersRepeated:
+        Adding(1, 1)
         for letter in letters:
             if letter == element[1]:
                 element[0] += 1
@@ -398,6 +383,7 @@ class AllanPoeIndex:
     ]
     Grade = IndexGrade(CurrentSortList, CriticalSortList, 0)
     ShowLettersSort = IndexGrade(CurrentSortList, CriticalSortList, 1)
+    LettersRepeatedJson = CreateJsonObject(LettersRepeated)
 
 
 class BillMurrayIndex:
@@ -406,6 +392,7 @@ class BillMurrayIndex:
     LettersRepeated = AllanPoeIndex.LettersRepeated_copy
 
     for element in LettersRepeated:
+        Adding(1, 1)
         for letter in Letter:
             if letter[1][0] == element[1]:
                 element[0] += letter[0]
@@ -447,95 +434,103 @@ class BillMurrayIndex:
 
 
 class TypingTest:
+    global lastProgress
     with open("Databases\TypingPracticeRecords.json", mode="r") as file:
         typingJson = file.read()
         TypingDatas = json.loads(typingJson)
-    time = wpm = accuracy = backrate = totalchar = 0
+    totaltime = wpm = accuracy = totalback = totalchars = goodchars = 0
     WrongWords = []
+    WrongChars = []
     for test in TypingDatas:
-        time += test["TestLength"]
-        accuracy += test["Accuracy"]
-        backrate += test["BackRate"]
+        totaltime += test["TestLength"]
+        totalback += test["TotalBack"]
         totalchars += test["TotalChars"]
+        goodchars += test["GoodChars"]
         for word in test["WrongWords"]:
             WrongWords.append(word)
-        Adding()
-    number = len(TypingDatas)
-    avgTime = Math.takeDecimal(time, number, 10)
-    avgWpm = Math.takeDecimal(wpm, number, 100)
-    avgAccuracy = Math.takeDecimal(accuracy * 100, number, 10)
-    avgBackrate = Math.takeDecimal(backrate * 100, number, 100)
-    WrongWordsRepeated = []
-    for word in WrongWords:
-        if [0, word] not in WrongWordsRepeated:
-            WrongWordsRepeated.append([0, word])
-    for index in range(len(WrongWordsRepeated)):
-        for word in WrongWords:
-            if word == WrongWordsRepeated[index][1]:
-                WrongWordsRepeated[index][0] += 1
-    WrongWordsRepeated.sort(reverse=True)
+        Adding(1, 1)
+        for char in test["WrongChars"]:
+            WrongChars.append(char)
+        Adding(1, 1)
+    avgTime = totaltime / len(TypingDatas)
+    avgWpm = totalchars / (5 * totaltime)
+    avgCpm = totalchars / totaltime
+    avgAccuracy = goodchars / totalchars
+    avgBackrate = totalback / totalchars
 
-    emptyJson = "{}"
-    WrongWordsRepeatedJson = json.loads(emptyJson)
-    for word in WrongWordsRepeated:
-        WrongWordsRepeatedJson.update({word[1]: word[0]})
-        Adding()
+    avgTimePrint = Math.takeDecimal(totaltime, len(TypingDatas), 10)
+    avgWpmPrint = Math.takeDecimal(totalchars / 5, totaltime, 100)
+    avgCpmPrint = Math.takeDecimal(totalchars, totaltime, 100)
+    avgAccuracyPrint = Math.takeDecimal(goodchars * 100, totalchars, 100)
+    avgBackratePrint = Math.takeDecimal(totalback * 100, totalchars, 100)
 
-    TypoRate = WrongWordsRepeated
-    for word in TypoRate:
-        word[0] = float(word[0] / lastProgress[1]["Words Repeat Time"][word[1]])
-        Adding()
+    WrongWordsRepeated = CreateRepeatedArray(WrongWords)
+    WrongCharsRepeated = CreateRepeatedArray(WrongChars)
+    WrongWordsRepeatedJson = CreateJsonObject(WrongWordsRepeated)
+    WrongCharsRepeatedJson = CreateJsonObject(WrongCharsRepeated)
+
+    TypoRate = WrongCharsRepeated
+    for char in TypoRate:
+        if str(char[1]) != "Symbols" and str(char[1]) != "Spaces":
+            char[0] = (
+                float(char[0])
+                / lastProgress[2]["Analysing Results"]["Advanced Datas"][
+                    "Characters Repeated Times"
+                ][str(char[1])]
+            )
+        if str(char[1]) == "Spaces":
+            char[0] = float(char[0]) / ((len(A.wordsList) - R.learned * 2))
+        Adding(1, 1)
 
     TypoRate.sort(reverse=True)
-    MostTypo = TypoRate[0][1]
+    MostTypo = TypoRate[1][1]
 
-    TypoRateJson = json.loads(emptyJson)
-    for word in TypoRate:
-        TypoRateJson.update({word[1]: word[0]})
+    TypoRateJson = CreateJsonObject(TypoRate)
 
 
 Allan = AllanPoeIndex
 Bill = BillMurrayIndex
 Type = TypingTest
 
-AllanJson = {
-    "Allan Poe Index": float(Allan.Grade[3:-3]),
-    "Bill Murray Index": float(Bill.Grade[3:-3]),
-}
 
-
-WordsKinds = len(A.WordsRepeated)
-TotalWords = len(A.wordsList)
-TotalChars = len(Allan.letters)
-CharsPerWord = Math.takeDecimal(len(Allan.letters), len(A.wordsList), 100000)
-
-analysisJson = {
-    "Vocabularies": {
-        "Total": R.vocabularies,
-        "Learned": R.learned,
-        "Unlearned": R.unlearned,
-    },
-    "Sentences": {
-        "Total": R.sentences,
-        "Examples": R.examples,
-        "Definitions": R.definitions,
-        "Comparisons": R.comparisons,
-    },
-    "Advanced Datas": {
-        "Word's Kinds": WordsKinds,
-        "Total Words": TotalWords,
-        "Total Characters": TotalChars,
-        "Letters Per Words": CharsPerWord,
-    },
-    "Typing Results": {
-        "Test Duration": Type.avgTime,
-        "WPM": Type.avgWpm,
-        "Accuracy": Type.avgAccuracy / 100,
-        "BackSpace Press Rate": Type.avgBackrate / 100,
-        "Wrong Words List": Type.WrongWordsRepeatedJson,
-        "Typo Rate": Type.TypoRateJson,
-    },
-}
+class AnalysedData:
+    WordsKinds = len(A.WordsRepeated)
+    TotalWords = len(A.wordsList)
+    TotalChars = len(Allan.letters)
+    CharsPerWord = Math.takeDecimal(len(Allan.letters), len(A.wordsList), 100000)
+    AllanJson = {
+        "Allan Poe Index": float(Allan.Grade[3:-3]),
+        "Bill Murray Index": float(Bill.Grade[3:-3]),
+    }
+    analysisJson = {
+        "Vocabularies": {
+            "Total": R.vocabularies,
+            "Learned": R.learned,
+            "Unlearned": R.unlearned,
+        },
+        "Sentences": {
+            "Total": R.sentences,
+            "Examples": R.examples,
+            "Definitions": R.definitions,
+            "Comparisons": R.comparisons,
+        },
+        "Advanced Datas": {
+            "Word's Kinds": WordsKinds,
+            "Total Words": TotalWords,
+            "Total Characters": TotalChars,
+            "Characters Repeated Times": AllanPoeIndex.LettersRepeatedJson,
+            "Letters Per Words": CharsPerWord,
+        },
+        "Typing Results": {
+            "Test Duration": Type.avgTime,
+            "WPM": Type.avgWpm,
+            "Accuracy": Type.avgAccuracy,
+            "BackSpace Press Rate": Type.avgBackrate,
+            "Wrong Words List": Type.WrongWordsRepeatedJson,
+            "Wrong Chars List": Type.WrongCharsRepeatedJson,
+            "Typo Rate": Type.TypoRateJson,
+        },
+    }
 
 
 with open("Databases\Database.json", mode="w") as file:
@@ -543,8 +538,8 @@ with open("Databases\Database.json", mode="w") as file:
         [
             {"Words List": A.wordsList},
             {"Words Repeat Time": A.WordsRepeatedJson},
-            {"Analysing Results": analysisJson},
-            {"Project Statment": AllanJson},
+            {"Analysing Results": AnalysedData.analysisJson},
+            {"Project Statment": AnalysedData.AllanJson},
             {"Last Progress": progress},
         ],
         file,
@@ -570,33 +565,25 @@ class Write:
 
     Vocabularies = FontEffect("Vocabularies: ", 160, 1) + str(R.vocabularies)
 
-    Learned = (
-        "Learned: "
-        + str(R.learned)
-        + Math.percent(R.learned, R.vocabularies, decimalDegree)
-    )
+    Learned = "Learned: " + str(R.learned) + Math.percent(R.learned, R.vocabularies, 10)
     Unlearned = (
-        "Unlearned: "
-        + str(R.unlearned)
-        + Math.percent(R.unlearned, R.vocabularies, decimalDegree)
+        "Unlearned: " + str(R.unlearned) + Math.percent(R.unlearned, R.vocabularies, 10)
     )
     Individuals = "Individuals: " + str(len(A.WordsRepeated))
 
     Sentences = FontEffect("Sentences:    ", 160, 1) + str(R.sentences)
     Examples = (
-        "Examples: "
-        + str(R.examples)
-        + Math.percent(R.examples, R.sentences, decimalDegree)
+        "Examples: " + str(R.examples) + Math.percent(R.examples, R.sentences, 10)
     )
     Definitions = (
         "Definitions: "
         + str(R.definitions)
-        + Math.percent(R.definitions, R.sentences, decimalDegree)
+        + Math.percent(R.definitions, R.sentences, 10)
     )
     Comparisons = (
         "Comparisons: "
         + str(R.comparisons)
-        + Math.percent(R.comparisons, R.sentences, decimalDegree)
+        + Math.percent(R.comparisons, R.sentences, 10)
     )
 
     TotalWords = "Total Words: " + str(len(A.wordsList))
@@ -605,25 +592,23 @@ class Write:
         Math.takeDecimal(len(Allan.letters), len(A.wordsList), 1000)
     )
 
-    avgTime = "Test Duration: " + str(Type.avgTime) + " min"
-    avgWpm = "WPM: " + str(Type.avgWpm)
-    avgAccuracy = "Accuracy: " + str(Type.avgAccuracy) + " %"
-    avgBackrate = "Back Rate: " + str(Type.avgBackrate) + " %"
+    avgTime = "Test Duration: " + str(Type.avgTimePrint) + " mins"
+    avgWpm = "WPM: " + str(Type.avgWpmPrint)
+    avgAccuracy = "Accuracy: " + str(Type.avgAccuracyPrint) + " %"
+    avgBackrate = "Back Rate: " + str(Type.avgBackratePrint) + " %"
     MostType = "Most Typo: " + '"' + Type.MostTypo + '"'
 
 
 def AddingFiller():
-    if progress < prevProgress:
-        for x in range(prevProgress - progress):
-            Adding()
+    while progress < prevProgress:
+        Adding(1, 1)
     else:
         for x in range(2):
-            Adding()
+            Adding(1, 1)
 
 
 if efficiencyTest == False:
     AddingFiller()
-
 
 print()
 

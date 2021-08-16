@@ -2,8 +2,10 @@
 using System.Timers;
 using System.IO;
 using System.Collections;
-using System.Text.Json;
+// using System.Text.Json;
 using Newtonsoft.Json.Linq;
+using System.Text.RegularExpressions;
+
 
 namespace Typing_App
 {
@@ -18,7 +20,6 @@ namespace Typing_App
 
     public abstract class Grade : UploadToJson, showResult
     {
-        private int goodChars;
         private ArrayList badWords = new ArrayList();
         private ArrayList badChars = new ArrayList();
         private int chars;
@@ -37,27 +38,27 @@ namespace Typing_App
             return 5;
         }
 
-        public Grade(int _goodChars, ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
+        public Grade(ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
         {
-            goodChars = _goodChars;
             badWords = _badWords;
             badChars = _badChars;
             chars = _chars;
             backTime = _backTime;
             testTime = _testTime;
         }
-        public int GoodChars { get { return goodChars; } set { goodChars = value; } }
         public ArrayList BadWords { get { return badWords; } set { badWords = value; } }
         public ArrayList BadChars { get { return badChars; } set { badChars = value; } }
         public int Chars { get { return chars; } set { chars = value; } }
         public int BackTime { get { return backTime; } set { backTime = value; } }
         public int TestTime { get { return testTime; } set { testTime = value; } }
 
-
+        public int GoodChars(){
+            return Chars - badChars.Count;
+        }
         public double Accuracy()
         {
 
-            return Convert.ToDouble(GoodChars) /
+            return Convert.ToDouble(GoodChars()) /
                 Convert.ToDouble(Chars);
         }
         public double Backspace_Freq()
@@ -88,10 +89,10 @@ namespace Typing_App
                     .Replace("\u4E0B\u5348", "P.M.").Replace("\u4E0A\u5348", "A.M."),
                 TestLength = TestTime,
                 TotalChars = Chars,
-                GoodChars = GoodChars,
+                GoodChars = GoodChars(),
                 TotalBack = BackTime,
-                WrongWords = (String[])BadWords.ToArray(typeof(string)),
-                WrongChars = (char[])BadChars.ToArray(typeof(char))
+                WrongWords = (string[])BadWords.ToArray(typeof(string)),
+                WrongChars = (string[])BadChars.ToArray(typeof(string))
             };
             string json = System.Text.Json.JsonSerializer.Serialize(json_element);
             File.AppendAllText(@"Databases\TypingPracticeRecords.json", "," + json + "]  ");
@@ -105,15 +106,14 @@ namespace Typing_App
         public int GoodChars { get; set; }
         public int TotalBack { get; set; }
         public string[] WrongWords { get; set; }
-        public char[] WrongChars { get; set; }
+        public string[] WrongChars { get; set; }
     }
     public class Common_Calculate_Way : Grade
     {
-        public Common_Calculate_Way(int _goodChars, ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
-                                                       : base(_goodChars, _badWords, _badChars, _chars, _backTime, _testTime)
+        public Common_Calculate_Way(ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
+                                                       : base( _badWords, _badChars, _chars, _backTime, _testTime)
         {
             TestTime = _testTime;
-            GoodChars = _goodChars;
             BadWords = _badWords;
             Chars = _chars;
             BackTime = _backTime;
@@ -126,11 +126,10 @@ namespace Typing_App
     }
     public class For_Long_Time_Test : Grade
     {
-        public For_Long_Time_Test(int _goodChars, ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
-                                                     : base(_goodChars, _badWords, _badChars, _chars, _backTime, _testTime)
+        public For_Long_Time_Test( ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
+                                                     : base(_badWords, _badChars, _chars, _backTime, _testTime)
         {
             TestTime = _testTime;
-            GoodChars = _goodChars;
             BadWords = _badWords;
             BadChars = _badChars;
             Chars = _chars;
@@ -138,7 +137,7 @@ namespace Typing_App
         }
         public override float wpm()
         {
-            return GoodChars / TestTime;
+            return GoodChars() / TestTime;
         }
     }
 
@@ -201,9 +200,8 @@ namespace Typing_App
             preWork.Close();
 
 
-            For_Long_Time_Test _g = new For_Long_Time_Test(0, new ArrayList(), new ArrayList(), 0, 0, TestTime);
-            Common_Calculate_Way g = new Common_Calculate_Way(0, new ArrayList(), new ArrayList(), 0, 0, TestTime);
-
+            For_Long_Time_Test _g = new For_Long_Time_Test(new ArrayList(), new ArrayList(), 0, 0, TestTime);
+            Common_Calculate_Way g = new Common_Calculate_Way(new ArrayList(), new ArrayList(), 0, 0, TestTime);
 
             Timer timer = new Timer(1000);
             timer.Elapsed += new ElapsedEventHandler(Timesup);
@@ -243,7 +241,7 @@ namespace Typing_App
             int minuteNow = now.Minute;
             int hourNow = now.Hour;
             int yearNow = now.Year;
-            int randomSeed = secondNow + minuteNow + hourNow + yearNow;
+            int randomSeed = secondNow * yearNow * hourNow / minuteNow;
 
             createLine();
             input();
@@ -254,7 +252,7 @@ namespace Typing_App
                 recordRandom.Add("");
                 Console.WriteLine();
                 int i = 10;
-                Random r = new Random(randomSeed / i * state * TestTime);
+                Random r = new Random(randomSeed / i * state + TestTime);
                 int n = r.Next(Array.IndexOf(arr, "1980s"));
                 while (i != 0)
                 {
@@ -275,8 +273,7 @@ namespace Typing_App
                     {
                         if (standard[i] == Result[i])
                         {
-                            g.GoodChars++;
-                            g.BadChars.Add(standard[i]);
+                            g.BadChars.Add(standard[i].ToString());
                         }
                     }
                 }
@@ -285,14 +282,10 @@ namespace Typing_App
                     while (Result.Length != standard.Length) standard += "!";
                     for (int i = 0; i < Result.Length; i++)
                     {
-                        if (Result[i] == standard[i])
+                        if (Result[i] != standard[i])
                         {
-                            g.GoodChars++;
-                        }
-                        else
-                        {
-                            if (standard[i] != '!') g.BadChars.Add(standard[i]);
-                            else if (standard[i] == '!') g.BadChars.Add(' ');
+                            if (standard[i] != '!') g.BadChars.Add(standard[i].ToString());
+                            else if (standard[i] == '!') g.BadChars.Add("Spaces");
                         }
                     }
                 }
@@ -301,14 +294,9 @@ namespace Typing_App
                     while (Result.Length != standard.Length) Result += "!";
                     for (int i = 0; i < standard.Length; i++)
                     {
-                        if (standard[i] == Result[i])
+                        if (standard[i] != Result[i])
                         {
-                            g.GoodChars++;
-                        }
-                        else
-                        {
-                            g.BadChars.Add(standard[i]);
-                            if (Result[i] == '!') g.GoodChars--;
+                            g.BadChars.Add(standard[i].ToString());
                         }
                     }
                 }
@@ -320,7 +308,6 @@ namespace Typing_App
                 ConsoleKeyInfo k = Console.ReadKey();
                 if (k.KeyChar == ' ')
                 {
-                    g.GoodChars++;
                     string result = "";
                     foreach (char element in word) result += Convert.ToString(element);
                     g.Chars += result.Length + 1;
@@ -334,7 +321,6 @@ namespace Typing_App
                         if (result == Standard)
                         {
                             Console.Write(" \u001b[38;5;82m(O)\u001b[0m ");
-                            g.GoodChars += result.Length;
                         }
                         else
                         {
@@ -352,7 +338,6 @@ namespace Typing_App
                         if (result == Standard)
                         {
                             Console.Write(" \u001b[38;5;82m(O)\u001b[0m ");
-                            g.GoodChars += result.Length;
                         }
                         else
                         {
@@ -370,7 +355,22 @@ namespace Typing_App
                 {
                     if (word.Count - 1 >= 0)
                     {
-                        g.BadChars.Add(word[word.Count - 1]);
+                        string letters = "qwertyuiopasdfghjklzxcvbnm";
+                        string symbols = "1234567890`~!@#$%^&*()_+-=[]{};':\"\\|/?,.<>QWERTYUIOPASDFGHJKLZXCVBNM";
+                        foreach (char ch in letters)
+                        {
+                            if (ch.ToString() == word[word.Count - 1].ToString())
+                            {
+                                g.BadChars.Add(word[word.Count - 1].ToString());
+                            }
+                        }
+                        foreach (char ch in symbols)
+                        {
+                            if(ch.ToString() == word[word.Count - 1].ToString())
+                            {
+                                g.BadChars.Add("Symbols");
+                            }
+                        }
                         word.RemoveAt(word.Count - 1);
                         g.BackTime++;
                     }
