@@ -309,7 +309,7 @@ namespace Typing_App
                 if (k.KeyChar == ' ')
                 {
                     string result = "";
-                    foreach (char element in word) result += Convert.ToString(element);
+                    foreach (char element in word) result += element.ToString();
                     g.Chars += result.Length + 1;
                     string standard(int n)
                     {
@@ -353,7 +353,7 @@ namespace Typing_App
                 }
                 else if (k.Key == ConsoleKey.Backspace)
                 {
-                    if (word.Count - 1 >= 0)
+                    if (word.Count > 0)
                     {
                         string letters = "qwertyuiopasdfghjklzxcvbnm";
                         string symbols = "1234567890`~!@#$%^&*()_+-=[]{};':\"\\|/?,.<>QWERTYUIOPASDFGHJKLZXCVBNM";
