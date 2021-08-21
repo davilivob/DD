@@ -2,11 +2,7 @@
 using System.Timers;
 using System.IO;
 using System.Collections;
-// using System.Text.Json;
 using Newtonsoft.Json.Linq;
-using System.Text.RegularExpressions;
-
-
 namespace Typing_App
 {
     interface UploadToJson
@@ -17,58 +13,60 @@ namespace Typing_App
     {
         void ShowResult();
     }
-
-    public abstract class Grade : UploadToJson, showResult
+    public class Test : UploadToJson, showResult
     {
-        private ArrayList badWords = new ArrayList();
-        private ArrayList badChars = new ArrayList();
-        private int chars;
-        private int backTime;
-        private int testTime;
-
-
-        public float Per()
+        public ArrayList BadWords { get; set; }
+        public ArrayList BadChars { get; set; }
+        public int Chars { get; set; }
+        public int BackTime { get; set; }
+        public int TestTime { get; set; }
+        public int State { get; set; }
+        public ArrayList word { get; set; }
+        public ArrayList recordRandom { get; set; }
+        public Timer timer { get; set; }
+        public int TimeStart { get; set; }
+        public int row { get; set; }
+        public string[] wordsArray { get; set; }
+        public bool testEnd { get; set; }
+        public Test(ushort testTime, string[] _wordsArray)
         {
-            // StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
-            // string data = jsonfile.ReadToEnd();
-            // JObject AnalysingResults = JObject.Parse(JArray.Parse(data)[2].ToString());
-            // JObject lettersPerWords = JObject.Parse(AnalysingResults["Analysing Results"]["Advanced Datas"].ToString());
-            // float CharsPerWord = lettersPerWords["Letters Per Words"].ToObject<float>();
-            // return CharsPerWord;
-            return 5;
+            BadWords = new ArrayList();
+            BadChars = new ArrayList();
+            Chars = 0;
+            BackTime = 0;
+            State = 0;
+            word = new ArrayList();
+            recordRandom = new ArrayList();
+            TestTime = testTime;
+            TimeStart = 0;
+            wordsArray = _wordsArray;
+            testEnd = false;
         }
-
-        public Grade(ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
+        public void setTimer()
         {
-            badWords = _badWords;
-            badChars = _badChars;
-            chars = _chars;
-            backTime = _backTime;
-            testTime = _testTime;
+            timer = new Timer(1000);
+            timer.Elapsed += new ElapsedEventHandler(Timesup);
+            timer.AutoReset = true;
+            timer.Interval = TestTime * 1000 * 60;
+            timer.Enabled = true;
         }
-        public ArrayList BadWords { get { return badWords; } set { badWords = value; } }
-        public ArrayList BadChars { get { return badChars; } set { badChars = value; } }
-        public int Chars { get { return chars; } set { chars = value; } }
-        public int BackTime { get { return backTime; } set { backTime = value; } }
-        public int TestTime { get { return testTime; } set { testTime = value; } }
-
-        public int GoodChars(){
-            return Chars - badChars.Count;
+        public int GoodChars()
+        {
+            return Chars - BadChars.Count;
         }
         public double Accuracy()
         {
-
-            return Convert.ToDouble(GoodChars()) /
-                Convert.ToDouble(Chars);
+            return Convert.ToDouble(GoodChars() + BackTime) /
+                Convert.ToDouble(Chars + BackTime);
         }
         public double Backspace_Freq()
         {
             return Convert.ToDouble(BackTime) /
-                Convert.ToDouble(Chars);
+                Convert.ToDouble(Chars + BackTime);
         }
-        public virtual float wpm()
+        public float wpm()
         {
-            return 0;
+            return cpm() / 5; ;
         }
         public float cpm()
         {
@@ -85,7 +83,7 @@ namespace Typing_App
         {
             var json_element = new Json_element
             {
-                DateTime = DateTime.Now.ToString()
+                TestEndTime = DateTime.Now.ToString()
                     .Replace("\u4E0B\u5348", "P.M.").Replace("\u4E0A\u5348", "A.M."),
                 TestLength = TestTime,
                 TotalChars = Chars,
@@ -97,10 +95,137 @@ namespace Typing_App
             string json = System.Text.Json.JsonSerializer.Serialize(json_element);
             File.AppendAllText(@"Databases\TypingPracticeRecords.json", "," + json + "]  ");
         }
+        public void createLine()
+        {
+            Console.WriteLine();
+            recordRandom.Clear();
+            Console.WriteLine();
+            int i = 10;
+            Random r = new Random(DateTime.Now.Millisecond);
+            int n = r.Next(Array.IndexOf(wordsArray, "1980s") - 20);
+            while (i != 0)
+            {
+                Console.Write("\u001b[1m" + wordsArray[n] + "\u001b[0m      ");
+                recordRandom.Add(wordsArray[n]);
+                n++;
+                i--;
+            }
+            Console.WriteLine();
+        }
+        public void input()
+        {
+            ConsoleKeyInfo k = Console.ReadKey();
+            if (k.KeyChar == ' ')
+            {
+                string result = "";
+                foreach (char element in word) result += element.ToString();
+                Chars += result.Length + 1;
+                string standard(int n)
+                {
+                    return Convert.ToString(recordRandom[n]);
+                }
+                string Standard = standard(State % 10);
+                if (result == Standard)
+                {
+                    Console.Write(" \u001b[38;5;82m(O)\u001b[0m ");
+                }
+                else
+                {
+                    Console.Write(" \u001b[38;5;160m(X)\u001b[0m ");
+                    BadWords.Add(Standard);
+                    checkResultByChar(result, Standard);
+                }
+                word.Clear();
+                State++;
+                if (State % 10 == 0) createLine();
+            }
+            else if (k.Key == ConsoleKey.Backspace)
+            {
+                if (word.Count > 0)
+                {
+                    if (word.Count > recordRandom[State % 10].ToString().Length)
+                    {
+                        BadChars.Add("Spaces");
+                        word.RemoveAt(word.Count - 1);
+                        BackTime++;
+                    }
+                    else
+                    {
+                        BadChars.Add(recordRandom[State % 10].ToString().Substring(word.Count - 1, 1));
+                        word.RemoveAt(word.Count - 1);
+                        BackTime++;
+                    }
+                }
+            }
+            else
+            {
+                if (TimeStart == 0) TimeStart++;
+                if (TimeStart == 1) { setTimer(); TimeStart++; }
+                word.Add(k.KeyChar);
+            }
+        }
+        public void checkResultByChar(string Result, string standard)
+        {
+            if (standard.Length == Result.Length)
+            {
+                for (int i = 0; i < Result.Length; i++)
+                {
+                    if (standard[i] != Result[i])
+                    {
+                        BadChars.Add(standard[i].ToString());
+                    }
+                }
+            }
+            if (Result.Length > standard.Length)
+            {
+                while (Result.Length != standard.Length) standard += "!";
+                for (int i = 0; i < Result.Length; i++)
+                {
+                    if (Result[i] != standard[i])
+                    {
+                        if (standard[i] != '!') BadChars.Add(standard[i].ToString());
+                        else if (standard[i] == '!') BadChars.Add("Spaces");
+                    }
+                }
+            }
+            if (Result.Length < standard.Length)
+            {
+                while (Result.Length != standard.Length) Result += "!";
+                for (int i = 0; i < standard.Length; i++)
+                {
+                    if (standard[i] != Result[i])
+                    {
+                        BadChars.Add(standard[i].ToString());
+                    }
+                }
+            }
+        }
+        public void Timesup(object source, ElapsedEventArgs e)
+        {
+            testEnd = true;
+            string uncompleted = "";
+            foreach (char element in word) uncompleted += element.ToString();
+            Chars += uncompleted.Length;
+            checkResultByChar(uncompleted, Convert.ToString(recordRandom[State % 10]).Substring(0, uncompleted.Length));
+
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------------------" +
+                "------------------------------------------------------------------");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            ShowResult();
+            uploadtojson();
+            Console.Write("\nThe Datas have been uploaded.");
+            timer.Close();
+            Console.WriteLine();
+            Console.WriteLine();
+            Environment.Exit(0);
+        }
     }
     public class Json_element
     {
-        public string DateTime { get; set; }
+        public string TestEndTime { get; set; }
         public int TestLength { get; set; }
         public int TotalChars { get; set; }
         public int GoodChars { get; set; }
@@ -108,39 +233,6 @@ namespace Typing_App
         public string[] WrongWords { get; set; }
         public string[] WrongChars { get; set; }
     }
-    public class Common_Calculate_Way : Grade
-    {
-        public Common_Calculate_Way(ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
-                                                       : base( _badWords, _badChars, _chars, _backTime, _testTime)
-        {
-            TestTime = _testTime;
-            BadWords = _badWords;
-            Chars = _chars;
-            BackTime = _backTime;
-        }
-
-        public override float wpm()
-        {
-            return cpm() / Per();
-        }
-    }
-    public class For_Long_Time_Test : Grade
-    {
-        public For_Long_Time_Test( ArrayList _badWords, ArrayList _badChars, int _chars, int _backTime, int _testTime)
-                                                     : base(_badWords, _badChars, _chars, _backTime, _testTime)
-        {
-            TestTime = _testTime;
-            BadWords = _badWords;
-            BadChars = _badChars;
-            Chars = _chars;
-            BackTime = _backTime;
-        }
-        public override float wpm()
-        {
-            return GoodChars() / TestTime;
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)
@@ -190,198 +282,39 @@ namespace Typing_App
                     }
                 }
             }
-
-            Exception();
-            StreamReader _preWord = new StreamReader(@"Databases\TypingPracticeRecords.json");
-            string AllJsonContent = _preWord.ReadToEnd();
-            _preWord.Close();
-            StreamWriter preWork = new StreamWriter(@"Databases\TypingPracticeRecords.json");
-            preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
-            preWork.Close();
-
-
-            For_Long_Time_Test _g = new For_Long_Time_Test(new ArrayList(), new ArrayList(), 0, 0, TestTime);
-            Common_Calculate_Way g = new Common_Calculate_Way(new ArrayList(), new ArrayList(), 0, 0, TestTime);
-
-            Timer timer = new Timer(1000);
-            timer.Elapsed += new ElapsedEventHandler(Timesup);
-            timer.AutoReset = true;
-            timer.Interval = TestTime * 1000 * 60;
-            timer.Enabled = true;
-
-            void Timesup(object source, ElapsedEventArgs e)
+            void preWorker()
             {
-                Console.WriteLine();
-                Console.WriteLine("-------------------------------------------" +
-                    "------------------------------------------------------------------");
-                Console.WriteLine(".");
-                Console.WriteLine(".");
-                Console.WriteLine(".");
-                g.ShowResult();
-                g.uploadtojson();
-                timer.Close();
-                Console.Read();
+                StreamReader _preWord = new StreamReader(@"Databases\TypingPracticeRecords.json");
+                string AllJsonContent = _preWord.ReadToEnd();
+                _preWord.Close();
+                StreamWriter preWork = new StreamWriter(@"Databases\TypingPracticeRecords.json");
+                preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
+                preWork.Close();
             }
-
-            ArrayList recordRandom = new ArrayList();
-            ArrayList word = new ArrayList();
-
-            int state = 1;
-
-
-            StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
-            string data = jsonfile.ReadToEnd();
-            JObject Dictionary = JObject.Parse(JArray.Parse(data)[0].ToString());
-            JArray arrs = (JArray)Dictionary["Words List"];
-            string[] arr = arrs.ToObject<string[]>();
-
-            DateTime now = DateTime.Now;
-            string Now = now.ToString();
-            int secondNow = now.Second;
-            int minuteNow = now.Minute;
-            int hourNow = now.Hour;
-            int yearNow = now.Year;
-            int randomSeed = secondNow * yearNow * hourNow / minuteNow;
-
-            createLine();
-            input();
-
-            void createLine()
+            string[] getWords()
             {
-                recordRandom.Clear();
-                recordRandom.Add("");
-                Console.WriteLine();
-                int i = 10;
-                Random r = new Random(randomSeed / i * state + TestTime);
-                int n = r.Next(Array.IndexOf(arr, "1980s"));
-                while (i != 0)
-                {
-                    Console.Write("\u001b[1m" + arr[n] + "\u001b[0m      ");
-                    recordRandom.Add(arr[n]);
-                    n += 1;
-                    i--;
-                }
-                Console.WriteLine();
+                StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
+                string data = jsonfile.ReadToEnd();
+                JObject Dictionary = JObject.Parse(JArray.Parse(data)[0].ToString());
+                JArray arrs = (JArray)Dictionary["Words List"];
+                string[] arr = arrs.ToObject<string[]>();
+                return arr;
             }
+            string[] wordsArray = getWords();
 
-
-            void checkResultByChar(string Result, string standard)
+            void Mainfunction()
             {
-                if (standard.Length == Result.Length)
+                TestTime = 1;
+                Exception();
+                preWorker();
+                Test newTest = new Test(TestTime, wordsArray);
+                newTest.createLine();
+                while(newTest.testEnd == false)
                 {
-                    for (int i = 0; i < Result.Length; i++)
-                    {
-                        if (standard[i] == Result[i])
-                        {
-                            g.BadChars.Add(standard[i].ToString());
-                        }
-                    }
-                }
-                if (Result.Length > standard.Length)
-                {
-                    while (Result.Length != standard.Length) standard += "!";
-                    for (int i = 0; i < Result.Length; i++)
-                    {
-                        if (Result[i] != standard[i])
-                        {
-                            if (standard[i] != '!') g.BadChars.Add(standard[i].ToString());
-                            else if (standard[i] == '!') g.BadChars.Add("Spaces");
-                        }
-                    }
-                }
-                if (Result.Length < standard.Length)
-                {
-                    while (Result.Length != standard.Length) Result += "!";
-                    for (int i = 0; i < standard.Length; i++)
-                    {
-                        if (standard[i] != Result[i])
-                        {
-                            g.BadChars.Add(standard[i].ToString());
-                        }
-                    }
+                    newTest.input();
                 }
             }
-
-
-            void input()
-            {
-                ConsoleKeyInfo k = Console.ReadKey();
-                if (k.KeyChar == ' ')
-                {
-                    string result = "";
-                    foreach (char element in word) result += element.ToString();
-                    g.Chars += result.Length + 1;
-                    string standard(int n)
-                    {
-                        return Convert.ToString(recordRandom[n]);
-                    }
-                    if (state % 10 == 0)
-                    {
-                        string Standard = standard(10);
-                        if (result == Standard)
-                        {
-                            Console.Write(" \u001b[38;5;82m(O)\u001b[0m ");
-                        }
-                        else
-                        {
-                            Console.Write(" \u001b[38;5;160m(X)\u001b[0m ");
-                            g.BadWords.Add(Standard);
-                            checkResultByChar(result, Standard);
-
-                        }
-                        Console.WriteLine();
-                        createLine();
-                    }
-                    else
-                    {
-                        string Standard = standard(state % 10);
-                        if (result == Standard)
-                        {
-                            Console.Write(" \u001b[38;5;82m(O)\u001b[0m ");
-                        }
-                        else
-                        {
-                            Console.Write(" \u001b[38;5;160m(X)\u001b[0m ");
-                            g.BadWords.Add(Standard);
-                            checkResultByChar(result, Standard);
-
-                        }
-                    }
-                    word.Clear();
-                    state++;
-                    input();
-                }
-                else if (k.Key == ConsoleKey.Backspace)
-                {
-                    if (word.Count > 0)
-                    {
-                        string letters = "qwertyuiopasdfghjklzxcvbnm";
-                        string symbols = "1234567890`~!@#$%^&*()_+-=[]{};':\"\\|/?,.<>QWERTYUIOPASDFGHJKLZXCVBNM";
-                        foreach (char ch in letters)
-                        {
-                            if (ch.ToString() == word[word.Count - 1].ToString())
-                            {
-                                g.BadChars.Add(word[word.Count - 1].ToString());
-                            }
-                        }
-                        foreach (char ch in symbols)
-                        {
-                            if(ch.ToString() == word[word.Count - 1].ToString())
-                            {
-                                g.BadChars.Add("Symbols");
-                            }
-                        }
-                        word.RemoveAt(word.Count - 1);
-                        g.BackTime++;
-                    }
-                    input();
-                }
-                else
-                {
-                    word.Add(k.KeyChar);
-                    input();
-                }
-            }
+            Mainfunction();
         }
     }
 }

@@ -34,39 +34,52 @@ for test in TypingDatas:
 
 
 class TypingTest:
-    avgTime, avgWpm, avgCpm, avgAccuracy, avgBackrate = (
+    allCharsIWant = " ".join("qwertyuiopasdfghjklzxcvbnm").split()
+    allCharsIWant.append("Spaces")
+
+    totalTime, totalChars = totaltime, totalchars
+    testNumber, avgTime, avgWpm, avgCpm, avgAccuracy, avgBackrate = (
+        len(TypingDatas),
         totaltime / len(TypingDatas),
-        totalchars / (5 * totaltime),
-        totalchars / totaltime,
-        goodchars / totalchars,
-        totalback / totalchars,
+        totalchars / (5 * totalTime),
+        totalchars / totalTime,
+        (goodchars + totalback) / (totalchars + totalback),
+        totalback / (totalchars + totalback),
     )
 
     avgTimePrint, avgWpmPrint, avgCpmPrint, avgAccuracyPrint, avgBackratePrint = (
-        Math.takeDecimal(totaltime, len(TypingDatas), 10),
-        Math.takeDecimal(totalchars / 5, totaltime, 100),
-        Math.takeDecimal(totalchars, totaltime, 100),
-        Math.takeDecimal(goodchars * 100, totalchars, 100),
-        Math.takeDecimal(totalback * 100, totalchars, 100),
+        Math.takeDecimal(avgTime, 1, 100),
+        Math.takeDecimal(avgWpm, 1, 100),
+        Math.takeDecimal(avgCpm, 1, 100),
+        Math.takeDecimal(avgAccuracy * 100, 1, 100),
+        Math.takeDecimal(avgBackrate * 100, 1, 100),
     )
     WrongWordsRepeated, WrongCharsRepeated = (
         AJ.CreateRepeatedArray(WrongWords),
         AJ.CreateRepeatedArray(WrongChars),
     )
+
+    for element in WrongCharsRepeated:
+        if element[1] in allCharsIWant:
+            allCharsIWant.remove(element[1])
+    for char in allCharsIWant:
+        WrongCharsRepeated.append([0, char])
+
     WrongWordsRepeatedJson, WrongCharsRepeatedJson = (
         AJ.CreateJsonObject(WrongWordsRepeated),
         AJ.CreateJsonObject(WrongCharsRepeated),
     )
 
     TypoRate = WrongCharsRepeated
+
     for char in TypoRate:
-        if str(char[1]) != "Symbols" and str(char[1]) != "Spaces":
+        if str(char[1]) != "Spaces":
             char[0] = float(char[0]) / File.Load.lastCharsRepeated[str(char[1])]
         if str(char[1]) == "Spaces":
             char[0] = float(char[0]) / ((len(A.A.wordsList) - R.R.learned * 2))
         TimeBar.Adding()
 
     TypoRate.sort(reverse=True)
-    MostTypo = TypoRate[1][1]
+    MostTypo = TypoRate[0][1]
 
     TypoRateJson = AJ.CreateJsonObject(TypoRate)

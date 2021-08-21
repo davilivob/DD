@@ -2,10 +2,14 @@ import json
 
 print()
 ifPrint = input(
-    "If You Hope the Analyzing Results Show on the Terminal, Just Press Any Button and Press Enter.\n\nOtherwise, Press Enter Only: "
+    "If You Hope the Analysis Results to be Desplayed on the Terminal, Just Type Anything Then Press Enter."
+    + "\n\nOtherwise, Press Enter Only: "
 )
 if ifPrint != "":
-    RankingList = input("\nPlease Enter The Number of Words Ranking You Want to See: ")
+    RankingList = input(
+        "\nTo See a Ranked List of the Most Frequently Used Words, Enter 'all' or Enter the Range of the List."
+        + "\n\nOtherwise, Press Enter Only: "
+    )
 else:
     RankingList = "0"
 
@@ -25,7 +29,6 @@ from MyModules import (
     typingData as TT,
     ranking as Rank,
 )
-
 
 A = A.A
 wordsList, WordsRepeated, WordsRepeatedJson = (
@@ -50,28 +53,36 @@ Allan, Bill = AB.AllanBill("A"), AB.AllanBill("B")
     AllanGrade,
     AllanShowLettersSort,
     AllanLettersRepeatedJson,
+    allLetters,
+    lettersSortList,
     BillGrade,
     BillShowLettersSort,
     BillLettersRepeatedJson,
+    firstLettersSortList,
 ) = (
     Allan.Grade(),
     Allan.ShowLettersSort(),
     Allan.LettersRepeatedJson(),
+    Allan.letters(),
+    Allan.CurrentSortList(),
     Bill.Grade(),
     Bill.ShowLettersSort(),
     Bill.LettersRepeatedJson(),
+    Bill.CurrentSortList(),
 )
-
+allLettersLen = len(allLetters)
 Type = TT.TypingTest
 
-WordsRanking = Rank.Ranking(RankingList, WordsRepeated, wordsList)
+WordsRanking = Rank.Ranking(RankingList, WordsRepeated, wordsList, 1)
+LettersRanking = Rank.Ranking("26", lettersSortList, allLetters, 0)
+FirstLettersRanking = Rank.Ranking("26", firstLettersSortList, wordsList, 0)
 
 
 def UploadDatasToJson():
     WordsKinds = len(WordsRepeated)
     TotalWords = len(wordsList)
-    TotalChars = len(Allan.letters())
-    CharsPerWord = Math.takeDecimal(len(Allan.letters()), len(wordsList), 100000)
+    TotalChars = allLettersLen
+    CharsPerWord = Math.takeDecimal(allLettersLen, len(wordsList), 100000)
     AllanJson = {
         "Allan Poe Index": float(AllanGrade[3:-3]),
         "Bill Murray Index": float(BillGrade[3:-3]),
@@ -117,8 +128,12 @@ def UploadDatasToJson():
             ],
             file,
         )
-    with open("Databases\prevTime.txt", mode="w") as file:
-        file.write(str(TimeBar.timeNow()))
+
+    def settingUpload():
+        return {"PrevTime": TimeBar.timeNow(), "doTheTimeBar": 1, "fillBar": 1}
+
+    with open("Databases\Setting.json", mode="w") as file:
+        json.dump(settingUpload(), file)
 
 
 class Write:
@@ -198,18 +213,18 @@ class Write:
         return "".join(["Total Words: ", str(len(wordsList))])
 
     def TotalCharacters():
-        return "".join(["Total Characters: ", str(len(Allan.letters()))])
+        return "".join(["Total Characters: ", str(allLettersLen)])
 
     def LettersPerWord():
         return "".join(
             [
                 "Letters Per Word: ",
-                str(Math.takeDecimal(len(Allan.letters()), len(wordsList), 1000)),
+                str(Math.takeDecimal(allLettersLen, len(wordsList), 1000)),
             ]
         )
 
     def avgTime():
-        return " ".join(["Test Duration:", str(Type.avgTimePrint), "mins"])
+        return " ".join(["Test Duration:", str(Type.avgTimePrint)])
 
     def avgWpm():
         return " ".join(["WPM:", str(Type.avgWpmPrint)])
@@ -225,10 +240,6 @@ class Write:
 
 
 TimeBar.AddingFiller()
-
-print()
-print()
-print()
 
 
 def PrintResults():
@@ -280,7 +291,23 @@ def PrintResults():
             ]
         )
     )
-    Art.Print.ln(Art.FontEffect("Typing Test Results: ", 165, 1))
+    Art.Print.ln(
+        " ".join(
+            [
+                Art.FontEffect("Typing Test Results:", 165, 1),
+                " ( based on",
+                Art.FontEffect("".join(str(Type.testNumber)), 220, 0),
+                Art.FontEffect("Tests", 213, 0),
+                "with total",
+                Art.FontEffect("".join(str(Type.totalTime)), 220, 0),
+                Art.FontEffect("Minutes", 213, 0),
+                "and",
+                Art.FontEffect("".join(str(Type.totalChars)), 220, 0),
+                Art.FontEffect("Characters", 213, 0),
+                ")",
+            ]
+        )
+    )
     fillerForType = " " * int(
         (
             110
@@ -305,12 +332,16 @@ def PrintResults():
             ]
         )
     )
-    print(
-        Art.FontEffect(
-            " ".join(["TOP", str(WordsRanking.RankRange()), "USED WORDS: "]), 208, 1
+    print(Art.FontEffect(" ".join(["TOP USED LETTERS: "]), 200, 1))
+    Art.Print.tabln(LettersRanking.TopUsed())
+    print(Art.FontEffect(" ".join(["TOP USED FIRST LETTERS: "]), 141, 1))
+    wordsRankNum = WordsRanking.RankRange()
+    Art.Print.tabln(FirstLettersRanking.TopUsed())
+    if wordsRankNum != 0:
+        print(
+            Art.FontEffect(" ".join(["TOP", str(wordsRankNum), "USED WORDS: "]), 208, 1)
         )
-    )
-    Art.Print.tabln(WordsRanking.TopUsed())
+        Art.Print.tabln(WordsRanking.TopUsed())
 
 
 if ifPrint != "":

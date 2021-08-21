@@ -11,7 +11,12 @@ from MyModules import (
 
 Dictionary = File.Load.Dictionary
 sentenceEnd = ['."', '!"', '?"', '\\""']
-Dictionary = Dictionary.replace('": [', "詞").replace('"@', "定").replace('"&', "比")
+Dictionary = (
+    Dictionary.replace('": [', "詞")
+    .replace('"@', "定")
+    .replace('"&', "比")
+    .replace('"~', "歌")
+)
 Dictionary = Dictionary.replace('""', "空")
 for element in sentenceEnd:
     TimeBar.Adding()
@@ -28,6 +33,8 @@ class R:
     comparisons = len(Dictionary.split("比")) - 1
 
     unlearned = len(Dictionary.split("空")) - 1
+    
+    fromlyrics = len(Dictionary.split("歌")) - 1
 
     learned = vocabularies - unlearned
 

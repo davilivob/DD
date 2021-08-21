@@ -4,48 +4,65 @@ from os.path import dirname, abspath
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
 
-from MyModules import art as Art, doTheMath as Math
+from MyModules import art as Art
 
 import time
+import json
 
-with open("Databases/prevTime.txt", mode="r") as file:
-    prevTime = file.read()
+with open("Databases/Setting.json", mode="r") as file:
+    Setting = json.loads(file.read())
 
-efficiencyTest = 0
+fillBar, doTheTimeBar, barRange = Setting["fillBar"], Setting["doTheTimeBar"], 46
 
 
 class Counter:
     start = time.time()
-    prevTime = float(prevTime)
+    prevTime = float(Setting["PrevTime"])
 
 
 def timeNow():
     return time.time() - Counter.start
 
 
-barRange = 46
+if doTheTimeBar == True:
 
-
-def Adding():
-    if int(timeNow() * 1000) % 100 == 0 and timeNow() <= Counter.prevTime:
-        loadRatio = timeNow() / Counter.prevTime
-        sys.stdout.write(
-            Art.FontEffect(
-                "".join(["\u001b[1000D" + Art.LoadBar(loadRatio, barRange, 0)]), 208, 0
+    def Adding():
+        if int(timeNow() * 1000) % 100 == 0 and timeNow() <= Counter.prevTime:
+            loadRatio = timeNow() / Counter.prevTime
+            sys.stdout.write(
+                Art.FontEffect(
+                    "".join(["\u001b[1000D" + Art.LoadBar(loadRatio, barRange, 0)]),
+                    208,
+                    0,
+                )
             )
-        )
-        sys.stdout.flush()
+            sys.stdout.flush()
+
+
+else:
+
+    def Adding():
         return 0
 
 
-def AddingFiller():
-    if efficiencyTest == 0:
+if fillBar == True:
+
+    def AddingFiller():
         sys.stdout.write(
             Art.FontEffect(
                 "".join(["\u001b[1000D", Art.LoadBar(1.0, barRange, 0)]), 208, 0
             )
         )
         sys.stdout.flush()
+        print()
+        print()
+        print()
+
+
+else:
+
+    def AddingFiller():
+        return 0
 
 
 def showFinalTime():
@@ -53,8 +70,8 @@ def showFinalTime():
         Art.FontEffect(
             " ".join(
                 [
-                    "\u001b[1000D(Calculation Completed in",
-                    str(Math.takeDecimal(timeNow(), 1, 10000)),
+                    "\u001b[1000D(Calculation's Completed in",
+                    str(timeNow()),
                     "seconds)                                          ",
                 ]
             ),

@@ -44,3 +44,4 @@ class A:
     WordsRepeated = AJ.CreateRepeatedArray(wordsList)
 
     WordsRepeatedJson = AJ.CreateJsonObject(WordsRepeated)
+

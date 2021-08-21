@@ -174,13 +174,24 @@
       "imply": [
         "I'm not implying anything about your cooking, but could we eat out tonight?",
         "@ To involve something or make it necessary.",
-        "The report, which is wiewed as a bellwither for economic trends, implied that the national economy couldbe slowing down.",
+        "The report, which is viewed as a bellwither for economic trends, implied that the national economy couldbe slowing down.",
         "Her statement implies a lack of confidence in the management of the company.",
         "A connection between the events has been implied in several new reports.",
         {
           "infer": [
             "& The main differece between these two words is that a speaker can imply, but a listener can only infer.",
             "Then I think we must infer from what they said that they believe we should reapply for the job."
+          ],
+          "implication": [
+            "Because of security implications the officers were tried in secret.",
+            "The implications of these findings are intriguing, to say the least.",
+            "@ An occasion when you seem to suggest something without saying it directly.",
+            "From what she said, the implication was that they were splitting up.",
+            "@ An occasion when you suggest or show that someone is involved in a crime.",
+            "The case depended upon his implication of his co-workers in the fraud.",
+            "@ The effect that an action or decision will have on something else in the future.",
+            "The company is cutting back its spending and I wonder what the implications will be for our department.",
+            "What are the implications of the new law?"
           ]
         }
       ],
@@ -525,11 +536,17 @@
         "@ A type of soft white rock. Or it can also be a stick of this rock or a mimilar substance used for writing or drawing."
       ],
       "mud": [
-        "His shoes were covered with mud; he had torn his coat on the thorny tree."
+        "His shoes were covered with mud; he had torn his coat on the thorny tree.",
+        "~ You got mud on your face, you big disgrace!"
       ],
       "frost": [
         "@ The thin, white layer of ice that forms when the air temperature is below the freezing point of water, especially ouside at night.",
         "In a normal winter, the frost penetrates deeply enough to kill off insect eggs in the soil."
+      ],
+      "gravel": [
+        "@ Very small, rounded stones, often mixed with sand.",
+        "Visit all the nearby sand and gravel pits and start to look at their different sands.",
+        "The entire trench is then filled with the rounded gravel."
       ]
     }
   ],
@@ -628,7 +645,7 @@
       "summary": [
         "I only asked for a summary of the main points but she was making a real meal out of it.",
         "In summary, they decided against the proposal.",
-        "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocaulary."
+        "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocabulary."
       ]
     }
   ],
@@ -689,7 +706,8 @@
       "emphatic": [
         "Poland reached the final of the championship yesterday with an emphatic 5-0 victory over Italy.",
         "Towards the end of the eighteenth century, people began to see revolutions as emphatic disruptions of the past, as new points in a line."
-      ]
+      ],
+      "emphasize": [""]
     }
   ],
   "sinister": [
@@ -700,17 +718,26 @@
         "Is the death penalty cruel and unusual punishment?",
         "How is it possible to distinguish between humour that is about ' feeling good about life ' and that which is profoundly cruel or misogynistic?"
       ],
-      "callous": [
-        "It might sound callous, but I don't care if he's homeless. He's not living with me!",
-        "Ethically, such an attitude appears callous and out of character with the momentousness of assisting a patient end her life."
-      ],
       "evil": [
         "Each new leader would blame his predcessor for all the evils of the past.",
         "For the sake of long-term peace, the military option is the lesser evil or the lesser of two evils (= the less unpleasant of two bad choices).",
         "An inductive inference is then made to the conclusion that certain instances, types groups, or patterns of evils are gratuitous."
       ],
-      "apathy": [""],
       "ruthless": [""]
+    }
+  ],
+  "apathy": [
+    "@ Lack of interest, or the attitude of not caring resulting from it.",
+    "~ Apathy is a tragedy and boredom is a crime.",
+    {
+      "apathetic": [
+        "Young people today are so apathetic about politics.",
+        "Human beings in love, human beings rejected, human beings hungry, restless, apathetic and hopeful: ever-changing, ever-adapting."
+      ],
+      "callous": [
+        "It might sound callous, but I don't care if he's homeless. He's not living with me!",
+        "Ethically, such an attitude appears callous and out of character with the momentousness of assisting a patient end her life."
+      ]
     }
   ],
   "vicious": [
@@ -722,7 +749,7 @@
         "Police are hunting a student attacker after an unprovoked assault in a night club.",
         "Women's groups have demanded a nationwide assault on sexism in the worplace.",
         "She died heroically during an assault on the world's second highest mountain.",
-        "University ofiicials are concerned about a series of assaults on teachers and students near the campus."
+        "University officials are concerned about a series of assaults on teachers and students near the campus."
       ],
       "brutal": [
         "He had presided over a brutal regime in which thousands of people had ' disappeared '",
@@ -753,8 +780,16 @@
     "The girl group look fierce around a swimming pool in the video for their new single.",
     "But, as soon as the war ended, social unrest spread rapidly because of fierce inflation and other factors.",
     {
-      "dreadful": ["The dreadful sufferings of the people during this war."],
+      "dreadful": [
+        "@ Causing fear, shock, or suffering.",
+        "The dreadful sufferings of the people during this war.",
+        "@ Of very low quality or very unpleasant.",
+        "The food was bad and the service was dreadful.",
+        "@ Used to emphasize the great degree of something.",
+        "I was beginning to think i'd made a dreadful mistake."
+      ],
       "flounce": [
+        "@ To walk quickly with large, noticeable movements, esp. to attract attention or show that you're angry.",
         "\"Don't expect any help from me in future!\" he said and flounced out of the room."
       ]
     }
@@ -907,7 +942,8 @@
     {
       "graceful": [
         "The gazelle is one of the swiftest and most graceful of animals."
-      ]
+      ],
+      "disgrace": [""]
     }
   ],
   "reputation": [
@@ -927,7 +963,9 @@
     "I may enjoy dancing on the edge of the abyss, but I will never ever topple in, understand?",
     {
       "cavity": ["The gold was hidden in a secret cavity."],
-      "cliff": [""]
+      "cliff": [""],
+      "pit": [""],
+      "trench": [""]
     }
   ],
   "liquefy": [
@@ -1126,7 +1164,7 @@
     "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph."
   ],
   "entropy": [
-    "In the special case of a substance isolated from external heat supply, d*H=0, the change of entropy is zero in a reversible process, but must be positive if the process is not reversible."
+    "In the special case of a substance isolated from external heat supply, d * H = 0, the change of entropy is zero in a reversible process, but must be positive if the process is not reversible."
   ],
   "whereabouts": [
     "If anyone know the whereabouts of John, last name unknown, contact Ms. Smith on 6th Street."
@@ -1147,7 +1185,13 @@
   "torn": ["Your dress is torn and you're bleeding."],
   "wandering": ["I didn't noticed how far I was wandering this evening."],
   "precaution": [
-    "In embracing him for the last time, she felt the cuirass he wore and exclaimed that such a precaution was unworthy of a man resolved to die."
+    "In embracing him for the last time, she felt the cuirass he wore and exclaimed that such a precaution was unworthy of a man resolved to die.",
+    {
+      "disruption": [
+        "@ An interruption in the usual way that a system, process, or event works.",
+        "It would cause a tremendous disruption to our work schedule to install a different computer system."
+      ]
+    }
   ],
   "traumatic": ["It was very traumatic for Donnie and he hasn't spoke since."],
   "decent": ["I'm going to get an education and a decent job."],
@@ -1257,7 +1301,7 @@
   ],
   "emulsion": [
     "@ A mixture that results when one liquid is added to another and is mixed with it but does not dissolve into it.",
-    "Mixing oil and vinegar todether produces an emulsion.",
+    "Mixing oil and vinegar together produces an emulsion.",
     "By making the emulsion, oil viscosity is substantially reduced.",
     {
       "emulsifier": [
@@ -1289,10 +1333,13 @@
       ]
     }
   ],
-  "intention": [""],
-  "implication": [""],
-  "gravel": [""],
-  "disruption": [""],
+  "intention": [
+    "@ Something that you want and plan to do; an aim.",
+    "It wasn't my intention to exclude her from the list - I just forgot her.",
+    "He had good intentions (= He meant to be kind), but unfortunately things just didn't work out.",
+    "Where did it come from, and what are its intentions?",
+    "Everyone thinks that this was done with intention, but it wasn't."
+  ],
   "distruction": [""],
   "dam": [""],
   "misogynistic": [""],
@@ -1497,5 +1544,18 @@
   "Administration": [""],
   "equity": [""],
   "duplicate": [""],
-  "pepper": [""]
+  "pepper": [""],
+  "iterable": [""],
+  "intuitive": [""],
+  "invitation ": [""],
+  "occasion": [""],
+  "be tried": [""],
+  "split": [""],
+  "congress": [""],
+  "regulation": [""],
+  "profit": [""],
+  "intriguing": [""],
+  "restless": [""],
+  "reject": [""],
+  "tremendous": [""]
 }

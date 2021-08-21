@@ -94,6 +94,7 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "you're", "you", "are")
         splitQruotationMark(wordsList, "they're", "they", "are")
         splitQruotationMark(wordsList, "we're", "we", "are")
+        splitQruotationMark(wordsList, "i'd", "i", "had")
         splitQruotationMark(wordsList, "he'd", "he", "had")
         splitQruotationMark(wordsList, "she'd", "she", "had")
         splitQruotationMark(wordsList, "they'd", "they", "had")
@@ -113,4 +114,7 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "nd", "second", "'")
         splitQruotationMark(wordsList, "rd", "third", "'")
         splitQruotationMark(wordsList, "dr", "doctor", "'")
+        splitQruotationMark(wordsList, "esp", "especially", "'")
+        splitQruotationMark(wordsList, "sth", "something", "'")
+        splitQruotationMark(wordsList, "sb", "somebody", "'")
 

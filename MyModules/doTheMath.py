@@ -10,7 +10,7 @@ import MyModules.art as Art
 def percent(element, object, degree):
     percentage = ((element) * 100) / object
     percentage = float(int(percentage * degree)) / degree
-    return " ( " + str(percentage) + "% )"
+    return "".join([" ( ", str(percentage), "% )"])
 
 
 def takeDecimal(x, y, degree):
@@ -63,15 +63,8 @@ def createRankinglistArray(RankRange):
 
 
 def checkNumber(string):
-    allNumbers = []
-    for num in range(10):
-        allNumbers.append(str(num))
-    result = 0
-    if string != "all":
-        for char in string:
-            if char not in allNumbers:
-                result += 1
-    if result == 0:
-        return True
-    elif result > 0:
-        return False
+    allNumbers = ' '.join("1234567890").split()
+    for char in string:
+        if char not in allNumbers:
+            return False
+    return True
