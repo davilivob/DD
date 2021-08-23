@@ -207,7 +207,7 @@ namespace Typing_App
             foreach (char element in word) uncompleted += element.ToString();
             Chars += uncompleted.Length;
             checkResultByChar(uncompleted, Convert.ToString(recordRandom[State % 10]).Substring(0, uncompleted.Length));
-
+            uploadtojson();
             Console.WriteLine();
             Console.WriteLine("-------------------------------------------" +
                 "------------------------------------------------------------------");
@@ -215,7 +215,6 @@ namespace Typing_App
             Console.WriteLine(".");
             Console.WriteLine(".");
             ShowResult();
-            uploadtojson();
             Console.Write("\nThe Datas have been uploaded.");
             timer.Close();
             Console.WriteLine();
@@ -309,7 +308,7 @@ namespace Typing_App
                 preWorker();
                 Test newTest = new Test(TestTime, wordsArray);
                 newTest.createLine();
-                while(newTest.testEnd == false)
+                while (newTest.testEnd == false)
                 {
                     newTest.input();
                 }

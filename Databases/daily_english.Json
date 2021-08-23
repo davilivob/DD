@@ -98,7 +98,7 @@
     "His words were comforting, even if they didn't resolve her concerns.",
     {
       "solve": [
-        "& Solve is more like answering a quistion, like in homework or math problem. Resolve is like fixing an argument."
+        "& Solve is more like answering a question, like in homework or math problem. Resolve is like fixing an argument."
       ]
     }
   ],
@@ -174,7 +174,7 @@
       "imply": [
         "I'm not implying anything about your cooking, but could we eat out tonight?",
         "@ To involve something or make it necessary.",
-        "The report, which is viewed as a bellwither for economic trends, implied that the national economy couldbe slowing down.",
+        "The report, which is viewed as a bellwither for economic trends, implied that the national economy could be slowing down.",
         "Her statement implies a lack of confidence in the management of the company.",
         "A connection between the events has been implied in several new reports.",
         {
@@ -293,6 +293,20 @@
       ]
     }
   ],
+  "clinic": [
+    "@ A building or part of a hospital where people go for medical care or advice.",
+    "prenatal clinics provide care for pregnant women.",
+    {
+      "injection": [""]
+    }
+  ],
+  "symptom": [
+    "",
+    {
+      "albino": [""],
+      "chickenpox": [""]
+    }
+  ],
   "microorganisms": [
     "@ Technically a microorganism or microbe is an organism that is microscopic. The study of microorganisms is called microbiology. Microorganisms can be bacteria, fungi, archaea or protists. The term microorganisms does not include viruses and prion, which are generally classified as non-living.",
     {
@@ -313,19 +327,6 @@
         "He found the germ of an idea in an old newspaper.",
         "Alefandro's suggestion was the germ of the whole idea."
       ]
-    }
-  ],
-  "clinic": [
-    "@ A building or part of a hospital where people go for medical care or advice.",
-    "prenatal clinics provide care for pregnant women.",
-    {
-      "injection": [""]
-    }
-  ],
-  "symptom": [
-    "",
-    {
-      "albino": [""]
     }
   ],
   "litter": [
@@ -540,7 +541,7 @@
         "~ You got mud on your face, you big disgrace!"
       ],
       "frost": [
-        "@ The thin, white layer of ice that forms when the air temperature is below the freezing point of water, especially ouside at night.",
+        "@ The thin, white layer of ice that forms when the air temperature is below the freezing point of water, especially outside at night.",
         "In a normal winter, the frost penetrates deeply enough to kill off insect eggs in the soil."
       ],
       "gravel": [
@@ -552,7 +553,7 @@
   ],
   "periodic": [
     "He suffers periodic mental breakdowns.",
-    "Depending on the parameters selected, and the initial conditions, the simulated temporal trajectories may exhibit either regular (periodic and quasi-periodic) or chaotic behaviour.",
+    "Depending on the parameters selected, and the initial conditions, the simulated temporal trajectories may exhibit either regular (periodic and quasi-periodic) or chaotic behavior.",
     {
       "the Periodic Table": [
         "@ A list of the symbols of all the chemical elements arranged in rows and columns down a page."
@@ -646,7 +647,8 @@
         "I only asked for a summary of the main points but she was making a real meal out of it.",
         "In summary, they decided against the proposal.",
         "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocabulary."
-      ]
+      ],
+      "blurb": [""]
     }
   ],
   "adhere": [
@@ -672,6 +674,23 @@
         "& Transitive verbs that are able to take both a direct object and an indirect one are called ditransitive.",
         "@ English has a number of generally ditransitive verbs, such as give, grant, and tell and many transitive verbs that can take an additional argument, such as pass, read, bake, etc.",
         "@ He gave Mary ten dollars > He gave ten dollars to Mary. ' Give ' is a ditransitive verb in this case."
+      ]
+    }
+  ],
+  "inductive": [
+    "@ Using a particular set of facts or ideas to form a general principle.",
+    "Not only this, but it allows for greater reading comprehension and inductive reasoning through these means.",
+    "& That animal has black and white stripes and it's a zebra. Therefore, all zebras have black and white stripes.",
+    {
+      "deductive": [
+        "@ Reaching an answer a decision by thinking carefully about the known facts.",
+        "There is nothing that teaches deductive reasoning and logic better than math word problems.",
+        "& All zebras have black and white stripes and that animal is a zebra. Therefore, That animal has black and white stripes."
+      ],
+      "inference": [
+        "@ A guess that you make or an opinion that you form based on the information that you have.",
+        "His change of mind was recent and sudden, the inference being that someone had persuaded him.",
+        "We can't allow anybody to draw adverse inferences about historical figures and denigrate them."
       ]
     }
   ],
@@ -828,7 +847,7 @@
     }
   ],
   "ecosystem": [
-    "Pollution can have disastrous effects on the delicately balaced ecosystem.",
+    "Pollution can have disastrous effects on the delicately balanced ecosystem.",
     {
       "biocapacity": [
         "With our overall footprint now exceeding global biocapacity by about 30% reducing our carbon footprint is essential.",
@@ -895,7 +914,7 @@
     {
       "demean": [
         "@ To cause someone to become less respected.",
-        "The entire family was demeaned by his behaviour.",
+        "The entire family was demeaned by his behavior.",
         "I couldn't demean myself by asking my father for money.",
         "To be sure, artistic practice itself was not seen to be demeaning or unbecoming of a virtuoso."
       ]
@@ -960,12 +979,56 @@
     }
   ],
   "abyss": [
+    "@ A very deep hole that seems to have no bottom.",
     "I may enjoy dancing on the edge of the abyss, but I will never ever topple in, understand?",
+    "@ A difficult situation that brings trouble or destruction.",
+    "The country is sinking/ plunging into an abyss of violence and lawlessness.",
     {
-      "cavity": ["The gold was hidden in a secret cavity."],
-      "cliff": [""],
-      "pit": [""],
-      "trench": [""]
+      "cavity": [
+        "@ A hole, or an empty space between two surfaces.",
+        "The gold was hidden in a secret cavity.",
+        "@ A cavity is also a hollow place in a tooth caused by decay."
+      ],
+      "cliff": [
+        "@ A high area of rock with a very steep side, often on a coast.",
+        "Keep away from the edge of the cliff - you might fall."
+      ],
+      "pit": [
+        "@ A large hole in the ground, or a slightly low area in any surface.",
+        "They'd dug a shallow pit and left the bodies in it.",
+        "These pits in my skin are from when I had chickenpox.",
+        "@ A coal mine or an area of land from which a natural substance is taken by digging.",
+        "The coal-mining industry wants new pits to be opened.",
+        "@ A very messy or dirty place.",
+        "I'm afraid my room is a complete pit!",
+        "@ A large, hard seed inside some types of fruit.",
+        "Peaches, plums, cherries, avocados, and olives all contain pits.",
+        {
+          "the pit": [
+            "@ In a theater, the seats at the lowest level, or the orchestra pit."
+          ],
+          "the pits": [
+            "@ Something that is of extremely low quality.",
+            "The hotel we stayed in was the pits!",
+            "@ ( in auto racing ) the area next to the track where the cars are given fuel or repaired during a race."
+          ],
+          "The pit of your stomach": [
+            "@ The center of your body, where you feel esp. fear and anxiety",
+            "I got a sick feeling in the pit of my stomach before the performance."
+          ]
+        }
+      ],
+      "trench": [
+        "@ A narrow hole that is dug into the ground.",
+        "A workman was killed when the sides of the trench he was working in collapsed.",
+        "The trenches of the First World War.",
+        {
+          "foxhole": [
+            "@ A small hole dug in the ground during a war or military attack, used by a small group of soldiers as a base for shooting at the enemy and as a shelter from attack.",
+            "His ' darkroom ' was a foxhole at night, using film developer and fixer mixed with rain water and poured into two helmets."
+          ]
+        }
+      ]
     }
   ],
   "liquefy": [
@@ -1145,6 +1208,116 @@
       ]
     }
   ],
+  "chauvinistic": [
+    "@ Believing or showing an unreasonable belief that your own country or race is the best or most important.",
+    "The crowd was enthusiastically singing chauvinistic patriotic songs.",
+    "@ Believing that or behaving as if women are naturally less important, intelligent, or able than men.",
+    "That is an unforgiving male chauvinistic attitude!",
+    {
+      "chauvinist": [""],
+      "misogynistic": [
+        "@ Showing feelings of hating women or a belief that men are better than women.",
+        "I'm amazed by some of the misogynistic attitudes in this country.",
+        "It seems perplexing that great numbers of women are tweeting misogynistic insults that are derogatory to their own gender."
+      ],
+      "xenophobic": [""]
+    }
+  ],
+  "precaution": [
+    "In embracing him for the last time, she felt the cuirass he wore and exclaimed that such a precaution was unworthy of a man resolved to die.",
+    {
+      "disruption": [
+        "@ An interruption in the usual way that a system, process, or event works.",
+        "It would cause a tremendous disruption to our work schedule to install a different computer system."
+      ]
+    }
+  ],
+  "baverage": [
+    "",
+    {
+      "mescal": [
+        "& Tequilla is a type of mescal, but a mescal cannot be a tequila."
+      ],
+      "carbonated": ["It's basically carbonated white grape juice."]
+    }
+  ],
+  "emulsion": [
+    "@ A mixture that results when one liquid is added to another and is mixed with it but does not dissolve into it.",
+    "Mixing oil and vinegar together produces an emulsion.",
+    "By making the emulsion, oil viscosity is substantially reduced.",
+    {
+      "emulsifier": [
+        "@ A substance that forms or keeps an emulsion and is often added to processed foods to prevent particular parts from separating.",
+        "Sodium citrate may sound unfamiliar and possibly suspect, but it's basically just a form of salt that works as an emulsifier.",
+        "You need an emulsifier, something that helps oils mix with other ingredients."
+      ]
+    }
+  ],
+  "pomegranate": [
+    "@ A round, thick-skinned fruit containing a mass of red seeds and a lot of juice.",
+    "For a bit of color, you can add pomegranate seeds or dried cranberries to the salad.",
+    "You may know that antioxidants from foods like blueberries, green tea, turmeric and pomegranate can help prevent this damage.",
+    {
+      "cranberry": [""]
+    }
+  ],
+  "abbreviation": [
+    "& An abbreviation is a shortened form that represents the whole word",
+    "& For instance, EX and Dr. is the abbreviation for Example and Doctor.",
+    "But others among us have less familiarity with some of the terms and abbreviations that pepper the site.",
+    {
+      "acronym": [
+        "& An acronym uses initial letters from a phrase that forms one word.",
+        "@ A word created from the first letters of each word in a series of words.",
+        "NASA is an acronym for National Aeronautics and Space Administration.",
+        "PIPE is an acronym for private-investment, public-equity",
+        "To some, that acronym has become a dirty word."
+      ]
+    }
+  ],
+  "dam": [
+    "@ A wall built across a river that stops the river's flow and collects the water, esp. to make a reservoir (= an artificial lake) that provides water for an area.",
+    "The Aswan High Dam is on the River Nile in Egypt.",
+    "& The female parent of an animal, esp. a horse.",
+    "The horse has American bloodlines on his dam's side.",
+    "Fish are affected when a river is dammed up.",
+    {
+      "sire": [
+        "& A male parent of an animal, esp. a horse.",
+        "Ask about the health and temperament of the sire and dam, the parents of the dog.",
+        "@ To become the male parent of an animal or the father of a child.",
+        "The large bay colt was sired by Pleasant Colony."
+      ],
+      "foal": [""],
+      "colt": [""]
+    }
+  ],
+  "pattern": [
+    "@ A particular way in which something is done, is organized, or happens.",
+    "The pattern of family life has been changing over recent years.",
+    "Many behavior patterns have been identified in the chimp colony.",
+    "The decision follows a pattern that has become increasingly common in the food industry.",
+    "@ Any regularly repeated arrangement, esp. a design made from repeated lines, shapes, or colors on a surface.",
+    "Look, the frost has made a beautiful pattern on the window.",
+    "@ Something that is used as an example, esp. to copy.",
+    "The design is so good it's sure to set the pattern for many others.",
+    "@ A small piece of cloth or paper taken from a usual-sized piece and used to show what it looks like.",
+    "A pattern book.",
+    "@ Used in compounds to refer to the way in which a particular type of hair loss occurs, affecting mainly the top and front of the head.",
+    "50% of men over age 50 experience some kind of male pattern baldness.",
+    "Female-pattern hair loss, which is caused by genetic and hormonal factors, is the most common type of hair loss in women.",
+    {
+      "patterned": [
+        "A rose and black patterned skirt.",
+        "@ To be copied from something or to be very similar to something.",
+        "The facility will employ 150 people and be patterned after the steel fastener facility in Saint Joe, Indiana."
+      ],
+      "a holding pattern": [
+        "@ A situation where there is little activity or change, and people are not doing business, spending money, etc. because they can't decide waht to do next.",
+        "Several deals went into an immediate holding pattern after the crisis."
+      ]
+    }
+  ],
   "dignified": [
     "The architectural style is dignified and pleasing in design and proportions."
   ],
@@ -1159,7 +1332,6 @@
   "branch": [
     "@ A part of a plant stem or a part of something which is larger and more complex."
   ],
-  "chauvinistic": ["That is an unforgiving male chauvinistic attitude!"],
   "morph": [
     "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph."
   ],
@@ -1184,15 +1356,6 @@
   ],
   "torn": ["Your dress is torn and you're bleeding."],
   "wandering": ["I didn't noticed how far I was wandering this evening."],
-  "precaution": [
-    "In embracing him for the last time, she felt the cuirass he wore and exclaimed that such a precaution was unworthy of a man resolved to die.",
-    {
-      "disruption": [
-        "@ An interruption in the usual way that a system, process, or event works.",
-        "It would cause a tremendous disruption to our work schedule to install a different computer system."
-      ]
-    }
-  ],
   "traumatic": ["It was very traumatic for Donnie and he hasn't spoke since."],
   "decent": ["I'm going to get an education and a decent job."],
   "subconscious": [
@@ -1211,10 +1374,15 @@
   "distinguish": [
     "He's color-blind and can't distinguish between red and green easily."
   ],
-  "advocate": ["He advocates the return of capital pubishment."],
+  "advocate": ["He advocates the return of capital punishment."],
   "trimmed": ["She was wearing a black suit trimmed with white."],
-  "at someone's disposal": [
-    "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
+  "disposal": [
+    "",
+    {
+      "at someone's disposal": [
+        "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
+      ]
+    }
   ],
   "benevolent": ["He was a benevolent old man and wouldn't hurt a fly."],
   "ensue": [
@@ -1266,15 +1434,6 @@
     "The inquiry found no verifiable evidence of document of data falsification.",
     "The treaty aims to make developing countries' emissions cuts verifiable."
   ],
-  "baverage": [
-    "",
-    {
-      "mescal": [
-        "& Tequilla is a type of mescal, but a mescal cannot be a tequila."
-      ],
-      "carbonated": ["It's basically carbonated white grape juice."]
-    }
-  ],
   "fellowship": [
     "He enjoyed the fellowship of other actors in the company.",
     "I like the game, and I enjoy the fellowship of the guys on the team.",
@@ -1299,40 +1458,6 @@
     "\"No date has yet been set for a strike\", the union said in a statements to the press this morning.",
     "The political activity of each affiliated union is highly regulated by statute."
   ],
-  "emulsion": [
-    "@ A mixture that results when one liquid is added to another and is mixed with it but does not dissolve into it.",
-    "Mixing oil and vinegar together produces an emulsion.",
-    "By making the emulsion, oil viscosity is substantially reduced.",
-    {
-      "emulsifier": [
-        "@ A substance that forms or keeps an emulsion and is often added to processed foods to prevent particular parts from separating.",
-        "Sodium citrate may sound unfamiliar and possibly suspect, but it's basically just a form of salt that works as an emulsifier.",
-        "You need an emulsifier, something that helps oils mix with other ingredients."
-      ]
-    }
-  ],
-  "pomegranate": [
-    "@ A round, thick-skinned fruit containing a mass of red seeds and a lot of juice.",
-    "For a bit of color, you can add pomegranate seeds or dried cranberries to the salad.",
-    "You may know that antioxidants from foods like blueberries, green tea, turmeric and pomegranate can help prevent this damage.",
-    {
-      "cranberry": [""]
-    }
-  ],
-  "abbreviation": [
-    "& An abbreviation is a shortened form that represents the whole word",
-    "& For instance, EX and Dr. is the abbreviation for Example and Doctor.",
-    "But others among us have less familiarity with some of the terms and abbreviations that pepper the site.",
-    {
-      "acronym": [
-        "& An acronym uses initial letters from a phrase that forms one word.",
-        "@ A word created from the first letters of each word in a series of words.",
-        "NASA is an acronym for National Aeronautics and Space Administration.",
-        "PIPE is an acronym for private-investment, public-equity",
-        "To some, that acronym has become a dirty word."
-      ]
-    }
-  ],
   "intention": [
     "@ Something that you want and plan to do; an aim.",
     "It wasn't my intention to exclude her from the list - I just forgot her.",
@@ -1340,14 +1465,23 @@
     "Where did it come from, and what are its intentions?",
     "Everyone thinks that this was done with intention, but it wasn't."
   ],
-  "distruction": [""],
-  "dam": [""],
-  "misogynistic": [""],
-  "predecessor": [""],
-  "inductive": [""],
-  "inference": [""],
-  "pattern": [""],
-  "gratuitous": [""],
+  "destruction": [
+    "@ The act of destroying something, or the fact of being destroyed.",
+    "Many people are very concerned about the destruction of the rainforests.",
+    "Unusually high winds left a trail of destrucion over the area."
+  ],
+  "predecessor": [
+    "@ Someone who had a job or a position before someone else , or something that comes before another thing in time or in a series.",
+    "My predecessor worked in this job for rwelve years.",
+    "@ A machine, system, law etc. that has been replaced by a new one.",
+    "The latest Ferrari is not only faster than its predecessors but also more comfortable,",
+    "The new model retains all the advantages of its predecessor but offers five times the speed."
+  ],
+  "gratuitous": [
+    "@ ( of something such as bad behavior ) not necessary, or with no cause.",
+    "A lot of viewers complained that there was too much gratuitous sex and violence in the movie.",
+    "There were too many gratuitous personal insults throughout the debate."
+  ],
   "hectare": [
     "",
     {
@@ -1557,5 +1691,39 @@
   "intriguing": [""],
   "restless": [""],
   "reject": [""],
-  "tremendous": [""]
+  "tremendous": [""],
+  "trail": [""],
+  "widespread": [""],
+  "utopian": [
+    "",
+    {
+      "dystopian": [""]
+    }
+  ],
+  "bloodline": [""],
+  "temperament": [""],
+  "perplex": [""],
+  "derogatory": [""],
+  "enthusiastically": [""],
+  "patriotic": [""],
+  "retain": [""],
+  "comprehension ": [""],
+  "casualty": [""],
+  "denigrate": [""],
+  "adverse": [""],
+  "chimp": [""],
+  "hormonal": [""],
+  "sluggish": [""],
+  "consume": [""],
+  "facility": [""],
+  "plung": [""],
+  "generous": [""],
+  "orchestra": [""],
+  "helmet": [""],
+  "film developer": [
+    "",
+    {
+      "fixer": [""]
+    }
+  ]
 }

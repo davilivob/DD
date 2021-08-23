@@ -15,7 +15,6 @@ else:
 
 import MyModules.TimerLoadBar as TimeBar
 
-time_start = TimeBar.Counter.start
 print()
 
 from MyModules import (
