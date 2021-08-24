@@ -651,6 +651,25 @@
       "blurb": [""]
     }
   ],
+  "committee": [
+    "@ A small group of people chosen to represent a larger organization and either make decisions or collect information for it.",
+    "The local council has just set up a committee to study recycling.",
+    "The Finance Director usually chairs this committee.",
+    "She has served on the committee for many years.",
+    "The selection committee recommended that both condidates be appointed.",
+    {
+      "panel": [
+        "@ A small group of people chosen to give advice, make a decision, or publicly discuss their opinions as entertainment.",
+        "The competition will be judged by a panel of experts.",
+        "@ A flat, usually rectangular part, or piece of wood, metal, cloth, etc., that fits into or onto something larger.",
+        "White silk panels were inset into the sides of the dress.",
+        "A beautiful old door with oak panels.",
+        "The hall has been tastefully paneled in cherrywood.",
+        "@ A surface with devices that a person uses to control or get information about the operation of one or more machines.",
+        "The car's instrument panel has buttons that give off a little blue-green light at night."
+      ]
+    }
+  ],
   "adhere": [
     "All drivers must adhere to speed limits.",
     "A smooth, dry surface helps the tiles adhere to the wall.",
@@ -1568,31 +1587,11 @@
     "The inquiry found no verifiable evidence of document of data falsification.",
     "The treaty aims to make developing countries' emissions cuts verifiable."
   ],
-  "committee": [
-    "@ A small group of people chosen to represent a larger organization and either make decisions or collect information for it.",
-    "The local council has just set up a committee to study recycling.",
-    "The Finance Director usually chairs this committee.",
-    "She has served on the committee for many years.",
-    "The selection committee recommended that both condidates be appointed.",
-    {
-      "panel": [
-        "@ A small group of people chosen to give advice, make a decision, or publicly discuss their opinions as entertainment.",
-        "The competition will be judged by a panel of experts.",
-        "@ A flat, usually rectangular part, or piece of wood, metal, cloth, etc., that fits into or onto something larger.",
-        "White silk panels were inset into the sides of the dress.",
-        "A beautiful old door with oak panels.",
-        "The hall has been tastefully paneled in cherrywood.",
-        "@ A surface with devices that a person uses to control or get information about the operation of one or more machines.",
-        "The car's instrument panel has buttons that give off a little blue-green light at night."
-      ]
-    }
-  ],
   "recipient": [
     "@ A person or organization that receives something, such as money, a prize, etc.",
     "Former Nobel Peace Prize recipients include Jimmy Carter and Barack Obama.",
     "They're the country's biggest recipient of government funds."
   ],
-  "deem": [""],
   "silken": [
     "~ I was born into the world on a silken cloud. And I got bored of the world before I hit the ground.",
     {
@@ -1604,6 +1603,7 @@
     "The whole report is badly written. Moreover, it's inaccurate.",
     "It was a good car and, moreover, the price was quite reasonable."
   ],
+  "deem": [""],
   "promotion": [""],
   "brandy": [""],
   "refinement": [""],
