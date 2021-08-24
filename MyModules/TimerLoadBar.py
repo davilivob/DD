@@ -25,7 +25,6 @@ def timeNow():
 
 
 if doTheTimeBar == True:
-
     def Adding():
         if int(timeNow() * 1000) % 100 == 0 and timeNow() <= Counter.prevTime:
             loadRatio = timeNow() / Counter.prevTime

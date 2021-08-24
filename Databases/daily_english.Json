@@ -978,6 +978,27 @@
       ]
     }
   ],
+  "manner": [
+    "@ The way in which something is done.",
+    "He was elected in the normal manner.",
+    "It was the manner of her death that stuck in the public's mind.",
+    "@ The usual way in which you behave toward other people, or the way you behave on a particular occasion.",
+    "She has a somewhat cold, unfriendly manner.",
+    "As soon as he realized that we weren't going to buy anything, his whole manner changed.",
+    "@ A type",
+    "Very little is known about the new condidate - what manner of man is he?",
+    {
+      "in the manner of sth": [
+        "@ In the style of something.",
+        "Her latest movie is a suspense thriller very much in the manner of Hitchcock."
+      ],
+      "manners": [
+        "@ Polite ways of treating other people and behaving in public.",
+        "It's bad manners to eat with your mouth open.",
+        "It's considered good manners in some societies to leave a little food on you plate."
+      ]
+    }
+  ],
   "abyss": [
     "@ A very deep hole that seems to have no bottom.",
     "I may enjoy dancing on the edge of the abyss, but I will never ever topple in, understand?",
@@ -1205,7 +1226,8 @@
         "I didn't derive much benefit from school.",
         "He derives an enormous amount of satisfaction from restoring old houses.",
         "Much of it is derived from family interactions he has overheard through the years."
-      ]
+      ],
+      "receive": [""]
     }
   ],
   "chauvinistic": [
@@ -1318,6 +1340,64 @@
       ]
     }
   ],
+  "disposal": [
+    "",
+    {
+      "at someone's disposal": [
+        "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
+      ]
+    }
+  ],
+  "swift": [
+    "@ Happening or moving quickly or within a short time, esp. in a smooth and easy way.",
+    "Thank you for your swift reply.",
+    "A swift current carried him downstream.",
+    "Public reaction has been swift and negative.",
+    "Her swift ascent to global fame was unprecedented for any architect.",
+    "@ A small bird with curved, pointed wings that can fly very fast.",
+    {
+      "swiftly": [
+        "The sky was swiftly becoming dark.",
+        "Walking swiftly, he was at the office within minutes."
+      ]
+    }
+  ],
+  "hectare": [
+    "@ A unit used for measuring land. One hectare is the sames as 10,000 square meters.",
+    "Farmers plan to earn an extra £30 per hectare by joining a basic environmental scheme.",
+    "Over the last decade, fires have claimed nearly one million hectares of forest land in Portugal.",
+    {
+      "acres": [
+        "@ A unit for measuring area, equal to 4,047 square meters or 4,840 square yards.",
+        "The mansion is set in 90 acres of beautiful, unspoilt countryside.",
+        "The Forestry Commission is responsible for preserving over 2 million acres of forest."
+      ],
+      "acreage": [
+        "@ The size of an area of land in acres, or an area of land that can be measured in acres.",
+        "One third of the acreage is parkland.",
+        "These chemicals pose a risk to non-target organisms, especially when applied to vast acreages."
+      ],
+      "metre": [
+        "& ' meter ' is the US spelling and ' metre ' is the British spelling."
+      ]
+    }
+  ],
+  "inflation": [
+    "& An increase in prices over time, causing a reduction in the value of money.",
+    "Higher inflation threatens to force interest rates higher.",
+    "He's planning to increase public spending by 3.3% above inflation for the next three years.",
+    {
+      "deflation": [
+        "@ The action of making something smaller by removing the air from inside it; the fact of becoming smaller in this way.",
+        "The rate of deflation of the balloon depends on the kind of material from which it's made.",
+        "@ The situation in which something becomes weaker, or something or someone becomes less confident than before.",
+        "A feeling of deflation after the party."
+      ],
+      "disinflation": [""],
+      "reflation": [""],
+      "inflationary": [""]
+    }
+  ],
   "dignified": [
     "The architectural style is dignified and pleasing in design and proportions."
   ],
@@ -1353,86 +1433,6 @@
   ],
   "bench": [
     "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
-  ],
-  "torn": ["Your dress is torn and you're bleeding."],
-  "wandering": ["I didn't noticed how far I was wandering this evening."],
-  "traumatic": ["It was very traumatic for Donnie and he hasn't spoke since."],
-  "decent": ["I'm going to get an education and a decent job."],
-  "subconscious": [
-    "& There are conscious thoughts that you're aware of and subconscious ones that you're not."
-  ],
-  "gaze": [
-    "Her wandering gaze came up to his face and warmth shot painfully up her neck"
-  ],
-  "passionate": [
-    "She was passionate about Asian cooking and that has reflected in her dining experience."
-  ],
-  "interchangeably": [
-    "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
-  ],
-  "severity": ["@ The fact or condition of being severe."],
-  "distinguish": [
-    "He's color-blind and can't distinguish between red and green easily."
-  ],
-  "advocate": ["He advocates the return of capital punishment."],
-  "trimmed": ["She was wearing a black suit trimmed with white."],
-  "disposal": [
-    "",
-    {
-      "at someone's disposal": [
-        "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
-      ]
-    }
-  ],
-  "benevolent": ["He was a benevolent old man and wouldn't hurt a fly."],
-  "ensue": [
-    "Chaos ensued when 60 charter schools run by one company were all suddenly closed."
-  ],
-  "charter": [
-    "Education is one of the basic human rights written into the United Nations Charter."
-  ],
-  "equanimity": [
-    "In spite of her financial troubles, she faced the future with equanimity."
-  ],
-  "counselor": [
-    "The college now has a counselor to help students with both personal and work problems."
-  ],
-  "swift": ["Thank you for your swift reply."],
-  "passer-by": ["We amused ourselves by watching the passers-by."],
-  "proceedings": ["Millions of people watched the proceedings on television."],
-  "craft": ["That's a beautifully crafted silver brooch."],
-  "ceasefire": [
-    "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts."
-  ],
-  "alchemy": [
-    "@ A type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
-  ],
-  "renewed": [
-    "She jumped on the story with renewed vigor.",
-    "The latest outbreak has led to renewed concern about the spread of the disease."
-  ],
-  "topple": [
-    "If your child happens to topple out of the bed, the fall isn't very far or very traumatic.",
-    "This was a secret bid to topple the chairman and take his job.",
-    "The church was prominently involved in the struggle that toppled the dictatorship."
-  ],
-  "trajectory": [
-    "@ The curved path that an object follows after it has been thrown or shot into the air.",
-    "The missile came in on a very low trajectory.",
-    "Each vector influences the momentum and direction of the developmental trajectory."
-  ],
-  "quasi-": [
-    "Do companies need to be quasi-monopolies to survive in this new global economy?",
-    "Mandatory arbitration is a private, quasi-legal system of resolving disputes.",
-    "Laborers sometimes served as quasi-soldiers."
-  ],
-  "oriented": [
-    "She wants to turn the company into a profit-oriented orgnization.",
-    "Countries with more globally oriented economies have higher levels of information technology investment."
-  ],
-  "verifiable": [
-    "The inquiry found no verifiable evidence of document of data falsification.",
-    "The treaty aims to make developing countries' emissions cuts verifiable."
   ],
   "fellowship": [
     "He enjoyed the fellowship of other actors in the company.",
@@ -1475,28 +1475,135 @@
     "My predecessor worked in this job for rwelve years.",
     "@ A machine, system, law etc. that has been replaced by a new one.",
     "The latest Ferrari is not only faster than its predecessors but also more comfortable,",
-    "The new model retains all the advantages of its predecessor but offers five times the speed."
+    "The new model retains all the advantages of its predecessor but offers five times the speed.",
+    {
+      "former": [""]
+    }
   ],
   "gratuitous": [
     "@ ( of something such as bad behavior ) not necessary, or with no cause.",
     "A lot of viewers complained that there was too much gratuitous sex and violence in the movie.",
     "There were too many gratuitous personal insults throughout the debate."
   ],
-  "hectare": [
-    "",
+  "indulgence": [
+    "@ An occasion when you allow someone or yourself to have something enjoyable, especially more than is good for you.",
+    "All the pleasures and indulgences of the weekend are over, and I must get down to some serious hard work.",
+    "His health suffered from over-indulgence in rich food and drink.",
+    "@ An occasion when you allow or do not mind someone's failure of bad behavior.",
+    "My inability to do needlework was treated with surprising indulgence by my teacher."
+  ],
+  "bellwether": [
+    "@ Someone or something that shows how a situation will develop or change.",
+    "The report is viewed as a bellwether for/ of national economic trends.",
+    "investors will be eagerly awaiting the guidance from bellwether stocks."
+  ],
+  "torn": ["Your dress is torn and you're bleeding."],
+  "wandering": ["I didn't noticed how far I was wandering this evening."],
+  "traumatic": ["It was very traumatic for Donnie and he hasn't spoke since."],
+  "decent": ["I'm going to get an education and a decent job."],
+  "subconscious": [
+    "& There are conscious thoughts that you're aware of and subconscious ones that you're not."
+  ],
+  "gaze": [
+    "Her wandering gaze came up to his face and warmth shot painfully up her neck"
+  ],
+  "passionate": [
+    "She was passionate about Asian cooking and that has reflected in her dining experience."
+  ],
+  "interchangeably": [
+    "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
+  ],
+  "severity": ["@ The fact or condition of being severe."],
+  "distinguish": [
+    "He's color-blind and can't distinguish between red and green easily."
+  ],
+  "advocate": ["He advocates the return of capital punishment."],
+  "trimmed": ["She was wearing a black suit trimmed with white."],
+  "benevolent": ["He was a benevolent old man and wouldn't hurt a fly."],
+  "ensue": [
+    "Chaos ensued when 60 charter schools run by one company were all suddenly closed."
+  ],
+  "charter": [
+    "Education is one of the basic human rights written into the United Nations Charter."
+  ],
+  "equanimity": [
+    "In spite of her financial troubles, she faced the future with equanimity."
+  ],
+  "counselor": [
+    "The college now has a counselor to help students with both personal and work problems."
+  ],
+  "passer-by": ["We amused ourselves by watching the passers-by."],
+  "proceedings": ["Millions of people watched the proceedings on television."],
+  "craft": ["That's a beautifully crafted silver brooch."],
+  "ceasefire": [
+    "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts."
+  ],
+  "alchemy": [
+    "@ A type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
+  ],
+  "renewed": [
+    "She jumped on the story with renewed vigor.",
+    "The latest outbreak has led to renewed concern about the spread of the disease."
+  ],
+  "topple": [
+    "If your child happens to topple out of the bed, the fall isn't very far or very traumatic.",
+    "This was a secret bid to topple the chairman and take his job.",
+    "The church was prominently involved in the struggle that toppled the dictatorship."
+  ],
+  "trajectory": [
+    "@ The curved path that an object follows after it has been thrown or shot into the air.",
+    "The missile came in on a very low trajectory.",
+    "Each vector influences the momentum and direction of the developmental trajectory."
+  ],
+  "quasi-": [
+    "Do companies need to be quasi-monopolies to survive in this new global economy?",
+    "Mandatory arbitration is a private, quasi-legal system of resolving disputes.",
+    "Laborers sometimes served as quasi-soldiers."
+  ],
+  "oriented": [
+    "She wants to turn the company into a profit-oriented orgnization.",
+    "Countries with more globally oriented economies have higher levels of information technology investment."
+  ],
+  "verifiable": [
+    "The inquiry found no verifiable evidence of document of data falsification.",
+    "The treaty aims to make developing countries' emissions cuts verifiable."
+  ],
+  "committee": [
+    "@ A small group of people chosen to represent a larger organization and either make decisions or collect information for it.",
+    "The local council has just set up a committee to study recycling.",
+    "The Finance Director usually chairs this committee.",
+    "She has served on the committee for many years.",
+    "The selection committee recommended that both condidates be appointed.",
     {
-      "acres": [""]
+      "panel": [
+        "@ A small group of people chosen to give advice, make a decision, or publicly discuss their opinions as entertainment.",
+        "The competition will be judged by a panel of experts.",
+        "@ A flat, usually rectangular part, or piece of wood, metal, cloth, etc., that fits into or onto something larger.",
+        "White silk panels were inset into the sides of the dress.",
+        "A beautiful old door with oak panels.",
+        "The hall has been tastefully paneled in cherrywood.",
+        "@ A surface with devices that a person uses to control or get information about the operation of one or more machines.",
+        "The car's instrument panel has buttons that give off a little blue-green light at night."
+      ]
     }
   ],
-  "inflation": [""],
-  "indulgence": [""],
-  "bellwether": [""],
-  "committee": [""],
-  "recipient": [""],
-  "panel": [""],
+  "recipient": [
+    "@ A person or organization that receives something, such as money, a prize, etc.",
+    "Former Nobel Peace Prize recipients include Jimmy Carter and Barack Obama.",
+    "They're the country's biggest recipient of government funds."
+  ],
   "deem": [""],
-  "moreover": [""],
-  "manner": [""],
+  "silken": [
+    "~ I was born into the world on a silken cloud. And I got bored of the world before I hit the ground.",
+    {
+      "silk": [""]
+    }
+  ],
+  "moreover": [
+    "@ Used to add information, also and more importantly.",
+    "The whole report is badly written. Moreover, it's inaccurate.",
+    "It was a good car and, moreover, the price was quite reasonable."
+  ],
   "promotion": [""],
   "brandy": [""],
   "refinement": [""],
@@ -1725,5 +1832,26 @@
     {
       "fixer": [""]
     }
-  ]
+  ],
+  "citrate": [""],
+  "sodium": [""],
+  "chlorine": [""],
+  "unprecedented": [""],
+  "ascent": [""],
+  "scheme": [""],
+  "mansion": [""],
+  "unspoilt": [""],
+  "forestry": [""],
+  "commission": [""],
+  "parkland": [""],
+  "waterfront": [""],
+  "reduction": [""],
+  "stock": [""],
+  "condidate": [""],
+  "appoint": [""],
+  "receive": [""],
+  "oak": [""],
+  "inset": [""],
+  "instrument": [""],
+  "suspense": [""]
 }
