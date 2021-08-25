@@ -1631,7 +1631,14 @@
   "proceedings": ["Millions of people watched the proceedings on television."],
   "craft": ["That's a beautifully crafted silver brooch."],
   "ceasefire": [
-    "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts."
+    "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts.",
+    {
+      "arbitration": [
+        "@ The process of solving an argument between people by helping them to agree to an acceptable solution.",
+        "Both sides in the dispute have agreed to go to arbitration (= to have the disagreement solved by an arbitrator)."
+      ],
+      "arbitrator": [""]
+    }
   ],
   "alchemy": [
     "@ A type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease.",
@@ -1899,7 +1906,6 @@
     "Athletes must undergo a mandatory drugs test before competing in the championship.",
     "In 1991, the British government made it mandatory to wear rear seat belts in cars."
   ],
-  "arbitration": [""],
   "dispute": [""],
   "laborer": [""],
   "anesthesia": [
