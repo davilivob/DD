@@ -1649,7 +1649,38 @@
   "trajectory": [
     "@ The curved path that an object follows after it has been thrown or shot into the air.",
     "The missile came in on a very low trajectory.",
-    "Each vector influences the momentum and direction of the developmental trajectory."
+    "Each vector influences the momentum and direction of the developmental trajectory.",
+    {
+      "vector": [
+        "@ A representation of something that has both direction and size, usually an arrow whose direction represents direction and length represents size.",
+        "@ An insect or animal that carries a disease from one animal or plant to another.",
+        "Mosquitoes are the vectors of malaria.",
+        {
+          "vector quantity": [
+            "@ A vector quantity is something that can be represented by a vector."
+          ],
+          "scalar": [""]
+        }
+      ],
+      "momentum": [
+        "@ The force that keep an object moving.",
+        "Once you push it, it keeps going under its own momentum.",
+        "The spacecraft will fly around the earth to gain/ gather momentum for its trip to Jupiter.",
+        "@ The quality that keeps an event developing or making progress after it has started.",
+        "In an attempt to give new momentum to their plans, the committee set a date for starting detailed discussions.",
+        {
+          "momentousness": [
+            "@ The quality of being important because of effects on future events.",
+            "I didn't realize the momentousness of the occasion.",
+            "He emphasizes the momentousness of next week's vote."
+          ],
+          "momentous": [
+            "The news of the president's death is momentous",
+            "Whether or not to move overseas was a momentous decision for the family."
+          ]
+        }
+      ]
+    }
   ],
   "quasi-": [
     "Do companies need to be quasi-monopolies to survive in this new global economy?",
@@ -1785,17 +1816,6 @@
     "@ To move around a website or computer screen, or between websites or screens.",
     "Their website is fairly plain, but very easy to navigate."
   ],
-  "momentousness": [
-    "@ The quality of being important because of effects on future events.",
-    "I didn't realize the momentousness of the occasion.",
-    "He emphasizes the momentousness of next week's vote.",
-    {
-      "momentous": [
-        "The news of the president's death is momentous",
-        "Whether or not to move overseas was a momentous decision for the family."
-      ]
-    }
-  ],
   "shatter": [
     "@ to cause something to suddenly break into very small pieces.",
     "The glass shattered into a thousand tiny pieces.",
@@ -1842,10 +1862,29 @@
     "@ Used to provide military forces with an advantage.",
     "There are plans to modernize the U.S. strategic forces."
   ],
-  "operational": [""],
-  "vague": [""],
-  "vector": [""],
-  "momentum": [""],
+  "operational": [
+    "@ Relating to a particular activity.",
+    "There are operational advantages in putting sales and admin in the same building.",
+    "@ If a system is operational, it is working.",
+    "Repairs have already begun and we expect the factory to be fully operational again with six months."
+  ],
+  "vague": [
+    "@ Not clearly expressed, known, described, or decided.",
+    "I do have a vague memory of meeting her many years ago.",
+    "Through the mist I could just make out a vague figure.",
+    "@ A vague person is not able to think clearly, or gives an impression of not thinking clearly in order to hide their real thoughts.",
+    "My aunt is incredibly vague - she can never remember where she puts things.",
+    "Their report is deliberately vague on future economic prospects.",
+    {
+      "vaguely": [
+        "I vaguely remembered having met her before.",
+        "He's around somewhere, she said, geturing vaguely"
+      ],
+      "vagueness": [
+        "Given the vagueness of the directions, I think we did very well to find the place."
+      ]
+    }
+  ],
   "monopoly": [""],
   "mandatory": [""],
   "arbitration": [""],
@@ -1930,7 +1969,13 @@
   "rigid": [""],
   "demand": [""],
   "exert": [""],
-  "administrator": [""],
+  "administrator": [
+    "",
+    {
+      "admin": [""],
+      "administration": [""]
+    }
+  ],
   "overthrown": [""],
   "corrupt": [""],
   "dissent": [""],
@@ -1988,8 +2033,7 @@
   "suspect": [""],
   "antioxidant": [""],
   "turmeric": [""],
-  "Aeronautics": [""],
-  "Administration": [""],
+  "aeronautics": [""],
   "equity": [""],
   "duplicate": [""],
   "pepper": [""],
@@ -2100,5 +2144,14 @@
   "haste": [""],
   "resignation": [""],
   "harsh": [""],
-  "impose": [""]
+  "impose": [""],
+  "lobe": [""],
+  "juvenile": [""],
+  "remark": [""],
+  "therefore": [""],
+  "modernize": [""],
+  "repair": [""],
+  "mist": [""],
+  "deliberately": [""],
+  "gesture": [""]
 }
