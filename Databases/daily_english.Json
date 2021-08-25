@@ -1890,10 +1890,15 @@
     "The government is determined to protect its tobacco monopoly.",
     "The drafting of a new constitution cannot be a monopoly of the white minority regime (= other people should do it too).",
     {
-      "monopolistic":[""]
+      "monopolistic": [""]
     }
   ],
-  "mandatory": [""],
+  "mandatory": [
+    "@ Something that is mandatory must be done, or is demanded by law.",
+    "The Assemblyman is calling for mandatory prison sentences for people who assault police officers.",
+    "Athletes must undergo a mandatory drugs test before competing in the championship.",
+    "In 1991, the British government made it mandatory to wear rear seat belts in cars."
+  ],
   "arbitration": [""],
   "dispute": [""],
   "laborer": [""],
