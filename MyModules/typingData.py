@@ -8,7 +8,7 @@ from MyModules import (
     readFiles as File,
     doTheMath as Math,
     Aj as AJ,
-    ragularData as R,
+    regularData as R,
     advancedData as A,
     TimerLoadBar as TimeBar,
 )

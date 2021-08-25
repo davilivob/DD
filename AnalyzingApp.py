@@ -22,7 +22,7 @@ from MyModules import (
     readFiles as File,
     doTheMath as Math,
     Aj as AJ,
-    ragularData as R,
+    regularData as R,
     AllanBill as AB,
     advancedData as A,
     typingData as TT,

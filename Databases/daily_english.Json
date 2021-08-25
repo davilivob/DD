@@ -34,9 +34,13 @@
     "He used a lot of slang terms that I simply don't understand.",
     {
       "dialect": [
-        "@ The differeces in language depending on region.",
+        "@ The differences in language depending on region.",
         "& Dialect consist of their own slang terms.",
         "@ For instance, in the south, we say words like \"y'all\" which means \"you all\"."
+      ],
+      "collocation": [
+        "@ A word or phrase that is often used with another word or phrase, in a way that sounds correct to people who have spoken the language all their lives, but might not be expected from the meaning.",
+        "In the phrase \"a hard frost\", ' hard ' is a collocation of ' frost ', and ' strong ' would not sound natural."
       ]
     }
   ],
@@ -163,7 +167,7 @@
       "connotation": [
         "The word ' lady ' has connotations of refinement and excessive femininity that some women find offensive.",
         "' Resolute ' means stubborn, but with a more positive connotation.",
-        "The literal meaning of the term prestidigitator is ' nimble-fingered ', but its connotations extend to the idea of illusion, imposture, deception."
+        "These days, trangendered has negative connotations and transgender is widely considered proper, though it remains open to debate, as does its definition."
       ],
       "denote": [
         "The color red used to denote passion or danger.",
@@ -213,11 +217,34 @@
           "advise": [
             "& Advise is usually given by experts while suggest is not.",
             "His doctor advised him against smoking.",
-            "Guests were advised to pay special attention to hand hygiene."
-          ],
-          "advice": [
-            "I think I'll take your advice and get the green dress.",
-            "Morover, a panel is now allowed to seek information and technical advice from any individual or body which it deems appropriate."
+            "Guests were advised to pay special attention to hand hygiene.",
+            {
+              "advice": [
+                "I think I'll take your advice and get the green dress.",
+                "Morover, a panel is now allowed to seek information and technical advice from any individual or body which it deems appropriate."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stubborn": [
+    "@ A stubborn person is determined to do what he or she wants and refuses to do anything else.",
+    "They have huge arguments because they're both so stubborn.",
+    "@ Things that are stubborn are difficult to move, change, or deal with.",
+    "He was famed for his stubborn resistance and his refusal to accept defeat.",
+    "Stubborn stains can be removed using a small amount of detergent.",
+    {
+      "resolute": [
+        "@ Determined in character, action, or ideas.",
+        "& ' Resolute ' means stubborn, but with a more positive connotation.",
+        "She's utterly resolute in her refusal to apologize.",
+        "I admired her resolute optimism in those difficult times.",
+        {
+          "resolutely": [
+            "She resolutely refuses to lower her standards.",
+            "The whole team was resolutely optimistic."
           ]
         }
       ]
@@ -1276,10 +1303,22 @@
   "baverage": [
     "",
     {
+      "carbonated": [
+        "@ A carbonated drink is fizzy because it contains bubbles of carbon dioxide.",
+        "It's basically carbonated white grape juice."
+      ],
+      "fizzy": [""]
+    }
+  ],
+
+  "brandy": [
+    "@ A strong alcoholic drink made from wine and sometimes flavored with fruits.",
+    "After dinner we drank coffee laced with brandy.",
+    "I keep a bottle of brandy purely for medicinal purposes - it's good for shock.",
+    {
       "mescal": [
         "& Tequilla is a type of mescal, but a mescal cannot be a tequila."
-      ],
-      "carbonated": ["It's basically carbonated white grape juice."]
+      ]
     }
   ],
   "emulsion": [
@@ -1299,7 +1338,10 @@
     "For a bit of color, you can add pomegranate seeds or dried cranberries to the salad.",
     "You may know that antioxidants from foods like blueberries, green tea, turmeric and pomegranate can help prevent this damage.",
     {
-      "cranberry": [""]
+      "cranberry": [
+        "@ A small, round, red, fruit with a sour taste.",
+        "Add the cranberries and cook until they start to release their liquid, 8 to 10 minutes."
+      ]
     }
   ],
   "abbreviation": [
@@ -1383,7 +1425,7 @@
   ],
   "hectare": [
     "@ A unit used for measuring land. One hectare is the sames as 10,000 square meters.",
-    "Farmers plan to earn an extra £30 per hectare by joining a basic environmental scheme.",
+    "Farmers plan to earn an extra $30 per hectare by joining a basic environmental scheme.",
     "Over the last decade, fires have claimed nearly one million hectares of forest land in Portugal.",
     {
       "acres": [
@@ -1487,7 +1529,7 @@
   "destruction": [
     "@ The act of destroying something, or the fact of being destroyed.",
     "Many people are very concerned about the destruction of the rainforests.",
-    "Unusually high winds left a trail of destrucion over the area."
+    "Unusually high winds left a trail of destruction over the area."
   ],
   "predecessor": [
     "@ Someone who had a job or a position before someone else , or something that comes before another thing in time or in a series.",
@@ -1519,7 +1561,24 @@
   "torn": ["Your dress is torn and you're bleeding."],
   "wandering": ["I didn't noticed how far I was wandering this evening."],
   "traumatic": ["It was very traumatic for Donnie and he hasn't spoke since."],
-  "decent": ["I'm going to get an education and a decent job."],
+  "decent": [
+    "I'm going to get an education and a decent job.",
+    {
+      "indecent": [
+        "@ Morally ofensive, especially in a sexual way.",
+        "She accused him of making indecent suggestions to her.",
+        "Indecent language is not allowed on the radio between 6 a.m. and 10 p.m.",
+        "@ not suitable or correct for situation.",
+        "The governor left his residence with almost indecent haste following his resignation.",
+        {
+          "indecency": [
+            "The network received the harshest fine ever imposed for indecency on TV."
+          ]
+        }
+      ],
+      "suitable": [""]
+    }
+  ],
   "subconscious": [
     "& There are conscious thoughts that you're aware of and subconscious ones that you're not."
   ],
@@ -1536,10 +1595,27 @@
   "distinguish": [
     "He's color-blind and can't distinguish between red and green easily."
   ],
-  "advocate": ["He advocates the return of capital punishment."],
+  "advocate": [
+    "He advocates the return of capital punishment.",
+    {
+      "promotion": [
+        "@ Activities to advertise something.",
+        "There was a promotion in the supermarket and they were giving away free glasses of wine.",
+        "@ The act of encouraging something to happen or develop."
+      ],
+      "advertise": [""]
+    }
+  ],
   "trimmed": ["She was wearing a black suit trimmed with white."],
-  "benevolent": ["He was a benevolent old man and wouldn't hurt a fly."],
+  "benevolent": [
+    "He was a benevolent old man and wouldn't hurt a fly.",
+    "I grew up happily under the benevolent influence of my Uncle Walt.",
+    {
+      "benevolence": [""]
+    }
+  ],
   "ensue": [
+    "@ To happen after something else, especially as a result of it.",
     "Chaos ensued when 60 charter schools run by one company were all suddenly closed."
   ],
   "charter": [
@@ -1558,7 +1634,8 @@
     "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts."
   ],
   "alchemy": [
-    "@ A type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease."
+    "@ A type of chemistry, especially in the Middle Age, that dealt with trying to find a way to change ordinary metals into gold and with trying to find a medicine that would cure any disease.",
+    "She manages, by some extraordinary alchemy, to turn the most ordinary of ingredients into the most delicious of dishes."
   ],
   "renewed": [
     "She jumped on the story with renewed vigor.",
@@ -1603,30 +1680,129 @@
     "The whole report is badly written. Moreover, it's inaccurate.",
     "It was a good car and, moreover, the price was quite reasonable."
   ],
-  "deem": [""],
-  "promotion": [""],
-  "brandy": [""],
-  "refinement": [""],
-  "excessive": [""],
-  "femininity": [""],
-  "subborn": [""],
-  "resolute": [""],
-  "prestidigitator": [""],
-  "nimble": [""],
-  "illusion": [""],
-  "imposture": [""],
-  "deception": [""],
-  "grain": [
-    "",
+  "deem": [
+    "@ To consider or judge something in a particular way.",
+    "The area has now been deemed safe.",
+    "We will provide help whenever you deem it appropriate.",
+    "Anyone not paying the registration fee by March 31 will be deemed to have withdrawn from the offer."
+  ],
+  "refinement": [
+    "@ The process of making a substance pure.",
+    "The refinement of raw opium yields other drugs, such as morphine.",
+    "@ A small change that improve something.",
+    "These refinements have increased the machine's accuracy by 25 percent."
+  ],
+  "excessive": [
+    "@ Too much",
+    "Excessive exercise can sometimes cause health problems.",
+    "They complained about excessive government intrusion into their legitimate activities."
+  ],
+  "femininity": [
+    "@ The fact or quality of having characteristics that are traditionally thought to be typical of or suitable for a woman.",
+    "Long hair was traditionally regarded as a sign of femininity.",
+    "The flowers and cream lace of the dress indicate femininity and delicacy."
+  ],
+  "nimble": [
+    "@ Quick and exact either in movement or thoughts.",
+    "His numble mind calculated the answer before I could key the numbers into my computer.",
     {
-      "sorghum": [""]
+      "spry": [""]
     }
   ],
-  "navigate": [""],
-  "collocation": [""],
-  "momentousness": [""],
-  "shatter": [""],
-  "indecent": [""],
+  "illusion": [
+    "@ An idea or belief that is not true.",
+    "He had no illusions about his talents as a singer.",
+    "I'm under no illusion (= I understnad the truth ) about the man I married.",
+    "@ Something that is not really what it seems to be.",
+    "A large mirror in a room can create the illusion of space.",
+    "The impression of calm in the office is just an illusion.",
+    {
+      "illusory": [""]
+    }
+  ],
+  "imposture": [
+    "@ The act of pretending to be someone else in order to deceive others.",
+    "This internet imposture caused clear epistemic damage.",
+    {
+      "deception": [
+        "@ The act of hiding the truth, esp. to get an advantage.",
+        "He said that the govenment was guilty of deception by exaggerating the figures.",
+        "It wasn't really magic - just some kinda clever visual deception.",
+        {
+          "deceptive": [
+            "@ Making you believe something that is not true.",
+            "It's deceptive - from the outside the building looks small, but inside it's very big."
+          ],
+          "deceptively": [
+            "The plan seemed deceptively simple (= it seemed simple but was not).",
+            "The tool is noisy to use and deceptively dangerous (= it's more dangerous than it seems)."
+          ],
+          "deceive": [
+            "@ To persuade someone that something false is the truth, or to keep truth hidden from someone for your own advantage.",
+            "The company deceived customers by selling old computers as new ones.",
+            "The sound of the door closing deceived me into thinking they had gone out.",
+            "She thinks he'll come back, but she's deceiving herself."
+          ],
+          "misleading": [""]
+        }
+      ]
+    }
+  ],
+  "grain": [
+    "@ A seed or seeds from a plant, especially a plant like a grass such as rice or wheat.",
+    "Grain is one of the main exports of the American Midwest.",
+    "@ A very small piece of a hard substance, or a small amount of something.",
+    "Grains of sand.",
+    "There wasn't grain of truth in anything she said.",
+    "Anyone with a grain of common sense would have known what to do.",
+    "@ The pattern of extremely small spots of black and white or color, that form a photographic or film image, or one of these small spots.",
+    "@ The natual pattern of lines in the surface of a material, such as wood or rock, or the direction in which the fibers that form these substances lie.",
+    "Polishing the wood brings out its grain.",
+    {
+      "film grain": [
+        "@ The random physical texture made from small metallic selverpaticles found on processed photographic celluloid.",
+        "@ Also known as granularity, this can vary in size, not just due to its random nature, but by the size of the image shrinking or increasing ' grains '.",
+        {
+          "film noise": [
+            "@ Film noise is another term that gets used when talking abuot analog film grain.",
+            "& However, film noise more accurately defines what you might see at the beginning or end of an actual film reel.",
+            "@ This is the quick, sputtering, noticeable specks and hairs that often indicate the reel has ended or is beginning."
+          ]
+        }
+      ],
+      "sorghum": ["@ A type of grain grown in hot countries."],
+      "wheat": [
+        "@ A plant whose yellowish-brown grain is used for making flour, or the grain itself.",
+        "Wheat is a staple crop for millions of people across the world."
+      ],
+      "crop": [""]
+    }
+  ],
+  "navigate": [
+    "@ To direct the way that a ship, aircraft, etc. will travel, or to find a direction across, along, or over an area of water or land, often by using a map.",
+    "Sailors have special equipment to help them navigate.",
+    "Some migrating birds can navigate by the moon.",
+    "@ To move around a website or computer screen, or between websites or screens.",
+    "Their website is fairly plain, but very easy to navigate."
+  ],
+  "momentousness": [
+    "@ The quality of being important because of effects on future events.",
+    "I didn't realize the momentousness of the occasion.",
+    "He emphasizes the momentousness of next week's vote.",
+    {
+      "momentous": [
+        "The news of the president's death is momentous",
+        "Whether or not to move overseas was a momentous decision for the family."
+      ]
+    }
+  ],
+  "shatter": [
+    "@ to cause something to suddenly break into very small pieces.",
+    "The glass shattered into a thousand tiny pieces.",
+    "His leg was shattered in the accident.",
+    "@ To end or severely damage something.",
+    "The book shattered all her illusions about the Romans."
+  ],
   "premeditated": [""],
   "full-frontal": [""],
   "deliquency": [""],
@@ -1750,7 +1926,6 @@
   "depositional": [""],
   "implement": [""],
   "equivalent": [""],
-  "stubborn": [""],
   "obscured": [""],
   "preside": [""],
   "architectural": [""],
@@ -1853,5 +2028,45 @@
   "oak": [""],
   "inset": [""],
   "instrument": [""],
-  "suspense": [""]
+  "suspense": [""],
+  "lace": [""],
+  "fizzy": [""],
+  "opium": [""],
+  "yield": [""],
+  "morphine": [""],
+  "intrusion": [""],
+  "legitimate": [""],
+  "indicate": [""],
+  "delicacy": [""],
+  "stain": [""],
+  "detergent": [""],
+  "whereas": [""],
+  "epistemic": [""],
+  "export": [""],
+  "fiber": [""],
+  "optical": [""],
+  "dye": [""],
+  "halide": [""],
+  "photon": [""],
+  "lament": [""],
+  "celluloid": [""],
+  "distortion": [""],
+  "reel": [""],
+  "sputter": [""],
+  "speck": [""],
+  "inherent": [""],
+  "staple": [""],
+  "migrate": [
+    "",
+    {
+      "migrating bird": [""]
+    }
+  ],
+  "plain": [""],
+  "fairly": [""],
+  "residence": [""],
+  "haste": [""],
+  "resignation": [""],
+  "harsh": [""],
+  "impose": [""]
 }
