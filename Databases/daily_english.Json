@@ -1930,7 +1930,10 @@
     "Athletes must undergo a mandatory drugs test before competing in the championship.",
     "In 1991, the British government made it mandatory to wear rear seat belts in cars."
   ],
-  "laborer": [""],
+  "laborer": [
+    "@ A person who does unskilled physical work, especially outside.",
+    "But many employers skirted the law, preferring to hire less expensive laborers who crossed the border illegally."
+  ],
   "anesthesia": [
     "",
     {
