@@ -1803,13 +1803,46 @@
     "@ To end or severely damage something.",
     "The book shattered all her illusions about the Romans."
   ],
-  "premeditated": [""],
-  "full-frontal": [""],
-  "deliquency": [""],
-  "ratially": [""],
-  "unprovoked": [""],
-  "strategic": [""],
-  "Operational": [""],
+  "premeditated": [
+    "@ Done after being thought about or carefully planned, esp. of a crime or something unpleasant.",
+    "The assault was premeditated and particularly brutal.",
+    "The police believe the crime was premeditated.",
+    {
+      "unpremeditated": [""]
+    }
+  ],
+  "full-frontal": [
+    "@ Showing someone's body naked and from the front.",
+    "A full-frontal picture",
+    {
+      "frontal": [
+        "@ Relating to the front of something.",
+        "The frontal lobes/ regions of the brain",
+        "@ Relating to the forehead.",
+        {
+          "frontal assault/ attack": [
+            "@ Very strong criticism of someone or something."
+          ]
+        }
+      ]
+    }
+  ],
+  "delinquency": [
+    "@ Behavior, esp. of a young person, that is illegal or not acceptable to most people",
+    "There is a high rate of juvenile delinquency in this area.",
+    "His past delinquencies have made it hard for him to get a job."
+  ],
+  "unprovoked": [
+    "@ Not caused by anything and therefore unfair, esp. of an unpleasant action or remark.",
+    "Witnesses said the attack was unprovoked."
+  ],
+  "strategic": [
+    "@ Helping to achieve a plan, for example in business or politics.",
+    "Their bombs are always placed in strategic positions to cause as much chaos as possible.",
+    "@ Used to provide military forces with an advantage.",
+    "There are plans to modernize the U.S. strategic forces."
+  ],
+  "operational": [""],
   "vague": [""],
   "vector": [""],
   "momentum": [""],
@@ -1929,7 +1962,6 @@
   "obscured": [""],
   "preside": [""],
   "architectural": [""],
-  "operational": [""],
   "optimization": [""],
   "enormous": [""],
   "overhear": [""],
