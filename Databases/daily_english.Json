@@ -694,7 +694,8 @@
         "The hall has been tastefully paneled in cherrywood.",
         "@ A surface with devices that a person uses to control or get information about the operation of one or more machines.",
         "The car's instrument panel has buttons that give off a little blue-green light at night."
-      ]
+      ],
+      "congress": [""]
     }
   ],
   "adhere": [
@@ -996,6 +997,13 @@
   ],
   "skirt": [
     "She was wearing a dreadful pink flouncy skirt.",
+    "@ Beef that is cut from the bottom part of the side of the animal.",
+    "There's an increasing markets for the cheaper cuts of beef such as skirt.",
+    "Skirt steak is best medium-rare.",
+    "@ To go around the edge of something.",
+    "Take the road which skirts the town, not the one which goes through it.",
+    "@ To avoid discussing a subject or problem usually because there are difficulties that you don't want to deal with.",
+    "Congress has been accused of skirting around the issue of torture.",
     {
       "brooch": [
         "@ A small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
@@ -2092,7 +2100,6 @@
   "occasion": [""],
   "be tried": [""],
   "split": [""],
-  "congress": [""],
   "regulation": [""],
   "profit": [""],
   "intriguing": [""],
