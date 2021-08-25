@@ -1633,11 +1633,35 @@
   "ceasefire": [
     "A ceasefire based on humanitarian would relieve much suffering and assist relief efforts.",
     {
+      "dispute": [
+        "@ An argument or disagreement, esp. an official one between, for example, workers and employers or two countries with a common border.",
+        "They have been unable to settle/ resolve the dispute over working conditions.",
+        "The unions are in dispute with management over pay.",
+        "He is beyond all dispute the finest actor in Hollywood today.",
+        "@ To disagree with something that someone says.",
+        "The circumstances of her death have been hotly disputed.",
+        "I don't dispute that his films are entertaining, but they don't have much depth.",
+        {
+          "in dispute": [
+            "@ Being doubted.",
+            "I don't think her ability is in dispute - what I question is her attitude."
+          ],
+          "open to dispute": [
+            "@ Not certain.",
+            "He says it's the best musical equipment you can buy, but I think that's open to dispute."
+          ]
+        }
+      ],
       "arbitration": [
         "@ The process of solving an argument between people by helping them to agree to an acceptable solution.",
         "Both sides in the dispute have agreed to go to arbitration (= to have the disagreement solved by an arbitrator)."
       ],
-      "arbitrator": [""]
+      "arbitrator": [
+        "@ A person who has been officially chosen to make a decision between two people or groups who do not agree.",
+        "An arbitrator then has 30 days to make a decision.",
+        "And ' defense ' meant only that they were assured a fair hearing before an impartial arbitrator."
+      ],
+      "umpire": [""]
     }
   ],
   "alchemy": [
@@ -1906,7 +1930,6 @@
     "Athletes must undergo a mandatory drugs test before competing in the championship.",
     "In 1991, the British government made it mandatory to wear rear seat belts in cars."
   ],
-  "dispute": [""],
   "laborer": [""],
   "anesthesia": [
     "",
@@ -2176,5 +2199,10 @@
   "repair": [""],
   "mist": [""],
   "deliberately": [""],
-  "gesture": [""]
+  "gesture": [""],
+  "draft": [""],
+  "minority": [""],
+  "assemblyman": [""],
+  "rear": [""],
+  "impartial": [""]
 }
