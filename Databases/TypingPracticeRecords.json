@@ -4948,5 +4948,33 @@
     "TotalBack": 10,
     "WrongWords": ["committee"],
     "WrongChars": ["p", "y", "c", "i", "i", "c", "u", "j", "g", "Spaces", "t"]
+  },
+  {
+    "TestEndTime": "2021/8/25 P.M. 05:58:25",
+    "TestLength": 2,
+    "TotalChars": 593,
+    "GoodChars": 575,
+    "TotalBack": 16,
+    "WrongWords": ["disposal"],
+    "WrongChars": [
+      "i",
+      "c",
+      "t",
+      "s",
+      "i",
+      "h",
+      "i",
+      "d",
+      "a",
+      "l",
+      "f",
+      "a",
+      "a",
+      "Spaces",
+      "e",
+      "h",
+      "c",
+      "p"
+    ]
   }
 ]
