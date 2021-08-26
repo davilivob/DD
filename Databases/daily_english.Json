@@ -2052,7 +2052,11 @@
     "She snuck out for a sneaky cifarette.",
     "There's always the temptation to take a sneaky peek at the presents under the Christmas tree."
   ],
-  "unhinge": [""],
+  "unhinge": [
+    "@ To cause mental illness in someone.",
+    "The threats of the modern world have unhinged us.",
+    "Her mind was completely unhinged by shock and grief."
+  ],
   "unsung": [""],
   "narrow": [""],
   "corruption": [""],
