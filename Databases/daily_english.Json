@@ -1967,9 +1967,27 @@
     "@ To treat someone cruelly or violently.",
     "Several of the children had been sexually/ physically/ emotionally abused.",
     "@ To speak to someone rudely or cruelly.",
-    "The crowd started abusing him after he failed to save a goal."
+    "The crowd started abusing him after he failed to save a goal.",
+    {
+      "abuser": [
+        "A drug/ solvent abuser.",
+        "He's a reformed cocaine abuser.",
+        "@ Someone who treats another person in a cruel, violent, or unfair way.",
+        "They have begun to track down human rights abusers."
+      ]
+    }
   ],
-  "aesthetic": [""],
+  "aesthetic": [
+    "@ Relating to the enjoyment or study of beauty.",
+    "Those buildinga has little aesthetic appeal.",
+    "@ An aesthetic object or a work of art is one that shows great beauty.",
+    "furniture that is both aesthetic and functional.",
+    {
+      "aesthetically": [
+        "I like objects to be both functional and aesthetically pleasing."
+      ]
+    }
+  ],
   "dilemma": [""],
   "hologram": [""],
   "infant": [""],
