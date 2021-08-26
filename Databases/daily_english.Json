@@ -2026,7 +2026,18 @@
     "The sport does not generate much revenue from ticket sales.",
     "Revenue from online ads is much less than from print advertising."
   ],
-  "smelter": [""],
+  "smelter": [
+    "The company has three copper mines and a smelter in Arizona",
+    "The lead smelters had been losing money for years.",
+    {
+      "lead": [
+        "@ As a noun, lead can be a chemical element with the symbol Pb and atomic number 82."
+      ],
+      "smelt": [
+        "@ To get a metal from rock by heating it to a very high temperature, or to melt objects made from metal in order to use the metal to make something new."
+      ]
+    }
+  ],
   "sneaky": [""],
   "succumbed": [""],
   "unhinge": [""],
