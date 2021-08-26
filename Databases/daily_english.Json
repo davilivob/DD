@@ -1988,12 +1988,44 @@
       ]
     }
   ],
-  "dilemma": [""],
-  "hologram": [""],
-  "infant": [""],
-  "merrily": [""],
-  "mockery": [""],
-  "revenue": [""],
+  "dilemma": [
+    "@ A situation in which a choice has to be made between possibilities that will all have results you do not want.",
+    "The president is clearly in a dilemma about/ over how to tackle the crisis.",
+    "She faces the dilemma of disobeying her father or losing the man she loves.",
+    "The dilemma was over how to protect a charming little island at the same time allow economic development on it."
+  ],
+  "hologram": [
+    "@ A special type of photograph or image made with a laser in which the objects shown look solid, as if they are real, rather than flat.",
+    "There are two ways to create holograms: via computer - with augmented reality glasses, and physical - for optical displays."
+  ],
+  "infant": [
+    "@ A baby or a very young child.",
+    "In their study, 4-month-old infants did not distinguish between coincident and noncoincident speech.",
+    {
+      "infant school": [
+        "@ In the UK, a school or part of a school for children who are four to seven years old.",
+        "Erik starts infant school in September."
+      ]
+    }
+  ],
+  "merrily": [
+    "@ Showing happiness or enjoyment.",
+    "Her eyes sparkled merrily.",
+    "@ Without thinking about the result of what you are doing or about the problems it might cause.",
+    "The factory has been merrily pumping chemical waste into the river for the past ten years."
+  ],
+  "mockery": [
+    "@ The act of mocking someone or something.",
+    "Bill's mockery of his dad was cruel, but it made us laugh.",
+    "@ An action or event that seems stupid and without value.",
+    "The trial was a mockery - the judge had decided the verdict before it began."
+  ],
+  "revenue": [
+    "@ The income that a government or company receives regularly.",
+    "Taxes provide most of the government's revenue.",
+    "The sport does not generate much revenue from ticket sales.",
+    "Revenue from online ads is much less than from print advertising."
+  ],
   "smelter": [""],
   "sneaky": [""],
   "succumbed": [""],
