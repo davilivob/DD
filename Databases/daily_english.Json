@@ -1305,6 +1305,15 @@
       "disruption": [
         "@ An interruption in the usual way that a system, process, or event works.",
         "It would cause a tremendous disruption to our work schedule to install a different computer system."
+      ],
+      "avert": [
+        "@ To prevent something bad from happening.",
+        "To avert a crisis/ conflict/ strike/ famine.",
+        "To avert disaster/ economic collapse.",
+        "The last-minute agreement averted renewed fighting.",
+        "@ To turn away your eyes or thoughts.",
+        "I averted my gaze while he dressed.",
+        "The shy man was standing before me, his eyes averted."
       ]
     }
   ],
@@ -1943,12 +1952,15 @@
     "But many employers skirted the law, preferring to hire less expensive laborers who crossed the border illegally."
   ],
   "anesthesia": [
-    "",
+    "@ The condition of not feeling pain, esp. by use of special drugs.",
+    "The procedure is performed under general anesthesia.",
     {
-      "painkiller": [""]
+      "anesthetize": ["The vet anesthetized my dog to take xrays."],
+      "painkiller": [
+        "The body produces chemicals that are natural painkillers."
+      ]
     }
   ],
-  "avert": [""],
   "abuse": [""],
   "aesthetic": [""],
   "dilemma": [""],
