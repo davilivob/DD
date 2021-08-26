@@ -791,12 +791,20 @@
         "Is the death penalty cruel and unusual punishment?",
         "How is it possible to distinguish between humour that is about ' feeling good about life ' and that which is profoundly cruel or misogynistic?"
       ],
-      "evil": [
-        "Each new leader would blame his predcessor for all the evils of the past.",
-        "For the sake of long-term peace, the military option is the lesser evil or the lesser of two evils (= the less unpleasant of two bad choices).",
-        "An inductive inference is then made to the conclusion that certain instances, types groups, or patterns of evils are gratuitous."
-      ],
       "ruthless": [""]
+    }
+  ],
+  "evil": [
+    "Each new leader would blame his predcessor for all the evils of the past.",
+    "For the sake of long-term peace, the military option is the lesser evil or the lesser of two evils (= the less unpleasant of two bad choices).",
+    "An inductive inference is then made to the conclusion that certain instances, types groups, or patterns of evils are gratuitous.",
+    {
+      "corruption": [
+        "The film is about a young police officer and his struggle to expose corruption in the force.",
+        "Political corruption is widespread throughout the country.",
+        "@ In language, a word whose original form has been changed.",
+        "The swear word ' bloody ' is wrongly thought by some to be a corruption of the words \"by our Lady\"."
+      ]
     }
   ],
   "apathy": [
@@ -2077,7 +2085,6 @@
       ]
     }
   ],
-  "corruption": [""],
   "unmade": [""],
   "negotiator": [""],
   "court": [""],
