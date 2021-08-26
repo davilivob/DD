@@ -436,6 +436,13 @@
       "agony": [
         "They put her on painkillers, but they didn't do enough, and she was in agony.",
         "We give surgery patients anesthesia to avert the agony they would feel if they remained conscious."
+      ],
+      "succumb": [
+        "@ To lose the determination to oppose something; to accept defeat.",
+        "The town finally succumbed last week after being pounded with heavy artillery for more than two months.",
+        "I'm afraid I succumbed to temptation and had a piece of cheesecake.",
+        "@ To die or suffer badly from an illness.",
+        "Thousands of cows have succumbed to the disease in the past few months."
       ]
     }
   ],
@@ -2045,7 +2052,6 @@
     "She snuck out for a sneaky cifarette.",
     "There's always the temptation to take a sneaky peek at the presents under the Christmas tree."
   ],
-  "succumbed": [""],
   "unhinge": [""],
   "unsung": [""],
   "narrow": [""],
