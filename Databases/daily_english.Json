@@ -2062,7 +2062,21 @@
     "Many of her achievements went unsung until after her death.",
     "A good teacher is often the unsung hero of a great writer's success."
   ],
-  "narrow": [""],
+  "narrow": [
+    "@ Having a small distance from one side to the other, esp. in comparison with the length.",
+    "The little village has very narrow streets.",
+    "The evening sun slanted through the narrow window.",
+    "The election was won by the very narrow margin of only 185 votes.",
+    "@ Limited to a small area of interest, activity, or thought.",
+    "They are unable to see beyond the narrow world of the theater.",
+    "It was regarded as a very narrow interpretation of the law.",
+    {
+      "a narrow escape": [
+        "They had a narrow escape when their car crashed.",
+        "We got out in time but it was a narrow escape."
+      ]
+    }
+  ],
   "corruption": [""],
   "unmade": [""],
   "negotiator": [""],
