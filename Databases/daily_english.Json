@@ -2038,7 +2038,13 @@
       ]
     }
   ],
-  "sneaky": [""],
+  "sneaky": [
+    "@ Doing things in a secret and unfair way.",
+    "This is a sneaky plan.",
+    "Used to describe something you do, eat, or drink esp. when you do it without telling anyone or when you shouldn't really do it.",
+    "She snuck out for a sneaky cifarette.",
+    "There's always the temptation to take a sneaky peek at the presents under the Christmas tree."
+  ],
   "succumbed": [""],
   "unhinge": [""],
   "unsung": [""],
