@@ -1681,6 +1681,9 @@
           "open to dispute": [
             "@ Not certain.",
             "He says it's the best musical equipment you can buy, but I think that's open to dispute."
+          ],
+          "negotiator": [
+            "@ Someone who tries to help two groups who disagree to reach an agreement with each other, usually as a job."
           ]
         }
       ],
@@ -2085,8 +2088,6 @@
       ]
     }
   ],
-  "unmade": [""],
-  "negotiator": [""],
   "court": [""],
   "firm": [""],
   "stature": [""],
