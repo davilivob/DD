@@ -6208,4 +6208,4 @@
       "x"
     ]
   }
-]
+,{"TestEndTime":"2021/8/31 A.M. 12:49:51","TestLength":1,"TotalChars":271,"GoodChars":245,"TotalBack":17,"WrongWords":["juice","water","element","at"],"WrongChars":["j","a","t","e","r","e","b","r","i","u","d","n","Spaces","Spaces","n","t","o","h","p","Spaces","t","d","v","a","h","a"]},{"TestEndTime":"2021/8/31 A.M. 12:50:56","TestLength":1,"TotalChars":278,"GoodChars":257,"TotalBack":20,"WrongWords":["now"],"WrongChars":["w","s","Spaces","w","w","a","n","a","Spaces","a","e","t","i","u","a","m","i","e","g","a","w"]}]  
