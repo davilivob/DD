@@ -10,7 +10,7 @@ from MyModules import (
 )
 
 Dictionary = File.Load.Dictionary
-sentenceEnd = ['."', '!"', '?"', '\\""']
+sentenceEnd = ['."', '!"', '?"']
 Dictionary = (
     Dictionary.replace('": [', "詞")
     .replace('"@', "定")
