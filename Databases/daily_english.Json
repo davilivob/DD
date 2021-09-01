@@ -2032,6 +2032,17 @@
             "Alternative uses for flowers wouldn't be complete without mentioning the poppy, used to make opium."
           ]
         }
+      ],
+      "narcotic": [
+        "@ An illegal drug such as heroin or cocaine.",
+        "He faces three years in jail for selling narcotics.",
+        "@ A drug that makes you want to sleep and prevents you feeling pain.",
+        "Morphine is a narcotic.",
+        {
+          "morphine": [
+            "@ A drug made from opium, used to stop people from feeling pain or to make people feel calmer."
+          ]
+        }
       ]
     }
   ],
@@ -2229,7 +2240,6 @@
     "For example, mechanical receptors could assist in sensing water during drinking.",
     "Compounds in cinnamon may activate enzymes that stimulate insulin receptors."
   ],
-  "narcotic": [""],
   "aircraft": [""],
   "attach": [""],
   "flood": [""],
@@ -2411,7 +2421,6 @@
   "lace": [""],
   "fizzy": [""],
   "yield": [""],
-  "morphine": [""],
   "intrusion": [""],
   "legitimate": [""],
   "indicate": [""],
