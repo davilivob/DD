@@ -372,7 +372,27 @@
         "& Damp means it's slight wet. The towel to wipe the spilled juice is damp from my sweaty hands."
       ],
       "drench": ["&  Wet means it's drenched in water or another liquid."],
-      "sopping": ["My hair is sopping (wet) from the shower I took."]
+      "sopping": ["My hair is sopping (wet) from the shower I took."],
+      "flood": [
+        "@ To cause to fill or become covered with water, esp. in a way that causes problems.",
+        "Our washing machine broke down yesterday and flooded the kitchen.",
+        "The whole town flooded when the river burst its banks.",
+        "@ To fill or enter a place in large numbers or amounts.",
+        "Donations are flooding into the homeless shelter.",
+        "Japanese cars have flooded the market (= a lot of them are on sale ).",
+        "He was flooded with (= suddenly felt a lot of ) joy when his first child was born.",
+        "@ A large amount or number of something",
+        "A flood of imports has come into the country.",
+        {
+          "in floods of tears": [
+            "@ Crying a lot.",
+            "I found her in floods of tears in the toilets."
+          ],
+          "the Flood": [
+            "@ In the Bible, a flood sent by God that covered the whole earth as a punishment."
+          ]
+        }
+      ]
     }
   ],
   "radical": [
@@ -2274,7 +2294,6 @@
     "@ To take someone's property or money by law to help pay their debts.",
     "The country may have the right to attach property to satisfy a tax debt."
   ],
-  "flood": [""],
   "flee": [""],
   "inventory": [""],
   "deceased": [""],
