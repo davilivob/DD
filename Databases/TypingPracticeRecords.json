@@ -6734,5 +6734,40 @@
       "i",
       "r"
     ]
+  },
+  {
+    "TestEndTime": "2021/9/1 P.M. 05:45:11",
+    "TestLength": 1,
+    "TotalChars": 304,
+    "GoodChars": 295,
+    "TotalBack": 6,
+    "WrongWords": ["sum", "area", "decade"],
+    "WrongChars": ["m", "a", "u", "b", "s", "d", "c", "e", "e"]
+  },
+  {
+    "TestEndTime": "2021/9/1 P.M. 05:46:25",
+    "TestLength": 1,
+    "TotalChars": 280,
+    "GoodChars": 264,
+    "TotalBack": 13,
+    "WrongWords": ["at", "withdrawn"],
+    "WrongChars": [
+      "t",
+      "Spaces",
+      "r",
+      "n",
+      "e",
+      "a",
+      "a",
+      "r",
+      "t",
+      "a",
+      "m",
+      "a",
+      "Spaces",
+      "r",
+      "d",
+      "l"
+    ]
   }
-,{"TestEndTime":"2021/9/1 P.M. 05:45:11","TestLength":1,"TotalChars":304,"GoodChars":295,"TotalBack":6,"WrongWords":["sum","area","decade"],"WrongChars":["m","a","u","b","s","d","c","e","e"]},{"TestEndTime":"2021/9/1 P.M. 05:46:25","TestLength":1,"TotalChars":280,"GoodChars":264,"TotalBack":13,"WrongWords":["at","withdrawn"],"WrongChars":["t","Spaces","r","n","e","a","a","r","t","a","m","a","Spaces","r","d","l"]}]  
+]

@@ -933,7 +933,7 @@
     }
   ],
   "component": [
-    "The course has four main components: business law, finance, computing and managment skills.",
+    "The course has four main components: business law, finance, computing and management skills.",
     {
       "compound": ["Salt is a compound of sodium and chlorine."],
       "ingredient": [""]
@@ -2547,5 +2547,14 @@
   "feature": [""],
   "spiritual": [""],
   "approximate": [""],
-  "insurgency": [""]
+  "insurgency": [""],
+  "nerve": [""],
+  "insulin": [""],
+  "enzymes": [""],
+  "activate": [""],
+  "stimulate": [""],
+  "strike": [""],
+  "sequin": [""],
+  "paperclip": [""],
+  "settlement": [""]
 }
