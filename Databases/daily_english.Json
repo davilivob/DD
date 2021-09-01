@@ -2294,7 +2294,13 @@
     "@ To take someone's property or money by law to help pay their debts.",
     "The country may have the right to attach property to satisfy a tax debt."
   ],
-  "flee": [""],
+  "flee": [
+    "@ To escape by running away, esp. because of danger or fear.",
+    "In order to escape capture, he fled to the mountains.",
+    "It's likely that the suspects have fled the country by now.",
+    "Every year thousands of people flee the big cities in search of the rural idyll.",
+    "War, famine and oppression have forced people in the region to flee from their homes."
+  ],
   "inventory": [""],
   "deceased": [""],
   "stamp": [""],
