@@ -737,7 +737,12 @@
         "@ A surface with devices that a person uses to control or get information about the operation of one or more machines.",
         "The car's instrument panel has buttons that give off a little blue-green light at night."
       ],
-      "congress": [""]
+      "congress": [
+        "",
+        {
+          "congressman": [""]
+        }
+      ]
     }
   ],
   "adhere": [
@@ -2307,7 +2312,18 @@
     "@ The amount of goods a store has, or the value of them.",
     "Our inventory of used cars is the best in town."
   ],
-  "deceased": [""],
+  "deceased": [
+    "@ Dead.",
+    "The recently deceased Congressman.",
+    {
+      "the deceased": [
+        "@ A person who has recently died.",
+        "The deceased shot her mother before killing herself.",
+        "Five of the deceased were employed by the club.",
+        "There will be no service, at the deceased's request."
+      ]
+    }
+  ],
   "stamp": [""],
   "bidder": [""],
   "auction": [""],
