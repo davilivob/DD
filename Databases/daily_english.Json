@@ -2301,7 +2301,12 @@
     "Every year thousands of people flee the big cities in search of the rural idyll.",
     "War, famine and oppression have forced people in the region to flee from their homes."
   ],
-  "inventory": [""],
+  "inventory": [
+    "@ A detailed list of all the things in a place.",
+    "A set of 24 gilded chairs appear on the inventory of the house for 1736.",
+    "@ The amount of goods a store has, or the value of them.",
+    "Our inventory of used cars is the best in town."
+  ],
   "deceased": [""],
   "stamp": [""],
   "bidder": [""],
