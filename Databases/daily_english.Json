@@ -2193,7 +2193,16 @@
     "The Times critic described her dancing as \" a virtuoso performance of dazzling accomplishment.\".",
     "The world's greatest tenor treated us to a virtuoso display of his abundant talent."
   ],
-  "dimension": [""],
+  "dimension": [
+    "@ A measurement of something in a particular direction, esp. its height, length, or width.",
+    "Please specify the dimensions (= the height, length and width ) of the room.",
+    "The dimensions of the room are 26 feet by 15 feet.",
+    "@ A part of feature or way of considering something.",
+    "His personality has several dimensions.",
+    "These weapons add a new dimension to modern warfare.",
+    "There is a spiritual dimension to her poetry.",
+    "The new script gave the story a psychological dimension."
+  ],
   "opiate": [""],
   "receptor": [""],
   "fetus": [""],
