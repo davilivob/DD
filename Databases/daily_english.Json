@@ -2240,7 +2240,22 @@
     "For example, mechanical receptors could assist in sensing water during drinking.",
     "Compounds in cinnamon may activate enzymes that stimulate insulin receptors."
   ],
-  "aircraft": [""],
+  "aircraft": [
+    "@ Any vehicle, with or without an engine, that can fly, such as a plane or helicopter.",
+    "The airline is taking steps to ensure safety on its aircraft.",
+    "Attacks by enemy aircraft forced the tanks to retreat from the city.",
+    {
+      "aircraft carrier": [
+        "@ A large ship with a long, flat surface where military aircraft can take off and land."
+      ],
+      "airline": [
+        "@ A business that operates regular services for carring passengers and/ or goods by aircraft.",
+        "What airline did you fly with?",
+        "Many airline passengers face lengthy delays becauses of the strike.",
+        "The 1990s saw a huge increase in the numbers of low-cost airlines."
+      ]
+    }
+  ],
   "attach": [""],
   "flood": [""],
   "flee": [""],
