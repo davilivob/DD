@@ -2203,7 +2203,10 @@
     "Famous mainly for his wonderful voice, Cole Porter was also a virtuoso on the piano.",
     "@ It can be used directly as an adjective, which means extremely skilled.",
     "The Times critic described her dancing as \" a virtuoso performance of dazzling accomplishment.\".",
-    "The world's greatest tenor treated us to a virtuoso display of his abundant talent."
+    "The world's greatest tenor treated us to a virtuoso display of his abundant talent.",
+    {
+      "tenor": [""]
+    }
   ],
   "dimension": [
     "@ A measurement of something in a particular direction, esp. its height, length, or width.",
@@ -2489,5 +2492,10 @@
   "examination": [""],
   "hostile": [""],
   "dazzling": [""],
-  "tenor": [""]
+  "conduct": [""],
+  "oblong": [""],
+  "feature": [""],
+  "spiritual": [""],
+  "approximate": [""],
+  "insurgency": [""]
 }
