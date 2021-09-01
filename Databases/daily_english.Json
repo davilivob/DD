@@ -2203,7 +2203,18 @@
     "There is a spiritual dimension to her poetry.",
     "The new script gave the story a psychological dimension."
   ],
-  "opiate": [""],
+  "opiate": [
+    "@ A drug that contains opium, esp. one the causes sleep.",
+    {
+      "opium": [
+        "@ A drug made from the seeds of a poppy (= red flower ) that is used to control pain or to help people sleep. It can make a person who takes it want more of it and is sometimes used by people as an illegal drug for pleasure.",
+        "While most of the money from the opium trade floods into the black economy, some also reaches the insurgency."
+      ],
+      "poppy": [
+        "Alternative uses for flowers wouldn't be complete without mentioning the poppy, used to make opium."
+      ]
+    }
+  ],
   "receptor": [""],
   "fetus": [""],
   "narcotic": [""],
@@ -2387,7 +2398,6 @@
   "suspense": [""],
   "lace": [""],
   "fizzy": [""],
-  "opium": [""],
   "yield": [""],
   "morphine": [""],
   "intrusion": [""],
