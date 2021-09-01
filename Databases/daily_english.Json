@@ -1647,7 +1647,12 @@
           ]
         }
       ],
-      "suitable": [""]
+      "suitable": [""],
+      "unbecoming": [
+        "@ Not suitable or acceptable.",
+        "He was charged with conduct unbecoming to an officer.",
+        "Such conduct is unbecoming to an official."
+      ]
     }
   ],
   "subconscious": [
@@ -2163,7 +2168,15 @@
       "the Allies": [
         "& The countries, including the U.S., the U.K., the USSR, and France, that fought against the Axis countries in the Second World War"
       ],
-      "diameter": [""]
+      "diameter": [""],
+      "symmetry": [
+        "@ The quality of having parts that match each other, esp. in a way that is attractive, or similarity of shape or contents.",
+        "The design of the house had a pleasing symmetry, its oblong shape being picked up in its elongated winsdows.",
+        "@ In mathematics, the quality of having two parts that match exactly, either when one half is like an image of the other half in a mirror, or when one part can take the place of another if it is turned 90 degrees or 180 degrees.",
+        {
+          "symmetrical": ["Many types of triangles are symmetrical."]
+        }
+      ]
     }
   ],
   "sardonic": [
@@ -2180,8 +2193,6 @@
     "The Times critic described her dancing as \" a virtuoso performance of dazzling accomplishment.\".",
     "The world's greatest tenor treated us to a virtuoso display of his abundant talent."
   ],
-  "unbecoming": [""],
-  "symmetry": [""],
   "dimension": [""],
   "opiate": [""],
   "receptor": [""],
