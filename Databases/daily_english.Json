@@ -2256,7 +2256,24 @@
       ]
     }
   ],
-  "attach": [""],
+  "attach": [
+    "@ To fasten, join, or connect something.",
+    "I attached a photo to my application form.",
+    "Use this cable to attach the printer to the computer.",
+    "In the U.K., packs of cigarettes come with a government health warning attached to them.",
+    "Did you remember to attach a label to the present?",
+    "I bought some special glue you can use for attaching sequins to fabric.",
+    "@ To join a file such as a document, image, or computer program, to an email.",
+    "There may be a virus in the file that is attached, so don't open it.",
+    "When you get an email, there will be a paperclip symbol next to it if there is something attached to it.",
+    "@ If someone is attached to a department or company, they are sent to work there temporarily for a particular purpose.",
+    "Tom was attached to the Marketing Department for six months.",
+    "@ To include something, or to make something a part of something.",
+    "There were strict conditions attached to the settlement.",
+    "I need to be certain that there are no risks attached to this decision.",
+    "@ To take someone's property or money by law to help pay their debts.",
+    "The country may have the right to attach property to satisfy a tax debt."
+  ],
   "flood": [""],
   "flee": [""],
   "inventory": [""],
