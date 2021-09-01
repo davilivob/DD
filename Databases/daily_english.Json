@@ -2079,6 +2079,12 @@
       "infant school": [
         "@ In the UK, a school or part of a school for children who are four to seven years old.",
         "Erik starts infant school in September."
+      ],
+      "fetus": [
+        "@ A young human being or animal before birth, after the organs have started to develop.",
+        {
+          "fetal": ["The electronic device monitored the fetal heart rate."]
+        }
       ]
     }
   ],
@@ -2218,8 +2224,11 @@
     "There is a spiritual dimension to her poetry.",
     "The new script gave the story a psychological dimension."
   ],
-  "receptor": [""],
-  "fetus": [""],
+  "receptor": [
+    "@ A nerve ending that reacts to a change, such as heat or cold, in the body by sending a message to the central nervous system.",
+    "For example, mechanical receptors could assist in sensing water during drinking.",
+    "Compounds in cinnamon may activate enzymes that stimulate insulin receptors."
+  ],
   "narcotic": [""],
   "aircraft": [""],
   "attach": [""],
