@@ -1249,7 +1249,16 @@
               ]
             }
           ],
-          "auction": [""]
+          "auction": [
+            "@ A usually public sale of goods or property, where people make higher and higher bids for each thing, until the thing is sold to the person who will pay most.",
+            "A furniture auction.",
+            "The house and its contents are being put up for auction.",
+            "The painting will be sold at auction next week.",
+            "A rare Stradivarius violin failed to reach its reserve price when put up for arction on Tuesday.",
+            "@ Be directly used as a verb, to sell something in a public auction.",
+            "The stamps will be auctioned tomorrow.",
+            "The family is auctioning off its art collection."
+          ]
         }
       ]
     }
@@ -2361,7 +2370,6 @@
       ]
     }
   ],
-  "auction": [""],
   "copper": [""],
   "medicinal": [""],
   "herb": [""],
