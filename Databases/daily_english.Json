@@ -742,7 +742,8 @@
         {
           "congressman": [""]
         }
-      ]
+      ],
+      "council": [""]
     }
   ],
   "adhere": [
@@ -1852,10 +1853,6 @@
     "She wants to turn the company into a profit-oriented orgnization.",
     "Countries with more globally oriented economies have higher levels of information technology investment."
   ],
-  "verifiable": [
-    "The inquiry found no verifiable evidence of document of data falsification.",
-    "The treaty aims to make developing countries' emissions cuts verifiable."
-  ],
   "recipient": [
     "@ A person or organization that receives something, such as money, a prize, etc.",
     "Former Nobel Peace Prize recipients include Jimmy Carter and Barack Obama.",
@@ -2404,8 +2401,32 @@
       "rosemary": [""]
     }
   ],
-  "falsification": [""],
-  "inquiry": [""],
+  "falsification": [
+    "@ The action of changing something, such as a document, in order to deceive people.",
+    "The couple was charged with falsification of documents.",
+    "The issue of age falsification is not new in gymnastics.",
+    {
+      "falsify": ["The certificate had clearly been falsified."],
+      "falsifiable": [
+        "All good science must be falsifiable.",
+        "Propositions which are presented to be true can be used in support of other propositions that are presumed to be falsifiable.",
+        "Their aim is to provide easily falsifiable hypotheses."
+      ],
+      "verifiable": [
+        "@ Able to be proved.",
+        "The inquiry found no verifiable evidence of document of data falsification.",
+        "The treaty aims to make developing countries' emissions cuts verifiable."
+      ]
+    }
+  ],
+  "inquiry": [
+    "@ The act of asking for information.",
+    "I've been making inquiries about/ into the cost of a round-the-world ticket.",
+    "@ An official process to discover the facts about something bad that has happened.",
+    "Citizens have demanded a full inquiry into the government's handling of the epidemic.",
+    "Who will be leading the inquiry into the accident?",
+    "The Council has set up an independent inquiry which will show the effect of closure of the plant."
+  ],
   "emission": [""],
   "treaty": [""],
   "synthesis": [""],
@@ -2430,7 +2451,6 @@
     }
   ],
   "agenda": [""],
-  "council": [""],
   "strict": [""],
   "rigid": [""],
   "demand": [""],
