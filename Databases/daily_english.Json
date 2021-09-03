@@ -1233,7 +1233,24 @@
         "@ To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
         "The communications group has shown an interest in bidding for the company.",
         "Paris is bidding to host the next Olympics.",
-        "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is."
+        "Before you decide how to bid, you need to evaluate how strong the hand of cards you are holding is.",
+        {
+          "bidder": [
+            "@ A person who offers money for goods or property when competing with other people to buy it, or someone who offers to do a job for a particular price.",
+            "Nestle has been cited as a potential bidder for these businesses.",
+            {
+              "the highest bidder": [
+                "@ The person or company that offers the most money.",
+                "Their home will be sold at auction to the highest bidder."
+              ],
+              "the lowest bidder": [
+                "@ The person or company that offers to do a particular piece of work for the least amount of money.",
+                "The security contracts are usually awarded to the lowest bidder."
+              ]
+            }
+          ],
+          "auction": [""]
+        }
       ]
     }
   ],
@@ -2344,7 +2361,6 @@
       ]
     }
   ],
-  "bidder": [""],
   "auction": [""],
   "copper": [""],
   "medicinal": [""],
