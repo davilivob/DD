@@ -353,6 +353,10 @@
         "A cell from which grain grows or the beginning of an idea.",
         "He found the germ of an idea in an old newspaper.",
         "Alefandro's suggestion was the germ of the whole idea."
+      ],
+      "plankton": [
+        "@ Very small plants and animals that float on the surface of the sea and on which other sea animals feed.",
+        "The giant plankton-feeders in today's oceans are among the largest living vertebrate animals alive."
       ]
     }
   ],
@@ -391,6 +395,21 @@
           "the Flood": [
             "@ In the Bible, a flood sent by God that covered the whole earth as a punishment."
           ]
+        }
+      ]
+    }
+  ],
+  "corruption": [
+    "The film is about a young police officer and his struggle to expose corruption in the force.",
+    "Political corruption is widespread throughout the country.",
+    "@ In language, a word whose original form has been changed.",
+    "The swear word ' bloody ' is wrongly thought by some to be a corruption of the words \"by our Lady\".",
+    {
+      "corrupt": [""],
+      "mold": [
+        "",
+        {
+          "moldy": [""]
         }
       ]
     }
@@ -493,7 +512,10 @@
       "mammal": [
         "@ Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs."
       ],
-      "vertebrate": [""]
+      "vertebrate": [
+        "@ An animal that has a spine.",
+        "Birds, fish and reptiles are all vertebrates."
+      ]
     }
   ],
   "fasten": [
@@ -531,7 +553,10 @@
       "pessimistic": [
         "At the time in history when our future has never looked brighter, it is baffling that some people are more pessimistic than ever."
       ],
-      "pessimism": ["An underlying pessimism infuses all her novels."]
+      "pessimism": ["An underlying pessimism infuses all her novels."],
+      "passionate": [
+        "She was passionate about Asian cooking and that has reflected in her dining experience."
+      ]
     }
   ],
   "scarcely": [
@@ -799,7 +824,7 @@
       "syrup": [
         "& Syrup is a mixture of sugar and water while molasses is a by-product of the sugar-making process.",
         "& Molasses is a type of syrup.",
-        "& Both are used as a base for food and baverage, but syrup can be made by simply mixing together sugar and water while molasses is made by boiling the juice of whatever fruit is available.",
+        "& Both are used as a base for food and beverage, but syrup can be made by simply mixing together sugar and water while molasses is made by boiling the juice of whatever fruit is available.",
         "@ For example, maple syrup."
       ],
       "syrupy": ["Heat the liquid until it is thick and syrupy."],
@@ -824,27 +849,22 @@
       "emphasize": [""]
     }
   ],
-  "sinister": [
-    "She has dark, sinister eyes that make you nervous when she looks at you.",
-    "The ruined house had a sinister appearance.",
-    {
-      "cruel": [
-        "Is the death penalty cruel and unusual punishment?",
-        "How is it possible to distinguish between humour that is about ' feeling good about life ' and that which is profoundly cruel or misogynistic?"
-      ],
-      "ruthless": [""]
-    }
-  ],
+
   "evil": [
     "Each new leader would blame his predcessor for all the evils of the past.",
     "For the sake of long-term peace, the military option is the lesser evil or the lesser of two evils (= the less unpleasant of two bad choices).",
     "An inductive inference is then made to the conclusion that certain instances, types groups, or patterns of evils are gratuitous.",
     {
-      "corruption": [
-        "The film is about a young police officer and his struggle to expose corruption in the force.",
-        "Political corruption is widespread throughout the country.",
-        "@ In language, a word whose original form has been changed.",
-        "The swear word ' bloody ' is wrongly thought by some to be a corruption of the words \"by our Lady\"."
+      "sinister": [
+        "She has dark, sinister eyes that make you nervous when she looks at you.",
+        "The ruined house had a sinister appearance.",
+        {
+          "cruel": [
+            "Is the death penalty cruel and unusual punishment?",
+            "How is it possible to distinguish between humour that is about ' feeling good about life ' and that which is profoundly cruel or misogynistic?"
+          ],
+          "ruthless": [""]
+        }
       ]
     }
   ],
@@ -955,7 +975,8 @@
       "biocapacity": [
         "With our overall footprint now exceeding global biocapacity by about 30% reducing our carbon footprint is essential.",
         "Worldwide, the average human footprint is 2.28 hectares (5.4 acres), but Earth only has a biocapacity of 1.9 hectare per person, he said."
-      ]
+      ],
+      "biosphere": [""]
     }
   ],
   "component": [
@@ -1422,14 +1443,18 @@
       ]
     }
   ],
-  "baverage": [
-    "",
+  "beverage": [
+    "@ A drink of any type.",
+    "We don't sell alcoholic beverages.",
     {
       "carbonated": [
         "@ A carbonated drink is fizzy because it contains bubbles of carbon dioxide.",
         "It's basically carbonated white grape juice."
       ],
-      "fizzy": [""]
+      "fizzy": [
+        "@ Having a lot of bubbles.",
+        "Considering they all taste like somewhat moldy, watered, down, fizzy bread to me, it's moot."
+      ]
     }
   ],
 
@@ -1711,10 +1736,15 @@
     "& There are conscious thoughts that you're aware of and subconscious ones that you're not."
   ],
   "gaze": [
-    "Her wandering gaze came up to his face and warmth shot painfully up her neck"
-  ],
-  "passionate": [
-    "She was passionate about Asian cooking and that has reflected in her dining experience."
+    "Her wandering gaze came up to his face and warmth shot painfully up her neck",
+    {
+      "observe": [
+        "",
+        {
+          "observation": [""]
+        }
+      ]
+    }
   ],
   "interchangeably": [
     "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
@@ -1841,7 +1871,8 @@
             "Whether or not to move overseas was a momentous decision for the family."
           ]
         }
-      ]
+      ],
+      "curling": [""]
     }
   ],
   "quasi-": [
@@ -2264,6 +2295,16 @@
         {
           "symmetrical": ["Many types of triangles are symmetrical."]
         }
+      ],
+      "dimension": [
+        "@ A measurement of something in a particular direction, esp. its height, length, or width.",
+        "Please specify the dimensions (= the height, length and width ) of the room.",
+        "The dimensions of the room are 26 feet by 15 feet.",
+        "@ A part of feature or way of considering something.",
+        "His personality has several dimensions.",
+        "These weapons add a new dimension to modern warfare.",
+        "There is a spiritual dimension to her poetry.",
+        "The new script gave the story a psychological dimension."
       ]
     }
   ],
@@ -2283,16 +2324,6 @@
     {
       "tenor": [""]
     }
-  ],
-  "dimension": [
-    "@ A measurement of something in a particular direction, esp. its height, length, or width.",
-    "Please specify the dimensions (= the height, length and width ) of the room.",
-    "The dimensions of the room are 26 feet by 15 feet.",
-    "@ A part of feature or way of considering something.",
-    "His personality has several dimensions.",
-    "These weapons add a new dimension to modern warfare.",
-    "There is a spiritual dimension to her poetry.",
-    "The new script gave the story a psychological dimension."
   ],
   "receptor": [
     "@ A nerve ending that reacts to a change, such as heat or cold, in the body by sending a message to the central nervous system.",
@@ -2427,8 +2458,30 @@
     "Who will be leading the inquiry into the accident?",
     "The Council has set up an independent inquiry which will show the effect of closure of the plant."
   ],
-  "emission": [""],
-  "treaty": [""],
+  "emission": [
+    "@ The act of sending out gas, heat, light, etc.",
+    "Bioluminescence is the emission of light from living organisms.",
+    "Execess infrared emission was detected around six of these stars.",
+    "@ An amount of gas, heat, light, etc. that is sent out.",
+    "He used night observation device that picks up heat emissions.",
+    "There is a risk of accidents with large emissions of radioisotopes into the biosphere.",
+    "@ An amount of a substance that is produced and sent out into the air that is harmful to the environment, esp. carbon dioxide.",
+    "Reducing the consumption of energy and increasing its efficient use would help control emissions.",
+    "These health risks are caused by vehicle emissions.",
+    "The agreement aimed to half the emissions rate in 50 years."
+  ],
+  "bioluminescence": [
+    "@ Light created by the body of a living creature, for example by some sea creatures and insects such as fireflies.",
+    "Plankton float in the ocean current, sparkling with bioluminescence."
+  ],
+
+  "treat": [
+    "",
+    {
+      "treaty": [""]
+    }
+  ],
+
   "synthesis": [""],
   "neoclassical": [""],
   "paradoxically": [""],
@@ -2463,7 +2516,6 @@
     }
   ],
   "overthrown": [""],
-  "corrupt": [""],
   "dissent": [""],
   "accuse": [""],
   "covert": [""],
@@ -2557,7 +2609,12 @@
   "chimp": [""],
   "hormonal": [""],
   "sluggish": [""],
-  "consume": [""],
+  "consume": [
+    "",
+    {
+      "consumption": [""]
+    }
+  ],
   "facility": [""],
   "plung": [""],
   "generous": [""],
@@ -2702,5 +2759,29 @@
   "rural": [""],
   "idyll": [""],
   "oppression": [""],
-  "gilded": [""]
+  "gilded": [""],
+  "envelope": [""],
+  "evolved": [""],
+  "carton": [""],
+  "cite": [""],
+  "reserve": [""],
+  "reddish": [""],
+  "piercing": [""],
+  "underestimate": [""],
+  "immune": [""],
+  "boost": [""],
+  "gymnastic": [""],
+  "certificate": [""],
+  "proposition": [""],
+  "hypothese": [""],
+  "presume": [""],
+  "closure": [""],
+  "moot": [""],
+  "execess": [""],
+  "infrared": [
+    "",
+    {
+      "radioisotopes": [""]
+    }
+  ]
 }
