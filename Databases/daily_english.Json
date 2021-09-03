@@ -983,7 +983,18 @@
     "The course has four main components: business law, finance, computing and management skills.",
     {
       "compound": ["Salt is a compound of sodium and chlorine."],
-      "ingredient": [""]
+      "ingredient": [""],
+      "synthesis": [
+        "@ The mixing of different ideas, influences, or things to make a whole that is different, or new.",
+        "He describes his latest record as \" a synthesis of African and Latin rhythms.\".",
+        {
+          "synthesize": [
+            "The chemical compound was first synthesized in England in 1874.",
+            "The findings from the five separate studies have been synthesized in the report.",
+            "The project group is working on perfecting synthesized speech."
+          ]
+        }
+      ]
     }
   ],
   "emerge": [
@@ -2514,18 +2525,15 @@
     "@ A small piece of food, often specially produced, that is given to pets in addition to their usual food, for example as a reward.",
     "The owner said the dog was dangerous, but when I fed it dog treats it would take them gently out of my hand."
   ],
-  "synthesis": [
-    "@ The mixing of different ideas, influences, or things to make a whole that is different, or new.",
-    "He describes his latest record as \" a synthesis of African and Latin rhythms.\".",
+  "neoclassical": [
+    "@ Made in style that is based on the art and building designs of ancient Greece and Rome.",
     {
-      "synthesize": [
-        "The chemical compound was first synthesized in England in 1874.",
-        "The findings from the five separate studies have been synthesized in the report.",
-        "The project group is working on perfecting synthesized speech."
+      "neoclassicism": [
+        "The vast domed church is a monument to late-eighteenth-century neoclassicism.",
+        "His early works combined neoclassicism and Armenian folk traditions."
       ]
     }
   ],
-  "neoclassical": [""],
   "paradoxically": [""],
   "macro-": [""],
   "proposal": [""],
