@@ -1930,7 +1930,7 @@
         "@ Also known as granularity, this can vary in size, not just due to its random nature, but by the size of the image shrinking or increasing ' grains '.",
         {
           "film noise": [
-            "@ Film noise is another term that gets used when talking abuot analog film grain.",
+            "@ Film noise is another term that gets used when talking about analog film grain.",
             "& However, film noise more accurately defines what you might see at the beginning or end of an actual film reel.",
             "@ This is the quick, sputtering, noticeable specks and hairs that often indicate the reel has ended or is beginning."
           ]
@@ -2089,7 +2089,7 @@
   ],
   "aesthetic": [
     "@ Relating to the enjoyment or study of beauty.",
-    "Those buildinga has little aesthetic appeal.",
+    "Those buildings has little aesthetic appeal.",
     "@ An aesthetic object or a work of art is one that shows great beauty.",
     "furniture that is both aesthetic and functional.",
     {
@@ -2297,7 +2297,27 @@
     "There were strict conditions attached to the settlement.",
     "I need to be certain that there are no risks attached to this decision.",
     "@ To take someone's property or money by law to help pay their debts.",
-    "The country may have the right to attach property to satisfy a tax debt."
+    "The country may have the right to attach property to satisfy a tax debt.",
+    {
+      "affix": [""],
+      "stamp": [
+        "@ A small piece of paper with a picture or pattern on it that is stuck onto a letter or package before it is mailed, to show that the cost of sending it has been paid.",
+        "I stuck a 50p stamp on the envelope.",
+        "She affixed a stamp to the envelope.",
+        "@ A tool for putting a mark on an object either by printing on it or pushing into it, or the mark made in this way.",
+        "A date stamp inside the front cover of a library book shows when it should be returned.",
+        "@ A particular quality in something or someone, or a quality in something that shows it was done by a particular person or group of people.",
+        "Although this painting clearly bears the stamp of genius, we don't know who painted it.",
+        "Each manager has left his or her own stamp on the way the company has evolved.",
+        "@ To put a mark on an object either by printing on it or pushing into it with a small tool.",
+        "It's necessary to stamp your passport.",
+        "Every carton of yogurt is stamped with a sell-by date.",
+        "@ To put a foot down on the ground hard and quickly, making a loud noise, often to show anger.",
+        "With a stamp of her foot she stormed out.",
+        "I wish those people upstairs would stop stamping ( about/ around ) .",
+        "The little boy was stamping his foot and refusing to take his medicine."
+      ]
+    }
   ],
   "flee": [
     "@ To escape by running away, esp. because of danger or fear.",
@@ -2324,7 +2344,6 @@
       ]
     }
   ],
-  "stamp": [""],
   "bidder": [""],
   "auction": [""],
   "copper": [""],
