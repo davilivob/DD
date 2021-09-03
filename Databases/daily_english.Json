@@ -352,7 +352,10 @@
         "@ The origin of something that develops, esp.",
         "A cell from which grain grows or the beginning of an idea.",
         "He found the germ of an idea in an old newspaper.",
-        "Alefandro's suggestion was the germ of the whole idea."
+        "Alefandro's suggestion was the germ of the whole idea.",
+        {
+          "thrive": [""]
+        }
       ],
       "plankton": [
         "@ Very small plants and animals that float on the surface of the sea and on which other sea animals feed.",
@@ -2534,7 +2537,13 @@
       ]
     }
   ],
-  "paradoxically": [""],
+  "paradoxically": [
+    "@ In a way that seems impossible or difficult to understand because of containing two opposite facts or characteristics.",
+    "The big thing in video equipment is, paradoxically, sound.",
+    "Paradoxically, the cleaner lakes have made it easier for foreign species to thrive.",
+    "As the epidemic ravaged the community, it paradoxically strengthened it.",
+    "Paradoxically, the best chance farmers have of seeing grain prices rise would be a year where bad weather produced a small crop."
+  ],
   "macro-": [""],
   "proposal": [""],
   "idiosyncratic": [""],
