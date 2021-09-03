@@ -1815,14 +1815,33 @@
       ],
       "arbitration": [
         "@ The process of solving an argument between people by helping them to agree to an acceptable solution.",
-        "Both sides in the dispute have agreed to go to arbitration (= to have the disagreement solved by an arbitrator)."
+        "Both sides in the dispute have agreed to go to arbitration (= to have the disagreement solved by an arbitrator).",
+        {
+          "arbitrator": [
+            "@ A person who has been officially chosen to make a decision between two people or groups who do not agree.",
+            "An arbitrator then has 30 days to make a decision.",
+            "And ' defense ' meant only that they were assured a fair hearing before an impartial arbitrator."
+          ],
+          "treaty": [
+            "@ A written agreement between two or more countries, formally approved and signed by their leaders.",
+            "We've signed/ concluded a treaty with neighboring states to limit emissions of harmful gases.",
+            "The latest nation to ratify the treaty is France.",
+            "The US wants a new air treaty with the UK to lift barriers on the cities that each nations' carriers can serve."
+          ]
+        }
       ],
-      "arbitrator": [
-        "@ A person who has been officially chosen to make a decision between two people or groups who do not agree.",
-        "An arbitrator then has 30 days to make a decision.",
-        "And ' defense ' meant only that they were assured a fair hearing before an impartial arbitrator."
-      ],
-      "umpire": [""]
+      "umpire": [
+        "& A person who is present at a sports competition in order to make certain that the rules of that particular game are obeyed and to judge if particular actions are acceptable.",
+        "The umpire overruled the linesman and ordered the point to be replayed.",
+        "We have all been brought up to accept the umpire's decision.",
+        "The introduction of replay has helped the umpires in getting some of the most important calls.",
+        "Who's going to umpire the game tonight?",
+        {
+          "linesman": [
+            "& An official in some sports who is responsible for deciding when the ball has crossed the line that marks the edge of the playing area."
+          ]
+        }
+      ]
     }
   ],
   "alchemy": [
@@ -2222,7 +2241,8 @@
     {
       "lead": [
         "@ As a noun, lead can be a chemical element with the symbol Pb and atomic number 82."
-      ]
+      ],
+      "resin": [""]
     }
   ],
   "sneaky": [
@@ -2474,14 +2494,26 @@
     "@ Light created by the body of a living creature, for example by some sea creatures and insects such as fireflies.",
     "Plankton float in the ocean current, sparkling with bioluminescence."
   ],
-
   "treat": [
-    "",
-    {
-      "treaty": [""]
-    }
+    "@ To behave toward someone or deal with something in a particular way.",
+    "My parents treated us all the same when we were kids.",
+    "It's wrong to treat animals as if they had no feelings.",
+    "I treat remarks like that with the contempt that they deserve.",
+    "@ To use drugs, exercises, etc. to cure a person of a disease or heal an injury.",
+    "Western medicine tends to treat the symptoms and not the cause.",
+    "@ To buy or pay for something for another person.",
+    "I'm going to treat myself to (= buy for myself ) a new pair of sandals.",
+    "@ To put a special substance on material such as wood, cloth, metal, etc. or put it through a special process, in order to protect it from damage or decay.",
+    "The material has been treated with resin to make it waterproof.",
+    "@ A special and enjoyable occasion or experience.",
+    "We're going to Italy for the weekend - it's my birthday treat.",
+    "As a special treat, I'll take you to my favorite restaurant.",
+    "@ A type of food is eaten in addition to your usually meals, usually something sweet.",
+    "There is a lot of competition with the sugar-filled and artificially flavored treats on the store shelves.",
+    "Try to encourage children not to eat too many of those snacks and treats tha tend to pile on the pounds without provinding much nutrition.",
+    "@ A small piece of food, often specially produced, that is given to pets in addition to their usual food, for example as a reward.",
+    "The owner said the dog was dangerous, but when I fed it dog treats it would take them gently out of my hand."
   ],
-
   "synthesis": [""],
   "neoclassical": [""],
   "paradoxically": [""],
