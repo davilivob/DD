@@ -2178,11 +2178,22 @@
     "The company has three copper mines and a smelter in Arizona",
     "The lead smelters had been losing money for years.",
     {
-      "lead": [
-        "@ As a noun, lead can be a chemical element with the symbol Pb and atomic number 82."
-      ],
       "smelt": [
         "@ To get a metal from rock by heating it to a very high temperature, or to melt objects made from metal in order to use the metal to make something new."
+      ]
+    }
+  ],
+  "copper": [
+    "@ A chemical element that is a reddish-brown metal, used esp. for making wire and coins.",
+    "One of the properties of copper is that it conducts heat and electrcity very well.",
+    "@ The color of the metal copper.",
+    "The copper of Rosie's hair shone in the sunlight.",
+    "He had piercing black eyes, copper skin and blue-black curling hair.",
+    "@ A brown coin of low value.",
+    "I gave him a few coppers.",
+    {
+      "lead": [
+        "@ As a noun, lead can be a chemical element with the symbol Pb and atomic number 82."
       ]
     }
   ],
@@ -2370,9 +2381,19 @@
       ]
     }
   ],
-  "copper": [""],
-  "medicinal": [""],
-  "herb": [""],
+  "medicinal": [
+    "@ Medicinal substances are used to cure illesses.",
+    "It's said that the spring water has medicinal properties.",
+    {
+      "medicinally": [
+        "This herbs has been used medicinally for centuries.",
+        "You can cook with them or use them medicinally, but don't underestimate their powers.",
+        "Medicinally, ginger helps settle the stomach and may be used to treat motion sickness.",
+        "The oil is used medicinally to boost the immune system."
+      ]
+    }
+  ],
+  "herb": ["@ A type "],
   "falsification": [""],
   "inquiry": [""],
   "emission": [""],
