@@ -2393,7 +2393,17 @@
       ]
     }
   ],
-  "herb": ["@ A type "],
+  "herb": [
+    "@ A type plant with a soft stem whose leaves are used in cooking to give flavor to particular dishes or in making medicine.",
+    "Basil, oregano, thyme, and rosemary are all herbs.",
+    "A large range of herbs and spices are used in South Asian cooking.",
+    {
+      "basil": [""],
+      "oregano": [""],
+      "thyme": [""],
+      "rosemary": [""]
+    }
+  ],
   "falsification": [""],
   "inquiry": [""],
   "emission": [""],
