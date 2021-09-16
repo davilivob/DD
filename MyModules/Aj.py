@@ -118,4 +118,5 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "esp", "especially", "'")
         splitQruotationMark(wordsList, "sth", "something", "'")
         splitQruotationMark(wordsList, "sb", "somebody", "'")
+        splitQruotationMark(wordsList, "o'clock", "o", "clock")
 

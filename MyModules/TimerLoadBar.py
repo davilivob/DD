@@ -30,7 +30,7 @@ if doTheTimeBar == True:
             loadRatio = timeNow() / Counter.prevTime
             sys.stdout.write(
                 Art.FontEffect(
-                    "".join(["\u001b[1000D" + Art.LoadBar(loadRatio, barRange, 0)]),
+                    "".join(["\u001b[1000D" , Art.LoadBar(loadRatio, barRange, 0)]),
                     208,
                     0,
                 )

@@ -26,7 +26,8 @@
     "In the word \"engine\", you should stress the first syllable.",
     {
       "typo": [""],
-      "plural": ["Geese is the plural of goose."]
+      "plural": ["Geese is the plural of goose."],
+      "notation": [""]
     }
   ],
   "slang": [
@@ -79,6 +80,12 @@
     {
       "ignore": [
         "& Ignore just means that someone doesn't pay attention. Neglect is leaving something alone to the point that it falls aparts or breaks."
+      ],
+      "omit": [
+        "",
+        {
+          "omission": [""]
+        }
       ]
     }
   ],
@@ -170,6 +177,7 @@
         "These days, trangendered has negative connotations and transgender is widely considered proper, though it remains open to debate, as does its definition."
       ],
       "denote": [
+        "@ To represent something.",
         "The color red used to denote passion or danger.",
         "His angry tone denoted extreme displeasure.",
         "The vertical line denotes the relative abundance of vertebrate remains in the various depositional environments.",
@@ -221,9 +229,44 @@
             {
               "advice": [
                 "I think I'll take your advice and get the green dress.",
-                "Morover, a panel is now allowed to seek information and technical advice from any individual or body which it deems appropriate."
+                "Moreover, a panel is now allowed to seek information and technical advice from any individual or body which it deems appropriate."
               ]
             }
+          ]
+        }
+      ]
+    }
+  ],
+  "instruction": [
+    "@ Something that someone tells you to do.",
+    "The police who broke into the house were only acting on/ under instructions.",
+    "He gave me strict intructions to get there by eight o'clock.",
+    "@ Advice and information about how to do or use something, often written in a book or on the side of a container.",
+    "The cooking instructions say to bake it for half an hour.",
+    "You obviously didn't read th einstructions properly.",
+    "They need clear instructions on what to do next.",
+    "@ The teaching of a particular skill or subject.",
+    "The video provides instruction on how to operate the computer.",
+    "Have you seen the instruction manual for the washing machine?",
+    "@ The act of teaching someone how to do something.",
+    "The course gives you basic instruction in car maintenance and repairs.",
+    {
+      "proposal": [
+        "@ Suggestion, sometimes a written one.",
+        "Congress has rejected the latest economic proposal put forward by the President.",
+        "The president's proposal was to tax a percentage of Social Security benefits for high-income people.",
+        "Investors approved the merger proposal.",
+        "Management has made proposals to cap overtime.",
+        "@ An official document in which you give information about yourself and your property for an insurance agreement.",
+        "Once you completed the on-screen proposal form, the premium and cover details are sent to you by e-mail.",
+        {
+          "insurance": [
+            "@ An agreement in which you pay a company money and they pay your costs if you have an accident, injury, etc.",
+            "I'll need to take out extra car insurance for another driver.",
+            "The insurance doesn't cover you for (= include ) household items.",
+            "I claimed on the insurance for the damage to the furniture.",
+            "@ Money that is paid by an insurance company.",
+            "I had to cancel the trip, but I got back nearly $1000 in insurance."
           ]
         }
       ]
@@ -438,7 +481,8 @@
         "The organization had been penetrated by a spy.",
         "The company has been successful in penetrating overseas markets this year (= it has started selling its products in them).",
         "He penetrates deeper into the artist's life in the second volume of his autobiography."
-      ]
+      ],
+      "traverse": [""]
     }
   ],
   "baffle": [
@@ -541,7 +585,8 @@
         "We don't have any firm plans for the weekend.",
         "@ A company that sells goods or services.",
         "A law firm is a business entity formed by one or more lawyers to engage in the practice of law."
-      ]
+      ],
+      "strict": [""]
     }
   ],
   "optimism": [
@@ -735,15 +780,18 @@
     {
       "concise": [
         "@ Short and clear, expressing what needs to be said without ennecessary words.",
-        "She wrote up a concise summary of the day's events."
+        "She wrote up a concise summary of the day's events.",
+        {
+          "succinct": [""],
+          "summary": [
+            "I only asked for a summary of the main points but she was making a real meal out of it.",
+            "In summary, they decided against the proposal.",
+            "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocabulary."
+          ]
+        }
       ],
       "coherence": [
         "An essay without coherence can inhibit a reader's ability to understand the ideas and main points of the essay."
-      ],
-      "summary": [
-        "I only asked for a summary of the main points but she was making a real meal out of it.",
-        "In summary, they decided against the proposal.",
-        "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocabulary."
       ],
       "blurb": [""]
     }
@@ -1400,10 +1448,18 @@
   "preserve": [
     "He wanted to protect her and preserve her innocence.",
     {
+      "reserve": [""],
       "conserve": [""],
-      "restore": [""]
+      "retain": [""],
+      "maintain": [
+        "",
+        {
+          "maintenance": [""]
+        }
+      ]
     }
   ],
+  "restore": [""],
   "effigy": ["The effigy on it may be taken to be an authentic portrait."],
   "urine": [
     "@ A waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
@@ -1421,7 +1477,8 @@
         "He derives an enormous amount of satisfaction from restoring old houses.",
         "Much of it is derived from family interactions he has overheard through the years."
       ],
-      "receive": [""]
+      "receive": [""],
+      "obtain": [""]
     }
   ],
   "chauvinistic": [
@@ -1678,7 +1735,10 @@
     "@ An organization that represents the people who work in a particular industry, protects their rights and may agree pay, working conditions, etc. with their employers.",
     "The unions are on strike over wage concerns.",
     " \"No date has yet been set for a strike\", the union said in a statements to the press this morning.",
-    "The political activity of each affiliated union is highly regulated by statute."
+    "The political activity of each affiliated union is highly regulated by statute.",
+    {
+      "intersection": [""]
+    }
   ],
   "intention": [
     "@ Something that you want and plan to do; an aim.",
@@ -1761,7 +1821,21 @@
     }
   ],
   "interchangeably": [
-    "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably."
+    "@ When two sweaters look almost the same and you could easily wear either one with a particular skirt, this is an example of when the sweaters can be worn interchangeably.",
+    {
+      "commutative": [
+        "",
+        {
+          "associative": [
+            "",
+            {
+              "associate": [""]
+            }
+          ],
+          "distributive": [""]
+        }
+      ]
+    }
   ],
   "severity": ["@ The fact or condition of being severe."],
   "distinguish": [
@@ -2327,7 +2401,8 @@
         "The design of the house had a pleasing symmetry, its oblong shape being picked up in its elongated winsdows.",
         "@ In mathematics, the quality of having two parts that match exactly, either when one half is like an image of the other half in a mirror, or when one part can take the place of another if it is turned 90 degrees or 180 degrees.",
         {
-          "symmetrical": ["Many types of triangles are symmetrical."]
+          "symmetrical": ["Many types of triangles are symmetrical."],
+          "symmetric": [""]
         }
       ],
       "dimension": [
@@ -2480,7 +2555,10 @@
       "verifiable": [
         "@ Able to be proved.",
         "The inquiry found no verifiable evidence of document of data falsification.",
-        "The treaty aims to make developing countries' emissions cuts verifiable."
+        "The treaty aims to make developing countries' emissions cuts verifiable.",
+        {
+          "verify": [""]
+        }
       ]
     }
   ],
@@ -2542,14 +2620,34 @@
     "The big thing in video equipment is, paradoxically, sound.",
     "Paradoxically, the cleaner lakes have made it easier for foreign species to thrive.",
     "As the epidemic ravaged the community, it paradoxically strengthened it.",
-    "Paradoxically, the best chance farmers have of seeing grain prices rise would be a year where bad weather produced a small crop."
+    "Paradoxically, the best chance farmers have of seeing grain prices rise would be a year where bad weather produced a small crop.",
+    {
+      "contradiction": [
+        "",
+        {
+          "contradict": [""]
+        }
+      ]
+    }
   ],
-  "macro-": [""],
-  "proposal": [""],
+  "macro-": [
+    "@ Large; relating to the whole of something, rather than its parts.",
+    "At a macro-level, economic trends play a fundamental role.",
+    "The state's ability to exercise macro-control was weakened.",
+    {
+      "macroscopic": ["@ Large enough to be seen by the human eye."],
+      "macroeconomics": [
+        "@ The study of financial systems at a national level."
+      ],
+      "macro": [
+        "@ A single instruction given to a computer that produces a set of instructions for the computer to perform a particular piece of work.",
+        "I've created a macro to spell check all the files at the same time."
+      ]
+    }
+  ],
   "idiosyncratic": [""],
   "presence": [""],
   "prenatal": [""],
-  "instruction": [""],
   "contract": [""],
   "evaluate": [""],
   "figure": [""],
@@ -2563,7 +2661,6 @@
     }
   ],
   "agenda": [""],
-  "strict": [""],
   "rigid": [""],
   "demand": [""],
   "exert": [""],
@@ -2582,7 +2679,6 @@
   "handful": [""],
   "stratified": [""],
   "porcelain": [""],
-  "household": [""],
   "christianity": [""],
   "glittering": [""],
   "ceremony": [""],
@@ -2600,7 +2696,12 @@
   "attribute": [""],
   "depositional": [""],
   "implement": [""],
-  "equivalent": [""],
+  "equivalent": [
+    "",
+    {
+      "equipotent": [""]
+    }
+  ],
   "obscured": [""],
   "preside": [""],
   "architectural": [""],
@@ -2688,7 +2789,12 @@
   "citrate": [""],
   "sodium": [""],
   "chlorine": [""],
-  "unprecedented": [""],
+  "unprecedented": [
+    "",
+    {
+      "precede": [""]
+    }
+  ],
   "ascent": [""],
   "scheme": [""],
   "mansion": [""],
@@ -2715,7 +2821,6 @@
   "delicacy": [""],
   "stain": [""],
   "detergent": [""],
-  "whereas": [""],
   "epistemic": [""],
   "export": [""],
   "fiber": [""],
@@ -2746,8 +2851,26 @@
   "impose": [""],
   "lobe": [""],
   "juvenile": [""],
-  "remark": [""],
-  "therefore": [""],
+  "remark": [
+    "",
+    {
+      "appendix": [""]
+    }
+  ],
+  "therefore": [
+    "",
+    {
+      "worthwhile": [""],
+      "whatsoever": [""],
+      "whereas": [""]
+    }
+  ],
+  "hence": [
+    "",
+    {
+      "since": [""]
+    }
+  ],
   "modernize": [""],
   "repair": [""],
   "mist": [""],
@@ -2762,7 +2885,13 @@
   "general": [""],
   "famine": [""],
   "solvent": [""],
-  "furniture": [""],
+  "furniture": [
+    "",
+    {
+      "furnish": [""],
+      "household": [""]
+    }
+  ],
   "augment": [""],
   "trial": [""],
   "verdict": [""],
@@ -2777,11 +2906,9 @@
   "appeal": [""],
   "aviation": [""],
   "pension": [""],
-  "insurance": [""],
   "trustee": [""],
   "haggling": [""],
   "spinning": [""],
-  "symmetrical": [""],
   "Pole": [""],
   "revolve": [
     "",
@@ -2795,7 +2922,12 @@
   "lackey": [""],
   "humiliate": [""],
   "mildly": [""],
-  "examination": [""],
+  "examination": [
+    "",
+    {
+      "examine": [""]
+    }
+  ],
   "hostile": [""],
   "dazzling": [""],
   "conduct": [""],
@@ -2823,7 +2955,13 @@
   "evolved": [""],
   "carton": [""],
   "cite": [""],
-  "reserve": [""],
+  "converse": [
+    "",
+    {
+      "reverse": [""],
+      "inverse": [""]
+    }
+  ],
   "reddish": [""],
   "piercing": [""],
   "underestimate": [""],
@@ -2841,6 +2979,160 @@
     "",
     {
       "radioisotopes": [""]
+    }
+  ],
+  "contempt": [""],
+  "sandal": [""],
+  "pile": [""],
+  "conclude": [""],
+  "neighboring": [""],
+  "ratify": [""],
+  "barrier": [""],
+  "overrule": [""],
+  "introduction": [""],
+  "domed": [""],
+  "strengthen": [""],
+  "ravage": [""],
+  "satisfactory": [""],
+  "convergence": [
+    "",
+    {
+      "continuity": [""],
+      "differentiation": [""]
+    }
+  ],
+  "integration": [
+    "",
+    {
+      "integer": [
+        "",
+        {
+          "odd": [""],
+          "even": [""]
+        }
+      ],
+      "quotient": [""]
+    }
+  ],
+  "real number": [
+    "",
+    {
+      "complex number": [
+        "",
+        {
+          "conjugate": [""]
+        }
+      ],
+      "rational number": [
+        "",
+        {
+          "irrational number": [""]
+        }
+      ]
+    }
+  ],
+  "axiom": [
+    "",
+    {
+      "theorem": [""],
+      "hypothesis": [""],
+      "lemma": [""]
+    }
+  ],
+  "arithmetic": [
+    "",
+    {
+      "equation": [""],
+      "divisible": [""],
+      "algebraic": [""]
+    }
+  ],
+  "rational": [""],
+  "inadequate": [""],
+  "field": [""],
+  "presently": [""],
+  "corresponding": [
+    "",
+    {
+      "correspond": [""],
+      "correspondence": [""]
+    }
+  ],
+  "so-called": [""],
+  "arise": [""],
+  "sequence": [""],
+  "contrary": [""],
+  "assume": [
+    "",
+    {
+      "assumption": [""]
+    }
+  ],
+  "explicitly": [
+    "",
+    {
+      "clarity": [""]
+    }
+  ],
+  "subset": [""],
+  "elucidate ": [""],
+  "supremum": [
+    "",
+    {
+      "infimum": [""],
+      "lesgest": [""]
+    }
+  ],
+  "customary": [""],
+  "cancellation": [""],
+  "vice versa": [""],
+  "coinside": [""],
+  "extract": [""],
+  "archimedean": [
+    "",
+    {
+      "euclidean": [""]
+    }
+  ],
+  "dense": [""],
+  "glossary": [""],
+  "corollary": [""],
+  "assertion": [""],
+  "convention": [""],
+  "superfluous": [""],
+  "verify": [""],
+  "trivial": [""],
+  "occasionally": [""],
+  "macroeconomic": [""],
+  "inner product": [
+    "",
+    {
+      "outer product": [""]
+    }
+  ],
+  "insufficient": [""],
+  "finite": [
+    "",
+    {
+      "norm": [""]
+    }
+  ],
+  "distinct": [""],
+  "reflexive": [""],
+  "enumerable": [
+    "",
+    {
+      "denumerable": [""]
+    }
+  ],
+  "evidently": [""],
+  "notion": [""],
+  "justified": [""],
+  "consecutive": [""],
+  "motivation": [
+    "",
+    {
+      "intuition": [""]
     }
   ]
 }
