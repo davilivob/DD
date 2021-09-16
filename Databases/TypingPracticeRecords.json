@@ -2203,4 +2203,4 @@
       "a"
     ]
   }
-,{"TestEndTime":"2021/9/16 P.M. 02:37:50","TestLength":1,"TotalChars":318,"GoodChars":301,"TotalBack":7,"WrongWords":["slaves","usually","difficulties"],"WrongChars":["Spaces","i","l","a","v","e","s","Spaces","r","y","Spaces","l","t","o","n","a","w"]}]  
+,{"TestEndTime":"2021/9/16 P.M. 02:37:50","TestLength":1,"TotalChars":318,"GoodChars":301,"TotalBack":7,"WrongWords":["slaves","usually","difficulties"],"WrongChars":["Spaces","i","l","a","v","e","s","Spaces","r","y","Spaces","l","t","o","n","a","w"]},{"TestEndTime":"2021/9/16 P.M. 05:50:17","TestLength":3,"TotalChars":889,"GoodChars":850,"TotalBack":28,"WrongWords":["nonentity","unusual","bag","peanuts","exists","some"],"WrongChars":["c","n","t","i","t","y","Spaces","p","t","n","e","b","a","h","r","o","Spaces","g","u","s","s","e","j","u","s","t","e","h","t","s","o","Spaces","m","z","a","a","Spaces","m","u"]}]  

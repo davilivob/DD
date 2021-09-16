@@ -367,7 +367,7 @@
     "@ A building or part of a hospital where people go for medical care or advice.",
     "prenatal clinics provide care for pregnant women.",
     {
-      "clinical":[""],
+      "clinical": [""],
       "injection": [""]
     }
   ],
@@ -1760,6 +1760,7 @@
     "The new model retains all the advantages of its predecessor but offers five times the speed.",
     {
       "colleague": [""],
+      "occupation": [""],
       "former": [""],
       "senior": [""]
     }
@@ -3186,5 +3187,9 @@
     {
       "intuition": [""]
     }
-  ]
+  ],
+  "container": [""],
+  "manual": [""],
+  "cap": [""],
+  "meridiem": [""]
 }
