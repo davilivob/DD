@@ -91,6 +91,8 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "that's", "that", "is")
         splitQruotationMark(wordsList, "what's", "what", "is")
         splitQruotationMark(wordsList, "he's", "he", "is")
+        splitQruotationMark(wordsList, "am", "ante", "meridiem")
+        splitQruotationMark(wordsList, "pm", "post", "meridiem")
         splitQruotationMark(wordsList, "i'm", "i", "am")
         splitQruotationMark(wordsList, "you're", "you", "are")
         splitQruotationMark(wordsList, "they're", "they", "are")

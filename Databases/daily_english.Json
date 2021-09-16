@@ -367,6 +367,7 @@
     "@ A building or part of a hospital where people go for medical care or advice.",
     "prenatal clinics provide care for pregnant women.",
     {
+      "clinical":[""],
       "injection": [""]
     }
   ],
@@ -1758,6 +1759,7 @@
     "The latest Ferrari is not only faster than its predecessors but also more comfortable,",
     "The new model retains all the advantages of its predecessor but offers five times the speed.",
     {
+      "colleague": [""],
       "former": [""],
       "senior": [""]
     }
@@ -2644,8 +2646,61 @@
       ]
     }
   ],
-  "idiosyncratic": [""],
+  "idiosyncratic": [
+    "@ Having strange or unusual habits, ways of behaving, or features.",
+    "The film, three hours long, is directed in his usual idiosyncratic style.",
+    "He's been working on an idiosyncratic score to an equally idiosyncratic film.",
+    {
+      "idiosyncrasy": [
+        "@ A strange or unusual habit, way of behaving, or feature that someone or something has.",
+        "She often cracks her knuckles when she's speaking - it's one of her little idiosyncrasies.",
+        "One of the idiosyncrasies of this printer is that you can't stop it once it has started."
+      ],
+      "foible": [
+        "@ A strange habit or characteristic that is seen as not important and not harming anyone.",
+        "We all have our little foibles."
+      ]
+    }
+  ],
+  "present": [
+    "@ Something that you're given, without asking for it, on a special occasion, esp. to show friendship, or to say thank you.",
+    "They gave me theater tickets as a present.",
+    "@ In a particular place.",
+    "The whole family was present.",
+    "There were no children present.",
+    "@ Happening or existing now.",
+    "I don't have her present address.",
+    "Please state your present occupation and salary.",
+    "@ To give, provide, or make something known.",
+    "The winners were presented with medals.",
+    "The letter presented the family with a problem that would be difficult to solve.",
+    "The documentary presented us with a balanced view of the issue.",
+    "He presented the report to his colleagues at the meeting.",
+    "To see a doctor, etc. when showing particular signs of an illness or medical condition.",
+    "When patients present with chest pain, clinical examination and patient history are fundamental to determine the probable cause of pain.",
+    {
+      "the present": [
+        "@ The period of time that is happening now, not the past or the future.",
+        "That's all for the present.",
+        "The play is set in the present.",
+        "@ The form of the verb that is used to show what happens or exists now.",
+        "The verb in this sentence is in the present."
+      ],
+      "at present": [
+        "@ Now",
+        " \" Are you busy? \" \" Not at present. \".",
+        "At present she's working abroad."
+      ],
+      "present oneself": [
+        "@ To arrive somewhere and introduce yourself.",
+        "He presented himself at the doctor's at 9:30 a.m. as arranged.",
+        "@ If something presents itself, it happens.",
+        "An opportunity suddenly presented itself."
+      ]
+    }
+  ],
   "presence": [""],
+  "presently": [""],
   "prenatal": [""],
   "contract": [""],
   "evaluate": [""],
@@ -2710,7 +2765,6 @@
   "postgraduates": [""],
   "clay": [""],
   "anticipate": [""],
-  "present": [""],
   "dynamic": [""],
   "circulate": [""],
   "medic": [""],
@@ -3049,7 +3103,6 @@
   "rational": [""],
   "inadequate": [""],
   "field": [""],
-  "presently": [""],
   "corresponding": [
     "",
     {
