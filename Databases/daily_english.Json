@@ -1683,7 +1683,6 @@
   "scent": [
     "The weather is fine, and the air is full of the scent of strawberries."
   ],
-  "absurd": ["The idea was absurd, even for someone as chauvinistic as Romas."],
   "proportion": [
     "After that, it diminishes roughly in proportion to the delay."
   ],
@@ -2629,6 +2628,9 @@
         {
           "contradict": [""]
         }
+      ],
+      "absurd": [
+        "The idea was absurd, even for someone as chauvinistic as Romas."
       ]
     }
   ],
