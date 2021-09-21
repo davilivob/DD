@@ -605,7 +605,8 @@
       "pessimism": ["An underlying pessimism infuses all her novels."],
       "passionate": [
         "She was passionate about Asian cooking and that has reflected in her dining experience."
-      ]
+      ],
+      "brooding": [""]
     }
   ],
   "scarcely": [
@@ -1614,7 +1615,7 @@
         "The facility will employ 150 people and be patterned after the steel fastener facility in Saint Joe, Indiana."
       ],
       "a holding pattern": [
-        "@ A situation where there is little activity or change, and people are not doing business, spending money, etc. because they can't decide waht to do next.",
+        "@ A situation where there is little activity or change, and people are not doing business, spending money, etc. because they can't decide what to do next.",
         "Several deals went into an immediate holding pattern after the crisis."
       ]
     }
@@ -2399,7 +2400,7 @@
       "diameter": [""],
       "symmetry": [
         "@ The quality of having parts that match each other, esp. in a way that is attractive, or similarity of shape or contents.",
-        "The design of the house had a pleasing symmetry, its oblong shape being picked up in its elongated winsdows.",
+        "The design of the house had a pleasing symmetry, its oblong shape being picked up in its elongated windows.",
         "@ In mathematics, the quality of having two parts that match exactly, either when one half is like an image of the other half in a mirror, or when one part can take the place of another if it is turned 90 degrees or 180 degrees.",
         {
           "symmetrical": ["Many types of triangles are symmetrical."],
@@ -2700,10 +2701,31 @@
         "@ If something presents itself, it happens.",
         "An opportunity suddenly presented itself."
       ]
+    },
+    {
+      "presence": [
+        "@ The fact that someone or something is in a place.",
+        "She was overawed by the presence of so many people.",
+        "The presence of pollen in the atmosphere causes hay fever in some people.",
+        "@ A feeling that someone is still in a place although they are not there or are dead.",
+        "His daughter's presence seemed to fill her empty bedroom.",
+        "@ A group of police or soldiers who are watching or controlling a situation.",
+        "The United Nations has maintained a presence in the region for some time.",
+        "There was a strong police presence at the demonstration.",
+        "@ A quality that makes people notice or admire you, even when you're not speaking.",
+        "He stood there in the corner of the room, a dark, brooding (= worrying) presence.",
+        "@ A person's ability to make his or her character known to others.",
+        "He writes better, he reports better, and his presence on camera is better."
+      ],
+      "presently": [
+        "@ Now, at the present time.",
+        "Of 200 boats, only 20 are presently operational.",
+        "Three sites are presently under consideration for the new hotel.",
+        "@ Soon, not at present time but in the future, after a short time.",
+        "The room was hot and presently her eyes grew heavy and she began to feel sleepy."
+      ]
     }
   ],
-  "presence": [""],
-  "presently": [""],
   "prenatal": [""],
   "contract": [""],
   "evaluate": [""],
