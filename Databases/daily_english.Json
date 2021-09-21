@@ -365,10 +365,14 @@
   ],
   "clinic": [
     "@ A building or part of a hospital where people go for medical care or advice.",
-    "prenatal clinics provide care for pregnant women.",
+    "Bring your baby to the clinic and we'll take a look at her.",
     {
       "clinical": [""],
-      "injection": [""]
+      "injection": [""],
+      "prenatal": [
+        "@ Relating to the medical care given to pregnant women before their babies are born.",
+        "Prenatal clinics provide care for pregnant women."
+      ]
     }
   ],
   "symptom": [
@@ -2726,7 +2730,6 @@
       ]
     }
   ],
-  "prenatal": [""],
   "contract": [""],
   "evaluate": [""],
   "figure": [""],
