@@ -367,7 +367,15 @@
     "@ A building or part of a hospital where people go for medical care or advice.",
     "Bring your baby to the clinic and we'll take a look at her.",
     {
-      "clinical": [""],
+      "clinical": [
+        "@ Used to refer to medical work or teaching that relates to the examination and treatment of ill people.",
+        "She recently underwent a clinical evaluation in hospital.",
+        "Clinical tests have so far failed to show the cause of her illness.",
+        "@ Expressing no emotion or feellings.",
+        "She seems to have a very clinical attitude toward her children.",
+        "@ Showing no character and warmth.",
+        "We were going to paint our kitchen white, but we decided that would look too clinical."
+      ],
       "injection": [""],
       "prenatal": [
         "@ Relating to the medical care given to pregnant women before their babies are born.",
