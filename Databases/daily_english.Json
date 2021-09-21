@@ -423,7 +423,9 @@
       ],
       "microscopic": [
         "@ An adjective as invisible or indistinguishable without the use of a microscope."
-      ],
+      ]
+    },
+    {
       "pathogen": [
         "@ An organism causing disease to its host, with the severity of the disease symptoms referred to as virulence."
       ],
@@ -435,7 +437,11 @@
         "He found the germ of an idea in an old newspaper.",
         "Alefandro's suggestion was the germ of the whole idea.",
         {
-          "thrive": [""]
+          "thrive": [
+            "@ To grow, develop, or be successful.",
+            "His business thrived in the years before the war.",
+            "She seems to thrive on stress."
+          ]
         }
       ],
       "plankton": [
