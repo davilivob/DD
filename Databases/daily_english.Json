@@ -495,7 +495,9 @@
     "@ In language, a word whose original form has been changed.",
     "The swear word ' bloody ' is wrongly thought by some to be a corruption of the words \"by our Lady\".",
     {
-      "corrupt": [""],
+      "corrupt": [""]
+    },
+    {
       "mold": [
         "",
         {
@@ -573,7 +575,8 @@
         "I'm afraid I succumbed to temptation and had a piece of cheesecake.",
         "@ To die or suffer badly from an illness.",
         "Thousands of cows have succumbed to the disease in the past few months."
-      ]
+      ],
+      "overaw": [""]
     }
   ],
   "deed": [
@@ -612,12 +615,6 @@
   "fasten": [
     "Make sure your seat belt is securely fastened.",
     {
-      "firmly": [
-        "Make sure the rope is firmly attached before attempting to climb down.",
-        "The door was firmly shut.",
-        "\"Let me do it,\" she said firmly.",
-        "I'm firmly convinced that we should keep going."
-      ],
       "firm": [
         "@ Not soft, but not completely hard.",
         "The firm bed is better for your back.",
@@ -628,10 +625,22 @@
         "@ Certain and not likely to change.",
         "We don't have any firm plans for the weekend.",
         "@ A company that sells goods or services.",
-        "A law firm is a business entity formed by one or more lawyers to engage in the practice of law."
+        "A law firm is a business entity formed by one or more lawyers to engage in the practice of law.",
+        {
+          "firmly": [
+            "Make sure the rope is firmly attached before attempting to climb down.",
+            "The door was firmly shut.",
+            "\"Let me do it,\" she said firmly.",
+            "I'm firmly convinced that we should keep going."
+          ]
+        }
       ],
-      "strict": [""],
-      "tender": [""]
+      "strict": [
+        "",
+        {
+          "tender": [""]
+        }
+      ]
     }
   ],
   "optimism": [
@@ -642,13 +651,19 @@
       ],
       "optimistic": [
         "The doctor said she was optimistic about the outcome of the operation but forbore to make any promises at this early stage."
-      ],
-      "pessimistic": [
-        "At the time in history when our future has never looked brighter, it is baffling that some people are more pessimistic than ever."
-      ],
-      "pessimism": ["An underlying pessimism infuses all her novels."],
-      "passionate": [
-        "She was passionate about Asian cooking and that has reflected in her dining experience."
+      ]
+    },
+    {
+      "pessimism": [
+        "An underlying pessimism infuses all her novels.",
+        {
+          "pessimistic": [
+            "At the time in history when our future has never looked brighter, it is baffling that some people are more pessimistic than ever."
+          ],
+          "passionate": [
+            "She was passionate about Asian cooking and that has reflected in her dining experience."
+          ]
+        }
       ],
       "brooding": [""]
     }
@@ -817,29 +832,33 @@
     "Traffic noice is just one of several minor irritations (= small problems).",
     {
       "irritate": ["You're really irritating me right now. Go away!"],
-      "annoy": ["Damn, you're so annoying."],
       "irritated": ["My skin is irritated (= itchy and hurts)."]
+    },
+    {
+      "annoy": ["Damn, you're so annoying."]
     }
   ],
   "coherent": [
     "When she calmed down, she was more coherent (= able to speak clearly and be understood).",
+    {
+      "coherence": [
+        "An essay without coherence can inhibit a reader's ability to understand the ideas and main points of the essay."
+      ]
+    },
     {
       "concise": [
         "@ Short and clear, expressing what needs to be said without ennecessary words.",
         "She wrote up a concise summary of the day's events.",
         {
           "succinct": [""],
+          "blurb": [""],
           "summary": [
             "I only asked for a summary of the main points but she was making a real meal out of it.",
             "In summary, they decided against the proposal.",
             "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocabulary."
           ]
         }
-      ],
-      "coherence": [
-        "An essay without coherence can inhibit a reader's ability to understand the ideas and main points of the essay."
-      ],
-      "blurb": [""]
+      ]
     }
   ],
   "committee": [
@@ -922,9 +941,11 @@
         "& Syrup is a mixture of sugar and water while molasses is a by-product of the sugar-making process.",
         "& Molasses is a type of syrup.",
         "& Both are used as a base for food and beverage, but syrup can be made by simply mixing together sugar and water while molasses is made by boiling the juice of whatever fruit is available.",
-        "@ For example, maple syrup."
+        "@ For example, maple syrup.",
+        {
+          "syrupy": ["Heat the liquid until it is thick and syrupy."]
+        }
       ],
-      "syrupy": ["Heat the liquid until it is thick and syrupy."],
       "sucrose": [
         "@ The type of sugar that exists naturally in most plants that grow on land."
       ],
@@ -935,15 +956,17 @@
   "emphasis": [
     "Where do you put the emphasis in the word \"controvery\"?",
     {
-      "utmost": [
-        "The situation needs to be handled with the utmost care.",
-        "The new model of the car offers the utmost in power and performance."
-      ],
       "emphatic": [
         "Poland reached the final of the championship yesterday with an emphatic 5-0 victory over Italy.",
         "Towards the end of the eighteenth century, people began to see revolutions as emphatic disruptions of the past, as new points in a line."
       ],
       "emphasize": [""]
+    },
+    {
+      "utmost": [
+        "The situation needs to be handled with the utmost care.",
+        "The new model of the car offers the utmost in power and performance."
+      ]
     }
   ],
 
@@ -972,7 +995,9 @@
       "apathetic": [
         "Young people today are so apathetic about politics.",
         "Human beings in love, human beings rejected, human beings hungry, restless, apathetic and hopeful: ever-changing, ever-adapting."
-      ],
+      ]
+    },
+    {
       "callous": [
         "It might sound callous, but I don't care if he's homeless. He's not living with me!",
         "Ethically, such an attitude appears callous and out of character with the momentousness of assisting a patient end her life."
@@ -1063,7 +1088,8 @@
         "@ To crush hard food loudly between the teeth, or to make a sound as if something is being crushed or broken.",
         "The gravel crunched underfoot as we walked up to the house.",
         "She was crunching noidily on an apple."
-      ]
+      ],
+      "torn": ["Your dress is torn and you're bleeding."]
     }
   ],
   "ecosystem": [
@@ -1132,7 +1158,9 @@
         "Your health is determined in part by what you eat.",
         "Is is the responsibility of the court to determine whether these men are innocent.",
         "He determined that his wife was cheating on him."
-      ],
+      ]
+    },
+    {
       "decide": [
         "I decided to eat dinner after studying.",
         "I will have to decide what university to apply to."
@@ -1165,7 +1193,9 @@
         "We need to keep possession of the ball to give ourselves a chance.",
         "We've already bought the  house but we won't possession of it until May.",
         "She attaches a lot of importance to personal possessions."
-      ],
+      ]
+    },
+    {
       "property": [
         "Both books have ' Government property ' stamped inside them.",
         "The club doesn't accept responsibility for loss of or damage to club members' personal property.",
@@ -1398,16 +1428,16 @@
     "The government should be playing a more prominent role in promoting human rights.",
     "New books are displayed in a prominent position on tables at the front of the store.",
     "She has a prominent nose.",
+    "A photograph of her daughter was prominently displayed on her desk.",
+    "I left the book lying around with a bookmark protruding prominently from the last chapter.",
+    "Economic problems have figured prominently in the election.",
+    "Having spelling mistakes and typos highlighted so prominently is distracting to the reader.",
     {
       "prominence": [
         "Despite his prominence, he was never able to make a living."
-      ],
-      "prominently": [
-        "A photograph of her daughter was prominently displayed on her desk.",
-        "I left the book lying around with a bookmark protruding prominently from the last chapter.",
-        "Economic problems have figured prominently in the election.",
-        "Having spelling mistakes and typos highlighted so prominently is distracting to the reader."
-      ],
+      ]
+    },
+    {
       "protrude": [
         "A rotting branch protruded from the swamp like a ghostly arm.",
         "A snake protruded its tongue and hissed loudly.",
@@ -1438,18 +1468,22 @@
         "They prevent the country from falling prey to the soldiers who fought the revolution and want to restore the old dictatorship.",
         "By any reasonable person's thinking; this set of unconstitutional powers represents nothing more than a -- presidential dictatorship.",
         "None of the governments that followed the dictatorship ever included us in their agenda."
-      ],
-      "authoritarian": [
-        "My father was a real authoritarian so we were brought up very strictly.",
-        "Authoritarians demand rigid adherence to rules and an uncritical acceptance of authority."
-      ],
+      ]
+    },
+    {
       "authority": [
         "The United Nations has used/ exerted/ exercised its authority to restore peace in the area.",
         "They've been acting illegally and without authority (= permission) from the council.",
         "I'll give my lawyer authority (= permission) to act on my behalf.",
         "He has no authority over (= ability to control) his students.",
         "She spoke with authority (= as if she was in control or had special knowledge).",
-        "She is a world authority on 19th-century Irish history."
+        "She is a world authority on 19th-century Irish history.",
+        {
+          "authoritarian": [
+            "My father was a real authoritarian so we were brought up very strictly.",
+            "Authoritarians demand rigid adherence to rules and an uncritical acceptance of authority."
+          ]
+        }
       ],
       "regime": [
         "The old corrupt, totalitarian regime was overthrown.",
@@ -1533,7 +1567,9 @@
     "@ Believing that or behaving as if women are naturally less important, intelligent, or able than men.",
     "That is an unforgiving male chauvinistic attitude!",
     {
-      "chauvinist": [""],
+      "chauvinist": [""]
+    },
+    {
       "misogynistic": [
         "@ Showing feelings of hating women or a belief that men are better than women.",
         "I'm amazed by some of the misogynistic attitudes in this country.",
@@ -1757,15 +1793,6 @@
   "bench": [
     "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
   ],
-  "fellowship": [
-    "He enjoyed the fellowship of other actors in the company.",
-    "I like the game, and I enjoy the fellowship of the guys on the team.",
-    "@ An amount of money that is given to postgraduates to allow them to study a subject at an advanced level.",
-    "He was awarded a fellowship at the college.",
-    "She has applied for a research fellowship.",
-    "@ The position of a fellow at a college or university.",
-    "He was elected to an honorary fellowship at National Taiwan University."
-  ],
   "tile": [
     "@ A flat, thin, usually square piece of baked clay, plastic, or other material used for covering floors, walls, or roofs.",
     "Count the tiles on the floor or ceiling.",
@@ -1803,6 +1830,15 @@
     "The latest Ferrari is not only faster than its predecessors but also more comfortable,",
     "The new model retains all the advantages of its predecessor but offers five times the speed.",
     {
+      "fellowship": [
+        "He enjoyed the fellowship of other actors in the company.",
+        "I like the game, and I enjoy the fellowship of the guys on the team.",
+        "@ An amount of money that is given to postgraduates to allow them to study a subject at an advanced level.",
+        "He was awarded a fellowship at the college.",
+        "She has applied for a research fellowship.",
+        "@ The position of a fellow at a college or university.",
+        "He was elected to an honorary fellowship at National Taiwan University."
+      ],
       "colleague": [""],
       "occupation": [""],
       "former": [""],
@@ -1826,7 +1862,6 @@
     "The report is viewed as a bellwether for/ of national economic trends.",
     "investors will be eagerly awaiting the guidance from bellwether stocks."
   ],
-  "torn": ["Your dress is torn and you're bleeding."],
   "wandering": ["I didn't noticed how far I was wandering this evening."],
   "traumatic": ["It was very traumatic for Donnie and he hasn't spoke since."],
   "decent": [
