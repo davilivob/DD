@@ -386,12 +386,18 @@
         "I tried to inject a little humor into the meeting.",
         {
           "injection": [
-            "@ The act of putting a liquid, esp. a drug, into a person's body using a needle and a syringe."
+            "@ The act of putting a liquid, esp. a drug, into a person's body using a needle and a syringe.",
+            "Daily insulin injections are necessary for some diabetics.",
+            "This steroid is sometimes given by injection.",
+            "My arm was very tender after the injection.",
+            "@ The introduction of something new that is necessary or helpful to a situation or process.",
+            "A cash injection of $20 million will be used to improve the health service."
           ]
         },
         {
           "syringe": [""],
-          "insulin": [""]
+          "insulin": [""],
+          "steroid": [""]
         }
       ],
       "prenatal": [
@@ -618,7 +624,8 @@
         "@ A company that sells goods or services.",
         "A law firm is a business entity formed by one or more lawyers to engage in the practice of law."
       ],
-      "strict": [""]
+      "strict": [""],
+      "tender": [""]
     }
   ],
   "optimism": [
