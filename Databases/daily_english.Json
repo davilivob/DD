@@ -375,8 +375,25 @@
         "She seems to have a very clinical attitude toward her children.",
         "@ Showing no character and warmth.",
         "We were going to paint our kitchen white, but we decided that would look too clinical."
+      ]
+    },
+    {
+      "inject": [
+        "@ To use a needle and syringe to put a liquid such as a drug into a person's body.",
+        "Phil's diabetic and has to inject himself with insulin everyday.",
+        "@ To introduce something new that is necessary or helpful to a situation or process.",
+        "A large amount of money will have to be injected into the company if it is to survive.",
+        "I tried to inject a little humor into the meeting.",
+        {
+          "injection": [
+            "@ The act of putting a liquid, esp. a drug, into a person's body using a needle and a syringe."
+          ]
+        },
+        {
+          "syringe": [""],
+          "insulin": [""]
+        }
       ],
-      "injection": [""],
       "prenatal": [
         "@ Relating to the medical care given to pregnant women before their babies are born.",
         "Prenatal clinics provide care for pregnant women."
@@ -387,7 +404,9 @@
     "",
     {
       "albino": [""],
-      "chickenpox": [""]
+      "chickenpox": [""],
+      "diabetic": [""],
+      "hay fever": [""]
     }
   ],
   "microorganisms": [
@@ -3026,7 +3045,6 @@
   "approximate": [""],
   "insurgency": [""],
   "nerve": [""],
-  "insulin": [""],
   "enzymes": [""],
   "activate": [""],
   "stimulate": [""],
