@@ -267,6 +267,9 @@
             "I claimed on the insurance for the damage to the furniture.",
             "@ Money that is paid by an insurance company.",
             "I had to cancel the trip, but I got back nearly $1000 in insurance."
+          ],
+          "contract": [
+            "@ A legal document that states and explains a formal agreement between two different people or groups, or the agreement itself."
           ]
         }
       ]
@@ -2805,7 +2808,6 @@
       ]
     }
   ],
-  "contract": [""],
   "evaluate": [""],
   "figure": [""],
   "swamp": [""],
