@@ -657,18 +657,20 @@
       ]
     },
     {
+      "passionate": [
+        "She was passionate about Asian cooking and that has reflected in her dining experience."
+      ]
+    },
+    {
       "pessimism": [
         "An underlying pessimism infuses all her novels.",
         {
           "pessimistic": [
             "At the time in history when our future has never looked brighter, it is baffling that some people are more pessimistic than ever."
           ],
-          "passionate": [
-            "She was passionate about Asian cooking and that has reflected in her dining experience."
-          ]
+          "brooding": [""]
         }
-      ],
-      "brooding": [""]
+      ]
     }
   ],
   "scarcely": [
