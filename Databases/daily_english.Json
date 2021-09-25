@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Regular Dictionary": {
     "punctuation": [
       "The most common punctuation marks in English are: capital letters and full stops, question marks, commas, colons and semi-colons, exclamation marks and quotation marks.",
       {
@@ -1359,9 +1359,15 @@
       "His plan was such a success that even his original critics could scarcely forbear from congratulating him.",
       {
         "inhibit": [
+          "@ To prevent someone from doing something by making them feel nervous or embarrassed.",
           "Some workers were inhibited from speaking by the presence of their managers.",
+          "@ To slow down a process or the growth of something.",
           "This drug inhibits the growth of tumours.",
-          "The merger of the two corporations was not allowed because it would inhibit open competition."
+          "@ To take an action that makes something less likely to happen, or that discourages someone from doing something.",
+          "The merger of the two corporations was not allowed because it would inhibit open competition.",
+          {
+            "inhibition": [""]
+          }
         ],
         "forbid": [
           "The law forbids the sale of cigarettes to people under the age of 16.",
@@ -3143,7 +3149,6 @@
     "boost": [""],
     "gymnastic": [""],
     "certificate": [""],
-    "proposition": [""],
     "hypothese": [""],
     "presume": [""],
     "closure": [""],
@@ -3315,11 +3320,203 @@
     "pollen": [""],
     "demonstration": [""]
   },
-  {
-    "Learn English From Musics": [
-      {
-        "Bob Dylon": {}
+  "Learn English From Musics": [
+    {
+      "Bob Dylon": {
+        "Slow Train": [
+          [
+            "~ Sometimes I feel so low-down and disgusted.",
+            "~ Can't help but wonder what's happening to my companions.",
+            "~ Are they lost or are they found?",
+            "~ Have they counted the cost it'll take to bring down.",
+            "~ All their earthly principles they're gonna have to abandon?",
+            "~ There's a slow, slow train coming up around the bend.",
+            {
+              "companion": [
+                "@ A person you spend a lot of time with often because you are friends or because you are traveling together.",
+                "The dog has been her constant companion these past ten years.",
+                "He shared his cabin with his wife and constant companion of 62 years.",
+                "@ In the past, a young woman who was paid to care for and provide friendship for an old or ill woman, esp. while she was traveling.",
+                "He has been her constant companion for over 50 years.",
+                "She went traveling with a female companion.",
+                "@ Either of two matching objects.",
+                "I've still got one of the candlesticks but I lost its companion.",
+                "@ Used in the title of a type of book that gives you information on a particular subject or tells you how to do something.",
+                "The Music Lover's Companion."
+              ],
+              "bend": [
+                "@ To cuase to curve.",
+                "The road bends to the left after the traffic lights.",
+                "@ To move your body or part of your body so that it is not straight.",
+                "Make sure you bend your knees when you're picking up heavy objects.",
+                "After her fall she complained that she couldn't bend her leg properly.",
+                "@ A curved part of something.",
+                "There's a bend in the pipe so you can't see from one end to the other.",
+                "The car came around the bend on the wrong side of the road.",
+                "@ In football, the curve in which a ball moves when it has been kicked in a particular way.",
+                "Good players can put bend on the ball.",
+                {
+                  "on bended knee": [
+                    "@ In a position in which the knee of one leg touching the floor.",
+                    "He went down on bended knee to ask her to marry him."
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            "~ I had a woman down in Alabama.",
+            "~ She was a backwoods girl, but she sure was realistic.",
+            "~ She said, \" Boy, without a doubt, have to quit your mess and straighten out.",
+            "~ You could die down here, be just another accident statistic.\".",
+            "~ There's a slow, slow train coming up around the bend.",
+            {
+              "backwoods": [
+                "@ A place is off by itself, not near to transportation or a larger town.",
+                "I grew up in the backwoods of North Carolina."
+              ],
+              "straighten out": [
+                "@ To improve someone's behavior.",
+                "I thought that once he got a girlfriend that would straighten him out."
+              ],
+              "statistic": [
+                "@ information based on a study of the number of times something happens or is present, or other numerical facts.",
+                "Statistics show/ suggest that women live longer than men.",
+                "According to official statistics, the Japanese work longer hours than workers in most other industrializd countries.",
+                "@ The science of using information discovered from studying numbers.",
+                "It's difficult to interpret these statistics without knowing how they were obtained.",
+                "@ A fact in the form of a number that shows information about something.",
+                "The cityh's most chocking statistic is its high infant mortality rate."
+              ]
+            }
+          ],
+          [
+            "~ All that foreign oil controlling american soil.",
+            "~ Look Around you, it's just bound to make you embarrassed.",
+            "~ Sheiks walking around like kings, wearing fancy jewels and nose rings.",
+            "~ Decideing America's future from Amsterdam and to Paris.",
+            "~ And there's a slow, slow train coming up around the bend.",
+            {
+              "bound": [
+                "@ Certain or extremely likely to happen.",
+                "You're bound to forget people's names occasionally.",
+                "You're bound to feel nervous about your interview.",
+                "These two young musicians are bound for international success.",
+                "@ Having a moral or legal duty to do something.",
+                "The company is bound by a special agreement to involve the union in important decisions.",
+                "@ Tied with rope, cord string, etc..",
+                "The security guard was found bound and gagged after the robbery.",
+                "@ (of a book) Having a cover made of paper, leather, or other material.",
+                "The book was bound in shiny green leather."
+              ],
+              "sheik": ["@ An Arab leader."]
+            }
+          ],
+          [
+            "~ Man's ego is inflated, his laws are outdated, they don't apply no more.",
+            "~ You can't rely no more to be standing around waiting.",
+            "~ In the home of the brave, Jefferson turning over in his grave.",
+            "~ Fools glorifying themselves, trying to manipulate Satan.",
+            "~ And there's a slow, slow train coming up around the bend.",
+            {
+              "manipulate": [
+                "@ To control something or someone to your advantage, often unfaily or dishonestly.",
+                "Throughout her career she has very successfully manipulated the media.",
+                "The opposition leader accused government ministers of manipulating the statistics to suit themselves.",
+                "@ To control something using the hands.",
+                "The wheelchair is designed so that it is easy to manipulate.",
+                "@ To treat a part of the body, using the hands to push back bones into the correct position and put pressure on muscles.",
+                "The doctor manipulated the base of my spine and the pain disappeared completely.",
+                "@ To change, move, etc. information on a computer.",
+                "Spreadsheets are an excellent way to manipulate data."
+              ]
+            }
+          ],
+          [
+            "~ Big-time negotiators, false healers and woman haters.",
+            "~ Masters of the bluff and masters of the proposition.",
+            "~ But the enoemy I see wears a cloak of decency.",
+            "~ All non-believers and men-stealers talking in the name of religion.",
+            "~ And there's a slow, slow train coming up around the bend.",
+            {
+              "bluff": [
+                "@ To deceive someone by making them think either that you're going to do something when you really have no intention of doing it, or that you have knowledge taht you don't really have, or that you are someone else.",
+                "Is he going to jump or is he only bluffing?",
+                "Tony seems to know a lot of music, but sometimes I think he's only bluffing.",
+                "She bluffed the doorman into thinking that she was a reporter.",
+                "@ An attempt to bluff.",
+                "When she said she was leaving him, he thought it was only a bluff.",
+                "@ A cliff or very steep bank.",
+                "@ direct or too honest, often in a way that people find rude.",
+                "Despite her bluff manner, she's actually a very kind woman.",
+                {
+                  "bluff your way into/ out of sth": [
+                    "@ If you bluff your way into or out of a situation, you get yourself into or out of it by deceiving people.",
+                    "How did Mina manage to bluff her way into the job?",
+                    "He's one of those people who is very good at bluffing their way out of trouble."
+                  ]
+                }
+              ],
+              "proposition": [
+                "@ An offer or suggestion, usually in business.",
+                "He wrote to me last week regarding a business proposition he thought might interest me.",
+                "I've put my proposition to the company director for his consideration.",
+                "@ An idea or opinion.",
+                "They were debating the proposition that \" All people are created equal \".",
+                "@ A statement or problem that must be solved or proved to be true or false.",
+                "Pythagoras's theorem is the mathematical proposition that in any right-angled triangle, the square on the hypotenuse is equal to the sum of the squares on the other two sides.",
+                "@ To ask someone who you're not in a relationship with if they would like to have sex with you.",
+                "I was propositioned by a complete stranger."
+              ],
+              "cloak": [
+                "@ A loose outer piece of clothing without sleeves, that fastens at the neck, and is worn instead of coat.",
+                "@ Something that hides, covers, or keeps something else secret.",
+                "The restaurant he owned was just a cloak for his drug-dealing activities.",
+                "They left the house under cloak of darkness.",
+                "@ To cover or hide something.",
+                "He has always kept his love affairs cloaked in secrecy.",
+                "The river is oftened cloaked in mist in the early morning."
+              ]
+            }
+          ],
+          [
+            "~ People starving and thirsting, grain elevators are bursting.",
+            "~ Oh, you know it costs more to store the food than it do to give it.",
+            "~ They say lose your inhibitions, follow your own ambitions.",
+            "~ They talk about a life of brotherly love.",
+            "~ Show me someone who knows how to live it.",
+            "~ There's a slow, slow train coming up around the bend.",
+            {
+              "elevator": [
+                "@ A piece of equipment, usually in the form of a small room, that carries people or goods straight up and down in tall buildings.",
+                "I took the elevator to her office on the fourteenth floor."
+              ]
+            }
+          ],
+          [
+            "~ Well, my baby went to Illinois with some bad-talking boy she could destroy.",
+            "~ A real suicide case, but there was nothing I could do to stop it.",
+            "~ I don't care about economy, I don't care about astronomy.",
+            "~ But it sure do bother me to see my loved ones turning into puppets.",
+            "~ There's a slow, slow train coming up around the bend.",
+            {
+              "astronomy": [
+                "@ The scientific study of the universe and of objects that exist naturally in space, such as the moon, the sun, planets, and stars.",
+                "These ancient scholars were steeped in poetry and painting, as well as math and astronomy",
+                {
+                  "astrology": [
+                    "@ The study of the movements and positions of the sun, moon, planets, and stars in the belief that they affect the character and lives of people.",
+                    "& Unlike astronomy, astrology cannot be described as an exact science.",
+                    "In astrology, a person's personality is supposed to relate to which sign they were born under.",
+                    "The author uses astrology to show you how to exploit your potential in every area of life."
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "Isis": [""]
       }
-    ]
-  }
-]
+    }
+  ]
+}
