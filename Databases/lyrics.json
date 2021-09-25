@@ -1,0 +1,103 @@
+{
+  "Slow Train": [
+    [
+      "~ Sometimes I feel so low-down and disgusted.",
+      "~ Can't help but wonder what's happening to my companions.",
+      "~ Are they lost or are they found?",
+      "~ Have they counted the cost it'll take to bring down.",
+      "~ All their earthly principles they're gonna have to abandon?",
+      "~ There's a slow, slow train coming up around the bend.",
+      {
+        "companion": [
+          "@ A person you spend a lot of time with often because you are friends or because you are traveling together.",
+          "The dog has been her constant companion these past ten years.",
+          "He shared his cabin with his wife and constant companion of 62 years.",
+          "@ In the past, a young woman who was paid to care for and provide friendship for an old or ill woman, esp. while she was traveling.",
+          "He has been her constant companion for over 50 years.",
+          "She went traveling with a female companion.",
+          "@ Either of two matching objects.",
+          "I've still got one of the candlesticks but I lost its companion.",
+          "@ Used in the title of a type of book that gives you information on a particular subject or tells you how to do something.",
+          "The Music Lover's Companion."
+        ]
+      }
+    ],
+    [
+      "~ I had a woman down in Alabama.",
+      "~ She was a backwoods girl, but she sure was realistic.",
+      "~ She said, \" Boy, without a doubt, have to quit your mess and straighten out.",
+      "~ You could die down here, be just another accident statistic.\".",
+      "~ There's a slow, slow train coming up around the bend.",
+      {
+        "backwoods": [
+          "@ A place is off by itself, not near to transportation or a larger town.",
+          "I grew up in the backwoods of North Carolina."
+        ],
+        "straighten out": [
+          "@ To improve someone's behavior.",
+          "I thought that once he got a girlfriend that would straighten him out."
+        ],
+        "statistic": [
+          "@ information based on a study of the number of times something happens or is present, or other numerical facts.",
+          "Statistics show/ suggest that women live longer than men.",
+          "According to official statistics, the Japanese work longer hours than workers in most other industrializd countries.",
+          "@ The science of using information discovered from studying numbers.",
+          "It's difficult to interpret these statistics without knowing how they were obtained.",
+          "@ A fact in the form of a number that shows information about something.",
+          "The cityh's most chocking statistic is its high infant mortality rate."
+        ]
+      }
+    ],
+    [
+      "~ All that foreign oil controlling american soil.",
+      "~ Look Around you, it's just bound to make you embarrassed.",
+      "~ Sheiks walking around like kings, wearing fancy jewels and nose rings.",
+      "~ Decideing America's future from Amsterdam and to Paris.",
+      "~ And there's a slow, slow train coming up around the bend.",
+      {
+        "bound": [
+          "@ Certain or extremely likely to happen.",
+          "You're bound to forget people's names occasionally.",
+          "You're bound to feel nervous about your interview.",
+          "These two young musicians are bound for international success.",
+          "@ Having a moral or legal duty to do something.",
+          "The company is bound by a special agreement to involve the union in important decisions.",
+          "@ Tied with rope, cord string, etc..",
+          "The security guard was found bound and gagged after the robbery.",
+          "@ (of a book) Having a cover made of paper, leather, or other material.",
+          "The book was bound in shiny green leather."
+        ],
+        "sheik":["@ An Arab leader."]
+      }
+    ],
+    [
+      "~ Man's ego is inflated, his laws are outdated, they don't apply no more.",
+      "~ You can't rely no more to be standing around waiting",
+      "~ In the home of the brave, Jefferson turning over in his grave.",
+      "~ Fools glorifying themselves, trying to manipulate Satan.",
+      "~ And there's a slow, slow train coming up around the bend."
+    ],
+    [
+      "~ Big-time negotiators, false healers and woman haters.",
+      "~ Masters of the bluff and masters of the proposition.",
+      "~ But the enoemy I see wears a cloak of decency.",
+      "~ All non0believers and men-stealers talking in the name of religion.",
+      "~ And there's a slow, slow train coming up around the bend."
+    ],
+    [
+      "~ People starving and thirsting, grain elevators are bursting.",
+      "~ Oh, you know it costs more to store the food than it do to give it.",
+      "~ They say lose your inhibitions, follow your own ambitions.",
+      "~ They talk about a life of brotherly love.",
+      "~ Show me someone who knows how to live it.",
+      "~ There's a slow, slow train coming up around the bend."
+    ],
+    [
+      "~ Well, my baby went to Illinois with some bad-talking boy she could destroy.",
+      "~ A real suicide case, but there was nothingI could do to stop it.",
+      "~ I don't care about economy, I don't care about astronomy.",
+      "~ But it sure do bother me to see my loved ones turning into puppets.",
+      "~ There's a slow, slow train coming up around the bend."
+    ]
+  ]
+}
