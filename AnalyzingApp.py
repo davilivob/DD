@@ -37,7 +37,16 @@ wordsList, WordsRepeated, WordsRepeatedJson = (
 )
 
 R = R.R
-(sentences, vocabularies, definitions, comparisons, unlearned, learned, examples,) = (
+(
+    sentences,
+    vocabularies,
+    definitions,
+    comparisons,
+    unlearned,
+    learned,
+    examples,
+    fromlyrics,
+) = (
     R.sentences,
     R.vocabularies,
     R.definitions,
@@ -45,6 +54,7 @@ R = R.R
     R.unlearned,
     R.learned,
     R.examples,
+    R.fromlyrics,
 )
 
 Allan, Bill = AB.AllanBill("A"), AB.AllanBill("B")
@@ -97,6 +107,7 @@ def UploadDatasToJson():
             "Examples": examples,
             "Definitions": definitions,
             "Comparisons": comparisons,
+            "Lyrics": fromlyrics,
         },
         "Advanced Datas": {
             "Words Kinds": WordsKinds,

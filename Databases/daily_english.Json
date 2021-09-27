@@ -87,7 +87,8 @@
           {
             "omission": [""]
           }
-        ]
+        ],
+        "disregard": [""]
       }
     ],
     "illicit": [
@@ -314,6 +315,10 @@
           "& Exalt is a transitive verb. If we glorify God, we exalt him. It can also mean to heighten something, to increase its effects.",
           "They sent him countless letters and postcards, some of which called him a \"living saviour\" or celebrated his \"exalted and godlike benevolence\"."
         ]
+      },
+      {
+        "triumph": [""],
+        "ace": [""]
       }
     ],
     "nosy": [
@@ -407,7 +412,8 @@
         "prenatal": [
           "@ Relating to the medical care given to pregnant women before their babies are born.",
           "Prenatal clinics provide care for pregnant women."
-        ]
+        ],
+        "surgeon": [""]
       }
     ],
     "symptom": [
@@ -543,7 +549,10 @@
         "bewilder": ["& Bewilder is pretty much the same, but more poetic."],
         "mystify": [
           "@ To make something obscured, or hide behind the truth.",
-          "The cause of death mystified detectives."
+          "The cause of death mystified detectives.",
+          {
+            "mystical": [""]
+          }
         ]
       }
     ],
@@ -696,6 +705,7 @@
       "She likes everything neat and tidy.",
       {
         "a tidy sum": ["He sold the house for a tidy (= large) sum."],
+        "pile": [""],
         "calibrate": [
           "In addition, we design, manufacture and calibrate special bench photometers( some kinda mechanical stuff) against which other photometers can be calibrated."
         ]
@@ -1343,9 +1353,11 @@
             "foxhole": [
               "@ A small hole dug in the ground during a war or military attack, used by a small group of soldiers as a base for shooting at the enemy and as a shelter from attack.",
               "His ' darkroom ' was a foxhole at night, using film developer and fixer mixed with rain water and poured into two helmets."
-            ]
+            ],
+            "haven": [""]
           }
-        ]
+        ],
+        "valley": [""]
       }
     ],
     "liquefy": [
@@ -1391,7 +1403,12 @@
       "@ To fill someone or something with an emotion or quality.",
       "The pulling down of the Berlin Wall infused the world with optimism.",
       {
-        "infection": [""]
+        "infection": [
+          "",
+          {
+            "infect": [""]
+          }
+        ]
       }
     ],
     "intermingle": [
@@ -1528,7 +1545,8 @@
           "@ Of or being a political system in which those in power have complete control and do not allow people freedom to oppose them.",
           "But even in a totalitarian regime, soldiers along the border are hungry enough to take bribes.",
           "He, a professor, represents education, which, as his lectures remind us, totalitarian governments try to keep down."
-        ]
+        ],
+        "pharaoh": [""]
       }
     ],
     "fruitful": [
@@ -1557,12 +1575,21 @@
       }
     ],
     "restore": [""],
-    "effigy": ["The effigy on it may be taken to be an authentic portrait."],
+    "effigy": [
+      "The effigy on it may be taken to be an authentic portrait.",
+      {
+        "statue": [""]
+      }
+    ],
     "urine": [
       "@ A waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
     ],
     "shank": [
-      "@ The part of the leg between the knee and ankle or the equivalent in animals."
+      "@ The part of the leg between the knee and ankle or the equivalent in animals.",
+      {
+        "nerve": [""],
+        "blood vessel": [""]
+      }
     ],
     "acquire": [
       "To acquire wealth is difficult, to preserve it more difficult, but to spend it wisely most difficult of all.",
@@ -1625,6 +1652,12 @@
           "@ Having a lot of bubbles.",
           "Considering they all taste like somewhat moldy, watered, down, fizzy bread to me, it's moot."
         ]
+      }
+    ],
+    "container": [
+      "",
+      {
+        "mug": [""]
       }
     ],
     "brandy": [
@@ -1786,7 +1819,10 @@
     ],
     "external": ["In external ways David had hardly changed at all."],
     "branch": [
-      "@ A part of a plant stem or a part of something which is larger and more complex."
+      "@ A part of a plant stem or a part of something which is larger and more complex.",
+      {
+        "clematis": [""]
+      }
     ],
     "morph": [
       "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph."
@@ -1903,11 +1939,15 @@
           "@ Not suitable or acceptable.",
           "He was charged with conduct unbecoming to an officer.",
           "Such conduct is unbecoming to an official."
-        ]
+        ],
+        "decorative": [""]
       }
     ],
     "subconscious": [
-      "& There are conscious thoughts that you're aware of and subconscious ones that you're not."
+      "& There are conscious thoughts that you're aware of and subconscious ones that you're not.",
+      {
+        "conscience": [""]
+      }
     ],
     "gaze": [
       "Her wandering gaze came up to his face and warmth shot painfully up her neck",
@@ -2102,6 +2142,9 @@
       "~ I was born into the world on a silken cloud. And I got bored of the world before I hit the ground.",
       {
         "silk": [""]
+      },
+      {
+        "bumpy": [""]
       }
     ],
     "moreover": [
@@ -2465,6 +2508,9 @@
           "They had a narrow escape when their car crashed.",
           "We got out in time but it was a narrow escape."
         ]
+      },
+      {
+        "lane": [""]
       }
     ],
     "court": [
@@ -2533,7 +2579,9 @@
       "The Times critic described her dancing as \" a virtuoso performance of dazzling accomplishment.\".",
       "The world's greatest tenor treated us to a virtuoso display of his abundant talent.",
       {
-        "tenor": [""]
+        "tenor": [""],
+        "composer": [""],
+        "acrobat": [""]
       }
     ],
     "receptor": [
@@ -2618,6 +2666,9 @@
           "Five of the deceased were employed by the club.",
           "There will be no service, at the deceased's request."
         ]
+      },
+      {
+        "coffin": [""]
       }
     ],
     "medicinal": [
@@ -3117,7 +3168,6 @@
     "spiritual": [""],
     "approximate": [""],
     "insurgency": [""],
-    "nerve": [""],
     "enzymes": [""],
     "activate": [""],
     "stimulate": [""],
@@ -3162,7 +3212,6 @@
     ],
     "contempt": [""],
     "sandal": [""],
-    "pile": [""],
     "conclude": [""],
     "neighboring": [""],
     "ratify": [""],
@@ -3313,210 +3362,565 @@
         "intuition": [""]
       }
     ],
-    "container": [""],
     "manual": [""],
     "cap": [""],
     "meridiem": [""],
     "pollen": [""],
-    "demonstration": [""]
+    "demonstration": [
+      "",
+      {
+        "protest": [""]
+      }
+    ],
+    "cabin": [""],
+    "mortality": [""],
+    "industrializd": [""],
+    "interpret": [""],
+    "gag": [""],
+    "attempt": [""],
+    "hypotenuse": [""],
+    "sleeve": [""],
+    "affair": [""],
+    "exploit": [""],
+    "knot": [""],
+    "barrel": [""],
+    "mount": [""],
+    "carriage": [""],
+    "fence": [""],
+    "lean": [""],
+    "loan": [""],
+    "semi": [""],
+    "smirk": [""],
+    "approval": [""],
+    "resident": [""],
+    "greet": [""],
+    "dusk": [""],
+    "thread": [
+      "",
+      {
+        "badge": [""]
+      }
+    ],
+    "toolkit": [""]
   },
-  "Learn English From Musics": [
-    {
-      "Bob Dylon": {
-        "Slow Train": [
-          [
-            "~ Sometimes I feel so low-down and disgusted.",
-            "~ Can't help but wonder what's happening to my companions.",
-            "~ Are they lost or are they found?",
-            "~ Have they counted the cost it'll take to bring down.",
-            "~ All their earthly principles they're gonna have to abandon?",
-            "~ There's a slow, slow train coming up around the bend.",
-            {
-              "companion": [
-                "@ A person you spend a lot of time with often because you are friends or because you are traveling together.",
-                "The dog has been her constant companion these past ten years.",
-                "He shared his cabin with his wife and constant companion of 62 years.",
-                "@ In the past, a young woman who was paid to care for and provide friendship for an old or ill woman, esp. while she was traveling.",
-                "He has been her constant companion for over 50 years.",
-                "She went traveling with a female companion.",
-                "@ Either of two matching objects.",
-                "I've still got one of the candlesticks but I lost its companion.",
-                "@ Used in the title of a type of book that gives you information on a particular subject or tells you how to do something.",
-                "The Music Lover's Companion."
-              ],
-              "bend": [
-                "@ To cuase to curve.",
-                "The road bends to the left after the traffic lights.",
-                "@ To move your body or part of your body so that it is not straight.",
-                "Make sure you bend your knees when you're picking up heavy objects.",
-                "After her fall she complained that she couldn't bend her leg properly.",
-                "@ A curved part of something.",
-                "There's a bend in the pipe so you can't see from one end to the other.",
-                "The car came around the bend on the wrong side of the road.",
-                "@ In football, the curve in which a ball moves when it has been kicked in a particular way.",
-                "Good players can put bend on the ball.",
-                {
-                  "on bended knee": [
-                    "@ In a position in which the knee of one leg touching the floor.",
-                    "He went down on bended knee to ask her to marry him."
-                  ]
-                }
-              ]
-            }
+  "Music Dictionary": {
+    "Bob Dylon": {
+      "Slow Train": [
+        "~ Sometimes I feel so low-down and disgusted.",
+        "~ Can't help but wonder what's happening to my companions.",
+        "~ Are they lost or are they found?",
+        "~ Have they counted the cost it'll take to bring down.",
+        "~ All their earthly principles they're gonna have to abandon?",
+        "~ There's a slow, slow train coming up around the bend.",
+        {
+          "companion": [
+            "@ A person you spend a lot of time with often because you are friends or because you are traveling together.",
+            "The dog has been her constant companion these past ten years.",
+            "He shared his cabin with his wife and constant companion of 62 years.",
+            "@ In the past, a young woman who was paid to care for and provide friendship for an old or ill woman, esp. while she was traveling.",
+            "He has been her constant companion for over 50 years.",
+            "She went traveling with a female companion.",
+            "@ Either of two matching objects.",
+            "I've still got one of the candlesticks but I lost its companion.",
+            "@ Used in the title of a type of book that gives you information on a particular subject or tells you how to do something.",
+            "The Music Lover's Companion."
           ],
-          [
-            "~ I had a woman down in Alabama.",
-            "~ She was a backwoods girl, but she sure was realistic.",
-            "~ She said, \" Boy, without a doubt, have to quit your mess and straighten out.",
-            "~ You could die down here, be just another accident statistic.\".",
-            "~ There's a slow, slow train coming up around the bend.",
+          "bend": [
+            "@ To cuase to curve.",
+            "The road bends to the left after the traffic lights.",
+            "@ To move your body or part of your body so that it is not straight.",
+            "Make sure you bend your knees when you're picking up heavy objects.",
+            "After her fall she complained that she couldn't bend her leg properly.",
+            "@ A curved part of something.",
+            "There's a bend in the pipe so you can't see from one end to the other.",
+            "The car came around the bend on the wrong side of the road.",
+            "@ In football, the curve in which a ball moves when it has been kicked in a particular way.",
+            "Good players can put bend on the ball.",
             {
-              "backwoods": [
-                "@ A place is off by itself, not near to transportation or a larger town.",
-                "I grew up in the backwoods of North Carolina."
-              ],
-              "straighten out": [
-                "@ To improve someone's behavior.",
-                "I thought that once he got a girlfriend that would straighten him out."
-              ],
-              "statistic": [
-                "@ information based on a study of the number of times something happens or is present, or other numerical facts.",
-                "Statistics show/ suggest that women live longer than men.",
-                "According to official statistics, the Japanese work longer hours than workers in most other industrializd countries.",
-                "@ The science of using information discovered from studying numbers.",
-                "It's difficult to interpret these statistics without knowing how they were obtained.",
-                "@ A fact in the form of a number that shows information about something.",
-                "The cityh's most chocking statistic is its high infant mortality rate."
-              ]
-            }
-          ],
-          [
-            "~ All that foreign oil controlling american soil.",
-            "~ Look Around you, it's just bound to make you embarrassed.",
-            "~ Sheiks walking around like kings, wearing fancy jewels and nose rings.",
-            "~ Decideing America's future from Amsterdam and to Paris.",
-            "~ And there's a slow, slow train coming up around the bend.",
-            {
-              "bound": [
-                "@ Certain or extremely likely to happen.",
-                "You're bound to forget people's names occasionally.",
-                "You're bound to feel nervous about your interview.",
-                "These two young musicians are bound for international success.",
-                "@ Having a moral or legal duty to do something.",
-                "The company is bound by a special agreement to involve the union in important decisions.",
-                "@ Tied with rope, cord string, etc..",
-                "The security guard was found bound and gagged after the robbery.",
-                "@ (of a book) Having a cover made of paper, leather, or other material.",
-                "The book was bound in shiny green leather."
-              ],
-              "sheik": ["@ An Arab leader."]
-            }
-          ],
-          [
-            "~ Man's ego is inflated, his laws are outdated, they don't apply no more.",
-            "~ You can't rely no more to be standing around waiting.",
-            "~ In the home of the brave, Jefferson turning over in his grave.",
-            "~ Fools glorifying themselves, trying to manipulate Satan.",
-            "~ And there's a slow, slow train coming up around the bend.",
-            {
-              "manipulate": [
-                "@ To control something or someone to your advantage, often unfaily or dishonestly.",
-                "Throughout her career she has very successfully manipulated the media.",
-                "The opposition leader accused government ministers of manipulating the statistics to suit themselves.",
-                "@ To control something using the hands.",
-                "The wheelchair is designed so that it is easy to manipulate.",
-                "@ To treat a part of the body, using the hands to push back bones into the correct position and put pressure on muscles.",
-                "The doctor manipulated the base of my spine and the pain disappeared completely.",
-                "@ To change, move, etc. information on a computer.",
-                "Spreadsheets are an excellent way to manipulate data."
-              ]
-            }
-          ],
-          [
-            "~ Big-time negotiators, false healers and woman haters.",
-            "~ Masters of the bluff and masters of the proposition.",
-            "~ But the enoemy I see wears a cloak of decency.",
-            "~ All non-believers and men-stealers talking in the name of religion.",
-            "~ And there's a slow, slow train coming up around the bend.",
-            {
-              "bluff": [
-                "@ To deceive someone by making them think either that you're going to do something when you really have no intention of doing it, or that you have knowledge taht you don't really have, or that you are someone else.",
-                "Is he going to jump or is he only bluffing?",
-                "Tony seems to know a lot of music, but sometimes I think he's only bluffing.",
-                "She bluffed the doorman into thinking that she was a reporter.",
-                "@ An attempt to bluff.",
-                "When she said she was leaving him, he thought it was only a bluff.",
-                "@ A cliff or very steep bank.",
-                "@ direct or too honest, often in a way that people find rude.",
-                "Despite her bluff manner, she's actually a very kind woman.",
-                {
-                  "bluff your way into/ out of sth": [
-                    "@ If you bluff your way into or out of a situation, you get yourself into or out of it by deceiving people.",
-                    "How did Mina manage to bluff her way into the job?",
-                    "He's one of those people who is very good at bluffing their way out of trouble."
-                  ]
-                }
-              ],
-              "proposition": [
-                "@ An offer or suggestion, usually in business.",
-                "He wrote to me last week regarding a business proposition he thought might interest me.",
-                "I've put my proposition to the company director for his consideration.",
-                "@ An idea or opinion.",
-                "They were debating the proposition that \" All people are created equal \".",
-                "@ A statement or problem that must be solved or proved to be true or false.",
-                "Pythagoras's theorem is the mathematical proposition that in any right-angled triangle, the square on the hypotenuse is equal to the sum of the squares on the other two sides.",
-                "@ To ask someone who you're not in a relationship with if they would like to have sex with you.",
-                "I was propositioned by a complete stranger."
-              ],
-              "cloak": [
-                "@ A loose outer piece of clothing without sleeves, that fastens at the neck, and is worn instead of coat.",
-                "@ Something that hides, covers, or keeps something else secret.",
-                "The restaurant he owned was just a cloak for his drug-dealing activities.",
-                "They left the house under cloak of darkness.",
-                "@ To cover or hide something.",
-                "He has always kept his love affairs cloaked in secrecy.",
-                "The river is oftened cloaked in mist in the early morning."
-              ]
-            }
-          ],
-          [
-            "~ People starving and thirsting, grain elevators are bursting.",
-            "~ Oh, you know it costs more to store the food than it do to give it.",
-            "~ They say lose your inhibitions, follow your own ambitions.",
-            "~ They talk about a life of brotherly love.",
-            "~ Show me someone who knows how to live it.",
-            "~ There's a slow, slow train coming up around the bend.",
-            {
-              "elevator": [
-                "@ A piece of equipment, usually in the form of a small room, that carries people or goods straight up and down in tall buildings.",
-                "I took the elevator to her office on the fourteenth floor."
-              ]
-            }
-          ],
-          [
-            "~ Well, my baby went to Illinois with some bad-talking boy she could destroy.",
-            "~ A real suicide case, but there was nothing I could do to stop it.",
-            "~ I don't care about economy, I don't care about astronomy.",
-            "~ But it sure do bother me to see my loved ones turning into puppets.",
-            "~ There's a slow, slow train coming up around the bend.",
-            {
-              "astronomy": [
-                "@ The scientific study of the universe and of objects that exist naturally in space, such as the moon, the sun, planets, and stars.",
-                "These ancient scholars were steeped in poetry and painting, as well as math and astronomy",
-                {
-                  "astrology": [
-                    "@ The study of the movements and positions of the sun, moon, planets, and stars in the belief that they affect the character and lives of people.",
-                    "& Unlike astronomy, astrology cannot be described as an exact science.",
-                    "In astrology, a person's personality is supposed to relate to which sign they were born under.",
-                    "The author uses astrology to show you how to exploit your potential in every area of life."
-                  ]
-                }
+              "on bended knee": [
+                "@ In a position in which the knee of one leg touching the floor.",
+                "He went down on bended knee to ask her to marry him."
               ]
             }
           ]
-        ],
-        "Isis": [""]
-      }
+        },
+        "~ I had a woman down in Alabama.",
+        "~ She was a backwoods girl, but she sure was realistic.",
+        "~ She said, \" Boy, without a doubt, have to quit your mess and straighten out.",
+        "~ You could die down here, be just another accident statistic.\".",
+        "~ There's a slow, slow train coming up around the bend.",
+        {
+          "backwoods": [
+            "@ A place is off by itself, not near to transportation or a larger town.",
+            "I grew up in the backwoods of North Carolina."
+          ],
+          "realistic": [
+            "@ Accepting things as they are in fact and not making decisions based on unlikely hopes for the future.",
+            "Let's be realistic - I just can't afford to pay that much money.",
+            "It isn't realistic to expect people to work for so little money.",
+            "@ Seeming to exist or be happening in fact.",
+            "The special effects were wo realistic."
+          ],
+          "straighten out": [
+            "@ To improve someone's behavior.",
+            "I thought that once he got a girlfriend that would straighten him out."
+          ],
+          "statistic": [
+            "@ information based on a study of the number of times something happens or is present, or other numerical facts.",
+            "Statistics show/ suggest that women live longer than men.",
+            "According to official statistics, the Japanese work longer hours than workers in most other industrializd countries.",
+            "@ The science of using information discovered from studying numbers.",
+            "It's difficult to interpret these statistics without knowing how they were obtained.",
+            "@ A fact in the form of a number that shows information about something.",
+            "The cityh's most chocking statistic is its high infant mortality rate."
+          ]
+        },
+        "~ All that foreign oil controlling american soil.",
+        "~ Look Around you, it's just bound to make you embarrassed.",
+        "~ Sheiks walking around like kings, wearing fancy jewels and nose rings.",
+        "~ Decideing America's future from Amsterdam and to Paris.",
+        "~ And there's a slow, slow train coming up around the bend.",
+        {
+          "bound": [
+            "@ Certain or extremely likely to happen.",
+            "You're bound to forget people's names occasionally.",
+            "You're bound to feel nervous about your interview.",
+            "These two young musicians are bound for international success.",
+            "@ Having a moral or legal duty to do something.",
+            "The company is bound by a special agreement to involve the union in important decisions.",
+            "@ Tied with rope, cord string, etc..",
+            "The security guard was found bound and gagged after the robbery.",
+            "@ (of a book) Having a cover made of paper, leather, or other material.",
+            "The book was bound in shiny green leather."
+          ],
+          "sheik": ["@ An Arab leader."]
+        },
+        "~ Man's ego is inflated, his laws are outdated, they don't apply no more.",
+        "~ You can't rely no more to be standing around waiting.",
+        "~ In the home of the brave, Jefferson turning over in his grave.",
+        "~ Fools glorifying themselves, trying to manipulate Satan.",
+        "~ And there's a slow, slow train coming up around the bend.",
+        {
+          "manipulate": [
+            "@ To control something or someone to your advantage, often unfaily or dishonestly.",
+            "Throughout her career she has very successfully manipulated the media.",
+            "The opposition leader accused government ministers of manipulating the statistics to suit themselves.",
+            "@ To control something using the hands.",
+            "The wheelchair is designed so that it is easy to manipulate.",
+            "@ To treat a part of the body, using the hands to push back bones into the correct position and put pressure on muscles.",
+            "The doctor manipulated the base of my spine and the pain disappeared completely.",
+            "@ To change, move, etc. information on a computer.",
+            "Spreadsheets are an excellent way to manipulate data."
+          ]
+        },
+        "~ Big-time negotiators, false healers and woman haters.",
+        "~ Masters of the bluff and masters of the proposition.",
+        "~ But the enoemy I see wears a cloak of decency.",
+        "~ All non-believers and men-stealers talking in the name of religion.",
+        "~ And there's a slow, slow train coming up around the bend.",
+        {
+          "bluff": [
+            "@ To deceive someone by making them think either that you're going to do something when you really have no intention of doing it, or that you have knowledge taht you don't really have, or that you are someone else.",
+            "Is he going to jump or is he only bluffing?",
+            "Tony seems to know a lot of music, but sometimes I think he's only bluffing.",
+            "She bluffed the doorman into thinking that she was a reporter.",
+            "@ An attempt to bluff.",
+            "When she said she was leaving him, he thought it was only a bluff.",
+            "@ A cliff or very steep bank.",
+            "@ direct or too honest, often in a way that people find rude.",
+            "Despite her bluff manner, she's actually a very kind woman.",
+            {
+              "bluff your way into/ out of sth": [
+                "@ If you bluff your way into or out of a situation, you get yourself into or out of it by deceiving people.",
+                "How did Mina manage to bluff her way into the job?",
+                "He's one of those people who is very good at bluffing their way out of trouble."
+              ]
+            }
+          ],
+          "proposition": [
+            "@ An offer or suggestion, usually in business.",
+            "He wrote to me last week regarding a business proposition he thought might interest me.",
+            "I've put my proposition to the company director for his consideration.",
+            "@ An idea or opinion.",
+            "They were debating the proposition that \" All people are created equal \".",
+            "@ A statement or problem that must be solved or proved to be true or false.",
+            "Pythagoras's theorem is the mathematical proposition that in any right-angled triangle, the square on the hypotenuse is equal to the sum of the squares on the other two sides.",
+            "@ To ask someone who you're not in a relationship with if they would like to have sex with you.",
+            "I was propositioned by a complete stranger."
+          ],
+          "cloak": [
+            "@ A loose outer piece of clothing without sleeves, that fastens at the neck, and is worn instead of coat.",
+            "@ Something that hides, covers, or keeps something else secret.",
+            "The restaurant he owned was just a cloak for his drug-dealing activities.",
+            "They left the house under cloak of darkness.",
+            "@ To cover or hide something.",
+            "He has always kept his love affairs cloaked in secrecy.",
+            "The river is oftened cloaked in mist in the early morning."
+          ]
+        },
+        "~ People starving and thirsting, grain elevators are bursting.",
+        "~ Oh, you know it costs more to store the food than it do to give it.",
+        "~ They say lose your inhibitions, follow your own ambitions.",
+        "~ They talk about a life of brotherly love.",
+        "~ Show me someone who knows how to live it.",
+        "~ There's a slow, slow train coming up around the bend.",
+        {
+          "elevator": [
+            "@ A piece of equipment, usually in the form of a small room, that carries people or goods straight up and down in tall buildings.",
+            "I took the elevator to her office on the fourteenth floor."
+          ]
+        },
+        "~ Well, my baby went to Illinois with some bad-talking boy she could destroy.",
+        "~ A real suicide case, but there was nothing I could do to stop it.",
+        "~ I don't care about economy, I don't care about astronomy.",
+        "~ But it sure do bother me to see my loved ones turning into puppets.",
+        "~ There's a slow, slow train coming up around the bend.",
+        {
+          "astronomy": [
+            "@ The scientific study of the universe and of objects that exist naturally in space, such as the moon, the sun, planets, and stars.",
+            "These ancient scholars were steeped in poetry and painting, as well as math and astronomy",
+            {
+              "astrology": [
+                "@ The study of the movements and positions of the sun, moon, planets, and stars in the belief that they affect the character and lives of people.",
+                "& Unlike astronomy, astrology cannot be described as an exact science.",
+                "In astrology, a person's personality is supposed to relate to which sign they were born under.",
+                "The author uses astrology to show you how to exploit your potential in every area of life."
+              ]
+            }
+          ]
+        }
+      ],
+      "Isis": [
+        "~ I married Isis on the fifth day of May.",
+        "~ But I could not hold on to her very long.",
+        "~ So I cut off my hair and I rode straight away.",
+        "~ For the wild unknown country where I could not go wrong.",
+        {},
+        "~ I came to a high place of darkness and light.",
+        "~ Dividing line ran through the center of town.",
+        "~ I hitched up my pony to a post on the right.",
+        "~ Went in to a laundry to wash my clothes down.",
+        {
+          "hitch": [
+            "@ A temporary difficulty that causes a short delay.",
+            "Due to a slight technical hitch the concert will be starting half an hour late.",
+            "@ A particular type of knot.",
+            "A hitch is a knot used to tie a rope to a fixed object.",
+            "There are many different hitches, such as a barrel hitch, a boom hitch, a cow hitch and a pipe hitch.",
+            "@ A device for fastening one thing to another, for example for fastening a trailer to a car.",
+            "The unit can be mounted to most bikes with a special hitch.",
+            "@ To fasten something to another thing by tying it with a rope or using a metal hook.",
+            "The horses were hitched to a shiny, black carriage.",
+            "We just need t ohitch the trailer onto the car and then we can go.",
+            {
+              "hitch a lift/ ride": [
+                "@ To get a free ride in someone else's vehicle as a way of traveling.",
+                "They hitched a lift to Los Angeles from a passing car."
+              ]
+            }
+          ],
+          "post": [
+            "@ As a noun, post can be a vertical pole stuck in the ground, usually to support something or to mark a position.",
+            "Bob leaned against a fence post."
+          ]
+        },
+        "~ A man in the corner approached me for a match.",
+        "~ I knew right away he was not ordinary.",
+        "~ He said, are you looking for something easy to catch.",
+        "~ Said, I got no money, he said, that ain't necessary.",
+        {
+          "approach": [
+            "@ To come near or nearer to something or someone in space, time, quality, or amount.",
+            "We could just see the train approaching in the distance.",
+            "In my opinion, no other composers ever begin to approach Mozart.",
+            "@ To deal with something.",
+            "I'm not sure how to approach the problem.",
+            "@ To speak to, write to, or visit someone in order to do something such as make a request or business agreement.",
+            "We've just approached the bank for/ about a loan.",
+            "She's been approached by a modeling agency."
+          ],
+          "match": [
+            "@ A sport competition or event in which two people or teams compete against each other.",
+            "@ A short, thin stick made of wood or cardboard and covered with a special chemical at one end that burns when rubbed firmly against a rough surface.",
+            "This is a box of matches."
+          ]
+        },
+        "~ We set out that night for the cold in the North.",
+        "~ I gave him my blanket, he gave me his word.",
+        "~ I said, where are we going, he said we'd be back by the fourth.",
+        "~ I said, that's the best news that I've ever heard.",
+        {
+          "set out": [
+            "@ To start an activity with a particular aim.",
+            "She set out with the aim of becoming the youngest ever winner of the championship.",
+            "They set out to discover a cure for cancer.",
+            "@ To start a trip.",
+            "He set out to crush all his enemies."
+          ]
+        },
+        "~ I was thinking about turquoise, I was thinking about gold.",
+        "~ I was thinking about diamonds and the world's biggest necklace.",
+        "~ As we rode through the canyons, through the devilish cold.",
+        "~ I was thinking about Isis, how she thought I was so reckless.",
+        {
+          "turquoise": [
+            "@ A bluish-green semi-precious stone that is often used in jewelry.",
+            "@ bluish-green in color.",
+            "The clear turquoise water of the bay."
+          ],
+          "canyon": [
+            "@ A large valley with very steep sides and usually a river flowing along the bottom."
+          ],
+          "devilish": [
+            "@ Evil or morally bad.",
+            "He's now 59, and indeed seems very different from that dark-haired monster with the devilish smirk."
+          ],
+          "reckless": [
+            "@ Doing something dangerous and not worry about the risks and the possible results.",
+            "He was found guily of reckless driving.",
+            "These punks have a reckless disregard for the law.",
+            {
+              "recklessly": ["She spends her money recklessly."],
+              "recklessness": ["The accident was a result of recklessness."]
+            }
+          ]
+        },
+        "~ How she told me that one day we would meet up again.",
+        "~ And things would be different the next time we wed.",
+        "~ If I only could hang on and just be her friend.",
+        "~ I still can't remember all the best things she said.",
+        {
+          "hang on": [
+            "@ To wair for a short time.",
+            "Sally's on the other phone - would you like to hang on?",
+            "Do you need to use the restroom right now or can you hang on for a while?",
+            "Hang on a minute - I'll be with you in a moment!",
+            "@ To hold or continue holding onto something.",
+            "Hang on tight - it's going to be a very bumpy ride."
+          ]
+        },
+        "~ We came to the pyramids all embedded in ice.",
+        "~ He said, there's a body I'm trying to find.",
+        "~ If I carry it out it'll bring a good price.",
+        "~ 'Twas then that I knew what he had on his mind.",
+        {
+          "pyramid": [
+            "@ A solid object with a square base and four triangular sides that form a point at the top.",
+            "@ A pile of things that has the shape of a pyramid.",
+            "The acrobats formed a pyramid by standing on each other's shoulders.",
+            "Many arganizations have a pyramid structure (= there are fewer people at the top levels of them than there are at the bottom.",
+            {
+              "the pyramids": [
+                "@ A group of ancient pyramid-shaped structures built in Egypt as tombs for the Pharaohs."
+              ]
+            }
+          ],
+          "embedded": [
+            "@ Fixed into the surface of something.",
+            "The thorn was embedded in her thumb.",
+            "@ If an emotion, opinion, etc. is embedded in someone or something, it is a very strong or important part of him, her, or it.",
+            "A sense of guilt was deeply embedded in my conscience"
+          ],
+          "'twas": ["@ The short form of ' it was '."]
+        },
+        "~ The wind it was howling and the snow was outrageous.",
+        "~ We chopped through the night and we chopped through the dawn.",
+        "~ When he died I was hoping that it wasn't contagious.",
+        "~ But I made up my mind that I had to go on.",
+        {
+          "howl": [
+            "@ If a dog or wolf howls, it makes a long, sad sound.",
+            "In the silence of the night, a lone wolf howled.",
+            "@ To make a loud sound, usually to express pain, sadness, or another strong emotion.",
+            "We were howling with laughter.",
+            "The opposition howled down the government's proposal (= shouted loudly to express disapproval ).",
+            "@ If the wind howls, it blows hard and makes a lot of noise.",
+            "Is there someone outside, or is it just the wind howling in the trees?",
+            "@ A long, loud, sad sound",
+            "He leaves his dog shut up in the house all day, and we can hear its howls.",
+            "She let out a howl of pain.",
+            "@ A strong expression of emotion, such as anger or disagreement.",
+            "Plans to build a new supermarket have been greeted with howls of protest from local residents."
+          ],
+          "dawn": [
+            "@ The period in the day when light from the sun begins to appear in the sky.",
+            "We left as dawn was breaking (= starting ).",
+            {
+              "the dawn of sth": [
+                "@ The start of a period of time or the beginning of something new.",
+                "The fall of the Berlin Wall marked the dawn of a new era in European history."
+              ],
+              "from dawn to dusk": [
+                "@ From early morning until night.",
+                "We worked from dawn to dusk, seven days a week."
+              ]
+            }
+          ],
+          "contagious": [
+            "@ A contagious disease can be caught by touching someone who has the disease or a piece of infected clothing.",
+            "The infection is highly contagious, so don't let anyone else use your towel.",
+            "@ A contagious person has a contagious disease.",
+            "Keep him out of school until he's not contagious anymore.",
+            "@ A contagious reeling spreads quickly among people.",
+            "Fear is contagious."
+          ]
+        },
+        "~ I broke into the tomb, but the casket was empty.",
+        "~ There was no jewels, no nothing, I felt I'd been had.",
+        "~ When I saw that my partner was just being friendly.",
+        "~ When I took up his offer I must been mad.",
+        {
+          "casket": [
+            "@ A small, decorative box, esp. one used to keep jewelry in.",
+            "@ A coffin"
+          ]
+        },
+        "~ I picked up his body and I dragged him inside.",
+        "~ Threw him down in the hole and I put back the cover.",
+        "~ I said a quick prayer and I felt satisfied.",
+        "~ Then I rode back to find Isis just to tell her I love her.",
+        {},
+        "~ She was there in the meadow where the creek used to rise.",
+        "~ Blinded by sleep and in need of a bed.",
+        "~ I came in from the East with the sun in my eys.",
+        "~ I cursed her one time then I rode on ahead.",
+        {
+          "meadow": [
+            "@ A field with grass and often wild flowers in it.",
+            "There was a path through the meadow to the village."
+          ],
+          "creek": [
+            "@ A narrow area of water that flows into the land from the ocean, a lake, etc.",
+            "@ A small river or stream."
+          ]
+        },
+        "~ She said, where ya been? I said, no place special.",
+        "~ She said, you look different, I said, well, I guess.",
+        "~ She said, you been gone, I said, that's only natural.",
+        "~ She said, you gonna stay? I said, yeah, I might do.",
+        {},
+        "~ Isis, oh, Isis, you mystical child.",
+        "~ What drives me to you is what drives me insane.",
+        "~ I still can remember the way that you smiled.",
+        "~ On the fifth day of May in the drizzling rain.",
+        {
+          "drizzle": [
+            "@ Rain in very small, light drops.",
+            "Tomorrow will be cloudy with out breaks of rain and drizzle.",
+            "It's been drizzling all day.",
+            "@ A small amount of liquid that is lightly poured over something.",
+            "Serve the pasta with a drizzle of olive oil.",
+            "@ To pour liquid slowly over something, esp. in a thin line or in small drops.",
+            "Drizzle the syrup over the warm cake."
+          ]
+        }
+      ],
+      "House of the Rising Sun": [
+        "~ There is a house down in New Orleans they call the rising sun.",
+        "~ And it's been the ruin of many a poor girl and me, oh God, I'm one.",
+        {},
+        "~ My mother was a tailor, she sewed these new blue jeans.",
+        "~ My sweetheart was a gambler, Lord, down in New Orleans.",
+        {
+          "tailor": [
+            "@ Someone whose job is to repair, make, and adjust clothes, esp. someone who makes jacket, pants, caots, etc. for men.",
+            "@ To make or prepare something following particular instructions.",
+            "We tailor any of our products to your company's specific needs.",
+            "Their services are tailored to clients' needs.",
+            {
+              "tailored": [
+                "They prefer a tailored approach.",
+                "Tax havens increasingly aim to provide specific tailored benefits for users."
+              ]
+            }
+          ],
+          "sew": [
+            "@ To join two pieces of cloth together by putting thread through them with a needle.",
+            "I made this skirt just by sewing two pieces of material together.",
+            "He sewed the badge neatly onto his uniform.",
+            "She sews all her children's clothes.",
+            "@ To use a needle and thread to join up the edges of a cut in the skin or other part of the body.",
+            "The muscle layer needs to be sewn first.",
+            "His finger was cut off when he caught it in a machine, but the surgeon was able to sew it back on."
+          ]
+        },
+        "~ Now the only thing a gambler needs is a suitcase and a trunk.",
+        "~ And the only time when he's satisfied is when he's on a drunk.",
+        {
+          "trunk": [
+            "@ The thick main stem of a tree, from which its branches grow.",
+            "@ The main part of a person's body, not including the head, legs, or arms.",
+            "The statue shows the head trunk, and arms of an old man.",
+            "@ The main part of blood vessel or nerve.",
+            "@ The long, tube-shaped nose of an elephant.",
+            "@ A large, strong container that is used for storing clothes and personal possessions, often when traveling or going to live in a new place.",
+            "~ Now the only thing a gambler needs is a suitcase and a trunk.",
+            "@ A covered space at the back of a car, for storing things in.",
+            "I always keep a blaket and a toolkit in the trunk for emergencies.",
+            "Stolen goods were found in the trunk of her car."
+          ]
+        },
+        "~ He fills his glasses up to the brim and he'll pass the cards around.",
+        "~ And the only pleasure he gets out of life is rambling from town to town.",
+        {
+          "brim": [
+            "@ The bottom part of a hat that sticks out all around the head.",
+            "@ The very top edge of a container.",
+            "He filled the glass to the brim.",
+            "She passed him the mug. filled to the brim with hot black coffee.",
+            "@ To become full of something, esp. a liquid.",
+            "Her eyes brimmed with tears when she heard that he was alive.",
+            "His recent triumphs have left the tennis ace brimming over with confidence and energy."
+          ],
+          "ramble": [
+            "@ To walk for pleasure, esp. in the countryside.",
+            "I love to ramble through the fields and lanes in this part of the country.",
+            "Let's go rambling tomorrow.",
+            "@ To talk or write in a confused way, often for a long time.",
+            "Sorry, I'm rambling ( on ) - let me get back to the point.",
+            "@ ( esp. of a plant ) to go in many different directions.",
+            "An old clematis rambles over the garden wall."
+          ]
+        },
+        "~ Oh tell my baby sister not to do what I have done.",
+        "~ But shun that house in New Orleans they call the rising sun.",
+        {
+          "shun": [
+            "@ To avoid something",
+            "She has shunned publicity since she retired from acting."
+          ]
+        },
+        "~ Well with one foot on the platform and the other foot on the train.",
+        "~ I'm going back to New Orleans to wear that ball and chain.",
+        {},
+        "~ I'm going back to New Orleans, my race is almost run.",
+        "~ I'm going back to end my life down in the rising sun.",
+        {},
+        "There is a house in New Orleans they call the rising sun.",
+        "~ And it's been the ruin of many a poor girl and me, oh God, I'm one.",
+        {}
+      ]
+    },
+    "Radiohead": {},
+    "Pink Floyd": {},
+    "Queen": {},
+    "Nirvana": {},
+    "Daniel Johnston": {},
+    "Bo Burnham": {},
+    "Eminem": {},
+    "Kendrick Lamar": {},
+    "Logic": {},
+    "Marilyn Manson": {},
+    "Low Roar": {},
+    "Frank Sinatra": {},
+    "Vampire Weekend": {},
+    "Mother Mother": {},
+    "Lincoln": {},
+    "Two Door Cinema Club": {},
+    "Alt-J": {},
+    "George Miller": {
+      "Joji": {},
+      "pre-Joji": {}
     }
-  ]
+  }
 }
