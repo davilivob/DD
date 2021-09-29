@@ -704,7 +704,25 @@
         "release": [
           "& Release is more common.",
           {
-            "discharge": [""]
+            "discharge": [""],
+            "exert": [
+              "@ To use authority, power, influence, etc. to make something happen.",
+              "If you were to exert your influence they might change their decision.",
+              "Some managers exert considerable pressure on their staff to work extra hours without being paid.",
+              {
+                "exert yourself": [
+                  "@ To make a mental or physical effort.",
+                  "I was too tired to exert myself."
+                ],
+                "exertion": [
+                  "@ The use of a lot of mental or physical effort.",
+                  "I get out of breath with any kind of physical exertion.",
+                  "Physical exertion isn't always a good thing in a hot climate.",
+                  "@ The use of authority, power infuence, etc. to make something happen.",
+                  "His exertion of influence over staffs who was appointed to the job."
+                ]
+              }
+            ]
           }
         ],
         "liberate": ["& Liberate is more formal."],
@@ -3944,7 +3962,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "exert": [""],
     "administrator": [
       "",
       {
