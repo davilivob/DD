@@ -2799,6 +2799,11 @@
           "@ If an action or attempt to do something is fruitless, it is unsuccessful or produces nothing of value.",
           "All diplomatic attempts at a peaceful solution to the crisis have been fruitless.",
           "After months of fruitless negotiations with team owners, the city withdrew its offer to build a new stadium."
+        ],
+        "unaided": [
+          "@ According to the Oxford dictionary, unaided means ' without help from anyone or anything '",
+          "Microorganism is an organism that is too small to be seen by the unaided eye.",
+          "She reached the top of the mountain unaided."
         ]
       }
     ],
@@ -4070,6 +4075,26 @@
         ]
       }
     ],
+    "consumer": [
+      "",
+      {
+        "consume": [
+          "",
+          {
+            "consumption": [""]
+          }
+        ]
+      },
+      {
+        "subscription": [""]
+      },
+      {
+        "laborer": [
+          "@ A person who does unskilled physical work, especially outside.",
+          "But many employers skirted the law, preferring to hire less expensive laborers who crossed the border illegally."
+        ]
+      }
+    ],
     "whereabouts": [
       "If anyone know the whereabouts of John, last name unknown, contact Ms. Smith on 6th Street."
     ],
@@ -4140,10 +4165,6 @@
       "Athletes must undergo a mandatory drugs test before competing in the championship.",
       "In 1991, the British government made it mandatory to wear rear seat belts in cars."
     ],
-    "laborer": [
-      "@ A person who does unskilled physical work, especially outside.",
-      "But many employers skirted the law, preferring to hire less expensive laborers who crossed the border illegally."
-    ],
     "receptor": [
       "@ A nerve ending that reacts to a change, such as heat or cold, in the body by sending a message to the central nervous system.",
       "For example, mechanical receptors could assist in sensing water during drinking.",
@@ -4178,11 +4199,6 @@
       {
         "motion": [""]
       }
-    ],
-    "unaided": [
-      "@ According to the Oxford dictionary, unaided means ' without help from anyone or anything '",
-      "Microorganism is an organism that is too small to be seen by the unaided eye.",
-      "She reached the top of the mountain unaided."
     ],
     "deed": [
       "It seems to me that a lot of evil deeds are done in the name of religion.",
@@ -4289,12 +4305,6 @@
     "chimp": [""],
     "hormonal": [""],
     "sluggish": [""],
-    "consume": [
-      "",
-      {
-        "consumption": [""]
-      }
-    ],
     "facility": [""],
     "plung": [""],
     "generous": [""],
@@ -4685,12 +4695,6 @@
     "marital": [""],
     "questionnaire": [""],
     "sector": [""],
-    "consumer": [
-      "",
-      {
-        "subscription": [""]
-      }
-    ],
     "broadband": [""]
   }
 }
