@@ -1770,7 +1770,11 @@
           "@ Things made of porcelain.",
           "He had a fine collection of Meissen porcelain."
         ],
-        "clay": [""]
+        "clay": [
+          "@ Thick, heavy soil that is soft when wet, and hard when dry or baked, used for making bricks and containers.",
+          "Clay is used for making bricks and pots.",
+          "A ball of clay is placed on a flat wheel device that turns quickly."
+        ]
       }
     ],
     "cautious": [
@@ -3038,7 +3042,8 @@
       "",
       {
         "mug": [""],
-        "cork": [""]
+        "cork": [""],
+        "pot": [""]
       }
     ],
     "pomegranate": [
