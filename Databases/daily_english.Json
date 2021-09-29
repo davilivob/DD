@@ -1760,8 +1760,17 @@
           "@ Very small, rounded stones, often mixed with sand.",
           "Visit all the nearby sand and gravel pits and start to look at their different sands.",
           "The entire trench is then filled with the rounded gravel."
+        ]
+      },
+      {
+        "concrete": [""],
+        "porcelain": [
+          "@ A hard but delicate, shinny, white substance made by heating a special type of clay to a high temperature, used to make cups, plates, decorations, etc..",
+          "The tea cups are made of porcelain.",
+          "@ Things made of porcelain.",
+          "He had a fine collection of Meissen porcelain."
         ],
-        "concrete": [""]
+        "clay": [""]
       }
     ],
     "cautious": [
@@ -2327,7 +2336,8 @@
               "He was charged with conduct unbecoming to an officer.",
               "Such conduct is unbecoming to an official."
             ],
-            "decorative": [""]
+            "decorative": [""],
+            "delicate": [""]
           }
         ]
       }
@@ -3227,6 +3237,9 @@
             "observation": [""]
           }
         ]
+      },
+      {
+        "glare": [""]
       }
     ],
     "interchangeably": [
@@ -4211,7 +4224,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "porcelain": [""],
     "christianity": [""],
     "glittering": [""],
     "ceremony": [""],
@@ -4241,7 +4253,6 @@
     "enormous": [""],
     "overhear": [""],
     "postgraduates": [""],
-    "clay": [""],
     "anticipate": [""],
     "dynamic": [""],
     "circulate": [""],

@@ -5367,4 +5367,4 @@
       "i"
     ]
   }
-]
+,{"TestEndTime":"2021/9/29 P.M. 05:31:03","TestLength":1,"TotalChars":308,"GoodChars":300,"TotalBack":5,"WrongWords":["an","this"],"WrongChars":["Spaces","n","i","p","e","c","i","s"]},{"TestEndTime":"2021/9/29 P.M. 05:36:13","TestLength":5,"TotalChars":1521,"GoodChars":1467,"TotalBack":44,"WrongWords":["have","reducing","the","manual","jumped"],"WrongChars":["t","s","c","l","p","p","s","u","e","v","e","n","n","g","t","s","e","f","Spaces","c","i","l","f","u","h","e","s","i","s","u","p","s","l","p","e","d","Spaces","t","u","o","e","t","a","a","b","v","Spaces","s","Spaces","e","n","o","b","e"]}]  
