@@ -2374,6 +2374,21 @@
           "His red hair and short stature made him easy to recognize.",
           "Although short in stature, his voice and stage presence were remarkable."
         ],
+        "glittering": [
+          "@ Exciting or admired by many people, usually relating to rich and famous people.",
+          "The Cannes Film Festival is one of the most glittering occasions in the movie world.",
+          "@ Shining with a lot of small bright flashes of light.",
+          "The glittering skyline of Manhattan.",
+          {
+            "glitter": [
+              "@ To produce a lot of small, bright flashes of reflected light.",
+              "Her diamond necklace glittered brilliantly under the spotlights.",
+              "His dark eyes glittered with anger behind his glasses.",
+              "@ The excitement and attractive quality connected with rich and famous people.",
+              "He was attracted by the glitter of Hollywood."
+            ]
+          }
+        ],
         "nonentity": [
           "This collection of essays is saved from nonentity by the stature of the contributors.",
           "It's a low-budget film full of nonentities.",
@@ -3714,7 +3729,8 @@
           "What airline did you fly with?",
           "Many airline passengers face lengthy delays becauses of the strike.",
           "The 1990s saw a huge increase in the numbers of low-cost airlines."
-        ]
+        ],
+        "skyline": [""]
       }
     ],
     "attach": [
@@ -4088,6 +4104,7 @@
     "converse": [
       "",
       {
+        "reflect":[""],
         "reverse": [
           "",
           {
@@ -4254,7 +4271,6 @@
         ]
       }
     ],
-    "glittering": [""],
     "ceremony": [""],
     "conjure": [""],
     "metric": [""],
