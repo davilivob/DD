@@ -658,7 +658,8 @@
           "@ If a radioactie substance decays, it changes to a different form, producing radiation.",
           "As the actinium-225 decays, it gives off short-lived, highly energized alpha particles.",
           {
-            "radioactive": [""]
+            "radioactive": [""],
+            "erode": [""]
           }
         ],
         "trim": [
@@ -745,6 +746,9 @@
     "neglect": [
       "The climate is naturally good, but continued neglect of sanitary precautions has made the city unhealthy.",
       {
+        "negligence": [""]
+      },
+      {
         "ignore": [
           "& Ignore just means that someone doesn't pay attention. Neglect is leaving something alone to the point that it falls aparts or breaks."
         ],
@@ -823,6 +827,21 @@
           "@ Behavior, esp. of a young person, that is illegal or not acceptable to most people",
           "There is a high rate of juvenile delinquency in this area.",
           "His past delinquencies have made it hard for him to get a job."
+        ],
+        "accuse": [
+          "@ To say that someone has done something morally wrong, illegal, or unkind.",
+          "The surgeon was accused of negligence.",
+          {
+            "stand accused of sth": [
+              "@ If you stand accused of doing something wrong, people say that you have done it.",
+              "The government stands accused of eroding freedom of speech."
+            ],
+            "accusation": [
+              "He denied the accusation, saying he was innocent.",
+              "He glared at me with an air of accusation.",
+              "What do you say to the accusation that you are unfriendly and unhelpful?"
+            ]
+          }
         ]
       }
     ],
@@ -2707,6 +2726,16 @@
         ],
         "pharaoh": [""],
         "curfew": [""]
+      },
+      {
+        "monopoly": [
+          "@ An organization or group that has complete control of something, especially an area of business, so that others have no share.",
+          "The government is determined to protect its tobacco monopoly.",
+          "The drafting of a new constitution cannot be a monopoly of the white minority regime (= other people should do it too).",
+          {
+            "monopolistic": [""]
+          }
+        ]
       }
     ],
     "fruitful": [
@@ -2776,16 +2805,22 @@
           "The nationalists are very eager to conserve their customs and language.",
           "I'm not being lazy - I'm just conserving my energy/ strength for later."
         ],
-        "retain": [""],
+        "retain": [
+          "@ To keep or continue to have something.",
+          "She has lost her battle to retain control of the company.",
+          "I have a good memory and am able to retain (= remember ) facts easily.",
+          "@ If a substance retains something, such as heat or water, it continues to hold or contain it.",
+          "The sea retains the sun's warmth longer than the land.",
+          {
+            "retention": [""]
+          }
+        ],
         "maintain": [
           "",
           {
             "maintenance": [""]
           }
         ]
-      },
-      {
-        "restore": [""]
       }
     ],
     "shank": [
@@ -3432,14 +3467,6 @@
         ]
       }
     ],
-    "monopoly": [
-      "@ An organization or group that has complete control of something, especially an area of business, so that others have no share.",
-      "The government is determined to protect its tobacco monopoly.",
-      "The drafting of a new constitution cannot be a monopoly of the white minority regime (= other people should do it too).",
-      {
-        "monopolistic": [""]
-      }
-    ],
     "aesthetic": [
       "@ Relating to the enjoyment or study of beauty.",
       "Those buildings has little aesthetic appeal.",
@@ -3950,7 +3977,14 @@
       }
     ],
     "slimy": [
+      "@ Covered in slime.",
+      "Although snakes look slimy, their skin is actually dry to the touch.",
       "The raindrops were heavier now, working the mud on her face into a slimy mess.",
+      "@ If you describe a person or their manner as slimy, you mean that appear to be friendly but in a way that you find unpleasant.",
+      "He was the very worst kind of slimy salesman.",
+      {
+        "slime": [""]
+      },
       {
         "jello": [""]
       }
@@ -3965,10 +3999,30 @@
       "@ A part of a plant stem or a part of something which is larger and more complex."
     ],
     "morph": [
+      "@ To gradually change, or change someone or something, from one thing to another.",
+      "When someone brings up politics at a party, a casual conversation can quickly morph into an ugly argument.",
+      "He grew up watching his elder brother Joe morph from a difficult child to a drug addict.",
+      "She claims the media and society make a person try to morph their body into an unnatural size or wieght.",
       "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph."
     ],
-    "entropy": [
-      "In the special case of a substance isolated from external heat supply, d * H = 0, the change of entropy is zero in a reversible process, but must be positive if the process is not reversible."
+    "converse": [
+      "",
+      {
+        "reverse": [
+          "",
+          {
+            "restore": [
+              "@ To return something or someone to an earlier good condition or position.",
+              "After a week in bed, she was fully restored to health.",
+              "Ther former leader was today restored to power in the first free election for 20 years."
+            ]
+          }
+        ],
+        "inverse": [""],
+        "entropy": [
+          "In the special case of a substance isolated from external heat supply, d * H = 0, the change of entropy is zero in a reversible process, but must be positive if the process is not reversible."
+        ]
+      }
     ],
     "whereabouts": [
       "If anyone know the whereabouts of John, last name unknown, contact Ms. Smith on 6th Street."
@@ -4110,7 +4164,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "accuse": [""],
     "covert": [""],
     "docile": [""],
     "handful": [""],
@@ -4389,13 +4442,6 @@
     "evolved": [""],
     "carton": [""],
     "cite": [""],
-    "converse": [
-      "",
-      {
-        "reverse": [""],
-        "inverse": [""]
-      }
-    ],
     "reddish": [""],
     "piercing": [""],
     "underestimate": [""],
