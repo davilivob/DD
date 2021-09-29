@@ -751,7 +751,44 @@
           "@ The place where a judge decides if someone has done a crime",
           "The suspect appeared in court charged with robbery.",
           "@ An area for playing a sport.",
-          "This is a tennis court."
+          "This is a tennis court.",
+          {
+            "charter": [
+              "@ A formal statement of the rights of a country's people, or of an organization or a particular social group, that is agreed by or demanded from a ruler or government.",
+              "Education is one of the basic human rights written into the United Nations Charter.",
+              "The government has produced a Citizen's/ Parents's/ Patient's Charter.",
+              "@ To rent a vehicle, esp. an aircraft for a special use and not as part of a regular service.",
+              "They've chartered a plane to take delegates to the conference.",
+              {
+                "constitution": [
+                  "@ The set of political principles by which a state or organization is governed, esp. in relation to the rights of the people.",
+                  "Britain has no written constitution.",
+                  "The first amendments to the Constitution of the United States are called the Bill of Rights.",
+                  "Under the union constitution, a new committee is elected each year.",
+                  "@ The general state of someone's health.",
+                  "He has a very strong constitution.",
+                  "@ How something is made up of different parts.",
+                  "The constitution of a chemical compound.",
+                  {
+                    "constitutional": [
+                      "@ Allowed by or contained in a constitution.",
+                      "Such a policy would not be constitutional.",
+                      "Freedom of speech should be a constitutional right.",
+                      "@ A walk that you often do to keep yourself healthy.",
+                      "She's nearly 86 and still takes a constitutional every morning."
+                    ],
+                    "unconstitutional": [
+                      "@ Not allowed by the constitution of a country or organization.",
+                      "Changing the law in this way would be unconstitutional."
+                    ]
+                  },
+                  {
+                    "amendment": [""]
+                  }
+                ]
+              }
+            ]
+          }
         ],
         "delinquency": [
           "@ Behavior, esp. of a young person, that is illegal or not acceptable to most people",
@@ -3738,27 +3775,6 @@
     "ensue": [
       "@ To happen after something else, especially as a result of it.",
       "Chaos ensued when 60 charter schools run by one company were all suddenly closed."
-    ],
-    "charter": [
-      "@ A formal statement of the rights of a country's people, or of an organization or a particular social group, that is agreed by or demanded from a ruler or government.",
-      "Education is one of the basic human rights written into the United Nations Charter.",
-      "The government has produced a Citizen's/ Parents's/ Patient's Charter.",
-      "@ To rent a vehicle, esp. an aircraft for a special use and not as part of a regular service.",
-      "They've chartered a plane to take delegates to the conference.",
-      {
-        "constitution": [
-          "@ The set of political principles by which a state or organization is governed, esp. in relation to the rights of the people.",
-          "Britain has no written constitution.",
-          "Under the union constitution, a new committee is elected each year.",
-          "@ The general state of someone's health.",
-          "He has a very strong constitution.",
-          "@ How something is made up of different parts.",
-          "The constitution of a chemical compound.",
-          {
-            "unconstitutional": [""]
-          }
-        ]
-      }
     ],
     "equanimity": [
       "@ A calm mental state, esp. after a shock or disappointment or in a difficult situation.",
