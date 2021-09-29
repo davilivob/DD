@@ -1566,7 +1566,11 @@
             "rigid": [""]
           },
           {
-            "tender": [""]
+            "tender": [""],
+            "docile": [
+              "@ Quiet and easy to influence, persuade, or control.",
+              "They have a big dog, but it's real friendly and docile."
+            ]
           }
         ]
       }
@@ -3465,6 +3469,12 @@
         "vagueness": [
           "Given the vagueness of the directions, I think we did very well to find the place."
         ]
+      },
+      {
+        "covert": [
+          "@ Hidden or secret.",
+          "The government was accused of covert military operations against the regime."
+        ]
       }
     ],
     "aesthetic": [
@@ -4164,8 +4174,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "covert": [""],
-    "docile": [""],
     "handful": [""],
     "stratified": [""],
     "porcelain": [""],
