@@ -689,11 +689,22 @@
               "He has a runner's wiry frame."
             ]
           }
-        ],
+        ]
+      },
+      {
         "destruction": [
           "@ The act of destroying something, or the fact of being destroyed.",
           "Many people are very concerned about the destruction of the rainforests.",
           "Unusually high winds left a trail of destruction over the area."
+        ],
+        "overthrow": [
+          "@ To defeat or remove someone from power, using force.",
+          "He said that Allende's government in Chile was overthrown by the army and the CIA in 1973.",
+          "@ To throw a ball past the person or object you intended to throw to.",
+          "The quarterback overthrew.",
+          "@ An occasion when someone or something is removed from power using force.",
+          "The overthrow of the monarchy.",
+          "@ The act of throwing a ball too far."
         ]
       }
     ],
@@ -1615,6 +1626,9 @@
           "He suffers periodic mental breakdowns.",
           "Depending on the parameters selected, and the initial conditions, the simulated temporal trajectories may exhibit either regular (periodic and quasi-periodic) or chaotic behavior.",
           {
+            "annual": [""]
+          },
+          {
             "the Periodic Table": [
               "@ A list of the symbols of all the chemical elements arranged in rows and columns down a page."
             ],
@@ -1824,16 +1838,60 @@
           "A beautiful old door with oak panels.",
           "The hall has been tastefully paneled in cherrywood.",
           "@ A surface with devices that a person uses to control or get information about the operation of one or more machines.",
-          "The car's instrument panel has buttons that give off a little blue-green light at night."
-        ],
-        "congress": [
-          "",
+          "The car's instrument panel has buttons that give off a little blue-green light at night.",
           {
-            "congressman": [""],
-            "delegate": [""],
-            "council": [""]
+            "congress": [
+              "",
+              {
+                "congressman": [""],
+                "council": [""]
+              }
+            ]
           }
         ]
+      },
+      {
+        "administrator": [
+          "@ Someone whose job is to control the operation of a business, organization, or plan.",
+          "From 1969 to 1971, he was administrator of the Illinois state drug abuse program.",
+          "The court-appointed administrator asked a court to declare the firm bankrupt.",
+          {
+            "administration": [
+              "@ The arrangements and tasks needed to control the operation of a plan or organization.",
+              "Teachers complain that more of their time is taken up with administration than with teaching.",
+              "@ The people in an organization who manage its business and operations.",
+              "The decision to cancel the trip was made by the school administration.",
+              "@ A period of government, or the people who are in government.",
+              "For example: the Obama administration, the republican administration.",
+              "@ The act of giving someone something.",
+              "There are strict controls on the administration of drugs.",
+              "@ The process that takes place when a company cannot pay its debts and is allowed to make changes to its organization to try to avoid going into liquidation.",
+              "The company has gone into administration, in order for money to be returned to creditors.",
+              {
+                "admin": ["& The abbreviation for administration."]
+              },
+              {
+                "delegate": [
+                  "@ A person chosen or elected by a group to speak, vote, etc. for them, esp. at a meeting.",
+                  "Delegates have voted in favor of the motion.",
+                  "Each union elects several delegates to the annual conference.",
+                  "@ To give a particular job, duty, right, etc. to someone else so that they do it for you.",
+                  "As a boss you have to delegate.",
+                  "Authority to make financial decisions has been delegated to a special committee.",
+                  "A manufacturer can delegate some or all of its overseas operations to an export house.",
+                  "The company director, who prepared their submission, cannot be here and delegated her deputy to present it for her.",
+                  {
+                    "submission": [""],
+                    "deputy": [""]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "conference": [""]
       }
     ],
     "adhere": [
@@ -2580,7 +2638,10 @@
           "The glittering ceremony conjured up images of Russia's imperial past.",
           "The imperial guards stormed the palace.",
           "@ The imperial system of measurement uses units such as inches, miles, and pints.",
-          "Imperial units have in many cases been replaced by metric ones in Britain."
+          "Imperial units have in many cases been replaced by metric ones in Britain.",
+          {
+            "monarchy": [""]
+          }
         ],
         "totalitarian": [
           "@ Of or being a political system in which those in power have complete control and do not allow people freedom to oppose them.",
@@ -2705,7 +2766,10 @@
             "demands": [
               "@ The difficult things that you have to do.",
               "The demands of nursing are too great for a lot of people.",
-              "His new job makes a lot of demands on him."
+              "His new job makes a lot of demands on him.",
+              {
+                "task": [""]
+              }
             ]
           }
         ],
@@ -3395,7 +3459,9 @@
         ],
         "the Allies": [
           "& The countries, including the U.S., the U.K., the USSR, and France, that fought against the Axis countries in the Second World War"
-        ],
+        ]
+      },
+      {
         "diameter": [""],
         "symmetry": [
           "@ The quality of having parts that match each other, esp. in a way that is attractive, or similarity of shape or contents.",
@@ -3741,13 +3807,19 @@
               "The concrete floor was covered with oriental rugs."
             ]
           }
-        ]
+        ],
+        "appoint": [""]
       }
     ],
     "architectural": [
       "",
       {
-        "staduim": [""],
+        "stadium": [
+          "",
+          {
+            "quarterback": [""]
+          }
+        ],
         "tile": [
           "@ A flat, thin, usually square piece of baked clay, plastic, or other material used for covering floors, walls, or roofs.",
           "Count the tiles on the floor or ceiling.",
@@ -3944,7 +4016,10 @@
       "There is a lot of competition with the sugar-filled and artificially flavored treats on the store shelves.",
       "Try to encourage children not to eat too many of those snacks and treats tha tend to pile on the pounds without provinding much nutrition.",
       "@ A small piece of food, often specially produced, that is given to pets in addition to their usual food, for example as a reward.",
-      "The owner said the dog was dangerous, but when I fed it dog treats it would take them gently out of my hand."
+      "The owner said the dog was dangerous, but when I fed it dog treats it would take them gently out of my hand.",
+      {
+        "motion": [""]
+      }
     ],
     "unaided": [
       "@ According to the Oxford dictionary, unaided means ' without help from anyone or anything '",
@@ -3962,14 +4037,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "administrator": [
-      "",
-      {
-        "admin": [""],
-        "administration": [""]
-      }
-    ],
-    "overthrown": [""],
     "dissent": [""],
     "accuse": [""],
     "covert": [""],
@@ -4107,7 +4174,6 @@
     "reduction": [""],
     "stock": [""],
     "condidate": [""],
-    "appoint": [""],
     "receive": [""],
     "oak": [""],
     "inset": [""],
@@ -4457,7 +4523,13 @@
     "carriage": [""],
     "fence": [""],
     "lean": [""],
-    "loan": [""],
+    "loan": [
+      "",
+      {
+        "creditor": [""],
+        "liquidate": [""]
+      }
+    ],
     "semi": [""],
     "smirk": [""],
     "approval": [""],
