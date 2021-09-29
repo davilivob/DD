@@ -862,6 +862,10 @@
         "suffocate": [
           "& You suffocate when you're strangled, but you're not necessarily being strangled when you suffocate."
         ]
+      },
+      {
+        "penalty": [""],
+        "capital punishment": [""]
       }
     ],
     "complaint": [
@@ -1027,7 +1031,8 @@
               "The whole team was resolutely optimistic."
             ]
           }
-        ]
+        ],
+        "staunch": [""]
       }
     ],
     "wit": [
@@ -2048,7 +2053,7 @@
             ],
             "overawe": [
               "@ To cause someone to feel a mixture of respect and fear.",
-              "Some of the players were totally overawed by playing their game at the national staduim."
+              "Some of the players were totally overawed by playing their game at the national stadium."
             ],
             "dire": [
               "I've heard of wolves morphing in dire situations, but always thought they were just stories.",
@@ -2213,26 +2218,6 @@
           "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
           "In the second part of the inventories are listed the belongings of the deceased, with their value."
         ]
-      }
-    ],
-    "skirt": [
-      "She was wearing a dreadful pink flouncy skirt.",
-      "@ Beef that is cut from the bottom part of the side of the animal.",
-      "There's an increasing markets for the cheaper cuts of beef such as skirt.",
-      "Skirt steak is best medium-rare.",
-      "@ To go around the edge of something.",
-      "Take the road which skirts the town, not the one which goes through it.",
-      "@ To avoid discussing a subject or problem usually because there are difficulties that you don't want to deal with.",
-      "Congress has been accused of skirting around the issue of torture.",
-      {
-        "brooch": [
-          "@ A small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
-        ],
-        "badge": [""],
-        "sequin": [""]
-      },
-      {
-        "thread": [""]
       }
     ],
     "elegance": [
@@ -2499,6 +2484,15 @@
       "She hit the ball so hard that her opponent had no chance to establish any rhythm in her game.",
       {
         "compete": [""],
+        "dissent": [
+          "@ A strong difference of opinion on a particular subject, esp. about an official suggestion or plan or a popular belief.",
+          "When the time came to approve the proposal, there were one or two voices of dissent.",
+          "Anyone wishing to dissent from the motion should now raise their hand.",
+          "@ In sports such as soccer and rugby, the offense of disagreeing with a decision made by referee.",
+          "Rooney was booked for dissent after the referee failed to award United a penalty.",
+          "@ ( Of a judge ) to offer a legal opinion in a court that differs from the opinion of most of the other judges of the court.",
+          "A staunch conservative, he frequently dissented from the court's majority opinion."
+        ],
         "bid": [
           "@ To offer a particular amount of money for something that is for sale and compete against other people to buy it, especially at a public sale of goods or property.",
           "The communications group has shown an interest in bidding for the company.",
@@ -2557,7 +2551,10 @@
             ]
           },
           {
-            "thorn": ["He had been a thorn in her side ever since."]
+            "thorn": [
+              "@ A small, sharp pointed growth on the stem of a plant.",
+              "He had been a thorn in her side ever since."
+            ]
           },
           {
             "emphasis": [
@@ -2571,7 +2568,9 @@
               },
               {
                 "utmost": [
+                  "@ Used to emphasize how important or serious something is.",
                   "The situation needs to be handled with the utmost care.",
+                  "@ The greatest amount or degree possible.",
                   "The new model of the car offers the utmost in power and performance."
                 ]
               }
@@ -2581,10 +2580,64 @@
       }
     ],
     "fibrous": [
+      "@ Made of fibers, or like fiber.",
       "It is from these cells the permanent fibrous tissure is formed.",
+      {
+        "fiber": [
+          "@ Any of the thread-like parts that form plant or artificial material and can be made into cloth.",
+          "The fibers are woven into fabric.",
+          "@ One of various thread-like structures in the body, such as those found in muscle.",
+          "Muscle fiber.",
+          "@ A very thin glass or plastic thread through which light can travel to carry information, esp. in phone, tv, and computer systems.",
+          "The data travels down the fibers literally at the speed of light.",
+          "The growth of fiber broadband subscriptions clearly indicates consumer demand for ultra-fast speeds.",
+          "@ A substance in certain foods, such as fruit, vegetables, and brown bread, that travels through the body as waste and helps the contents of the bowels to pass through the body easily.",
+          "You should eat more dietary fiber to reduce the risk of bowel cancer.",
+          "@ Strength of character.",
+          "He lacked the moral fiber to be leader."
+        ],
+        "fabric": [
+          "@ Cloth or material for making clothes, covering furniture, etc..",
+          "Linen is a coarse-grained fabric.",
+          "This fabric is similar to wool, only cheaper.",
+          "She designed her own fabrics using woodblocks and stencils to create patterns on the material.",
+          {
+            "the fabric of sth": [
+              "@ The structure or parts of something.",
+              "Unhappiness was woven into the natural fabric of people's lives.",
+              "We must invest in the fabric of our hospitals and start rebuilding them."
+            ]
+          }
+        ]
+      },
       {
         "parchment": [
           "The wizard wrote a symbol onto the tiny parchment and tossed it into the center of their small circle."
+        ],
+        "wool": [""],
+        "linen": [""]
+      },
+      {
+        "skirt": [
+          "She was wearing a dreadful pink flouncy skirt.",
+          "@ Beef that is cut from the bottom part of the side of the animal.",
+          "There's an increasing markets for the cheaper cuts of beef such as skirt.",
+          "Skirt steak is best medium-rare.",
+          "@ To go around the edge of something.",
+          "Take the road which skirts the town, not the one which goes through it.",
+          "@ To avoid discussing a subject or problem usually because there are difficulties that you don't want to deal with.",
+          "Congress has been accused of skirting around the issue of torture.",
+          {
+            "brooch": [
+              "@ A small piece of jewelry with a pin at the back that is fastened to a woman's clothing."
+            ],
+            "badge": [""],
+            "sequin": [""]
+          },
+          {
+            "thread": [""],
+            "weave": [""]
+          }
         ]
       }
     ],
@@ -2734,11 +2787,21 @@
     "shank": [
       "@ The part of the leg between the knee and ankle or the equivalent in animals.",
       {
+        "frame": [""]
+      },
+      {
         "nerve": [""],
-        "blood vessel": [""],
-        "frame": [""],
+        "blood vessel": [""]
+      },
+      {
         "urine": [
           "@ A waste product of animals, typically liquid (solid in birds and reptiles) containing urea or uric acid."
+        ],
+        "bowels": [
+          "",
+          {
+            "dietary": [""]
+          }
         ]
       }
     ],
@@ -2844,7 +2907,8 @@
           "@ The fact or quality of having characteristics that are traditionally thought to be typical of or suitable for a woman.",
           "Long hair was traditionally regarded as a sign of femininity.",
           "The flowers and cream lace of the dress indicate femininity and delicacy."
-        ]
+        ],
+        "conservative": [""]
       }
     ],
     "precaution": [
@@ -3197,6 +3261,7 @@
           "The introduction of replay has helped the umpires in getting some of the most important calls.",
           "Who's going to umpire the game tonight?",
           {
+            "referee": [""],
             "linesman": [
               "& An official in some sports who is responsible for deciding when the ball has crossed the line that marks the edge of the playing area."
             ]
@@ -3811,15 +3876,16 @@
         "appoint": [""]
       }
     ],
+    "stadium": [
+      "",
+      {
+        "quarterback": [""],
+        "rugby": [""]
+      }
+    ],
     "architectural": [
       "",
       {
-        "stadium": [
-          "",
-          {
-            "quarterback": [""]
-          }
-        ],
         "tile": [
           "@ A flat, thin, usually square piece of baked clay, plastic, or other material used for covering floors, walls, or roofs.",
           "Count the tiles on the floor or ceiling.",
@@ -3833,6 +3899,9 @@
           "The effigy on it may be taken to be an authentic portrait.",
           {
             "statue": [""]
+          },
+          {
+            "stencil": [""]
           }
         ]
       }
@@ -4037,7 +4106,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "dissent": [""],
     "accuse": [""],
     "covert": [""],
     "docile": [""],
@@ -4540,6 +4608,11 @@
     "marital": [""],
     "questionnaire": [""],
     "sector": [""],
-    "consumer": [""]
+    "consumer": [
+      "",
+      {
+        "subscription": [""]
+      }
+    ]
   }
 }

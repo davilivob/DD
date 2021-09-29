@@ -5186,4 +5186,4 @@
       "o"
     ]
   }
-]
+,{"TestEndTime":"2021/9/29 P.M. 02:58:08","TestLength":1,"TotalChars":324,"GoodChars":317,"TotalBack":7,"WrongWords":[],"WrongChars":["e","t","n","t","a","o","b"]},{"TestEndTime":"2021/9/29 P.M. 03:03:19","TestLength":5,"TotalChars":1477,"GoodChars":1413,"TotalBack":46,"WrongWords":["uttering","be","term","cutting","off","is","that"],"WrongChars":["Spaces","Spaces","Spaces","r","r","u","o","t","e","e","b","l","a","n","o","e","r","i","n","g","l","s","g","i","Spaces","t","c","e","j","p","s","n","i","Spaces","i","u","e","Spaces","h","e","b","o","o","e","l","p","p","c","c","u","t","t","i","n","g","f","g","s","t","h","c","a","c","a"]}]  
