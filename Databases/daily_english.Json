@@ -1492,7 +1492,23 @@
           }
         ],
         "strict": [
-          "",
+          "@ Strongly limiting someone's freedom to behave as they wish, or likely to severely punish someone if they do not obey.",
+          "Stricter controls on air pollution would help to reduce acid rain.",
+          "A strict curfew has been imposed from dusk till dawn.",
+          "The negotiations took place in strict (= total ) secrecy.",
+          "@ Exactly correct",
+          "He would be found guilty under a strict interpretation of the law.",
+          "@ Used to refer to someone who follows the rules and principles of a belief or way of living very carefully and exactly, or a belief or principle that is followed very carefully and exactly.",
+          "She's a strict vegetarian and refuses to eat any poultry or fish.",
+          {
+            "in the/ a strict sense": [
+              "@ In the most limited meaning of a word, phrase, etc.",
+              "These were not funerals in the strict sense of the word; there were no caskets or physical remains."
+            ]
+          },
+          {
+            "rigid": [""]
+          },
           {
             "tender": [""]
           }
@@ -2384,7 +2400,8 @@
         ],
         "goose": [
           "True geese are not ducks, but there are a lot of similarities between the two and there are even some shelducks that have \"goose\" in their names."
-        ]
+        ],
+        "poultry": [""]
       }
     ],
     "infuse": [
@@ -2549,7 +2566,8 @@
           "But even in a totalitarian regime, soldiers along the border are hungry enough to take bribes.",
           "He, a professor, represents education, which, as his lectures remind us, totalitarian governments try to keep down."
         ],
-        "pharaoh": [""]
+        "pharaoh": [""],
+        "curfew": [""]
       }
     ],
     "fruitful": [
@@ -3037,30 +3055,37 @@
               "He says it's the best musical equipment you can buy, but I think that's open to dispute."
             ],
             "negotiator": [
-              "@ Someone who tries to help two groups who disagree to reach an agreement with each other, usually as a job."
+              "@ Someone who tries to help two groups who disagree to reach an agreement with each other, usually as a job.",
+              {
+                "negotiation": [""]
+              },
+              {
+                "arbitration": [
+                  "@ The process of solving an argument between people by helping them to agree to an acceptable solution.",
+                  "Both sides in the dispute have agreed to go to arbitration (= to have the disagreement solved by an arbitrator).",
+                  {
+                    "arbitrator": [
+                      "@ A person who has been officially chosen to make a decision between two people or groups who do not agree.",
+                      "An arbitrator then has 30 days to make a decision.",
+                      "And ' defense ' meant only that they were assured a fair hearing before an impartial arbitrator."
+                    ]
+                  },
+                  {
+                    "treaty": [
+                      "@ A written agreement between two or more countries, formally approved and signed by their leaders.",
+                      "We've signed/ concluded a treaty with neighboring states to limit emissions of harmful gases.",
+                      "The latest nation to ratify the treaty is France.",
+                      "The US wants a new air treaty with the UK to lift barriers on the cities that each nations' carriers can serve."
+                    ]
+                  }
+                ]
+              }
             ],
             "strategic": [
               "@ Helping to achieve a plan, for example in business or politics.",
               "Their bombs are always placed in strategic positions to cause as much chaos as possible.",
               "@ Used to provide military forces with an advantage.",
               "There are plans to modernize the U.S. strategic forces."
-            ]
-          }
-        ],
-        "arbitration": [
-          "@ The process of solving an argument between people by helping them to agree to an acceptable solution.",
-          "Both sides in the dispute have agreed to go to arbitration (= to have the disagreement solved by an arbitrator).",
-          {
-            "arbitrator": [
-              "@ A person who has been officially chosen to make a decision between two people or groups who do not agree.",
-              "An arbitrator then has 30 days to make a decision.",
-              "And ' defense ' meant only that they were assured a fair hearing before an impartial arbitrator."
-            ],
-            "treaty": [
-              "@ A written agreement between two or more countries, formally approved and signed by their leaders.",
-              "We've signed/ concluded a treaty with neighboring states to limit emissions of harmful gases.",
-              "The latest nation to ratify the treaty is France.",
-              "The US wants a new air treaty with the UK to lift barriers on the cities that each nations' carriers can serve."
             ]
           }
         ],
@@ -3718,6 +3743,30 @@
         ]
       }
     ],
+    "inventory": [
+      "@ A detailed list of all the things in a place.",
+      "A set of 24 gilded chairs appear on the inventory of the house for 1736.",
+      "@ The amount of goods a store has, or the value of them.",
+      "Our inventory of used cars is the best in town.",
+      {
+        "agenda": [
+          "@ A list of matter s to be discussed at a meeting.",
+          "There were several important items on the agenda.",
+          "The question of security is high on the agenda for this afternoon's meeting.",
+          "@ A list of aims or possible future achievements.",
+          "Women's rights have been put back on the agenda (= are being discussed publicly again ).",
+          "The subject of safety needs to be placed high on/ at the top of the agenda.",
+          "Education was placed firmly on the political agenda in the prime minister's weekend speech.",
+          {
+            "prime minister": [
+              "@ The leader of the government in some countries.",
+              "The prime minister's speech produced an angry response from the opposition.",
+              "Margaret Thatcher became Britain's first woman prime minister in 1979."
+            ]
+          }
+        ]
+      }
+    ],
     "slimy": [
       "The raindrops were heavier now, working the mud on her face into a slimy mess.",
       {
@@ -3840,12 +3889,6 @@
       "Every year thousands of people flee the big cities in search of the rural idyll.",
       "War, famine and oppression have forced people in the region to flee from their homes."
     ],
-    "inventory": [
-      "@ A detailed list of all the things in a place.",
-      "A set of 24 gilded chairs appear on the inventory of the house for 1736.",
-      "@ The amount of goods a store has, or the value of them.",
-      "Our inventory of used cars is the best in town."
-    ],
     "treat": [
       "@ To behave toward someone or deal with something in a particular way.",
       "My parents treated us all the same when we were kids.",
@@ -3882,8 +3925,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "agenda": [""],
-    "rigid": [""],
     "demand": [""],
     "exert": [""],
     "administrator": [
