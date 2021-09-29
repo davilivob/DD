@@ -1101,7 +1101,10 @@
             ],
             "prenatal": [
               "@ Relating to the medical care given to pregnant women before their babies are born.",
-              "Prenatal clinics provide care for pregnant women."
+              "Prenatal clinics provide care for pregnant women.",
+              {
+                "nursing": [""]
+              }
             ],
             "medicinal": [
               "@ Medicinal substances are used to cure illesses.",
@@ -2672,6 +2675,22 @@
         ],
         "receive": [""],
         "obtain": [""],
+        "demand": [
+          "@ To ask for something forcefully, in a way that shows that you do not expect to be refused.",
+          "I demanded an explanation.",
+          "The union is demanding a seven percent pay rise this year.",
+          "He has always demanded the highest standards of behavior from his children.",
+          "@ To need something such as time, effort, or a particular quality.",
+          "This is a very difficult piece of music to play - it demands a lot of concentration.",
+          "He seems to lack many of the qualities demanded of a successful politician.",
+          {
+            "demands": [
+              "@ The difficult things that you have to do.",
+              "The demands of nursing are too great for a lot of people.",
+              "His new job makes a lot of demands on him."
+            ]
+          }
+        ],
         "recipient": [
           "@ A person or organization that receives something, such as money, a prize, etc.",
           "Former Nobel Peace Prize recipients include Jimmy Carter and Barack Obama.",
@@ -3925,7 +3944,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "demand": [""],
     "exert": [""],
     "administrator": [
       "",
