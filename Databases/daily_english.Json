@@ -1632,7 +1632,15 @@
           "& ' barely ', ' scarcely ' and ' hardly ' are basically interchangeable."
         ],
         "hardly": ["& Yeah, they're the same."],
-        "scarcity": [""]
+        "scarcity": [""],
+        "handful": [
+          "@ An amount of something that can be held in one hand.",
+          "He pulled out a handful of coins from his pocket.",
+          "@ A small number of people or things.",
+          "She invited all her friends to her party but only a handful of them turned up.",
+          "@ A person, often a child, who is difficult to control.",
+          "Her older son is fine but the little one is a bit of handful."
+        ]
       },
       {
         "quasi-": [
@@ -4174,7 +4182,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "handful": [""],
     "stratified": [""],
     "porcelain": [""],
     "christianity": [""],
