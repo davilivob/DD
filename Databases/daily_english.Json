@@ -4245,7 +4245,15 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "christianity": [""],
+    "christianity": [
+      "@ A religion based on belief in God and the life and teachings of Jesus Christ, and on the Bible.",
+      {
+        "christendom": [
+          "@ christian people or countries as a whole.",
+          "All Christendom responded to the call."
+        ]
+      }
+    ],
     "glittering": [""],
     "ceremony": [""],
     "conjure": [""],
