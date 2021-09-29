@@ -1295,7 +1295,8 @@
         ]
       },
       {
-        "appearance": [""]
+        "appearance": [""],
+        "overlay": [""]
       }
     ],
     "litter": [
@@ -1760,10 +1761,21 @@
           "@ Very small, rounded stones, often mixed with sand.",
           "Visit all the nearby sand and gravel pits and start to look at their different sands.",
           "The entire trench is then filled with the rounded gravel."
-        ]
+        ],
+        "rubble": [""]
       },
       {
-        "concrete": [""],
+        "concrete": [
+          "@ A very hard building material made by mixing together cement, sand, amll stones, and water.",
+          "The bomb shelter has concrete walls that are three meters thick.",
+          "The foundation of the house is built from rubble overlaid with concrete.",
+          "A row of reinforced concrete pillars supports the bridge.",
+          "@ To cover something in concrete.",
+          "Why did you concrete over that nice garden?",
+          "@ Clear and certain, or real and existing in a form that can be seen or felt.",
+          "They think she killed her husband, but they have no concrete evidence.",
+          "We have a general idea of what we want, but nothing concrete at the moment."
+        ],
         "porcelain": [
           "@ A hard but delicate, shinny, white substance made by heating a special type of clay to a high temperature, used to make cups, plates, decorations, etc..",
           "The tea cups are made of porcelain.",
@@ -2487,7 +2499,10 @@
           "@ The process of making a substance pure.",
           "The refinement of raw opium yields other drugs, such as morphine.",
           "@ A small change that improve something.",
-          "These refinements have increased the machine's accuracy by 25 percent."
+          "These refinements have increased the machine's accuracy by 25 percent.",
+          {
+            "reinforce": [""]
+          }
         ]
       }
     ],
@@ -3987,7 +4002,8 @@
           "Now, images circulated by medics and activists showed patients lying on a blood-smeared tile floor of a crowded room in one hospital.",
           "Its home screen presents a collection of flat, information-rich tiles that dynamically update with the information that's most important to you."
         ],
-        "rug": [""]
+        "rug": [""],
+        "pillar": [""]
       },
       {
         "effigy": [
