@@ -872,6 +872,11 @@
           "Peoplein the audience were hissing their disapproval.",
           "@ To say something in a quiet angry way.",
           "\"Shut up, Tom! \" she hissed."
+        ],
+        "exclaim": [
+          "@ To say or shout something suddenly because of surprise, fear, pleasure, etc.",
+          "As she passed, they would stop her and exclaim \"Gee Your Hair Smell Terrific!\".",
+          "She exclaimed with delight when she saw the baby."
         ]
       }
     ],
@@ -1632,7 +1637,9 @@
           "& ' barely ', ' scarcely ' and ' hardly ' are basically interchangeable."
         ],
         "hardly": ["& Yeah, they're the same."],
-        "scarcity": [""],
+        "scarcity": [""]
+      },
+      {
         "handful": [
           "@ An amount of something that can be held in one hand.",
           "He pulled out a handful of coins from his pocket.",
@@ -1640,7 +1647,8 @@
           "She invited all her friends to her party but only a handful of them turned up.",
           "@ A person, often a child, who is difficult to control.",
           "Her older son is fine but the little one is a bit of handful."
-        ]
+        ],
+        "pile": [""]
       },
       {
         "quasi-": [
@@ -1679,10 +1687,15 @@
     "tidy": [
       "She likes everything neat and tidy.",
       {
-        "a tidy sum": ["He sold the house for a tidy (= large) sum."],
-        "pile": [""],
+        "a tidy sum": ["He sold the house for a tidy (= large) sum."]
+      },
+      {
         "calibrate": [
           "In addition, we design, manufacture and calibrate special bench photometers( some kinda mechanical stuff) against which other photometers can be calibrated."
+        ],
+        "stratify": [
+          "@ To arrange the differenct parts of something in separate layers or groups.",
+          "The sample of people questioned was drawn from the university's student register and stratified by age and gender."
         ]
       }
     ],
@@ -3482,6 +3495,13 @@
         "covert": [
           "@ Hidden or secret.",
           "The government was accused of covert military operations against the regime."
+        ],
+        "sneaky": [
+          "@ Doing things in a secret and unfair way.",
+          "This is a sneaky plan.",
+          "Used to describe something you do, eat, or drink esp. when you do it without telling anyone or when you shouldn't really do it.",
+          "She snuck out for a sneaky cifarette.",
+          "There's always the temptation to take a sneaky peek at the presents under the Christmas tree."
         ]
       }
     ],
@@ -3878,13 +3898,16 @@
         ],
         "evaluative": [
           "The questionnaires may be used for evaluative purposes."
-        ],
+        ]
+      },
+      {
         "deem": [
           "@ To consider or judge something in a particular way.",
           "The area has now been deemed safe.",
           "We will provide help whenever you deem it appropriate.",
           "Anyone not paying the registration fee by March 31 will be deemed to have withdrawn from the offer."
-        ]
+        ],
+        "severity": ["@ The fact or condition of being severe."]
       }
     ],
     "navigate": [
@@ -4033,6 +4056,11 @@
               "@ To return something or someone to an earlier good condition or position.",
               "After a week in bed, she was fully restored to health.",
               "Ther former leader was today restored to power in the first free election for 20 years."
+            ],
+            "renewed": [
+              "@ Begun or happening again.",
+              "She jumped on the story with renewed vigor.",
+              "The latest outbreak has led to renewed concern about the spread of the disease."
             ]
           }
         ],
@@ -4047,9 +4075,6 @@
     ],
     "inherit": [
       "The company's new president will inherit some complicated legal problems."
-    ],
-    "exclaim": [
-      "As she passed, they would stop her and exclaim \"Gee Your Hair Smell Terrific!\"."
     ],
     "bench": [
       "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
@@ -4074,7 +4099,6 @@
       "investors will be eagerly awaiting the guidance from bellwether stocks."
     ],
     "wandering": ["I didn't noticed how far I was wandering this evening."],
-    "severity": ["@ The fact or condition of being severe."],
     "ensue": [
       "@ To happen after something else, especially as a result of it.",
       "Chaos ensued when 60 charter schools run by one company were all suddenly closed."
@@ -4093,10 +4117,6 @@
           "@ An event where people sell decorative object that have made by hand."
         ]
       }
-    ],
-    "renewed": [
-      "She jumped on the story with renewed vigor.",
-      "The latest outbreak has led to renewed concern about the spread of the disease."
     ],
     "topple": [
       "If your child happens to topple out of the bed, the fall isn't very far or very traumatic.",
@@ -4123,13 +4143,6 @@
     "laborer": [
       "@ A person who does unskilled physical work, especially outside.",
       "But many employers skirted the law, preferring to hire less expensive laborers who crossed the border illegally."
-    ],
-    "sneaky": [
-      "@ Doing things in a secret and unfair way.",
-      "This is a sneaky plan.",
-      "Used to describe something you do, eat, or drink esp. when you do it without telling anyone or when you shouldn't really do it.",
-      "She snuck out for a sneaky cifarette.",
-      "There's always the temptation to take a sneaky peek at the presents under the Christmas tree."
     ],
     "receptor": [
       "@ A nerve ending that reacts to a change, such as heat or cold, in the body by sending a message to the central nervous system.",
@@ -4182,7 +4195,6 @@
       "The institute derives all its money from foreign investments.",
       "She is threatening to institute legal proceedings against the hospital."
     ],
-    "stratified": [""],
     "porcelain": [""],
     "christianity": [""],
     "glittering": [""],
