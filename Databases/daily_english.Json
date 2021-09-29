@@ -2453,7 +2453,8 @@
           "He was obviously really embarrassed about it because he forbade me to tell anyone.",
           "He's forbidden from leaving the country."
         ],
-        "prevent": [""]
+        "prevent": [""],
+        "scrap": [""]
       }
     ],
     "plumage": [
@@ -2612,6 +2613,9 @@
       },
       {
         "parchment": [
+          "@ The thin, dried skin of some animals that was used in the past for writing on, or a high-quality paper made to look like this.",
+          "He'd been sick for a long time, and his skin was like parchment.",
+          "I found a scrap of parchment dating from the 17th century.",
           "The wizard wrote a symbol onto the tiny parchment and tossed it into the center of their small circle."
         ],
         "wool": [""],
