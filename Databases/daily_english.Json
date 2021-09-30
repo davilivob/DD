@@ -948,6 +948,9 @@
                   },
                   {
                     "amendment": [""]
+                  },
+                  {
+                    "attorney": [""]
                   }
                 ]
               }
@@ -4254,7 +4257,13 @@
               "Public servants should be incorruptible."
             ]
           }
-        ]
+        ],
+        "retinue": [
+          "@ A group of people who travel with an important person to help them.",
+          "The president travels with a large retinue of aides and bodyguards.",
+          "He jets around the country with a retinue of aides and attorneys."
+        ],
+        "aide": [""]
       }
     ],
     "inventory": [
@@ -4535,7 +4544,6 @@
         "circumstance": [""]
       }
     ],
-    "retinue": [""],
     "bribe": [""],
     "ideology": [
       "",
