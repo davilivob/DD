@@ -1620,6 +1620,12 @@
           "@ To cause mental illness in someone.",
           "The threats of the modern world have unhinged us.",
           "Her mind was completely unhinged by shock and grief."
+        ],
+        "sorrow": [
+          "@ A feeling of great sadness or regret, or something that causes this feeling.",
+          "The sorrow she felt over/ at the of her husband was almost too much to bear.",
+          "The sorrows of her earlier years gave way to joy in later life.",
+          "The English language does not contian the words to express the sorrow I feel."
         ]
       }
     ],
@@ -1812,6 +1818,13 @@
               "She manages, by some extraordinary alchemy, to turn the most ordinary of ingredients into the most delicious of dishes."
             ]
           }
+        ]
+      },
+      {
+        "adolescence": [
+          "@ The period of time in a person's life when they are developing into an adult.",
+          "She had a troubled adolescence.",
+          "Yet another novel about the joys and sorrows of adolescence."
         ]
       }
     ],
@@ -2793,6 +2806,13 @@
                   "The new model of the car offers the utmost in power and performance."
                 ]
               }
+            ],
+            "climax": [
+              "@ The most important or exciting point in a story or situation, esp. when this happens near the end.",
+              "The climax of the air show was a daring flying display.",
+              "The election compaign reaches its climax next week.",
+              "@ To reach the most important or exciting part.",
+              "The show climaxed with all the performers singing on stage together."
             ]
           }
         ]
@@ -4216,7 +4236,14 @@
       }
     ],
     "scent": [
-      "The weather is fine, and the air is full of the scent of strawberries."
+      "The weather is fine, and the air is full of the scent of strawberries.",
+      {
+        "reminiscent of": [
+          "@ Making you remember a particular person, event, or thing.",
+          "That song is so reminiscent of my adolescence.",
+          "For those who have been around long enough, it is reminiscent of an earlier time."
+        ]
+      }
     ],
     "proportion": [
       "After that, it diminishes roughly in proportion to the delay."
@@ -4234,7 +4261,7 @@
     "converse": [
       "",
       {
-        "reflect":[""],
+        "reflect": [""],
         "reverse": [
           "",
           {
@@ -4390,7 +4417,14 @@
     "institute": [
       "@ An organization where people do a particular type of science, educational, or social work, or the buildings that it uses.",
       "The institute derives all its money from foreign investments.",
-      "She is threatening to institute legal proceedings against the hospital."
+      "She is threatening to institute legal proceedings against the hospital.",
+      {
+        "diploma": [
+          "@ A document given by a college or university to show that you've passed a particular exam or finished your studies.",
+          "It's hard to find a good job if you don't have a high school diploma.",
+          "But only 23 percent of ninth graders who enter high school this year will receive high school diplomas in four yours."
+        ]
+      }
     ],
     "christianity": [
       "@ A religion based on belief in God and the life and teachings of Jesus Christ, and on the Bible.",
@@ -4401,7 +4435,41 @@
         ]
       }
     ],
-    "ceremony": [""],
+    "occasion": [
+      "",
+      {
+        "occasionally": [""]
+      },
+      {
+        "ceremony": [
+          "@ A set of acts, often fixed and traditional, performed on important social or religious occasions.",
+          "A wedding/ graduation ceremony.",
+          "We weren't married in church, but we had a civil ceremony is a registry office.",
+          "The Olympics climaxed in a spectular closing ceremony.",
+          "The glittering ceremony conjured up images of Russia's imperial past.",
+          "@ Very formal an polite behavior.",
+          "She arrived at the airport without the pomp and ceremony that usually accompanies important politicians.",
+          {
+            "pomp": [
+              "@ Impressive and colorful ceremonies, esp. traditional ceremonies on public occasions.",
+              "The prime minister was received with all the traditional pomp and ceremony that is laid on for visiting heads of government.",
+              "Despite all the pomp of his office/ position, he has only limited powers.",
+              {
+                "in someone's pomp": [
+                  "@ At a time when someone was most successful or popular.",
+                  "Today his game was reminiscent of that of Pele in his pomp."
+                ],
+                "pomp and circomstance": [
+                  "@ formal ceremonies.",
+                  "After two hours of pomp and circumstance, the diplomas were awarded and the audience went wild."
+                ]
+              }
+            ]
+          }
+        ],
+        "circumstance": [""]
+      }
+    ],
     "conjure": [""],
     "metric": [""],
     "quaint": [""],
@@ -4455,12 +4523,6 @@
     "iterable": [""],
     "intuitive": [""],
     "invitation ": [""],
-    "occasion": [
-      "",
-      {
-        "occasionally": [""]
-      }
-    ],
     "be tried": [""],
     "split": [""],
     "regulation": [""],
@@ -4595,7 +4657,6 @@
     "assemblyman": [""],
     "rear": [""],
     "impartial": [""],
-    "circumstance": [""],
     "general": [""],
     "famine": [""],
     "solvent": [""],
