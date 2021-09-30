@@ -4411,13 +4411,19 @@
       "@ A small piece of food, often specially produced, that is given to pets in addition to their usual food, for example as a reward.",
       "The owner said the dog was dangerous, but when I fed it dog treats it would take them gently out of my hand.",
       {
-        "motion": [""]
-      }
-    ],
-    "deed": [
-      "It seems to me that a lot of evil deeds are done in the name of religion.",
-      {
-        "in very deed": ["Her works are in very deed the echo of our times."]
+        "motion": [""],
+        "deed": [
+          "@ An intentional act, esp. a very bad or very good one.",
+          "It seems to me that a lot of evil deeds are done in the name of religion.",
+          "She's always helping people and doing good deeds.",
+          "@ A legal document that is an official record and proof of ownership of property.",
+          "According to the deed, she owns the land from here to the river.",
+          {
+            "in very deed": [
+              "Her works are in very deed the echo of our times."
+            ]
+          }
+        ]
       }
     ],
     "institute": [
