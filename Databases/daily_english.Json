@@ -3348,7 +3348,8 @@
         ],
         "metre": [
           "& ' meter ' is the US spelling and ' metre ' is the British spelling."
-        ]
+        ],
+        "quart": [""]
       }
     ],
     "inflation": [
@@ -3659,7 +3660,10 @@
           "Basil, oregano, thyme, and rosemary are all herbs.",
           "A large range of herbs and spices are used in South Asian cooking.",
           {
-            "basil": [""],
+            "basil": [
+              "@ An herb with a sweet smell that is used to add flavor in cooking.",
+              "In a 4-quart saucepan combine garlic, basil, onion, salt, and oil."
+            ],
             "oregano": [""],
             "thyme": [""],
             "rosemary": [""],
