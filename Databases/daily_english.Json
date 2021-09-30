@@ -1426,7 +1426,8 @@
       },
       {
         "appearance": [""],
-        "overlay": [""]
+        "overlay": [""],
+        "perimeter": [""]
       }
     ],
     "litter": [
@@ -1911,7 +1912,8 @@
           "Visit all the nearby sand and gravel pits and start to look at their different sands.",
           "The entire trench is then filled with the rounded gravel."
         ],
-        "rubble": [""]
+        "rubble": [""],
+        "cobblestone": [""]
       },
       {
         "concrete": [
@@ -1982,6 +1984,12 @@
           "I grew up happily under the benevolent influence of my Uncle Walt.",
           {
             "benevolence": [""]
+          }
+        ],
+        "idyllic": [
+          "",
+          {
+            "idyllically": [""]
           }
         ]
       }
@@ -3004,7 +3012,8 @@
           "@ According to the Oxford dictionary, unaided means ' without help from anyone or anything '",
           "Microorganism is an organism that is too small to be seen by the unaided eye.",
           "She reached the top of the mountain unaided."
-        ]
+        ],
+        "dilapidated": [""]
       }
     ],
     "preserve": [
@@ -3350,6 +3359,19 @@
           "& ' meter ' is the US spelling and ' metre ' is the British spelling."
         ],
         "quart": [""]
+      },
+      {
+        "metric": [
+          "@ Using or relating to a system of measurement that uses meters, centimeters, liters, etc..",
+          "The recipe is given in both metric and cup measure.",
+          "Most high-tech industry has been metric for decades.",
+          "@ A system for measuring something.",
+          "The measuring stick he uses is called the ' Energy Producing Factor ', a metric that describes the amount of energy spent to create a given amount of energy.",
+          "Measuring business success means determining and monitoring key performance metrics.",
+          {
+            "liter": [""]
+          }
+        ]
       }
     ],
     "inflation": [
@@ -3996,7 +4018,10 @@
           }
         ],
         "absurd": [
-          "The idea was absurd, even for someone as chauvinistic as Romas."
+          "The idea was absurd, even for someone as chauvinistic as Romas.",
+          {
+            "risible": [""]
+          }
         ],
         "dilemma": [
           "@ A situation in which a choice has to be made between possibilities that will all have results you do not want.",
@@ -4021,6 +4046,19 @@
             "foible": [
               "@ A strange habit or characteristic that is seen as not important and not harming anyone.",
               "We all have our little foibles."
+            ],
+            "quaint": [
+              "@ Attractive because of being unusual and esp. old-fashioned.",
+              "A quaint old cottage.",
+              "In Spain, we visited a cobblestone plaza with quaint little cafes around its perimeter.",
+              "\" What a quaint idea! \" she said, laughing at me.",
+              {
+                "quaintly": [
+                  "They work out at a quaintly dilapidated Los Angeles gym.",
+                  "He expained what is sometimes quaintly called economic freedom.",
+                  "The notion of employer loyalty is quaintly risible."
+                ]
+              }
             ]
           }
         ]
@@ -4162,13 +4200,6 @@
         "appoint": [""]
       }
     ],
-    "stadium": [
-      "",
-      {
-        "quarterback": [""],
-        "rugby": [""]
-      }
-    ],
     "architectural": [
       "",
       {
@@ -4191,6 +4222,23 @@
             "stencil": [""]
           }
         ]
+      },
+      {
+        "cottage": [
+          "@ A small house, usually in the countryside.",
+          "We rented a little beach cottage on the North Caroline coast.",
+          "They've just bought a darling little cottage.",
+          "They seem idyllically happy in their cottage.",
+          "The cottage is situated in the middle of a wood at the end of narrow potholed lane."
+        ],
+        "stadium": [
+          "",
+          {
+            "quarterback": [""],
+            "rugby": [""]
+          }
+        ],
+        "plaza": [""]
       }
     ],
     "lackey": [
@@ -4486,8 +4534,6 @@
         "circumstance": [""]
       }
     ],
-    "metric": [""],
-    "quaint": [""],
     "retinue": [""],
     "bribe": [""],
     "ideology": [
