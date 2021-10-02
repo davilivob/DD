@@ -1445,6 +1445,23 @@
             ]
           }
         ]
+      },
+      {
+        "macro-": [
+          "@ Large; relating to the whole of something, rather than its parts.",
+          "At a macro-level, economic trends play a fundamental role.",
+          "The state's ability to exercise macro-control was weakened.",
+          {
+            "macroscopic": ["@ Large enough to be seen by the human eye."],
+            "macroeconomics": [
+              "@ The study of financial systems at a national level."
+            ],
+            "macro": [
+              "@ A single instruction given to a computer that produces a set of instructions for the computer to perform a particular piece of work.",
+              "I've created a macro to spell check all the files at the same time."
+            ]
+          }
+        ]
       }
     ],
     "external": [
@@ -1595,7 +1612,7 @@
           "The president has vehemently denied having an extra-marital affair.",
           "Still, it wasn't the first time they had vehemently disagreed on something."
         ],
-        "profound": [""]
+        "profoundly": [""]
       }
     ],
     "thorough": [
@@ -4106,21 +4123,6 @@
         ]
       }
     ],
-    "macro-": [
-      "@ Large; relating to the whole of something, rather than its parts.",
-      "At a macro-level, economic trends play a fundamental role.",
-      "The state's ability to exercise macro-control was weakened.",
-      {
-        "macroscopic": ["@ Large enough to be seen by the human eye."],
-        "macroeconomics": [
-          "@ The study of financial systems at a national level."
-        ],
-        "macro": [
-          "@ A single instruction given to a computer that produces a set of instructions for the computer to perform a particular piece of work.",
-          "I've created a macro to spell check all the files at the same time."
-        ]
-      }
-    ],
     "present": [
       "@ Something that you're given, without asking for it, on a special occasion, esp. to show friendship, or to say thank you.",
       "They gave me theater tickets as a present.",
@@ -4332,7 +4334,7 @@
       "Our inventory of used cars is the best in town.",
       {
         "agenda": [
-          "@ A list of matter s to be discussed at a meeting.",
+          "@ A list of matters to be discussed at a meeting.",
           "There were several important items on the agenda.",
           "The question of security is high on the agenda for this afternoon's meeting.",
           "@ A list of aims or possible future achievements.",
