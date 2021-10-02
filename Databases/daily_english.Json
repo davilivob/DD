@@ -775,6 +775,22 @@
             "lecture": [""]
           }
         ]
+      },
+      {
+        "abbreviation": [
+          "& An abbreviation is a shortened form that represents the whole word",
+          "& For instance, EX and Dr. is the abbreviation for Example and Doctor.",
+          "But others among us have less familiarity with some of the terms and abbreviations that pepper the site.",
+          {
+            "acronym": [
+              "& An acronym uses initial letters from a phrase that forms one word.",
+              "@ A word created from the first letters of each word in a series of words.",
+              "NASA is an acronym for National Aeronautics and Space Administration.",
+              "PIPE is an acronym for private-investment, public-equity",
+              "To some, that acronym has become a dirty word."
+            ]
+          }
+        ]
       }
     ],
     "diminish": [
@@ -1202,15 +1218,6 @@
         "staunch": [""]
       }
     ],
-    "wit": [
-      "Her conversation sparkled with her own subtle blend of wit and charm.",
-      {
-        "clever": ["& Wit is another word for ' Clever '."],
-        "witty": [
-          "& Wit or ' Witty ' is used to describe someone smart and thinks fast. They may also have a natural ability of using words and ideas in a quick and inventive way to create humour."
-        ]
-      }
-    ],
     "nosy": [
       "@ Being nosy is being too interested in what other people are doing and wanting to discover too much about them.",
       "@ When someone tries to join in on other people's business. More like a curious person with a negative negation attached to it.",
@@ -1226,6 +1233,23 @@
       {
         "throw": [
           "& ' Toss ' tends to be weaker. It can also mean put. It doesn't always mean you are letting something fly out of you hand."
+        ],
+        "disposal": [
+          "@ The act or process of getting rid of something, esp. by throwing it away.",
+          "This agency regulates the disposal of hazardous substances.",
+          "The manufacturing process is being changed in an effort to reduce waste disposal costs.",
+          "@ Something is sold by a company, such an asset, property, or part of its business, or the act of doing this.",
+          "The company is looking at the disposal of non-core operations.",
+          "The company has launched a disposal program to generate cash.",
+          "@ A situation in which it is stated that a debt does not need to be paid or will never be paid.",
+          "The company also put aside 5.29 billion yen in reserves for disposal of bad debt.",
+          {
+            "at someone's disposal": [
+              "@ Available to be used by someone.",
+              "I would take you if I could, but I don't have a car at my disposal this week.",
+              "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
+            ]
+          }
         ]
       }
     ],
@@ -2130,7 +2154,8 @@
                   "The company director, who prepared their submission, cannot be here and delegated her deputy to present it for her.",
                   {
                     "submission": [""],
-                    "deputy": [""]
+                    "deputy": [""],
+                    "regulate": [""]
                   }
                 ]
               }
@@ -2304,7 +2329,8 @@
               {
                 "terrible": [
                   "& Terrible is a more generic and common term just meaning something is bad."
-                ]
+                ],
+                "hazardous": [""]
               }
             ]
           }
@@ -3178,7 +3204,7 @@
             ],
             "contributor": [
               "@ A person who helps by giving money, or someone whose writing or art is published or shown with pieces by other people.",
-              "On the last page of the programme, there is a list of contributors to the theatre appeal.",
+              "On the last page of the program, there is a list of contributors to the theatre appeal.",
               "He became a regular contributor to The New Yorker.",
               "The contributors and the pension fund trustees have been haggling over details.",
               "@ One of the reasons why something happens.",
@@ -3275,20 +3301,6 @@
         ]
       }
     ],
-    "abbreviation": [
-      "& An abbreviation is a shortened form that represents the whole word",
-      "& For instance, EX and Dr. is the abbreviation for Example and Doctor.",
-      "But others among us have less familiarity with some of the terms and abbreviations that pepper the site.",
-      {
-        "acronym": [
-          "& An acronym uses initial letters from a phrase that forms one word.",
-          "@ A word created from the first letters of each word in a series of words.",
-          "NASA is an acronym for National Aeronautics and Space Administration.",
-          "PIPE is an acronym for private-investment, public-equity",
-          "To some, that acronym has become a dirty word."
-        ]
-      }
-    ],
     "dam": [
       "@ A wall built across a river that stops the river's flow and collects the water, esp. to make a reservoir (= an artificial lake) that provides water for an area.",
       "The Aswan High Dam is on the River Nile in Egypt.",
@@ -3329,14 +3341,6 @@
         "a holding pattern": [
           "@ A situation where there is little activity or change, and people are not doing business, spending money, etc. because they can't decide what to do next.",
           "Several deals went into an immediate holding pattern after the crisis."
-        ]
-      }
-    ],
-    "disposal": [
-      "",
-      {
-        "at someone's disposal": [
-          "Having sold the house she had a large sum of money at her disposal (= to spend as she wanted)."
         ]
       }
     ],
@@ -4191,7 +4195,15 @@
           "@ To say or think something is the result of a particular thing.",
           "Her success can be attributed to three main factors.",
           "@ To say tha a particular person was the first one to say, do, invent something, etc..",
-          "This idea has long been attributed to Keynes, but in fact he was not the first to think of it."
+          "This idea has long been attributed to Keynes, but in fact he was not the first to think of it.",
+          {
+            "asset": [""]
+          }
+        ],
+        "bellwether": [
+          "@ Someone or something that shows how a situation will develop or change.",
+          "The report is viewed as a bellwether for/ of national economic trends.",
+          "investors will be eagerly awaiting the guidance from bellwether stocks."
         ]
       }
     ],
@@ -4423,11 +4435,6 @@
       "@ An occasion when you allow or do not mind someone's failure of bad behavior.",
       "My inability to do needlework was treated with surprising indulgence by my teacher."
     ],
-    "bellwether": [
-      "@ Someone or something that shows how a situation will develop or change.",
-      "The report is viewed as a bellwether for/ of national economic trends.",
-      "investors will be eagerly awaiting the guidance from bellwether stocks."
-    ],
     "wandering": ["I didn't noticed how far I was wandering this evening."],
     "ensue": [
       "@ To happen after something else, especially as a result of it.",
@@ -4544,6 +4551,17 @@
             ]
           }
         ]
+      },
+      {
+        "wit": [
+          "Her conversation sparkled with her own subtle blend of wit and charm.",
+          {
+            "clever": ["& Wit is another word for ' Clever '."],
+            "witty": [
+              "& Wit or ' Witty ' is used to describe someone smart and thinks fast. They may also have a natural ability of using words and ideas in a quick and inventive way to create humour."
+            ]
+          }
+        ]
       }
     ],
     "christianity": [
@@ -4617,7 +4635,6 @@
     "statute": [""],
     "affiliate": [""],
     "wage": [""],
-    "regulate": [""],
     "vinegar": [""],
     "viscosity": [""],
     "substantial": [""],
@@ -4783,7 +4800,6 @@
     "slant": [""],
     "interpretation": [""],
     "margin": [""],
-    "programme": [""],
     "theatre": [""],
     "appeal": [""],
     "aviation": [""],
