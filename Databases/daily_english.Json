@@ -4270,7 +4270,10 @@
           "Its home screen presents a collection of flat, information-rich tiles that dynamically update with the information that's most important to you."
         ],
         "rug": [""],
-        "pillar": [""]
+        "pillar": [""],
+        "bench": [
+          "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
+        ]
       },
       {
         "effigy": [
@@ -4429,9 +4432,6 @@
     ],
     "whereabouts": [
       "If anyone know the whereabouts of John, last name unknown, contact Ms. Smith on 6th Street."
-    ],
-    "bench": [
-      "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
     ],
     "intention": [
       "@ Something that you want and plan to do; an aim.",
