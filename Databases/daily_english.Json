@@ -2155,7 +2155,8 @@
                   {
                     "submission": [""],
                     "deputy": [""],
-                    "regulate": [""]
+                    "regulate": [""],
+                    "agency": [""]
                   }
                 ]
               }
@@ -4449,7 +4450,21 @@
     "wandering": ["I didn't noticed how far I was wandering this evening."],
     "ensue": [
       "@ To happen after something else, especially as a result of it.",
-      "Chaos ensued when 60 charter schools run by one company were all suddenly closed."
+      "Chaos ensued when 60 charter schools run by one company were all suddenly closed.",
+      {
+        "implement": [
+          "@ To start using a plan or system.",
+          "The changes to the national health system will be implemented next year.",
+          "The determination of policy is not your business - your job is to implement it.",
+          "@ A tool that works by being moved by hand or by being ulled across a suface.",
+          "Shopkeepers are not supposed to sell knives and other sharp implements to children.",
+          {
+            "implementation": [
+              "They've involved their workers in the development and implementation of the new program."
+            ]
+          }
+        ]
+      }
     ],
     "equanimity": [
       "@ A calm mental state, esp. after a shock or disappointment or in a difficult situation.",
@@ -4619,8 +4634,6 @@
         "circumstance": [""]
       }
     ],
-    "depositional": [""],
-    "implement": [""],
     "equivalent": [
       "",
       {
