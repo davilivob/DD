@@ -4183,7 +4183,16 @@
           "Anyone not paying the registration fee by March 31 will be deemed to have withdrawn from the offer."
         ],
         "severity": ["@ The fact or condition of being severe."],
-        "fairly": [""]
+        "fairly": [""],
+        "attribute": [
+          "@ A quality or characteristic that someone or something has.",
+          "Organizational ability is an essential attribute for a good manager.",
+          "She has the physical attributes to become a championship swimmer.",
+          "@ To say or think something is the result of a particular thing.",
+          "Her success can be attributed to three main factors.",
+          "@ To say tha a particular person was the first one to say, do, invent something, etc..",
+          "This idea has long been attributed to Keynes, but in fact he was not the first to think of it."
+        ]
       }
     ],
     "navigate": [
@@ -4581,7 +4590,6 @@
         "circumstance": [""]
       }
     ],
-    "attribute": [""],
     "depositional": [""],
     "implement": [""],
     "equivalent": [
