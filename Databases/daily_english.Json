@@ -2330,7 +2330,12 @@
                 "terrible": [
                   "& Terrible is a more generic and common term just meaning something is bad."
                 ],
-                "hazardous": [""]
+                "hazardous": [
+                  "",
+                  {
+                    "hazard": [""]
+                  }
+                ]
               }
             ]
           }
@@ -2487,7 +2492,8 @@
           "He led a simple life, with few belongings, and never owned a home of his own.",
           "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
           "In the second part of the inventories are listed the belongings of the deceased, with their value."
-        ]
+        ],
+        "fortune": [""]
       }
     ],
     "elegance": [
@@ -3181,6 +3187,14 @@
           "Taxes provide most of the government's revenue.",
           "The sport does not generate much revenue from ticket sales.",
           "Revenue from online ads is much less than from print advertising."
+        ],
+        "inherit": [
+          "@ To receive money, a house, etc. from someone after they have died.",
+          "She inherited a fortune from her grandmother.",
+          "All her children will inherit equally.",
+          "The company's new president will inherit some complicated legal problems.",
+          "@ To be born with the same physical or mental characteristics as one of your parents or grandparents.",
+          "Rosie inherited her red hair from her mother."
         ]
       },
       {
@@ -4414,9 +4428,6 @@
     ],
     "whereabouts": [
       "If anyone know the whereabouts of John, last name unknown, contact Ms. Smith on 6th Street."
-    ],
-    "inherit": [
-      "The company's new president will inherit some complicated legal problems."
     ],
     "bench": [
       "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
