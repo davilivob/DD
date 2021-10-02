@@ -908,6 +908,7 @@
           "It is outrageous that these buildings remain empty while thousands of people have no homes.",
           "These prices are just outrageous (= much too high)."
         ],
+        "commit": [""],
         "smuggle": [
           "He was arrested and charged with attemping to smuggle cocaine into Scotland."
         ],
@@ -1092,7 +1093,7 @@
           "A connection between the events has been implied in several new reports.",
           {
             "infer": [
-              "& The main differece between these two words is that a speaker can imply, but a listener can only infer.",
+              "& The main difference between these two words is that a speaker can imply, but a listener can only infer.",
               "Then I think we must infer from what they said that they believe we should reapply for the job."
             ],
             "implication": [
@@ -1569,7 +1570,8 @@
           "@ In a strong and emotional way.",
           "The president has vehemently denied having an extra-marital affair.",
           "Still, it wasn't the first time they had vehemently disagreed on something."
-        ]
+        ],
+        "profound": [""]
       }
     ],
     "thorough": [
@@ -2073,6 +2075,9 @@
       "She has served on the committee for many years.",
       "The selection committee recommended that both condidates be appointed.",
       {
+        "committed": [""]
+      },
+      {
         "panel": [
           "@ A small group of people chosen to give advice, make a decision, or publicly discuss their opinions as entertainment.",
           "The competition will be judged by a panel of experts.",
@@ -2388,7 +2393,8 @@
           {
             "merger": [""]
           }
-        ]
+        ],
+        "diverse": [""]
       }
     ],
     "emerge": [
@@ -3798,7 +3804,7 @@
       {
         "copper": [
           "@ A chemical element that is a reddish-brown metal, used esp. for making wire and coins.",
-          "One of the properties of copper is that it conducts heat and electrcity very well.",
+          "One of the properties of copper is that it conducts heat and electricity very well.",
           "@ The color of the metal copper.",
           "The copper of Rosie's hair shone in the sunlight.",
           "He had piercing black eyes, copper skin and blue-black curling hair.",
@@ -4176,7 +4182,8 @@
           "We will provide help whenever you deem it appropriate.",
           "Anyone not paying the registration fee by March 31 will be deemed to have withdrawn from the offer."
         ],
-        "severity": ["@ The fact or condition of being severe."]
+        "severity": ["@ The fact or condition of being severe."],
+        "fairly": [""]
       }
     ],
     "navigate": [
@@ -4511,6 +4518,23 @@
           "It's hard to find a good job if you don't have a high school diploma.",
           "But only 23 percent of ninth graders who enter high school this year will receive high school diplomas in four yours."
         ]
+      },
+      {
+        "ideology": [
+          "@ A set of belief or principles, esp. one on which a political system, party, or organization is based.",
+          "The people are caught between two opposing ideologies.",
+          {
+            "ideological": [
+              "@ Based on or relating to a particular set of ideas or beliefs.",
+              "There are some fairly profound ideological disagreements within the movement."
+            ],
+            "ideologically": [
+              "The government is ideologically opposed to spending more on the arts.",
+              "They are very ideologically driven people.",
+              "The company is committed to hiring an ideologically diverse staff."
+            ]
+          }
+        ]
       }
     ],
     "christianity": [
@@ -4555,12 +4579,6 @@
           }
         ],
         "circumstance": [""]
-      }
-    ],
-    "ideology": [
-      "",
-      {
-        "ideologies": [""]
       }
     ],
     "attribute": [""],
@@ -4702,7 +4720,6 @@
       }
     ],
     "plain": [""],
-    "fairly": [""],
     "residence": [""],
     "haste": [""],
     "resignation": [""],
