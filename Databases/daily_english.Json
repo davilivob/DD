@@ -1521,6 +1521,12 @@
             "the Flood": [
               "@ In the Bible, a flood sent by God that covered the whole earth as a punishment."
             ]
+          },
+          {
+            "spring up": [
+              "@ To start to exist suddenly.",
+              "Thousands of new businesses have sprung up in the past couple of years."
+            ]
           }
         ],
         "swamp": [
@@ -1646,6 +1652,17 @@
             "conjure": [
               "@ To make something appear by magic, or as if by magic.",
               "In an instant, the magician had conjured up a dove from his hat."
+            ],
+            "obscure": [
+              "@ Not known to many people.",
+              "An obscure island in the Pacific.",
+              "An obscure 12th-century mystic.",
+              "@ Not clear and difficult to understand or see.",
+              "Official policy has changed, for reasons that remain obscure.",
+              "His answers were obscure and confusing.",
+              "@ To prevent something from being seen or heard.",
+              "Two new skyscrapers had sprung up obscureing the view from her window.",
+              "Managers deliberately obscured the real situation from federal investigators."
             ]
           }
         ]
@@ -4314,7 +4331,8 @@
             "rugby": [""]
           }
         ],
-        "plaza": [""]
+        "plaza": [""],
+        "skyscraper": [""]
       }
     ],
     "lackey": [
@@ -4451,7 +4469,10 @@
       "It wasn't my intention to exclude her from the list - I just forgot her.",
       "He had good intentions (= He meant to be kind), but unfortunately things just didn't work out.",
       "Where did it come from, and what are its intentions?",
-      "Everyone thinks that this was done with intention, but it wasn't."
+      "Everyone thinks that this was done with intention, but it wasn't.",
+      {
+        "deliberately": [""]
+      }
     ],
     "indulgence": [
       "@ An occasion when you allow someone or yourself to have something enjoyable, especially more than is good for you.",
@@ -4647,7 +4668,6 @@
         "circumstance": [""]
       }
     ],
-    "obscured": [""],
     "preside": [""],
     "optimization": [""],
     "enormous": [""],
@@ -4805,7 +4825,6 @@
     ],
     "modernize": [""],
     "repair": [""],
-    "deliberately": [""],
     "gesture": [""],
     "draft": [""],
     "minority": [""],
