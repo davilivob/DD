@@ -3529,6 +3529,16 @@
             ],
             "distributive": [""]
           }
+        ],
+        "equivalent": [
+          "@ Having the same amount, value, purpose, qualities, etc..",
+          "She's doing the equivalent job in the new company but for more money.",
+          "An imperial gallon is equivalent to 4546 cubic centimeters.",
+          "Ten thousand people a year die of the disease - that's the equivalent of the population of this town.",
+          "A mile is equivalent to about 1.6 kilometers.",
+          {
+            "equipotent": [""]
+          }
         ]
       },
       {
@@ -3913,7 +3923,8 @@
             "hologram": [
               "@ A special type of photograph or image made with a laser in which the objects shown look solid, as if they are real, rather than flat.",
               "There are two ways to create holograms: via computer - with augmented reality glasses, and physical - for optical displays."
-            ]
+            ],
+            "cubic": [""]
           }
         ],
         "column": [
@@ -4634,12 +4645,6 @@
           }
         ],
         "circumstance": [""]
-      }
-    ],
-    "equivalent": [
-      "",
-      {
-        "equipotent": [""]
       }
     ],
     "obscured": [""],
