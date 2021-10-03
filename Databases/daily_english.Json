@@ -683,6 +683,7 @@
     "Nirvana": {},
     "Daniel Johnston": {},
     "Bo Burnham": {},
+    "Kanye West": {},
     "Eminem": {},
     "Kendrick Lamar": {},
     "Logic": {},
@@ -3528,7 +3529,8 @@
         "occupation": [""],
         "former": [""],
         "senior": [""],
-        "predate": [""]
+        "predate": [""],
+        "up-and-coming": [""]
       }
     ],
     "gratuitous": [
@@ -3852,7 +3854,14 @@
           "This is a sneaky plan.",
           "Used to describe something you do, eat, or drink esp. when you do it without telling anyone or when you shouldn't really do it.",
           "She snuck out for a sneaky cifarette.",
-          "There's always the temptation to take a sneaky peek at the presents under the Christmas tree."
+          "There's always the temptation to take a sneaky peek at the presents under the Christmas tree.",
+          {
+            "overhear": [
+              "@ To hear without the speaker's intention or knowledge.",
+              "I accidentally overheard what they were saying.",
+              "But, late at night, I would overhear their conversation in the language they did not speak during the day, in a different tone."
+            ]
+          }
         ]
       }
     ],
@@ -4623,6 +4632,13 @@
           "@ A document given by a college or university to show that you've passed a particular exam or finished your studies.",
           "It's hard to find a good job if you don't have a high school diploma.",
           "But only 23 percent of ninth graders who enter high school this year will receive high school diplomas in four yours."
+        ],
+        "postgraduate": [
+          "@ Of, pertaining to, characteristic of, or consisting of post-graduates.",
+          "@ A student who is taking advanced work after graduation, as from a high school or college.",
+          "Sara Sheridan is a Philadelphia-based postgraduate reporting fellow at the Pulitzer Center for Crisis Reporting and a postgraduate research scholar and editor at the Tow Center for Digital Journalism.",
+          "\" The need to combine software implementations and mathematical algorithms presupposes high qualifications at the postgraduate level and above \", one job listing says.",
+          "Two years later, he was pursuing postgraduate studies at the Institute of Kashmir Studies, University of Kashmir, when he went missing."
         ]
       },
       {
@@ -4698,9 +4714,17 @@
         "circumstance": [""]
       }
     ],
-    "enormous": [""],
-    "overhear": [""],
-    "postgraduates": [""],
+    "enormous": [
+      "@ Greatly exceeding the common size, extent, etc.; huge; immense.",
+      "@ Outrageous or atrocious.",
+      "Even though TikTok gained enormous popularity over the last few years, governments have raised security.",
+      "Yet even if these up-and-coming corporations do become some of the more successful stocks in the world from here on out, they will almost certainly experience one or more enormous crashes to get there.",
+      "She's trapped in the gap between signifier and signified, and that vast and enormous space tortures her.",
+      "\" We live on enormous territorym, our eyes have different shapes, we believe in different religions \", she said.",
+      {
+        "immense": [""]
+      }
+    ],
     "anticipate": [""],
     "dynamic": [""],
     "circulate": [""],
