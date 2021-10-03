@@ -1106,7 +1106,7 @@
         "imply": [
           "I'm not implying anything about your cooking, but could we eat out tonight?",
           "@ To involve something or make it necessary.",
-          "The report, which is viewed as a bellwither for economic trends, implied that the national economy could be slowing down.",
+          "The report, which is viewed as a bellwether for economic trends, implied that the national economy could be slowing down.",
           "Her statement implies a lack of confidence in the management of the company.",
           "A connection between the events has been implied in several new reports.",
           {
@@ -3665,7 +3665,8 @@
               "Their bombs are always placed in strategic positions to cause as much chaos as possible.",
               "@ Used to provide military forces with an advantage.",
               "There are plans to modernize the U.S. strategic forces."
-            ]
+            ],
+            "recruit": [""]
           }
         ],
         "umpire": [
@@ -4287,7 +4288,25 @@
         "bellwether": [
           "@ Someone or something that shows how a situation will develop or change.",
           "The report is viewed as a bellwether for/ of national economic trends.",
-          "investors will be eagerly awaiting the guidance from bellwether stocks."
+          "investors will be eagerly awaiting the guidance from bellwether stocks.",
+          {
+            "anticipate": [
+              "@ To realize beforehand; foretaste or foresee.",
+              "@ To expect; look forward to; be sure of.",
+              "@ To perform ( an action ) before another has had time to act.",
+              "@ To answer ( a question ), obey ( a command ), or satisfy ( a request ) before it is made.",
+              "@ To nullify, prevent, or forestall by taking countermeasures in advance.",
+              "@ To think, speak, act or feel an emotional response in advance.",
+              "He anticipated each of my orders.",
+              "The November release will be welcomed not only by Obama readers but by booksellers and fellow publishers who anticipate that the massive demand for A Promised Land will raise sales for everyone.",
+              "These insights and discoveries help PepsiCo anticipate, rather than react to, an ever-changing consumer landscape.",
+              "\" We anticipate that when we first start training, we won't have that many recruits to begin \", said a defense official.",
+              "But the killers clearly failed to anticipate the uproar that would follow.",
+              {
+                "in advance": [""]
+              }
+            ]
+          }
         ]
       }
     ],
@@ -4725,7 +4744,6 @@
         "immense": [""]
       }
     ],
-    "anticipate": [""],
     "dynamic": [""],
     "circulate": [""],
     "medic": [""],
@@ -5168,7 +5186,12 @@
     "sector": [""],
     "broadband": [""],
     "notably": [""],
-    "riot": [""],
+    "riot": [
+      "",
+      {
+        "uproar": [""]
+      }
+    ],
     "consent": [""],
     "decree": [""],
     "linear": [""],
