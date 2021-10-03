@@ -1805,6 +1805,28 @@
         ],
         "optimistic": [
           "The doctor said she was optimistic about the outcome of the operation but forbore to make any promises at this early stage."
+        ],
+        "optimization": [
+          "@ The fact of optimizing; making the best of anything.",
+          "@ The condition of being optimized.",
+          "@ A mathematical technique for finding a maximum or minimum value of a function of several variables subject to a set of constraints, as linear programming or systems analysis.",
+          "Optimization techniques allow people to discover you, just like the meta-text of a website.",
+          "In this optimization phase, I was able to turn a 27 step process into a 22 step process which I was actually pretty happy with.",
+          "Industrial society is probably the climax of this optimization effort.",
+          {
+            "optimize": [
+              "@ To make as effective, perfect, or useful as possible.",
+              "@ To make the best of.",
+              "@ To write or rewrite so as to maximize efficiency and speed in retrieval, storage, or execution.",
+              "@ To determine the maximum or minimum values of a specified function that is subject to certain constraints.",
+              "@ To be optimistic.",
+              "Let's dive in and see how they might change the way we optimize for search.",
+              "One piece of a puzzle many YouTube creators are missing is optimizing your videos for organic discoverability through Google's video carousel.",
+              "I optimize, automate, and outsource everything in life in order to be more effective.",
+              "Musk notes that careful planning would be needed to optimize the route to avoid sharp bends.",
+              "They'll share resources and use communication means to optimize their work."
+            ]
+          }
         ]
       },
       {
@@ -4676,7 +4698,6 @@
         "circumstance": [""]
       }
     ],
-    "optimization": [""],
     "enormous": [""],
     "overhear": [""],
     "postgraduates": [""],
