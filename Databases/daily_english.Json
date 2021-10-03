@@ -799,6 +799,7 @@
         "dicrease": [
           "& Diminish and decrease are both mean to get smaller. Usually diminish means to a greater degree, like almost complete gone."
         ],
+        "reduction": [""],
         "decay": [
           "@ To become gradually damaged, worse, or less; to cause something to do this.",
           "Sugar makes your teeth decay.",
@@ -2190,7 +2191,14 @@
                     "submission": [""],
                     "deputy": [""],
                     "regulate": [""],
-                    "agency": [""]
+                    "agency": [""],
+                    "preside": [
+                      "@ To exercise management or control.",
+                      "@ To occupy the place of authority or control, as in an assembly or meeting; act as president or chrairperson..",
+                      "Who would be the best person to preside at/ over the public inquiry.",
+                      "Deparments, notably, Los Angeles', have managed to climb back from riots and scandal with the help of a consent decree while presiding over a reduction in violence.",
+                      "Nor will Abe realize his dream of presiding over the Summer Olympic Games in Tokyo."
+                    ]
                   }
                 ]
               }
@@ -4668,7 +4676,6 @@
         "circumstance": [""]
       }
     ],
-    "preside": [""],
     "optimization": [""],
     "enormous": [""],
     "overhear": [""],
@@ -4757,7 +4764,6 @@
     "commission": [""],
     "parkland": [""],
     "waterfront": [""],
-    "reduction": [""],
     "stock": [""],
     "condidate": [""],
     "receive": [""],
