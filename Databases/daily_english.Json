@@ -2279,6 +2279,18 @@
           "She has been an adherent of Anarchism for years.",
           "However, within less than a year, the movement was shattered, and its adherents either were arrested or had led the country."
         ]
+      },
+      {
+        "smear": [
+          "@ To spread a liquid or a thick substance over a surface.",
+          "The children had smeared peanut butter all over the couch.",
+          "Can you explain why the front of your car is smeared with blood?",
+          "You'd look very stylish if it wasn't for that smear of ketchup on your shirt.",
+          "@ To publicly accuse someone of something unpleasant, unreasonable, or unlikely to be true in order to harm their reputation.",
+          "She decided to sue for libel after the newspaper smear her private life.",
+          "The congressman has dismissed the allegations as smears and innuendo.",
+          "She claims she was the victim of a smear campaign."
+        ]
       }
     ],
     "transitive": [
@@ -4791,7 +4803,6 @@
       "Police said he was uncooperative and refused to let medics treat his wound.",
       "More than 600 doctors, nurses and medics have been infected in the epidemic so far, while more than 300 have died."
     ],
-    "smear": [""],
     "debate": [""],
     "monetary": [""],
     "matrimony": [""],
@@ -5264,6 +5275,18 @@
     "forestall ": [""],
     "countermeasure": [""],
     "ever-changing": [""],
-    "insight": [""]
+    "insight": [""],
+    "enthusiasm": [""],
+    "innovation": [""],
+    "template": [""],
+    "continent": [""],
+    "uncooperative": [""],
+    "segregation": [""],
+    "repression": [""],
+    "civilian": [""],
+    "libel": [""],
+    "dismiss": [""],
+    "allegation": [""],
+    "innuendo": [""]
   }
 }
