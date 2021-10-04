@@ -1635,7 +1635,15 @@
           "The company has been successful in penetrating overseas markets this year (= it has started selling its products in them).",
           "He penetrates deeper into the artist's life in the second volume of his autobiography."
         ],
-        "traverse": [""]
+        "traverse": [""],
+        "circulate": [
+          "@ To or make something to go around or through something.",
+          "Hot water circulates through the heating system.",
+          "I've circulated a good luck card fo everyone to sign.",
+          "Blood circulates inside the body by moving from the heart through the arteries and back to the heart through the veins.",
+          "@ To move around at an occasion, talking to different people.",
+          "I try to circulate at a party and not just stay with the friends I came with."
+        ]
       }
     ],
     "baffle": [
@@ -3213,7 +3221,8 @@
       },
       {
         "nerve": [""],
-        "blood vessel": [""]
+        "blood vessel": [""],
+        "artery": [""]
       },
       {
         "urine": [
@@ -4767,7 +4776,6 @@
         "immense": [""]
       }
     ],
-    "circulate": [""],
     "medic": [""],
     "activist": [""],
     "smear": [""],
