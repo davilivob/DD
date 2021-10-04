@@ -3702,7 +3702,10 @@
               "@ Helping to achieve a plan, for example in business or politics.",
               "Their bombs are always placed in strategic positions to cause as much chaos as possible.",
               "@ Used to provide military forces with an advantage.",
-              "There are plans to modernize the U.S. strategic forces."
+              "There are plans to modernize the U.S. strategic forces.",
+              {
+                "strategy": [""]
+              }
             ],
             "recruit": [""]
           }
@@ -4788,7 +4791,6 @@
       "Police said he was uncooperative and refused to let medics treat his wound.",
       "More than 600 doctors, nurses and medics have been infected in the epidemic so far, while more than 300 have died."
     ],
-    "activist": [""],
     "smear": [""],
     "debate": [""],
     "monetary": [""],
@@ -5190,7 +5192,15 @@
     "demonstration": [
       "",
       {
-        "protest": [""]
+        "protest": [""],
+        "activist": [
+          "@ A person who believes strongly in political or social change and takes part in activities such as public protests to try to make this happen.",
+          "He's been a labor union activist for many years.",
+          "Civil rights activists were in the streets protesting segregation while the legal strategy proceeded in the courts.",
+          "Local human-rights activists say the repression has so far left more than 1,000 people dead.",
+          "They are artists and activists, reformers and researchers, heads of state and captains of industry.",
+          "But around the world, government, activists, and independent civilians are speaking up."
+        ]
       }
     ],
     "cabin": [""],
