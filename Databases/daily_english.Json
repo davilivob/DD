@@ -1951,11 +1951,34 @@
       "$We can say \"He speaks with vigor\", but we can't say \"Gasoline is used for vigor\".",
       "They battled with great vigor and exaggeration to the cheering of the three younger boys until one turned and noticed her.",
       {
+        "vigorously": [""]
+      },
+      {
         "power": ["& Power can mean electricity, but also force."],
         "energy": ["& It's just energy."],
         "impetus": [
           "@ Something that encourages a particular activity or makes that activity more energetic or effective.",
           "Often the impetus for change in education has had to come from outside the school establishment."
+        ],
+        "dynamic": [
+          "@ Having a lot of ideas and enthusiasm.",
+          "She's young and dynamic and will be a great addition to the team.",
+          "@ Continuously changing or developing.",
+          "Business innovation is a dynamic process.",
+          "@ The forces that control the relationships people or things have with each other and how those relationships can change.",
+          "The aim of the research is to improve understanding of the dynamics of the business environment.",
+          "",
+          {
+            "dynamically": [
+              "These copies will update dynamically, because they share the same Style and Template.",
+              "Dynamically, each of these cars is outstanding: a highly refined machine that corners, accelerates, and stops swiftly."
+            ],
+            "dynamism": [
+              "@ The quality of being dynamic.",
+              "She has a freshness and dynamism about her.",
+              "There has to be some dynamism in love."
+            ]
+          }
         ]
       }
     ],
@@ -4744,7 +4767,6 @@
         "immense": [""]
       }
     ],
-    "dynamic": [""],
     "circulate": [""],
     "medic": [""],
     "activist": [""],
