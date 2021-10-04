@@ -4782,7 +4782,12 @@
         "immense": [""]
       }
     ],
-    "medic": [""],
+    "medic": [
+      "@ Someone who does medical work in the military.",
+      "Medics and security officials work at the scene of the attack.",
+      "Police said he was uncooperative and refused to let medics treat his wound.",
+      "More than 600 doctors, nurses and medics have been infected in the epidemic so far, while more than 300 have died."
+    ],
     "activist": [""],
     "smear": [""],
     "debate": [""],
