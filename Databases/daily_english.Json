@@ -1635,7 +1635,13 @@
           "The company has been successful in penetrating overseas markets this year (= it has started selling its products in them).",
           "He penetrates deeper into the artist's life in the second volume of his autobiography."
         ],
-        "traverse": [""],
+        "traverse": [
+          "@ To move or travel through an area.",
+          "Stanley traversed the continent from west to east.",
+          "Bounded on the east by Lake Winnebago, the county is traversed by the Wolf and Fox rivers.",
+          "Just traveling to the nearest major city requires a journey of hours or even days spent traversing multiple military checkpoints.",
+          "If they discover, however, routes that are safe to traverse in the daylight, they'll take advantage of them."
+        ],
         "circulate": [
           "@ To or make something to go around or through something.",
           "Hot water circulates through the heating system.",
