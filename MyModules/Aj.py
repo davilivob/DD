@@ -112,6 +112,7 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "she'll", "she", "will")
         splitQruotationMark(wordsList, "we'll", "we", "will")
         splitQruotationMark(wordsList, "it'll", "it", "will")
+        splitQruotationMark(wordsList, "they'll", "it", "will")
         splitQruotationMark(wordsList, "kinda", "kind", "of")
         splitQruotationMark(wordsList, "st", "first", "'")
         splitQruotationMark(wordsList, "nd", "second", "'")
