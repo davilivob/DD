@@ -3749,7 +3749,8 @@
                       "The US wants a new air treaty with the UK to lift barriers on the cities that each nations' carriers can serve."
                     ]
                   }
-                ]
+                ],
+                "settlement": [""]
               }
             ],
             "strategic": [
@@ -4845,7 +4846,18 @@
         "immense": [""]
       }
     ],
-    "monetary": [""],
+    "monetary": [
+      "@ Relating to the money in a country.",
+      "The monetary unit of the U.K. is the pound.",
+      "@ Relating to money or in the form of money.",
+      "They betrayed their friends for monetary gain.",
+      "It's hard to put a monetary value on the harm that was done.",
+      [
+        "The conditions and monetary value of the settlement are not public.",
+        "In some cases, the client's tattoo is the work of a famous artist and may have some monetary value.",
+        "His ideas about the tax code and public investments and budget deficits and monetary policy tell us much more."
+      ]
+    ],
     "matrimony": [""],
     "summit": [""],
     "statute": [""],
@@ -5052,7 +5064,6 @@
     "stimulate": [""],
     "strike": [""],
     "paperclip": [""],
-    "settlement": [""],
     "burst": [""],
     "capture": [""],
     "rural": [""],
