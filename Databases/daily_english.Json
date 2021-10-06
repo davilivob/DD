@@ -2278,6 +2278,19 @@
                       "Who would be the best person to preside at/ over the public inquiry.",
                       "Deparments, notably, Los Angeles', have managed to climb back from riots and scandal with the help of a consent decree while presiding over a reduction in violence.",
                       "Nor will Abe realize his dream of presiding over the Summer Olympic Games in Tokyo."
+                    ],
+                    "summit": [
+                      "@ An important formal meeting between leaders of governments from two or more countries.",
+                      "World leaders will meet next week for their annual economic summit.",
+                      "@ The highest point of a mountain.",
+                      "On this day in 1784, Dr. Michel Paccard and Jacques Balmat reached the summit of Mont Blanc.",
+                      "But also at the summit, countries agreed to double the tiger population by 2022 and crack down on poaching and illegal trade of tiger parts.",
+                      {
+                        "the summit": [
+                          "@ The highest, most successful, or most important point in something.",
+                          "I certainly haven't reached the summit of my career."
+                        ]
+                      }
                     ]
                   }
                 ]
@@ -4882,7 +4895,6 @@
         ]
       }
     ],
-    "summit": [""],
     "statute": [""],
     "affiliate": [""],
     "wage": [""],
