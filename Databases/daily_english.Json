@@ -1002,6 +1002,9 @@
               "He glared at me with an air of accusation.",
               "What do you say to the accusation that you are unfriendly and unhelpful?"
             ]
+          },
+          {
+            "allegation": [""]
           }
         ]
       }
@@ -3658,7 +3661,29 @@
       }
     ],
     "proceedings": [
+      "@ A series of events that happen in a planned and controlled way.",
       "Millions of people watched the proceedings on television.",
+      "@ Legal action.",
+      "Allegations of sexual harassment have led to disciplinary proceedings being taken against three naval officers.",
+      {
+        "proceed": [
+          "@ To continue as planned.",
+          "His lawyers have decided no to proceed with the case.",
+          "Preparations for the festival are now proceeding smoothly.",
+          "@ To move forward or travel in a particular direction.",
+          "Passengers for Madrid should proceed to gate 26 for boarding.",
+          [
+            "We need to think about how to proceed from here.",
+            "You should proceed with caution.",
+            "The suspect alighted from the train at Euson and proceeded to Heathrow."
+          ]
+        ],
+        "peoceed to do sth": [
+          "@ To do something after you've done something else.",
+          "She set down and proceeded to tell me about her skiing holiday.",
+          "He told me he was on a diet and then proceeded to eat a plateful of French fries!"
+        ]
+      },
       {
         "affair": [""]
       }
@@ -3719,7 +3744,13 @@
                 "strategy": [""]
               }
             ],
-            "recruit": [""]
+            "recruit": [""],
+            "medic": [
+              "@ Someone who does medical work in the military.",
+              "Medics and security officials work at the scene of the attack.",
+              "Police said he was uncooperative and refused to let medics treat his wound.",
+              "More than 600 doctors, nurses and medics have been infected in the epidemic so far, while more than 300 have died."
+            ]
           }
         ],
         "umpire": [
@@ -4797,13 +4828,10 @@
         "immense": [""]
       }
     ],
-    "medic": [
-      "@ Someone who does medical work in the military.",
-      "Medics and security officials work at the scene of the attack.",
-      "Police said he was uncooperative and refused to let medics treat his wound.",
-      "More than 600 doctors, nurses and medics have been infected in the epidemic so far, while more than 300 have died."
+    "debate": [
+      "@ A serious discussion of subject in which many people take part.",
+      "How we proceed from here is a matter for debate."
     ],
-    "debate": [""],
     "monetary": [""],
     "matrimony": [""],
     "summit": [""],
@@ -5286,7 +5314,6 @@
     "civilian": [""],
     "libel": [""],
     "dismiss": [""],
-    "allegation": [""],
     "innuendo": [""]
   }
 }
