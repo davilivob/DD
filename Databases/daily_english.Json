@@ -2214,8 +2214,25 @@
               "",
               {
                 "congressman": [""],
-                "council": [""]
+                "council": [""],
+                "senator": [""]
               }
+            ],
+            "debate": [
+              "@ A serious discussion of subject in which many people take part.",
+              "How we proceed from here is a matter for debate.",
+              "@ A competition in which teams of people, often students, discuss a subject and the team that is judged to make the best arguments wins.",
+              "The team won their Round 3 debate against Mitcham Girls High School.",
+              "@ To discuss a subject in a formal way.",
+              "In Congress today, senators debated the Finance Bill.",
+              "They had been debating for several hours without reaching a conclusion.",
+              "@ To try to make a decision about something.",
+              "I'm still debating what color to paint the walls.",
+              [
+                "They may as well debate his past tenure as a pro wrestling impresario.",
+                "But we would not, or should not, so why get trapped in this debate?",
+                "Removing the moderator could well make debates faster, deeper, more informative, more interesting and more revealing."
+              ]
             ]
           }
         ]
@@ -4827,10 +4844,6 @@
       {
         "immense": [""]
       }
-    ],
-    "debate": [
-      "@ A serious discussion of subject in which many people take part.",
-      "How we proceed from here is a matter for debate."
     ],
     "monetary": [""],
     "matrimony": [""],
