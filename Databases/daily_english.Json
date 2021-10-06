@@ -4872,7 +4872,16 @@
         ]
       }
     ],
-    "matrimony": [""],
+    "marital": [
+      "",
+      {
+        "matrimony": [
+          "@ The state of being married.",
+          "They congratulated us on our recent matrimony and mapped out a bunch of bars that we never stepped foot in.",
+          "In fact, neither one of us was very comfortable with this whole idea of matrimony at all."
+        ]
+      }
+    ],
     "summit": [""],
     "statute": [""],
     "affiliate": [""],
@@ -5295,7 +5304,6 @@
     "greet": [""],
     "dusk": [""],
     "toolkit": [""],
-    "marital": [""],
     "questionnaire": [""],
     "sector": [""],
     "broadband": [""],
