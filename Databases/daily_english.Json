@@ -1169,7 +1169,7 @@
       "He gave me strict intructions to get there by eight o'clock.",
       "@ Advice and information about how to do or use something, often written in a book or on the side of a container.",
       "The cooking instructions say to bake it for half an hour.",
-      "You obviously didn't read th einstructions properly.",
+      "You obviously didn't read th instructions properly.",
       "They need clear instructions on what to do next.",
       "@ The teaching of a particular skill or subject.",
       "The video provides instruction on how to operate the computer.",
@@ -4858,6 +4858,20 @@
         "His ideas about the tax code and public investments and budget deficits and monetary policy tell us much more."
       ]
     ],
+    "demonstration": [
+      "",
+      {
+        "protest": [""],
+        "activist": [
+          "@ A person who believes strongly in political or social change and takes part in activities such as public protests to try to make this happen.",
+          "He's been a labor union activist for many years.",
+          "Civil rights activists were in the streets protesting segregation while the legal strategy proceeded in the courts.",
+          "Local human-rights activists say the repression has so far left more than 1,000 people dead.",
+          "They are artists and activists, reformers and researchers, heads of state and captains of industry.",
+          "But around the world, government, activists, and independent civilians are speaking up."
+        ]
+      }
+    ],
     "matrimony": [""],
     "summit": [""],
     "statute": [""],
@@ -5252,20 +5266,6 @@
     "cap": [""],
     "meridiem": [""],
     "pollen": [""],
-    "demonstration": [
-      "",
-      {
-        "protest": [""],
-        "activist": [
-          "@ A person who believes strongly in political or social change and takes part in activities such as public protests to try to make this happen.",
-          "He's been a labor union activist for many years.",
-          "Civil rights activists were in the streets protesting segregation while the legal strategy proceeded in the courts.",
-          "Local human-rights activists say the repression has so far left more than 1,000 people dead.",
-          "They are artists and activists, reformers and researchers, heads of state and captains of industry.",
-          "But around the world, government, activists, and independent civilians are speaking up."
-        ]
-      }
-    ],
     "cabin": [""],
     "mortality": [""],
     "industrialized": [""],
@@ -5338,6 +5338,17 @@
     "civilian": [""],
     "libel": [""],
     "dismiss": [""],
-    "innuendo": [""]
+    "innuendo": [""],
+    "naval": [""],
+    "disciplinary": [""],
+    "harassment": [""],
+    "alight": [""],
+    "impresario": [""],
+    "tenure": [""],
+    "revealing": [""],
+    "moderator": [""],
+    "tax code": [""],
+    "deficit": [""],
+    "honesty": [""]
   }
 }
