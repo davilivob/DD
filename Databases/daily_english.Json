@@ -701,6 +701,9 @@
     }
   },
   "Regular Dictionary": {
+    "Dictionary": [
+      "@ A book that contains a list of words in alphabetical order and explains their meanings, or gives a word for them in another language; an electronic product giving similar information on a computer, smarphone,etc."
+    ],
     "punctuation": [
       "The most common punctuation marks in English are: capital letters and full stops, question marks, commas, colons and semi-colons, exclamation marks and quotation marks.",
       {
@@ -971,6 +974,28 @@
                     "unconstitutional": [
                       "@ Not allowed by the constitution of a country or organization.",
                       "Changing the law in this way would be unconstitutional."
+                    ]
+                  },
+                  {
+                    "statute": [
+                      "@ A law that has been formally approved and written down.",
+                      "The salaries of most federal workers are set by statute.",
+                      "Many state and federal statutes already cover identity theft.",
+                      {
+                        "statutory": [
+                          "@ Decided, controlled, or required by law.",
+                          "Statutory obligations.",
+                          "In France everbody is entitled to a statutory 25 days a year holiday.",
+                          [
+                            "Commentators often mock statutory damages, especially for willful infringement, as being over the top.",
+                            "And yet this program, which we found has no statutory basis and which is not very effective - this program continues today.",
+                            "The proposal eliminates some of these deductions and thus alters the difference between the statutory rate and the average effective rate."
+                          ]
+                        ],
+                        "statutorily": [
+                          "The agency plans to complete all statutorily required inspections by the end of May."
+                        ]
+                      }
                     ]
                   },
                   {
@@ -2349,7 +2374,10 @@
         "deductive": [
           "@ Reaching an answer a decision by thinking carefully about the known facts.",
           "There is nothing that teaches deductive reasoning and logic better than math word problems.",
-          "& All zebras have black and white stripes and that animal is a zebra. Therefore, That animal has black and white stripes."
+          "& All zebras have black and white stripes and that animal is a zebra. Therefore, That animal has black and white stripes.",
+          {
+            "deduction": [""]
+          }
         ],
         "inference": [
           "@ A guess that you make or an opinion that you form based on the information that you have.",
@@ -4895,7 +4923,6 @@
         ]
       }
     ],
-    "statute": [""],
     "affiliate": [""],
     "wage": [""],
     "vinegar": [""],
@@ -5369,6 +5396,8 @@
     "moderator": [""],
     "tax code": [""],
     "deficit": [""],
-    "honesty": [""]
+    "honesty": [""],
+    "ginormous": [""],
+    "manuscript": [""]
   }
 }
