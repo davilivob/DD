@@ -3684,7 +3684,8 @@
             "associative": [
               "",
               {
-                "associate": [""]
+                "associate": [""],
+                "association": [""]
               }
             ],
             "distributive": [""]
@@ -4923,7 +4924,28 @@
         ]
       }
     ],
-    "affiliate": [""],
+    "affiliate": [
+      "@ To cause a group to become part of or form a close relationship with another, usually larger, group, or organization.",
+      "The school is affiliated with a national association of driving schools.",
+      "I'm not affiliated with any political party.",
+      "The two schools will affiliate next year.",
+      "@ An organization that is connected with or controlled by another, usually larger, organization.",
+      "Our college is an affiliate of the university.",
+      "The show is broadcast on most of the network's affiliates.",
+      [
+        "The rest of its departures, about 168, are on affiliate regional carriers flying aircraft with 50 seats or fewer.",
+        "Very few people are not affiliated with religious organizations."
+      ],
+      {
+        "affiliation": [
+          "@ A connection with a political party or religion, or with a larger organization.",
+          "The group has affiliations with several organizations abroad.",
+          "Their lack of affiliation to any particular bank allows them to give objective financial advice.",
+          "@ The relationship between two companies that are officially connected to each other.",
+          "And that's exactly what's behind our new affiliation: growing the business."
+        ]
+      }
+    ],
     "wage": [""],
     "vinegar": [""],
     "viscosity": [""],
