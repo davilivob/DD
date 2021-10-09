@@ -10,7 +10,7 @@ import MyModules.TimerLoadBar as TimeBar
 
 class Load:
     with open("Databases\Database.json", mode="r", encoding="utf-8") as file:
-        load_json = json.loads(file.read())
+        load_json = json.loads(file.read().replace("\n",""))
         TimeBar.Adding()
 
     with open("Databases\daily_english.json", mode="r", encoding="utf-8") as file:
