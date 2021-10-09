@@ -1,6 +1,7 @@
 import json
 import sys
 from os.path import dirname, abspath
+from typing import overload
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
@@ -25,7 +26,7 @@ class Load:
     with open(
         "Databases\TypingPracticeRecords.json", mode="r", encoding="utf-8"
     ) as file:
-        typingJson = file.read()
+        typingJson = file.read().replace(" ", "").replace("\n", "")
         TimeBar.Adding()
-        typingDatas = json.loads(typingJson)
+        typingDatas = json.loads("".join([typingJson,"]"]))
         TimeBar.Adding()

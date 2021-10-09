@@ -93,7 +93,7 @@ namespace Typing_App
                 WrongChars = (string[])BadChars.ToArray(typeof(string))
             };
             string json = System.Text.Json.JsonSerializer.Serialize(json_element);
-            File.AppendAllText(@"Databases\TypingPracticeRecords.json", "," + json + "]  ");
+            File.AppendAllText(@"Databases\TypingPracticeRecords.json", "," + json);
         }
         public void createLine()
         {
@@ -281,15 +281,15 @@ namespace Typing_App
                     }
                 }
             }
-            void preWorker()
-            {
-                StreamReader _preWord = new StreamReader(@"Databases\TypingPracticeRecords.json");
-                string AllJsonContent = _preWord.ReadToEnd();
-                _preWord.Close();
-                StreamWriter preWork = new StreamWriter(@"Databases\TypingPracticeRecords.json");
-                preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
-                preWork.Close();
-            }
+            // void preWorker()
+            // {
+            //     StreamReader _preWord = new StreamReader(@"Databases\TypingPracticeRecords.json");
+            //     string AllJsonContent = _preWord.ReadToEnd();
+            //     _preWord.Close();
+            //     StreamWriter preWork = new StreamWriter(@"Databases\TypingPracticeRecords.json");
+            //     preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
+            //     preWork.Close();
+            // }
             string[] getWords()
             {
                 StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
@@ -305,7 +305,7 @@ namespace Typing_App
             {
                 TestTime = 1;
                 Exception();
-                preWorker();
+                // preWorker();
                 Test newTest = new Test(TestTime, wordsArray);
                 newTest.createLine();
                 while (newTest.testEnd == false)
