@@ -5563,6 +5563,23 @@
     "dishonor": [""],
     "motive": [""],
     "shellfish": [""],
-    "prime": [""]
+    "prime": [""],
+    "mineral": [""],
+    "folic": [""],
+    "gram": [""],
+    "fructose": [""],
+    "bundle": [""],
+    "allure": [""],
+    "cultivation": [""],
+    "nuisance": [""],
+    "machinery": [
+      "",
+      {
+        "mechanic": [""],
+        "mechanical": [""]
+      }
+    ],
+    "voyage": [""],
+    "reckon": [""]
   }
 }
