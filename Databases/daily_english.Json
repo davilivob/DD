@@ -5023,7 +5023,13 @@
         "oxidization": [""]
       }
     ],
-    "turmeric": [""],
+    "turmeric": [
+      "@ A yellow powder, used as a spice to flavor particular foods, esp. curry, and give them a yellow color. It is made from the root of an Asian plant.",
+      "For example, ginger and turmeric are anti-inflammatory, so they help to ease aches and pains.",
+      "Curries are its most common use, but turmeric's taste is only part of its allure.",
+      "The study was based on earlier evidence that turmeric has strong antioxidant and anti-inflammatory qualities.",
+      "Blood was especially important in the cultivation of turmeric, which needed it to develop its rich, red color."
+    ],
     "aeronautics": [""],
     "equity": [""],
     "duplicate": [""],
@@ -5533,7 +5539,12 @@
     "viscous": [""],
     "fluid": [""],
     "modify": [""],
-    "inflammation": [""],
+    "inflammation": [
+      "",
+      {
+        "inflammatory": [""]
+      }
+    ],
     "hamper": [""],
     "friction": [""],
     "model": [""],
