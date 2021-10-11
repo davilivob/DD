@@ -3471,6 +3471,16 @@
           "@ Having a lot of bubbles.",
           "Considering they all taste like somewhat moldy, watered, down, fizzy bread to me, it's moot."
         ]
+      },
+      {
+        "vinegar": [
+          "@ A sharp-tasting liquid, made esp. from sour wine, malt, or cider, that is used to add flavor to or to preserve food.",
+          "Would you like oil and vinegar on your salad?",
+          [
+            "Several readers have offered treatments for sprouts ranging from chlorine, to vinegar, to hydrogen peroxide, to ozone.",
+            "That's followed by dabbing diluted apple cider vinegar on the ends of the hair."
+          ]
+        ]
       }
     ],
     "container": [
@@ -4780,6 +4790,9 @@
       "@ A small piece of food, often specially produced, that is given to pets in addition to their usual food, for example as a reward.",
       "The owner said the dog was dangerous, but when I fed it dog treats it would take them gently out of my hand.",
       {
+        "treatment": [""]
+      },
+      {
         "motion": [""],
         "deed": [
           "@ An intentional act, esp. a very bad or very good one.",
@@ -4954,9 +4967,6 @@
           "And that's exactly what's behind our new affiliation: growing the business."
         ]
       }
-    ],
-    "vinegar": [
-      "@ A sharp-tasting liquid, made esp. from sour wine, malt, or cider, that is used to add aflavor to or ot preserve food."
     ],
     "viscosity": [""],
     "substantial": [""],
