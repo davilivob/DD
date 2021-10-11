@@ -14,7 +14,7 @@ class Load:
         TimeBar.Adding()
 
     with open("Databases\daily_english.json", mode="r", encoding="utf-8") as file:
-        Dictionary = file.read().replace("\n","")
+        Dictionary = file.read()
         TimeBar.Adding()
 
     lastCharsRepeated = load_json[2]["Analysing Results"]["Advanced Datas"][
