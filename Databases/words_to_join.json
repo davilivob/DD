@@ -7,10 +7,16 @@
   "bundle": [""],
   "allure": [""],
   "cultivation": [""],
-  "": [""],
-  "": [""],
-  "": [""],
-  "": [""],
+  "nuisance": [""],
+  "machinery": [
+    "",
+    {
+      "mechanic": [""],
+      "mechanical": [""]
+    }
+  ],
+  "voyage": [""],
+  "reckon": [""],
   "": [""],
   "": [""],
   "": [""],

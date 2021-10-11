@@ -4193,7 +4193,16 @@
           "Many airline passengers face lengthy delays becauses of the strike.",
           "The 1990s saw a huge increase in the numbers of low-cost airlines."
         ],
-        "skyline": [""]
+        "skyline": [""],
+        "aeronautic": [
+          "@ Relating to the science of designing, building, and operating aircraft.",
+          "They want to hire an aeronautic engineer who can also program the computer.",
+          [
+            "But he's a nuisance in the aeronautic section.",
+            "And all this, in connection with aeronautic machinery, means work for thousands of mechanics.",
+            "In aeronautic voyages it is the distance through the air that must be reckoned rather than the distance over the ground or sea."
+          ]
+        ]
       }
     ],
     "attach": [
@@ -5030,7 +5039,6 @@
       "The study was based on earlier evidence that turmeric has strong antioxidant and anti-inflammatory qualities.",
       "Blood was especially important in the cultivation of turmeric, which needed it to develop its rich, red color."
     ],
-    "aeronautics": [""],
     "equity": [""],
     "duplicate": [""],
     "pepper": [""],
