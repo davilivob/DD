@@ -4602,7 +4602,21 @@
         "slime": [""]
       },
       {
-        "jello": [""]
+        "murky":[""],
+        "gummy":[""]
+      },
+      {
+        "jello": [""],
+        "viscosity": [
+          "@ The quality or state of being viscous (= thick and sticky and not flowing easily ).",
+          "The viscosity of the fluid in the system can be modified.",
+          "Fish oils reduce inflammation in the arteries, and improve your blood viscosity.",
+          [
+            "The high viscosity of the syrup hampered rescue operations -- rescue workers spent four days searching for people in its murky, gummy depths.",
+            "He learned how to model gravity, friction and viscosity.",
+            "Flowing into the pores of the rock, the gas mixes with the remaining crude oil, lowering its viscosity and squeezing it toward the wellhead."
+          ]
+        ]
       }
     ],
     "scent": [
@@ -4968,7 +4982,6 @@
         ]
       }
     ],
-    "viscosity": [""],
     "substantial": [""],
     "suspect": [""],
     "antioxidant": [""],
