@@ -4602,8 +4602,8 @@
         "slime": [""]
       },
       {
-        "murky":[""],
-        "gummy":[""]
+        "murky": [""],
+        "gummy": [""]
       },
       {
         "jello": [""],
@@ -4630,7 +4630,10 @@
       }
     ],
     "proportion": [
-      "After that, it diminishes roughly in proportion to the delay."
+      "After that, it diminishes roughly in proportion to the delay.",
+      {
+        "portion": [""]
+      }
     ],
     "branch": [
       "@ A part of a plant stem or a part of something which is larger and more complex."
@@ -4921,7 +4924,15 @@
       "She's trapped in the gap between signifier and signified, and that vast and enormous space tortures her.",
       "\" We live on enormous territorym, our eyes have different shapes, we believe in different religions \", she said.",
       {
-        "immense": [""]
+        "immense": [""],
+        "substantial": [
+          "@ Large in size, value, or importance.",
+          "The findings show a substantial difference between the opinions of men and women.",
+          "The first draft of his novel needed a substantial amount of rewriting.",
+          "They do a substantial portion of their business by phone.",
+          "@ Relating to the main or most important things being considered.",
+          "The committee was in substantial agreement (= agreed about most of the things discussed )."
+        ]
       }
     ],
     "monetary": [
@@ -4982,7 +4993,6 @@
         ]
       }
     ],
-    "substantial": [""],
     "suspect": [""],
     "antioxidant": [""],
     "turmeric": [""],
