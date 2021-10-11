@@ -4165,7 +4165,7 @@
       "The world's greatest tenor treated us to a virtuoso display of his abundant talent.",
       {
         "tenor": [
-          "@ A male siger with a high voice, or ( esp. in combinations ) a musical instrument that has the same range of the notes as the tenor singing voice.",
+          "@ A male singer with a high voice, or ( esp. in combinations ) a musical instrument that has the same range of the notes as the tenor singing voice.",
           "A tenor saxophone.",
           "@ The character or usual pattern of something.",
           "Suddenly the tenor of the meeting changed, and people started insulting each other."
@@ -5492,6 +5492,25 @@
     "plaque": [""],
     "frail": [""],
     "meagreness": [""],
-    "truncate": [""]
+    "truncate": [""],
+    "desperate": [""],
+    "sour": [""],
+    "malt": [""],
+    "cider": [""],
+    "sprout": [""],
+    "hydrogen": [""],
+    "peroxide": [""],
+    "ozone": [""],
+    "dab": [""],
+    "viscous": [""],
+    "fluid": [""],
+    "modify": [""],
+    "inflammation": [""],
+    "hamper": [""],
+    "friction": [""],
+    "model": [""],
+    "pore": [""],
+    "crude": [""],
+    "wellhead": [""]
   }
 }
