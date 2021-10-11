@@ -4699,6 +4699,15 @@
               "They've involved their workers in the development and implementation of the new program."
             ]
           }
+        ],
+        "wage": [
+          "@ A particular amount of money that is paid, usually every week, to an employee, especially one who does work that needs physical skills or strength, rather than a job needing a college education.",
+          "He gets/ earns/ is paid a good wage, because he works for a fair employer.",
+          "The job paid very low wages.",
+          "@ To fight a war or organize a series of activities in order to achieve something.",
+          "Doesn't the president need Congress' permission to wage war on another country?",
+          "They've been waging a long campaign to change the law.",
+          "A desperate medical battle is being waged against the virus."
         ]
       }
     ],
@@ -4946,8 +4955,9 @@
         ]
       }
     ],
-    "wage": [""],
-    "vinegar": [""],
+    "vinegar": [
+      "@ A sharp-tasting liquid, made esp. from sour wine, malt, or cider, that is used to add aflavor to or ot preserve food."
+    ],
     "viscosity": [""],
     "substantial": [""],
     "suspect": [""],
