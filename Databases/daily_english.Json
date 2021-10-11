@@ -4461,6 +4461,23 @@
               }
             ]
           }
+        ],
+        "suspect": [
+          "@ To think or believe something to be true or probable.",
+          "So far, the police do not suspect foul play.",
+          "We suspect he means to dishonor the agreement made three years ago.",
+          "@ To think that someone has committed a crime or done something wrong.",
+          "Three suspected terrorists have been arrested.",
+          "The police suspect him of carrying out two bomb attacks.",
+          "@ To not trust; to doubt.",
+          "I have no reason to suspect her honesty and loyalty",
+          "We suspected his motives in making his offer.",
+          "@ A person believed to have committed a crime or done something wrong, or something believed to have caused something bad.",
+          "No one knows what causes the outbreak of food poisoning, but shellfish is the main suspect.",
+          "The prime suspect in the case committed suicide.",
+          "@ Possibly false or dangerous.",
+          "The study was carrying out with such a small sample that its results are suspect.",
+          "A suspect package was found at the station."
         ]
       }
     ],
@@ -4993,7 +5010,6 @@
         ]
       }
     ],
-    "suspect": [""],
     "antioxidant": [""],
     "turmeric": [""],
     "aeronautics": [""],
