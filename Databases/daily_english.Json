@@ -5010,7 +5010,19 @@
         ]
       }
     ],
-    "antioxidant": [""],
+    "antioxidant": [
+      "@ A substance that slows down the rate at which something decays because of oxidization.",
+      "Vitamin C's antioxidant activity may help boost immune function and may make some people feel better.",
+      "She takes the vitamins, minerals, antioxidants, and folic acid in women's multivitamins.",
+      [
+        "Antioxidants, those healthy compounds most often associated with fruits and vegetables.",
+        "Certain foods are high in antioxidants, which mop up the free radicals that contribute to cancer.",
+        "So when you think about blueberries, a cup of blueberries, that has about 7 grams of fructose, but it's bundled with antioxidants, vitamins, minerals, fiber."
+      ],
+      {
+        "oxidization": [""]
+      }
+    ],
     "turmeric": [""],
     "aeronautics": [""],
     "equity": [""],
@@ -5527,6 +5539,11 @@
     "model": [""],
     "pore": [""],
     "crude": [""],
-    "wellhead": [""]
+    "wellhead": [""],
+    "foul": [""],
+    "dishonor": [""],
+    "motive": [""],
+    "shellfish": [""],
+    "prime": [""]
   }
 }
