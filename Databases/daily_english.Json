@@ -5057,7 +5057,19 @@
       "For example, ginger and turmeric are anti-inflammatory, so they help to ease aches and pains.",
       "Curries are its most common use, but turmeric's taste is only part of its allure.",
       "The study was based on earlier evidence that turmeric has strong antioxidant and anti-inflammatory qualities.",
-      "Blood was especially important in the cultivation of turmeric, which needed it to develop its rich, red color."
+      "Blood was especially important in the cultivation of turmeric, which needed it to develop its rich, red color.",
+      {
+        "pepper": [
+          "@ A gray or white powder produced by crushing dry peppercorns, used to give a spicy, hot taste to food.",
+          "@ A vegetable that usually green, red, or yellow, has a rounded shape, and is hollow with seeds in the middle.",
+          "Peppers are usually cooked with other vegetables or eaten raw in salads.",
+          "Red peppers are ideal for roasting in the oven.",
+          "@ To direct something suddenly and repeatedly at someone, as if attacking the person.",
+          "The mayor was peppered with questions from reporters about the municipal corruption scandal.",
+          "@ To add something in many places.",
+          "He peppered his speech with jokes."
+        ]
+      }
     ],
     "equity": [
       "@ The value of a company, divided into many equal parts owned by the shareholders, or one of the equal parts into which the value of a company is divided.",
@@ -5068,7 +5080,6 @@
       "@ The money value of a property or business after debts have been subtracted.",
       "How much equity do you have in your home?"
     ],
-    "pepper": [""],
     "iterable": [""],
     "intuitive": [""],
     "invitation ": [""],
