@@ -2032,6 +2032,35 @@
           "@ To arrange the different parts of something in separate layers or groups.",
           "The sample of people questioned was drawn from the university's student register and stratified by age and gender."
         ]
+      },
+      {
+        "split": [
+          "@ To divide into two or more parts, esp. along a particular line.",
+          "The prize was split between Susan and Kate.",
+          "Split the eggplants in half and cover with breadcrumbs.",
+          "I'll split this croissant with you.",
+          "@ To form cracks",
+          "The wooden floor had cracked and split in the heat.",
+          "@ If the people in an organization or group split, or if something split them, they disagree and form smaller groups.",
+          "A group of extremists split off from the Democratic Party to form a new Workers Party.",
+          "There is a widening split between senior managers and the rest of the workforce.",
+          "@ To tell other people secret and damaging information about someone.",
+          "They knew Josie wouldn't split on them to the teacher.",
+          "@ A long, thin hole in something where it has broken apart.",
+          "Rain was getting in through a split in the plastic sheeting.",
+          {
+            "divide/ split sth down the middle": [
+              "@ To separate, or to divide something, into two equal parts.",
+              "The union executive has split down the middle on what to do next.",
+              "Let's split the cost right down the middle."
+            ],
+            "the splits": [
+              "@ The action of sitting on the floor with your legs straight out and flat along the floor in opposite directions.",
+              "Can you do the splits?",
+              "She does a backward gliding thing when she's doing a split."
+            ]
+          }
+        ]
       }
     ],
     "vigor": [
@@ -5194,7 +5223,6 @@
         "A martini glass tacked on to an invitation is a great heads up."
       ]
     ],
-    "split": [""],
     "regulation": [""],
     "profit": [""],
     "intriguing": [""],
