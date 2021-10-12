@@ -4736,7 +4736,12 @@
       "@ An occasion when you allow or do not mind someone's failure of bad behavior.",
       "My inability to do needlework was treated with surprising indulgence by my teacher."
     ],
-    "wandering": ["I didn't noticed how far I was wandering this evening."],
+    "wandering": [
+      "I didn't noticed how far I was wandering this evening.",
+      {
+        "passer-by": ["We amused ourselves by watching the passers-by."]
+      }
+    ],
     "ensue": [
       "@ To happen after something else, especially as a result of it.",
       "Chaos ensued when 60 charter schools run by one company were all suddenly closed.",
@@ -4768,7 +4773,6 @@
       "@ A calm mental state, esp. after a shock or disappointment or in a difficult situation.",
       "In spite of her financial troubles, she faced the future with equanimity."
     ],
-    "passer-by": ["We amused ourselves by watching the passers-by."],
     "craft": [
       "@ Skill and experience, esp. in relation to making objects; a job or activity that needs skill and experience, or something produced using skill and experience.",
       "That's a beautifully crafted silver brooch.",
@@ -5039,7 +5043,15 @@
       "The study was based on earlier evidence that turmeric has strong antioxidant and anti-inflammatory qualities.",
       "Blood was especially important in the cultivation of turmeric, which needed it to develop its rich, red color."
     ],
-    "equity": [""],
+    "equity": [
+      "@ The value of a company, divided into many equal parts owned by the shareholders, or one of the equal parts into which the value of a company is divided.",
+      "He sold his equity in the company last year.",
+      "The rights give holders the opportunity to purchase additional equity interests in the company at a big discount.",
+      "@ The situation in which everyone is treated fairly and equally.",
+      "A society based on equity and social justice.",
+      "@ The money value of a property or business after debts have been subtracted.",
+      "How much equity do you have in your home?"
+    ],
     "duplicate": [""],
     "pepper": [""],
     "iterable": [""],
