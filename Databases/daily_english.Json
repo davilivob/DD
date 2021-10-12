@@ -5167,7 +5167,22 @@
         ]
       }
     ],
-    "invitation": [""],
+    "invitation": [
+      "@ The act of inviting someone to go to an event.",
+      "Thanks for the invitation to your birthday party.",
+      "The first day of the exhibition will be by invitation only. (= only those who have been invited can come).",
+      "@ An action that causes or encourages something to happen.",
+      "Leaving your house unlocked is an open invitation to burglars.",
+      "@ An occasion when someone is formally asked to do something.",
+      "This is a once in a lifetime invitation to invest in your dream home in the sun.",
+      "@ A piece of paper or card that invites someone to an event.",
+      "I need to order the wedding invitations.",
+      [
+        "However, after two thousand years, the invitation is still open.",
+        "Not all family members accepted the invitation to attend the ceremony.",
+        "A martini glass tacked on to an invitation is a great heads up."
+      ]
+    ],
     "be tried": [""],
     "split": [""],
     "regulation": [""],
