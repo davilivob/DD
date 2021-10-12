@@ -276,8 +276,12 @@
             "He was found guily of reckless driving.",
             "These punks have a reckless disregard for the law.",
             {
-              "recklessly": ["She spends her money recklessly."],
-              "recklessness": ["The accident was a result of recklessness."]
+              "recklessly": [
+                "She spends her money recklessly."
+              ],
+              "recklessness": [
+                "The accident was a result of recklessness."
+              ]
             }
           ]
         },
@@ -317,7 +321,9 @@
             "@ If an emotion, opinion, etc. is embedded in someone or something, it is a very strong or important part of him, her, or it.",
             "A sense of guilt was deeply embedded in my conscience"
           ],
-          "'twas": ["@ The short form of ' it was '."]
+          "'twas": [
+            "@ The short form of ' it was '."
+          ]
         },
         "~ The wind it was howling and the snow was outrageous.",
         "~ We chopped through the night and we chopped through the dawn.",
@@ -889,7 +895,9 @@
             ]
           }
         ],
-        "liberate": ["& Liberate is more formal."],
+        "liberate": [
+          "& Liberate is more formal."
+        ],
         "manumit": [
           "In addition, they encouraged slaveholders to manumit their slaves."
         ]
@@ -1378,7 +1386,9 @@
               "@ The condition of not feeling pain, esp. by use of special drugs.",
               "The procedure is performed under general anesthesia.",
               {
-                "anesthetize": ["The vet anesthetized my dog to take xrays."],
+                "anesthetize": [
+                  "The vet anesthetized my dog to take xrays."
+                ],
                 "painkiller": [
                   "The body produces chemicals that are natural painkillers."
                 ],
@@ -1482,7 +1492,9 @@
           "At a macro-level, economic trends play a fundamental role.",
           "The state's ability to exercise macro-control was weakened.",
           {
-            "macroscopic": ["@ Large enough to be seen by the human eye."],
+            "macroscopic": [
+              "@ Large enough to be seen by the human eye."
+            ],
             "macroeconomics": [
               "@ The study of financial systems at a national level."
             ],
@@ -1531,8 +1543,12 @@
           "& Damp means it's slight wet. The towel to wipe the spilled juice is damp from my sweaty hands."
         ],
         "mist": [""],
-        "drench": ["&  Wet means it's drenched in water or another liquid."],
-        "sopping": ["My hair is sopping (wet) from the shower I took."],
+        "drench": [
+          "&  Wet means it's drenched in water or another liquid."
+        ],
+        "sopping": [
+          "My hair is sopping (wet) from the shower I took."
+        ],
         "flood": [
           "@ To cause to fill or become covered with water, esp. in a way that causes problems.",
           "Our washing machine broke down yesterday and flooded the kitchen.",
@@ -1570,7 +1586,9 @@
           "I'm swamped with work at the moment.",
           "Don't let feelings of depression swamp you.",
           {
-            "swampy": ["A low-lying, swampy region."]
+            "swampy": [
+              "A low-lying, swampy region."
+            ]
           }
         ],
         "tide": [
@@ -1584,7 +1602,9 @@
             "-tide": [
               "@ A period of time",
               {
-                "Yuletide": ["@ The period around Christmas."]
+                "Yuletide": [
+                  "@ The period around Christmas."
+                ]
               }
             ]
           }
@@ -1684,8 +1704,12 @@
       "He walked through the halls quickly, the emerging thought in his head is baffling him.",
       "When the boy said \"No!\" to his mother, she was baffled.",
       {
-        "confuse": ["My friend told me that 9+10=21. I was very confused."],
-        "bewilder": ["& Bewilder is pretty much the same, but more poetic."],
+        "confuse": [
+          "My friend told me that 9+10=21. I was very confused."
+        ],
+        "bewilder": [
+          "& Bewilder is pretty much the same, but more poetic."
+        ],
         "mystify": [
           "@ To make something obscured, or hide behind the truth.",
           "The cause of death mystified detectives.",
@@ -1768,7 +1792,9 @@
         "chaos": [
           "Ever since our secretary walked out, the office has been in a state of total/ utter chaos.",
           {
-            "disorder": ["& Chaos has a much stronger feeling than disorder."],
+            "disorder": [
+              "& Chaos has a much stronger feeling than disorder."
+            ],
             "mess": ["& Chaos is a crazy mess."],
             "mayhem": [
               "@ It means violent destruction, and also an older term for the crime of assault and battery."
@@ -1983,7 +2009,9 @@
     "tidy": [
       "She likes everything neat and tidy.",
       {
-        "a tidy sum": ["He sold the house for a tidy (= large) sum."]
+        "a tidy sum": [
+          "He sold the house for a tidy (= large) sum."
+        ]
       },
       {
         "calibrate": [
@@ -2003,7 +2031,9 @@
         "vigorously": [""]
       },
       {
-        "power": ["& Power can mean electricity, but also force."],
+        "power": [
+          "& Power can mean electricity, but also force."
+        ],
         "energy": ["& It's just energy."],
         "impetus": [
           "@ Something that encourages a particular activity or makes that activity more energetic or effective.",
@@ -2135,15 +2165,21 @@
         "affable": [
           "She's so affable that you can drop right into a conversation with her and feel like you've known her for years."
         ],
-        "agreeable": ["We spent a most agreeable evening by the river."],
-        "genial": ["She had a genial demeanor about her."],
+        "agreeable": [
+          "We spent a most agreeable evening by the river."
+        ],
+        "genial": [
+          "She had a genial demeanor about her."
+        ],
         "congenial": [
           "Mark was in need of more congenial friends. It seems his current ones were no longer on the same page after 5 years apart."
         ],
         "chummy": [
           "The inspectors are a little too chummy with the informant."
         ],
-        "amicable": ["Few people have amicable divorces."],
+        "amicable": [
+          "Few people have amicable divorces."
+        ],
         "cordial": [
           "Relations between the two leaders are said to be cordial( friendly, but formal and polite)."
         ],
@@ -2169,7 +2205,9 @@
         "genuine": [
           "If it is a genuine Michelangelo drawing, it will sell for millions."
         ],
-        "real": ["I wish mermaids and unicorns were real."],
+        "real": [
+          "I wish mermaids and unicorns were real."
+        ],
         "true": [
           "& If an arrow hits its target, you could say it has flown true, but you couldn't say it had flown authentic or genuine."
         ]
@@ -2192,8 +2230,12 @@
       "\"What?\" he added with renewed irritation, \"I beg you to dress your men decently\".",
       "Traffic noice is just one of several minor irritations (= small problems).",
       {
-        "irritate": ["You're really irritating me right now. Go away!"],
-        "irritated": ["My skin is irritated (= itchy and hurts)."]
+        "irritate": [
+          "You're really irritating me right now. Go away!"
+        ],
+        "irritated": [
+          "My skin is irritated (= itchy and hurts)."
+        ]
       },
       {
         "annoy": ["Damn, you're so annoying."]
@@ -2287,7 +2329,9 @@
               "@ The process that takes place when a company cannot pay its debts and is allowed to make changes to its organization to try to avoid going into liquidation.",
               "The company has gone into administration, in order for money to be returned to creditors.",
               {
-                "admin": ["& The abbreviation for administration."]
+                "admin": [
+                  "& The abbreviation for administration."
+                ]
               },
               {
                 "delegate": [
@@ -2402,7 +2446,9 @@
           "& Both are used as a base for food and beverage, but syrup can be made by simply mixing together sugar and water while molasses is made by boiling the juice of whatever fruit is available.",
           "@ For example, maple syrup.",
           {
-            "syrupy": ["Heat the liquid until it is thick and syrupy."]
+            "syrupy": [
+              "Heat the liquid until it is thick and syrupy."
+            ]
           }
         ],
         "sucrose": [
@@ -2564,7 +2610,9 @@
           "The gravel crunched underfoot as we walked up to the house.",
           "She was crunching noidily on an apple."
         ],
-        "torn": ["Your dress is torn and you're bleeding."],
+        "torn": [
+          "Your dress is torn and you're bleeding."
+        ],
         "tear": [""],
         "shatter": [
           "@ to cause something to suddenly break into very small pieces.",
@@ -2588,7 +2636,9 @@
     "component": [
       "The course has four main components: business law, finance, computing and management skills.",
       {
-        "compound": ["Salt is a compound of sodium and chlorine."],
+        "compound": [
+          "Salt is a compound of sodium and chlorine."
+        ],
         "combination": [""],
         "ingredient": [""],
         "synthesis": [
@@ -3949,7 +3999,9 @@
             ]
           }
         ],
-        "sorghum": ["@ A type of grain grown in hot countries."],
+        "sorghum": [
+          "@ A type of grain grown in hot countries."
+        ],
         "wheat": [
           "@ A plant whose yellowish-brown grain is used for making flour, or the grain itself.",
           "Wheat is a staple crop for millions of people across the world."
@@ -4049,7 +4101,9 @@
         "fetus": [
           "@ A young human being or animal before birth, after the organs have started to develop.",
           {
-            "fetal": ["The electronic device monitored the fetal heart rate."]
+            "fetal": [
+              "The electronic device monitored the fetal heart rate."
+            ]
           }
         ]
       }
@@ -4124,7 +4178,9 @@
           "The design of the house had a pleasing symmetry, its oblong shape being picked up in its elongated windows.",
           "@ In mathematics, the quality of having two parts that match exactly, either when one half is like an image of the other half in a mirror, or when one part can take the place of another if it is turned 90 degrees or 180 degrees.",
           {
-            "symmetrical": ["Many types of triangles are symmetrical."],
+            "symmetrical": [
+              "Many types of triangles are symmetrical."
+            ],
             "symmetric": [""]
           }
         ],
@@ -4152,7 +4208,9 @@
           "@ A piece of writing in a newspaper or magazine, usually on a particular subject, that is always written by the same person and appears regularly.",
           "She writes a weekly fashion/ gossip column for the Evening Standard.",
           {
-            "row": ["& Column is in vertical way, but row is in horizontal."]
+            "row": [
+              "& Column is in vertical way, but row is in horizontal."
+            ]
           }
         ]
       }
@@ -4276,7 +4334,9 @@
       "The couple was charged with falsification of documents.",
       "The issue of age falsification is not new in gymnastics.",
       {
-        "falsify": ["The certificate had clearly been falsified."],
+        "falsify": [
+          "The certificate had clearly been falsified."
+        ],
         "falsifiable": [
           "All good science must be falsifiable.",
           "Propositions which are presented to be true can be used in support of other propositions that are presumed to be falsifiable.",
@@ -4457,7 +4517,9 @@
           "We will provide help whenever you deem it appropriate.",
           "Anyone not paying the registration fee by March 31 will be deemed to have withdrawn from the offer."
         ],
-        "severity": ["@ The fact or condition of being severe."],
+        "severity": [
+          "@ The fact or condition of being severe."
+        ],
         "fairly": [""],
         "attribute": [
           "@ A quality or characteristic that someone or something has.",
@@ -4762,7 +4824,9 @@
     "wandering": [
       "I didn't noticed how far I was wandering this evening.",
       {
-        "passer-by": ["We amused ourselves by watching the passers-by."]
+        "passer-by": [
+          "We amused ourselves by watching the passers-by."
+        ]
       }
     ],
     "ensue": [
@@ -4917,7 +4981,9 @@
         "wit": [
           "Her conversation sparkled with her own subtle blend of wit and charm.",
           {
-            "clever": ["& Wit is another word for ' Clever '."],
+            "clever": [
+              "& Wit is another word for ' Clever '."
+            ],
             "witty": [
               "& Wit or ' Witty ' is used to describe someone smart and thinks fast. They may also have a natural ability of using words and ideas in a quick and inventive way to create humour."
             ]
@@ -5658,6 +5724,11 @@
     "variety": [""],
     "thematic": [""],
     "variation": [""],
-    "prototype": [""]
+    "prototype": [""],
+    "grounded": [""],
+    "extroverted": [""],
+    "agent": [""],
+    "stunning": [""],
+    "daunting": [""]
   }
 }
