@@ -4282,6 +4282,22 @@
           {
             "verify": [""]
           }
+        ],
+        "duplicate": [
+          "@ To make an exact copy of something.",
+          "The domcuments had been duplicated.",
+          "Parenthood is an experience nothing else can duplicate.",
+          "@ Being an exact copy of something.",
+          "The thieves were equipped with duplicate keys to the safe.",
+          "I lost the original form so they sent me a duplicate.",
+          {
+            "in duplicate": [
+              "@ If a form is in duplicate, an exact copy has been made of it.",
+              "The application has to be completed in duplicate.",
+              "The government requires that all bank records be kept in duplicate."
+            ],
+            "duplication": [""]
+          }
         ]
       }
     ],
@@ -5052,7 +5068,6 @@
       "@ The money value of a property or business after debts have been subtracted.",
       "How much equity do you have in your home?"
     ],
-    "duplicate": [""],
     "pepper": [""],
     "iterable": [""],
     "intuitive": [""],
