@@ -1005,7 +1005,22 @@
                         ]
                       },
                       {
-                        "amendment": [""]
+                        "amendment": [""],
+                        "regulation": [
+                          "@ An official rule or the act of controlling something.",
+                          "The correct procedure is laid down in the rules and regulations.",
+                          "I have acted strictly in accordance with the regulations at all times.",
+                          "@ According to the rules or the usual way of doing things.",
+                          "It's regulation to wear suits at the office.",
+                          "@ Used to describe official clothes or equipment used by people in a particular type of work.",
+                          "All flight attendants are required to wear regulation uniform",
+                          "Security staff are issued with regulation kit.",
+                          [
+                            "Every week they come out with new regulations.",
+                            "We're not going to get rid of all regulation.",
+                            "This seriously threatens the idea that companies are going to move themselves to a similarly stable country simply because of less business regulation."
+                          ]
+                        ]
                       }
                     ]
                   },
@@ -5221,21 +5236,6 @@
         "However, after two thousand years, the invitation is still open.",
         "Not all family members accepted the invitation to attend the ceremony.",
         "A martini glass tacked on to an invitation is a great heads up."
-      ]
-    ],
-    "regulation": [
-      "@ An official rule or the act of controlling something.",
-      "The correct procedure is laid down in the rules and regulations.",
-      "I have acted strictly in accordance with the regulations at all times.",
-      "@ According to the rules or the usual way of doing things.",
-      "It's regulation to wear suits at the office.",
-      "@ Used to describe official clothes or equipment used by people in a particular type of work.",
-      "All flight attendants are required to wear regulation uniform",
-      "Security staff are issued with regulation kit.",
-      [
-        "Every week they come out with new regulations.",
-        "We're not going to get rid of all regulation.",
-        "This seriously threatens the idea that companies are going to move themselves to a similarly stable country simply because of less business regulation."
       ]
     ],
     "profit": [""],
