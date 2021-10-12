@@ -1952,7 +1952,14 @@
           "He suffers periodic mental breakdowns.",
           "Depending on the parameters selected, and the initial conditions, the simulated temporal trajectories may exhibit either regular (periodic and quasi-periodic) or chaotic behavior.",
           {
-            "annual": [""]
+            "annual": [""],
+            "iterate": [
+              "@ To repeat a process, esp. as part of a computer program.",
+              "Quality products or services that have lasting value generally have had a significant (human speed) time component behind them - launch, feedback loop, refine, feedback, iterate.",
+              "They iterate and try to get better and better game performance on their hardware.",
+              "It has since proven to be not only resilient but versatile, having been iterated into a variety of clever thematic variations.",
+              "We know we prototype, try things out and iterate and that we're not going to get it right the first time."
+            ]
           },
           {
             "the Periodic Table": [
@@ -5080,7 +5087,6 @@
       "@ The money value of a property or business after debts have been subtracted.",
       "How much equity do you have in your home?"
     ],
-    "iterable": [""],
     "intuitive": [""],
     "invitation ": [""],
     "be tried": [""],
