@@ -5087,7 +5087,20 @@
       "@ The money value of a property or business after debts have been subtracted.",
       "How much equity do you have in your home?"
     ],
-    "intuitive": [""],
+    "objective": [
+      "",
+      {
+        "intuitive": [
+          "@ Based on feelings rather than facts or proof.",
+          "Most people have an intuitive sense of right and wrong.",
+          "@ Able to know or understand something because of feelings rather than facts or proof.",
+          "Good agents are certainly extroverted, but are grounded, rather than intuitive.",
+          "@ Easy to use or learn without any special knowledge.",
+          "It has a stunning and intuitive user interface.",
+          "Despite the daunting scale of the rules, I found them pretty intuitive and learned them very quickly."
+        ]
+      }
+    ],
     "invitation ": [""],
     "be tried": [""],
     "split": [""],
@@ -5562,7 +5575,6 @@
     "eliminate": [""],
     "alter": [""],
     "inspection": [""],
-    "objective": [""],
     "departure": [""],
     "carrier": [""],
     "lucid": [""],
@@ -5624,6 +5636,28 @@
       }
     ],
     "voyage": [""],
-    "reckon": [""]
+    "reckon": [""],
+    "subtract": [""],
+    "debt": [""],
+    "discount": [""],
+    "parenthood": [""],
+    "oven": [""],
+    "mayor": [
+      "",
+      {
+        "municipal": [""]
+      }
+    ],
+    "lasting": [""],
+    "generally": [""],
+    "significant": [""],
+    "launch": [""],
+    "hardware": [""],
+    "resilient": [""],
+    "versatile": [""],
+    "variety": [""],
+    "thematic": [""],
+    "variation": [""],
+    "prototype": [""]
   }
 }
