@@ -3475,7 +3475,43 @@
           "@ The income that a government or company receives regularly.",
           "Taxes provide most of the government's revenue.",
           "The sport does not generate much revenue from ticket sales.",
-          "Revenue from online ads is much less than from print advertising."
+          "Revenue from online ads is much less than from print advertising.",
+          {
+            "profit": [
+              "@ Money that is earned in trade or business after paying the costs of producing and selling goods and services.",
+              "She makes a big profit from selling waste material to textile companies.",
+              "A year ago the Tokyo company had a pretax profit of 35 million yen.",
+              "He sold his house at a huge profit.",
+              "@ The good result or advantage that can be achieved by a particular action or activity.",
+              "There's no profit to be gained from endlessly discussing whose fault it was.",
+              "@ To earn money, or benefit.",
+              "It's sickening that somebody would profit from her misfortune.",
+              "What will it profit us to make this bargain?",
+              [
+                "Why should the word profit be a bad word when it comes to education?",
+                "This year the company topped that, generating a profit of $18.4 billion on $75.9 billion in revenue during the last three months of 2015.",
+                "The smaller companies are just struggling to turn a profit."
+              ],
+              {
+                "turn a profit": [
+                  "@ To begin to earn a profit.",
+                  "He's been in business five years, but has not yet turned a profit."
+                ],
+                "be in/ come into profit": [
+                  "@ To be earning, or start to earn, money from a trade or business rather than losing it.",
+                  "Some want it to be illegal to make anyone redundant if you are in profit."
+                ],
+                "first-half, first-quarter, etc. profit": [
+                  "@ Profits for the first half, first quarter, etc. of a financial year.",
+                  "The US entertainment giant showed how second-quarter profits had more than doubled."
+                ],
+                "pure profit": [
+                  "@ Profit that does not need to have any costs taken away.",
+                  "Once overheads are covered, 55c of every $1 of sales is pure profit."
+                ]
+              }
+            ]
+          }
         ],
         "inherit": [
           "@ To receive money, a house, etc. from someone after they have died.",
@@ -4407,7 +4443,7 @@
         ],
         "duplicate": [
           "@ To make an exact copy of something.",
-          "The domcuments had been duplicated.",
+          "The documents had been duplicated.",
           "Parenthood is an experience nothing else can duplicate.",
           "@ Being an exact copy of something.",
           "The thieves were equipped with duplicate keys to the safe.",
@@ -5238,7 +5274,6 @@
         "A martini glass tacked on to an invitation is a great heads up."
       ]
     ],
-    "profit": [""],
     "intriguing": [""],
     "restless": [""],
     "reject": [""],
