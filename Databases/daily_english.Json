@@ -1003,14 +1003,25 @@
                         "statutorily": [
                           "The agency plans to complete all statutorily required inspections by the end of May."
                         ]
+                      },
+                      {
+                        "amendment": [""]
                       }
                     ]
                   },
                   {
-                    "amendment": [""]
-                  },
-                  {
-                    "attorney": [""]
+                    "attorney": [""],
+                    "be tried": [
+                      "@ When a person is tried, he or she has to appear in a law court and is found innocent or guilty after the judge and jury have heard the evidence. When a legal case is tried, it is considered in a court of law.",
+                      "He suggested that those responsible should be tried for crimes against humanity.",
+                      "Whether he is innocent or guilty is a decision that will be made when the case is tried in court.",
+                      {
+                        "tried and tested/ trusted": [
+                          "@ Used many times before and proved to be successful.",
+                          "I'll give my mother's tried and tested recipe for wholewheat bread."
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -5183,7 +5194,6 @@
         "A martini glass tacked on to an invitation is a great heads up."
       ]
     ],
-    "be tried": [""],
     "split": [""],
     "regulation": [""],
     "profit": [""],
