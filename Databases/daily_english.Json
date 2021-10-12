@@ -4956,7 +4956,30 @@
     ],
     "equanimity": [
       "@ A calm mental state, esp. after a shock or disappointment or in a difficult situation.",
-      "In spite of her financial troubles, she faced the future with equanimity."
+      "In spite of her financial troubles, she faced the future with equanimity.",
+      {
+        "restless": [
+          "@ Unwilling or unable to stay still or to be quiet and calm, because you are worried or bored.",
+          "He's a restless type - he never stays in one country for long.",
+          "She spent a restless night, tossing and turning.",
+          "The audience began to get restless.",
+          "@ Being not satisfied with your situation and wanting a change.",
+          "The opposition parties provide no clear alternative for restless voters.",
+          [
+            "Unlike the first two medicines, this one is anxious and restless and is, therefore, not likely to lie still.",
+            "Sonic landscapes shimmer before one's ears, but they are too irregular and restless to be classified as minimalist or ambient.",
+            "The bad news for the restless press corps and other spectators is this: from here on out we may be in the dark."
+          ],
+          {
+            "restlessly": [
+              "I wandered restlessly around the apartment."
+            ],
+            "restlessness": [
+              "He paced back and forth out of sheer restlessness."
+            ]
+          }
+        ]
+      }
     ],
     "craft": [
       "@ Skill and experience, esp. in relation to making objects; a job or activity that needs skill and experience, or something produced using skill and experience.",
@@ -5281,7 +5304,6 @@
         "A martini glass tacked on to an invitation is a great heads up."
       ]
     ],
-    "restless": [""],
     "reject": [""],
     "tremendous": [""],
     "trail": [""],
@@ -5867,6 +5889,16 @@
     "overhead": [""],
     "share price": [""],
     "archipelago": [""],
-    "senuous": [""]
+    "senuous": [""],
+    "alternative": [""],
+    "sheer": [""],
+    "pace": [""],
+    "back and forth": [""],
+    "ambient": [""],
+    "minimalist": [""],
+    "shimmer": [""],
+    "irregular": [""],
+    "corps": [""],
+    "spectator": [""]
   }
 }
