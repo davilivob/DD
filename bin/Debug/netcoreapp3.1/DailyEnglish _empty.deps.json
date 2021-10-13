@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DailyEnglish/1.0.0": {
+      "DailyEnglish _empty/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
-          "DailyEnglish.dll": {}
+          "DailyEnglish _empty.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.1": {
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "DailyEnglish/1.0.0": {
+    "DailyEnglish _empty/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
