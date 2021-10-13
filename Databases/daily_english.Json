@@ -5302,9 +5302,21 @@
         "However, after two thousand years, the invitation is still open.",
         "Not all family members accepted the invitation to attend the ceremony.",
         "A martini glass tacked on to an invitation is a great heads up."
-      ]
+      ],
+      {
+        "reject": [
+          "@ To refuse to accept, use, or believe something or someone.",
+          "I applied for a job as a mechanic in a local garage, but I was rejected.",
+          "@ To not give someone the love and attention they want and are expecting from you.",
+          "When she was sent to boarding school, she felt as though her parents had rejected her.",
+          "@ If your body rejects an organ that has been put in during a medical operation, it fails to accept it and tries to attack and destroy it.",
+          "@ A product that is damaged or not perfectly made.",
+          "Most of the crowd control drugs tested by the US military were rejects from the pharmaceutical industry.",
+          "@ A person who has not been accepted by an organization or by society.",
+          "He considered himself to be one of life's rejects."
+        ]
+      }
     ],
-    "reject": [""],
     "tremendous": [""],
     "trail": [""],
     "widespread": [""],
