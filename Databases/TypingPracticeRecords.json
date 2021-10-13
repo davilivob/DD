@@ -170,5 +170,30 @@
       "i",
       "s"
     ]
+  },
+  {
+    "TestEndTime": "2021/10/13 P.M. 11:50:06",
+    "TestLength": 1,
+    "TotalChars": 304,
+    "GoodChars": 288,
+    "TotalBack": 14,
+    "WrongWords": ["an"],
+    "WrongChars": [
+      "i",
+      "m",
+      "i",
+      "l",
+      "a",
+      "x",
+      "t",
+      "a",
+      "n",
+      "t",
+      "n",
+      "a",
+      "l",
+      "e",
+      "d",
+      "g"
+    ]
   }
-,{"TestEndTime":"2021/10/13 P.M. 11:50:06","TestLength":1,"TotalChars":304,"GoodChars":288,"TotalBack":14,"WrongWords":["an"],"WrongChars":["i","m","i","l","a","x","t","a","n","t","n","a","l","e","d","g"]}
