@@ -241,6 +241,7 @@ namespace Typing_App
             {
                 try
                 {
+                    File.AppendAllText(@"Databases\TypingPracticeRecords.json", " ");
                     Console.WriteLine("How long do you want this test be ?\n");
                     Console.Write("Please Enter (minute): (Ex: 3)");
                     TestTime = Convert.ToUInt16(Console.ReadLine());
