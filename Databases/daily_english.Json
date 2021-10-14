@@ -3548,7 +3548,15 @@
               "The contributors and the pension fund trustees have been haggling over details.",
               "@ One of the reasons why something happens.",
               "Good management has been a big contributor to the company's success.",
-              "Aviation is considered to be the fastest growing contributor to global warming."
+              "Aviation is considered to be the fastest growing contributor to global warming.",
+              {
+                "invest": [
+                  "",
+                  {
+                    "investor": [""]
+                  }
+                ]
+              }
             ]
           }
         ]
@@ -4022,7 +4030,47 @@
           }
         ],
         "curling": [""],
-        "contour": [""]
+        "contour": [""],
+        "trail": [
+          "@ A path through a rural, mountain, or forest area, often made or used for a particular purpose.",
+          "The storm left behind it a trail of devastation.",
+          "A narrow trail of blood led directly into the cave.",
+          "@ The smell or series of marks left by a person, animals, or thing as it moves along.",
+          "The dogs are trained to follow the trail left by the fox.",
+          "He left a trail of muddy footprint behind him.",
+          "@ Various pieces of information that together show where someone you are searching for has gone.",
+          "The police admit that the robbers have left no trail for them to follow up.",
+          "@ To (allow something to) move slowly along the ground or through the air or water, after someone or something.",
+          "Katherine, your skirt's trailing in the mud!",
+          "As the boat moved along, he trailed his hand in the water.",
+          "@ To move slowing and without energy or enthusiasm.",
+          "The delegates trailed back into the conference room for the afternoon session.",
+          "After a mile or two the youngest children were trailing behind.",
+          {
+            "be on the trail of sb/ sth": [
+              "@ To be searching for someone or something by examining information you find about where they went.",
+              "The three men went to the Bahamas, on the trail of a sunken 17th-century galleon full of treasure."
+            ],
+            "be trailing": [
+              "@ To be losing to your competitor in a competition.",
+              "The Canadian team is trailing by six points.",
+              "The Democrats are trailing (behind) the Republicans in the opinion polls."
+            ],
+            "hot on the trail of sth": [
+              "@ Very close to finding or achieving something.",
+              "NPR's reporter is hot on the trail of the story."
+            ],
+            "blaze a/ the trail": [
+              "@ To be the first to do something new.",
+              "Netscape and Hotmail were both swallowed up after blazing the trail for larger, less agile competitors."
+            ],
+            "leave a trail of sth": [
+              "@ To leave a series or number of things behind you.",
+              "His company went into liquidation leaving a trail of debts.",
+              "Over the past 12 months, the company has underperformed the index by over 20%, leaving a trail of disappointed investors."
+            ]
+          }
+        ]
       }
     ],
     "silken": [
@@ -5326,7 +5374,6 @@
         ]
       }
     ],
-    "trail": [""],
     "widespread": [""],
     "utopian": [
       "",
@@ -5713,7 +5760,12 @@
       "",
       {
         "creditor": [""],
-        "liquidate": [""]
+        "liquidate": [
+          "",
+          {
+            "liquidation": [""]
+          }
+        ]
       }
     ],
     "semi": [""],
@@ -5919,6 +5971,22 @@
     "shimmer": [""],
     "irregular": [""],
     "corps": [""],
-    "spectator": [""]
+    "spectator": [""],
+    "pharmaceutical": [""],
+    "devastation": [""],
+    "muddy": [""],
+    "sunken": [""],
+    "galleon": [""],
+    "session": [""],
+    "Democrats": [
+      "",
+      {
+        "Republicans": [""]
+      }
+    ],
+    "polls": [""],
+    "agile": [""],
+    "blaze": [""],
+    "underperform": [""]
   }
 }
