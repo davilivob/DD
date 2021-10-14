@@ -1,1 +1,1 @@
-English Dictionary BETA version DESCRIPTION: 
+English Dictionary BETA Version: 
