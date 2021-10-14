@@ -1,4 +1,4 @@
-PEnglish Dictionary BETA Version: 
+Personal English Dictionary BETA Version: 
 
 這項Project 的基本宗旨是：以「我自己親手編寫一套英文辭典」這樣的方式來加強個人的英文能力。目標在運作3～4年後讓我的詞彙量可以達到英文母語人士的水準。
 
