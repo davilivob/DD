@@ -648,7 +648,10 @@
         "~ Just then this cop comes down the street, crazy as a loon.",
         "~ He throw us all in jail for carrying harpoons.",
         {
-          "fort": [""],
+          "fort": [
+            "@ A military building designed to be defended from attack, consisting of an area surrounded by a strong wall, in which soldiers are based.",
+            "The remains of the Roman fort are well preserved."
+          ],
           "bead": [""],
           "loon": [""],
           "harpoon": [""]
