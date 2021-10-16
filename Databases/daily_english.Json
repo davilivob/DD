@@ -2823,6 +2823,19 @@
                   "Three families living in one room - it's a disgrace!",
                   "It's a disgrace that the government spends so much on guns and so little on education."
                 ]
+              },
+              {
+                "derogatory": [
+                  "@ Showing strong disapproval and not showing respect.",
+                  "He made some derogatory comment/remark about her appearance.",
+                  "@ Expressing criticism or insult.",
+                  "She was upset by derogatory comments made about her clothes.",
+                  [
+                    "Some of the allegations have included derogatory language at the workplace, unfair promotion practices and pay discrimination.",
+                    "While waiting for him, she noticed derogatory comments being made on social media by her classmates towards an unnamed woman.",
+                    "She didn't want to be perceived as ' bossy, ' a common derogatory that might have her ducking for cover if it were hurled at her."
+                  ]
+                ]
               }
             ]
           }
@@ -5444,7 +5457,6 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "derogatory": [""],
     "enthusiastically": [""],
     "patriotic": [""],
     "retain": [""],
@@ -5830,7 +5842,12 @@
     ],
     "semi": [""],
     "smirk": [""],
-    "approval": [""],
+    "approval": [
+      "",
+      {
+        "disapproval": [""]
+      }
+    ],
     "resident": [""],
     "greet": [""],
     "dusk": [""],
