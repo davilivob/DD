@@ -759,7 +759,18 @@
         "~ Who knocked me out and robbed my boots.",
         "~ And I was on the street again.",
         {
-          "bail": [""],
+          "bail": [
+            "@ An amount of money that a person who has been accused of a crime pays to a law court so that he or she can be released until his or her trial. The payment is a way of making certain that the person will return to court for trial.",
+            "He was released on bail of $ 100,000.",
+            "She was yesterday bailed for three weeks on a drunk driving charge.",
+            "Because of a previous conviction, the judge refused to grant bail.",
+            "Her parents have agreed to put up/stand bail for her.",
+            "@ To remove water from a boat using a container.",
+            "The bost's sinking! Start bailing quickly!",
+            "I'd float around for hours fishing and bailing out the water leaking in.",
+            "@ To stop doing something or leave a place before something is finished.",
+            "It was so boring I bailed early."
+          ],
           "collateral": [""],
           "alley": [""],
           "boot": [""]
