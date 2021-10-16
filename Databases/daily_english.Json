@@ -574,7 +574,25 @@
               ]
             }
           ],
-          "deck": [""],
+          "deck": [
+            "@ A flat area for walking on, built across the space between the sides of a boat.",
+            "We sat on deck until it was dark.",
+            "@ A wooden floor outside a house, usually with railings and without a roof.",
+            "In summer, we always eat out on the deck - except when it rains.",
+            "@ A set of cards used for playing card games.",
+            "A new deck of cards.",
+            "@ To decorate or add something to something to make an effect.",
+            "The room was decked with flowers.",
+            "The wedding guests were decked out in their finery (= wearing their best clothes).",
+            "@ To hit someone, esp. to hit someone and knock them down.",
+            "Do that again and I'll deck you.",
+            {
+              "below deck": [
+                "@ On a level of a ship below the main deck.",
+                "Our cabin was below decks."
+              ]
+            }
+          ],
           "whale": [""],
           "yonder": [""],
           "haul": [""],
