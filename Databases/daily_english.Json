@@ -664,7 +664,10 @@
             "@ A large North American bird that eats fish.",
             "@ A person who is crazy, silly, or strange."
           ],
-          "harpoon": [""]
+          "harpoon": [
+            "@ A long, heavy spear attached to a rope, used for killing large fish or whales.",
+            "@ To hit or kill a fish or whale with a harpoon."
+          ]
         },
         "~ Ah me I busted out, don't even ask me how.",
         "~ I went to get some help, I walked by a Guernsey cow.",
