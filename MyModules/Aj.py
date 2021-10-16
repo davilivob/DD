@@ -71,6 +71,7 @@ def SeparateAllShort(wordsList):
     for x in [0]:
         splitQruotationMark(wordsList, "s", "1980s", "'")
         splitQruotationMark(wordsList, "isn't", "is", "not")
+        splitQruotationMark(wordsList, "aren't", "are", "not")
         splitQruotationMark(wordsList, "weren't", "were", "not")
         splitQruotationMark(wordsList, "wasn't", "was", "not")
         splitQruotationMark(wordsList, "won't", "will", "not")
@@ -121,6 +122,8 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "esp", "especially", "'")
         splitQruotationMark(wordsList, "sth", "something", "'")
         splitQruotationMark(wordsList, "sb", "somebody", "'")
+        splitQruotationMark(wordsList, "'cause", "because", "'")
+        splitQruotationMark(wordsList, "'til", "until", "'")
         splitQruotationMark(wordsList, "o'clock", "o", "clock")
         splitQruotationMark(wordsList, "etc", "et", "cetera")
 

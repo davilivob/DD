@@ -219,6 +219,16 @@ class Write:
             ]
         )
 
+        
+    def FromLyrics():
+        return "".join(
+            [
+                "Lyrics: ",
+                str(fromlyrics),
+                Math.percent(fromlyrics, sentences, 10),
+            ]
+        )
+
     def TotalWords():
         return "".join(["Total Words: ", str(len(wordsList))])
 
@@ -285,8 +295,9 @@ def PrintResults():
     Art.Print.tabln(
         "".join(
             [
-                Art.FormalFiller(Write.Examples(), 3),
-                Art.FormalFiller(Write.Definitions(), 3),
+                Art.FormalFiller(Write.Examples(), 4),
+                Art.FormalFiller(Write.Definitions(), 4),
+                Art.FormalFiller(Write.FromLyrics(), 4),
                 Write.Comparisons(),
             ]
         )

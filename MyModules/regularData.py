@@ -38,4 +38,4 @@ class R:
 
     learned = vocabularies - unlearned
 
-    examples = sentences - definitions - comparisons
+    examples = sentences - definitions - comparisons - fromlyrics
