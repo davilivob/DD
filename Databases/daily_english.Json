@@ -776,7 +776,12 @@
             "She used/put up her house as collateral for a loan.",
             "@ Connected but less important, or of the same family although not directly related."
           ],
-          "alley": [""],
+          "alley": [
+            "@ A narrow road or path between buildings.",
+            "She walked quickly down the alley.",
+            "I ran down the alley and up the back stairs.",
+            "@ A path in a park or garden, esp. with trees or bushes on both sides."
+          ],
           "boot": [""]
         },
         "~ Well, I rapped upon a house with the U.S. flag upon display.",
