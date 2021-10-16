@@ -695,7 +695,20 @@
               ]
             }
           ],
-          "slum": [""],
+          "slum": [
+            "@ A very poor and crowded area, esp. of a city.",
+            "She was brought up in the slums of Lima.",
+            "@ A very messy or dirty place.",
+            "This house would be an absolute slum if I wasn't here to clean it.",
+            "@ To visit a slum, or to work doing something that is not suitable.",
+            "Did you feel you were slumming by writing this kind of popular fiction?",
+            {
+              "slum it": [
+                "@ To spend time in conditions that are much less good than the standard that you are used to.",
+                "We ran out of money on vacation and had to slum it in cheap hostels."
+              ]
+            }
+          ],
           "bum": [""]
         },
         "~ I went into a restaurant looking for the cook.",
