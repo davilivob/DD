@@ -9,8 +9,8 @@ from MyModules import readFiles as File, Aj as AJ, TimerLoadBar as TimeBar
 
 
 class A:
-    weDontWant = " ".join('~!@#$%^&*()_+`}1234567890=[]{;:"\|,./<>?').split()
-    keepItSpace = ["-", "  "]
+    weDontWant = " ".join('~!@#$%^&*()_+`}1234567890=[]{;:"\|,.<>?').split()
+    keepItSpace = ["-", "  ","/"]
     Words = str.lower(File.Load.Dictionary)
     for element in keepItSpace:
         while element in Words:
