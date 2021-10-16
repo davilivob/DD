@@ -709,7 +709,17 @@
               ]
             }
           ],
-          "bum": [""]
+          "bum": [
+            "@ Someone who has no home or job and lives by asking other people for money.",
+            "@ Bad in quality or not useful.",
+            "He gave us bum directions, but we eventually found the place.",
+            "He's got a bum knee from playing football.",
+            "@ To ask someone for something without intending to pay for it.",
+            "Could I bum a cigarette from you?",
+            "Could I bum a couple of bucks from somebody?",
+            "@ A bum is also someone who treats other people badly.",
+            "Mike called him a bum for throwing gum at a fan."
+          ]
         },
         "~ I went into a restaurant looking for the cook.",
         "~ I told them I was the editor of a famous etiquette book.",
@@ -718,8 +728,19 @@
         "~ Just then the whole kitchen exploded from boiling fat.",
         "~ Food was flying everywhere, and I left without my hat.",
         {
-          "etiquette": [""],
-          "cape": [""],
+          "etiquette": [
+            "@ The set of rules or customs that control accepted behavior in particular social groups or social situations.",
+            "Social etiquette dictates that men cannot sit while women are standing.",
+            "Diplomatic etiquette forbids calling for the death of a national leader.",
+            "@ A set of rules tha helps people understand they should behave in particular business or professional situation.",
+            "A report into corporate culture in Britain highlights how there has been a decline in all areas of business etiquette."
+          ],
+          "cape": [
+            "@ A very large piece of land sticking out into the ocean.",
+            "The Cape of Good Hope.",
+            "@ A type of loose coat without sleeves that is fastened at the neck and hangs from the shoulders.",
+            "Meta Man, express elevator! Dynaguy, snag on takeoff! Splashdown, sucked into a vortex! NO CAPES!"
+          ],
           "suzette": [""],
           "crepe": [""]
         },
