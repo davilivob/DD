@@ -559,7 +559,21 @@
         "~ \" Haul on the bowline \", we sang that melody.",
         "~ Like all tough sailors do when they are far away at sea.",
         {
-          "spy": [""],
+          "spy": [
+            "@ A person who secretly collects and reports information about the activities of another country or organization.",
+            "His former colleagues have denounced him as a spy.",
+            "In the movie, he plays a spy whose mission is to confirm the verity of a secret military document.",
+            "@ To secretly collect and report information about the activities of another country or organization.",
+            "He was arrested for spying on missile sites.",
+            "@ To see or notice someone or something usually when it involves looking hard.",
+            "I think I've just spied Andrew in the crowd.",
+            {
+              "spy out": [
+                "@ To get knowledge secretly, esp. of a place.",
+                "I generally like to spy out restaurants before I go to eat in them."
+              ]
+            }
+          ],
           "deck": [""],
           "whale": [""],
           "yonder": [""],
