@@ -1945,7 +1945,32 @@
       },
       {
         "passionate": [
-          "She was passionate about Asian cooking and that has reflected in her dining experience."
+          "She was passionate about Asian cooking and that has reflected in her dining experience.",
+          {
+            "enthusiastically": [
+              "@ In a way that shows enthusiasm.",
+              "When I suggested a walk, Elena nodded enthusiastically.",
+              "We all clapped his performance enthusiastically.",
+              "The audience applauded enthusiastically, and she came back on stage to take another bow.",
+              {
+                "enthusiasm": [
+                  "@ A feeling of energetic interest in a particular subject or activity and an eagerness to be involved in it.",
+                  "After the accident he lost his enthusiasm for the sport.",
+                  "I just can't work up (= start to feel) any enthusiasm for the whole project.",
+                  "@ A subject or activity that interests you very much.",
+                  "One of his greatest enthusiasms was yoga."
+                ],
+                "enthusiastic": [
+                  "You don't seem very enthusiastic about the party - don't you want to go tonight?",
+                  [
+                    "And almost any new program with enthusiastic teachers will have good effects, at least to begin with, regardless of content.",
+                    "Typically, customers ask for new features, and the most enthusiastic customers ask for lots of new features.",
+                    "We have been very gratified by the enthusiastic response from our readers about the food."
+                  ]
+                ]
+              }
+            ]
+          }
         ],
         "rejoice": [
           "@ To rejoice could be something happened that was very favorable, bringing you out of perhaps sadness or even despair that you were in to start with.",
@@ -5457,7 +5482,6 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "enthusiastically": [""],
     "patriotic": [""],
     "retain": [""],
     "comprehension ": [""],
@@ -5884,7 +5908,6 @@
     "countermeasure": [""],
     "ever-changing": [""],
     "insight": [""],
-    "enthusiasm": [""],
     "innovation": [""],
     "template": [""],
     "continent": [""],
