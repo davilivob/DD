@@ -74,7 +74,7 @@
         "~ All that foreign oil controlling american soil.",
         "~ Look Around you, it's just bound to make you embarrassed.",
         "~ Sheiks walking around like kings, wearing fancy jewels and nose rings.",
-        "~ Decideing America's future from Amsterdam and to Paris.",
+        "~ Deciding America's future from Amsterdam and to Paris.",
         "~ And there's a slow, slow train coming up around the bend.",
         {
           "bound": [
@@ -5467,7 +5467,7 @@
         "dystopian": [
           "@ Relating to a very bad or unfair society in which there is a lot of suffering, especially an imaginary society in the future, or to the description of such a society.",
           "She mentioned Margaret Atwood's dystopian novel 'The Handmaid's Tale,' in which fertile young women are enslaved as reproductive servants.",
-          "George Orwell, author of the classic dystopian novel '1984'.",
+          "George Orwell, author of the classic dystopian novel ' 1984 '.",
           "The novel is set in a dystopian future in an America whose infrastructure has been reduced to rubble."
         ]
       }
@@ -6124,6 +6124,17 @@
     "participant": [""],
     "be taken aback": [""],
     "crosstalk": [""],
-    "enduring": [""]
+    "enduring": [""],
+    "discrimination": [""],
+    "perceive": [""],
+    "bossy": [""],
+    "ducking": [""],
+    "hurl": [""],
+    "bow": [""],
+    "applaud": [""],
+    "clap": [""],
+    "eagerness": [""],
+    "energetic": [""],
+    "gratify": [""]
   }
 }
