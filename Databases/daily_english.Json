@@ -660,7 +660,10 @@
             "@ A very small amount of liquid.",
             "Beads of sweat stood out on his forehead."
           ],
-          "loon": [""],
+          "loon": [
+            "@ A large North American bird that eats fish.",
+            "@ A person who is crazy, silly, or strange."
+          ],
           "harpoon": [""]
         },
         "~ Ah me I busted out, don't even ask me how.",
