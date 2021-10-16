@@ -593,7 +593,12 @@
               ]
             }
           ],
-          "whale": [""],
+          "whale": [
+            "@ A very large sea mammal that breathes air through a hole at the top of its head.",
+            "The communicative ability of the whale is thought to be highly developed.",
+            "International measures have been taken to prevent the extermination of the whale.",
+            "The whale has a very distinctive call."
+          ],
           "yonder": [""],
           "haul": [""],
           "bowline": [""]
