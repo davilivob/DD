@@ -2682,7 +2682,7 @@
       "Pollution can have disastrous effects on the delicately balanced ecosystem.",
       {
         "biocapacity": [
-          "With our overall footprint now exceeding global biocapacity by about 30% reducing our carbon footprint is essential.",
+          "With our overall footprint now exceeding global biocapacity by about 30 percent reducing our carbon footprint is essential.",
           "Worldwide, the average human footprint is 2.28 hectares (5.4 acres), but Earth only has a biocapacity of 1.9 hectare per person, he said."
         ],
         "biosphere": [""]
@@ -3066,6 +3066,17 @@
           {
             "infect": [""]
           }
+        ],
+        "widespread": [
+          "@ Existing or happening in many places and/or among many people.",
+          "There are reports of widespread flooding in northern Louisiana.",
+          "Malnutrition in the region is widespread - affecting up to 78 percent of children under five years old.",
+          "The campaign has received widespread support.",
+          [
+            "Feelings of hepelessness appear to be fairly widespread among medical students and early-career doctors.",
+            "If multiple samples reveal contamination, then officials know to increase monitoring to determine how widespread the problem is.",
+            "As nanomaterials become more widespread, the public and those who work with them will be increasingly exposed to them."
+          ]
         ]
       }
     ],
@@ -3687,7 +3698,7 @@
       "@ A small piece of cloth or paper taken from a usual-sized piece and used to show what it looks like.",
       "A pattern book.",
       "@ Used in compounds to refer to the way in which a particular type of hair loss occurs, affecting mainly the top and front of the head.",
-      "50% of men over age 50 experience some kind of male pattern baldness.",
+      "50 percent of men over age 50 experience some kind of male pattern baldness.",
       "Female-pattern hair loss, which is caused by genetic and hormonal factors, is the most common type of hair loss in women.",
       {
         "patterned": [
@@ -3761,7 +3772,7 @@
     "inflation": [
       "& An increase in prices over time, causing a reduction in the value of money.",
       "Higher inflation threatens to force interest rates higher.",
-      "He's planning to increase public spending by 3.3% above inflation for the next three years.",
+      "He's planning to increase public spending by 3.3 percent above inflation for the next three years.",
       {
         "deflation": [
           "@ The action of making something smaller by removing the air from inside it; the fact of becoming smaller in this way.",
@@ -4067,7 +4078,7 @@
             "leave a trail of sth": [
               "@ To leave a series or number of things behind you.",
               "His company went into liquidation leaving a trail of debts.",
-              "Over the past 12 months, the company has underperformed the index by over 20%, leaving a trail of disappointed investors."
+              "Over the past 12 months, the company has underperformed the index by over 20 percent, leaving a trail of disappointed investors."
             ]
           }
         ]
@@ -5374,7 +5385,6 @@
         ]
       }
     ],
-    "widespread": ["@ Existing or happening in many places and/or among many people."],
     "utopian": [
       "",
       {
