@@ -1759,6 +1759,25 @@
               "Managers deliberately obscured the real situation from federal investigators."
             ]
           }
+        ],
+        "perplex": [
+          "@ To confuse and worry someone slightly by being difficult to understand or solve.",
+          "The disease has continued to perplex doctors.",
+          "@ To cause someone to be confused or uncertain over something that is not understood.",
+          "The symptoms of the disease have continued to perplex her doctors.",
+          [
+            "As well as perplexing the industry, the scramble for tickets has become a hot topic of conversation and humor on the steet.",
+            "Not surprisingly, the participants were perplexed, amazed and clearly taken aback by this experience.",
+            "For decades, this confusing crosstalk between speakers has perplexed the audio community.",
+            "And she and her sister are perplexed by the enduring silence surrounding a senseless crime."
+          ],
+          {
+            "perplexed": [
+              "@ confused, because something is difficult to understand or solve.",
+              "The students looked perplexed, so the teacher tried to explain once again.",
+              "Police were perplexed by the killing because there didn't seem to be any motive."
+            ]
+          }
         ]
       }
     ],
@@ -5425,7 +5444,6 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "perplex": [""],
     "derogatory": [""],
     "enthusiastically": [""],
     "patriotic": [""],
