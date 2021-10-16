@@ -652,7 +652,14 @@
             "@ A military building designed to be defended from attack, consisting of an area surrounded by a strong wall, in which soldiers are based.",
             "The remains of the Roman fort are well preserved."
           ],
-          "bead": [""],
+          "bead": [
+            "@ A small, colored, often round piece of plastic, wood, glass, etc. with a hole through it. It is usually put on a string with a lot of others to make jewelry.",
+            "She wore a necklace of brightly colored wooden beads.",
+            "She fingered the beads of her rosary.",
+            "Beads of sweat formed on his forehead as he worked in the sun.",
+            "@ A very small amount of liquid.",
+            "Beads of sweat stood out on his forehead."
+          ],
           "loon": [""],
           "harpoon": [""]
         },
