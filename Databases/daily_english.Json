@@ -608,7 +608,31 @@
               "If we had not found her, me and my wife - we went checking here and yonder and everywhere - if it hadn't been for her, we'd have lost."
             ]
           ],
-          "haul": [""],
+          "haul": [
+            "@ To pull something heavy slowly and with difficulty.",
+            "They hauled the boat out of the water.",
+            "She hauled herself up into the tree.",
+            "@ To take something or someone somewhere, esp. by force.",
+            "FBI agents hauled away boxes of records.",
+            "The police hauled him off to jail in front of his whole family.",
+            "@ A usually a large amount of something that has been stolen or is illegal.",
+            "A haul of arms/drugs.",
+            "@ All the things someone buys on an occasion when they go shopping.",
+            "Check out the Ucinek family shopping haul.",
+            "I saw those gloves in a haul video.",
+            "@ The amount of fish caught.",
+            "Fishermen have been complaining of poor hauls all year.",
+            "@ A trip, often a difficult one.",
+            "From there it was a long haul.",
+            "@ To transport goods over a long distance by truck, train, or ship.",
+            "In 2006, shippers on the Great Lakers hauled 110 million tons of cargo.",
+            {
+              "haul sb over the coals": [
+                "@ To criticize someone severely for something they have done.",
+                "Top ministers were hauled over the coals by the select committee for failing to disclose vital information in the inquiry."
+              ]
+            }
+          ],
           "bowline": [""]
         },
         "~ \" I think I'll call it America \", I said as we hit land.",
