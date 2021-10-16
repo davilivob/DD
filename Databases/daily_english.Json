@@ -2977,7 +2977,7 @@
           [
             "Generally, student-entrepreneurs need to be given access to an audience without the requirement to perform tasks that are temperament-dependent.",
             "Does that sound to you like the temperament of a man we should elect as president?",
-            "There is no doubt that 'diminished attention' is a correct diagnosis of the intellectual temperament of our age.",
+            "There is no doubt that ' diminished attention ' is a correct diagnosis of the intellectual temperament of our age.",
             "Parenting requires constant assessment and adjustment based on the individual child's development and temperament."
           ]
         ]
@@ -6067,6 +6067,23 @@
     "poodle": [""],
     "selflessness": [""],
     "survival": [""],
-    "elite": [""]
+    "elite": [""],
+    "fiery": [""],
+    "entrepreneur": [""],
+    "access": [""],
+    "diagnosis": [""],
+    "intellectual": [""],
+    "assess": [
+      "",
+      {
+        "assessment": [""]
+      }
+    ],
+    "slightly": [""],
+    "scramble": [""],
+    "participant": [""],
+    "be taken aback": [""],
+    "crosstalk": [""],
+    "enduring": [""]
   }
 }
