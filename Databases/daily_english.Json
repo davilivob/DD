@@ -599,7 +599,15 @@
             "International measures have been taken to prevent the extermination of the whale.",
             "The whale has a very distinctive call."
           ],
-          "yonder": [""],
+          "yonder": [
+            "@ In the place or direction shown; over there.",
+            "She lives in that town yonder.",
+            [
+              "Politics is but a narrow field, and that still narrower highway yonder leads to it.",
+              "And no need to have much in the gas tank either as free gas is everywhere out yonder.",
+              "If we had not found her, me and my wife - we went checking here and yonder and everywhere - if it hadn't been for her, we'd have lost."
+            ]
+          ],
           "haul": [""],
           "bowline": [""]
         },
