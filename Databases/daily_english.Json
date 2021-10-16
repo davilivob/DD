@@ -771,7 +771,11 @@
             "@ To stop doing something or leave a place before something is finished.",
             "It was so boring I bailed early."
           ],
-          "collateral": [""],
+          "collateral": [
+            "@ Valuable property owned by someone who wants to borrow money, that they agree will become the property of the company or person who lends the money if the debt is not paid back.",
+            "She used/put up her house as collateral for a loan.",
+            "@ Connected but less important, or of the same family although not directly related."
+          ],
           "alley": [""],
           "boot": [""]
         },
