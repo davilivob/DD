@@ -782,7 +782,28 @@
             "I ran down the alley and up the back stairs.",
             "@ A path in a park or garden, esp. with trees or bushes on both sides."
           ],
-          "boot": [""]
+          "boot": [
+            "@ A type of shoe that covers the whole foot and lower part of the leg.",
+            "Don't forget your boots and shin pads.",
+            "@ A covered space at the back of a car, for storing things in.",
+            "I always keep a blanket and a toolkit in the boot for emergencies.",
+            "Stolen goods were found in the boot of her car.",
+            "@ A kick with the foot.",
+            "He gave the ball a good boot.",
+            "They booted him in the head.",
+            "@ A metal device attached to the wheel of an illegally parked car that will only be removed when the owner pays an amount of money.",
+            "@ When a computer boots (up), it becomes ready for use by getting the necessary information into its memory, and when you boot (up) a computer, you cause it to do this.",
+            "Before you can do anything, you have to boot up.",
+            "The PC should now boot from the CD-ROM drive and the installation will begin.",
+            "Boot up your computer and log onto your company's intranet.",
+            {
+              "the boot": [
+                "@ The situation in which your job is taken away from you, usually because you have done something wrong or badly.",
+                "She got the boot for stealing money from the cash register.",
+                "Williams has been given the boot from the team."
+              ]
+            }
+          ]
         },
         "~ Well, I rapped upon a house with the U.S. flag upon display.",
         "~ I said, \" Could you help me out? I got some friends down the way \".",
