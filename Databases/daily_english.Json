@@ -676,7 +676,25 @@
         "~ I jumped right into line, saying, \" I hope that I'm not late. \".",
         "~ When I realized I hadn't eaten for five days straight.",
         {
-          "bust": [""],
+          "bust": [
+            "@ A woman's breasts, or the measurement around a woman's breasts and back.",
+            "I couldn't find any blouses in my bust size.",
+            "@ A model of the head and shoulders of a person.",
+            "There was a bust of Mahler on his desk.",
+            "@ An occasion when police arrest people who are thought to have broken the law.",
+            "In their latest drugs bust police entered a warehouse where cocaine dealers were meeting.",
+            "@ To break something; broken.",
+            "Oh no! I busted his MP3 player.",
+            "I think my watch is bust.",
+            "@ When the police bust a person, they arrest them, or when they bust a building or a place, they arrest people in it who they believe are breaking the law.",
+            "The police busted him because they think he's involved with a terrorist group.",
+            {
+              "go bust": [
+                "@ If a company goes bust, it is forced to close because it is financially unsuccessful.",
+                "More than 20 companies in the district went bust during the last three months."
+              ]
+            }
+          ],
           "slum": [""],
           "bum": [""]
         },
