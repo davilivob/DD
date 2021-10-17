@@ -4595,11 +4595,18 @@
         "retain": [
           "@ To keep or continue to have something.",
           "She has lost her battle to retain control of the company.",
-          "I have a good memory and am able to retain (= remember) facts easily.",
+          "I have a good memory and am able to retain facts easily.",
           "@ If a substance retains something, such as heat or water, it continues to hold or contain it.",
           "The sea retains the sun's warmth longer than the land.",
           {
-            "retention": [""]
+            "retention": [
+              "@ The continued use, existence, or possession of something or someone.",
+              "Two influential senators have argued for the retention of the unpopular tax.",
+              "The retention of old technology has slowed the company's growth.",
+              "@ The ability to keep or continue having something.",
+              "Officials are focusing on job creation, not job retention."
+            ],
+            "retentive":[""]
           }
         ],
         "maintain": [
@@ -6656,7 +6663,6 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "retain": [""],
     "comprehension ": [""],
     "casualty": [""],
     "denigrate": [""],
