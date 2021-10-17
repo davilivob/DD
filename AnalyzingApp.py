@@ -2,7 +2,7 @@ import json
 
 print()
 ifPrint = input(
-    "If You Hope the Analysis Results to be Desplayed on the Terminal, Just Type Anything Then Press Enter."
+    "If You Hope the Analysis Results to be Displayed on the Terminal, Just Type Anything Then Press Enter."
     + "\n\nOtherwise, Press Enter Only: "
 )
 if ifPrint != "":
