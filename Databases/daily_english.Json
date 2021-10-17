@@ -4622,7 +4622,43 @@
     "shank": [
       "@ The part of the leg between the knee and ankle or the equivalent in animals.",
       {
-        "frame": [""]
+        "frame": [
+          "@ A border that surrounds and supports a picture, door, or window.",
+          "A picture frame often has beveled edges.",
+          "The painting was presented in a gilt picture frame.",
+          "She painted the window frames with great care so that no paint got onto the glass.",
+          "@ The basic structure of a building, vehicle, or piece of furniture that other parts are added onto.",
+          "A bicycle frame.",
+          "@ A wooden or plastic traingle used to put the balls into position at the start of a game such as billiards.",
+          "@ The size and shape of someone's body.",
+          "My sister has a much bigger frame than me.",
+          "He eased his lean frame into a chair.",
+          "@ A period of play in some games, such as bowling.",
+          "She lost the next two frames.",
+          "@ One of the pictures on a strip of photographic film, or one of the single pictures that together form a television or movie.",
+          "@ To carefully plan or organize ideas, suggestions, methods, etc., in a particular way.",
+          "The interview would have been more productive if the questions had been framed more precisely.",
+          "Their conclusions are framed in such a way that if one piece of evidence were shown to be false, the argument would be suspect.",
+          "@ To make a person seem to be guilty of a crime when they are not, by producing facts or information that are not true.",
+          "He claimed he'd been framed by the police.",
+          "@ To fix a border around a picture, etc. and often glass in front of it.",
+          "I keep meaning to get that photo framed.",
+          "@ To form and edge to something in an attractive way.",
+          "Her new hairstyle frames her face in a much more flattering way.",
+          {
+            "frames": [
+              "@ The plastic or metal structure that holds together a pair of glasses."
+            ],
+            "frame of mind": [
+              "@ The way someone thinks or feels about something at a particular time.",
+              "The most important thing is to go into the exam in a positive frame of mind."
+            ],
+            "frame of reference": [
+              "@ A set of ideas or facts accepted by a person that explains his or her behavior, opinions, or decisions.",
+              "How can Christians and atheists ever come to understand each other when their frames of reference are so different?"
+            ]
+          }
+        ]
       },
       {
         "nerve": [""],
