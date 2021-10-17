@@ -4787,7 +4787,23 @@
           "Long hair was traditionally regarded as a sign of femininity.",
           "The flowers and cream lace of the dress indicate femininity and delicacy."
         ],
-        "conservative": [""],
+        "conservative": [
+          "@ Not usually liking or trusting change, esp. sudden change.",
+          "Old people tend to be more conservative and a little suspicious of anything new.",
+          "@ If you are conservative in your appearance, you usually do not like fashionable or modern clothes or hairstyles.",
+          "He's a very conservative dresser - he always looks like he's wearing his father's clothes!",
+          "@ A conservative guess or calculation is likely to be less than the real amount.",
+          "Even by conservative estimates, the company will lose two million US dollars this year.",
+          "If I said there were three million unemployed, that would be a conservative estimate.",
+          "@ Belonging to or supporting the British political party that traditionally supports business and opposes high taxes and government involvement in industry.",
+          "Did you vote Conservative at the last election?",
+          "The Conservatives won an overall majority of ninety.",
+          {
+            "conservatively": [
+              "She was conservatively dressed in a gray suit."
+            ]
+          }
+        ],
         "patriotic": [
           "@ Showing love for you country and being proud of it.",
           "Many Americans felt it was their patriotic duty to buy bonds to support the war effort.",
