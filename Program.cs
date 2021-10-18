@@ -241,6 +241,7 @@ namespace Typing_App
             {
                 try
                 {
+                    File.AppendAllText(@"Databases\TypingPracticeRecords.json"," ");
                     Console.WriteLine("How long do you want this test be ?\n");
                     Console.Write("Please Enter (minute): (Ex: 3)");
                     TestTime = Convert.ToUInt16(Console.ReadLine());
@@ -281,15 +282,6 @@ namespace Typing_App
                     }
                 }
             }
-            // void preWorker()
-            // {
-            //     StreamReader _preWord = new StreamReader(@"Databases\TypingPracticeRecords.json");
-            //     string AllJsonContent = _preWord.ReadToEnd();
-            //     _preWord.Close();
-            //     StreamWriter preWork = new StreamWriter(@"Databases\TypingPracticeRecords.json");
-            //     preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
-            //     preWork.Close();
-            // }
             string[] getWords()
             {
                 StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
@@ -305,7 +297,6 @@ namespace Typing_App
             {
                 TestTime = 1;
                 Exception();
-                // preWorker();
                 Test newTest = new Test(TestTime, wordsArray);
                 newTest.createLine();
                 while (newTest.testEnd == false)
