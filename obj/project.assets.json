@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dovilivob\\Desktop\\pyexe_test\\DailyEnglish _empty.csproj",
+      "projectUniqueName": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj",
       "projectName": "DailyEnglish _empty",
-      "projectPath": "c:\\Users\\dovilivob\\Desktop\\pyexe_test\\DailyEnglish _empty.csproj",
+      "projectPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj",
       "packagesPath": "C:\\Users\\dovilivob\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dovilivob\\Desktop\\pyexe_test\\obj\\",
+      "outputPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

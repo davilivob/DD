@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f4/QiHgqJx1UBPsFjwBqwXXOCWCHxfIXsXglj8xu99+nzoaklOctSH06iNlGIId863h75OxJfChxxMtBB3n8jQ==",
+  "dgSpecHash": "vr+bIU17GovLbyL+RfIWIfeTZN6FIYJXh8hueeXqE3LpwRKI9/tmskTRMCnLZ9M3Q6KtR+2hjxZa5dHXNlmyew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dovilivob\\Desktop\\pyexe_test\\DailyEnglish _empty.csproj",
+  "projectFilePath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dovilivob\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

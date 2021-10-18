@@ -30,3 +30,19 @@ C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empt
 C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.dll
 C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
 C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.genruntimeconfig.cache
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.exe
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.deps.json
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.json
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.dev.json
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.dll
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.AssemblyReference.cache
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfoInputs.cache
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfo.cs
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CoreCompileInputs.cache
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CopyComplete
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.dll
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
+C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.genruntimeconfig.cache

@@ -15,5 +15,52 @@
       "o",
       "n"
     ]
+  },
+  {
+    "TestEndTime": "2021/10/18 P.M. 03:07:04",
+    "TestLength": 1,
+    "TotalChars": 324,
+    "GoodChars": 309,
+    "TotalBack": 15,
+    "WrongWords": [],
+    "WrongChars": [
+      "z",
+      "r",
+      "o",
+      "w",
+      "a",
+      "u",
+      "r",
+      "e",
+      "l",
+      "e",
+      "n",
+      "i",
+      "a",
+      "s",
+      "g"
+    ]
+  },
+  {
+    "TestEndTime": "2021/10/18 P.M. 04:05:18",
+    "TestLength": 1,
+    "TotalChars": 336,
+    "GoodChars": 323,
+    "TotalBack": 11,
+    "WrongWords": ["their"],
+    "WrongChars": [
+      "r",
+      "e",
+      "t",
+      "f",
+      "a",
+      "i",
+      "a",
+      "i",
+      "r",
+      "d",
+      "r",
+      "i",
+      "a"
+    ]
   }
- ,{"TestEndTime":"2021/10/18 P.M. 03:07:04","TestLength":1,"TotalChars":324,"GoodChars":309,"TotalBack":15,"WrongWords":[],"WrongChars":["z","r","o","w","a","u","r","e","l","e","n","i","a","s","g"]}
