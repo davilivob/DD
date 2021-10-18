@@ -1,48 +1,32 @@
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\bin\Debug\netcoreapp3.1\DailyEnglish _empty.exe
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\bin\Debug\netcoreapp3.1\DailyEnglish _empty.deps.json
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.json
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.dev.json
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\bin\Debug\netcoreapp3.1\DailyEnglish _empty.dll
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\bin\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.AssemblyReference.cache
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfoInputs.cache
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfo.cs
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CoreCompileInputs.cache
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CopyComplete
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.dll
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\netcoreapp3.1\DailyEnglish _empty.genruntimeconfig.cache
-C:\Users\dovilivob\Desktop\pyexe_test\bin\Debug\netcoreapp3.1\DailyEnglish _empty.exe
-C:\Users\dovilivob\Desktop\pyexe_test\bin\Debug\netcoreapp3.1\DailyEnglish _empty.deps.json
-C:\Users\dovilivob\Desktop\pyexe_test\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.json
-C:\Users\dovilivob\Desktop\pyexe_test\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.dev.json
-C:\Users\dovilivob\Desktop\pyexe_test\bin\Debug\netcoreapp3.1\DailyEnglish _empty.dll
-C:\Users\dovilivob\Desktop\pyexe_test\bin\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
-C:\Users\dovilivob\Desktop\pyexe_test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.AssemblyReference.cache
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfoInputs.cache
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfo.cs
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CoreCompileInputs.cache
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CopyComplete
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.dll
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
-C:\Users\dovilivob\Desktop\pyexe_test\obj\Debug\netcoreapp3.1\DailyEnglish _empty.genruntimeconfig.cache
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.exe
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.deps.json
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.json
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.dev.json
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.dll
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.AssemblyReference.cache
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfoInputs.cache
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfo.cs
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CoreCompileInputs.cache
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CopyComplete
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.dll
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
-C:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\obj\Debug\netcoreapp3.1\DailyEnglish _empty.genruntimeconfig.cache
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.exe
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.deps.json
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.json
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.dev.json
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.dll
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
+${workspaceFolder}\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.AssemblyReference.cache
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfoInputs.cache
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfo.cs
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CoreCompileInputs.cache
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CopyComplete
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.dll
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.genruntimeconfig.cache
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.exe
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.deps.json
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.json
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.runtimeconfig.dev.json
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.dll
+${workspaceFolder}\bin\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
+${workspaceFolder}\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.AssemblyReference.cache
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfoInputs.cache
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.AssemblyInfo.cs
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CoreCompileInputs.cache
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.csproj.CopyComplete
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.dll
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.pdb
+${workspaceFolder}\obj\Debug\netcoreapp3.1\DailyEnglish _empty.genruntimeconfig.cache
