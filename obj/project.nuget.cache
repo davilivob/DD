@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "Z85xf8iiNX/fHtTtBwnDGZwNPoz5Mt1Ph4AYNJvDhMk/VvyBxvWXcKib7M85/ZW35qE+0p4ALbHKuOY0pT7u2g==",
+  "dgSpecHash": "F8PTAjeqmgXutotM5OGY1MxT2jpydFt6Cc5ullJbTAOw4my2RZYxsUitTYJjsYBjK+2JPSyVNxrxairI1xyucg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish.csproj",
-=======
-  "dgSpecHash": "vr+bIU17GovLbyL+RfIWIfeTZN6FIYJXh8hueeXqE3LpwRKI9/tmskTRMCnLZ9M3Q6KtR+2hjxZa5dHXNlmyew==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj",
->>>>>>> cd48653209f39683a26319308487bafa5c63bbd8
+  "projectFilePath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish _empty.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dovilivob\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

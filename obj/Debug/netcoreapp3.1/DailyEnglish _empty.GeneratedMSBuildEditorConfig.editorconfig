@@ -1,8 +1,3 @@
 is_global = true
-<<<<<<< HEAD:obj/Debug/netcoreapp3.1/DailyEnglish.GeneratedMSBuildEditorConfig.editorconfig
-build_property.RootNamespace = DailyEnglish
-build_property.ProjectDir = C:\Users\dovilivob\Desktop\DailyEnglish _empty\
-=======
 build_property.RootNamespace = DailyEnglish__empty
-build_property.ProjectDir = c:\Users\dovilivob\Desktop\DailyEnglish_withoutPython\
->>>>>>> cd48653209f39683a26319308487bafa5c63bbd8:obj/Debug/netcoreapp3.1/DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
+build_property.ProjectDir = c:\Users\dovilivob\Desktop\DailyEnglish _empty\

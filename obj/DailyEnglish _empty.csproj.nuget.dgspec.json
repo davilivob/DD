@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD:obj/DailyEnglish.csproj.nuget.dgspec.json
-    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish.csproj": {}
+    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish _empty.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish.csproj": {
+    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish _empty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish.csproj",
-        "projectName": "DailyEnglish",
-        "projectPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish.csproj",
+        "projectUniqueName": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish _empty.csproj",
+        "projectName": "DailyEnglish _empty",
+        "projectPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\DailyEnglish _empty.csproj",
         "packagesPath": "C:\\Users\\dovilivob\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish _empty\\obj\\",
-=======
-    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj",
-        "projectName": "DailyEnglish _empty",
-        "projectPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\DailyEnglish _empty.csproj",
-        "packagesPath": "C:\\Users\\dovilivob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dovilivob\\Desktop\\DailyEnglish_withoutPython\\obj\\",
->>>>>>> cd48653209f39683a26319308487bafa5c63bbd8:obj/DailyEnglish _empty.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

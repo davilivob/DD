@@ -38,8 +38,32 @@
       "i",
       "a"
     ]
+  },
+  {
+    "TestEndTime": "2021/10/13 P.M. 11:50:06",
+    "TestLength": 1,
+    "TotalChars": 304,
+    "GoodChars": 288,
+    "TotalBack": 14,
+    "WrongWords": ["an"],
+    "WrongChars": [
+      "i",
+      "m",
+      "i",
+      "l",
+      "a",
+      "x",
+      "t",
+      "a",
+      "n",
+      "t",
+      "n",
+      "a",
+      "l",
+      "e",
+      "d",
+      "g"
+    ]
   }
-<<<<<<< HEAD
-,{"TestEndTime":"2021/10/13 P.M. 11:50:06","TestLength":1,"TotalChars":304,"GoodChars":288,"TotalBack":14,"WrongWords":["an"],"WrongChars":["i","m","i","l","a","x","t","a","n","t","n","a","l","e","d","g"]}
-=======
->>>>>>> cd48653209f39683a26319308487bafa5c63bbd8
+
+   ,{"TestEndTime":"2021/10/18 P.M. 04:49:00","TestLength":1,"TotalChars":289,"GoodChars":268,"TotalBack":18,"WrongWords":["engliah","engliah","engliah"],"WrongChars":["a","g","n","a","g","q","u","a","a","t","n","o","c","c","n","i","a","a","a","a","f"]} ,{"TestEndTime":"2021/10/18 P.M. 04:51:50","TestLength":1,"TotalChars":330,"GoodChars":319,"TotalBack":8,"WrongWords":["engliah","characters","jugs"],"WrongChars":["a","c","g","z","s","g","c","Spaces","r","o","s"]}
