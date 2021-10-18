@@ -3484,6 +3484,18 @@
               "However, as generated summaries could be read by many individuals, we decided to avoid idiosyncratic words, and instead use a fairly generic vocabulary."
             ]
           }
+        ],
+        "comprehension ": [
+          "@ The ability to understand completely and be familiar with a situation, facts, etc..",
+          "He has no comprehension of the severity of the problem.",
+          "How she manages to fit so much into a working day is beyong my comprehension.",
+          "@ A test to find out how well students understand written or spoken language.",
+          "A listening or reading comprehension.",
+          [
+            "There are a few places in the universe that defy comprehension.",
+            "In addition, adult shows use words and situations far beyond the child's comprehension.",
+            "My daughter's reading comprehension and vocabulary skills are ranked as ' very superior ,' according to the county's own psychological testing; her learning issues center on math."
+          ]
         ]
       }
     ],
@@ -6701,7 +6713,6 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "comprehension ": [""],
     "casualty": [""],
     "denigrate": [""],
     "adverse": [""],
