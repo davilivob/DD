@@ -104,6 +104,7 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "i'd", "i", "had")
         splitQruotationMark(wordsList, "he'd", "he", "had")
         splitQruotationMark(wordsList, "she'd", "she", "had")
+        splitQruotationMark(wordsList, "you'd", "you", "had")
         splitQruotationMark(wordsList, "they'd", "they", "had")
         splitQruotationMark(wordsList, "they've", "they", "have")
         splitQruotationMark(wordsList, "i've", "i", "have")
