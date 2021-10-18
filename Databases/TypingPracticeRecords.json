@@ -64,6 +64,82 @@
       "d",
       "g"
     ]
+  },
+  {
+    "TestEndTime": "2021/10/18 P.M. 04:49:00",
+    "TestLength": 1,
+    "TotalChars": 289,
+    "GoodChars": 268,
+    "TotalBack": 18,
+    "WrongWords": [
+      "engliah",
+      "engliah",
+      "engliah"
+    ],
+    "WrongChars": [
+      "a",
+      "g",
+      "n",
+      "a",
+      "g",
+      "q",
+      "u",
+      "a",
+      "a",
+      "t",
+      "n",
+      "o",
+      "c",
+      "c",
+      "n",
+      "i",
+      "a",
+      "a",
+      "a",
+      "a",
+      "f"
+    ]
+  },
+  {
+    "TestEndTime": "2021/10/18 P.M. 04:51:50",
+    "TestLength": 1,
+    "TotalChars": 330,
+    "GoodChars": 319,
+    "TotalBack": 8,
+    "WrongWords": [
+      "engliah",
+      "characters",
+      "jugs"
+    ],
+    "WrongChars": [
+      "a",
+      "c",
+      "g",
+      "z",
+      "s",
+      "g",
+      "c",
+      "Spaces",
+      "r",
+      "o",
+      "s"
+    ]
+  },
+  {
+    "TestEndTime": "2021/10/18 P.M. 05:04:49",
+    "TestLength": 1,
+    "TotalChars": 341,
+    "GoodChars": 333,
+    "TotalBack": 7,
+    "WrongWords": ["characters"],
+    "WrongChars": [
+      "x",
+      "a",
+      "c",
+      "s",
+      "i",
+      "i",
+      "d",
+      "Spaces"
+    ]
   }
-
-   ,{"TestEndTime":"2021/10/18 P.M. 04:49:00","TestLength":1,"TotalChars":289,"GoodChars":268,"TotalBack":18,"WrongWords":["engliah","engliah","engliah"],"WrongChars":["a","g","n","a","g","q","u","a","a","t","n","o","c","c","n","i","a","a","a","a","f"]} ,{"TestEndTime":"2021/10/18 P.M. 04:51:50","TestLength":1,"TotalChars":330,"GoodChars":319,"TotalBack":8,"WrongWords":["engliah","characters","jugs"],"WrongChars":["a","c","g","z","s","g","c","Spaces","r","o","s"]}  ,{"TestEndTime":"2021/10/18 P.M. 05:04:49","TestLength":1,"TotalChars":341,"GoodChars":333,"TotalBack":7,"WrongWords":["characters"],"WrongChars":["x","a","c","s","i","i","d","Spaces"]}
