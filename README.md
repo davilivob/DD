@@ -93,7 +93,7 @@
 * [VS code](https://code.visualstudio.com/)
 * [Python3](https://python.org/)
 * [Pypy3](https://pypy.org/)
-* [C#](https://dotnet.microsoft.com/)
+* [.NET](https://dotnet.microsoft.com/)
 * [Json](https://json.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
