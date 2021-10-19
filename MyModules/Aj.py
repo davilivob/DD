@@ -81,6 +81,7 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "doesn't", "does", "not")
         splitQruotationMark(wordsList, "didn't", "did", "not")
         splitQruotationMark(wordsList, "hasn't", "has", "not")
+        splitQruotationMark(wordsList, "hadn't", "had", "not")
         splitQruotationMark(wordsList, "haven't", "have", "not")
         splitQruotationMark(wordsList, "wouldn't", "would", "not")
         splitQruotationMark(wordsList, "shouldn't", "sould", "not")
