@@ -22,7 +22,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+[![Instagram][instagram-shield]][instagram-url]
 
 
 
@@ -219,6 +219,6 @@ Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_vers
 [issues-url]: https://github.com/dovilivob/MakeYourselfADictionary-English_version/issues
 [license-shield]: https://img.shields.io/github/license/dovilivob/MakeYourselfADictionary-English_version.svg?style=for-the-badge
 [license-url]: https://github.com/dovilivob/MakeYourselfADictionary-English_version/blob/master/LICENSE.txt
-<!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png -->
+[instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
+[instagram-url]: https://instagram.com/_dovilivob
+[product-screenshot]: images/screenshot.png
