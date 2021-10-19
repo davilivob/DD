@@ -118,16 +118,10 @@ Then, just open up the `DailyEnglish` folder in vscode.
 
 1. Open the `DotnetCodes.txt`
 2. Copy the codes from line 1 to line 311 inside the file, then paste them to the `Program.cs`.
-   ```sh
-   git clone https://github.com/dovilivob/MakeYourselfADictionary-English_version.git
-   ```
 3. Copy the codes from line 311 'till the end, then paste them to the `.csproj` file.
+4. Build the project again, make sure everything's fine.
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   dotnet build
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -137,9 +131,6 @@ Then, just open up the `DailyEnglish` folder in vscode.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
