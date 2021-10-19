@@ -105,7 +105,7 @@
 
 First, you gotta make sure that you have Python, Pypy, DotNet, VS Code are installed in your computer.
 
-Then, just open up the `DailyEnglish` folder in vscode.
+Then, just open up the `./DailyEnglish` folder in vscode.
 
 ### Prerequisites
 
@@ -180,7 +180,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@_dovilivob](https://instagram.com/_dovilivob) - david.iii.chiu@gmail.com
+Instagram - [@_dovilivob](https://instagram.com/_dovilivob) 
+Gmail - david.iii.chiu@gmail.com
 
 Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_version](https://github.com/dovilivob/MakeYourselfADictionary-English_version)
 
