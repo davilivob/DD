@@ -180,7 +180,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Instagram - [@_dovilivob](https://instagram.com/_dovilivob) 
+Instagram - [@_dovilivob](https://instagram.com/_dovilivob)<br>
 Gmail - david.iii.chiu@gmail.com
 
 Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_version](https://github.com/dovilivob/MakeYourselfADictionary-English_version)
