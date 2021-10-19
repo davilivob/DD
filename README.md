@@ -103,7 +103,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-First, you gotta make sure that you have `Python3`, `Pypy3`, `.Net`, `VS Code` been installed in your computer.
+First, you gotta make sure that you have `Python3`, `Pypy3`, `.NET`, `VS Code` been installed in your computer.
 
 Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 
@@ -114,7 +114,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
   dotnet new console
   ```
 
-### Paste Codes to the Program.cs & the .csproj file
+### Paste Codes from DotnetCodes.txt to the `Program.cs` & the `.csproj file`
 
 1. Open the `DotnetCodes.txt`
 2. Copy the codes from line 1 to line 311 inside the file, then paste them to the `Program.cs`.
