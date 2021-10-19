@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dovilivob/MakeYourselfADictionary-English_version">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">{"Dictionary": [""]}</h3>
