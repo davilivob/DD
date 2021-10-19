@@ -90,7 +90,7 @@
 
 ### Built With
 
-* [VS code](https://code.visualstudio.com/)
+* [VS Code](https://code.visualstudio.com/)
 * [Python3](https://python.org/)
 * [Pypy3](https://pypy.org/)
 * [.NET](https://dotnet.microsoft.com/)
@@ -103,12 +103,12 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+First, you gotta make sure that you have Python, Pypy, DotNet, VS Code are installed in your computer.
+
+Then, just open up the `DailyEnglish` folder in vscode.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * Build a c# project
   ```sh
   dotnet new console
@@ -121,7 +121,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/dovilivob/MakeYourselfADictionary-English_version.git
    ```
-3. Install NPM packages
+3. Copy the codes from line 311 'till the end, then paste them to the `.csproj` file.
    ```sh
    npm install
    ```
