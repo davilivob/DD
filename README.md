@@ -109,15 +109,15 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Build a c# project
   ```sh
-  npm install npm@latest -g
+  dotnet new console
   ```
 
-### Installation
+### Paste Codes to the Program.cs & the .csproj file
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Open the `DotnetCodes.txt`
+2. Copy the codes from line 1 to line 311 inside the file, then paste them to the `Program.cs`.
    ```sh
    git clone https://github.com/dovilivob/MakeYourselfADictionary-English_version.git
    ```
