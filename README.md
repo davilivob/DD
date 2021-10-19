@@ -103,9 +103,9 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-First, you gotta make sure that you have Python, Pypy, DotNet, VS Code are installed in your computer.
+First, you gotta make sure that you have `Python3`, `Pypy3`, `.Net`, `VS Code` been installed in your computer.
 
-Then, just open up the `./DailyEnglish` folder in vscode.
+Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 
 ### Prerequisites
 
