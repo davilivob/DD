@@ -36,7 +36,6 @@
 <h3 align="center">{"Dictionary": [""]}</h3>
 
   <p align="center">
-    project_description
     <br />
     <a href="https://github.com/dovilivob/MakeYourselfADictionary-English_version"><strong>Explore the docs »</strong></a>
     <br />
@@ -103,7 +102,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-First, you gotta make sure that you have `Python3`, `Pypy3`, `.NET`, `VS Code` been installed in your computer.
+First, you gotta make sure that you have `Python3`, `Pypy3`, `.NET`, `VS Code` been installed in your computer. And you know how to use them properly.
 
 Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 
