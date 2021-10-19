@@ -282,15 +282,6 @@ namespace Typing_App
                     }
                 }
             }
-            // void preWorker()
-            // {
-            //     StreamReader _preWord = new StreamReader(@"Databases\TypingPracticeRecords.json");
-            //     string AllJsonContent = _preWord.ReadToEnd();
-            //     _preWord.Close();
-            //     StreamWriter preWork = new StreamWriter(@"Databases\TypingPracticeRecords.json");
-            //     preWork.Write(AllJsonContent.Remove(AllJsonContent.Length - 3));
-            //     preWork.Close();
-            // }
             string[] getWords()
             {
                 StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
@@ -306,7 +297,6 @@ namespace Typing_App
             {
                 TestTime = 1;
                 Exception();
-                // preWorker();
                 Test newTest = new Test(TestTime, wordsArray);
                 newTest.createLine();
                 while (newTest.testEnd == false)
