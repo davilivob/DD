@@ -1,5 +1,0 @@
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\net5.0\DailyEnglish _empty.csproj.AssemblyReference.cache
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\net5.0\DailyEnglish _empty.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\net5.0\DailyEnglish _empty.AssemblyInfoInputs.cache
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\net5.0\DailyEnglish _empty.AssemblyInfo.cs
-C:\Users\dovilivob\Desktop\DailyEnglish _empty\obj\Debug\net5.0\DailyEnglish _empty.csproj.CoreCompileInputs.cache
