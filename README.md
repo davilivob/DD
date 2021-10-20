@@ -213,4 +213,4 @@ Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_vers
 [license-url]: https://github.com/dovilivob/MakeYourselfADictionary-English_version/blob/master/LICENSE.txt
 [instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
 [instagram-url]: https://instagram.com/_dovilivob
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/example.gif
