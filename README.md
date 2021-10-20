@@ -33,7 +33,7 @@
     <img src="images/logo.png" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="left">{<br>    "Dictionary": [""],<br>    "": [""]<br>}</h3>
+<h3 align="center">{<br>"Dictionary": [""],<br>"": [""]<br>}</h3>
 
   <p align="center">
     <br />
