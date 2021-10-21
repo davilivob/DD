@@ -5801,7 +5801,14 @@
       "Stop hedging and tell me what you really think.",
       "Officials continued to hedge on exactly when the program would begin.",
       {
-        "lawn": [""]
+        "lawn": [
+          "@ An area of grass, esp. near to a house or in a park, tha is cut regularly to keep it short.",
+          "Will you mow the lawn the weekend?",
+          "The lawn was laid out in the form of the figure eight.",
+          "Our lawn is frosted over.",
+          "We enjoyed a leisurely picnic lunch on the lawn.",
+          "I scattered grass seed all over the lawn."
+        ]
       }
     ],
     "falsification": [
@@ -7296,7 +7303,12 @@
     "workforce": [""],
     "widen": [""],
     "glide": [""],
-    "lay down": [""],
+    "lay down": [
+      "",
+      {
+        "be laid out": [""]
+      }
+    ],
     "accordance": [""],
     "attendant": [""],
     "kit": [""],
