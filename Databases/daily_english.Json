@@ -4019,7 +4019,33 @@
             ]
           },
           {
-            "triumph": [""],
+            "triumph": [
+              "@ A very great success, achievement, or victory, or a feeling of great satisfaction or pleasure caused by this.",
+              "The book celebrates the hostages' remarkable triumph over appalling adversity.",
+              "The signing of the agreement was a personal triumph for the prime minister.",
+              "It was the Republican Party's third election triumph in a row.",
+              "The eradication of smallpox by vaccination was one of medicine's greatest triumphs.",
+              "His eyes gleamed in triumph.",
+              "@ To have a very great success or victory.",
+              "I believe tha sooner or later good must triumph over evil.",
+              "The Democrats once again triumphed in recent elections.",
+              {
+                "triumphant": [
+                  "@ Having achieved a great victory or success, or feeling very happy and proud because of such an achievement.",
+                  "It seemed as though the whole city had turned out for their team's triumphant homecoming.",
+                  "She emerged triumphant from the court after all the charges against her were dropped because of a lack of evidence.",
+                  "She made a triumphant return to the stage after several years of working in television."
+                ],
+                "triumphantly": [
+                  "@ In a way that suggests you have achieved a victory or feel happy because of achieving a victory.",
+                  "Bob triumphantly announced his promotion.",
+                  "\"Here it is!\", he said triumphantly.",
+                  "The army triumpantly declared that they had seized the city from the rebels.",
+                  "She waved triumphantly to the crowd in the stadium.",
+                  "They dream of the day when they can march triumphantly into the capital city."
+                ]
+              }
+            ],
             "ace": [""]
           }
         ]
@@ -7468,7 +7494,12 @@
     "psychological": [""],
     "derail": [""],
     "rebel": [""],
-    "appallingly": [""],
+    "appallingly": [
+      "",
+      {
+        "appalling": [""]
+      }
+    ],
     "standby": [""],
     "recession": [""],
     "altogether": [""],
