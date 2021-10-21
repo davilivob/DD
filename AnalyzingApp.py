@@ -13,7 +13,7 @@ if ifPrint != "":
 else:
     RankingList = "0"
 
-import MyModules.TimerLoadBar as TimeBar
+from MyModules import TimerLoadBar as TimeBar
 
 print()
 
@@ -137,6 +137,7 @@ def UploadDatasToJson():
                 {"Project Statment": AllanJson},
             ],
             file,
+            indent=2,
         )
 
     def settingUpload():
@@ -219,7 +220,6 @@ class Write:
             ]
         )
 
-        
     def FromLyrics():
         return "".join(
             [

@@ -1,4 +1,4 @@
 {
     "python.formatting.provider": "black",
-    "python.pythonPath": "c:\\Users\\dovilivob\\AppData\\Local\\Programs\\Python\\pypy3\\pypy3.exe"
+    "python.pythonPath": "c:\\Users\\dovilivob\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
 }
