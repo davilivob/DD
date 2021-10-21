@@ -3995,7 +3995,13 @@
                     "Some of the allegations have included derogatory language at the workplace, unfair promotion practices and pay discrimination.",
                     "While waiting for him, she noticed derogatory comments being made on social media by her classmates towards an unnamed woman.",
                     "She didn't want to be perceived as ' bossy, ' a common derogatory that might have her ducking for cover if it were hurled at her."
-                  ]
+                  ],
+                  {
+                    "denigrate": [
+                      "@ To say someone or something is not good or important.",
+                      "You shouldn't denigrate people just because they have different beliefs from you."
+                    ]
+                  }
                 ]
               }
             ]
@@ -6744,7 +6750,6 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "denigrate": [""],
     "adverse": [""],
     "chimp": [""],
     "hormonal": [""],
@@ -7460,6 +7465,16 @@
     "flattering": [""],
     "ease": [""],
     "defy": [""],
-    "psychological": [""]
+    "psychological": [""],
+    "derail": [""],
+    "rebel": [""],
+    "appallingly": [""],
+    "standby": [""],
+    "recession": [""],
+    "altogether": [""],
+    "bobbed up": [""],
+    "mow": [""],
+    "leisurely": [""],
+    "scatter": [""]
   }
 }
