@@ -137,13 +137,14 @@ def UploadDatasToJson():
                 {"Project Statment": AllanJson},
             ],
             file,
+            indent=2
         )
 
     def settingUpload():
         return {"PrevTime": TimeBar.timeNow(), "doTheTimeBar": 1, "fillBar": 1}
 
     with open("Databases\Setting.json", mode="w") as file:
-        json.dump(settingUpload(), file)
+        json.dump(settingUpload(), file, indent=2)
 
 
 class Write:

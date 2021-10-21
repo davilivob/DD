@@ -3,6 +3,7 @@ using System.Timers;
 using System.IO;
 using System.Collections;
 using Newtonsoft.Json.Linq;
+using System.Diagnostics;
 namespace Typing_App
 {
     interface UploadToJson
@@ -92,8 +93,12 @@ namespace Typing_App
                 WrongWords = (string[])BadWords.ToArray(typeof(string)),
                 WrongChars = (string[])BadChars.ToArray(typeof(string))
             };
-            string json = System.Text.Json.JsonSerializer.Serialize(json_element);
-            File.AppendAllText(@"Databases\TypingPracticeRecords.json", "," + json);
+            JObject json = JObject.Parse(System.Text.Json.JsonSerializer.Serialize(json_element));
+            string readprev = File.ReadAllText(@"Databases/TypingPracticeRecords.json");
+            JArray prev = JArray.Parse(readprev);
+            prev.Add(json);
+            string uploadjson = prev.ToString(Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(@"Databases/TypingPracticeRecords.json", uploadjson);
         }
         public void createLine()
         {
@@ -203,22 +208,21 @@ namespace Typing_App
         public void Timesup(object source, ElapsedEventArgs e)
         {
             testEnd = true;
+            timer.Close();
             string uncompleted = "";
             foreach (char element in word) uncompleted += element.ToString();
             Chars += uncompleted.Length;
             checkResultByChar(uncompleted, Convert.ToString(recordRandom[State % 10]).Substring(0, uncompleted.Length));
-            uploadtojson();
             Console.WriteLine();
-            Console.WriteLine("-------------------------------------------" +
-                "------------------------------------------------------------------");
             Console.WriteLine(".");
             Console.WriteLine(".");
             Console.WriteLine(".");
             ShowResult();
-            Console.Write("\nThe Datas have been uploaded.");
-            timer.Close();
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            uploadtojson();
+            Console.WriteLine("The Datas have been uploaded.");
             Environment.Exit(0);
         }
     }
@@ -241,7 +245,24 @@ namespace Typing_App
             {
                 try
                 {
-                    File.AppendAllText(@"Databases\TypingPracticeRecords.json"," ");
+                    // StreamReader readprev = new StreamReader(@"Databases/TypingPracticeRecords.json");
+                    // JArray prev = JArray.Parse(readprev.ReadToEnd());
+                    // var json_element = new Json_element
+                    // {
+                    //     TestEndTime = "d",
+                    //     TestLength = 0,
+                    //     TotalChars = 0,
+                    //     GoodChars = 0,
+                    //     TotalBack = 0,
+                    //     WrongWords = new string[]{"s", "sdafj"},
+                    //     WrongChars = new string[]{"ssd","ajsdfk"}
+                    // };
+                    // JObject json = JObject.Parse(System.Text.Json.JsonSerializer.Serialize(json_element));
+                    // prev.Add(json);
+                    // string uploadjson = prev.ToString(Newtonsoft.Json.Formatting.Indented);
+                    // Console.WriteLine(uploadjson);
+                    // readprev.Close();
+
                     Console.WriteLine("How long do you want this test be ?\n");
                     Console.Write("Please Enter (minute): (Ex: 3)");
                     TestTime = Convert.ToUInt16(Console.ReadLine());
@@ -284,7 +305,7 @@ namespace Typing_App
             }
             string[] getWords()
             {
-                StreamReader jsonfile = new StreamReader(@"Databases\Database.json");
+                StreamReader jsonfile = new StreamReader(@"Databases/Database.json");
                 string data = jsonfile.ReadToEnd();
                 JObject Dictionary = JObject.Parse(JArray.Parse(data)[0].ToString());
                 JArray arrs = (JArray)Dictionary["Words List"];

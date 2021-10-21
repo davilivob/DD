@@ -102,7 +102,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-First, you gotta make sure that you have `Python3`, `Pypy3`, `.NET`, `VS Code` been installed in your computer. And you know how to use them properly.
+First, you gotta make sure that you have `Python3`, `.NET`, `VS Code` been installed in your computer. And you know how to use them properly.
 
 Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 
@@ -116,7 +116,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 ### Paste Codes from `DotnetCodes.txt` to the `Program.cs` & the `.csproj file`
 
 1. Open the `DotnetCodes.txt`
-2. Copy the codes from line 1 to line 311 inside the file, then paste them to the `Program.cs`.
+2. Copy the codes from line 1 to line 332 inside the file, then paste them to the `Program.cs`.
 3. Copy the codes from line 311 'till the end, then paste them to the `.csproj` file.
 4. Build the project again, make sure everything's fine.
    ```sh
@@ -214,3 +214,4 @@ Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_vers
 [instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
 [instagram-url]: https://instagram.com/_dovilivob
 [product-screenshot]: images/example.gif
+[Example-process]: images/example.gif
