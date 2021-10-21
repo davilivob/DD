@@ -28,5 +28,5 @@ class Load:
     ) as file:
         typingJson = file.read().replace(" ", "").replace("\n", "")
         TimeBar.Adding()
-        typingDatas = json.loads("".join([typingJson,"]"]))
+        typingDatas = json.loads(typingJson)
         TimeBar.Adding()
