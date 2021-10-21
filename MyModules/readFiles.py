@@ -26,7 +26,7 @@ class Load:
     with open(
         "Databases\TypingPracticeRecords.json", mode="r", encoding="utf-8"
     ) as file:
-        typingJson = file.read().replace(" ", "").replace("\n", "")
+        typingJson = file.read()
         TimeBar.Adding()
         typingDatas = json.loads(typingJson)
         TimeBar.Adding()

@@ -2843,7 +2843,7 @@
         "circulate": [
           "@ To or make something to go around or through something.",
           "Hot water circulates through the heating system.",
-          "I've circulated a good luck card fo everyone to sign.",
+          "I've circulated a good luck card for everyone to sign.",
           "Blood circulates inside the body by moving from the heart through the arteries and back to the heart through the veins.",
           "@ To move around at an occasion, talking to different people.",
           "I try to circulate at a party and not just stay with the friends I came with."
@@ -5772,6 +5772,20 @@
       },
       {
         "coffin": [""]
+      },
+      {
+        "casualty": [
+          "@ A personinjured or killed in a serious accident or war.",
+          "The train was derailed but there were no casualties, police said.",
+          "The rebels suffered heavy casualties.",
+          "The number of casualties in both wars was appallingly high.",
+          "Hospitals are on standby ready to deal with casualties being flown in from the crash site.",
+          "@ A person or thing suffers as a result of something else happening.",
+          "She lost her job in 2011, a casualty of the recession.",
+          "The first casualty of the reorganization will be the bus service, which will be stopped altogether.",
+          "@ The part of a hospital where people who are hurt in accidents or suddenly become ill are taken for urgent treatment.",
+          "She had to be rushed to casualty."
+        ]
       }
     ],
     "hedge": [
@@ -6713,7 +6727,6 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "casualty": [""],
     "denigrate": [""],
     "adverse": [""],
     "chimp": [""],
