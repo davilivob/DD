@@ -16,7 +16,6 @@ namespace Typing_App
     }
     public class Test : UploadToJson, showResult
     {
-        public ArrayList BadWords { get; set; }
         public ArrayList BadChars { get; set; }
         public int Chars { get; set; }
         public int BackTime { get; set; }
@@ -31,7 +30,6 @@ namespace Typing_App
         public bool testEnd { get; set; }
         public Test(ushort testTime, string[] _wordsArray)
         {
-            BadWords = new ArrayList();
             BadChars = new ArrayList();
             Chars = 0;
             BackTime = 0;
@@ -90,7 +88,6 @@ namespace Typing_App
                 TotalChars = Chars,
                 GoodChars = GoodChars(),
                 TotalBack = BackTime,
-                WrongWords = (string[])BadWords.ToArray(typeof(string)),
                 WrongChars = (string[])BadChars.ToArray(typeof(string))
             };
             JObject json = JObject.Parse(System.Text.Json.JsonSerializer.Serialize(json_element));
@@ -137,7 +134,6 @@ namespace Typing_App
                 else
                 {
                     Console.Write(" \u001b[38;5;160m(X)\u001b[0m ");
-                    BadWords.Add(Standard);
                     checkResultByChar(result, Standard);
                 }
                 word.Clear();
@@ -233,7 +229,6 @@ namespace Typing_App
         public int TotalChars { get; set; }
         public int GoodChars { get; set; }
         public int TotalBack { get; set; }
-        public string[] WrongWords { get; set; }
         public string[] WrongChars { get; set; }
     }
     class Program

@@ -24,10 +24,6 @@ for test in TypingDatas:
     totalchars += test["TotalChars"]
     goodchars += test["GoodChars"]
 
-    for word in test["WrongWords"]:
-        WrongWords.append(word)
-        TimeBar.Adding()
-
     for char in test["WrongChars"]:
         WrongChars.append(char)
         TimeBar.Adding()
@@ -54,10 +50,8 @@ class TypingTest:
         Math.takeDecimal(avgAccuracy * 100, 1, 100),
         Math.takeDecimal(avgBackrate * 100, 1, 100),
     )
-    WrongWordsRepeated, WrongCharsRepeated = (
-        AJ.CreateRepeatedArray(WrongWords),
-        AJ.CreateRepeatedArray(WrongChars),
-    )
+    WrongCharsRepeated = AJ.CreateRepeatedArray(WrongChars)
+    
 
     for element in WrongCharsRepeated:
         if element[1] in allCharsIWant:
@@ -65,10 +59,8 @@ class TypingTest:
     for char in allCharsIWant:
         WrongCharsRepeated.append([0, char])
 
-    WrongWordsRepeatedJson, WrongCharsRepeatedJson = (
-        AJ.CreateJsonObject(WrongWordsRepeated),
-        AJ.CreateJsonObject(WrongCharsRepeated),
-    )
+    WrongCharsRepeatedJson = AJ.CreateJsonObject(WrongCharsRepeated)
+    
 
     TypoRate = WrongCharsRepeated
 

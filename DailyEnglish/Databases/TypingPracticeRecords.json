@@ -5,7 +5,6 @@
     "TotalChars": 353,
     "GoodChars": 346,
     "TotalBack": 4,
-    "WrongWords": ["them", "information"],
     "WrongChars": [
       "e",
       "t",
@@ -22,7 +21,6 @@
     "TotalChars": 336,
     "GoodChars": 323,
     "TotalBack": 11,
-    "WrongWords": ["their"],
     "WrongChars": [
       "r",
       "e",
@@ -45,7 +43,6 @@
     "TotalChars": 304,
     "GoodChars": 288,
     "TotalBack": 14,
-    "WrongWords": ["an"],
     "WrongChars": [
       "i",
       "m",
@@ -71,11 +68,6 @@
     "TotalChars": 289,
     "GoodChars": 268,
     "TotalBack": 18,
-    "WrongWords": [
-      "engliah",
-      "engliah",
-      "engliah"
-    ],
     "WrongChars": [
       "a",
       "g",
@@ -106,11 +98,6 @@
     "TotalChars": 330,
     "GoodChars": 319,
     "TotalBack": 8,
-    "WrongWords": [
-      "engliah",
-      "characters",
-      "jugs"
-    ],
     "WrongChars": [
       "a",
       "c",
@@ -131,7 +118,6 @@
     "TotalChars": 341,
     "GoodChars": 333,
     "TotalBack": 7,
-    "WrongWords": ["characters"],
     "WrongChars": [
       "x",
       "a",

@@ -202,15 +202,6 @@
         "WPM": 65.1,
         "Accuracy": 0.9622828784119106,
         "BackSpace Press Rate": 0.03076923076923077,
-        "Wrong Words List": {
-          "engliah": 4,
-          "characters": 2,
-          "them": 1,
-          "their": 1,
-          "jugs": 1,
-          "information": 1,
-          "an": 1
-        },
         "Wrong Chars List": {
           "a": 16,
           "i": 8,
