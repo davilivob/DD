@@ -755,7 +755,12 @@
     "TotalChars": 889,
     "GoodChars": 852,
     "TotalBack": 28,
-    "WrongWords": ["buy", "something", "something", "the"],
+    "WrongWords": [
+      "buy",
+      "something",
+      "something",
+      "the"
+    ],
     "WrongChars": [
       "u",
       "y",
@@ -865,7 +870,13 @@
     "TotalChars": 294,
     "GoodChars": 263,
     "TotalBack": 18,
-    "WrongWords": ["girl", "around", "against", "the", "displayed"],
+    "WrongWords": [
+      "girl",
+      "around",
+      "against",
+      "the",
+      "displayed"
+    ],
     "WrongChars": [
       "e",
       "s",
@@ -906,7 +917,12 @@
     "TotalChars": 577,
     "GoodChars": 540,
     "TotalBack": 29,
-    "WrongWords": ["feeling", "pit", "decision", "from"],
+    "WrongWords": [
+      "feeling",
+      "pit",
+      "decision",
+      "from"
+    ],
     "WrongChars": [
       "g",
       "v",
@@ -1079,7 +1095,12 @@
     "TotalChars": 793,
     "GoodChars": 727,
     "TotalBack": 54,
-    "WrongWords": ["continues", "and", "news", "subject"],
+    "WrongWords": [
+      "continues",
+      "and",
+      "news",
+      "subject"
+    ],
     "WrongChars": [
       "s",
       "c",
@@ -1155,7 +1176,14 @@
     "TotalChars": 801,
     "GoodChars": 722,
     "TotalBack": 69,
-    "WrongWords": ["thorn", "something", "there", "join", "have", "in"],
+    "WrongWords": [
+      "thorn",
+      "something",
+      "there",
+      "join",
+      "have",
+      "in"
+    ],
     "WrongChars": [
       "a",
       "r",
@@ -1244,7 +1272,13 @@
     "TotalChars": 814,
     "GoodChars": 755,
     "TotalBack": 51,
-    "WrongWords": ["thousands", "of", "becomes", "advice", "thousand"],
+    "WrongWords": [
+      "thousands",
+      "of",
+      "becomes",
+      "advice",
+      "thousand"
+    ],
     "WrongChars": [
       "e",
       "m",
@@ -1313,7 +1347,13 @@
     "TotalChars": 750,
     "GoodChars": 679,
     "TotalBack": 56,
-    "WrongWords": ["determined", "was", "tongue", "by", "viewers"],
+    "WrongWords": [
+      "determined",
+      "was",
+      "tongue",
+      "by",
+      "viewers"
+    ],
     "WrongChars": [
       "d",
       "i",
@@ -1772,7 +1812,12 @@
     "TotalChars": 596,
     "GoodChars": 572,
     "TotalBack": 19,
-    "WrongWords": ["some", "a", "may", "mechanical"],
+    "WrongWords": [
+      "some",
+      "a",
+      "may",
+      "mechanical"
+    ],
     "WrongChars": [
       "m",
       "e",
@@ -1897,7 +1942,13 @@
     "TotalChars": 316,
     "GoodChars": 303,
     "TotalBack": 7,
-    "WrongWords": ["difficult", "or", "elements", "try", "to"],
+    "WrongWords": [
+      "difficult",
+      "or",
+      "elements",
+      "try",
+      "to"
+    ],
     "WrongChars": [
       "t",
       "r",
@@ -1998,7 +2049,12 @@
     "TotalChars": 558,
     "GoodChars": 523,
     "TotalBack": 31,
-    "WrongWords": ["sinister", "campaigner", "shot", "a"],
+    "WrongWords": [
+      "sinister",
+      "campaigner",
+      "shot",
+      "a"
+    ],
     "WrongChars": [
       "Spaces",
       "o",
@@ -2112,7 +2168,18 @@
     "GoodChars": 306,
     "TotalBack": 9,
     "WrongWords": ["or"],
-    "WrongChars": ["i", "l", "i", "d", "r", "r", "o", "f", "i", "r"]
+    "WrongChars": [
+      "i",
+      "l",
+      "i",
+      "d",
+      "r",
+      "r",
+      "o",
+      "f",
+      "i",
+      "r"
+    ]
   },
   {
     "TestEndTime": "2021/9/15 P.M. 04:33:29",
@@ -2209,7 +2276,11 @@
     "TotalChars": 318,
     "GoodChars": 301,
     "TotalBack": 7,
-    "WrongWords": ["slaves", "usually", "difficulties"],
+    "WrongWords": [
+      "slaves",
+      "usually",
+      "difficulties"
+    ],
     "WrongChars": [
       "Spaces",
       "i",
@@ -2236,7 +2307,14 @@
     "TotalChars": 889,
     "GoodChars": 850,
     "TotalBack": 28,
-    "WrongWords": ["nonentity", "unusual", "bag", "peanuts", "exists", "some"],
+    "WrongWords": [
+      "nonentity",
+      "unusual",
+      "bag",
+      "peanuts",
+      "exists",
+      "some"
+    ],
     "WrongChars": [
       "c",
       "n",
@@ -2768,7 +2846,16 @@
     "GoodChars": 299,
     "TotalBack": 6,
     "WrongWords": [],
-    "WrongChars": ["g", "a", "e", "e", "e", "n", "c", "a"]
+    "WrongChars": [
+      "g",
+      "a",
+      "e",
+      "e",
+      "e",
+      "n",
+      "c",
+      "a"
+    ]
   },
   {
     "TestEndTime": "2021/9/20 P.M. 08:39:12",
@@ -3073,7 +3160,13 @@
     "TotalChars": 859,
     "GoodChars": 817,
     "TotalBack": 30,
-    "WrongWords": ["something", "consume", "macro", "that", "the"],
+    "WrongWords": [
+      "something",
+      "consume",
+      "macro",
+      "that",
+      "the"
+    ],
     "WrongChars": [
       "b",
       "o",
@@ -3148,7 +3241,13 @@
     "TotalChars": 887,
     "GoodChars": 842,
     "TotalBack": 38,
-    "WrongWords": ["romans", "people", "organization", "characteristic", "say"],
+    "WrongWords": [
+      "romans",
+      "people",
+      "organization",
+      "characteristic",
+      "say"
+    ],
     "WrongChars": [
       "s",
       "g",
@@ -3289,7 +3388,13 @@
     "TotalChars": 273,
     "GoodChars": 245,
     "TotalBack": 21,
-    "WrongWords": ["packaging", "altogether", "what", "bad", "components"],
+    "WrongWords": [
+      "packaging",
+      "altogether",
+      "what",
+      "bad",
+      "components"
+    ],
     "WrongChars": [
       "k",
       "g",
@@ -3396,7 +3501,12 @@
     "TotalChars": 263,
     "GoodChars": 240,
     "TotalBack": 16,
-    "WrongWords": ["money", "disposal", "lot", "and"],
+    "WrongWords": [
+      "money",
+      "disposal",
+      "lot",
+      "and"
+    ],
     "WrongChars": [
       "o",
       "e",
@@ -3635,7 +3745,13 @@
     "TotalChars": 1472,
     "GoodChars": 1409,
     "TotalBack": 57,
-    "WrongWords": ["beyond", "of", "and", "something", "reserve"],
+    "WrongWords": [
+      "beyond",
+      "of",
+      "and",
+      "something",
+      "reserve"
+    ],
     "WrongChars": [
       "b",
       "d",
@@ -3798,7 +3914,12 @@
     "TotalChars": 287,
     "GoodChars": 267,
     "TotalBack": 14,
-    "WrongWords": ["malaria", "quantity", "amicable", "hard"],
+    "WrongWords": [
+      "malaria",
+      "quantity",
+      "amicable",
+      "hard"
+    ],
     "WrongChars": [
       "a",
       "Spaces",
@@ -3865,7 +3986,12 @@
     "TotalChars": 302,
     "GoodChars": 278,
     "TotalBack": 14,
-    "WrongWords": ["and", "attach", "in", "listeners"],
+    "WrongWords": [
+      "and",
+      "attach",
+      "in",
+      "listeners"
+    ],
     "WrongChars": [
       "s",
       "d",
@@ -3899,7 +4025,11 @@
     "TotalChars": 852,
     "GoodChars": 810,
     "TotalBack": 31,
-    "WrongWords": ["footprint", "worldwide", "findings"],
+    "WrongWords": [
+      "footprint",
+      "worldwide",
+      "findings"
+    ],
     "WrongChars": [
       "p",
       "r",
@@ -3951,7 +4081,13 @@
     "TotalChars": 1708,
     "GoodChars": 1617,
     "TotalBack": 76,
-    "WrongWords": ["making", "different", "you", "fungus", "this"],
+    "WrongWords": [
+      "making",
+      "different",
+      "you",
+      "fungus",
+      "this"
+    ],
     "WrongChars": [
       "n",
       "Spaces",
@@ -4061,7 +4197,12 @@
     "TotalChars": 839,
     "GoodChars": 783,
     "TotalBack": 46,
-    "WrongWords": ["of", "marvellous", "narcotic", "and"],
+    "WrongWords": [
+      "of",
+      "marvellous",
+      "narcotic",
+      "and"
+    ],
     "WrongChars": [
       "Spaces",
       "r",
@@ -4156,7 +4297,18 @@
     "GoodChars": 288,
     "TotalBack": 7,
     "WrongWords": ["particular", "something"],
-    "WrongChars": ["Spaces", "e", "m", "o", "v", "a", "s", "b", "n", "g"]
+    "WrongChars": [
+      "Spaces",
+      "e",
+      "m",
+      "o",
+      "v",
+      "a",
+      "s",
+      "b",
+      "n",
+      "g"
+    ]
   },
   {
     "TestEndTime": "2021/9/27 P.M. 12:14:23",
@@ -4933,7 +5085,12 @@
     "TotalChars": 850,
     "GoodChars": 817,
     "TotalBack": 27,
-    "WrongWords": ["especially", "bites", "situation", "lying"],
+    "WrongWords": [
+      "especially",
+      "bites",
+      "situation",
+      "lying"
+    ],
     "WrongChars": [
       "t",
       "t",
@@ -5193,7 +5350,15 @@
     "GoodChars": 317,
     "TotalBack": 7,
     "WrongWords": [],
-    "WrongChars": ["e", "t", "n", "t", "a", "o", "b"]
+    "WrongChars": [
+      "e",
+      "t",
+      "n",
+      "t",
+      "a",
+      "o",
+      "b"
+    ]
   },
   {
     "TestEndTime": "2021/9/29 P.M. 03:03:19",
@@ -5201,7 +5366,15 @@
     "TotalChars": 1477,
     "GoodChars": 1413,
     "TotalBack": 46,
-    "WrongWords": ["uttering", "be", "term", "cutting", "off", "is", "that"],
+    "WrongWords": [
+      "uttering",
+      "be",
+      "term",
+      "cutting",
+      "off",
+      "is",
+      "that"
+    ],
     "WrongChars": [
       "Spaces",
       "Spaces",
@@ -5374,7 +5547,16 @@
     "GoodChars": 300,
     "TotalBack": 5,
     "WrongWords": ["an", "this"],
-    "WrongChars": ["Spaces", "n", "i", "p", "e", "c", "i", "s"]
+    "WrongChars": [
+      "Spaces",
+      "n",
+      "i",
+      "p",
+      "e",
+      "c",
+      "i",
+      "s"
+    ]
   },
   {
     "TestEndTime": "2021/9/29 P.M. 05:36:13",
@@ -5382,7 +5564,13 @@
     "TotalChars": 1521,
     "GoodChars": 1467,
     "TotalBack": 44,
-    "WrongWords": ["have", "reducing", "the", "manual", "jumped"],
+    "WrongWords": [
+      "have",
+      "reducing",
+      "the",
+      "manual",
+      "jumped"
+    ],
     "WrongChars": [
       "t",
       "s",
@@ -5446,7 +5634,14 @@
     "TotalChars": 873,
     "GoodChars": 825,
     "TotalBack": 36,
-    "WrongWords": ["act", "instance", "in", "arganizations", "east", "eys"],
+    "WrongWords": [
+      "act",
+      "instance",
+      "in",
+      "arganizations",
+      "east",
+      "eys"
+    ],
     "WrongChars": [
       "d",
       "e",
@@ -5658,7 +5853,12 @@
     "TotalChars": 311,
     "GoodChars": 283,
     "TotalBack": 14,
-    "WrongWords": ["containers", "clay", "government", "attached"],
+    "WrongWords": [
+      "containers",
+      "clay",
+      "government",
+      "attached"
+    ],
     "WrongChars": [
       "t",
       "i",
@@ -6405,7 +6605,12 @@
     "TotalChars": 858,
     "GoodChars": 817,
     "TotalBack": 30,
-    "WrongWords": ["washed", "to", "life", "earth"],
+    "WrongWords": [
+      "washed",
+      "to",
+      "life",
+      "earth"
+    ],
     "WrongChars": [
       "s",
       "h",
@@ -6450,3 +6655,4 @@
       "h"
     ]
   }
+]

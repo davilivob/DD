@@ -59,7 +59,12 @@
     "TotalChars": 274,
     "GoodChars": 258,
     "TotalBack": 8,
-    "WrongWords": ["tiles", "that", "hectic", "mostly"],
+    "WrongWords": [
+      "tiles",
+      "that",
+      "hectic",
+      "mostly"
+    ],
     "WrongChars": [
       "i",
       "l",
@@ -239,7 +244,12 @@
     "TotalChars": 876,
     "GoodChars": 848,
     "TotalBack": 24,
-    "WrongWords": ["possess", "torn", "not", "proceedings"],
+    "WrongWords": [
+      "possess",
+      "torn",
+      "not",
+      "proceedings"
+    ],
     "WrongChars": [
       "r",
       "a",
@@ -464,7 +474,18 @@
     "GoodChars": 279,
     "TotalBack": 10,
     "WrongWords": [],
-    "WrongChars": ["e", "h", "r", "o", "o", "o", "l", "Spaces", "h", "t"]
+    "WrongChars": [
+      "e",
+      "h",
+      "r",
+      "o",
+      "o",
+      "o",
+      "l",
+      "Spaces",
+      "h",
+      "t"
+    ]
   },
   {
     "TestEndTime": "2021/8/21 P.M. 05:03:08",
@@ -632,7 +653,20 @@
     "GoodChars": 252,
     "TotalBack": 11,
     "WrongWords": ["fear"],
-    "WrongChars": ["r", "o", "r", "s", "n", "i", "r", "r", "e", "d", "e", "d"]
+    "WrongChars": [
+      "r",
+      "o",
+      "r",
+      "s",
+      "n",
+      "i",
+      "r",
+      "r",
+      "e",
+      "d",
+      "e",
+      "d"
+    ]
   },
   {
     "TestEndTime": "2021/8/21 P.M. 05:12:10",
@@ -664,7 +698,17 @@
     "GoodChars": 288,
     "TotalBack": 8,
     "WrongWords": ["vigor"],
-    "WrongChars": ["i", "i", "h", "r", "b", "e", "c", "i", "f"]
+    "WrongChars": [
+      "i",
+      "i",
+      "h",
+      "r",
+      "b",
+      "e",
+      "c",
+      "i",
+      "f"
+    ]
   },
   {
     "TestEndTime": "2021/8/21 P.M. 05:17:52",
@@ -673,7 +717,17 @@
     "GoodChars": 256,
     "TotalBack": 6,
     "WrongWords": ["older", "mixing"],
-    "WrongChars": ["e", "r", "t", "a", "x", "e", "n", "l", "u"]
+    "WrongChars": [
+      "e",
+      "r",
+      "t",
+      "a",
+      "x",
+      "e",
+      "n",
+      "l",
+      "u"
+    ]
   },
   {
     "TestEndTime": "2021/8/21 P.M. 05:23:34",
@@ -792,7 +846,12 @@
     "TotalChars": 272,
     "GoodChars": 256,
     "TotalBack": 10,
-    "WrongWords": ["fruitful", "six", "retinue", "attribute"],
+    "WrongWords": [
+      "fruitful",
+      "six",
+      "retinue",
+      "attribute"
+    ],
     "WrongChars": [
       "f",
       "u",
@@ -853,7 +912,13 @@
     "TotalChars": 830,
     "GoodChars": 792,
     "TotalBack": 32,
-    "WrongWords": ["usually", "that", "there", "them", "before"],
+    "WrongWords": [
+      "usually",
+      "that",
+      "there",
+      "them",
+      "before"
+    ],
     "WrongChars": [
       "y",
       "Spaces",
@@ -902,7 +967,16 @@
     "GoodChars": 288,
     "TotalBack": 3,
     "WrongWords": ["narcotic"],
-    "WrongChars": ["t", "c", "o", "t", "i", "c", "r", "d"]
+    "WrongChars": [
+      "t",
+      "c",
+      "o",
+      "t",
+      "i",
+      "c",
+      "r",
+      "d"
+    ]
   },
   {
     "TestEndTime": "2021/8/22 A.M. 01:05:32",
@@ -910,7 +984,12 @@
     "TotalChars": 1411,
     "GoodChars": 1350,
     "TotalBack": 52,
-    "WrongWords": ["dignified", "last", "have", "for"],
+    "WrongWords": [
+      "dignified",
+      "last",
+      "have",
+      "for"
+    ],
     "WrongChars": [
       "i",
       "l",
@@ -1111,7 +1190,18 @@
     "GoodChars": 288,
     "TotalBack": 7,
     "WrongWords": ["a", "a", "collections"],
-    "WrongChars": ["a", "t", "i", "s", "c", "a", "s", "l", "o", "b"]
+    "WrongChars": [
+      "a",
+      "t",
+      "i",
+      "s",
+      "c",
+      "a",
+      "s",
+      "l",
+      "o",
+      "b"
+    ]
   },
   {
     "TestEndTime": "2021/8/22 A.M. 01:34:05",
@@ -1146,7 +1236,15 @@
     "GoodChars": 283,
     "TotalBack": 7,
     "WrongWords": [],
-    "WrongChars": ["n", "r", "Spaces", "k", "a", "f", "i"]
+    "WrongChars": [
+      "n",
+      "r",
+      "Spaces",
+      "k",
+      "a",
+      "f",
+      "i"
+    ]
   },
   {
     "TestEndTime": "2021/8/22 A.M. 01:39:20",
@@ -1188,7 +1286,14 @@
     "TotalChars": 554,
     "GoodChars": 519,
     "TotalBack": 18,
-    "WrongWords": ["out", "much", "about", "anyone", "anything", "area"],
+    "WrongWords": [
+      "out",
+      "much",
+      "about",
+      "anyone",
+      "anything",
+      "area"
+    ],
     "WrongChars": [
       "c",
       "i",
@@ -1258,7 +1363,13 @@
     "TotalChars": 865,
     "GoodChars": 826,
     "TotalBack": 32,
-    "WrongWords": ["periodic", "a", "just", "transitive", "fellowship"],
+    "WrongWords": [
+      "periodic",
+      "a",
+      "just",
+      "transitive",
+      "fellowship"
+    ],
     "WrongChars": [
       "c",
       "i",
@@ -1424,7 +1535,11 @@
     "TotalChars": 553,
     "GoodChars": 529,
     "TotalBack": 17,
-    "WrongWords": ["neoclassical", "paradoxically", "to"],
+    "WrongWords": [
+      "neoclassical",
+      "paradoxically",
+      "to"
+    ],
     "WrongChars": [
       "i",
       "n",
@@ -1636,7 +1751,13 @@
     "TotalChars": 518,
     "GoodChars": 461,
     "TotalBack": 41,
-    "WrongWords": ["demand", "flouncy", "sterilized", "syrup", "if"],
+    "WrongWords": [
+      "demand",
+      "flouncy",
+      "sterilized",
+      "syrup",
+      "if"
+    ],
     "WrongChars": [
       "e",
       "d",
@@ -1932,7 +2053,11 @@
     "TotalChars": 284,
     "GoodChars": 259,
     "TotalBack": 21,
-    "WrongWords": ["layers", "strangled", "ethical"],
+    "WrongWords": [
+      "layers",
+      "strangled",
+      "ethical"
+    ],
     "WrongChars": [
       "s",
       "e",
@@ -2079,7 +2204,13 @@
     "TotalChars": 1139,
     "GoodChars": 1081,
     "TotalBack": 50,
-    "WrongWords": ["she", "and", "walked", "antiseptics", "to"],
+    "WrongWords": [
+      "she",
+      "and",
+      "walked",
+      "antiseptics",
+      "to"
+    ],
     "WrongChars": [
       "d",
       "m",
@@ -2148,7 +2279,16 @@
     "GoodChars": 288,
     "TotalBack": 6,
     "WrongWords": ["statute"],
-    "WrongChars": ["t", "e", "Spaces", "a", "e", "a", "t", "e"]
+    "WrongChars": [
+      "t",
+      "e",
+      "Spaces",
+      "a",
+      "e",
+      "a",
+      "t",
+      "e"
+    ]
   },
   {
     "TestEndTime": "2021/8/23 P.M. 01:21:07",
@@ -2157,7 +2297,14 @@
     "GoodChars": 297,
     "TotalBack": 6,
     "WrongWords": [],
-    "WrongChars": ["s", "h", "Spaces", "t", "a", "e"]
+    "WrongChars": [
+      "s",
+      "h",
+      "Spaces",
+      "t",
+      "a",
+      "e"
+    ]
   },
   {
     "TestEndTime": "2021/8/23 P.M. 01:24:50",
@@ -2202,7 +2349,16 @@
     "GoodChars": 298,
     "TotalBack": 8,
     "WrongWords": [],
-    "WrongChars": ["r", "s", "c", "n", "p", "a", "r", "v"]
+    "WrongChars": [
+      "r",
+      "s",
+      "c",
+      "n",
+      "p",
+      "a",
+      "r",
+      "v"
+    ]
   },
   {
     "TestEndTime": "2021/8/23 P.M. 01:30:40",
@@ -2210,7 +2366,12 @@
     "TotalChars": 830,
     "GoodChars": 797,
     "TotalBack": 23,
-    "WrongWords": ["off", "iterable", "intuitive", "unusual"],
+    "WrongWords": [
+      "off",
+      "iterable",
+      "intuitive",
+      "unusual"
+    ],
     "WrongChars": [
       "n",
       "u",
@@ -2284,7 +2445,15 @@
     "GoodChars": 292,
     "TotalBack": 7,
     "WrongWords": [],
-    "WrongChars": ["r", "o", "k", "r", "m", "u", "a"]
+    "WrongChars": [
+      "r",
+      "o",
+      "k",
+      "r",
+      "m",
+      "u",
+      "a"
+    ]
   },
   {
     "TestEndTime": "2021/8/23 P.M. 01:43:37",
@@ -2335,7 +2504,17 @@
     "GoodChars": 266,
     "TotalBack": 8,
     "WrongWords": ["river"],
-    "WrongChars": ["r", "f", "r", "s", "c", "d", "n", "i", "t"]
+    "WrongChars": [
+      "r",
+      "f",
+      "r",
+      "s",
+      "c",
+      "d",
+      "n",
+      "i",
+      "t"
+    ]
   },
   {
     "TestEndTime": "2021/8/23 P.M. 01:57:52",
@@ -2452,7 +2631,14 @@
     "TotalChars": 840,
     "GoodChars": 796,
     "TotalBack": 34,
-    "WrongWords": ["to", "hint", "amounts", "liking", "about", "that"],
+    "WrongWords": [
+      "to",
+      "hint",
+      "amounts",
+      "liking",
+      "about",
+      "that"
+    ],
     "WrongChars": [
       "o",
       "c",
@@ -2506,7 +2692,14 @@
     "TotalChars": 536,
     "GoodChars": 498,
     "TotalBack": 29,
-    "WrongWords": ["to", "river", "less", "a", "or", "attack"],
+    "WrongWords": [
+      "to",
+      "river",
+      "less",
+      "a",
+      "or",
+      "attack"
+    ],
     "WrongChars": [
       "c",
       "t",
@@ -2554,7 +2747,12 @@
     "TotalChars": 759,
     "GoodChars": 699,
     "TotalBack": 51,
-    "WrongWords": ["multiply", "thousand", "children", "subtle"],
+    "WrongWords": [
+      "multiply",
+      "thousand",
+      "children",
+      "subtle"
+    ],
     "WrongChars": [
       "e",
       "r",
@@ -2960,7 +3158,13 @@
     "TotalChars": 1115,
     "GoodChars": 1051,
     "TotalBack": 58,
-    "WrongWords": ["an", "region", "about", "human", "our"],
+    "WrongWords": [
+      "an",
+      "region",
+      "about",
+      "human",
+      "our"
+    ],
     "WrongChars": [
       "s",
       "t",
@@ -3034,7 +3238,11 @@
     "TotalChars": 293,
     "GoodChars": 279,
     "TotalBack": 10,
-    "WrongWords": ["wandering", "and", "designed"],
+    "WrongWords": [
+      "wandering",
+      "and",
+      "designed"
+    ],
     "WrongChars": [
       "n",
       "g",
@@ -3058,7 +3266,13 @@
     "TotalChars": 823,
     "GoodChars": 777,
     "TotalBack": 31,
-    "WrongWords": ["sufferings", "elements", "as", "cocaine", "uses"],
+    "WrongWords": [
+      "sufferings",
+      "elements",
+      "as",
+      "cocaine",
+      "uses"
+    ],
     "WrongChars": [
       "Spaces",
       "r",
@@ -3143,7 +3357,16 @@
     "GoodChars": 278,
     "TotalBack": 6,
     "WrongWords": [],
-    "WrongChars": ["t", "e", "Spaces", "a", "e", "l", "u", "i"]
+    "WrongChars": [
+      "t",
+      "e",
+      "Spaces",
+      "a",
+      "e",
+      "l",
+      "u",
+      "i"
+    ]
   },
   {
     "TestEndTime": "2021/8/23 P.M. 10:47:42",
@@ -3202,7 +3425,14 @@
     "TotalChars": 1414,
     "GoodChars": 1353,
     "TotalBack": 47,
-    "WrongWords": ["to", "and", "permanent", "television", "strictly", "the"],
+    "WrongWords": [
+      "to",
+      "and",
+      "permanent",
+      "television",
+      "strictly",
+      "the"
+    ],
     "WrongChars": [
       "b",
       "i",
@@ -3273,7 +3503,12 @@
     "TotalChars": 858,
     "GoodChars": 810,
     "TotalBack": 36,
-    "WrongWords": ["ones", "a", "negative", "was"],
+    "WrongWords": [
+      "ones",
+      "a",
+      "negative",
+      "was"
+    ],
     "WrongChars": [
       "s",
       "a",
@@ -3353,7 +3588,13 @@
     "TotalChars": 1364,
     "GoodChars": 1283,
     "TotalBack": 73,
-    "WrongWords": ["satisfaction", "tidy", "by", "power", "syrup"],
+    "WrongWords": [
+      "satisfaction",
+      "tidy",
+      "by",
+      "power",
+      "syrup"
+    ],
     "WrongChars": [
       "t",
       "i",
@@ -4019,7 +4260,11 @@
     "TotalChars": 546,
     "GoodChars": 512,
     "TotalBack": 29,
-    "WrongWords": ["stubborn", "unprecedented", "all"],
+    "WrongWords": [
+      "stubborn",
+      "unprecedented",
+      "all"
+    ],
     "WrongChars": [
       "u",
       "t",
@@ -4249,7 +4494,11 @@
     "TotalChars": 1380,
     "GoodChars": 1314,
     "TotalBack": 55,
-    "WrongWords": ["how", "blueberries", "oxford"],
+    "WrongWords": [
+      "how",
+      "blueberries",
+      "oxford"
+    ],
     "WrongChars": [
       "t",
       "i",
@@ -4325,7 +4574,13 @@
     "TotalChars": 1108,
     "GoodChars": 1054,
     "TotalBack": 45,
-    "WrongWords": ["has", "regulate", "outcome", "underlying", "in"],
+    "WrongWords": [
+      "has",
+      "regulate",
+      "outcome",
+      "underlying",
+      "in"
+    ],
     "WrongChars": [
       "Spaces",
       "Spaces",
@@ -4546,7 +4801,18 @@
     "GoodChars": 291,
     "TotalBack": 10,
     "WrongWords": [],
-    "WrongChars": ["d", "s", "o", "s", "u", "o", "a", "s", "d", "s"]
+    "WrongChars": [
+      "d",
+      "s",
+      "o",
+      "s",
+      "u",
+      "o",
+      "a",
+      "s",
+      "d",
+      "s"
+    ]
   },
   {
     "TestEndTime": "2021/8/25 P.M. 02:08:31",
@@ -4651,7 +4917,14 @@
     "TotalChars": 852,
     "GoodChars": 802,
     "TotalBack": 40,
-    "WrongWords": ["must", "was", "more", "than", "public", "anarchism"],
+    "WrongWords": [
+      "must",
+      "was",
+      "more",
+      "than",
+      "public",
+      "anarchism"
+    ],
     "WrongChars": [
       "t",
       "s",
@@ -4847,7 +5120,16 @@
     "GoodChars": 283,
     "TotalBack": 6,
     "WrongWords": ["humanitarian", "of"],
-    "WrongChars": ["n", "a", "n", "w", "Spaces", "o", "f", "f"]
+    "WrongChars": [
+      "n",
+      "a",
+      "n",
+      "w",
+      "Spaces",
+      "o",
+      "f",
+      "f"
+    ]
   },
   {
     "TestEndTime": "2021/8/25 P.M. 04:22:07",
@@ -4947,7 +5229,19 @@
     "GoodChars": 285,
     "TotalBack": 10,
     "WrongWords": ["committee"],
-    "WrongChars": ["p", "y", "c", "i", "i", "c", "u", "j", "g", "Spaces", "t"]
+    "WrongChars": [
+      "p",
+      "y",
+      "c",
+      "i",
+      "i",
+      "c",
+      "u",
+      "j",
+      "g",
+      "Spaces",
+      "t"
+    ]
   },
   {
     "TestEndTime": "2021/8/25 P.M. 05:58:25",
@@ -5161,7 +5455,14 @@
     "TotalChars": 875,
     "GoodChars": 833,
     "TotalBack": 34,
-    "WrongWords": ["business", "an", "my", "might", "type", "how"],
+    "WrongWords": [
+      "business",
+      "an",
+      "my",
+      "might",
+      "type",
+      "how"
+    ],
     "WrongChars": [
       "a",
       "r",
@@ -5363,7 +5664,18 @@
     "GoodChars": 282,
     "TotalBack": 7,
     "WrongWords": ["virtuoso", "was", "judge"],
-    "WrongChars": ["a", "r", "Spaces", "r", "t", "Spaces", "e", "a", "s", "u"]
+    "WrongChars": [
+      "a",
+      "r",
+      "Spaces",
+      "r",
+      "t",
+      "Spaces",
+      "e",
+      "a",
+      "s",
+      "u"
+    ]
   },
   {
     "TestEndTime": "2021/8/26 P.M. 08:23:21",
@@ -5701,7 +6013,16 @@
     "GoodChars": 302,
     "TotalBack": 7,
     "WrongWords": ["from"],
-    "WrongChars": ["m", "h", "t", "n", "t", "Spaces", "s", "e"]
+    "WrongChars": [
+      "m",
+      "h",
+      "t",
+      "n",
+      "t",
+      "Spaces",
+      "s",
+      "e"
+    ]
   },
   {
     "TestEndTime": "2021/8/30 P.M. 09:43:22",
@@ -5798,7 +6119,20 @@
     "GoodChars": 293,
     "TotalBack": 12,
     "WrongWords": [],
-    "WrongChars": ["w", "r", "g", "h", "w", "u", "n", "a", "s", "a", "o", "t"]
+    "WrongChars": [
+      "w",
+      "r",
+      "g",
+      "h",
+      "w",
+      "u",
+      "n",
+      "a",
+      "s",
+      "a",
+      "o",
+      "t"
+    ]
   },
   {
     "TestEndTime": "2021/8/30 P.M. 09:48:40",
@@ -6011,7 +6345,11 @@
     "TotalChars": 836,
     "GoodChars": 797,
     "TotalBack": 35,
-    "WrongWords": ["attention", "glorify", "nearly"],
+    "WrongWords": [
+      "attention",
+      "glorify",
+      "nearly"
+    ],
     "WrongChars": [
       "i",
       "r",
@@ -6154,7 +6492,13 @@
     "TotalChars": 1445,
     "GoodChars": 1395,
     "TotalBack": 37,
-    "WrongWords": ["prominence", "illegal", "amount", "everything", "causes"],
+    "WrongWords": [
+      "prominence",
+      "illegal",
+      "amount",
+      "everything",
+      "causes"
+    ],
     "WrongChars": [
       "e",
       "Spaces",
@@ -6214,7 +6558,12 @@
     "TotalChars": 271,
     "GoodChars": 245,
     "TotalBack": 17,
-    "WrongWords": ["juice", "water", "element", "at"],
+    "WrongWords": [
+      "juice",
+      "water",
+      "element",
+      "at"
+    ],
     "WrongChars": [
       "j",
       "a",
@@ -6552,7 +6901,13 @@
     "TotalChars": 1382,
     "GoodChars": 1306,
     "TotalBack": 67,
-    "WrongWords": ["battery", "morover", "operational", "the", "do"],
+    "WrongWords": [
+      "battery",
+      "morover",
+      "operational",
+      "the",
+      "do"
+    ],
     "WrongChars": [
       "c",
       "t",
@@ -6742,7 +7097,17 @@
     "GoodChars": 295,
     "TotalBack": 6,
     "WrongWords": ["sum", "area", "decade"],
-    "WrongChars": ["m", "a", "u", "b", "s", "d", "c", "e", "e"]
+    "WrongChars": [
+      "m",
+      "a",
+      "u",
+      "b",
+      "s",
+      "d",
+      "c",
+      "e",
+      "e"
+    ]
   },
   {
     "TestEndTime": "2021/9/1 P.M. 05:46:25",
@@ -6776,7 +7141,13 @@
     "TotalChars": 572,
     "GoodChars": 543,
     "TotalBack": 21,
-    "WrongWords": ["completely", "frost", "thorny", "mildly", "a"],
+    "WrongWords": [
+      "completely",
+      "frost",
+      "thorny",
+      "mildly",
+      "a"
+    ],
     "WrongChars": [
       "e",
       "l",
@@ -6954,4 +7325,4 @@
       "t"
     ]
   }
-
+]
