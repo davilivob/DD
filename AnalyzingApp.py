@@ -122,7 +122,6 @@ def UploadDatasToJson():
             "WPM": Type.avgWpm,
             "Accuracy": Type.avgAccuracy,
             "BackSpace Press Rate": Type.avgBackrate,
-            "Wrong Words List": Type.WrongWordsRepeatedJson,
             "Wrong Chars List": Type.WrongCharsRepeatedJson,
             "Typo Rate": Type.TypoRateJson,
         },
