@@ -116,8 +116,8 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 ### Paste Codes from `DotnetCodes.txt` to the `Program.cs` & the `.csproj file`
 
 1. Open the `DotnetCodes.txt`
-2. Copy the codes from line 1 to line 309 inside the file, then paste them to the `Program.cs`.
-3. Copy the codes from line 313 'till the end, then paste them to the `.csproj` file.
+2. Copy the codes from line 3 to line 338 inside the file, then paste them to the `Program.cs`.
+3. Copy the codes from line 342 'till the end, then paste them to the `.csproj` file.
 4. Build the project again, make sure everything's fine.
    ```sh
    dotnet build
@@ -213,5 +213,5 @@ Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_vers
 [license-url]: https://github.com/dovilivob/MakeYourselfADictionary-English_version/blob/master/LICENSE.txt
 [instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
 [instagram-url]: https://instagram.com/_dovilivob
-[product-screenshot]: images/example.gif
+[product-screenshot]: images/screenshot.png
 [Example-process]: images/example.gif

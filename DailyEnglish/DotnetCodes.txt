@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+//Put the following codes in the 'Program.cs' file.
+
+using System;
 using System.Timers;
 using System.IO;
 using System.Collections;
@@ -96,6 +99,20 @@ namespace Typing_App
             prev.Add(json);
             string uploadjson = prev.ToString(Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText(@"Databases/TypingPracticeRecords.json", uploadjson);
+        }
+        public void ifUploadFailed(){
+            var json_element = new Json_element
+            {
+                TestEndTime = DateTime.Now.ToString()
+                    .Replace("\u4E0B\u5348", "P.M.").Replace("\u4E0A\u5348", "A.M."),
+                TestLength = TestTime,
+                TotalChars = Chars,
+                GoodChars = GoodChars(),
+                TotalBack = BackTime,
+                WrongChars = (string[])BadChars.ToArray(typeof(string))
+            };
+            string json = System.Text.Json.JsonSerializer.Serialize(json_element);
+            File.WriteAllText(@"Databases/latestTypingRecord.json", json);
         }
         public void createLine()
         {
@@ -217,9 +234,21 @@ namespace Typing_App
             Console.WriteLine(".");
             Console.WriteLine(".");
             Console.WriteLine(".");
-            uploadtojson();
-            Console.WriteLine("The Datas have been uploaded.");
-            Environment.Exit(0);
+            try
+            {
+                uploadtojson();
+            }
+            catch (System.Exception)
+            {
+                Console.WriteLine("There's something going wrong, \nthe test record will upload to the 'latestTypingRecord.json' file.");
+                ifUploadFailed();
+                throw;
+            }
+            finally
+            {
+                Console.WriteLine("The Datas have been uploaded.");
+                Environment.Exit(0);
+            }
         }
     }
     public class Json_element
@@ -308,7 +337,7 @@ namespace Typing_App
 }
 
 
-//Put the following codes in the .csproj file.
+//Put the following codes in the 'DailyEnglish.csproj' file.
 
 
   <ItemGroup>
