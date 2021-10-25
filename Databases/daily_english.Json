@@ -950,64 +950,213 @@
           "~ Who needs a thousand metaphors to figure out you shouldn't be a dick?",
           "~ And I don't watch you when you sleep.",
           "~ Surprisingly I don't use my omnipotence to be a fucking creep.",
-          {},
-          "~ You're not hoing to heaven.",
-          "~ Why the fuck would you think i'd ever kick it with you?",
+          {
+            "omnipotence": [
+              "@ Unlimited power and the ability to do anything.",
+              "He doesn't believe in the omnipotence of science.",
+              "She felt a strange sense of omnipotence.",
+              "It's a Supreme Being endowed with the qualities of omnipotence and omniscience.",
+              "America had illusions of omnipotence in the 1950s.",
+              {
+                "omnipotent": [
+                  "@ Having unlimited power and able to do anything.",
+                  "How can a loving, omnipotent God permit disease, war and suffering?",
+                  "The people overthrew the once omnipotent dictator."
+                ]
+              },
+              {
+                "omni-": [
+                  "@ Everywhere or everything."
+                ],
+                "omniscience": [
+                  "@ The quality of having or seeming to have unlimited knowledge.",
+                  "I do not claim omniscience, nor am I incapable of making mistakes.",
+                  "The biographer lacks the novelist's omniscience.",
+                  "Doctors often exude an air of omniscience.",
+                  "Police omniscience is one of the most effective tools f tyranny.",
+                  "She resented Richard's air of omniscience.",
+                  {
+                    "omniscient": [
+                      "@ Having or seeming to have unlimited knowledge.",
+                      "God is omniscient.",
+                      "They give the impression that the magazine is omniscient."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "~ You're not going to heaven.",
+          "~ Why the fuck would you think I would ever kick it with you?",
           "~ None of you are going to heaven",
           "~ There's a trillion aliens cooler than you.",
-          {},
+          {
+            "trillion": [
+              "@ The number 1,000,000,000,000",
+              "& A trillion is a thousand billion.",
+              "Four light years is twenty-five trillion miles.",
+              "Distances in space can be measured in trillions of miles.",
+              "High energy prices have yielded trillions for oil and natural gas producers."
+            ]
+          },
           "~ You shouldn't abstain from rape just 'cause you think I want you to.",
           "~ You shouldn't rape 'cause rape is a fucked up thing to do.",
           "~ Pretty obviously, just don't fucking rape people, please.",
           "~ Didn't think I had to write that one down for you.",
-          {},
+          {
+            "abstain": [
+              "@ To not do something, esp. something enjoyable that you think might be bad.",
+              "He took a vow to abstain from alcohol, smoking and sex.",
+              "Some families abstain from eating fried food.",
+              "@ To decided no to use your vote.",
+              "sixty-three members voted in favor, thirty-nine opposed, and fifteen abstained.",
+              "@ To stay away from work.",
+              "During the recent general strike, employees of all major labor unions abstained."
+            ]
+          },
           "~ I don't think masturbation is obscene.",
           "~ It's absolutely natural and the weirdest fucking thing I've ever seen.",
           "~ You make my job a living hell; I sent gays to fix overpopulation.",
           "~ And, boy, did that go well.",
-          {},
+          {
+            "obscene": [
+              "@ Offensive, rude, or shocking, usually because of being too obviously related to sex or showing sex.",
+              "In the raid, police found several boxes of obscene DVDs.",
+              "He was jailed for making obscene phone calls.",
+              "@ Mmorally wrong, often describing something that is wrong because it is too large.",
+              "The salaries some bankers earn are obscene.",
+              "He eats obscene amounts of food.",
+              {
+                "obscenely": [
+                  "He used vulgar language and gestured obscenely.",
+                  "She cursed obscenely in exasperation.",
+                  "It's an obscenely violent film.",
+                  "He's obscenely rich, fat and cruel."
+                ]
+              }
+            ]
+          },
           "~ You're not going to heaven.",
           "~ Eat a thousand crackers, sing a million hymns.",
           "~ None of you are going to heaven.",
           "~ You're not my children.",
           "~ You're a bad game of Sims.",
-          {},
+          {
+            "cracker": [
+              "@ A thin, flat, hard bread, esp. one eaten with cheese.",
+              "@ A paper tube with small toys, small pieces of sweet food, etc. inside, that is covered with bright paper and makes a short, sharp sound when both ends are pulled.",
+              "Who wants to pull a cracker with me?",
+              "@ A firework that explodes with a loud noise.",
+              "@ A person or thing that is very good or has a special exciting quality.",
+              "She's written five books, and every one is a cracker.",
+              "@ A hard, dry, thin piece of baked bread."
+            ],
+            "hymn": [
+              "@ A song of praise that Christians sing to God."
+            ]
+          },
           "~ You shouldn't abstain from pork just 'cause you think that I want you to.",
           "~ You can eat pork 'cause why the fuck would I give a shit?",
           "~ I created the universe.",
-          "~ think I'd draw the line at the fucking deliaisle?",
-          {},
+          "~ Think I would draw the line at the fucking deli-aisle?",
+          {
+            "deli": [
+              "@ Informal for delicatessen.",
+              "Have you tried that Greek deli on Church Street?",
+              "Ask for our sliced ham at the deli counter.",
+              {
+                "delicatessen": [
+                  "@ A small shop that sells high-quality foods, such as types of cheese and cold cooked meat, often from other countries, and, esp. in the United State, sandwiches made using these.",
+                  "Smoked sausage can be found in most delicatessens.",
+                  "@ A counter in a supermarket where you can get different types of cheese, cold cooked meat, prepared salads, etc..",
+                  "The new store will have a pharmacy inside, along with a delicatessen, bakery, and seafood department."
+                ]
+              }
+            ],
+            "aisle": [
+              "@ A long, narrow space between rows of seats in an aircraft, theater, or church.",
+              "Would you like an aisle seat or would you prefer to be by the window?",
+              "The stewardess came down the aisle serving drinks.",
+              "@ A long, narrow space between the rows of shelves in a large store.",
+              "You'll find the shampoo and the soap in the fouth aisle from the entrance.",
+              "Shopping online means you avoid the crowded supermarket aisles.",
+              "The grocery aisles are stocked with everyday brands, priced very competitively."
+            ]
+          },
           "~ You argue and you bicker and you fight.",
           "~ Atheists and Catholics, Jews and Hindus argue day and night.",
           "~ Over what they think is true.",
           "~ But no one entertains the thought that maybe God does not believe in you.",
-          {},
+          {
+            "bicker": [
+              "@ To argue about things that are not important.",
+              "Will you two stop bickering!",
+              "They're always bickering with each other about their personal problems.",
+              "They were bickering over what to order and where to sit."
+            ],
+            "Catholic": [
+              "@ Including many different types of thing.",
+              "As a young person he had more catholic tastes than he does now.",
+              "@ Roman Catholic",
+              "Is he a Catholic?",
+              "There is a Catholic school and church."
+            ],
+            "Hindus": [
+              "@ Someone who believes in Hinduism.",
+              "They are all Hindus.",
+              {
+                "Hinduism": [
+                  "@ An ancient religion with Indian origins whose characteristics include the worship of many gods and goddesses and the belief that when a person or creature dies, their spirit returns to life in another body.",
+                  "He told me a lot about Hinduism.",
+                  "We learned a bit about Hinduism."
+                ]
+              }
+            ],
+            "entertain": [
+              "@ To keep a group of people interested or enjoying themselves.",
+              "We hired a magician to entertain the children.",
+              "Most children's television programs aim to educate and entertain at the same time.",
+              "@ To invite someone to your home and give food and drink to them.",
+              "We entertain a lot of people, mainly business associates of my wife's.",
+              "Now that I live on my own, I don't entertain much.",
+              "@ To hold something in your mind or to be willing to consider or accept something.",
+              "The General refused to entertain the possibility of defeat.",
+              "He entertained some doubts about how truthful the government was."
+            ]
+          },
           "~ You pray so badly for heaven.",
           "~ Knowing any day might be the day that you die.",
           "~ But maybe life on earth could be heaven.",
           "~ Doesn't just the thought of it make it worth a try?",
           {},
-          "~ My love's type of thing that you have to earn.",
+          "~ My love is type of thing that you have to earn.",
           "~ And when you earn it you won't need it.",
-          "~ My love's type of thing that you have to earn.",
+          "~ My love is type of thing that you have to earn.",
           "~ And when you earn it you won't need it.",
           {},
           "~ I'm not gonna give you love just 'cause I know that you want me to.",
-          "~ If you want love then the love's gotta come from you.",
+          "~ If you want love then the love is gotta come from you.",
           {}
         ]
       },
       "Make Happy": {
         "Kill Yourself": [
-          "~ This is for people who are having a rough time out there.",
-          "~ Now listen up.",
+          "~ Some of you might be sad and going through things.",
+          "~ I feel for that, life is tough",
+          "~ I'm not gonna fix that with a song like \"Brave\" or \"Roar\".",
+          "~ You know these inpirate...",
+          "~ What I'm trying to say is, don't liten to a song, like this",
           {},
           "~ Have you ever felt sad or lonely?",
           "~ Have you ever felt two feet tall?",
           "~ Have you ever thought \"Man, if only I was anybody else at all?\".",
           "~ They like to kick you when times get rough.",
           "~ And you give your all but it's not enough.",
-          {},
+          {
+            "two feet tall": [
+              "@ To be self-abasement."
+            ]
+          },
           "~ And sticks and stones might break your bones.",
           "~ But words can break your heart.",
           "~ But if you don't know where to go.",
@@ -1021,7 +1170,32 @@
           "~ Really, you should do it.",
           "~ There', uh, really nothing to it.",
           "~ Just, uh, grab a mug and chug a cup of lighter fluid.",
-          {},
+          {
+            "shove": [
+              "@ To push someone or something forcefully.",
+              "She was jostled and shoved by an angry crowd as she left the court.",
+              "Just wait your turn - there's no need to shove.",
+              "Reporters pushed and shoved as they tried to get close to the princess.",
+              "@ To put something somewhere in a hurried or careless way.",
+              "I'll just shove this laundry in the washer before we go out.",
+              "\"Where should I put this suitcase?\", \"Shove it down there for the moment.\".",
+              "@ To move your body to make space for someone else.",
+              "Shove over/along, Lena, and make some room for me.",
+              "Why don't you shove up so that Fatima can sit next to you?",
+              "@ To slide something along a surface by moving or pushing.",
+              "She got into her coat and shoved her hands deep into her pockets.",
+              "Jim shoved open the door, and invited his visitor in.",
+              "@ The action of shoving someone or something.",
+              "Would you help me give the piano a shove?",
+              "Someone in the crowd gave me a shove in the back, and I almost went sprawling.",
+              {
+                "a shoving match": [
+                  "@ An angry disagreement in which two people push each other in the chest.",
+                  "The discussion in the jury room got so heated that at one point two jurors got into a shoving match."
+                ]
+              }
+            ]
+          },
           "~ OK, now",
           "~ I feel like you've pulled back.",
           "~ Maybe it's on account of the fact that I'm telling you to kill yourself over and over again.",
@@ -7273,7 +7447,10 @@
       {
         "laborer": [
           "@ A person who does unskilled physical work, especially outside.",
-          "But many employers skirted the law, preferring to hire less expensive laborers who crossed the border illegally."
+          "But many employers skirted the law, preferring to hire less expensive laborers who crossed the border illegally.",
+          {
+            "labor": [""]
+          }
         ]
       }
     ],
@@ -8279,7 +8456,12 @@
     "burglar": [""],
     "attend": [""],
     "wholewheat": [""],
-    "jury": [""],
+    "jury": [
+      "",
+      {
+        "juror": [""]
+      }
+    ],
     "eggplant": [""],
     "breadcrumb": [""],
     "croissant": [""],
