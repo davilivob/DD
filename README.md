@@ -117,7 +117,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 
 1. Open the `DotnetCodes.txt`
 2. Copy the codes from line 3 to line 338 inside the file, then paste them to the `Program.cs`.
-3. Copy the codes from line 342 'till the end, then paste them to the `.csproj` file.
+3. Copy the codes from line 342 'til the end, then paste them to the `DailyEnglish.csproj` file.
 4. Build the project again, make sure everything's fine.
    ```sh
    dotnet build
