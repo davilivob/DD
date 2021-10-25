@@ -97,6 +97,20 @@ namespace Typing_App
             string uploadjson = prev.ToString(Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText(@"Databases/TypingPracticeRecords.json", uploadjson);
         }
+        public void ifUploadFailed(){
+            var json_element = new Json_element
+            {
+                TestEndTime = DateTime.Now.ToString()
+                    .Replace("\u4E0B\u5348", "P.M.").Replace("\u4E0A\u5348", "A.M."),
+                TestLength = TestTime,
+                TotalChars = Chars,
+                GoodChars = GoodChars(),
+                TotalBack = BackTime,
+                WrongChars = (string[])BadChars.ToArray(typeof(string))
+            };
+            string json = System.Text.Json.JsonSerializer.Serialize(json_element);
+            File.WriteAllText(@"Databases/latestTypingRecord.json", json);
+        }
         public void createLine()
         {
             Console.WriteLine();
@@ -217,9 +231,21 @@ namespace Typing_App
             Console.WriteLine(".");
             Console.WriteLine(".");
             Console.WriteLine(".");
-            uploadtojson();
-            Console.WriteLine("The Datas have been uploaded.");
-            Environment.Exit(0);
+            try
+            {
+                uploadtojson();
+            }
+            catch (System.Exception)
+            {
+                Console.WriteLine("There's something going wrong, \nthe test record will upload to the 'latestTypingRecord.json' file.");
+                ifUploadFailed();
+                throw;
+            }
+            finally
+            {
+                Console.WriteLine("The Datas have been uploaded.");
+                Environment.Exit(0);
+            }
         }
     }
     public class Json_element
@@ -240,24 +266,6 @@ namespace Typing_App
             {
                 try
                 {
-                    // StreamReader readprev = new StreamReader(@"Databases/TypingPracticeRecords.json");
-                    // JArray prev = JArray.Parse(readprev.ReadToEnd());
-                    // var json_element = new Json_element
-                    // {
-                    //     TestEndTime = "d",
-                    //     TestLength = 0,
-                    //     TotalChars = 0,
-                    //     GoodChars = 0,
-                    //     TotalBack = 0,
-                    //     WrongWords = new string[]{"s", "sdafj"},
-                    //     WrongChars = new string[]{"ssd","ajsdfk"}
-                    // };
-                    // JObject json = JObject.Parse(System.Text.Json.JsonSerializer.Serialize(json_element));
-                    // prev.Add(json);
-                    // string uploadjson = prev.ToString(Newtonsoft.Json.Formatting.Indented);
-                    // Console.WriteLine(uploadjson);
-                    // readprev.Close();
-
                     Console.WriteLine("How long do you want this test be ?\n");
                     Console.Write("Please Enter (minute): (Ex: 3)");
                     TestTime = Convert.ToUInt16(Console.ReadLine());
