@@ -1210,11 +1210,16 @@
           "~ Maybe it's on account of the fact that I'm telling you to kill yourself over and over again.",
           "~ I'm just trying to make a simple point that these.",
           "~ That life's toughest problems don't have simple answers.",
-          "~ You shouldn't just be brave, you shouldn't just roar. You shouldn't kill yourself.",
+          "~ You shouldn't just be brave, you shouldn't just roar.",
+          "~ You shouldn't kill yourself.",
           "~ But I understand that it's a sensitive subject, and you're probably just hearing me say that.",
-          "~ and I've dealt with shit - I don't wanna be insens - look.",
+          "~ And I've dealt with shit - I don't wanna be insens - look.",
           {
-            "":[""]
+            "on account of sth": [
+              "@ Because of something.",
+              "He doesn't drink alcohol on account of his poor health.",
+              "Dinner was somewhat delayed on account of David's rather tardy arrival."
+            ]
           },
           "~ I sound un-empathetic, I sound mean and rude.",
           "~ Suicide is an epidemic.",
@@ -1224,8 +1229,15 @@
           "~ Then you need a book, a therapy session.",
           "~ Talk about your depression.",
           "~ And let a professional hear it.",
-          "~ But ir you search for moral wisdom in Katy Perry's lyrics, then.",
-          {},
+          "~ But if you search for moral wisdom in Katy Perry's lyrics, then.",
+          {
+            "misconstrue": [
+              "@ To form a false understanding of the meaning or intention of something that someone does or says.",
+              "She said Harris has misconstrued her comments.",
+              "Their caution was misconstrued as cowardice."
+            ],
+            "overlook": [""]
+          },
           "~ Kill yourself.",
           "~ It won't be painful.",
           "~ If you are able.",
@@ -8669,6 +8681,31 @@
       }
     ],
     "seize": [""],
-    "march": [""]
+    "march": [""],
+    "permit": [""],
+    "incapable": [""],
+    "biographer": [""],
+    "exude": [""],
+    "tyranny": [""],
+    "resent": [""],
+    "impression": [""],
+    "vow": [""],
+    "raid": [""],
+    "vulgar": [""],
+    "exasperation": [""],
+    "firework": [""],
+    "Informal": [""],
+    "counter": [""],
+    "pharmacy": [""],
+    "shelf": [""],
+    "soap": [""],
+    "grocery": [""],
+    "competitively": [""],
+    "stewardess": [""],
+    "jostle": [""],
+    "hurried": [""],
+    "pocket": [""],
+    "sprawling": [""],
+    "tardy": [""]
   }
 }
