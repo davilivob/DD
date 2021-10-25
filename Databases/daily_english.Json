@@ -1194,6 +1194,15 @@
                   "The discussion in the jury room got so heated that at one point two jurors got into a shoving match."
                 ]
               }
+            ],
+            "chug": [
+              "@ To make the sound of an engine or motor, or to move making this sound.",
+              "The truck chugged up the hill.",
+              "We heard the chug of the boat's engine in the distance.",
+              "@ To move steadily, like a little train.",
+              "Yeah, my life is chugging right along, thanks.",
+              "@ To swallow a drink completely without stopping to breathe.",
+              "He was so thirsty he chugged three glasses of water."
             ]
           },
           "~ OK, now",
@@ -1204,7 +1213,9 @@
           "~ You shouldn't just be brave, you shouldn't just roar. You shouldn't kill yourself.",
           "~ But I understand that it's a sensitive subject, and you're probably just hearing me say that.",
           "~ and I've dealt with shit - I don't wanna be insens - look.",
-          {},
+          {
+            "":[""]
+          },
           "~ I sound un-empathetic, I sound mean and rude.",
           "~ Suicide is an epidemic.",
           "~ And I don't want to be misconstrued.",
