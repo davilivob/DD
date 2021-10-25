@@ -1259,7 +1259,17 @@
           "~ You'll kill yourself.",
           "~ It's over, mull it.",
           "~ Get it through your head, \"it\" being a bullet.",
-          {},
+          {
+            "mull": [
+              "@ To study or ruminate; ponder.",
+              "@ To think about carefully; consider (often followed by over).",
+              "@ To make a mess or failure of.",
+              "I’d wanted to make one ever since I was a child, and had been mulling over a particular idea for at least a decade, but I wasn’t sure how it would be received.",
+              "I could see... he was mulling around what can be done or something we could do within the state government that would be helpful to her.",
+              "@ To heat wine or beer with added sugar and spices.",
+              "Have you ever tried mulling cider?"
+            ]
+          },
           "~ Stick your tongue in a plug.",
           "~ Suck a pipe of exhaust.",
           "~ Make some toast in the tub.",
