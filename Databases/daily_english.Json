@@ -1337,11 +1337,35 @@
               "A tub of ice cream/margarine.",
               "@ A long plastic, metal, or ceramic container that is filled with water so that you can sit or lie in it to wash your whole body.",
               "It's good to sink into a nice, hot tub at the end of a hard day's work.",
+              "@ Short form of bathtub.",
               {
-                "bathtub": [""]
+                "bathtub": [
+                  "@ A container large enough for a person to sit in to take a bath.",
+                  [
+                    "Three of the victims were found in the home's swimming pool and another was discovered in a bathtub inside, police said.",
+                    "The students dicovered a camera filming the toilet and bathtub hidden inside a silver clock, the warrant states.",
+                    "The cute photos that many parents take of their young children splashing around in the bathtub, for example, generally end with toddlerhood."
+                  ]
+                ]
               }
             ],
-            "nail": [""],
+            "nail": [
+              "@ A small, thin piece of metal with one pointed end and one flat end that you hit into something with a hammer, esp. in order to fasten or join it to something else.",
+              "I stepped on a nail sticking out of the floorboards.",
+              "Hammer a nail into the wall and we'll hang the mirror from it.",
+              "@ A thin, hard area that covers the upper side of the end of each finger and each toe.",
+              "Stop biting your nails!",
+              "@ To fasten something with nails.",
+              "She had nailed a small shelf to the door.",
+              "A notice had been nailed up on the wall.",
+              "The lid of the box had been nailed down.",
+              "Workmen were nailing down the carpet.",
+              "@ To catch someone, esp. when they are doing something wrong, or to make it clear that they are guilty.",
+              "The police had been trying to nail those guys for months.",
+              "@ To do something successfully.",
+              "She nailed her audition and got the lead part in the musical.",
+              "You totally nail it!"
+            ],
             "cross": [""],
             "mace": [""],
             "dip": [""],
