@@ -1366,7 +1366,52 @@
               "She nailed her audition and got the lead part in the musical.",
               "You totally nail it!"
             ],
-            "cross": [""],
+            "cross": [
+              "@ To go across from one side of something to the other.",
+              "It's not a good place to cross the road.",
+              "Look both ways before you cross over.",
+              "Cross the bridge and turn right.",
+              "They crossed from Albania into Greece.",
+              "Leave the main road and cross the bridge, and keep going until you see a gate on the left-hand side.",
+              "@ To annoy someone by not doing or saying what they want.",
+              "I wouldn't cross him if I were you, not if you value your life.",
+              "My Dad gets cross with me if I leave the kitchen in a mess.",
+              "@ In some sports, to hit, kick, or throw the ball across the playing area to another player, not forward or backward.",
+              "He crossed to Bremer, who somehow failed to score from two meters out.",
+              "@ To draw two lines across the middle of a check to show that it needs to be paid into a bank account.",
+              "That's a crossed check.",
+              "@ A written mark (x or +) formed by two lines going across each other. The mark x is usually used to show where something is, or that something has not been written correctly.",
+              "@ An object made of one long upright piece of wood, with a smaller piece across it near the top. In the past, people were tied or fastened with nails to crosses as a punishment and left hanging on them until they died.",
+              "@ An object in the shape of a cross that people were killed on, used as a symbol of Christianity.",
+              "Christ died on the Cross.",
+              "She wears a gold cross around her neck.",
+              "The priest made the sign of the cross over the dead bodies.",
+              "@ A medal in the shape of a cross.",
+              "In Britain, the Victoria Cross is awarded for acts of great bravery during wartime.",
+              "@ If you cross a plant or animal with another of a different type, you cause them to breed together in order to produce a new variety.",
+              "@ A mixture of two different things that have been combined to produce something new.",
+              "Police dogs are often a cross between a retriever and a German Shepherd.",
+              {
+                "cross one's mind": [
+                  "@ If something cross your mind, you think of it.",
+                  "It crossed my mind yesterday that you must be short of staff.",
+                  "It never once crossed my mind that she might be unhappy."
+                ],
+                "cross your arms/fingers/legs": [
+                  "@ To put one of your arms, fingers, or legs over the top of the other.",
+                  "She sat down and crossed her legs."
+                ],
+                "cross yourself": [
+                  "@ When Catholics and some other types of Christians cross themselves, they move their hand down and then across their face or chest, making the shape of a cross."
+                ],
+                "cross-": [
+                  "@ Across",
+                  "cross-border.",
+                  "@ Including different groups or subjects.",
+                  "cross-party discussions."
+                ]
+              }
+            ],
             "mace": [""],
             "dip": [""],
             "skydive": [""],
