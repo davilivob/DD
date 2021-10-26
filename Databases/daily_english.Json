@@ -1470,7 +1470,10 @@
                 ]
               }
             ],
-            "Phillips head screw": [""]
+            "Phillips-head screw": [
+              "@ A type of screw that has a slot in its top that looks like a cross.",
+              "Henry Frank Phillips was an American businessman from Portland, Oregon. The Phillips-head (crosshead) screw and screwdriver are named after him."
+            ]
           }
         ]
       },
