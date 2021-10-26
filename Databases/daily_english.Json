@@ -8149,7 +8149,14 @@
         "That generation created a strange elite that handled power like it had been inherited through bloodlines."
       ]
     ],
-    "adverse": [""],
+    "adverse": [
+      "@ Having a negative or harmful effect on something.",
+      "The game has been canceled because of adverse weather conditions.",
+      "They received a lot of adverse publicity and criticism about the change.",
+      "So far the drug is thought not to have any adverse effects.",
+      "@ Going against something, or causing harm.",
+      "Her policies may have adverse effects on the economy."
+    ],
     "chimp": [""],
     "hormonal": [""],
     "sluggish": [""],
