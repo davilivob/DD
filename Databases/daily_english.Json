@@ -1426,7 +1426,40 @@
               "The police maced Williams twice before he was subdued.",
               "He was allegedly maced and hit with a golf club by two men."
             ],
-            "dip": [""],
+            "dip": [
+              "@ To put something into a liquid for a short time.",
+              "Dip the fish in the batter, then drop it into the hot oil.",
+              "She dipped her toe into the pool to see how cold it was.",
+              "@ To put sheep for a short time into a container of liquid containing chemicals that kill harmful insects on the sheep's bodies.",
+              "@ To go down to a lower level.",
+              "As you turn the corner, the road dips suddenly.",
+              "The sun dipped below the horizon.",
+              "Beans and lettuce may suffer if temperatures dip below freezing.",
+              "Stock market prices dipped slightly, losing four points.",
+              "House prices dipped in the first three months of the year.",
+              "@ To make the beam from the lights at the front of a vehicle point down.",
+              "You'll dazzle oncoming drivers if you don't dip your headlights.",
+              "@ A quick swim.",
+              "a dip in the ocean/pool.",
+              "@ A reduction in something, or the fact of something moving to a lower level.",
+              "After the yellow house, there's a dip in the road.",
+              "The dip in revenue doesn't mean the industry's several-year winning streak is coming to an end.",
+              "The newspaper is reporting the third straight monthly dip in advertising.",
+              "@ A short time spent considering a subject.",
+              "We begin our dip into local history by examining the town's origins.",
+              "Nearly all of our members have experienced a dip in their business this year.",
+              {
+                "dip a toe into sth": [
+                  "@ To start very carefully to do or become involved in something that you are not experienced at.",
+                  "Ordinary investors need to feel they are getting a good deal when they dip their toes into the stock market.",
+                  "If you are keen to dip your toes into European funds, there are number to choose from."
+                ],
+                "dip into your pocket": [
+                  "@ To spend some of your money on something.",
+                  "She admitted that she had been forced to dip into her own pocket to make up a funding shortfall."
+                ]
+              }
+            ],
             "skydive": [""],
             "Phillips head screw": [""]
           }
