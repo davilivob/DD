@@ -1308,7 +1308,14 @@
               "Have you plugged that leak in the pipe?",
               "My nose was bleeding and I plugged it with cotton wool.",
               {
-                "socket": [""]
+                "socket": [
+                  "@ The part of a piece of electrical equipment, into which another part fits.",
+                  "He had forgotten to plug the television into the mains socket.",
+                  "The air freshener plugs into a car's lighter socket.",
+                  "@ A hollow or curved part into which something fits.",
+                  "The bulb screwed easily into a socket.",
+                  "Somehow the bone was pulled from its socket."
+                ]
               }
             ],
             "exhaust": [""],
