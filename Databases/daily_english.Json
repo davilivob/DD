@@ -1286,15 +1286,36 @@
           "~ Eat a Phillips head screw.",
           "~ Marry Courtney Love.",
           {
-            "plug": [""],
+            "plug": [
+              "@ A small plastic or rubber object with two or three metal pins, attached to the end of a wire on a piece of electrical equipment and pushed into a special opening in a wall to connect the equipment to a supply of electricity.",
+              "If a plug is wired incorrectly, it can be dangerous.",
+              "@ An electric socket.",
+              "Is there a plug in the bedroom that I can use for my hair dryer?",
+              "@ A metal pin at the end of a long wire joined to a piece of electrical equipment and used to connect it to another piece of electrical equipment.",
+              "@ A round piece of rubber or plastic that fits into the hole in a sink or bathtub.",
+              "Put the plug in the sink and run some water.",
+              "@ A very small, young plant in a small amount of soil, often sold in a container with sections that each contain a plant.",
+              "You raise seed as plugs this summer and introduce the plants into the bed in the fall.",
+              "Look out for starter plugs in nurseries.",
+              "@ The act of telling people publicly about a product, event, etc..",
+              "She never misses an opportunity to get in a plug for her new movie.",
+              {
+                "socket": [""]
+              }
+            ],
             "exhaust": [""],
-            "tub": [""],
+            "tub": [
+              "",
+              {
+                "bathtub": [""]
+              }
+            ],
             "nail": [""],
             "cross": [""],
             "mace": [""],
             "dip": [""],
             "skydive": [""],
-            "Phillips head screw":[""]
+            "Phillips head screw": [""]
           }
         ]
       },
@@ -2472,7 +2493,7 @@
           "~ Such a modest mouse.",
           "~ I can't do it alone, I can't do it alone.",
           {},
-          "~ Wisdom's a gift, but you'd trade it for youth.",
+          "~ Wisdom is a gift, but you would trade it for youth.",
           "~ Age is an honor, it's still not the truth.",
           "~ We saw the stars when they hid from the world.",
           "~ You cursed the sun when it stepped to you girl.",
@@ -6294,7 +6315,12 @@
       " \"No date has yet been set for a strike\", the union said in a statements to the press this morning.",
       "The political activity of each affiliated union is highly regulated by statute.",
       {
-        "intersection": [""]
+        "intersection": [
+          "",
+          {
+            "section": [""]
+          }
+        ]
       }
     ],
     "predecessor": [
@@ -8740,6 +8766,16 @@
     "hurried": [""],
     "pocket": [""],
     "sprawling": [""],
-    "tardy": [""]
+    "tardy": [""],
+    "caution": [""],
+    "cowardice": [""],
+    "harbor": [""],
+    "balcony": [""],
+    "scenic": [""],
+    "absence": [""],
+    "ponder": [""],
+    "ruminate": [""],
+    "failure": [""],
+    "nursery": [""]
   }
 }

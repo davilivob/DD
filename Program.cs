@@ -97,7 +97,8 @@ namespace Typing_App
             string uploadjson = prev.ToString(Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText(@"Databases/TypingPracticeRecords.json", uploadjson);
         }
-        public void ifUploadFailed(){
+        public void ifUploadFailed()
+        {
             var json_element = new Json_element
             {
                 TestEndTime = DateTime.Now.ToString()
@@ -235,11 +236,30 @@ namespace Typing_App
             {
                 uploadtojson();
             }
-            catch (System.Exception)
+            catch (System.StackOverflowException n)
             {
-                Console.WriteLine("There's something going wrong, \nthe test record will upload to the 'latestTypingRecord.json' file.");
+                Console.WriteLine("There's something going wrong, "+n.Message+"\nthe test record will upload to the 'latestTypingRecord.json' file\n.");
                 ifUploadFailed();
-                throw;
+            }
+            catch (OutOfMemoryException n)
+            {
+                Console.WriteLine("There's something going wrong, "+n.Message+"\nthe test record will upload to the 'latestTypingRecord.json' file\n.");
+                ifUploadFailed();
+            }
+            catch (IOException n)
+            {
+                Console.WriteLine("There's something going wrong, "+n.Message+"\nthe test record will upload to the 'latestTypingRecord.json' file\n.");
+                ifUploadFailed();
+            }
+            catch (FormatException n)
+            {
+                Console.WriteLine("There's something going wrong, "+n.Message+"\nthe test record will upload to the 'latestTypingRecord.json' file\n.");
+                ifUploadFailed();
+            }
+            catch (ArgumentException n)
+            {
+                Console.WriteLine("There's something going wrong, "+n.Message+"\nthe test record will upload to the 'latestTypingRecord.json' file\n.");
+                ifUploadFailed();
             }
             finally
             {
