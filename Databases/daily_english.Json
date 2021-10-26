@@ -1318,7 +1318,17 @@
                 ]
               }
             ],
-            "exhaust": [""],
+            "exhaust": [
+              "@ To make someone extremely tired.",
+              "The long trip exhausted the children.",
+              "I've exhausted myself with all that cleaning.",
+              "@ To use something completely.",
+              "How long will it be before the world's fuel supplies are exhausted?",
+              "I'm afraid he's exhausted my patience.",
+              "We seem to have exhausted this topic of conversation.",
+              "@ The waste gas from an engine, esp. a car's, or the pipe the gas flows through.",
+              "Car exhaust is the main reason for the city's pollution."
+            ],
             "tub": [
               "",
               {
