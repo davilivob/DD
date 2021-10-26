@@ -1280,7 +1280,7 @@
           "~ Let Oprah sit on your face.",
           "~ Jump off of a bridge.",
           "~ Skinny-dip in a flood.",
-          "~ Skydive attached to a fridge.",
+          "~ Sky-dive attached to a fridge.",
           "~ Drink a Haitian guy's blood.",
           "~ Break into the zoo, give a tiger a shove.",
           "~ Eat a Phillips head screw.",
@@ -1460,7 +1460,16 @@
                 ]
               }
             ],
-            "skydive": [""],
+            "skydiving": [
+              "@ A sport in which a person jumps from an aircraft and falls for as long as possible before opening a parachute.",
+              {
+                "skydiver": [
+                  "@ A person who practices the sport of skydiving.",
+                  "As an experienced skydiver, he would have checked his main parachute himself before the jump.",
+                  "He was a skilled skydiver with numerous qualifications."
+                ]
+              }
+            ],
             "Phillips head screw": [""]
           }
         ]
