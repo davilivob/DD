@@ -1330,7 +1330,13 @@
               "Car exhaust is the main reason for the city's pollution."
             ],
             "tub": [
-              "",
+              "@ A large, round container with a flat base and an open top.",
+              "Outside was a stone patio with tubs of flowering plants.",
+              "The first part of the wine-making process is to crush the grapes in large tubs.",
+              "@ A small plastic container with a lid, used for storing food.",
+              "A tub of ice cream/margarine.",
+              "@ A long plastic, metal, or ceramic container that is filled with water so that you can sit or lie in it to wash your whole body.",
+              "It's good to sink into a nice, hot tub at the end of a hard day's work.",
               {
                 "bathtub": [""]
               }
