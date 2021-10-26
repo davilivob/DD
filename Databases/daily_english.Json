@@ -732,7 +732,7 @@
             "@ The set of rules or customs that control accepted behavior in particular social groups or social situations.",
             "Social etiquette dictates that men cannot sit while women are standing.",
             "Diplomatic etiquette forbids calling for the death of a national leader.",
-            "@ A set of rules tha helps people understand they should behave in particular business or professional situation.",
+            "@ A set of rules that helps people understand they should behave in particular business or professional situation.",
             "A report into corporate culture in Britain highlights how there has been a decline in all areas of business etiquette."
           ],
           "cape": [
@@ -2121,7 +2121,7 @@
           "~ Wake up at eleven thirty, feeling like a bag of shit (Oh no)!",
           "~ All my clothes are dirty, so I'm smelling like a bag of shit.",
           "~ Go to pour my coffee, and I miss my cup.",
-          "~ OMG, tha is just my luck.",
+          "~ OMG, that is just my luck.",
           "~ Look in the mirror, say, \"What's up, you useless juck\"?",
           {},
           "~ Are you feeling what I'm feeling?",
@@ -5392,7 +5392,7 @@
               "The eradication of smallpox by vaccination was one of medicine's greatest triumphs.",
               "His eyes gleamed in triumph.",
               "@ To have a very great success or victory.",
-              "I believe tha sooner or later good must triumph over evil.",
+              "I believe that sooner or later good must triumph over evil.",
               "The Democrats once again triumphed in recent elections.",
               {
                 "triumphant": [
@@ -7204,7 +7204,7 @@
       "Officials continued to hedge on exactly when the program would begin.",
       {
         "lawn": [
-          "@ An area of grass, esp. near to a house or in a park, tha is cut regularly to keep it short.",
+          "@ An area of grass, esp. near to a house or in a park, that is cut regularly to keep it short.",
           "Will you mow the lawn the weekend?",
           "The lawn was laid out in the form of the figure eight.",
           "Our lawn is frosted over.",
@@ -7418,7 +7418,7 @@
           "She has the physical attributes to become a championship swimmer.",
           "@ To say or think something is the result of a particular thing.",
           "Her success can be attributed to three main factors.",
-          "@ To say tha a particular person was the first one to say, do, invent something, etc..",
+          "@ To say that a particular person was the first one to say, do, invent something, etc..",
           "This idea has long been attributed to Keynes, but in fact he was not the first to think of it.",
           {
             "asset": [""]
@@ -8941,6 +8941,37 @@
     "patio": [""],
     "lid": [""],
     "margarine": [""],
-    "ceramic": [""]
+    "ceramic": [""],
+    "warrant": [""],
+    "toddlerhood": [""],
+    "breed": [""],
+    "upright": [""],
+    "priest": [""],
+    "bravery": [""],
+    "shepherd": [""],
+    "retriever": [""],
+    "nutmeg": [""],
+    "peppercorn": [""],
+    "rod": [""],
+    "dagger": [""],
+    "confront": [""],
+    "subdue": [""],
+    "allegedly": [""],
+    "golf club": [""],
+    "batter": [""],
+    "beam": [""],
+    "dazzle": [""],
+    "lettuce": [""],
+    "bean": [""],
+    "stock market": [""],
+    "ordinary": [""],
+    "fund": [""],
+    "keen": [""],
+    "shortfall": [""],
+    "make up": [""],
+    "streak": [""],
+    "nearly": [""],
+    "slot": [""],
+    "screwdriver": [""]
   }
 }
