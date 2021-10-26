@@ -4341,7 +4341,28 @@
       "@ An animal that produces eggs and uses the heat of the sun to keep its blood warm.",
       {
         "mammal": [
-          "@ Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs."
+          "@ Any animal of which the female feeds her young on milk from her own body. Most mammals give birth to live young, not eggs.",
+          {
+            "ape": [
+              "@ An animal like a large monkey with no tail, that uses its arms to move through trees.",
+              "Chimpanzees, orangutans and gorillas are both apes.",
+              "@ To copy something or someone badly and unsuccessfully.",
+              "He called the new building unoriginal and said that it merely aped the classical traditions.",
+              "Because of snob appeal, high-priced American clothing stores ape British usage and call suspenders \"braces\".",
+              {
+                "chimp": [
+                  "@ Informal of the word chimpanzee.",
+                  {
+                    "chimpanzee": [
+                      "@ A small, very intelligent African ape with black or brown fur."
+                    ]
+                  }
+                ],
+                "gorilla": [""],
+                "orangutan": [""]
+              }
+            ]
+          }
         ],
         "vertebrate": [
           "@ An animal that has a spine.",
@@ -8157,7 +8178,6 @@
       "@ Going against something, or causing harm.",
       "Her policies may have adverse effects on the economy."
     ],
-    "chimp": [""],
     "hormonal": [""],
     "sluggish": [""],
     "facility": [""],
@@ -8979,6 +8999,8 @@
     "streak": [""],
     "nearly": [""],
     "slot": [""],
-    "screwdriver": [""]
+    "screwdriver": [""],
+    "publicity": [""],
+    "criticism": [""]
   }
 }
