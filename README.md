@@ -130,7 +130,9 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<img align="center" src="images/example.gif"></img>
+<div align="center">
+  <img src="images/example.gif"></img>
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
