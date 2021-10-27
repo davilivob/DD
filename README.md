@@ -130,7 +130,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<p align="center">![Product Name Screen Shot][example-process]</p>
+<p align="center" src="images/example.gif"></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
