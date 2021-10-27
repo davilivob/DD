@@ -138,10 +138,10 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
+<!-- - [] Feature 1
 - [] Feature 2
 - [] Feature 3
-    - [] Nested Feature
+    - [] Nested Feature -->
 
 See the [open issues](https://github.com/dovilivob/MakeYourselfADictionary-English_version/issues) for a full list of proposed features (and known issues).
 
@@ -213,5 +213,5 @@ Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_vers
 [license-url]: https://github.com/dovilivob/MakeYourselfADictionary-English_version/blob/master/LICENSE.txt
 [instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
 [instagram-url]: https://instagram.com/_dovilivob
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/example.gif
 [Example-process]: images/example.gif
