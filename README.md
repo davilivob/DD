@@ -218,5 +218,5 @@ Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_vers
 [license-url]: https://github.com/dovilivob/MakeYourselfADictionary-English_version/blob/master/LICENSE.txt
 [instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
 [instagram-url]: https://instagram.com/_dovilivob
-[product-screenshot]: images/example.gif
+[product-screenshot]: http://b10862032.newmedia.tw/images/example.gif
 [Example-process]: http://b10862032.newmedia.tw/images/example.gif
