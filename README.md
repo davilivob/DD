@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dovilivob/MakeYourselfADictionary-English_version">
-    <img src="images/logo.png" alt="Logo" width="200" height="200">
+    <img src="http://b10862032.newmedia.tw/images/logo.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">{<br>"Dictionary": [""],<br>"": [""]<br>}</h3>
@@ -219,4 +219,4 @@ Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_vers
 [instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
 [instagram-url]: https://instagram.com/_dovilivob
 [product-screenshot]: images/example.gif
-[Example-process]: images/example.gif
+[Example-process]: http://b10862032.newmedia.tw/images/example.gif
