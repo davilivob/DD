@@ -82,7 +82,7 @@
 ## About The Project
 
 <div align="center">
-  <img src="images/example.gif"></img>
+  <img src="http://b10862032.newmedia.tw/images/example.gif"></img>
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -133,7 +133,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 ## Usage
 
 <div align="center">
-  <img src="images/example.gif"></img>
+  <img src="http://b10862032.newmedia.tw/images/example.gif"></img>
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
