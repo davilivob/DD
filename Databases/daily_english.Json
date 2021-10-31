@@ -5804,10 +5804,15 @@
       },
       {
         "fierce": [
+          "@ Physically violent and frightening.",
           "Two men were shot during fierce fighting last weekend.",
+          "@ Strong and powerful.",
           "Firefighters had to retreat from the fierce heat.",
+          "@ Showing strong feeling or energetic activity.",
           "There is fierce competition to join the Special Branch",
+          "@ Difficult.",
           "The chemistry exam was fierce (= difficult).",
+          "@ looking confident and acting in a way that shows that you feel good about yourself and your appearance.",
           "The girl group look fierce around a swimming pool in the video for their new single.",
           "But, as soon as the war ended, social unrest spread rapidly because of fierce inflation and other factors.",
           {
@@ -6759,6 +6764,16 @@
               "For example, male and female hormones, growth hormones."
             ]
           }
+        ],
+        "bloodline": [
+          "@ All the members of a family group of people or animals over a period of time, especially when considering their shared family characteristics.",
+          "Ismailis believe that a bloodline joins the Aga Khan to Mohammed.",
+          "This is a pedigree poodle - her bloodline is pure.",
+          [
+            "Everything there is connected to everything else -- the people, too, many of whom share last names even if they don't remember how they share bloodlines.",
+            "Selflessness doesn't seem to be one of those qualities that ensure survival of a bloodline, since, by definition, it means acting against oneself.",
+            "That generation created a strange elite that handled power like it had been inherited through bloodlines."
+          ]
         ]
       },
       {
@@ -8826,16 +8841,6 @@
         ]
       }
     ],
-    "bloodline": [
-      "@ All the members of a family group of people or animals over a period of time, especially when considering their shared family characteristics.",
-      "Ismailis believe that a bloodline joins the Aga Khan to Mohammed.",
-      "This is a pedigree poodle - her bloodline is pure.",
-      [
-        "Everything there is connected to everything else -- the people, too, many of whom share last names even if they don't remember how they share bloodlines.",
-        "Selflessness doesn't seem to be one of those qualities that ensure survival of a bloodline, since, by definition, it means acting against oneself.",
-        "That generation created a strange elite that handled power like it had been inherited through bloodlines."
-      ]
-    ],
     "adverse": [
       "@ Having a negative or harmful effect on something.",
       "The game has been canceled because of adverse weather conditions.",
@@ -8844,7 +8849,25 @@
       "@ Going against something, or causing harm.",
       "Her policies may have adverse effects on the economy."
     ],
-    "sluggish": [""],
+    "sluggish": [
+      "@ Moving or operating more slowly than usual and with less energy or power.",
+      "A heavy lunch makes me sluggish in the afternoon.",
+      "Something is wrong with the car - the engine feels sluggish.",
+      "The housing market has been very sluggish these part few years.",
+      "Fierce competition and sluggish demand have resulted in very poor sales.",
+      {
+        "sluggishly": [
+          "@ In a sluggish way.",
+          "The band played sluggishly and appeared bored.",
+          "The stream runs sluggishly down from the hills in the April heat before the arrival of the June monsoon."
+        ],
+        "sluggishness": [
+          "@ The quality or fact of being sluggish.",
+          "I've been experiencing a few minor health issues recently, such as fatigue and general sluggishness.",
+          "The market, despite its general economic sluggishness, is also expanding."
+        ]
+      }
+    ],
     "facility": [""],
     "plung": [""],
     "generous": [""],
