@@ -10,12 +10,15 @@ from MyModules import (
 )
 
 Dictionary = File.Load.Dictionary
+defi = File.Load.definition
+comp = File.Load.comparison
+lyri = File.Load.lyric
 sentenceEnd = ['."', '!"', '?"']
 Dictionary = (
     Dictionary.replace('": [', "詞")
-    .replace('"@', "定")
-    .replace('"&', "比")
-    .replace('"~', "歌")
+    .replace(defi, "定")
+    .replace(comp, "比")
+    .replace(lyri, "歌")
 )
 Dictionary = Dictionary.replace('""', "空")
 for element in sentenceEnd:

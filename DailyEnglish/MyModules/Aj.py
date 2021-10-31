@@ -5,8 +5,39 @@ d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
 import MyModules.TimerLoadBar as TimeBar
 import json
+# sys.setrecursionlimit(200000)
+
+# amount = []
+# lastNum = 0
+
+
+# def ArrayCounter(Array, num):
+#     global amount
+#     global lastNum
+#     if num == len(Array) - 1:
+#         amount.append([num + 1 - lastNum, Array[num]])
+#         lastNum = num + 1
+#     else:
+#         if Array[num] == Array[num + 1]:
+#             ArrayCounter(Array, num + 1)
+#         if Array[num] != Array[num + 1]:
+#             amount.append([num + 1 - lastNum, Array[num]])
+#             lastNum = num + 1
+#             ArrayCounter(Array, num + 1)
+#     return amount
+
+
 def CreateRepeatedArray(Array):
+    # global amount
+    # global lastNum
+    # Array.sort()
+    # Array2 = ArrayCounter(Array, 0)
+    # amount, lastNum = [], 0
+    # Array2.sort(reverse=True)
+    # return Array2
+    # ArrayCounter(Array, 0)
     TwoDArray = []
+    # Array.sort()
     for element in Array:
         TimeBar.Adding()
         if [0, element] not in TwoDArray:
@@ -59,6 +90,7 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "she's", "she", "is")
         splitQruotationMark(wordsList, "it's", "it", "is")
         splitQruotationMark(wordsList, "there's", "there", "is")
+        splitQruotationMark(wordsList, "here's", "here", "is")
         splitQruotationMark(wordsList, "that's", "that", "is")
         splitQruotationMark(wordsList, "what's", "what", "is")
         splitQruotationMark(wordsList, "who's", "who", "is")
@@ -100,6 +132,7 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "sb", "somebody", "'")
         splitQruotationMark(wordsList, "'cause", "because", "'")
         splitQruotationMark(wordsList, "'til", "until", "'")
+        splitQruotationMark(wordsList, "'bout", "about", "'")
         splitQruotationMark(wordsList, "'em", "them", "'")
         splitQruotationMark(wordsList, "o'clock", "o", "clock")
         splitQruotationMark(wordsList, "etc", "et", "cetera")

@@ -1,5 +1,8 @@
 {
-  "PrevTime": 0.08423089981079102,
+  "PrevTime": 0.0323033332824707,
   "doTheTimeBar": 1,
-  "fillBar": 1
+  "fillBar": 1,
+  "definition": "\"@",
+  "comparison": "\"&",
+  "lyric": "\"~"
 }

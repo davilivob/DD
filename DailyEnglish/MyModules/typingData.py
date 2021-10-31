@@ -50,8 +50,10 @@ class TypingTest:
         Math.takeDecimal(avgAccuracy * 100, 1, 100),
         Math.takeDecimal(avgBackrate * 100, 1, 100),
     )
-    WrongCharsRepeated = AJ.CreateRepeatedArray(WrongChars)
-    
+    WrongWordsRepeated, WrongCharsRepeated = (
+        AJ.CreateRepeatedArray(WrongWords),
+        AJ.CreateRepeatedArray(WrongChars),
+    )
 
     for element in WrongCharsRepeated:
         if element[1] in allCharsIWant:
@@ -60,7 +62,6 @@ class TypingTest:
         WrongCharsRepeated.append([0, char])
 
     WrongCharsRepeatedJson = AJ.CreateJsonObject(WrongCharsRepeated)
-    
 
     TypoRate = WrongCharsRepeated
 
