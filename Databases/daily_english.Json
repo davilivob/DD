@@ -8248,7 +8248,27 @@
           }
         ],
         "plaza": [""],
-        "skyscraper": [""]
+        "skyscraper": [""],
+        "facility": [
+          "@ A place, esp. including buildings, where a particular activity happens.",
+          "The new sports facility has a swimming pool.",
+          "The company is building a training facility in Oakland.",
+          "She works as a chaplain in a juvenile detention facility.",
+          "@ An ability to do something easily or well.",
+          "His facility for langrages is astonishing.",
+          "Her facility for memorizing dates was astonishing.",
+          "@ A feature of a product that allows you to do something.",
+          "It's a computer with a speech recognition facility.",
+          "He asked the bank to increase his overdraft facility.",
+          "Another useful facility of the software is an embedded dictionary.",
+          {
+            "facilities": [
+              "@ Equipment, rooms, etc. that are provided for people to use.",
+              "The community center has some of the newest equipment and best facilities in town.",
+              "Are non-members allowed to use the facilities?"
+            ]
+          }
+        ]
       }
     ],
     "lackey": [
@@ -8868,7 +8888,6 @@
         ]
       }
     ],
-    "facility": [""],
     "plung": [""],
     "generous": [""],
     "orchestra": [""],
