@@ -16,17 +16,17 @@ namespace Typing_App
     }
     public class Test : UploadToJson, showResult
     {
-        public ArrayList BadChars { get; set; }
-        public int Chars { get; set; }
-        public int BackTime { get; set; }
-        public int TestTime { get; set; }
-        public int State { get; set; }
-        public ArrayList word { get; set; }
-        public ArrayList recordRandom { get; set; }
-        public Timer timer { get; set; }
-        public int TimeStart { get; set; }
-        public int row { get; set; }
-        public string[] wordsArray { get; set; }
+        private ArrayList BadChars { get; set; }
+        private int Chars { get; set; }
+        private int BackTime { get; set; }
+        private int TestTime { get; set; }
+        private int State { get; set; }
+        private ArrayList word { get; set; }
+        private ArrayList recordRandom { get; set; }
+        private Timer timer { get; set; }
+        private int TimeStart { get; set; }
+        private int row { get; set; }
+        private string[] wordsArray { get; set; }
         public bool testEnd { get; set; }
         public Test(ushort testTime, string[] _wordsArray)
         {
@@ -41,7 +41,7 @@ namespace Typing_App
             wordsArray = _wordsArray;
             testEnd = false;
         }
-        public void setTimer()
+        private void setTimer()
         {
             timer = new Timer(1000);
             timer.Elapsed += new ElapsedEventHandler(Timesup);
@@ -49,25 +49,25 @@ namespace Typing_App
             timer.Interval = TestTime * 1000 * 60;
             timer.Enabled = true;
         }
-        public int GoodChars()
+        private int GoodChars()
         {
             return Chars - BadChars.Count;
         }
-        public double Accuracy()
+        private double Accuracy()
         {
             return Convert.ToDouble(GoodChars() + BackTime) /
                 Convert.ToDouble(Chars + BackTime);
         }
-        public double Backspace_Freq()
+        private double Backspace_Freq()
         {
             return Convert.ToDouble(BackTime) /
                 Convert.ToDouble(Chars + BackTime);
         }
-        public float wpm()
+        private float wpm()
         {
             return cpm() / 5; ;
         }
-        public float cpm()
+        private float cpm()
         {
             return Chars / TestTime;
         }
