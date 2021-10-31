@@ -92,8 +92,7 @@
 ### Built With
 
 * [VS Code](https://code.visualstudio.com/)
-* [Python3](https://python.org/)
-* [Pypy3](https://pypy.org/)
+* [Python3](https://python.org/) or [Pypy3](https://pypy.org/)
 * [.NET](https://dotnet.microsoft.com/)
 * [Json](https://json.org/)
 
