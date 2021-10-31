@@ -9,11 +9,11 @@ import MyModules.TimerLoadBar as TimeBar
 
 
 class Load:
-    with open("Databases\Database.json", mode="r", encoding="utf-8") as file:
-        load_json = json.loads(file.read().replace("\n",""))
+    with open("Databases/Database.json", mode="r", encoding="utf-8") as file:
+        load_json = json.loads(file.read())
         TimeBar.Adding()
 
-    with open("Databases\daily_english.json", mode="r", encoding="utf-8") as file:
+    with open("Databases/daily_english.json", mode="r", encoding="utf-8") as file:
         Dictionary = file.read()
         TimeBar.Adding()
 
@@ -24,9 +24,15 @@ class Load:
     # lastAllan = load_json[3]["Project Statment"]["Allan Poe Index"]
 
     with open(
-        "Databases\TypingPracticeRecords.json", mode="r", encoding="utf-8"
+        "Databases/TypingPracticeRecords.json", mode="r", encoding="utf-8"
     ) as file:
         typingJson = file.read()
         TimeBar.Adding()
         typingDatas = json.loads(typingJson)
         TimeBar.Adding()
+
+    with open("Databases/Setting.json", mode="r",encoding="utf-8") as file:
+        setting = json.loads(file.read())
+        definition = setting["definition"]
+        comparison = setting["comparison"]
+        lyric = setting["lyric"]

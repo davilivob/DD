@@ -127,7 +127,7 @@ def UploadDatasToJson():
         },
     }
 
-    with open("Databases\Database.json", mode="w") as file:
+    with open("Databases/Database.json", mode="w") as file:
         json.dump(
             [
                 {"Words List": wordsList},
@@ -140,10 +140,17 @@ def UploadDatasToJson():
         )
 
     def settingUpload():
-        return {"PrevTime": TimeBar.timeNow(), "doTheTimeBar": 1, "fillBar": 1}
+        return {
+            "PrevTime": TimeBar.timeNow(),
+            "doTheTimeBar": 1,
+            "fillBar": 1,
+            "definition": File.Load.definition,
+            "comparison": File.Load.comparison,
+            "lyric": File.Load.lyric,
+        }
 
-    with open("Databases\Setting.json", mode="w") as file:
-        json.dump(settingUpload(), file)
+    with open("Databases/Setting.json", mode="w") as file:
+        json.dump(settingUpload(), file, indent=2)
 
 
 class Write:
