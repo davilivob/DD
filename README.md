@@ -109,7 +109,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 
 ### Prerequisites
 
-* Build a c# project
+* Build a new c# console application 
   ```sh
   dotnet new console
   ```
