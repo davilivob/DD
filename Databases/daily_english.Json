@@ -6747,7 +6747,19 @@
       {
         "nerve": [""],
         "blood vessel": [""],
-        "artery": [""]
+        "artery": [""],
+        "hormonal": [
+          "@ Relating to hormones.",
+          "A hormonal imbalance.",
+          "@ Feeling the effect of hormones, esp. when this makes your emotions stronger or more likely to change than usual.",
+          "I was pregnant and feeling a bit hormonal.",
+          {
+            "hormone": [
+              "@ Any of various chemicals made by living cells that influence the development, growth, sex, etc. of an animal and are carried around the body in the blood.",
+              "For example, male and female hormones, growth hormones."
+            ]
+          }
+        ]
       },
       {
         "urine": [
@@ -8832,7 +8844,6 @@
       "@ Going against something, or causing harm.",
       "Her policies may have adverse effects on the economy."
     ],
-    "hormonal": [""],
     "sluggish": [""],
     "facility": [""],
     "plung": [""],
