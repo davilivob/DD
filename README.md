@@ -125,16 +125,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-
-<!-- *** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use. -->
-
 https://user-images.githubusercontent.com/84217108/140265720-d5dae600-1d27-43e0-831f-8a1d4c685fca.mp4
-
-<!-- 
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
