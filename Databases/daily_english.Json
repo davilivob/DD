@@ -5628,12 +5628,17 @@
               "Both houses of Congress have rejected the recent presidential proposal on gun control.",
               {
                 "congressman": [
-                  "@ A man who belongs to a congress, especially a member of the U.S. House of Representatives.",
+                  "@ A man who belongs to a congress, esp. a member of the U.S. House of Representatives.",
                   "He was accused of perjury by a Republican congressman.",
                   "She invited the wife of an Illinois congressman to tea.",
                   "He's just an obscure congressman, not the president.",
                   {
-                    "congresswoman": [""]
+                    "congresswoman": [
+                      "@ A woman who belongs to a congress, esp. a member of the U.S. House of Representatives.",
+                      "She's a former Republican congresswoman.",
+                      "He criticized the congresswoman's vote.",
+                      "The congresswoman is a tireless campaigner against abortion."
+                    ]
                   }
                 ],
                 "council": [""],
