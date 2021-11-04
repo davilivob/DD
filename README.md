@@ -58,15 +58,15 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#build-up">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <!-- <li><a href="#contributing">Contributing</a></li> -->
+    <!-- <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
 
@@ -108,7 +108,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
   dotnet new console
   ```
 
-### Paste Codes from `DotnetCodes.txt` to the `Program.cs` & the `DailyEnglish.csproj file`
+### Build Up
 
 1. Open the `DotnetCodes.txt`
 2. Copy the codes from line 3 to line 338 inside the file, then paste them to the `Program.cs`.
