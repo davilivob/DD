@@ -82,7 +82,7 @@
 ## About The Project
 
 <div align="center">
-  <img src="http://b10862032.newmedia.tw/images/example.gif"></img>
+  <img src="http://b10862032.newmedia.tw/images/screen-shot.png"></img>
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
