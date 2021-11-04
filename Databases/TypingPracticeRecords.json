@@ -1085,5 +1085,43 @@
       "Spaces",
       "d"
     ]
+  },
+  {
+    "TestEndTime": "2021/10/31 P.M. 07:57:36",
+    "TestLength": 1,
+    "TotalChars": 280,
+    "GoodChars": 251,
+    "TotalBack": 19,
+    "WrongChars": [
+      "Spaces",
+      "Spaces",
+      "w",
+      "a",
+      "e",
+      "t",
+      "i",
+      "a",
+      "f",
+      "u",
+      "l",
+      "p",
+      "i",
+      "n",
+      "k",
+      "s",
+      "i",
+      "k",
+      "l",
+      "n",
+      "o",
+      "s",
+      "a",
+      "d",
+      "c",
+      "a",
+      "h",
+      "e",
+      "s"
+    ]
   }
 ]

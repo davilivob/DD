@@ -5467,6 +5467,17 @@
             "benevolence": [""]
           }
         ],
+        "generous": [
+          "@ Willing to give money, help, kindness, etc., esp. more then is usual or expected.",
+          "It was generous of you to lend me the money.",
+          "She's been very generous with her time.",
+          "There's generous review of the book in today's newspaper.",
+          "@ Larger than usual or expected.",
+          "A generous slice of cake, a generous pay increase.",
+          {
+            "generously": [""]
+          }
+        ],
         "idyllic": [
           "",
           {
@@ -8902,7 +8913,6 @@
         ]
       }
     ],
-    "generous": [""],
     "orchestra": [""],
     "helmet": [""],
     "film developer": [
@@ -9733,6 +9743,7 @@
     "astonishing": [""],
     "overdraft": [""],
     "chaplain": [""],
-    "detention": [""]
+    "detention": [""],
+    "pea": [""]
   }
 }

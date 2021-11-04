@@ -65,7 +65,7 @@ namespace Typing_App
         }
         private float wpm()
         {
-            return cpm() / 5; ;
+            return cpm() / 5;
         }
         private float cpm()
         {
