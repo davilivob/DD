@@ -5641,7 +5641,13 @@
                     ]
                   }
                 ],
-                "council": [""],
+                "council": [
+                  "@ A group of people elected or chosen to make decisions or give advice on a particular subject, to represent a particular group of people, or to run a particular organization.",
+                  "This play is supported by a grant from the local arts council.",
+                  "@ The group of people elected to govern a particular area, town, or city, and organize services for it.",
+                  "The city council is responsible for keeping the streets clean.",
+                  "The local council has decided not to allocate funds for the project."
+                ],
                 "senator": [""]
               }
             ],
