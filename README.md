@@ -125,11 +125,10 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-https://user-images.githubusercontent.com/84217108/140265720-d5dae600-1d27-43e0-831f-8a1d4c685fca.mp4
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+https://user-images.githubusercontent.com/84217108/140286655-8142f591-ce42-4269-b6f6-62e6750242a2.mp4
 
 <!-- ROADMAP -->
 ## Roadmap
