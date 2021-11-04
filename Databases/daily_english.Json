@@ -5475,7 +5475,13 @@
           "@ Larger than usual or expected.",
           "A generous slice of cake, a generous pay increase.",
           {
-            "generously": [""]
+            "generously": [
+              "Please give generously to charity.",
+              "She behaved very generously toward us, and wouldn't allow us to pay for anything.",
+              "@ In a way that is larger than usual or expected.",
+              "The jacket is very generously cut.",
+              "An unusually large hallway provides access to four generously proportioned bedrooms."
+            ]
           }
         ],
         "idyllic": [
