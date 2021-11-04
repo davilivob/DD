@@ -5532,7 +5532,15 @@
           "A large mirror in a room can create the illusion of space.",
           "The impression of calm in the office is just an illusion.",
           {
-            "illusory": [""]
+            "illusory": [
+              "@ Not real and based on illusion.",
+              "Their hopes of peaceful solution turned out to be illusory.",
+              [
+                "It's no surprise, then, that external peace is illusory.",
+                "That unanimity, however, is illusory, often just a technical agreement on the bottom line of a case -- who won and who lost.",
+                "And while workers get squeezed in the name of lower prices, the overall benefits to consumers may be illusory."
+              ]
+            ]
           }
         ]
       }
