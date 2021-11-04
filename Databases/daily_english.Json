@@ -5648,7 +5648,15 @@
                   "The city council is responsible for keeping the streets clean.",
                   "The local council has decided not to allocate funds for the project."
                 ],
-                "senator": [""]
+                "senator": [
+                  "@ A politician who has been elected to a Senate.",
+                  "Only two senators voted against the bill.",
+                  "It's a pleasure to meet you, Senator.",
+                  "Write to your senator about your concerns.",
+                  {
+                    "senate": [""]
+                  }
+                ]
               }
             ],
             "debate": [
