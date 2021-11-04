@@ -135,7 +135,7 @@ Then, just open up the `./DailyEnglish` folder in the `VS Code`.
   <img src="http://b10862032.newmedia.tw/images/example.gif"></img>
 </div> -->
 <div align="center">
-  <video width="320" height="240" controls>
+  <video controls>
     <source src="http://b10862032.newmedia.tw/images/example.mp4" type="video/mp4">
   </video>
 </div>
