@@ -5654,7 +5654,12 @@
                   "It's a pleasure to meet you, Senator.",
                   "Write to your senator about your concerns.",
                   {
-                    "senate": [""]
+                    "senate": [
+                      "@ One of the two groups of politicians who make laws in some political systems such as in the U.S., Australia, and France, often having different powers from the other group and different rules for members, for example being elected for a longer period.",
+                      "The law has no chance of being passed by the Senate.",
+                      "The U.S. Senate has a hundred members.",
+                      "The U.K. doesn't have a senate; it has a House of Lords."
+                    ]
                   }
                 ]
               }
