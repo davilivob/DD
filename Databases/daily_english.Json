@@ -9040,7 +9040,29 @@
         ]
       }
     ],
-    "orchestra": [""],
+    "orchestra": [
+      "@ A large group of musicians who play many different instruments together and are led by a conductor.",
+      "She's a cellist in the City of Birmingham Symphony Orchestra.",
+      "The orchestra was conducted by Mira Shapur.",
+      "The orchestra is to perform its last ever concert tomorrow night at the Albert Hall.",
+      "The orchestra played superbly.",
+      "We admired the sureness of the orchestra's playing.",
+      "@ The orchestra of a theater is the part on the main floor.",
+      "We've got seats in the fifth row of the orchestra.",
+      {
+        "orchestral":[""]
+      },
+      {
+        "conductor": [
+          "",
+          {
+            "conduct": [""]
+          }
+        ],
+        "symphony": [""],
+        "cellist": [""]
+      }
+    ],
     "helmet": [""],
     "film developer": [
       "",
@@ -9184,7 +9206,6 @@
     ],
     "hostile": [""],
     "dazzling": [""],
-    "conduct": [""],
     "oblong": [""],
     "feature": [""],
     "spiritual": [""],
