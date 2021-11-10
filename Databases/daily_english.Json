@@ -7947,7 +7947,38 @@
           "The famous jazz musician, Duke Ellington; was a composer, arranger and pianist.",
           "As a composer, he was up there with the best."
         ],
-        "acrobat": [""]
+        "acrobat": [""],
+        "orchestra": [
+          "@ A large group of musicians who play many different instruments together and are led by a conductor.",
+          "She's a cellist in the City of Birmingham Symphony Orchestra.",
+          "The orchestra was conducted by Mira Shapur.",
+          "The orchestra is to perform its last ever concert tomorrow night at the Albert Hall.",
+          "The orchestra played superbly.",
+          "We admired the sureness of the orchestra's playing.",
+          "@ The orchestra of a theater is the part on the main floor.",
+          "We've got seats in the fifth row of the orchestra.",
+          {
+            "orchestral": [
+              "@ Connected with or involving an orchestra.",
+              "The orchestral playing was tight and elegant.",
+              "They have annual performances of the composer's major orchestral scores.",
+              "He entered to rousing orchestral and choral music.",
+              "She sang \"Over the Rainbow\" to live orchestral accompaniment."
+            ]
+          },
+          {
+            "conductor": [
+              "",
+              {
+                "conduct": [""]
+              }
+            ],
+            "symphony": [""],
+            "cellist": [""],
+            "choral": [""],
+            "accompaniment": [""]
+          }
+        ]
       }
     ],
     "aircraft": [
@@ -9040,37 +9071,6 @@
         ]
       }
     ],
-    "orchestra": [
-      "@ A large group of musicians who play many different instruments together and are led by a conductor.",
-      "She's a cellist in the City of Birmingham Symphony Orchestra.",
-      "The orchestra was conducted by Mira Shapur.",
-      "The orchestra is to perform its last ever concert tomorrow night at the Albert Hall.",
-      "The orchestra played superbly.",
-      "We admired the sureness of the orchestra's playing.",
-      "@ The orchestra of a theater is the part on the main floor.",
-      "We've got seats in the fifth row of the orchestra.",
-      {
-        "orchestral": [
-          "@ Connected with or involving an orchestra.",
-          "The orchestral playing was tight and elegant.",
-          "They have annual performances of the composer's major orchestral scores.",
-          "He entered to rousing orchestral and choral music.",
-          "She sang \"Over the Rainbow\" to live orchestral accompaniment."
-        ]
-      },
-      {
-        "conductor": [
-          "",
-          {
-            "conduct": [""]
-          }
-        ],
-        "symphony": [""],
-        "cellist": [""],
-        "choral": [""],
-        "accompaniment": [""]
-      }
-    ],
     "helmet": [""],
     "film developer": [
       "",
@@ -9928,6 +9928,10 @@
     "overlap": [""],
     "skull": [""],
     "simplify": [""],
-    "exaggerate": [""]
+    "exaggerate": [""],
+    "birmingham": [""],
+    "superbly": [""],
+    "sureness": [""],
+    "rousing": [""]
   }
 }
