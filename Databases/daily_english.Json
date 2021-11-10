@@ -5185,35 +5185,6 @@
         ]
       }
     ],
-    "scarcely": [
-      "I could scarcely believe it when she said she wanted to marry me.",
-      "I had scarcely sat down to eat when the phone rang.",
-      {
-        "barely": [
-          "& ' barely ', ' scarcely ' and ' hardly ' are basically interchangeable."
-        ],
-        "hardly": ["& Yeah, they're the same."],
-        "scarcity": [""]
-      },
-      {
-        "handful": [
-          "@ An amount of something that can be held in one hand.",
-          "He pulled out a handful of coins from his pocket.",
-          "@ A small number of people or things.",
-          "She invited all her friends to her party but only a handful of them turned up.",
-          "@ A person, often a child, who is difficult to control.",
-          "Her older son is fine but the little one is a bit of handful."
-        ],
-        "pile": [""]
-      },
-      {
-        "quasi-": [
-          "Do companies need to be quasi-monopolies to survive in this new global economy?",
-          "Mandatory arbitration is a private, quasi-legal system of resolving disputes.",
-          "Laborers sometimes served as quasi-soldiers."
-        ]
-      }
-    ],
     "permanent": [
       "Are you looking for a temporary or a permanent job?",
       {
@@ -6741,6 +6712,44 @@
           "@ If an action or attempt to do something is fruitless, it is unsuccessful or produces nothing of value.",
           "All diplomatic attempts at a peaceful solution to the crisis have been fruitless.",
           "After months of fruitless negotiations with team owners, the city withdrew its offer to build a new stadium."
+        ],
+        "scarcely": [
+          "I could scarcely believe it when she said she wanted to marry me.",
+          "I had scarcely sat down to eat when the phone rang.",
+          {
+            "scarcity": [
+              "@ A situation in which something is not easy to find osectorr get.",
+              "There's a scarcity of skilled workers in the building.",
+              "@ A lack of something.",
+              "A scarcity of flour makes bread, cake, and other baked goods more expensive."
+            ]
+          },
+          {
+            "barely": [
+              "& ' barely ', ' scarcely ' and ' hardly ' are basically interchangeable."
+            ],
+            "hardly": [
+              "& Yeah, they're the same."
+            ]
+          },
+          {
+            "handful": [
+              "@ An amount of something that can be held in one hand.",
+              "He pulled out a handful of coins from his pocket.",
+              "@ A small number of people or things.",
+              "She invited all her friends to her party but only a handful of them turned up.",
+              "@ A person, often a child, who is difficult to control.",
+              "Her older son is fine but the little one is a bit of handful."
+            ],
+            "pile": [""]
+          },
+          {
+            "quasi-": [
+              "Do companies need to be quasi-monopolies to survive in this new global economy?",
+              "Mandatory arbitration is a private, quasi-legal system of resolving disputes.",
+              "Laborers sometimes served as quasi-soldiers."
+            ]
+          }
         ],
         "unaided": [
           "@ According to the Oxford dictionary, unaided means ' without help from anyone or anything '",
