@@ -6890,7 +6890,14 @@
               "@ The ability to be calm in difficult situation.",
               "You need a cool head and steady nerves for this job."
             ],
-            "neuron": [""],
+            "neuron": [
+              "@ A nerve cell that carries information between the brain and other parts of the body.",
+              [
+                "In the brain, the networks of neurons responsible for pleasure overlap with, but operate separately from, those that generate the \"coffeeness\" sensation.",
+                "It can injure hundreds and hundreds of neurons inside the skull, every one of which might be important for something.",
+                "The exaggerated and oversimplified story about neurons has been swallowed whole by the media and much of the public."
+              ]
+            ],
             "neurotransmitter": [
               "@ A chemical that carries messages between neurons or between neurons and muscles."
             ]
