@@ -6856,7 +6856,46 @@
         ]
       },
       {
-        "nerve": [""],
+        "nerve": [
+          "@ A group of long, thin fibers (= structures like threads) that carry information or instructions between the brain and other parts of the body.",
+          "The newspaper article touched a raw nerve - people still resent the closure of the local school.",
+          "Repairing damaged nerves is a very delicate operation.",
+          "The drug paralyzes the nerves so that there is no feeling or movement in the legs.",
+          "The nerves are protected by thin sheaths of fatty tissue.",
+          "@ The courage or confidence necessary to do something difficult, unpleasant, or rude.",
+          "It takes a lot of nerve to be a bomb disposal expert.",
+          "I wanted to ask her out, but I lost my nerve and couldn't go through with it.",
+          "I didn't have the nerve to tell him what I really thought of his suggestion.",
+          "@ The rudeness to do something that you know will upset other people.",
+          "She's late for work every day, but she still has the nerve to lecture me about punctuality.",
+          "That man has some nerve! He's always blaming me for things that are his fault.",
+          "She drove the car into a tree and then told me it was my fault for not concentrating, of all the nerve!",
+          {
+            "nerves": [
+              "@ Worry or anxiety about something that is going to happen.",
+              "I never suffer from nerves when I'm speaking in public.",
+              "She was a bundle of nerves before the audition.",
+              "I always have a cigarette to calm my nerves before I go on stage."
+            ],
+            "nerve yourself": [
+              "@ To make yourself brave enough to do something.",
+              "It took her several months before she eventually nerved herself up to invite him to her house."
+            ],
+            "get on sb's nerves": [
+              "@ To annoy someone a lot.",
+              "We really got on each other's nerves when we were living together.",
+              "Please stop making that noise! It really gets on my nerves."
+            ],
+            "steady/strong nerves": [
+              "@ The ability to be calm in difficult situation.",
+              "You need a cool head and steady nerves for this job."
+            ],
+            "neuron": [""],
+            "neurotransmitter": [
+              "@ A chemical that carries messages between neurons or between neurons and muscles."
+            ]
+          }
+        ],
         "blood vessel": [""],
         "artery": [""],
         "hormonal": [
