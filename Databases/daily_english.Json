@@ -9050,7 +9050,13 @@
       "@ The orchestra of a theater is the part on the main floor.",
       "We've got seats in the fifth row of the orchestra.",
       {
-        "orchestral":[""]
+        "orchestral": [
+          "@ Connected with or involving an orchestra.",
+          "The orchestral playing was tight and elegant.",
+          "They have annual performances of the composer's major orchestral scores.",
+          "He entered to rousing orchestral and choral music.",
+          "She sang \"Over the Rainbow\" to live orchestral accompaniment."
+        ]
       },
       {
         "conductor": [
@@ -9060,7 +9066,9 @@
           }
         ],
         "symphony": [""],
-        "cellist": [""]
+        "cellist": [""],
+        "choral": [""],
+        "accompaniment": [""]
       }
     ],
     "helmet": [""],
