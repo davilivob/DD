@@ -1918,7 +1918,7 @@
               "@ To study or ruminate; ponder.",
               "@ To think about carefully; consider (often followed by over).",
               "@ To make a mess or failure of.",
-              "I’d wanted to make one ever since I was a child, and had been mulling over a particular idea for at least a decade, but I wasn’t sure how it would be received.",
+              "I'd wanted to make one ever since I was a child, and had been mulling over a particular idea for at least a decade, but I wasn't sure how it would be received.",
               "I could see... he was mulling around what can be done or something we could do within the state government that would be helpful to her.",
               "@ To heat wine or beer with added sugar and spices.",
               "Have you ever tried mulling cider?"
@@ -7144,6 +7144,15 @@
           "@ To turn away your eyes or thoughts.",
           "I averted my gaze while he dressed.",
           "The shy man was standing before me, his eyes averted."
+        ],
+        "helmet": [
+          "@ A strong, hard hat that covers and protects the head.",
+          "It's very risky to ride your bike without wearing a cycle helmet.",
+          "To keep the helmet in position, fasten the strap beneath the chin.",
+          "He pulled on his helmet and straddled the motorcycle.",
+          {
+            "cuirass": [""]
+          }
         ]
       }
     ],
@@ -9071,7 +9080,6 @@
         ]
       }
     ],
-    "helmet": [""],
     "film developer": [
       "",
       {
