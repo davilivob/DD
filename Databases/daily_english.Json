@@ -7406,11 +7406,33 @@
           "He was elected to an honorary fellowship at National Taiwan University."
         ],
         "colleague": [""],
-        "occupation": [""],
+        "occupation": [""]
+      },
+      {
         "former": [""],
+        "unprecedented": [
+          "@ Never having happened or existed in the past.",
+          "This century has witnessed environmental destruction on an unprecedented scale.",
+          "She took the unprecedented step of revealing the truth about the situation.",
+          "We've entered an age of unprecedented prosperity."
+        ],
+        "precede": [
+          "@ To be or go before something or someone in time or space.",
+          "Kofi Annan preceded Ban Ki-moon as the Secretary-General of the U.N..",
+          "It would be helpful if you were to precede the report with an introduction.",
+          "The attacks were preceded by a period of unrest in the capital city.",
+          "Nouns are often preceded by adjectives.",
+          {
+            "preceding": [
+              "@ Existing or happening before someone or something.",
+              "The paintings are a development of ideas she explored in the preceding decade.",
+              "In conclusion, I hope the preceding arguments have convinced you of the need for action."
+            ]
+          }
+        ],
+        "up-and-coming": [""],
         "senior": [""],
-        "predate": [""],
-        "up-and-coming": [""]
+        "predate": [""]
       }
     ],
     "gratuitous": [
@@ -9141,15 +9163,6 @@
           "@ Someone who is skilled at arranging for things to happen, sometimes in a way that is dishonest.",
           "They chose him because of his reputation as a fixer and an expert at handling difficult situations."
         ]
-      }
-    ],
-    "unprecedented": [
-      "@ Never having happened or existed in the past.",
-      "This century has witnessed environmental destruction on an unprecedented scale.",
-      "She took the unprecedented step of revealing the truth about the situation.",
-      "We've entered an age of unprecedented prosperity.",
-      {
-        "precede": [""]
       }
     ],
     "ascent": [""],
