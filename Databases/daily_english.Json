@@ -5985,7 +5985,16 @@
       "The course has four main components: business law, finance, computing and management skills.",
       {
         "compound": [
+          "@ A chemical that combines two or more elements.",
           "Salt is a compound of sodium and chlorine.",
+          "Many fertilizers contain nitrogen compounds.",
+          "@ Something consisting of two or more different parts.",
+          "Then there was hi manner, a curious compound of humor and severity.",
+          "@ A word that combines two or more different words. Often, the meaning of the compound cannot be discovered by knowing the meaning of the different words that form it. Compounds may be written either as one word or as separate words.",
+          "\"Bodyguard\" and \"floppy disk\" are two examples of compounds.",
+          "@ An area surrounded by fences or walls that contains a groups of buildings.",
+          "The gates opened and the troops marched into their compound.",
+          "The embassy compound has been closed to the public because of a bomb threat.",
           {
             "citrate": [
               "@ A salt or ester of citric acid.",
@@ -6013,7 +6022,12 @@
                   "Cooking oil can be broken down into glycerine and methyl esters, the chemical name for biodiesel, which can fuel a diesel engine.",
                   "Lanolin is a mixture of esters of cholesterol with stearic, palmitic, and oleic acids."
                 ],
-                "alkyl": [""]
+                "alkyl": [
+                  "",
+                  {
+                    "methyl": [""]
+                  }
+                ]
               }
             ]
           }
