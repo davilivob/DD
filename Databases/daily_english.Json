@@ -6349,7 +6349,7 @@
           {
             "foxhole": [
               "@ A small hole dug in the ground during a war or military attack, used by a small group of soldiers as a base for shooting at the enemy and as a shelter from attack.",
-              "His ' darkroom ' was a foxhole at night, using film developer and fixer mixed with rain water and poured into two helmets."
+              "His \"darkroom\" was a foxhole at night, using film developer and fixer mixed with rain water and poured into two helmets."
             ],
             "haven": [""]
           }
@@ -9080,8 +9080,17 @@
         ]
       }
     ],
-    "film developer": [
-      "",
+    "developer": [
+      "@ A person or company that makes money from buying land, building new houses, offices, etc., or by changing existing buildings to sell or rent.",
+      "Much of the region's native vegetation has been damaged by developers who are building hotels along the coast.",
+      "The developers refurbished the house inside and out.",
+      "The project suddenly got a new lease of life when the developers agreed to provide some more funding.",
+      "The developers dealt with the problem in the time-honored fashion: burying the industrial waste in landfill sites.",
+      "@ A person or company that creates new products, esp. computer products such as software.",
+      "The company is a leading software developer.",
+      "@ A chemical used for developing photographs or films.",
+      "@ Someone, esp. a child, whose physical or mental development can be described in a particular way.",
+      "Tom was a slow developer.",
       {
         "fixer": [""]
       }
