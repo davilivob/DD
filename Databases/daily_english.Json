@@ -5347,7 +5347,10 @@
                 "If we were to lower sodium too abruptly, foods just wouldn't taste good."
               ]
             ],
-            "chlorine": [""],
+            "chlorine": [
+              "@ A chemical element that is a greenish-yellow gas with a strong smell, added to water in order to kill organisms that might cause infection.",
+              "The chlorine in the pool makes my eyes sore."
+            ],
             "ester": [""]
           }
         ]
