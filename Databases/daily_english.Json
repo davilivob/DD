@@ -7348,7 +7348,7 @@
       {
         "acres": [
           "@ A unit for measuring area, equal to 4,047 square meters or 4,840 square yards.",
-          "The mansion is set in 90 acres of beautiful, unspoilt countryside.",
+          "The mansion is set in ninety acres of beautiful, unspoilt countryside.",
           "The Forestry Commission is responsible for preserving over 2 million acres of forest."
         ],
         "acreage": [
@@ -8526,7 +8526,15 @@
           }
         ],
         "plaza": [""],
-        "skyscraper": [""],
+        "mansion": [
+          "@ A very large, expensive house.",
+          "The street is lined with enormous mansions where the rich and famous live.",
+          "He told me he owned a mansion in Spain and I fell for it.",
+          "The mansion had an atmosphere of genteel elegance and decay.",
+          {
+            "skyscraper": [""]
+          }
+        ],
         "facility": [
           "@ A place, esp. including buildings, where a particular activity happens.",
           "The new sports facility has a swimming pool.",
@@ -9200,7 +9208,6 @@
         ]
       }
     ],
-    "mansion": [""],
     "unspoilt": [""],
     "forestry": [""],
     "commission": [""],
