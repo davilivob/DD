@@ -5332,28 +5332,6 @@
             ]
           }
         ]
-      },
-      {
-        "citrate": [
-          "@ A salt or ester of citric acid.",
-          "If heat be employed in the evaporation of the solution, an acid citrate will be formed.",
-          {
-            "sodium": [
-              "@ A soft, silver-white chemical element that can be found in salt, or only combined with other elements.",
-              [
-                "Sodium - a common electrolyte - is a key feature in sports drinks, as it can be lost through sweat.",
-                "The surplus of high sodium levels in the blood causes an electrolyte imbalance called hypernatremia - literally, too much sodium in the body.",
-                "Sodium causes water retention and will make you look and feel more bloated.",
-                "If we were to lower sodium too abruptly, foods just wouldn't taste good."
-              ]
-            ],
-            "chlorine": [
-              "@ A chemical element that is a greenish-yellow gas with a strong smell, added to water in order to kill organisms that might cause infection.",
-              "The chlorine in the pool makes my eyes sore."
-            ],
-            "ester": [""]
-          }
-        ]
       }
     ],
     "soil": [
@@ -6007,7 +5985,38 @@
       "The course has four main components: business law, finance, computing and management skills.",
       {
         "compound": [
-          "Salt is a compound of sodium and chlorine."
+          "Salt is a compound of sodium and chlorine.",
+          {
+            "citrate": [
+              "@ A salt or ester of citric acid.",
+              "If heat be employed in the evaporation of the solution, an acid citrate will be formed.",
+              {
+                "sodium": [
+                  "@ A soft, silver-white chemical element that can be found in salt, or only combined with other elements.",
+                  [
+                    "Sodium - a common electrolyte - is a key feature in sports drinks, as it can be lost through sweat.",
+                    "The surplus of high sodium levels in the blood causes an electrolyte imbalance called hypernatremia - literally, too much sodium in the body.",
+                    "Sodium causes water retention and will make you look and feel more bloated.",
+                    "If we were to lower sodium too abruptly, foods just wouldn't taste good."
+                  ]
+                ],
+                "chlorine": [
+                  "@ A chemical element that is a greenish-yellow gas with a strong smell, added to water in order to kill organisms that might cause infection.",
+                  "The chlorine in the pool makes my eyes sore."
+                ],
+                "ester": [
+                  "@ A chemical compound produce by a reaction between an acid and an alcohol, in which the hydrogen of the acid has been replaced by an alkyl group of atoms.",
+                  "Simple organic substances such as esters, ketones and acids can be converted to hydrocarbon fuels.",
+                  "Esters can have quite a powerful sweet smell.",
+                  "Nitroglycerine is the nitrate ester of glycerol.",
+                  "The soy compound, a sterol ester, is a plant-based compound used in margarines.",
+                  "Cooking oil can be broken down into glycerine and methyl esters, the chemical name for biodiesel, which can fuel a diesel engine.",
+                  "Lanolin is a mixture of esters of cholesterol with stearic, palmitic, and oleic acids."
+                ],
+                "alkyl": [""]
+              }
+            ]
+          }
         ],
         "combination": [""],
         "ingredient": [""],
@@ -9578,7 +9587,12 @@
     "malt": [""],
     "cider": [""],
     "sprout": [""],
-    "hydrogen": [""],
+    "hydrogen": [
+      "",
+      {
+        "hydrocarbon": [""]
+      }
+    ],
     "peroxide": [""],
     "ozone": [""],
     "dab": [""],
