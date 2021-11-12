@@ -5816,6 +5816,14 @@
             ],
             "ruthless": [""]
           }
+        ],
+        "adverse": [
+          "@ Having a negative or harmful effect on something.",
+          "The game has been canceled because of adverse weather conditions.",
+          "They received a lot of adverse publicity and criticism about the change.",
+          "So far the drug is thought not to have any adverse effects.",
+          "@ Going against something, or causing harm.",
+          "Her policies may have adverse effects on the economy."
         ]
       },
       {
@@ -9119,14 +9127,6 @@
           "The novel is set in a dystopian future in an America whose infrastructure has been reduced to rubble."
         ]
       }
-    ],
-    "adverse": [
-      "@ Having a negative or harmful effect on something.",
-      "The game has been canceled because of adverse weather conditions.",
-      "They received a lot of adverse publicity and criticism about the change.",
-      "So far the drug is thought not to have any adverse effects.",
-      "@ Going against something, or causing harm.",
-      "Her policies may have adverse effects on the economy."
     ],
     "sluggish": [
       "@ Moving or operating more slowly than usual and with less energy or power.",
