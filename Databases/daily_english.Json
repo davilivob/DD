@@ -9092,7 +9092,10 @@
       "@ Someone, esp. a child, whose physical or mental development can be described in a particular way.",
       "Tom was a slow developer.",
       {
-        "fixer": [""]
+        "fixer": [
+          "@ Someone who is skilled at arranging for things to happen, sometimes in a way that is dishonest.",
+          "They chose him because of his reputation as a fixer and an expert at handling difficult situations."
+        ]
       }
     ],
     "citrate": [""],
