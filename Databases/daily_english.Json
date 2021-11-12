@@ -10009,6 +10009,41 @@
     "time-honored": [""],
     "landfill": [""],
     "arrange": [""],
-    "dishonest": [""]
+    "dishonest": [""],
+    "evaporation": [""],
+    "electrolyte": [""],
+    "surplus": [""],
+    "imbalance": [""],
+    "hypernatremia": [""],
+    "bloated": [""],
+    "abruptly": [""],
+    "sore": [""],
+    "ketone": [""],
+    "nitroglycerine": [
+      "",
+      {
+        "nitrate": [""],
+        "glycerol": [""],
+        "glycerine": [""]
+      }
+    ],
+    "sterol": [""],
+    "biodiesel": [
+      "",
+      {
+        "diesel": [""]
+      }
+    ],
+    "lanolin": [""],
+    "cholesterol": [""],
+    "stearic": [""],
+    "palmitic": [""],
+    "oleic": [""],
+    "curious": [""],
+    "floppy": [""],
+    "nitrogen": [""],
+    "fertilizer": [""],
+    "troop": [""],
+    "embassy": [""]
   }
 }
