@@ -4021,7 +4021,18 @@
           "@ A sudden movement or fall forward, down, or into something.",
           "I really enjoyed my plunge in the pool.",
           "@ A sudden and large fall in value or level.",
-          "We are expecting a plunge in profits this year."
+          "We are expecting a plunge in profits this year.",
+          {
+            "ascent": [
+              "@ The act of climbing or moving upward.",
+              "She made her first successful ascent of Everest last year.",
+              "As the plane made its ascent, we saw thick smoke coming from one engine.",
+              "@ A slope, path, or road that goes up something.",
+              "We struggled up the slippery ascent.",
+              "@ The fact of starting to become successful.",
+              "His ascent to power was rapid and unexpected."
+            ]
+          }
         ]
       },
       {
@@ -9165,7 +9176,6 @@
         ]
       }
     ],
-    "ascent": [""],
     "scheme": [""],
     "mansion": [""],
     "unspoilt": [""],
