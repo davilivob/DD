@@ -8870,7 +8870,14 @@
               "For months he had been scheming to prevent her from getting the top job.",
               "@ A plan for doing or organizing something.",
               "The committee came up with a creative fundraising scheme.",
-              "The yellow and white color scheme brightened up the kitchen."
+              "The yellow and white color scheme brightened up the kitchen.",
+              {
+                "schemer": [
+                  "@ Someone who make intelligent, secret plans, often to deceive others.",
+                  "He's a schemer who always finds a way of getting what he wants.",
+                  "She was a cold and calculating schemer who wanted to steal form the old man."
+                ]
+              }
             ]
           }
         ]
