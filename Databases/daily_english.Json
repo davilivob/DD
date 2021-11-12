@@ -8855,6 +8855,23 @@
             "in very deed": [
               "Her works are in very deed the echo of our times."
             ]
+          },
+          {
+            "scheme": [
+              "@ An organized plan for doing something, esp. something dishonest or illegal that will bring a good result for you.",
+              "He has a hare-brained scheme for getting rich before he's twenty.",
+              "They devised a scheme to defraud the government of millions of dollars.",
+              "@ An officially organized plan or system.",
+              "Under the current grading scheme, you need ninety percent to get an A.",
+              "There's a new scheme in our town for recycling plastic bottles.",
+              "The scheme was launched a year ago.",
+              "@ To make intelligent, secret plans that often deceive others.",
+              "All her assistants were scheming against her.",
+              "For months he had been scheming to prevent her from getting the top job.",
+              "@ A plan for doing or organizing something.",
+              "The committee came up with a creative fundraising scheme.",
+              "The yellow and white color scheme brightened up the kitchen."
+            ]
           }
         ]
       }
@@ -9176,7 +9193,6 @@
         ]
       }
     ],
-    "scheme": [""],
     "mansion": [""],
     "unspoilt": [""],
     "forestry": [""],
