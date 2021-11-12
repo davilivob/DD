@@ -5332,6 +5332,17 @@
             ]
           }
         ]
+      },
+      {
+        "citrate": [
+          "@ A salt or ester of citric acid.",
+          "If heat be employed in the evaporation of the solution, an acid citrate will be formed.",
+          {
+            "sodium": [""],
+            "chlorine": [""],
+            "ester": [""]
+          }
+        ]
       }
     ],
     "soil": [
@@ -9098,9 +9109,6 @@
         ]
       }
     ],
-    "citrate": [""],
-    "sodium": [""],
-    "chlorine": [""],
     "unprecedented": [
       "",
       {
