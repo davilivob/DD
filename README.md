@@ -144,7 +144,7 @@ See the [open issues](https://github.com/dovilivob/MakeYourselfADictionary-Engli
 Instagram - [@_dovilivob](https://instagram.com/_dovilivob)<br>
 Gmail - david.iii.chiu@gmail.com
 
-Project Link: [https://github.com/dovilivob/MakeYourselfADictionary-English_version](https://github.com/dovilivob/MakeYourselfADictionary-English_version)
+Project Link: [https://github.com/dovilivob/D.D.](https://github.com/dovilivob/MakeYourselfADictionary-English_version)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
