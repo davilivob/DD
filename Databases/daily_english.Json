@@ -4193,7 +4193,14 @@
                     ]
                   },
                   {
-                    "attorney": [""],
+                    "attorney": [
+                      "@ A lawyer",
+                      "She's an attorney who advises companies about mergers and takeovers.",
+                      "They paid a high-powered attorney to plead their case.",
+                      "She was asked to take the witness stand and was then cross-examined by the state attorney.",
+                      "The defense attorney requested an adjournment.",
+                      "You may appoint an attorney to act on your behalf."
+                    ],
                     "be tried": [
                       "@ When a person is tried, he or she has to appear in a law court and is found innocent or guilty after the judge and jury have heard the evidence. When a legal case is tried, it is considered in a court of law.",
                       "He suggested that those responsible should be tried for crimes against humanity.",
