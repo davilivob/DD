@@ -4238,7 +4238,14 @@
             ]
           },
           {
-            "allegation": [""]
+            "allegation": [
+              "@ A statement, made without giving proof, that someone has done something wrong or illegal.",
+              "Several of her patients have made allegations of professional misconduct against her.",
+              "Allegations that Mr. Dwight was receiving money from known criminals have caused a scandal.",
+              "The chief executive of the company resigned last autumn over allegations about his expenses.",
+              "She rejected the allegation that she had treated her staff unfairly.",
+              "He made allegations of unfair dismissal against his former employers."
+            ]
           }
         ]
       }
