@@ -4269,7 +4269,15 @@
         ]
       },
       {
-        "peal": [""],
+        "peal": [
+          "@ When bells peal, they rising with a loud sound.",
+          "After their wedding, the bells pealed out from the tower.",
+          "@ A long loud sound or series of sounds, esp. of laughter or thunder.",
+          "Her suggestion was met with peals of laughter.",
+          "A loud peal of thunder woke him from restless sleep.",
+          "@ A long loud ring.",
+          "When we heard the peal of the bells, we knew a truce had been declared."
+        ],
         "hiss": [
           "@ To make a noise like a long s sound.",
           "Why do snakes hiss?",
