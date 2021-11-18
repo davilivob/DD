@@ -4039,7 +4039,18 @@
         "destruction": [
           "@ The act of destroying something, or the fact of being destroyed.",
           "Many people are very concerned about the destruction of the rainforests.",
-          "Unusually high winds left a trail of destruction over the area."
+          "Unusually high winds left a trail of destruction over the area.",
+          {
+            "unspoilt": [
+              "@ An un spoiled place is beautiful because it has not been changed or demaged by people.",
+              "An island with clean, unspoiled beaches.",
+              {
+                "spoilt": [
+                  "@ Another word for spoiled."
+                ]
+              }
+            ]
+          }
         ],
         "overthrow": [
           "@ To defeat or remove someone from power, using force.",
@@ -9237,7 +9248,6 @@
         ]
       }
     ],
-    "unspoilt": [""],
     "forestry": [""],
     "commission": [""],
     "parkland": [""],
