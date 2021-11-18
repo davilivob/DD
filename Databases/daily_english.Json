@@ -4071,7 +4071,10 @@
         "release": [
           "& Release is more common.",
           {
-            "discharge": [""]
+            "discharge": [
+              "@ To allow someone officially to leave somewhere, especially a hospital or a law court.",
+              "Patients were discharged from the hospital because the beds were needed by other people."
+            ]
           }
         ],
         "liberate": [
@@ -10151,6 +10154,19 @@
     "defraud": [""],
     "devise": [""],
     "genteel": [""],
-    "alphabetical": [""]
+    "alphabetical": [""],
+    "takeover": [""],
+    "plead": [""],
+    "adjournment": [""],
+    "defense": [""],
+    "misconduct": [""],
+    "resign": [""],
+    "expense": [""],
+    "chief": [""],
+    "dismissal": [""],
+    "truce": [""],
+    "significance": [""],
+    "supposedly": [""],
+    "investigation": [""]
   }
 }
