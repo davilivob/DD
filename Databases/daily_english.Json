@@ -5686,6 +5686,22 @@
                       "The U.K. doesn't have a senate; it has a House of Lords."
                     ]
                   }
+                ],
+                "commission": [
+                  "@ To formally choose someone to do a special piece of work, or to formally ask for a special piece of work from someone.",
+                  "The newspaper commissioned a series of articles on the worst excesses of the fashion industry.",
+                  "She's commissioned an artist to paint her portrait.",
+                  "@ To give someone the official authority to be an officer in the armed forces.",
+                  "Grandfather was commissioned as Group Captain in the RAF just before the war.",
+                  "@ A group of people who have been formally chosen to discover information about a problem or examine the reasons why the problem exists.",
+                  "The government has set up a commission to investigate the problem of inner city violence.",
+                  "@ A payment to someone who sells goods that is directly related to the amount sold, or a system that uses such payments.",
+                  "Is she paid a regular wage or is it by commission only?",
+                  "She gets a fifteen percent commission on every machine she sells.",
+                  "@ A request to do a special piece of work.",
+                  "She's just gotten a commission to paint the senator's wife.",
+                  "Do you take commission?",
+                  "@ The act of committing a crime."
                 ]
               }
             ],
@@ -6806,7 +6822,10 @@
         "excessive": [
           "@ Too much",
           "Excessive exercise can sometimes cause health problems.",
-          "They complained about excessive government intrusion into their legitimate activities."
+          "They complained about excessive government intrusion into their legitimate activities.",
+          {
+            "excess": [""]
+          }
         ]
       },
       {
@@ -9251,8 +9270,12 @@
         ]
       }
     ],
-    "forestry": [""],
-    "commission": [""],
+    "forestry": [
+      "@ The science or industry of planting and taking care of large areas of trees.",
+      "He studied forestry at Colorado State University.",
+      "Good forestry always has required we put the next generation ahead of our own.",
+      "State forestry officials estimate about eighty percent of the eight-hundred thousand acres of wetland forest in the state is privately owned"
+    ],
     "parkland": [""],
     "waterfront": [""],
     "stock": [""],
