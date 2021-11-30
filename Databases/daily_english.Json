@@ -959,12 +959,21 @@
           "~ You will die alone, and you will deserve it.",
           "~ But in the meantime you might as well tell those silly jokes of yours.",
           "~ See if that helps.",
-          {},
+          {
+            "genetic": [""],
+            "giraffe": [""],
+            "gigantic": [""],
+            "pursuit": [""],
+            "meantime": [""]
+          },
           "~ You used to do comedy when you felt like being funny.",
           "~ But now you're contractually obligated.",
           "~ So dance you fucking monkey.",
           "~ Dance monkey dance!",
-          {},
+          {
+            "contractually": [""],
+            "obligated": [""]
+          },
           "~ Welcome to the show, this is Bo, this is his show, and Bo likes to dance like this.",
           "~ Welcome to the show, this is Bo, this is his show, and Bo takes off his pants like this.",
           {},
@@ -972,13 +981,18 @@
           "~ Play an invisible trumpet (trumpet sound).",
           "~ Drink some invisible water.",
           "~ Oh shit! That water is real!",
-          {},
+          {
+            "invisible": [""],
+            "trumpet": [""]
+          },
           "~ Bo wants to make you feel comfortable.",
           "~ Bo wants to make you feel comfortable.",
           "~ [random voice]",
           "~ Bo wants to make you feel comfortable.",
           "~ So sit back, relax, and enjoy a healthy dose of...",
-          {},
+          {
+            "dose": [""]
+          },
           "~ Prolonged eye contact (Prolonged eye contact).",
           "~ Prolonged eye contact (Prolonged eye contact).",
           "~ Prolonged eye contact (Prolonged eye contact).",
@@ -991,12 +1005,17 @@
           "~ Prolonged eye contact (Prolonged eye contact).",
           "~ Prolonged eye contact (Prolonged eye contact).",
           "~ Lick your lips to make it more comforting.",
-          {},
+          {
+            "prolonged": [""],
+            "comforting": [""]
+          },
           "~ Do you want to see a magic trick? (Yeah)!",
           "~ Do you want to see a magic trick? (Yeah)!",
           "~ Do you want to see a magic trick? (Yeah)!",
           "~ Then pick a card any card-Psyche!",
-          {},
+          {
+            "psyche": [""]
+          },
           "~ Magic isn't real, you idiot, read a book.",
           "~ Magic isn't real, you idiot, read a book.",
           "~ Magic isn't real, you idiot, read a book.",
@@ -1009,8 +1028,10 @@
           "~ Run? Yeah sure you can run.",
           "~ Fly? Well yeah you can fly.",
           "~ What? What are you... what the fuck are you do - what the fuck are you doing?",
-          "~ Stop, stop it. What the f... you fucking idiot, stop, stop, stop.",
-          {},
+          "~ Stop, stop it. What the fuck... you fucking idiot, stop, stop, stop.",
+          {
+            "cynicism": [""]
+          },
           "~ Anyways. In the distance Bo saw a beautiful fairy.",
           "~ A fairy so beautiful that he felt proud about being called one in high school.",
           "~ He then came across an old bridge with a troll standing guard.",
@@ -1020,8 +1041,14 @@
           "~ Ok that's a used napkin I don't want that.",
           "~ No no stop just you know what leave just leave pleace leave.\".",
           "~ And then as Bo arrived on the other side of the stage he saw a unicorn with five horns right in front of him.",
-          "~ And the pentacorn spoke thus, \"Hello Bo, I've been looking for you for quite a long t... ugh\"!",
-          {},
+          "~ And the pentacorn spoke thus, \"Hello Bo, I've been looking for you for quite a long time... ugh\"!",
+          {
+            "troll": [""],
+            "riddle": [""],
+            "spare": [""],
+            "napkin": [""],
+            "penta": [""]
+          },
           "~ He was safe, for now.",
           "~ But the dark thoughts would soon return.",
           {},
@@ -1032,14 +1059,20 @@
           "~ Tiny arms, itchy gizzard.",
           "~ It's hard to be a lizard.",
           "~ But it's harder to segue.",
-          {},
+          {
+            "itchy": [""],
+            "gizzard": [""],
+            "segue": [""]
+          },
           "~ Is he skiing or is he in a gay porn?",
           "~ Is he skiing (what) or is he in a gay porn?",
           "~ Is he skiing (huh) or is he in a gay porn?",
           "~ Here's a hint: he's in a gay porn.",
           {},
           "~ Ok Bo this miming shit is getting pretty annoying so give 'em the real thing.",
-          {},
+          {
+            "mine": [""]
+          },
           "~ My voice is so fucking natural.",
           "~ It's naturally good.",
           "~ Naturally good, naturally good.",
@@ -1058,11 +1091,15 @@
           "~ Yo fellas don't you hate it when you're sucking a guy's dick and he ends up being a faggot?",
           "~ Am I right?",
           "~ These fucking faggots with their tasty dicks!",
-          {},
+          {
+            "prepubescent": [""]
+          },
           "~ Alright if you'd like to leave during the show the exit signs are marked clearly in red.",
           "~ Sort of a orangish, reddish, fiery red so we'll be fucked if we need them.",
           "~ But we can see them now!",
-          {},
+          {
+            "fiery": [""]
+          },
           "~ This show is called ' what. ' and I hope there are some surprise, geez.",
           "~ I knocked the water over by accident.",
           {},
@@ -1070,7 +1107,9 @@
           "~ But you all thought it was an accident.",
           "~ But he meant to knock the water over, yeah yeah yeah.",
           "~ Art is lie, nothing is real.",
-          {},
+          {
+            "knock": [""]
+          },
           "~ So it's called ' what. ' and it's about, hey cool it.",
           {},
           "~ He meant to knock the water over, yeah yeah yeah.",
@@ -1084,7 +1123,7 @@
           "~ But he meant to play the water track again-gain-gain.",
           "~ Art is still a lie, nothing is still real.",
           {},
-          "~ What's the deal with sugues?",
+          "~ What's the deal with segues?",
           "~ Food jokes, let's do some food jokes.",
           "~ How you guys doing up in the nosebleeds, up top?",
           "~ Yes, the nosebleeds where the cocaine is done.",
@@ -1097,7 +1136,13 @@
           "~ This is gonna get difficult.",
           "~ But I'm glad you like poop-based puns.",
           "~ That'll be a majority of the show, so.",
-          {},
+          {
+            "Madison": [""],
+            "afterwards": [""],
+            "stool": [""],
+            "puns": [""],
+            "majority": [""]
+          },
           "~ Never waste a moment.",
           "~ Every moment can become a comedy moment, see?",
           "~ Thank you so much.",
@@ -9881,7 +9926,6 @@
     "selflessness": [""],
     "survival": [""],
     "elite": [""],
-    "fiery": [""],
     "entrepreneur": [""],
     "access": [""],
     "diagnosis": [""],
