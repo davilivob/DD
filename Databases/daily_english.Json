@@ -8654,7 +8654,17 @@
           "Its home screen presents a collection of flat, information-rich tiles that dynamically update with the information that's most important to you."
         ],
         "rug": [""],
-        "pillar": [""],
+        "pillar": [
+          "@ A strong column made of stone, metal, or wood that supports part of a building.",
+          "A row of reinforced concrete pillars supports the bridge.",
+          {
+            "pillar of sth": [
+              "@ A very important member or part of a group, organization, system, etc.",
+              "Mrs. Maple is a pillar of the local church.",
+              "Equality is one of the pillars of socialism."
+            ]
+          }
+        ],
         "bench": [
           "She slid into the opposite bench and let her gaze drop significantly to the cup in his hand."
         ]
