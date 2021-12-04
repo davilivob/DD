@@ -960,7 +960,13 @@
           "~ But in the meantime you might as well tell those silly jokes of yours.",
           "~ See if that helps.",
           {
-            "genetic": [""],
+            "genetic": [
+              "@ Belonging or relating to genes received by each animal or plant from its parents.",
+              "Cystic fibrosis is caused by a genetic defect.",
+              "There are tests which can establish a baby's genetic endowment.",
+              "Sexual reproduction serves to create genetic variety.",
+              "I'm giving a seminar on the latest developments in genetic research next week."
+            ],
             "giraffe": [""],
             "gigantic": [""],
             "pursuit": [""],
@@ -971,10 +977,37 @@
           "~ So dance you fucking monkey.",
           "~ Dance monkey dance!",
           {
-            "contractually": [""],
-            "obligated": [""]
+            "contractually": [
+              "@ According to what is written in a contract (= legal document).",
+              "They are contractually bound to finish the work.",
+              "They are not contracually required to share knowledge with local partners.",
+              "I'm contractually prohibited from speaking about the new product until next year."
+            ],
+            "obligated": [
+              "@ Feeling that you own someone something because you are grateful for what they have done for you.",
+              "She felt obligated to him for all the help he had given with her career.",
+              "I felt obligated to speak up and defend my friend's reputation.",
+              {
+                "obligate": [
+                  "@ To make someone feel morally or legally forced to do something.",
+                  "I'm in favor of obligating welfare recipients to do more.",
+                  "@ To force someone to do something.",
+                  "The company was obligated to make compensation for damages.",
+                  "The law doesn't obligate districts to enroll older students.",
+                  "Employers are legally obligated to inform employees about benefits."
+                ],
+                "oblige": [
+                  "@ To force someone to do something, or to make it necessary for someone to do something.",
+                  "The law obliges companies to pay decent wages to their employees.",
+                  "The law doesn't oblige sellers to accept the highest offer.",
+                  "@ To please or help someone, esp. by doing something they have asked you to do.",
+                  "We only went to the party to oblige some old friends who asked us to be there.",
+                  "We needed a guide and he was only too happy to oblige."
+                ]
+              }
+            ]
           },
-          "~ Welcome to the show, this is Bo, this is his show, and Bo likes to dance like this.",
+          "~ Welcome to the show, this is Bo, this is his sh`o`w, and Bo likes to dance like this.",
           "~ Welcome to the show, this is Bo, this is his show, and Bo takes off his pants like this.",
           {},
           "~ Play an invisible drum.",
@@ -3223,7 +3256,11 @@
           "~ The LED still flickers in your eyes.",
           "~ Oh you oughta spare your face the razor.",
           "~ Because no one is gonna spare the time for you.",
-          {},
+          {
+            "flicker": [""],
+            "oughta": [""],
+            "razor": [""]
+          },
           "~ No one is gonna watch you as you go.",
           "~ From a house you didn't build and can't control.",
           "~ Oh you oughta spare your face the razor.",
@@ -3241,8 +3278,11 @@
           "~ Oh you oughta spare your face the razor.",
           "~ Because no one is gonna spare the time for you.",
           "~ Why don't you spare the world a traitor.",
-          "~ Tke your wager back and leave before you lose.",
-          {},
+          "~ Take your wager back and leave before you lose.",
+          {
+            "traitor": [""],
+            "wager": [""]
+          },
           "~ So listen oh. So listen oh.",
           "~ Don't wait. Don't wait.",
           "~ So listen oh. So listen oh.",
@@ -3252,10 +3292,14 @@
           "~ Cover ground, cover ground.",
           "~ And you find some love for these clowns.",
           "~ Turn around, turn around.",
-          {},
+          {
+            "clown": [""]
+          },
           "~ We'll be half asleep on the floor of our high school gym.",
           "~ Thinking of you and wondering if anyone else could begin.",
-          {},
+          {
+            "asleep": [""]
+          },
           "~ To listen. Listen.",
           "~ Don't wait. Don't wait.",
           "~ So listen oh. So listen oh.",
@@ -3267,12 +3311,17 @@
           "~ The world is a cold, cold place to be.",
           "~ Want a little warmth.",
           "~ But who's gonna save a little warmth for me?",
-          {},
+          {
+            "warmth": [""]
+          },
           "~ We know the fire awaits unbelievers.",
           "~ All of the sinners the same.",
           "~ Girls, you and I will die unbelievers.",
           "~ Bound to the tracks of the train.",
-          {},
+          {
+            "await": [""],
+            "sinner": [""]
+          },
           "~ If I'm born again I know that the world will disagree.",
           "~ Want a little grace but who's gonna say a little grace for me?",
           {},
@@ -3280,7 +3329,9 @@
           "~ All of the sinners the same.",
           "~ Girls, you and I will die unbelievers.",
           "~ Bound to the tracks of the train.",
-          {},
+          {
+            "track": [""]
+          },
           "~ I'm not excited, but should I be?",
           "~ Is this the fate that half of the world has planned for me?",
           {},
@@ -3324,7 +3375,9 @@
           "~ You girl was in Berkeley with her communist reader.",
           "~ Mine was entombed within boombox and walkman.",
           "~ I was a hoarder but girl that was back then.",
-          {},
+          {
+            "Angkor Wat": [""]
+          },
           "~ The gloves are off, the wisdom teeth are out.",
           "~ What you on about?",
           "~ I feel it in my bones, I feel it in my bones.",
