@@ -8653,7 +8653,15 @@
           "Now, images circulated by medics and activists showed patients lying on a blood-smeared tile floor of a crowded room in one hospital.",
           "Its home screen presents a collection of flat, information-rich tiles that dynamically update with the information that's most important to you."
         ],
-        "rug": [""],
+        "rug": [
+          "@ A piece of thick heavy cloth smaller than a carpet, used for covering the floor or for decoration.",
+          "My dog loves lying on the rug in front of the fire.",
+          "The floor was partly covered with a dirty old rug.",
+          "She trapped over the rug.",
+          "I was on the back doorstep shaking out a rug.",
+          "We spread the picnic rug out on the ground and sat down to eat.",
+          "@ A soft cover that keeps you warm or comfortable."
+        ],
         "pillar": [
           "@ A strong column made of stone, metal, or wood that supports part of a building.",
           "A row of reinforced concrete pillars supports the bridge.",
