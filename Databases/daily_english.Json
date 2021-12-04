@@ -8685,7 +8685,13 @@
             "rugby": [""]
           }
         ],
-        "plaza": [""],
+        "plaza": [
+          "@ An open area or square in a town, esp. in Spanish-speaking countries.",
+          "@ A group of buildings including stores, designed as a single development within a town.",
+          "Those renovations also call for 2,250 seats on each side of the plaza to be upgraded to premium tickets.",
+          "Local, country and state authorities can close roads or cut off access to shopping centers or business plazas if conditions become dangerous.",
+          "They let go of all their previous priorities and set up a vigil in a city plaza."
+        ],
         "mansion": [
           "@ A very large, expensive house.",
           "The street is lined with enormous mansions where the rich and famous live.",
