@@ -8684,7 +8684,12 @@
             "statue": [""]
           },
           {
-            "stencil": [""]
+            "stencil": [
+              "@ A piece of card, plastic, metal, etc. into which shapes have been cut, used to draw or paint patterns onto a surface.",
+              "@ A picture made by drawing or painting through the holes in such a piece of card, etc. onto a surface.",
+              "She did a stencil of a rainbow on her daughter's bedroom wall.",
+              "The back of the chair was painted solid black with designs stenciled in gold."
+            ]
           }
         ]
       },
