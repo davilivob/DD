@@ -8735,7 +8735,13 @@
           "The president travels with a large retinue of aides and bodyguards.",
           "He jets around the country with a retinue of aides and attorneys."
         ],
-        "aide": [""]
+        "aide": [
+          "@ A person whose job is to help someone important, such as a member of a government or a military officer of high rank.",
+          "The president travels with a large retinue of aides and bodyguards.",
+          "He was assassinated by a cabal of aides within his own regime.",
+          "A former aide has published a book about his experiences in the White House.",
+          "The senator asked an aide to distribute copies of his speech."
+        ]
       }
     ],
     "inventory": [
