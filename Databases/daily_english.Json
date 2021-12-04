@@ -8698,7 +8698,15 @@
           "He told me he owned a mansion in Spain and I fell for it.",
           "The mansion had an atmosphere of genteel elegance and decay.",
           {
-            "skyscraper": [""]
+            "skyscraper": [
+              "@ A very tall building, usually in a city.",
+              "The restaurant is at the top of one of the big downtown skyscrapers.",
+              [
+                "Who could be certain, this far from the altered skyline, that he hadn't tucked skyscrapers of cardboard in among the ones made of steel?",
+                "That could be why a few of the skyscrapers look strange.",
+                "A new batch of skyscrapers is going up all around the park."
+              ]
+            ]
           }
         ],
         "facility": [
