@@ -3333,7 +3333,18 @@
           "~ We'll be half asleep on the floor of our high school gym.",
           "~ Thinking of you and wondering if anyone else could begin.",
           {
-            "asleep": [""]
+            "asleep": [
+              "@ Sleeping or not awake.",
+              "I'm surprised to see you awake - ten minutes ago you were fast asleep.",
+              "I only just got up and I'm still half asleep.",
+              "@ If your arm or leg is asleep, it cannot feel anything because it has been in the same position for so long.",
+              {
+                "fall asleep": [
+                  "@ To start to sleep.",
+                  "I fell asleep as soon as my head hit the pillow."
+                ]
+              }
+            ]
           },
           "~ To listen. Listen.",
           "~ Don't wait. Don't wait.",
