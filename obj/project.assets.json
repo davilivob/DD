@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\D\\DD\\DailyEnglish.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Desktop\\DD\\DailyEnglish.csproj",
       "projectName": "DailyEnglish",
-      "projectPath": "C:\\Users\\User\\Desktop\\D\\DD\\DailyEnglish.csproj",
+      "projectPath": "c:\\Users\\User\\Desktop\\DD\\DailyEnglish.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\D\\DD\\obj\\",
+      "outputPath": "c:\\Users\\User\\Desktop\\DD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

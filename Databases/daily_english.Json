@@ -3257,7 +3257,18 @@
           "~ Oh you oughta spare your face the razor.",
           "~ Because no one is gonna spare the time for you.",
           {
-            "flicker": [""],
+            "flicker": [
+              "@ To shine with a light that is sometimes bright and sometimes weak.",
+              "I felt a cold draft and the candle started to flicker.",
+              "Candles flickered on all the tables in the restaurant.",
+              "@ To appear for a short time or make a sudden movement.",
+              "A smile flickered across her face.",
+              "He'd been in a coma for weeks, when all of a sudden he flickered an eyelid.",
+              "@ A situation in which a light is sometimes bright and sometimes weak.",
+              "The soft flicker of candlelight.",
+              "@ A feeling or expression of an emotion or quality that does not last very long.",
+              "There was a flicker of hope in his eyes."
+            ],
             "oughta": [""],
             "razor": [""]
           },
