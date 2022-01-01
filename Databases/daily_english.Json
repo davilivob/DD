@@ -3324,7 +3324,11 @@
           "~ And you find some love for these clowns.",
           "~ Turn around, turn around.",
           {
-            "clown": [""]
+            "clown": [
+              "@ An entertainer who wears funny clothes, has a painted face, and makes people laugh by performing tricks and behaving in a silly way.",
+              "@ To act stupidly, often make other people laugh.",
+              "Left alone, the class threw books, pulled faces, and generally clowned around."
+            ]
           },
           "~ We'll be half asleep on the floor of our high school gym.",
           "~ Thinking of you and wondering if anyone else could begin.",
