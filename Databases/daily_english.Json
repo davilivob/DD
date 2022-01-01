@@ -3295,7 +3295,13 @@
           "~ Why don't you spare the world a traitor.",
           "~ Take your wager back and leave before you lose.",
           {
-            "traitor": [""],
+            "traitor": [
+              "@ A person who is not loyal or stops being loyal to their own country, social class, beliefs, etc.",
+              "The leaders of the rebellion were hanged as traitors.",
+              "The Chinese Communist Party branded Mr. Gorbachev \"a traitor to socialism.\".",
+              "Benedict Arnold was a traitor during the American Revolution.",
+              "Opponents called the mayor \"a traitor to the cause.\"."
+            ],
             "wager": [""]
           },
           "~ So listen oh. So listen oh.",
