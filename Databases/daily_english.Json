@@ -3260,7 +3260,7 @@
             "flicker": [
               "@ To shine with a light that is sometimes bright and sometimes weak.",
               "I felt a cold draft and the candle started to flicker.",
-              "Candles flickered on all the tables in the restaurant.",
+              "Candles flickered on all the tables in the re                staurant.",
               "@ To appear for a short time or make a sudden movement.",
               "A smile flickered across her face.",
               "He'd been in a coma for weeks, when all of a sudden he flickered an eyelid.",
@@ -3269,8 +3269,12 @@
               "@ A feeling or expression of an emotion or quality that does not last very long.",
               "There was a flicker of hope in his eyes."
             ],
-            "oughta": [""],
-            "razor": [""]
+            "razor": [
+              "@ A small device with a sharp blade for removing hair, esp. from the face or legs.",
+              "Do you use an electric razor or the kind that you have to put a razor blade in?",
+              "@ To cut something such as hair using a razor.",
+              "She razored the hair in long wispy layers."
+            ]
           },
           "~ No one is gonna watch you as you go.",
           "~ From a house you didn't build and can't control.",
