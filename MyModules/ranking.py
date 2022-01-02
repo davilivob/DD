@@ -1,9 +1,9 @@
+from MyModules import doTheMath as Math, art as Art
 import sys
 from os.path import dirname, abspath
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
-from MyModules import doTheMath as Math, art as Art
 
 
 class Ranking:
@@ -35,10 +35,13 @@ class Ranking:
             if index < Math.row():
                 TopUsed += "\n      "
             if self.Capital == 1:
-                self.RepeatedArray[index][1] = self.RepeatedArray[index][1].capitalize()
-            Word = "".join([str(index + 1), '. "', self.RepeatedArray[index][1], '"'])
+                self.RepeatedArray[index][1] = self.RepeatedArray[index][1].capitalize(
+                )
+            Word = "".join(
+                [str(index + 1), '. "', self.RepeatedArray[index][1], '"'])
             Amount = "".join([": ", str(self.RepeatedArray[index][0]), " "])
-            Percentage = Math.percent(self.RepeatedArray[index][0], self.BigNum, 100)
+            Percentage = Math.percent(
+                self.RepeatedArray[index][0], self.BigNum, 100)
             TopUsed += Art.FormalFiller("".join([Word, Amount, Percentage]), 3)
 
         return TopUsed

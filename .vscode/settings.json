@@ -1,5 +1,5 @@
 {
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "autopep8",
     "python.pythonPath": "c:\\Users\\dovilivob\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#65c89b",

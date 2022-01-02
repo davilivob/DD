@@ -1,9 +1,3 @@
-import sys
-from os.path import dirname, abspath
-
-d = dirname(dirname(abspath(__file__)))
-sys.path.append(d)
-
 from MyModules import (
     readFiles as File,
     doTheMath as Math,
@@ -12,6 +6,12 @@ from MyModules import (
     advancedData as A,
     TimerLoadBar as TimeBar,
 )
+import sys
+from os.path import dirname, abspath
+
+d = dirname(dirname(abspath(__file__)))
+sys.path.append(d)
+
 
 TypingDatas = File.Load.typingDatas
 totaltime, wpm, accuracy, totalback, totalchars, goodchars = 0, 0, 0, 0, 0, 0
@@ -67,7 +67,8 @@ class TypingTest:
 
     for char in TypoRate:
         if str(char[1]) != "Spaces":
-            char[0] = float(char[0]) / File.Load.lastCharsRepeated[str(char[1])]
+            char[0] = float(char[0]) / \
+                File.Load.lastCharsRepeated[str(char[1])]
         if str(char[1]) == "Spaces":
             char[0] = float(char[0]) / ((len(A.A.wordsList) - R.R.learned * 2))
         TimeBar.Adding()

@@ -1,10 +1,9 @@
+import MyModules.art as Art
 import sys
 from os.path import dirname, abspath
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
-
-import MyModules.art as Art
 
 
 def percent(element, object, degree):

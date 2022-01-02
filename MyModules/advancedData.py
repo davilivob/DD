@@ -1,16 +1,15 @@
 # from AnalyzingApp.TimerLoadBar import Adding
+from MyModules import readFiles as File, Aj as AJ, TimerLoadBar as TimeBar
 import sys
 from os.path import dirname, abspath
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
 
-from MyModules import readFiles as File, Aj as AJ, TimerLoadBar as TimeBar
-
 
 class A:
     weDontWant = " ".join('~!@#$%^&*()_+`}1234567890=[]{;:"\|,.<>?').split()
-    keepItSpace = ["-", "  ","/"]
+    keepItSpace = ["-", "  ", "/"]
     Words = str.lower(File.Load.Dictionary)
     for element in keepItSpace:
         while element in Words:
@@ -44,4 +43,3 @@ class A:
     WordsRepeated = AJ.CreateRepeatedArray(wordsList)
 
     WordsRepeatedJson = AJ.CreateJsonObject(WordsRepeated)
-

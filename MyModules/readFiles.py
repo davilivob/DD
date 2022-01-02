@@ -1,3 +1,4 @@
+import MyModules.TimerLoadBar as TimeBar
 import json
 import sys
 from os.path import dirname, abspath
@@ -5,7 +6,6 @@ from typing import overload
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
-import MyModules.TimerLoadBar as TimeBar
 
 
 class Load:
@@ -31,7 +31,7 @@ class Load:
         typingDatas = json.loads(typingJson)
         TimeBar.Adding()
 
-    with open("Databases/Setting.json", mode="r",encoding="utf-8") as file:
+    with open("Databases/Setting.json", mode="r", encoding="utf-8") as file:
         setting = json.loads(file.read())
         definition = setting["definition"]
         comparison = setting["comparison"]

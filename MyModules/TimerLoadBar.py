@@ -1,13 +1,12 @@
+import json
+import time
+from MyModules import art as Art
 import sys
 from os.path import dirname, abspath
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
 
-from MyModules import art as Art
-
-import time
-import json
 
 with open("Databases/Setting.json", mode="r") as file:
     Setting = json.loads(file.read())
@@ -30,7 +29,8 @@ if doTheTimeBar == True:
             loadRatio = timeNow() / Counter.prevTime
             sys.stdout.write(
                 Art.FontEffect(
-                    "".join(["\u001b[1000D" , Art.LoadBar(loadRatio, barRange, 0)]),
+                    "".join(["\u001b[1000D", Art.LoadBar(
+                        loadRatio, barRange, 0)]),
                     208,
                     0,
                 )

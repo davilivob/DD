@@ -1,13 +1,13 @@
+from MyModules import (
+    readFiles as File,
+    TimerLoadBar as TimeBar,
+)
 import sys
 from os.path import dirname, abspath
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
 
-from MyModules import (
-    readFiles as File,
-    TimerLoadBar as TimeBar,
-)
 
 Dictionary = File.Load.Dictionary
 defi = File.Load.definition
@@ -36,7 +36,7 @@ class R:
     comparisons = len(Dictionary.split("比")) - 1
 
     unlearned = len(Dictionary.split("空")) - 1
-    
+
     fromlyrics = len(Dictionary.split("歌")) - 1
 
     learned = vocabularies - unlearned

@@ -1,15 +1,14 @@
-import sys
-from os.path import dirname, abspath
-
-d = dirname(dirname(abspath(__file__)))
-sys.path.append(d)
-
 from MyModules import (
     Aj as AJ,
     doTheMath as Math,
     TimerLoadBar as TimeBar,
     advancedData as A,
 )
+import sys
+from os.path import dirname, abspath
+
+d = dirname(dirname(abspath(__file__)))
+sys.path.append(d)
 
 
 wordsList = A.A.wordsList

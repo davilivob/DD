@@ -1,10 +1,11 @@
+import json
+import MyModules.TimerLoadBar as TimeBar
 import sys
 from os.path import dirname, abspath
 
 d = dirname(dirname(abspath(__file__)))
 sys.path.append(d)
-import MyModules.TimerLoadBar as TimeBar
-import json
+
 # sys.setrecursionlimit(200000)
 
 # amount = []
@@ -136,4 +137,3 @@ def SeparateAllShort(wordsList):
         splitQruotationMark(wordsList, "'em", "them", "'")
         splitQruotationMark(wordsList, "o'clock", "o", "clock")
         splitQruotationMark(wordsList, "etc", "et", "cetera")
-
