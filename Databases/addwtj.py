@@ -10,7 +10,7 @@ with open('./Databases/words_to_join.json') as file:
 with open('Databases/text.txt') as file:
     string = file.read()
 
-deleted = list((',', '.', "'s", "'", ';', ':'))
+deleted = list((',', '.', "'s", "'", ';', ':', '?'))
 string = string.replace('-', ' ').replace('\n', ' ')
 for char in deleted:
     string = string.replace(char, '')
