@@ -7656,6 +7656,20 @@
           "The dinner was only a prelude to a much larger meeting.",
           "@ A short piece of music that introduces the main work."
         ],
+        "inevitable": [
+          "@ Certain to happen and unable to be avoided or prevented.",
+          "The accident was the inevitable consequence of carelessness.",
+          "Eventually the inevitable happened and he had a heart attack.",
+          "Unfortunately, violence is the inevitable corollary of such a revolutionary change in society.",
+          {
+            "inevitability": [
+              "The inevitability of change."
+            ],
+            "inevitably": [
+              "He inevitably orders iced tea with his lunch."
+            ]
+          }
+        ],
         "unprecedented": [
           "@ Never having happened or existed in the past.",
           "This century has witnessed environmental destruction on an unprecedented scale.",
