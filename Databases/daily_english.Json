@@ -8431,6 +8431,10 @@
           "Our lawn is frosted over.",
           "We enjoyed a leisurely picnic lunch on the lawn.",
           "I scattered grass seed all over the lawn."
+        ],
+        "parkland": [
+          "@ An area of open land with grass and trees.",
+          "the college is surrounded by 70 acres of parkland."
         ]
       }
     ],
@@ -9502,7 +9506,6 @@
       "Good forestry always has required we put the next generation ahead of our own.",
       "State forestry officials estimate about eighty percent of the eight-hundred thousand acres of wetland forest in the state is privately owned"
     ],
-    "parkland": [""],
     "waterfront": [""],
     "stock": [""],
     "condidate": [""],
@@ -10455,6 +10458,38 @@
     "rebellion": [""],
     "hang": [""],
     "brand": [""],
-    "revolution": [""]
+    "revolution": [""],
+    "rapidly": [""],
+    "wrath": [""],
+    "sadistic": [""],
+    "agreed": [""],
+    "ripple": [""],
+    "resplendent": [""],
+    "lederhosen": [""],
+    "murdoc": [""],
+    "rooted": [""],
+    "spot": [""],
+    "strap-on": [""],
+    "feathered": [""],
+    "alpine": [""],
+    "knocking": [""],
+    "castanets": [""],
+    "shifting": [""],
+    "leathery": [""],
+    "backside": [""],
+    "hurtling": [""],
+    "sod": [""],
+    "smash": [""],
+    "blinding": [""],
+    "aftershave": [""],
+    "wafted": [""],
+    "pub": [""],
+    "implored": [""],
+    "spared": [""],
+    "dignity": [""],
+    "stripping": [""],
+    "ritual": [""],
+    "growled": [""],
+    "reform": [""]
   }
 }
