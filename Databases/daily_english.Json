@@ -4987,6 +4987,15 @@
                   "@ The period around Christmas."
                 ]
               }
+            ],
+            "monsoon": [
+              "@ The season of heavy rain during the summer in hot Asian countries.",
+              "The failure of the monsoon would destroy harvests on which a billion people rely.",
+              [
+                "But this year, the monsoon is late and forecasters predict it may produce less rain than normal.",
+                "The heating up of these bodies of water generates tropical cyclones and monsoon rains.",
+                "And then last month, the monsoons arrived, like an answer to a prayer."
+              ]
             ]
           }
         ]
@@ -10333,7 +10342,6 @@
     "snob": [""],
     "usage": [""],
     "stream": [""],
-    "monsoon": [""],
     "fatigue": [""],
     "minor": [""],
     "astonishing": [""],
@@ -10514,6 +10522,39 @@
     "stripping": [""],
     "ritual": [""],
     "growled": [""],
-    "reform": [""]
+    "reform": [""],
+    "bane": [""],
+    "talentless": [""],
+    "clods": [""],
+    "impersonating": [""],
+    "gurning": [""],
+    "sapping": [""],
+    "mindless": [""],
+    "bi": [""],
+    "finals": [""],
+    "threatened": [""],
+    "cattle": [""],
+    "dough": [""],
+    "backed": [""],
+    "stinky": [""],
+    "giffers": [""],
+    "knackered": [""],
+    "crap": [""],
+    "pointlessly": [""],
+    "celebrity": [""],
+    "bullying": [""],
+    "basterd": [""],
+    "wreak": [""],
+    "revenge": [""],
+    "buffoons": [""],
+    "Gorillaz": [""],
+    "rejection": [""],
+    "rubbish": [""],
+    "pauses": [""],
+    "gobsmacked": [""],
+    "clapometer": [""],
+    "primary": [""],
+    "keenly": [""],
+    "the fine": [""]
   }
 }
