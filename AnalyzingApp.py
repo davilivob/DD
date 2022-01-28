@@ -1,3 +1,15 @@
+from MyModules import (
+    art as Art,
+    readFiles as File,
+    doTheMath as Math,
+    Aj as AJ,
+    regularData as R,
+    AllanBill as AB,
+    advancedData as A,
+    typingData as TT,
+    ranking as Rank,
+)
+from MyModules import TimerLoadBar as TimeBar
 import json
 
 print()
@@ -13,21 +25,9 @@ if ifPrint != "":
 else:
     RankingList = "0"
 
-from MyModules import TimerLoadBar as TimeBar
 
 print()
 
-from MyModules import (
-    art as Art,
-    readFiles as File,
-    doTheMath as Math,
-    Aj as AJ,
-    regularData as R,
-    AllanBill as AB,
-    advancedData as A,
-    typingData as TT,
-    ranking as Rank,
-)
 
 A = A.A
 wordsList, WordsRepeated, WordsRepeatedJson = (
@@ -142,8 +142,8 @@ def UploadDatasToJson():
     def settingUpload():
         return {
             "PrevTime": TimeBar.timeNow(),
-            "doTheTimeBar": 1,
-            "fillBar": 1,
+            "doTheTimeBar": 0,
+            "fillBar": 0,
             "definition": File.Load.definition,
             "comparison": File.Load.comparison,
             "lyric": File.Load.lyric,
@@ -161,7 +161,8 @@ class Write:
                 Art.FontEffect(str(AllanGrade)[2:-1], 0, 1),
                 "\n",
                 Art.FontEffect(
-                    Art.LoadBar(float(str(AllanGrade)[2:-3]) / 100, 100, 0), 185, 0
+                    Art.LoadBar(
+                        float(str(AllanGrade)[2:-3]) / 100, 100, 0), 185, 0
                 ),
             ]
         )
@@ -176,7 +177,8 @@ class Write:
                 Art.FontEffect(str(BillGrade)[2:-1], 0, 1),
                 "\n",
                 Art.FontEffect(
-                    Art.LoadBar(float(str(BillGrade)[2:-3]) / 100, 100, 0), 185, 0
+                    Art.LoadBar(
+                        float(str(BillGrade)[2:-3]) / 100, 100, 0), 185, 0
                 ),
             ]
         )
@@ -189,12 +191,14 @@ class Write:
 
     def Learned():
         return "".join(
-            ["Learned: ", str(learned), Math.percent(learned, vocabularies, 10)]
+            ["Learned: ", str(learned), Math.percent(
+                learned, vocabularies, 10)]
         )
 
     def Unlearned():
         return "".join(
-            ["Unlearned: ", str(unlearned), Math.percent(unlearned, vocabularies, 10)]
+            ["Unlearned: ", str(unlearned), Math.percent(
+                unlearned, vocabularies, 10)]
         )
 
     def Individuals():
@@ -205,7 +209,8 @@ class Write:
 
     def Examples():
         return "".join(
-            ["Examples: ", str(examples), Math.percent(examples, sentences, 10)]
+            ["Examples: ", str(examples), Math.percent(
+                examples, sentences, 10)]
         )
 
     def Definitions():
@@ -366,7 +371,8 @@ def PrintResults():
     Art.Print.tabln(FirstLettersRanking.TopUsed())
     if wordsRankNum != 0:
         print(
-            Art.FontEffect(" ".join(["TOP", str(wordsRankNum), "USED WORDS: "]), 208, 1)
+            Art.FontEffect(
+                " ".join(["TOP", str(wordsRankNum), "USED WORDS: "]), 208, 1)
         )
         Art.Print.tabln(WordsRanking.TopUsed())
 
