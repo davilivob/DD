@@ -6702,6 +6702,25 @@
       "She hit the ball so hard that her opponent had no chance to establish any rhythm in her game.",
       {
         "compete": [""],
+        "contest": [
+          "@ A competition to do better than other people, usually in which prizes are given.",
+          "She's won a lot of beauty contests.",
+          "The winner of tonight's talent contest will be decided by clapometer.",
+          "@ An attampt, usually against difficulties, to win an election or to get power or control.",
+          "The contest for the leadership of the party was very bitter.",
+          "The primary in Iowa is the first contest for the Republican nomination.",
+          "@ If you contest a formal statement, a claim, a judge's decision, or a legal case, you say formally that it is wrong or unfair and try to have it changed.",
+          "We will certainly contest any claims made against the safety of our products.",
+          "The campaign’s organizers hotly contest much of the criticism that has been leveled at them.",
+          "The lawyers may decide to contest the fine.",
+          "@ To compete for something.",
+          "The medal is being keenly contested by eight gymnasts.",
+          {
+            "contestant": [
+              "She was once a contestant on a television quiz show."
+            ]
+          }
+        ],
         "dissent": [
           "@ A strong difference of opinion on a particular subject, esp. about an official suggestion or plan or a popular belief.",
           "When the time came to approve the proposal, there were one or two voices of dissent.",
@@ -9651,7 +9670,12 @@
     "underestimate": [""],
     "immune": [""],
     "boost": [""],
-    "gymnastic": [""],
+    "gymnastic": [
+      "",
+      {
+        "gymnast": [""]
+      }
+    ],
     "certificate": [""],
     "hypothese": [""],
     "presume": [""],
