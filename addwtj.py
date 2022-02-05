@@ -33,11 +33,34 @@ for element in arr:
     if element.lower() not in words and element.lower() not in wtjjson and element not in newarr and "'" not in element:
         newarr.append(element.lower())
 
-print(newarr)
-input = input('\n')
-if input == '':
-    for element in newarr:
-        wtjjson.update({element: [""]})
 
-    with open('./Databases/words_to_join.json', 'w') as file:
-        json.dump(wtjjson, file)
+def printArr(arr):
+    n = 0
+    for element in arr:
+        print(n, element, sep=': ')
+        n += 1
+
+
+printArr(newarr)
+
+
+def getInput():
+    Input = input('\n')
+    if Input == '':
+        for element in newarr:
+            wtjjson.update({element: [""]})
+
+        with open('./Databases/words_to_join.json', 'w') as file:
+            json.dump(wtjjson, file)
+        return 0
+    else:
+        if Input.isnumeric():
+            if int(Input) < len(newarr):
+                newarr.remove(newarr[int(Input)])
+                printArr(newarr)
+        else:
+            exit()
+        getInput()
+
+
+getInput()
