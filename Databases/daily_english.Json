@@ -6770,6 +6770,43 @@
               "@ Be directly used as a verb, to sell something in a public auction.",
               "The stamps will be auctioned tomorrow.",
               "The family is auctioning off its art collection."
+            ],
+            "stock": [
+              "@ A supply of something for use or sale.",
+              "It is now halfway through winter and food stocks are already low.",
+              "The store has a good stock of postcards and guidebooks.",
+              "Much of the city's housing stock is over a hundred years old.",
+              "@ The total amount of goods or the amount of a particular type of goods available in a store.",
+              "This shop sells its old stock at very low prices.",
+              "We'll be getting our new stock in on Friday.",
+              "@ The amount of money that a company has through selling shares to people.",
+              "They own twenty percent of the company's stock.",
+              "@ Part of the ownership of a company that can be bought by members of the public.",
+              "Stock prices fell yesterday in heavy trading.",
+              "She buys and sells stocks and shares.",
+              "@ Money that people invest in the government, producing a fixed rate of interest.",
+              "@ A liquid used to add flavor to food, made by boiling meat or fish bones or vegetables in water.",
+              "@ Animals, such as cows or sheep, kept on a farm.",
+              "@ The degree to which a person or organization is popular and respected.",
+              "At present, the president's stock is high.",
+              "@ The family or group that a person or animal comes from.",
+              "He's an American of Irish stock.",
+              "Some of the animals will be kept as breeding stock.",
+              "@ A garden plant with small pleasant-smelling, brightly colored flowers.",
+              "@ If a store or factory stocks something, it keeps a supply of it.",
+              "Most supermarkets stock a wide range of wines.",
+              "@ To fill something such as a cupboard or shelves with food or goods.",
+              "He has a part-time job stocking shelves in the local supermarket.",
+              "I always stock up the refrigerator before my sister comes to stay.",
+              {
+                "in / out of stock": [
+                  "@ Available / not available.",
+                  "The new addition is out of stock in major bookstores."
+                ],
+                "the stocks": [
+                  "@ In the past, a wooden frame that was fixed around someone's feet, hands, and sometimes head, so that they were forced to sit or stand for a long time in public as a punishent."
+                ]
+              }
             ]
           }
         ]
@@ -9540,13 +9577,13 @@
           "@ A part of a town that is next to an area of water such as a river or the ocean.",
           "She owns a popular tourist restaurant on the town's waterfront.",
           [
-            "But affordable real estate and waterfront views don't have millennials biting."
+            "But affordable real estate and waterfront views don't have millennials biting.",
+            "He was on the waterfront and watched as rescue personnel brought several survivors ashore.",
+            "His plan is to place life-size bronze statues along the town's waterfront."
           ]
         ]
       }
     ],
-
-    "stock": [""],
     "condidate": [""],
     "receive": [""],
     "oak": [""],
