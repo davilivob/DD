@@ -5599,7 +5599,6 @@
     "actress": [""],
     "ad": [""],
     "adapt": [""],
-    "adequate": [""],
     "adolescent": [""],
     "adventure": [""],
     "adviser": [""],
@@ -6390,7 +6389,23 @@
       }
     ],
     "rational": [""],
-    "inadequate": [""],
+    "inadequate": [
+      "",
+      {
+        "adequate": [
+          "@ Enough or satisfactory for a particular purpose.",
+          "He didn't have adequate time to prepare for the exam.",
+          {
+            "adequacy": [
+              "We must re-examine the adequacy of our current security procedures."
+            ],
+            "adequately": [
+              "Were you adequately paid, or do you need more money?"
+            ]
+          }
+        ]
+      }
+    ],
     "field": [""],
     "corresponding": [
       "",
