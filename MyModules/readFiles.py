@@ -14,8 +14,14 @@ class Load:
         TimeBar.Adding()
 
     with open("Databases/daily_english.json", mode="r", encoding="utf-8") as file:
-        Dictionary = file.read()
+        NormalDict = file.read()
         TimeBar.Adding()
+
+    with open("Databases/lyric_dictionary.json", mode="r", encoding="utf-8") as file:
+        LyricDict = file.read()
+        TimeBar.Adding()
+
+    Dictionary = NormalDict + LyricDict
 
     lastCharsRepeated = load_json[2]["Analysing Results"]["Advanced Datas"][
         "Characters Repeated Times"

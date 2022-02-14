@@ -142,8 +142,8 @@ def UploadDatasToJson():
     def settingUpload():
         return {
             "PrevTime": TimeBar.timeNow(),
-            "doTheTimeBar": 0,
-            "fillBar": 0,
+            "doTheTimeBar": 1,
+            "fillBar": 1,
             "definition": File.Load.definition,
             "comparison": File.Load.comparison,
             "lyric": File.Load.lyric,

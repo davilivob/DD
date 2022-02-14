@@ -70,3 +70,8 @@ C:\Users\dovilivob\Desktop\D.D\DD\obj\Debug\net5.0\DailyEnglish.dll
 C:\Users\dovilivob\Desktop\D.D\DD\obj\Debug\net5.0\ref\DailyEnglish.dll
 C:\Users\dovilivob\Desktop\D.D\DD\obj\Debug\net5.0\DailyEnglish.pdb
 C:\Users\dovilivob\Desktop\D.D\DD\obj\Debug\net5.0\DailyEnglish.genruntimeconfig.cache
+C:\Users\User\Desktop\DD\obj\Debug\net5.0\DailyEnglish.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DD\obj\Debug\net5.0\DailyEnglish.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\DD\obj\Debug\net5.0\DailyEnglish.dll
+C:\Users\User\Desktop\DD\obj\Debug\net5.0\ref\DailyEnglish.dll
+C:\Users\User\Desktop\DD\obj\Debug\net5.0\DailyEnglish.pdb
