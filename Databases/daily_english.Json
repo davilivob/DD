@@ -4210,6 +4210,17 @@
               "The electronic device monitored the fetal heart rate."
             ]
           }
+        ],
+        "adolescent": [
+          "@ Between the ages of a child and an adult.",
+          "The two adolescent boys made their mother very tired.",
+          "I teach in a middle school, because I like young adolescents.",
+          "@ If you describe an adult as adolescent, you mean that the person is behaving in a silly way.",
+          {
+            "adolescence": [
+              "He had an unhappy adolescence."
+            ]
+          }
         ]
       }
     ],
@@ -5599,7 +5610,6 @@
     "actress": [""],
     "ad": [""],
     "adapt": [""],
-    "adolescent": [""],
     "adventure": [""],
     "adviser": [""],
     "aggressive": [""],
