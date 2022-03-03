@@ -43,7 +43,10 @@
           "She has made some slips lately that show she's thinking about other things.",
           "@ Women's underwear that is shaped like a skirt or a dress."
         ],
-        "idolize": [""],
+        "idolize": [
+          "@ To admire and respect someone very much, often too much",
+          "She idolized her father."
+        ],
         "pimp": [""]
       },
       "~ At first, I did love you.",
