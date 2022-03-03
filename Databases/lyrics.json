@@ -17,7 +17,10 @@
           "@ The silky covering that encloses and protects caterpillars during a state in their lives before they develop into adults.",
           "@ A cocoon is also a safe, quiet place."
         ],
-        "collide": [""],
+        "collide": [
+          "@To hit something violently",
+          "He went off the road to avoid colliding with another car."
+        ],
         "slip": [""],
         "idolize": [""],
         "pimp": [""]
