@@ -4387,7 +4387,13 @@
             "cellist": [""],
             "choral": [""],
             "accompaniment": [
-              "",
+              "@ Something done is support of something else.",
+              "Music that supports someone who is singing or playing an instrument.",
+              [
+                "A pamphlet printed with the same information makes a handy accompaniment to the terminology used throughout the show.",
+                "They're also a fine and classic accompaniment to foie gras toward the beginning of a meal.",
+                "This year, though, the montage's musical accompaniment was performed live."
+              ],
               {
                 "accompany": [
                   "@ To go with someone or to exist at the same time as something.",
