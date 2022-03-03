@@ -4386,7 +4386,16 @@
             "symphony": [""],
             "cellist": [""],
             "choral": [""],
-            "accompaniment": [""]
+            "accompaniment": [
+              "",
+              {
+                "accompany": [
+                  "@ To go with someone or to exist at the same time as something.",
+                  "Students can't leave the building during class hours unless they are accompanied by an adult.",
+                  "@ In music, to accompany is to play an instrument in support of someone who is playing an instrument or singing."
+                ]
+              }
+            ]
           }
         ]
       }
@@ -5602,7 +5611,6 @@
         ]
       }
     ],
-    "accompany": [""],
     "accomplish": [""],
     "accurate": [""],
     "acknowledge": [""],
