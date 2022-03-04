@@ -5617,7 +5617,15 @@
         ]
       }
     ],
-    "accomplish": [""],
+    "accomplish": [
+      "@ To do or finish something successfully; achieve something.",
+      "On retiring from the Congress, he said he had accomplished everything he set out to do.",
+      [
+        "To accomplish these kinds of purposes, you needed these kinds of technologies.",
+        "On the contrary, they free us to accomplish more and do more things with our minds rather than continuously doing drudge work.",
+        "Previous implementations suggest that having more than one chief executive can help a company accomplish more by delegating different roles to each head."
+      ]
+    ],
     "accurate": [""],
     "acknowledge": [""],
     "active": [""],
@@ -6787,7 +6795,12 @@
     "malnutrition": [""],
     "contamination": [""],
     "nano": [""],
-    "drudgery": [""],
+    "drudgery": [
+      "",
+      {
+        "drudge": [""]
+      }
+    ],
     "publication": [""],
     "intrude": [""],
     "ethos": [""],
