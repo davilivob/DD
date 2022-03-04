@@ -5122,7 +5122,13 @@
     "proportion": [
       "After that, it diminishes roughly in proportion to the delay.",
       {
-        "portion": [""]
+        "portion": [
+          "@ A part of share of something larger.",
+          "She read large portions of the manuscript and offered many useful suggestions.",
+          "A portion of my paycheck was withheld for taxes.",
+          "@ A portion is also the amount of food served to or suitable for a person.",
+          "They serve children's portions at helf-price."
+        ]
       }
     ],
     "branch": [
