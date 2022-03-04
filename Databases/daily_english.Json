@@ -2293,7 +2293,16 @@
       "We debated which of the candidate will emerge as the winner.",
       {
         "immerse": [
-          "There is no better way to improve your language skills than immerse yourself in the culture."
+          "@ To involve someone completely in an activity.",
+          "She immersed herself wholly in her work.",
+          "There is no better way to improve your language skills than immerse yourself in the culture.",
+          "@ To put something completely under the surface of a liquid.",
+          "Immerse the egg in boiling water.",
+          {
+            "immersion": [
+              "The course offers total immersion in English."
+            ]
+          }
         ]
       }
     ],
