@@ -5177,14 +5177,13 @@
       }
     ],
     "consumer": [
-      "",
+      "@ Someone who buys goods or services for personal use.",
+      "American consumers are becoming informed about the safety of products made for children.",
+      "The new telephone rates will affect all consumers.",
+      "The United State is currently the world's largest consumer of energy.",
       {
-        "consume": [
-          "",
-          {
-            "consumption": [""]
-          }
-        ]
+        "consume": [""],
+        "consumption": [""]
       },
       {
         "subscription": [""]
