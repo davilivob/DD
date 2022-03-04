@@ -4619,7 +4619,13 @@
       "Paradoxically, the best chance farmers have of seeing grain prices rise would be a year where bad weather produced a small crop.",
       {
         "contradiction": [
-          "",
+          "@ A fact or statement that is the opposite of what someone has said or that is so different from another fact or statement that one of them must be wrong.",
+          "His life was full of contradictions.",
+          [
+            "As the survey's authors noted, aspiring to the freedom brought by self-employment while still living with or being supported by family is an age-old contradiction.",
+            "In addition, they illustrate the existing contradiction between emotional events and the objectivity of the log.",
+            "In startling contradiction, one of the most common arguments for spreading religion is that it promotes moral behavior."
+          ],
           {
             "contradict": [""]
           }
