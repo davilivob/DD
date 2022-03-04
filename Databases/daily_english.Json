@@ -2363,7 +2363,15 @@
           "Fleeing the flood waters, families here packed their belongings and headed to higher land.",
           "In the second part of the inventories are listed the belongings of the deceased, with their value."
         ],
-        "fortune": [""]
+        "fortune": [
+          "@ A very large amount of money or property.",
+          "They made a fortune in real estate.",
+          "This dress cost a fortune.",
+          "They make a fortune, they pay no tax.",
+          "@ The set of good or bad events that happen to you and have an effect on our life.",
+          "He had the good fortune to be awarded a scholarship.",
+          "@ If someone tells your fortune, that person tries to discover what will happen to you in the future, for example by looking at the lines on your hands or by using a special set of cards."
+        ]
       }
     ],
     "elegance": [
