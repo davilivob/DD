@@ -2424,7 +2424,16 @@
                 ]
               }
             ],
-            "ace": [""]
+            "ace": [""],
+            "accomplish": [
+              "@ To do or finish something successfully; achieve something.",
+              "On retiring from the Congress, he said he had accomplished everything he set out to do.",
+              [
+                "To accomplish these kinds of purposes, you needed these kinds of technologies.",
+                "On the contrary, they free us to accomplish more and do more things with our minds rather than continuously doing drudge work.",
+                "Previous implementations suggest that having more than one chief executive can help a company accomplish more by delegating different roles to each head."
+              ]
+            ]
           }
         ]
       },
@@ -2962,7 +2971,13 @@
           "He, a professor, represents education, which, as his lectures remind us, totalitarian governments try to keep down."
         ],
         "pharaoh": [""],
-        "curfew": [""]
+        "curfew": [""],
+        "colonial": [
+          "@ Involving a perioud of political control by a more powerful country.",
+          "Turkey was once an important colonial power.",
+          "Various parts of Africa have suffered under colonial rule.",
+          "These old buildings are the last vestiges of a colonial past."
+        ]
       },
       {
         "monopoly": [
@@ -5617,15 +5632,6 @@
         ]
       }
     ],
-    "accomplish": [
-      "@ To do or finish something successfully; achieve something.",
-      "On retiring from the Congress, he said he had accomplished everything he set out to do.",
-      [
-        "To accomplish these kinds of purposes, you needed these kinds of technologies.",
-        "On the contrary, they free us to accomplish more and do more things with our minds rather than continuously doing drudge work.",
-        "Previous implementations suggest that having more than one chief executive can help a company accomplish more by delegating different roles to each head."
-      ]
-    ],
     "accurate": [""],
     "acknowledge": [""],
     "active": [""],
@@ -5703,7 +5709,6 @@
     "coalition": [""],
     "cognitive": [""],
     "collective": [""],
-    "colonial": [""],
     "comfort": [""],
     "commander": [""],
     "commercial": [""],
