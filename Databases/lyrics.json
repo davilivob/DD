@@ -114,7 +114,12 @@
           "@ A building used for religious worship.",
           "@ The flat area at each side of the upper part of the face."
         ],
-        "refrain": [""],
+        "refrain": [
+          "@ To not let yourself do something.",
+          "Please refrain from talking during the lecture.",
+          "@ A short part of a song or poem that is repeated, esp. at the end of each longer part, or any phrase that is often repeated.",
+          "Every year we hear the same refrain, that women are making great strides in business."
+        ],
         "testament": [""],
         "": [""]
       },
