@@ -5480,7 +5480,15 @@
       "She's trapped in the gap between signifier and signified, and that vast and enormous space tortures her.",
       "\" We live on enormous territorym, our eyes have different shapes, we believe in different religions \", she said.",
       {
-        "immense": [""],
+        "immense": [
+          "@ Extremely large; great in size or degree.",
+          "He inherited an immense fortune.",
+          "Did you see that guy? He was immense!",
+          [
+            "Country music is immensely popular.",
+            "He realized the immensity of the risk he was taking."
+          ]
+        ],
         "substantial": [
           "@ Large in size, value, or importance.",
           "The findings show a substantial difference between the opinions of men and women.",
