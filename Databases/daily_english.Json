@@ -4905,7 +4905,12 @@
           "@ A model of a person.",
           "The effigy on it may be taken to be an authentic portrait.",
           {
-            "statue": [""]
+            "statue": [
+              "@ A large art object, often representing a person or an animal, that is made from a hard material, esp. stone or metal.",
+              "They planned to erect a statue to the president.",
+              "In the center of the hall stood a colossal wooden statue, decorated in ivory and gold.",
+              "A statue has been built to commemorate the 100th anniversary of the poet's birthday."
+            ]
           },
           {
             "stencil": [
