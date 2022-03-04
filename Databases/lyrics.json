@@ -82,7 +82,13 @@
           "The state of Florida was hit by a hurricane that did serious damage.",
           "Hurricane force winds are expected tonight."
         ],
-        "devastation": [""],
+        "devastation": [
+          "@ Damage and destruction.",
+          "If disease is allowed to spread, it will cause widespread devastation.",
+          "The storm left behind it a trail of devastation.",
+          "@ Feeling very shocked or upset.",
+          "She had a look of utter devastation on her face."
+        ],
         "reign": [""],
         "drain": [""],
         "temple": [""],
