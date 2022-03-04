@@ -2376,7 +2376,7 @@
           "The gazelle is one of the swiftest and most graceful of animals.",
           {
             "disgrace": [
-              "@ ambarrassment and the loss of other people's respect, or behavior that causes this.",
+              "@ embarrassment and the loss of other people's respect, or behavior that causes this.",
               "He brought disgrace on the whole team by falsifying the results.",
               "@ To make people stop respecting you or your family, team, etc. by doing something very bad.",
               "You have disgraced us all with your behavior.",
@@ -2442,7 +2442,7 @@
                   "@ In a way that suggests you have achieved a victory or feel happy because of achieving a victory.",
                   "Bob triumphantly announced his promotion.",
                   "\"Here it is!\", he said triumphantly.",
-                  "The army triumpantly declared that they had seized the city from the rebels.",
+                  "The army triumphantly declared that they had seized the city from the rebels.",
                   "She waved triumphantly to the crowd in the stadium.",
                   "They dream of the day when they can march triumphantly into the capital city."
                 ]
@@ -2466,7 +2466,7 @@
           "I'm going to get an education and a decent job.",
           {
             "indecent": [
-              "@ Morally ofensive, especially in a sexual way.",
+              "@ Morally offensive, especially in a sexual way.",
               "She accused him of making indecent suggestions to her.",
               "Indecent language is not allowed on the radio between 6 a.m. and 10 p.m.",
               "@ not suitable or correct for situation.",
@@ -2497,7 +2497,7 @@
     "reputation": [
       "He earned/established/gained/acquired a reputation as an entertaining speaker.",
       "The newspaper has a reputation for being littered with spelling mistakes.",
-      "Recent discoveries about coruption have done serious damage to the company's reputation.",
+      "Recent discoveries about corruption have done serious damage to the company's reputation.",
       "She has a reputation as a tough negotiator.",
       "He knew Hindman by reputation before interviewing him for the post.",
       {
@@ -5464,7 +5464,12 @@
             ]
           }
         ],
-        "circumstance": [""]
+        "circumstance": [
+          "@ An event or condition connected with what is happening or has happened.",
+          "The circumstances of the theft of the paintig were not known.",
+          "The circumstances surrounding his disappearance are under investigation.",
+          "Mrs. Smith's lawyers say she was victim or circumstance, not a murderer."
+        ]
       }
     ],
     "enormous": [
@@ -7415,6 +7420,9 @@
     "compost": [""],
     "objectivity": [""],
     "log": [""],
-    "startling": [""]
+    "startling": [""],
+    "pupil": [""],
+    "unscathed": [""],
+    "wholly": [""]
   }
 }
