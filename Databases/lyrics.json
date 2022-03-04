@@ -97,8 +97,23 @@
           "The bomb attacks produced a panic which reigned over the city.",
           "Love reigned supreme in her heart."
         ],
-        "drain": [""],
-        "temple": [""],
+        "drain": [
+          "@ To allow or cause liquid to flow away from something.",
+          "Wash the lettuce in the sink and let it drain.",
+          "Drain the lettuce and then pat it dry with paper towels.",
+          "@ If something drains you, it makes you very tired.",
+          "It drains you to work with a class of twenty four-year-olds, let me tell you.",
+          "@ A pipe or channel that carries away waste water or other liquids.",
+          "She spilled some sugar in the sink and washed it down the drain.",
+          "@ Something that is a drain on you takes away a lot of your energy and makes you tired.",
+          "Taking care of his sick mother was quite a drain on him.",
+          "@ If something is a drain on your money or something else, it uses a lot of it or makes it weaker.",
+          "Having two mortgages was tremendous drain on their resource."
+        ],
+        "temple": [
+          "@ A building used for religious worship.",
+          "@ The flat area at each side of the upper part of the face."
+        ],
         "refrain": [""],
         "testament": [""],
         "": [""]
