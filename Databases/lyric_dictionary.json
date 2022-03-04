@@ -840,8 +840,17 @@
             "@ If your heart leaps, you have a sudden, strong feeling of pleasure or fear.",
             "My heart leaps when I hear his voice."
           ],
-          "chariot": [""],
-          "hobo": [""],
+          "chariot": [
+            "@ A two-wheeled vehicle pulled by a horse, used in ancient times by the military and in racing.",
+            "All that we experience in life exists within our minds, our bodies are just the chariots.",
+            "With its chariot race and sea battle, it shared something with the dime novels then enjoying wide popularity but no literary esteem."
+          ],
+          "hobo": [
+            "@ A person who doesn't have a job or a house to live in, and so moves from one place to another.",
+            "She told me that they spent some soul-searching discussions on their 'hobo' episodes.",
+            "On the run, she rides the rails through a male dominated hobo underworld in which danger is always close at hand.",
+            "Like a cosmic hobo carrying a stick and bindle, it will travel laden with only the essential."
+          ],
           "funeral parlor": [""]
         },
         "~ I repeated that my friends were all in jail, with a sigh.",
