@@ -120,10 +120,39 @@
           "@ A short part of a song or poem that is repeated, esp. at the end of each longer part, or any phrase that is often repeated.",
           "Every year we hear the same refrain, that women are making great strides in business."
         ],
-        "testament": [""],
+        "testament": [
+          "@ Proof or something.",
+          "He is a walking testament to the value of hard work.",
+          "Winter's stunning photographs are a testament to what we still have the power to save.",
+          "It's incredibly impressive but it's a testament to his preparation and his dedication.",
+          "@ A testament is also a will."
+        ]
+      },
+      "~ Well the word got around, they said, 'This kid is insane, man!'.",
+      "~ Took up a collection just to send him to the mainland.",
+      "~ Get your education, don't forget from whence you came.",
+      "~ And the world's gonna know your name!",
+      "~ What's your name, man?",
+      {
+        "mainland": [
+          "@ The main part of a country or continent, not including the islands around it.",
+          "The island is accessible by ferry from the mainland."
+        ],
+        "whence": [
+          "@ From where.",
+          "It has been returned to the store from whence it came.",
+          [
+            "Whence, let us consider, did paratrooper and camcorder come?",
+            "They will do the usual and hid behind the flag, say a few kind words then crawl back under a rock from whence they came.",
+            "It was very interesting to see where the children had grown up, and the villa from whence they escaped."
+          ]
+        ],
+        "": [""],
+        "": [""],
+        "": [""],
         "": [""]
       },
-      ""
+      "~ "
     ]
   }
 }
