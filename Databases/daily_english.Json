@@ -4765,7 +4765,18 @@
           "@ To say that a particular person was the first one to say, do, invent something, etc..",
           "This idea has long been attributed to Keynes, but in fact he was not the first to think of it.",
           {
-            "asset": [""]
+            "asset": [
+              "@ Something having value, such as a possession or property, that is owned by a person, business, or organization.",
+              "He'll be a great asset to the team.",
+              "A company's assets can consist of cash, investments, specialist knowledge, or copyright material.",
+              "@ An asset is also any positive feature that gives you an advantage.",
+              "Her knowledge of Spanish and French is a real asset in her work.",
+              {
+                "liquid assets": [
+                  "@ Money or things that can easily be changed into money."
+                ]
+              }
+            ]
           }
         ],
         "bellwether": [
