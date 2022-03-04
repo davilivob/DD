@@ -183,7 +183,11 @@
           "@ The act of going away from a person or place because you are unwilling to fight any more or are frightened.",
           "Rebel soldiers were in full retreat."
         ],
-        "treatise": [""],
+        "treatise": [
+          "@ A formal piece of writing that deals with a particular subject.",
+          "The pamphlet was a breakaway success and spurred the creation of many subsequent books and treatises on the subject.",
+          "Even after fame and fortune, he continued to produce scholarly treatises."
+        ],
         "shelf": [""]
       }
     ]
