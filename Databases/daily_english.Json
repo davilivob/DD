@@ -5875,7 +5875,24 @@
     "entry": [""],
     "episode": [""],
     "ethics": [""],
-    "ethnic": [""],
+    "ethnic": [
+      "@ Relating to or characteristic of a large group of people who have the same national, racial, or cultural origins, and who usually speak the same language.",
+      "She loves ethnic foods, especially Ethiopian and Japanese.",
+      "There are forty ethnic groups among the school's pupils, who speak many different languages.",
+      "Poverty has risen among most racial an ethnic groups.",
+      "We do not discriminate on the basis of background or ethnic origin.",
+      {
+        "ethnically": [
+          "@ In a way that relates to people's race.",
+          "My father, who is ethnically Chinese, was born in the UK.",
+          "Miissouri is not nearly as ethnically diverse as the rest of the US.",
+          "Ethnically, he is a Pashtun, a minority group in his part of Pakistan."
+        ]
+      },
+      {
+        "exotic": [""]
+      }
+    ],
     "evolution": [""],
     "evolve": [""],
     "exception": [""],
@@ -7377,6 +7394,9 @@
     "venue": [""],
     "tiller": [""],
     "cultivator": [""],
-    "compost": [""]
+    "compost": [""],
+    "objectivity": [""],
+    "log": [""],
+    "startling": [""]
   }
 }
