@@ -320,7 +320,13 @@
                         ]
                       },
                       {
-                        "amendment": [""],
+                        "amendment": [
+                          "@ A change or changes made to the words of a text.",
+                          "He insisted that the book did not need amendment.",
+                          "I've made a few last-minute amendments to the article.",
+                          "Presidential power was reduced by a constitutional amendment in 1991.",
+                          "Tillers and cultivators are useful for turning soil, mixing in compost and fertilizer for soil amendment and loosening soil to help water reach plant roots."
+                        ],
                         "regulation": [
                           "@ An official rule or the act of controlling something.",
                           "The correct procedure is laid down in the rules and regulations.",
