@@ -1,3 +1,38 @@
 {
-  "": ["", {}, "", {}]
+  "Hamilton": {
+    "Alexander Hamilton": [
+      "~ How does a bastard, orphan, son of a whore, and a Scotsman, dropped in the middle of a forgotten.",
+      "~ Spot in the Caribbean by providence, imporverished, in squalor.",
+      "~ Grow up to be a hero and a scholar?",
+      {
+        "Caribbean": [
+          "@ Relating to the sea that is east of Central America and north of South America, or the islands in it and the countries that border this sea.",
+          "The hurricane is centered over the eastern Caribbean.",
+          "They've vacationing somewhere in the Caribbean."
+        ],
+        "providence": [""],
+        "": [""],
+        "": [""],
+        "": [""],
+        "": [""]
+      },
+      "~ The ten-dollar Founding Father without a father.",
+      "~ Got a lot farther by working a lot harder.",
+      "~ By being a lot smarter.",
+      "~ By being a self-starter.",
+      "~ By fourteen, they placed him in charge of a trading charter.",
+      {},
+      "~ And every day while slaves were being slaughtered and carted.",
+      "~ Away across the waves, he struggled and kept his guard up.",
+      "~ Inside, he was longing for something to be a part of.",
+      "~ The brother was ready to beg, steal, borrow, or barter.",
+      {},
+      "~ Then a hurricane come, and devastation reigned.",
+      "~ Our man saw his future drip, dripping down the drain.",
+      "~ Put a pencil to his temple, connected it to his brain.",
+      "~ And he wrote his first refrain, a testament to his pain.",
+      {},
+      ""
+    ]
+  }
 }
