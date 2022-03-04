@@ -175,7 +175,14 @@
           "@ To take care of and provide for yourself without depending on anyone else.",
           "The corporation will no longer receive a government subsidy, and must fend for itself financially."
         ],
-        "retreat": [""],
+        "retreat": [
+          "@ To move back and away from someone or something, esp. because you are frightened or want to be alone.",
+          "She burst into tears and retreated to the bedroom.",
+          "@ To retreat is also to go away from a person or place becaue you are unwilling to fight any more.",
+          "Under heavy fire, the soldiers retreated.",
+          "@ The act of going away from a person or place because you are unwilling to fight any more or are frightened.",
+          "Rebel soldiers were in full retreat."
+        ],
         "treatise": [""],
         "shelf": [""]
       }
