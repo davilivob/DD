@@ -1009,7 +1009,7 @@
         "mold": [
           "@ A soft, green or gray growth that develops on old food or on objects that have been left for too long in warm, wet air.",
           "There was mold on the cheese.",
-          "@ A hollow container with a particular shape into which soft or liquid substances are poured, so that when the substance becomes hard it taks the shape of the container.",
+          "@ A hollow container with a particular shape into which soft or liquid substances are poured, so that when the substance becomes hard it takes the shape of the container.",
           "A cake/jello mold.",
           "@ If someone is from or in a particular mold, they have the characteristics typical of a certain type of person.",
           "He's cast in a very different mold from his brother.",
@@ -1114,7 +1114,7 @@
               "His answers were obscure and confusing.",
               "Official policy has changed, for reasons that remain obscure.",
               "@ To prevent something from being seen or heard.",
-              "Two new skyscrapers had sprung up obscureing the view from her window.",
+              "Two new skyscrapers had sprung up obscuring the view from her window.",
               "Managers deliberately obscured the real situation from federal investigators."
             ]
           }
@@ -2566,7 +2566,7 @@
       "She has a somewhat cold, unfriendly manner.",
       "As soon as he realized that we weren't going to buy anything, his whole manner changed.",
       "@ A type",
-      "Very little is known about the new condidate - what manner of man is he?",
+      "Very little is known about the new candidate - what manner of man is he?",
       {
         "in the manner of sth": [
           "@ In the style of something.",
@@ -2730,9 +2730,9 @@
           "Malnutrition in the region is widespread - affecting up to 78 percent of children under five years old.",
           "The campaign has received widespread support.",
           [
-            "Feelings of hepelessness appear to be fairly widespread among medical students and early-career doctors.",
+            "Feelings of hopelessness appear to be fairly widespread among medical students and early-career doctors.",
             "If multiple samples reveal contamination, then officials know to increase monitoring to determine how widespread the problem is.",
-            "As nanomaterials become more widespread, the public and those who work with them will be increasingly exposed to them."
+            "As nano-materials become more widespread, the public and those who work with them will be increasingly exposed to them."
           ]
         ]
       }
@@ -2745,12 +2745,12 @@
           "@ A competition to do better than other people, usually in which prizes are given.",
           "She's won a lot of beauty contests.",
           "The winner of tonight's talent contest will be decided by clapometer.",
-          "@ An attampt, usually against difficulties, to win an election or to get power or control.",
+          "@ An attempt, usually against difficulties, to win an election or to get power or control.",
           "The contest for the leadership of the party was very bitter.",
           "The primary in Iowa is the first contest for the Republican nomination.",
           "@ If you contest a formal statement, a claim, a judge's decision, or a legal case, you say formally that it is wrong or unfair and try to have it changed.",
           "We will certainly contest any claims made against the safety of our products.",
-          "The campaign’s organizers hotly contest much of the criticism that has been leveled at them.",
+          "The campaign's organizers hotly contest much of the criticism that has been leveled at them.",
           "The lawyers may decide to contest the fine.",
           "@ To compete for something.",
           "The medal is being keenly contested by eight gymnasts.",
@@ -2794,7 +2794,7 @@
               "A furniture auction.",
               "The house and its contents are being put up for auction.",
               "The painting will be sold at auction next week.",
-              "A rare Stradivarius violin failed to reach its reserve price when put up for arction on Tuesday.",
+              "A rare Stradivarius violin failed to reach its reserve price when put up for auction on Tuesday.",
               "@ Be directly used as a verb, to sell something in a public auction.",
               "The stamps will be auctioned tomorrow.",
               "The family is auctioning off its art collection."
@@ -2834,7 +2834,7 @@
           },
           {
             "emphasis": [
-              "Where do you put the emphasis in the word \"controvery\"?",
+              "Where do you put the emphasis in the word \"controversy\"?",
               {
                 "emphatic": [
                   "Poland reached the final of the championship yesterday with an emphatic 5-0 victory over Italy.",
@@ -2854,7 +2854,7 @@
             "climax": [
               "@ The most important or exciting point in a story or situation, esp. when this happens near the end.",
               "The climax of the air show was a daring flying display.",
-              "The election compaign reaches its climax next week.",
+              "The election campaign reaches its climax next week.",
               "@ To reach the most important or exciting part.",
               "The show climaxed with all the performers singing on stage together."
             ]
@@ -2991,7 +2991,7 @@
         "despotic": [
           "@ Having unlimited power over other people, and often using it unfairly and cruelly.",
           "The Inca emperor was a despotic ruler of a highly stratified society.",
-          "Dictator are individauls that exercise despotic power."
+          "Dictator are individuals that exercise despotic power."
         ],
         "emperor": [
           "Hirohito was Emperor of Japan from 1926 until his death in 1989.",
@@ -3314,12 +3314,12 @@
         "obtain": [""],
         "absorb": [
           "@ To take in a liquid, gas, or chemical.",
-          "The black clay soil around here doesn't absord water very well.",
-          "The country has absorded millions of immigrants over the years.",
+          "The black clay soil around here doesn't absorb water very well.",
+          "The country has absorbed millions of immigrants over the years.",
           "@ To completely take the attention of someone.",
-          "She was absorded in listening to music.",
-          "@ To absord knowledge, ideas, or information is to understand them completely and store them in your memory.",
-          "It was difficult to absord so much information."
+          "She was absorbed in listening to music.",
+          "@ To absorb knowledge, ideas, or information is to understand them completely and store them in your memory.",
+          "It was difficult to absorb so much information."
         ],
         "demand": [
           "@ To ask for something forcefully, in a way that shows that you do not expect to be refused.",
@@ -4112,7 +4112,7 @@
       {
         "deception": [
           "@ The act of hiding the truth, esp. to get an advantage.",
-          "He said that the govenment was guilty of deception by exaggerating the figures.",
+          "He said that the government was guilty of deception by exaggerating the figures.",
           "It wasn't really magic - just some kinda clever visual deception.",
           {
             "deceptive": [
@@ -7466,6 +7466,12 @@
     "bindle": [""],
     "laden": [""],
     "dime": [""],
-    "esteem": [""]
+    "esteem": [""],
+    "archaebacteria": [
+      "",
+      {
+        "archaea": [""]
+      }
+    ]
   }
 }
