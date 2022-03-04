@@ -819,7 +819,13 @@
         "~ I ran right through the front door like a hobo sailor does.",
         "~ But it was just a funeral parlor and the man asked me who I was.",
         {
-          "hop": [""],
+          "hop": [
+            "@ To make small jumps on one or two feet, or to move along in this way.",
+            "A bird hopped across the lawn.",
+            "Nikki hopped the fence.",
+            "Come on, hop in, I've got plenty of room in the car.",
+            "It's just a short hop to Pittsburgh by plane."
+          ],
           "cab": [""],
           "fab": [""],
           "leap": [""],
