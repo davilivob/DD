@@ -4931,7 +4931,10 @@
           "The cottage is situated in the middle of a wood at the end of narrow potholed lane."
         ],
         "stadium": [
-          "",
+          "@ A large structure consisting of many rows of seats surrounding an area of land on which sports are played and where sometimes other public events happen.",
+          "Flags of all participating countries are flying outside the statium.",
+          "Thousands of fans are packing into the stadium.",
+          "The stadium has been specifically designed as a venue for European Cup matches.",
           {
             "quarterback": [""],
             "rugby": [""]
