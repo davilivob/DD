@@ -5119,15 +5119,21 @@
         ]
       }
     ],
-    "proportion": [
-      "After that, it diminishes roughly in proportion to the delay.",
+    "portion": [
+      "@ A part of share of something larger.",
+      "She read large portions of the manuscript and offered many useful suggestions.",
+      "A portion of my paycheck was withheld for taxes.",
+      "@ A portion is also the amount of food served to or suitable for a person.",
+      "They serve children's portions at helf-price.",
       {
-        "portion": [
-          "@ A part of share of something larger.",
-          "She read large portions of the manuscript and offered many useful suggestions.",
-          "A portion of my paycheck was withheld for taxes.",
-          "@ A portion is also the amount of food served to or suitable for a person.",
-          "They serve children's portions at helf-price."
+        "proportion": [
+          "@ A part of share of the whole, or the relationship between one thing and another in size, amount, or degree.",
+          "The proportion of the population that is over sixty-five has been growing.",
+          "The occurrence of the disease has reached epidemic proportions.",
+          "After that, it diminishes roughly in proportion to the delay.",
+          "@ The right relationship between one thing and another.",
+          "His anger was out of all proportion to the offense.",
+          "@ A equation that shows two ratios are equal."
         ]
       }
     ],
