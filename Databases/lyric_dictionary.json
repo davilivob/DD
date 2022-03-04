@@ -830,8 +830,16 @@
             "@ A taxi.",
             "@ The separate part at the front of some vehicles in which the driver sits."
           ],
-          "fab": [""],
-          "leap": [""],
+          "fab": ["@ Informal for fabulous."],
+          "leap": [
+            "@ To make a large jump or sudden movement, or to jump over something.",
+            "He leaps to his feet when the phone rings.",
+            "Flames were leaping into the sky.",
+            "The dog leaped the fence.",
+            "Americans want change, but they don't want to leap into the unknown.",
+            "@ If your heart leaps, you have a sudden, strong feeling of pleasure or fear.",
+            "My heart leaps when I hear his voice."
+          ],
           "chariot": [""],
           "hobo": [""],
           "funeral parlor": [""]
