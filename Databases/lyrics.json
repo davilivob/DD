@@ -2,7 +2,7 @@
   "Hamilton": {
     "Alexander Hamilton": [
       "~ How does a bastard, orphan, son of a whore, and a Scotsman, dropped in the middle of a forgotten.",
-      "~ Spot in the Caribbean by providence, imporverished, in squalor.",
+      "~ Spot in the Caribbean by providence, impoverished, in squalor.",
       "~ Grow up to be a hero and a scholar?",
       {
         "Caribbean": [
@@ -10,8 +10,24 @@
           "The hurricane is centered over the eastern Caribbean.",
           "They've vacationing somewhere in the Caribbean."
         ],
-        "providence": [""],
-        "": [""],
+        "providence": [
+          "@ The care and control of God or of a force that is not human in origin.",
+          "He trusts in divine providence.",
+          [
+            "The success of that mission wasn't divine providence or luck, although both probably played a role.",
+            "Art and literature were less the providence of the church thanks to the smooch.",
+            "The glory came with more kicks, the mob wanted ot grab him, to rip him apart, to feel blessed at having touched providence."
+          ]
+        ],
+        "impoverish": [
+          "@ To make someone very poor.",
+          "The new law is likely to further impoverish single parents.",
+          "He was made to pay a ruinous fine that impoverished his family.",
+          "@ To make something weaker or worse in quality.",
+          "Excessive farming had impoverished the soil.",
+          "Our cultural heritage would be impoverished by the absence of Mozart.",
+          "Some people argue that multinational companies exploit poor workers abroad and imporverish workers at home by moving captial overseas."
+        ],
         "": [""],
         "": [""],
         "": [""]
