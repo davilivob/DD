@@ -28,9 +28,17 @@
           "Our cultural heritage would be impoverished by the absence of Mozart.",
           "Some people argue that multinational companies exploit poor workers abroad and imporverish workers at home by moving captial overseas."
         ],
-        "": [""],
-        "": [""],
-        "": [""]
+        "squalor": [
+          "@ The condition of being extremely dirty and unpleasant, often because of lack of money.",
+          "These people are forced to live in squalor.",
+          "It was a dirty, damp, smelly apartment - the usual student squalor.",
+          "Overnight, he wrote, he moved from the 'safety and cleanliness of rural poverty' to the 'foulest kind of urban squalor'.",
+          "How can you live in such squalor?"
+        ],
+        "scholar": [
+          "@ A person with great knowledge, usually of a particular subject.",
+          "@ A scholar is also a student who has been given a college or university scholarship."
+        ]
       },
       "~ The ten-dollar Founding Father without a father.",
       "~ Got a lot farther by working a lot harder.",
@@ -42,7 +50,21 @@
       "~ Away across the waves, he struggled and kept his guard up.",
       "~ Inside, he was longing for something to be a part of.",
       "~ The brother was ready to beg, steal, borrow, or barter.",
-      {},
+      {
+        "slaughter": [
+          "@ The killing of animals for their meat, or the killing of large numbers of animals in a cruel manner.",
+          "@ The killing of large numbers of people.",
+          "We must find ways of reducing the slaughter on the highways.",
+          "@ To kill large numbers of people.",
+          "@ In sports and other competitions, to slaughter is to defeat easily.",
+          "The Red Sox slaughtered the Yankees in last night's baseball game, winning 12 to 0."
+        ],
+        "": [""],
+        "": [""],
+        "": [""],
+        "": [""],
+        "": [""]
+      },
       "~ Then a hurricane come, and devastation reigned.",
       "~ Our man saw his future drip, dripping down the drain.",
       "~ Put a pencil to his temple, connected it to his brain.",
