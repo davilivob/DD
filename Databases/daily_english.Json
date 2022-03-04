@@ -99,7 +99,7 @@
     "diminish": [
       "The entropy can not diminish",
       {
-        "dicrease": [
+        "decrease": [
           "& Diminish and decrease are both mean to get smaller. Usually diminish means to a greater degree, like almost complete gone."
         ],
         "reduction": [""],
@@ -2869,7 +2869,18 @@
           "The wizard wrote a symbol onto the tiny parchment and tossed it into the center of their small circle."
         ],
         "wool": [""],
-        "linen": [""]
+        "linen": [""],
+        "lace": [
+          "@ A decorative cloth that is made by weaving thin thread into delicate patterns having small spaces within them.",
+          "@ A cord used to close a shoe or boot; shoelace.",
+          "Your laces are untied.",
+          "She laced her boots.",
+          [
+            "If something needs fixing, lace up your shoes and do some organizing.",
+            "Like walking across a field laced with land mines?",
+            "The fox hunts at night and lace monitors hunt during the day."
+          ]
+        ]
       },
       {
         "skirt": [
@@ -6200,7 +6211,6 @@
     "inset": [""],
     "instrument": [""],
     "suspense": [""],
-    "lace": [""],
     "fizzy": [""],
     "yield": [""],
     "intrusion": [""],
@@ -7296,11 +7306,16 @@
     "tutor": [""],
     "tetraploid": [""],
     "caterpillar": [""],
-    "hip": [""],
     "icy": [""],
     "yearn": [""],
     "intimidate": [""],
     "criticize": [""],
-    "accessory": [""]
+    "accessory": [""],
+    "chrome": [""],
+    "pamphlet": [""],
+    "terminology": [""],
+    "foie": [""],
+    "gras": [""],
+    "vestige": [""]
   }
 }
