@@ -146,13 +146,39 @@
             "They will do the usual and hid behind the flag, say a few kind words then crawl back under a rock from whence they came.",
             "It was very interesting to see where the children had grown up, and the villa from whence they escaped."
           ]
-        ],
-        "": [""],
-        "": [""],
-        "": [""],
-        "": [""]
+        ]
       },
-      "~ "
+      "~ Alexander Hamilton.",
+      "~ My name is Alexander Hamilton.",
+      "~ And there's a million things I haven't done.",
+      "~ But just you wait, just you wait.",
+      {},
+      "~ When he was ten, his father split, full of it, debt-ridden.",
+      "~ Two years later, see Alex and his mother,  bed-ridden.",
+      "~ Half-dead, sitting in their own sick.",
+      "~ The scent thick.",
+      {
+        "ridden": [
+          "@ Full of something unpleasant or bad.",
+          "It is a superstition-ridden community.",
+          "She was guilt-ridden when she discovered that the business had failed because of her."
+        ]
+      },
+      "~ And Alex got better but his mother went quick.",
+      {},
+      "~ Moved in with a cousin, the cousin committed suicide.",
+      "~ Left him with nothing but ruined pride, something new inside.",
+      "~ A voice saying '(Alex) you gotta fend for yourself'.",
+      "~ He started retreating and reading every treatise on the shelf.",
+      {
+        "fend for yourself": [
+          "@ To take care of and provide for yourself without depending on anyone else.",
+          "The corporation will no longer receive a government subsidy, and must fend for itself financially."
+        ],
+        "retreat": [""],
+        "treatise": [""],
+        "shelf": [""]
+      }
     ]
   }
 }
