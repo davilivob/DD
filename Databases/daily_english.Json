@@ -254,7 +254,7 @@
         ],
         "commit": [""],
         "smuggle": [
-          "He was arrested and charged with attemping to smuggle cocaine into Scotland."
+          "He was arrested and charged with attempting to smuggle cocaine into Scotland."
         ],
         "bribe": [
           "@ To try to make someone do something for you by giving him or her money, presents, or something else that he or she wants.",
@@ -2277,7 +2277,12 @@
             "merger": [""]
           }
         ],
-        "diverse": [""]
+        "diverse": [
+          "@ Varied or different.",
+          "Lowell, Massachusetts, is noted for its diverse ethnic communities, among them French-Canadians, English, Irish, Greeks, Poles, and Cambodians.",
+          "Students from countries as diverse as Colombia and Lithuania use Cambridge textbooks.",
+          "New York is a very ethnically diverse city."
+        ]
       }
     ],
     "emerge": [
@@ -5690,6 +5695,24 @@
         ]
       }
     ],
+    "ethnic": [
+      "@ Relating to or characteristic of a large group of people who have the same national, racial, or cultural origins, and who usually speak the same language.",
+      "She loves ethnic foods, especially Ethiopian and Japanese.",
+      "There are forty ethnic groups among the school's pupils, who speak many different languages.",
+      "Poverty has risen among most racial an ethnic groups.",
+      "We do not discriminate on the basis of background or ethnic origin.",
+      {
+        "ethnically": [
+          "@ In a way that relates to people's race.",
+          "My father, who is ethnically Chinese, was born in the UK.",
+          "Miissouri is not nearly as ethnically diverse as the rest of the US.",
+          "Ethnically, he is a Pashtun, a minority group in his part of Pakistan."
+        ]
+      },
+      {
+        "exotic": [""]
+      }
+    ],
     "accurate": [""],
     "acknowledge": [""],
     "active": [""],
@@ -5875,24 +5898,6 @@
     "entry": [""],
     "episode": [""],
     "ethics": [""],
-    "ethnic": [
-      "@ Relating to or characteristic of a large group of people who have the same national, racial, or cultural origins, and who usually speak the same language.",
-      "She loves ethnic foods, especially Ethiopian and Japanese.",
-      "There are forty ethnic groups among the school's pupils, who speak many different languages.",
-      "Poverty has risen among most racial an ethnic groups.",
-      "We do not discriminate on the basis of background or ethnic origin.",
-      {
-        "ethnically": [
-          "@ In a way that relates to people's race.",
-          "My father, who is ethnically Chinese, was born in the UK.",
-          "Miissouri is not nearly as ethnically diverse as the rest of the US.",
-          "Ethnically, he is a Pashtun, a minority group in his part of Pakistan."
-        ]
-      },
-      {
-        "exotic": [""]
-      }
-    ],
     "evolution": [""],
     "evolve": [""],
     "exception": [""],
