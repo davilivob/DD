@@ -808,7 +808,7 @@
         "~ Well, I rapped upon a house with the U.S. flag upon display.",
         "~ I said, \" Could you help me out? I got some friends down the way \".",
         "~ The man says, \" Get out of here, I'll tear you limb from limb \".",
-        "~ I said, \" You know they refused Juses, too \", he said, \" You're not Him \".",
+        "~ I said, \" You know they refused Jesus, too \", he said, \" You're not Him \".",
         "~ \" Get out of here before I break your bones, I ain't your pop \".",
         "~ I decided to have him arrested and I went looking for a cop.",
         {},
@@ -826,7 +826,10 @@
             "Come on, hop in, I've got plenty of room in the car.",
             "It's just a short hop to Pittsburgh by plane."
           ],
-          "cab": [""],
+          "cab": [
+            "@ A taxi.",
+            "@ The separate part at the front of some vehicles in which the driver sits."
+          ],
           "fab": [""],
           "leap": [""],
           "chariot": [""],
