@@ -6917,7 +6917,6 @@
     "corps": [""],
     "spectator": [""],
     "pharmaceutical": [""],
-    "devastation": [""],
     "muddy": [""],
     "sunken": [""],
     "galleon": [""],
@@ -7475,6 +7474,16 @@
       {
         "archaea": [""]
       }
-    ]
+    ],
+    "aerialist": [""],
+    "circus": [""],
+    "snowboarder": [""],
+    "skateboarder": [""],
+    "divine": [""],
+    "smooch": [""],
+    "mob": [""],
+    "ruinous": [""],
+    "urban": [""],
+    "lipstick": [""]
   }
 }

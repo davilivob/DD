@@ -67,15 +67,29 @@
           "@ To want something very much.",
           "She longed to move out of the city."
         ],
-        "": [""],
-        "": [""],
-        "": [""]
+        "barter": [
+          "@ To exchange goods for other things rather than for money.",
+          "In the marketplace, you can barter for souvenirs by offering jeans and lipstick."
+        ]
       },
       "~ Then a hurricane come, and devastation reigned.",
       "~ Our man saw his future drip, dripping down the drain.",
       "~ Put a pencil to his temple, connected it to his brain.",
       "~ And he wrote his first refrain, a testament to his pain.",
-      {},
+      {
+        "hurricane": [
+          "@ A violent storm with strong circular winds of at least 72 miles (or 118 kilometers) per hour, esp. in the western Atlantic Ocean.",
+          "The state of Florida was hit by a hurricane that did serious damage.",
+          "Hurricane force winds are expected tonight."
+        ],
+        "devastation": [""],
+        "reign": [""],
+        "drain": [""],
+        "temple": [""],
+        "refrain": [""],
+        "testament": [""],
+        "": [""]
+      },
       ""
     ]
   }
