@@ -4577,7 +4577,11 @@
           "The inquiry found no verifiable evidence of document of data falsification.",
           "The treaty aims to make developing countries' emissions cuts verifiable.",
           {
-            "verify": [""]
+            "verify": [
+              "@ To make certain or prove that something is true or accurate.",
+              "The report could not immediately be verified.",
+              "Tests verified that Beck had torn a shoulder muscle."
+            ]
           }
         ],
         "duplicate": [
