@@ -1942,6 +1942,16 @@
                           "I certainly haven't reached the summit of my career."
                         ]
                       }
+                    ],
+                    "prompt": [
+                      "@ (Of an action) done quickly and without delay, or (of a person) acting quickly or arriving at an arranged time.",
+                      "The agency sent back a prompt reply to my inquiries.",
+                      "She arrived promptly at nine o'clock.",
+                      "@ To cause some one to say or do something.",
+                      "What prompted you to say that?",
+                      "@ If you prompt an actor or speaker, you help by quietly saying the next word or phrase if it has been forgotten.",
+                      "@ A sign from the computer that shows it is ready to receive your instructions.",
+                      "@ A prompt is also a set of directions or a passage from a book, poem, or play to give you ideas for writing something."
                     ]
                   }
                 ]
@@ -6189,7 +6199,6 @@
     "producer": [""],
     "profession": [""],
     "profile": [""],
-    "prompt": [""],
     "propose": [""],
     "proposed": [""],
     "prosecutor": [""],
