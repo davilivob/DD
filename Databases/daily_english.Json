@@ -341,6 +341,12 @@
                             "We're not going to get rid of all regulation.",
                             "This seriously threatens the idea that companies are going to move themselves to a similarly stable country simply because of less business regulation."
                           ]
+                        ],
+                        "welfare": [
+                          "@ Physical and mental health and happiness.",
+                          "We were concerned for out parents' welfare when we heard about the storm in Florida.",
+                          "@ Help given, eps. money, by a govenment to people who are poor and who do not have jobs.",
+                          "It's time to reform welfare and make it work for the poor, not against them."
                         ]
                       }
                     ]
@@ -7295,7 +7301,6 @@
     "reproduction": [""],
     "seminar": [""],
     "prohibit": [""],
-    "welfare": [""],
     "compensation": [""],
     "enroll": [""],
     "inform": [""],
