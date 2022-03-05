@@ -3681,9 +3681,25 @@
           "~ Hit the press with a Cuban link on my neck.",
           "~ Uneducated, but I got a million-dollar check like that.",
           {
-            "strap": [""],
-            "swap": [""],
-            "get socked out": [""]
+            "strap": [
+              "@ A narrow piece of strong material, esp. leather, used for holding or fastening something.",
+              "Her bag hung from its shoulder strap.",
+              "I lost my watch when the strap broke.",
+              "@ To hold or fasten something with a strap.",
+              "I strapped on my helmet and rode off.",
+              "We haad to strap the mattress to the top of our car."
+            ],
+            "swap": [
+              "@ To exchange one thing for another.",
+              "The two computers can easily swap data.",
+              "They proposed a straight swap of food for tools.",
+              {
+                "swap meet": [
+                  "@ An event in a public where people sell or exchange their unwanted possessions.",
+                  "This annual summer model train show and swap meet will give attendees the chance to view several operating layouts, including a hands-on layout for children."
+                ]
+              }
+            ]
           },
           "~ We should never gave.",
           "~ We should never gave niggas money.",
@@ -3704,7 +3720,7 @@
           {},
           "~ Yo what's up? It's Dre.",
           "~ Remember the first time you came out to the house?",
-          "~ You said you eanted a spot like mine.",
+          "~ You said you wanted a spot like mine.",
           "~ But remember, anybody can get it.",
           "~ The hard part is keeping it, motherfucker.",
           {},
