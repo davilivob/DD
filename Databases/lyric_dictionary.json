@@ -3631,7 +3631,15 @@
               "@ To flash quickly on and off.",
               "The lights strobed too fast to be seen at a distance."
             ],
-            "snatch": [""],
+            "snatch": [
+              "@ To take hold of something suddenly and without warning.",
+              "They snatched up their coats and hats and ran outside.",
+              "Somebody snatched her purse when she wasn't looking.",
+              "@ To snatch something is to do it in the short amount of time available.",
+              "We rushed in and snatched the best seats we could get.",
+              "@ A brief part of something.",
+              "I could hear snatches of conversation from the people in the booth next to ours."
+            ],
             "vogue": [""],
             "hood": [""],
             "chunk": [""],
