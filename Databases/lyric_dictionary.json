@@ -3640,7 +3640,13 @@
               "@ A brief part of something.",
               "I could hear snatches of conversation from the people in the booth next to ours."
             ],
-            "vogue": [""],
+            "vogue": [
+              "@ The state of being popular or fashionable for a period of time.",
+              "Bowling has come back in vogue.",
+              "The postwar vogue for tearing down buildings virtually destroyed the city's architecture.",
+              "The short hemline is very much in vogue this spring.",
+              "'Community' is one of the vogue words of the new government."
+            ],
             "hood": [""],
             "chunk": [""],
             "deuce": [""],
