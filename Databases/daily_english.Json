@@ -398,6 +398,13 @@
               "The chief executive of the company resigned last autumn over allegations about his expenses.",
               "She rejected the allegation that she had treated her staff unfairly.",
               "He made allegations of unfair dismissal against his former employers."
+            ],
+            "denounce": [
+              "@ To criticize someone or something strongly and publicly.",
+              "The teachers denounced the contract offer as inadequate.",
+              "His former colleagues have denounced him as a spy.",
+              "The government's economic policy has been denounced on all sides.",
+              "We must denounce injustice and oppression."
             ]
           }
         ]
@@ -6983,7 +6990,6 @@
     "eagerness": [""],
     "energetic": [""],
     "gratify": [""],
-    "denounce": [""],
     "verity": [""],
     "confirm": [""],
     "involve": [""],
