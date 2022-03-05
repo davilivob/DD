@@ -5801,7 +5801,6 @@
     "aids": [""],
     "alliance": [""],
     "ally": [""],
-    "analyst": [""],
     "angle": [""],
     "anniversary": [""],
     "apparent": [""],
@@ -6460,6 +6459,13 @@
       "",
       {
         "examine": [""]
+      },
+      {
+        "analyst": [
+          "@ A person whose job is to study or examine something in an organized way.",
+          "A large number of analysts are pessimistic about the future of the economy.",
+          "@ Analyst is also a short form of psychoanalyst."
+        ]
       }
     ],
     "hostile": [""],
