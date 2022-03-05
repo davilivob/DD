@@ -3647,10 +3647,30 @@
               "The short hemline is very much in vogue this spring.",
               "'Community' is one of the vogue words of the new government."
             ],
-            "hood": [""],
-            "chunk": [""],
-            "deuce": [""],
-            "platinum": [""]
+            "chunk": [
+              "@ A thick piece or lump.",
+              "A large chunk of plaster crashed down from the ceiling.",
+              "@ A large part of something.",
+              "Her books must be read in chunks to follow the plot."
+            ],
+            "hood": [
+              "@ A part of a coat or jacket that can be used to cover the head.",
+              "The raincoat comes with a detachable hood.",
+              "@ The metal cover over the engine of a car."
+            ],
+            "deuce": [
+              "@ The score in tennis when both players have forty points.",
+              "@ The word for 'two' in some card and dice game.",
+              {
+                "the deuce": [
+                  "@ Used in questions to express anger or surprise.",
+                  "What the deuce do you think you're doing?"
+                ]
+              }
+            ],
+            "platinum": [
+              "@ A valuable metal that is silver in color, does not react easily with other elements, and is used in jewelry and in industry."
+            ]
           },
           "~ When I get signed, homie, I'ma buy a strap.",
           "~ Straight from the CIA, set it on my lap.",
