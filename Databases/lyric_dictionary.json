@@ -3611,7 +3611,10 @@
           "~ Bridges burned, all across the board.",
           "~ Destroyed, but what for?",
           {
-            "tossed and turned": [""]
+            "toss and turn": [
+              "@ To move about from side to side or turn a lot in bed, esp. because you cannot sleep.",
+              "I was tossing and turning all night."
+            ]
           },
           "~ When I got signed, homie, I'ma act a fool.",
           "~ Hit the dance floor, strobe lights in the room.",
