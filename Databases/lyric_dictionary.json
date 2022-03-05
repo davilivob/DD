@@ -3625,7 +3625,12 @@
           "~ Platinum on everything, platinum on wedding ring.",
           "~ Married to the game and a bad bitch chose.",
           {
-            "strobe": [""],
+            "strobe": [
+              "@ A light that quickly flashes on and off.",
+              "The strobes and loud music in the club made her want to dance.",
+              "@ To flash quickly on and off.",
+              "The lights strobed too fast to be seen at a distance."
+            ],
             "snatch": [""],
             "vogue": [""],
             "hood": [""],
