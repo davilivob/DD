@@ -6468,7 +6468,13 @@
     "capture": [""],
     "rural": [""],
     "idyll": [""],
-    "oppression": [""],
+    "oppression": [
+      "@ A situation in which people are governed in an unfair and cruel way and prevented from having opportunities and freedom.",
+      "Every human being has the right to freedom from oppression.",
+      "War, famine and oppression have forced people in the region to flee from their homes.",
+      "@ A feeling of being very uncomfortable and worried.",
+      "Several people had experienced the same feeling of oppression when they slept in that room."
+    ],
     "gilded": [""],
     "envelope": [""],
     "evolved": [""],
