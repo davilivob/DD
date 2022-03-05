@@ -4069,8 +4069,15 @@
               "Fractions are often written with slashes, for example 2/3.",
               "@ A large reduction in an amount."
             ],
-            "": [""],
-            "": [""],
+            "communist": [
+              "@ Relating to communism.",
+              "Demonstrators denounce the event as Communist propaganda.",
+              "If one country in region became communist, others would follow."
+            ],
+            "entomb": [
+              "@ To bury someone or something.",
+              "The nuclear waste has been entombed in concrete deep under the ground."
+            ],
             "": [""],
             "": [""],
             "": [""],
