@@ -5701,6 +5701,17 @@
           "She mentioned Margaret Atwood's dystopian novel ' The Handmaid's Tale, ' in which fertile young women are enslaved as reproductive servants.",
           "George Orwell, author of the classic dystopian novel ' 1984 '.",
           "The novel is set in a dystopian future in an America whose infrastructure has been reduced to rubble."
+        ],
+        "famine": [
+          "@ An extreme lack of food in a region, causing suffering and death.",
+          "Widespread famine was reported in the region."
+        ],
+        "oppression": [
+          "@ A situation in which people are governed in an unfair and cruel way and prevented from having opportunities and freedom.",
+          "Every human being has the right to freedom from oppression.",
+          "War, famine and oppression have forced people in the region to flee from their homes.",
+          "@ A feeling of being very uncomfortable and worried.",
+          "Several people had experienced the same feeling of oppression when they slept in that room."
         ]
       }
     ],
@@ -6409,7 +6420,6 @@
     "rear": [""],
     "impartial": [""],
     "general": [""],
-    "famine": [""],
     "solvent": [""],
     "furniture": [
       "",
@@ -6468,13 +6478,6 @@
     "capture": [""],
     "rural": [""],
     "idyll": [""],
-    "oppression": [
-      "@ A situation in which people are governed in an unfair and cruel way and prevented from having opportunities and freedom.",
-      "Every human being has the right to freedom from oppression.",
-      "War, famine and oppression have forced people in the region to flee from their homes.",
-      "@ A feeling of being very uncomfortable and worried.",
-      "Several people had experienced the same feeling of oppression when they slept in that room."
-    ],
     "gilded": [""],
     "envelope": [""],
     "evolved": [""],
