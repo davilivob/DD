@@ -4078,6 +4078,9 @@
               "@ To bury someone or something.",
               "The nuclear waste has been entombed in concrete deep under the ground."
             ],
+            "walkman": [
+              "@ A brand name for a small audio or videa player with small headphones, that you can carry around with you."
+            ],
             "hoarder": [
               "@ Someone who collects large amounts of something and keeps it for him/ herself, often in a secret place.",
               "Senior officials blame hoarders for the food shortage.",
@@ -4085,7 +4088,6 @@
               "He was one of those hoarders who can't throw anything away.",
               "I soon realized the woman was a compulsive hoarder."
             ],
-            "": [""],
             "": [""],
             "": [""]
           },
