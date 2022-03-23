@@ -1555,6 +1555,13 @@
       "This vertical section of the soil shows four basic soil layers.",
       "The soil in this area is very chalky.",
       {
+        "agricultural": [
+          "@ Used for farming or relating to farming.",
+          "The world's supply of agricultural land is shrinking fast.",
+          "She's studying agricultural science.",
+          "The country's economy is mainly agricultural.",
+          "Post-war economic reconstruction in the country must begin with the resumption of agricultural production."
+        ],
         "dirt": [
           "& They're pretty much the same but dirt sounds a bit more negative."
         ],
@@ -5852,7 +5859,6 @@
     "adventure": [""],
     "adviser": [""],
     "aggressive": [""],
-    "agricultural": [""],
     "aid": [""],
     "aids": [""],
     "alliance": [""],
