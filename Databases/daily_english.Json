@@ -1849,6 +1849,14 @@
                     ]
                   }
                 ],
+                "chamber": [
+                  "@ A room or space used for a particular purpose.",
+                  "It's the council chamber.",
+                  "@ A group of people who are part or all of a legislature, or an official place where such a group meets.",
+                  "Most states have two chambers, a senate and a house of representatives, modeled after the US Congress.",
+                  "@ An enclosed space.",
+                  "The human heart has two chambers."
+                ],
                 "commission": [
                   "@ To formally choose someone to do a special piece of work, or to formally ask for a special piece of work from someone.",
                   "The newspaper commissioned a series of articles on the worst excesses of the fashion industry.",
@@ -5897,7 +5905,6 @@
     "celebrate": [""],
     "celebration": [""],
     "challenge": [""],
-    "chamber": [""],
     "champion": [""],
     "characterize": [""],
     "chart": [""],
