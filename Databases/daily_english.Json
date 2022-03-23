@@ -5198,7 +5198,21 @@
       "@ To talk with someone.",
       "She likes to converse with people from all walks of life.",
       {
-        "reflect": [""],
+        "reflect": [
+          "@ To send back light, heat, energy, or sound from a surface.",
+          "Light-colored clothing reflects the sun's heat rather than absorbing it.",
+          "Moonlight reflected off the surface of the lake.",
+          "@ To show, express, or be a sign of something.",
+          "His blank face reflected his boredom.",
+          "@ To think carefully.",
+          "She felt she needed time to reflect on what to do next.",
+          {
+            "reflector": [
+              "@ An object on a bicycle, car, or other vehicle that reflects light and is intended to show the vehicle's position to other road users.",
+              "His new lighting system uses lamps and reflectors."
+            ]
+          }
+        ],
         "reverse": [
           "",
           {
