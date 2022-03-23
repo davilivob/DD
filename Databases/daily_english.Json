@@ -6175,7 +6175,6 @@
     "net": [""],
     "nevertheless": [""],
     "newly": [""],
-    "nonetheless": [""],
     "normally": [""],
     "nowhere": [""],
     "nuclear": [""],
@@ -6458,6 +6457,13 @@
     "therefore": [
       "",
       {
+        "nonetheless": [
+          "@ Despite what has just been said or done.",
+          "There are serious problems in our country. Nonetheless, we feel this is a good time to return.",
+          "Despite being younger than the others, Smith was nontheless a valuable member of the team.",
+          "Today, the paying of a dowry is illegal, but the practice continues nontheless in some areas.",
+          "There are possible risks, but nonetheless, we feel it's a sound investment."
+        ],
         "worthwhile": [""],
         "whatsoever": [""],
         "whereas": [""]
