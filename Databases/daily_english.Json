@@ -4381,7 +4381,19 @@
           "& The countries, including Germany, Italy, and Japan, that fought against the Allies in the Second World War."
         ],
         "the Allies": [
-          "& The countries, including the U.S., the U.K., the USSR, and France, that fought against the Axis countries in the Second World War"
+          "& The countries, including the U.S., the U.K., the USSR, and France, that fought against the Axis countries in the Second World War",
+          {
+            "ally": [
+              "",
+              {
+                "alliance": [
+                  "@ A group of countries, political parties, or people who work together because of shared interests of aims, or the act of forming such a group.",
+                  "Switzerland doesn't belong to any military alliance.",
+                  "Alliance against our common enemy is our only hope for survival."
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -5871,8 +5883,6 @@
     "aggressive": [""],
     "aid": [""],
     "aids": [""],
-    "alliance": [""],
-    "ally": [""],
     "angle": [""],
     "anniversary": [""],
     "apparent": [""],
