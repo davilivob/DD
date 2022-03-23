@@ -1856,6 +1856,14 @@
                     ]
                   }
                 ],
+                "democrat": [
+                  "@ A person who supports or believes in government by the people or their representatives.",
+                  "@ A member or supporter of the Democratic Party in the US.",
+                  "Democrats traditionally support higher taxes, mostly levied against the wealtheir segments of society.",
+                  {
+                    "Republicans": [""]
+                  }
+                ],
                 "chamber": [
                   "@ A room or space used for a particular purpose.",
                   "It's the council chamber.",
@@ -5997,7 +6005,6 @@
     "deliver": [""],
     "delivery": [""],
     "democracy": [""],
-    "democrat": [""],
     "demonstrate": [""],
     "deny": [""],
     "depend": [""],
@@ -7027,12 +7034,6 @@
     "sunken": [""],
     "galleon": [""],
     "session": [""],
-    "Democrats": [
-      "",
-      {
-        "Republicans": [""]
-      }
-    ],
     "polls": [""],
     "agile": [""],
     "blaze": [""],
