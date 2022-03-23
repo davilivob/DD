@@ -5172,7 +5172,24 @@
       "When someone brings up politics at a party, a casual conversation can quickly morph into an ugly argument.",
       "He grew up watching his elder brother Joe morph from a difficult child to a drug addict.",
       "She claims the media and society make a person try to morph their body into an unnatural size or weight.",
-      "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph."
+      "In some species, such as aphids, the flightless morph lacks wings and is called the apterous morph.",
+      {
+        "convert": [
+          "@ To change the character, appearance, or operation of something.",
+          "We converted our oil furnace to save money.",
+          "@ Someone who is converted to something is persuaded to accept new preferences or beliefs.",
+          "Most of the families in the community converted recently.",
+          "My kids are trying to convert me to country music.",
+          "@ Someone who accepts a new religion or belief.",
+          "The candidate won millions of converts to his tax proposal.",
+          "Jim called himself a new convert to the Republican Party.",
+          {
+            "conversion": [
+              "Conversion to the metric system has been underway in this country for decades."
+            ]
+          }
+        ]
+      }
     ],
     "converse": [
       "@ The opposite.",
@@ -5907,7 +5924,6 @@
     "controversial": [""],
     "controversy": [""],
     "conventional": [""],
-    "convert": [""],
     "convince": [""],
     "cookie": [""],
     "cooperation": [""],
