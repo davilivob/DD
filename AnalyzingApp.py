@@ -1,3 +1,6 @@
+from datetime import datetime as dt
+import os
+from time import time
 from MyModules import (
     art as Art,
     readFiles as File,
@@ -382,3 +385,6 @@ if ifPrint != "":
 
 UploadDatasToJson()
 TimeBar.showFinalTime()
+print()
+command = 'git add . && git commit -m "Analyzing: {}"'.format((dt.now()))
+os.system(command)
