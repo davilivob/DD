@@ -5847,7 +5847,17 @@
         ]
       },
       {
-        "exotic": [""]
+        "exotic": [""],
+        "immigrant": [
+          "@ A person who has come into a foreign country in order to live there.",
+          "My grandparents arrived here as immigrants from Russia in nineteen ten",
+          {
+            "immigrate": [
+              "His family immigrated to the United States in nineteen twenty-eight."
+            ],
+            "immigration": [""]
+          }
+        ]
       }
     ],
     "accurate": [""],
@@ -6091,7 +6101,6 @@
     "illustrate": [""],
     "imagination": [""],
     "imagine": [""],
-    "immigrant": [""],
     "impact": [""],
     "impress": [""],
     "improvement": [""],
@@ -7120,7 +7129,6 @@
     "insufficiently": [""],
     "suspicious": [""],
     "sentiment": [""],
-    "immigration": [""],
     "beveled": [""],
     "gilt": [""],
     "billiards": [""],
