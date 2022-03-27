@@ -13,7 +13,7 @@ class Load:
         load_json = json.loads(file.read())
         TimeBar.Adding()
 
-    with open("Databases/daily_english.json", mode="r", encoding="utf-8") as file:
+    with open("Databases/daily_english.Json", mode="r", encoding="utf-8") as file:
         NormalDict = file.read()
         TimeBar.Adding()
 
